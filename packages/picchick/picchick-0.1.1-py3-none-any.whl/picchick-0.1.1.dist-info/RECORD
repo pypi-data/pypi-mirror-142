@@ -1,0 +1,12 @@
+picchick/__init__.py,sha256=bNYqK-1lTMz5wljIT9KbFYrUzdFtnLxJK9jjZFsxHbs,51
+picchick/__main__.py,sha256=wGiwmgtbcPDvplaWAwg6SAVzP91lAz9lTnTqL0VEc8o,59
+picchick/cli.py,sha256=vpOqXMAlYizxmmp7RKg73hufKneDfKS17090Bxh-j_k,5027
+picchick/devices.py,sha256=gRTO1bIHjZHLOhjPh-DVUFrYZJ_6cN2rN3NqXrRcFYA,1682
+picchick/hexfile.py,sha256=X635339nVJXMrYWlX8l8dtpbWe7DIdzcQgDcfEeM0j4,5997
+picchick/programmer.py,sha256=48aZNqxh7rGHId94EH53wHGFm94oDbUQwYgoRoxM08E,4718
+picchick-0.1.1.dist-info/LICENSE,sha256=-6Scv7QYuzZVYG4gKy5g5JcR1bJfdUAUhIavBGcUju0,1637
+picchick-0.1.1.dist-info/METADATA,sha256=ViL8Pce4hVlNkG8JBUXdRCUye7wEu9u6FWRxhdxiTh0,2084
+picchick-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+picchick-0.1.1.dist-info/entry_points.txt,sha256=NjJHT-5epQiMejAY8uS3pZTuwJaIEW7-_349Q4sYorQ,44
+picchick-0.1.1.dist-info/top_level.txt,sha256=EoQcfwRKi-l9Wq-IhbJIj30ArzXyhb30YeH04Yz_RjE,9
+picchick-0.1.1.dist-info/RECORD,,
