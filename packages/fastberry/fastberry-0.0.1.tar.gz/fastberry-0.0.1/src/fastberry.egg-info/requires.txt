@@ -1,0 +1,4 @@
+motor>=2.5.1
+sqlalchemy>=1.4.32
+databases>=0.5.5
+dbcontroller>=0.1.9
