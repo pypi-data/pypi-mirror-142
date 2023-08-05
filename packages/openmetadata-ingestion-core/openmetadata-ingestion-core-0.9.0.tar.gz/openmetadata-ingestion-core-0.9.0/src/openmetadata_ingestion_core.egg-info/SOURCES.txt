@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/metadata/_version.py
+src/openmetadata_ingestion_core.egg-info/PKG-INFO
+src/openmetadata_ingestion_core.egg-info/SOURCES.txt
+src/openmetadata_ingestion_core.egg-info/dependency_links.txt
+src/openmetadata_ingestion_core.egg-info/not-zip-safe
+src/openmetadata_ingestion_core.egg-info/requires.txt
+src/openmetadata_ingestion_core.egg-info/top_level.txt
