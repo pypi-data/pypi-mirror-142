@@ -1,0 +1,8 @@
+argparse
+datetime
+pathlib
+pyyaml
+requests
+black
+autopep8
+wheel
