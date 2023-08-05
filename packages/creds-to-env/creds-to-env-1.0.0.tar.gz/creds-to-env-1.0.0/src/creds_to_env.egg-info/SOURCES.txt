@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/creds_to_env/__init__.py
+src/creds_to_env/__main__.py
+src/creds_to_env.egg-info/PKG-INFO
+src/creds_to_env.egg-info/SOURCES.txt
+src/creds_to_env.egg-info/dependency_links.txt
+src/creds_to_env.egg-info/entry_points.txt
+src/creds_to_env.egg-info/top_level.txt

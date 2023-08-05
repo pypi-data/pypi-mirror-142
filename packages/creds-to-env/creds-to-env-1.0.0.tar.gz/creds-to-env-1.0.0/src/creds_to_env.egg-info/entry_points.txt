@@ -1,0 +1,2 @@
+[console_scripts]
+creds-to-env = creds_to_env:creds_to_env
