@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+Googlexcel_noPassword/Googlexcel_noPassword_v1.py
+Googlexcel_noPassword/__init__.py
+Googlexcel_noPassword.egg-info/PKG-INFO
+Googlexcel_noPassword.egg-info/SOURCES.txt
+Googlexcel_noPassword.egg-info/dependency_links.txt
+Googlexcel_noPassword.egg-info/top_level.txt
