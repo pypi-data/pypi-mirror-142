@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ezaws
+Version: 0.1
+Summary: This is an example package that can serve as a template.
+Home-page: https://github.com/saidvandeklundert/python_template
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/saidvandeklundert/python_template/issues
+Project-URL: Source, https://github.com/saidvandeklundert/python_template
+Project-URL: Documentation, https://github.com/saidvandeklundert/python_template/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10, <4
+
+UNKNOWN
+
