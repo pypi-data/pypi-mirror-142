@@ -1,0 +1,7 @@
+[
+  "test_bdd.py::test_bdd_to_nx",
+  "test_bdd.py::test_bdd_transform",
+  "test_bdd.py::test_bdd_transform_smoke",
+  "test_bdd.py::test_count_le",
+  "test_bdd.py::test_set_levels"
+]
