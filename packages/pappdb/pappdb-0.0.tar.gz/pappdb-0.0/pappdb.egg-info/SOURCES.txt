@@ -1,0 +1,7 @@
+README.md
+setup.py
+pappdb/__init__.py
+pappdb.egg-info/PKG-INFO
+pappdb.egg-info/SOURCES.txt
+pappdb.egg-info/dependency_links.txt
+pappdb.egg-info/top_level.txt
