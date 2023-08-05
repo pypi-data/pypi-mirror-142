@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+shrs/__init__.py
+shrs/__main__.py
+shrs.egg-info/PKG-INFO
+shrs.egg-info/SOURCES.txt
+shrs.egg-info/dependency_links.txt
+shrs.egg-info/top_level.txt
+shrslib/__init__.py
+shrslib/__version__.py
