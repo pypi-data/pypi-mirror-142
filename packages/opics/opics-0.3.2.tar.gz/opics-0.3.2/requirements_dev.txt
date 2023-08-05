@@ -1,0 +1,13 @@
+bump2version
+flake8
+tox
+pytest-cov
+sphinx
+pytest
+sphinx-rtd-theme
+sphinx-autodoc-typehints>=1.11.0
+myst-parser>=0.12.10
+nbsphinx>=0.7.1
+pre-commit
+pytest-regressions
+pandas
