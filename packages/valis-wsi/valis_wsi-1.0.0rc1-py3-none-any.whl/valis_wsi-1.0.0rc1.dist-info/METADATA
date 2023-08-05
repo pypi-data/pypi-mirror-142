@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: valis-wsi
+Version: 1.0.0rc1
+Summary: A package to register whole slide images
+Home-page: https://valis.readthedocs.io/en/latest/
+Author: Chandler Gatenbee
+Author-email: Chandler.Gatenbee@moffitt.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MathOnco/valis/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4
+Requires-Dist: bioformats-jar
+Requires-Dist: colorama
+Requires-Dist: colour-science
+Requires-Dist: fastcluster
+Requires-Dist: interpolation
+Requires-Dist: joblib
+Requires-Dist: JPype1
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: ome-types
+Requires-Dist: opencv-contrib-python
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: pyvips
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: Shapely
+Requires-Dist: SimpleITK
+Requires-Dist: tqdm
+Requires-Dist: weightedstats
+
+UNKNOWN
+
