@@ -1,0 +1,4 @@
+kornia
+torch
+matplotlib
+opencv-python
