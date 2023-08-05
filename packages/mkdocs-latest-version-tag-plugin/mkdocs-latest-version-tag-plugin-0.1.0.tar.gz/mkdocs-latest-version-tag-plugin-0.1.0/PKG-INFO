@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mkdocs_latest_version_tag_plugin
+Version: 0.1.0
+Summary: UNKNOWN
+License: MIT
+Author-email: Michael Kalashnikov <kalashnikovsystem@gmail.com>
+Requires-Python: >=3.10
+Project-URL: Homepage, https://github.com/m-v-kalashnikov/mkdocs_latest_version_tag_plugin
