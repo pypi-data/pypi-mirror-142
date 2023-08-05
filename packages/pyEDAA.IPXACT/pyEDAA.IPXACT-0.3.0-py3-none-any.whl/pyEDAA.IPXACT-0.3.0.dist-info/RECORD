@@ -1,0 +1,11 @@
+pyEDAA/IPXACT/Catalog.py,sha256=mJ8Oo3n53LdcVEvTS7spxFkiHfPRJd9zVV6IdnyAlrU,10088
+pyEDAA/IPXACT/Component.py,sha256=N55Z25FfZvM1eifJAkk0g9fCBLpxSTfbG9r1gTDAxdw,12607
+pyEDAA/IPXACT/Design.py,sha256=_ARzeOFzVewxvUI5KLblA5qKECHTNkSr5nXWkR_mzvI,7050
+pyEDAA/IPXACT/DesignConfiguration.py,sha256=Vmw96n6yKjpTKEKBaJi3L5iv_jPmUs7us7ljO4wpBOg,6526
+pyEDAA/IPXACT/GeneratorChain.py,sha256=GLt1AR2SORyyCuYlYYq8ZJpgZT283yWv8QmhQGwBYW4,6770
+pyEDAA/IPXACT/__init__.py,sha256=irlgktsnkQTrAXKoSTAHmhaC1nJ6vqGj92OnS6yE1U4,8305
+pyEDAA.IPXACT-0.3.0.dist-info/LICENSE.md,sha256=DF4r-Jbsz_ZASY4VjV0ZZVaaHYkH9a20BkVExpq8doE,10571
+pyEDAA.IPXACT-0.3.0.dist-info/METADATA,sha256=Vs6-XkkeNZIjT0lvCIH68Tuzlp3QY8iSjb3t-pMEwSk,6197
+pyEDAA.IPXACT-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyEDAA.IPXACT-0.3.0.dist-info/top_level.txt,sha256=Zee6qcECGZ6fjaGQ3itifsCj3GpIsnwJtoevijrrTwU,11
+pyEDAA.IPXACT-0.3.0.dist-info/RECORD,,
