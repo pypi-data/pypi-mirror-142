@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/simplecalc3/__init__.py
+src/simplecalc3/simplecalc3.py
+src/simplecalc3.egg-info/PKG-INFO
+src/simplecalc3.egg-info/SOURCES.txt
+src/simplecalc3.egg-info/dependency_links.txt
+src/simplecalc3.egg-info/top_level.txt
