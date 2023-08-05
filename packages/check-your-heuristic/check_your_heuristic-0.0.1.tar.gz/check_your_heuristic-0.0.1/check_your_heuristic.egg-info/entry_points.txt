@@ -1,0 +1,6 @@
+[console_scripts]
+run-base-case = check_your_heuristic.main:base_case
+run-multirc-case = check_your_heuristic.main:multirc_case
+run-record-case = check_your_heuristic.main:record_case
+run-wordincontext-case = check_your_heuristic.main:wordincontext_case
+
