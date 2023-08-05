@@ -1,0 +1,4 @@
+flake8
+bandit>=1.7.3
+flake8-polyfill
+pycodestyle
