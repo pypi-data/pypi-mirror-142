@@ -1,0 +1,13 @@
+fastly_bouncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastly_bouncer/config.py,sha256=dtXaoAFm82ZUa_JFE-zKfTd4-nVieKLgDYQFleNH7E8,7150
+fastly_bouncer/fastly_api.py,sha256=hqkNXUbMpBuLBy0horq9jptFT_7otKaM5axBT90_zQk,10849
+fastly_bouncer/main.py,sha256=cs8mS2yHWPGPf5HtCboXf6E4v1fZVpUzIZk2_EQrjK0,10252
+fastly_bouncer/service.py,sha256=ZxghHpkyPgHX6DhOx_yfndaf2HwFaRAVgdBElVci4WE,17910
+fastly_bouncer/utils.py,sha256=T-cIrJ-PXjY-F_g95b6pqcVJcEKenTBRLOAt864h2n4,1303
+fastly_bouncer/vcl_templates.py,sha256=Cl_9f7d6LvE6veX7LGhCKZtNNymjpJMX3RvTadaSyKk,6382
+crowdsec_fastly_bouncer-0.0.2.dist-info/LICENSE,sha256=KlK_PCScUUW6gSidQcDjuJj7qYAsGUj9m5VE4PJkqIM,1065
+crowdsec_fastly_bouncer-0.0.2.dist-info/METADATA,sha256=8Ok_ZaVxFJMSJW7Aoz0u_fOQ4sU1lF9REXRBIXp7dVI,1502
+crowdsec_fastly_bouncer-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crowdsec_fastly_bouncer-0.0.2.dist-info/entry_points.txt,sha256=qsPNSxPBPyAevmihjBEh-JaTmFDeZ2RmZpan6UzpoI0,69
+crowdsec_fastly_bouncer-0.0.2.dist-info/top_level.txt,sha256=BVEQP6G9kR5Eiio6BJ2QBkGHYZZRFchDRVHEIs9lTlY,15
+crowdsec_fastly_bouncer-0.0.2.dist-info/RECORD,,
