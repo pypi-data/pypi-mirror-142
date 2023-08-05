@@ -1,0 +1,98 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+
+[project]
+name = 'these-united-states'
+version = '1.1.0.21'
+description = 'Utility library for performing reverse geocoding of states in the United States of America'
+readme = 'README.md'
+requires-python = '>=3.6'
+license = 'BSD-3-clause'
+authors = [
+    {name = 'Brandon Carpenter', email = 'brandon@8minute.com'},
+]
+keywords = [
+    'geocoding',
+    'reverse',
+    'states',
+]
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Scientific/Engineering :: GIS',
+    'Typing :: Typed',
+]
+dependencies = [
+    # pyshp v2.1.1 enabled logging of all warnings for all packages
+    # See https://github.com/GeospatialPython/pyshp/issues/203
+    'pyshp ~= 2.0, != 2.1.1',
+    'importlib_resources; python_version < "3.7"',
+]
+
+
+[project.urls]
+'Source Code' = 'https://bitbucket.org/8minutenergy/these-united-states'
+
+
+[project.optional-dependencies]
+cli = [
+    'click ~= 8.0',
+]
+plot = [
+    'matplotlib ~= 3.2'
+]
+
+
+[tool.hatch.build]
+exclude = [
+    '.*',
+    '*.pyc',
+    '__pycache__/',
+]
+
+
+[tool.hatch.build.targets.sdist]
+include = [
+    '/united_states/*.py',
+    '/united_states/py.typed',
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ['united_states']
+zip-safe = false  # Allow mypy to perform type checking using py.typed marker
+
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+year = 2021  # Note: Update last component of version when changing the year
+dependencies = [
+    'requests',
+]
+
+
+[tool.mypy]
+allow_redefinition = true
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+follow_imports = 'silent'
+ignore_missing_imports = true
+incremental = true
+python_version = '3.7'
+scripts_are_modules = true
+show_error_codes = true
+strict_optional = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
