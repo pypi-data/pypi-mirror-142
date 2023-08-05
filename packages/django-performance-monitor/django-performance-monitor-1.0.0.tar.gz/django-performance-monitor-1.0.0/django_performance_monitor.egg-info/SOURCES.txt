@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+django_performance_monitor/__init__.py
+django_performance_monitor/admin.py
+django_performance_monitor/apps.py
+django_performance_monitor/constants.py
+django_performance_monitor/middleware.py
+django_performance_monitor/models.py
+django_performance_monitor.egg-info/PKG-INFO
+django_performance_monitor.egg-info/SOURCES.txt
+django_performance_monitor.egg-info/dependency_links.txt
+django_performance_monitor.egg-info/top_level.txt
+django_performance_monitor/migrations/0001_initial.py
+django_performance_monitor/migrations/0002_config.py
+django_performance_monitor/migrations/__init__.py
