@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+igeEffekseer/__init__.py
+igeEffekseer.egg-info/PKG-INFO
+igeEffekseer.egg-info/SOURCES.txt
+igeEffekseer.egg-info/dependency_links.txt
+igeEffekseer.egg-info/top_level.txt
