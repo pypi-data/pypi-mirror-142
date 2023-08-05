@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py_tsyganenko
+Version: 0.1.4
+Author: Alexis Jeandet
+Author-email: alexis.jeandet@member.fsf.org
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Homepage, https://github.com/LaboratoryOfPlasmaPhysics/py_tsyganenko
+License:
+       |GNU General Public License v3
+Description-Content-Type: text/markdown
+Description:
+
+TBC
