@@ -1,0 +1,1 @@
+recursive-include grappelli_modeltranslation *.html *.js *.css *.py *.po *.mo *.json

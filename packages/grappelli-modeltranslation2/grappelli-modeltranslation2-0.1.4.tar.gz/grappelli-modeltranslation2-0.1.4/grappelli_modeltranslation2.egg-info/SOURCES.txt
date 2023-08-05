@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+grappelli_modeltranslation/__init__.py
+grappelli_modeltranslation/admin.py
+grappelli_modeltranslation/apps.py
+grappelli_modeltranslation/static/grappelli_modeltranslation/css/tabbed_translation_fields.css
+grappelli_modeltranslation/static/grappelli_modeltranslation/js/tabbed_translation_fields.js
+grappelli_modeltranslation2.egg-info/PKG-INFO
+grappelli_modeltranslation2.egg-info/SOURCES.txt
+grappelli_modeltranslation2.egg-info/dependency_links.txt
+grappelli_modeltranslation2.egg-info/requires.txt
+grappelli_modeltranslation2.egg-info/top_level.txt

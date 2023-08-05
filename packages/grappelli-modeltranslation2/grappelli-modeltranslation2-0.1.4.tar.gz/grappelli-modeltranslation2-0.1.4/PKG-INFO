@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: grappelli-modeltranslation2
+Version: 0.1.4
+Summary: A small compatibility layer between grappelli and django-modeltranslation
+Home-page: https://github.com/jmagnusson/grappelli-modeltranslation
+Author: Jacob Magnusson
+Author-email: m@jacobian.se
+License: New BSD License
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+UNKNOWN
+
