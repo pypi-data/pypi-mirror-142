@@ -1,0 +1,2 @@
+[console_scripts]
+hsds-data-tool = hsds_data_tool.cli:cli
