@@ -1,0 +1,7 @@
+requests
+mlflow
+numpy
+pyyaml
+validators
+grpc-requests
+docker
