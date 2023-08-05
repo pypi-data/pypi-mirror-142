@@ -1,0 +1,13 @@
+texthooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texthooks/_common.py,sha256=3gdJhQqS-iKT-fny6amn00jydANvKdpOTzJQalw2J38,2537
+texthooks/_recorders.py,sha256=O5OiRgJJBmzhPGy_jffYctKhPrFb_Zv_bPVM2kRNalI,5096
+texthooks/fix_ligatures.py,sha256=UcbZI_r5p7GcKCog_c5tcfQxh32C_hsquZWpD1DMSw0,1892
+texthooks/fix_smartquotes.py,sha256=bpTbfSdjpXRfICLnrqHym2u1m-DW6owqUQVo72RswRY,4615
+texthooks/forbid_bidi_controls.py,sha256=tOncJ2MuY1w8DMAGKbuZ6PHfhyFyCpX5f5hFXk6voXU,1572
+texthooks/macro_expand.py,sha256=UtWfvUjSP1NKsjczBE9Vnt7OKHnP5BsEtyll00l8dhY,2067
+texthooks-0.3.0.dist-info/LICENSE,sha256=Pl3zg6yR6SoEtjqha60yjIqeOer7fV0k4liDH4RNOcw,583
+texthooks-0.3.0.dist-info/METADATA,sha256=5dy_X53IDju8AWiuRiSZoQ-CsFhnj7NNCmE6mklQeJU,4476
+texthooks-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+texthooks-0.3.0.dist-info/entry_points.txt,sha256=uXBLeqF-s1xhpK867GRmBTEA4lqMzBlgenBrjQhroxo,215
+texthooks-0.3.0.dist-info/top_level.txt,sha256=e1x0fHrtH1OcewKoZfk7B3uW5vZOMyYCm-1U31TQLFc,10
+texthooks-0.3.0.dist-info/RECORD,,
