@@ -1,0 +1,5 @@
+[tool.documatic]
+name = "pycordSuperUtils"
+srcdir = "pycordSuperUtils"
+docdir = "C:\Users\kingl\Desktop\Programmierung\Packages Python\pycordSuperUtils\docs"
+docname = "READ"

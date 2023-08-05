@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pycordSuperUtils/*
+include pycordSuperUtils/assets/*
+include pycordSuperUtils/music/*
+include pycordSuperUtils/music/lavalink/*
