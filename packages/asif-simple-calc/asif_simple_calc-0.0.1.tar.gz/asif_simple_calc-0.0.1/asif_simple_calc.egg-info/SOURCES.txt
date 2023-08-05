@@ -1,0 +1,8 @@
+README.md
+setup.py
+asif_simple_calc.egg-info/PKG-INFO
+asif_simple_calc.egg-info/SOURCES.txt
+asif_simple_calc.egg-info/dependency_links.txt
+asif_simple_calc.egg-info/top_level.txt
+simple_calc/__init__.py
+simple_calc/calc.py
