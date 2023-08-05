@@ -1,0 +1,37 @@
+/***********************************************
+    Invenio App RDM Item Overrides
+***********************************************/
+
+.ui.items > .item > .content > .header {
+  display: block;
+  a {
+    display: inline-block;
+    padding: .5rem 0 .1rem;
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+  }
+}
+
+.ui.items > .item .extra {
+    color: @mutedTextColor;
+}
+
+#request-details-contributors{
+  .item{
+    margin: 0 1em 0 0;
+  }
+}
+
+.ui.items > .item .meta * {
+    margin-right: 0.1em;
+}
+
+.item.right-menu {
+  line-height: 44px !important;
+}
+
+.ui.items.link > .item:hover {
+  cursor: auto !important;
+}
+

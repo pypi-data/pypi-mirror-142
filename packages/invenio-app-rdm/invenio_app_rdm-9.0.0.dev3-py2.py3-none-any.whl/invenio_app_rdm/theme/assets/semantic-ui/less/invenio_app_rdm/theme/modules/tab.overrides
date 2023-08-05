@@ -1,0 +1,12 @@
+/***********************************************
+    Invenio App RDM Tab Overrides
+***********************************************/
+
+
+.ui.menu.secondary.pointing {
+  .item.active {
+    border-color: @secondaryColor;
+  }
+}
+
+

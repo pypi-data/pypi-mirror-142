@@ -1,0 +1,9 @@
+/***********************************************
+         Invenio App RDM Icon Overrides
+***********************************************/
+
+.inline-id-icon {
+  height: @fontSizeBase;
+  width: auto;
+  vertical-align: text-bottom;
+}

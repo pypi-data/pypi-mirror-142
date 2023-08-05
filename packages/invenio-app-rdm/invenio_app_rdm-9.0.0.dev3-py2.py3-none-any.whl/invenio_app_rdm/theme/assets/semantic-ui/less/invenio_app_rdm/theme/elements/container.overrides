@@ -1,0 +1,15 @@
+/***********************************************
+         Invenio App RDM Container Overrides
+***********************************************/
+
+
+.ui.container {
+  &#dashboard-user-header-container {
+    padding-bottom: @defaultPadding;
+    padding-top: @defaultPadding;
+    background-color: @highlightBackgroundColor;
+  }
+  &#dashboard-tab-menu-container {
+    background-color: @highlightBackgroundColor;
+  }
+}

@@ -1,0 +1,21 @@
+/***********************************************
+         Invenio App RDM Segment Overrides
+***********************************************/
+
+#dashboard-tab{
+  .ui.attached.segment{
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.ui.segment.rdm-sidebar dl {
+  dt.hidden {
+    display: none;
+  }
+
+  dd.subject {
+    margin-bottom: 3px;
+  }
+}
