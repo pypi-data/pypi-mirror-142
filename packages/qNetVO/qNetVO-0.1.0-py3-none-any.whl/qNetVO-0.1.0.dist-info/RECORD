@@ -1,0 +1,13 @@
+qnetvo/__init__.py,sha256=I967MWTNv7fCBeqi7WKImX6N_dWDZgXYtEecYl5MuuE,629
+qnetvo/ansatz_library.py,sha256=uZSTNFENOjfOsx3SZf4eiXKko0QYmXLmvz3NNr2QOzE,5070
+qnetvo/gradient_descent.py,sha256=Gon5y0kdmQcmxfpCcGmIqn5zP7yaVGBLKA64jER11qE,4907
+qnetvo/information.py,sha256=C4sssftXCauWqvhfaWaWg9CNBhe1tHor_PgsAdfJER4,3374
+qnetvo/lazy_dask_import.py,sha256=H2cWuk1yZD708mRe4UCqdEuZIGrMtqI_xPQf0cP1890,446
+qnetvo/lazy_tensorflow_import.py,sha256=4W4GWkDxHBmyh7zgt0dQ4MWfyxk4TCEJLwy7gRYQDM0,426
+qnetvo/network_ansatz.py,sha256=GXpJ93_wCRWYEDMLyGzeOWWsi684KF2lSp7Vx8n4nF4,14090
+qnetvo/utilities.py,sha256=lvmpKP4a1szxDXNOxCQH0TjlTtyuXPq6Mie51p-ctlE,4612
+qNetVO-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qNetVO-0.1.0.dist-info/METADATA,sha256=nVwbn4vaYQRyCvkmz-n35OQPxlXchWqUkZx4b2EiQgw,4715
+qNetVO-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qNetVO-0.1.0.dist-info/top_level.txt,sha256=FkkCIHByP-JVjOzLYLLGMqDPd691Al-NxMLHu9bWRyQ,7
+qNetVO-0.1.0.dist-info/RECORD,,
