@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: algpros30
+Version: 0.0.2
+Summary: 奥利给高效编程库！！！
+Home-page: https://alggfzslt.freeflarum.com/
+Author: algfwq
+Author-email: 3104374883@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires: pygame
+Requires: requests
+Requires: bs4
+
+奥利给高效编程库30测试版！！！
+
