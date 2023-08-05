@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: verifiably-wsock-secrets-provider
+Version: 0.0.6
+Summary: Secrets provider that communicates with trusted execution environments over web sockets.
+Home-page: https://github.com/verifiably/wsock-secrets-provider
+Author: Verifiably
+Author-email: contact@verifiably.com
+License: UNKNOWN
+Keywords: python,web-socket,credentials
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: cbor2 (==5.2.0)
+Requires-Dist: cose (==0.9.dev2)
+Requires-Dist: cryptography (==3.2.1)
+Requires-Dist: pyOpenSSL (==19.1.0)
+Requires-Dist: pycryptodome (==3.9.9)
+Requires-Dist: rel
+Requires-Dist: verifiably-checker
+Requires-Dist: websocket-client
+
+# Web socket secrets provider
+
+This library enables an easy setup for a secret provider trough wsock. This secrets provider was developed to be used with a [vFunction](https://developer.verifiably.com/docs/vfunctions/what-is-a-vfunction).
+
+## Installation
+To install this library run:
+
+```
+pip install verifiably_wsock_secrets_provider
+```
+
+## Setup
+To create the server, just provide your secrets and start the communication trough wsock.
+
+```python
+from verifiably_wsock_secrets_provider import credentials_provider
+
+credentials = {
+    "account1":{
+        "accountId": "1234",
+        "token": "0000"
+    }
+}
+
+
+expected_pcrs = {
+    "0":"0000"
+}
+
+secretProvider = credentials_provider.SecretsProvider(credentials, expected_pcrs)
+
+secretProvider.start()
+```
+
+
