@@ -1,0 +1,13 @@
+swaggerhole/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swaggerhole/__main__.py,sha256=zF_7vtciM4hd0SWawskETcZGIuaCSdaT-ip1K6oPkDQ,1511
+swaggerhole/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swaggerhole/core/misc.py,sha256=JmFl45ZPpteJ-uCEJJjyoHnAJ87vFNkl704k-yoIYC8,846
+swaggerhole/core/regex_config.py,sha256=sPuLmz36P84yiPg1eq4_owMtJeG9fo9LWX0lN_XGaXw,3149
+swaggerhole/core/research_secret.py,sha256=gkjYrP9QGTYFu8p6H2qyJ-N9Lj-1ojLyklI5dDIa6s8,3086
+swaggerhole/core/swaggerhub_data.py,sha256=EwrpdW3nfqyauKLNv6WRQ-xo3me6LvAg-RpkpE6GDy4,1262
+swaggerhole-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+swaggerhole-1.0.dist-info/METADATA,sha256=Pbv3W_eZxeL2aFB1ye2X-Ot0KnPahPI8GPO4Bl2fQZI,2910
+swaggerhole-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+swaggerhole-1.0.dist-info/entry_points.txt,sha256=d1ZW3WOtZwzIU1noq4Ow7I6awcyJnWKu9aBOjTrIwo0,59
+swaggerhole-1.0.dist-info/top_level.txt,sha256=8ArP7W1pYTiSjUzs0S-dktP7mJnWbwPf5bP-pbsKZck,12
+swaggerhole-1.0.dist-info/RECORD,,
