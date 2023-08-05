@@ -1,0 +1,12 @@
+setup.py
+alfred_workflow_flyer.egg-info/PKG-INFO
+alfred_workflow_flyer.egg-info/SOURCES.txt
+alfred_workflow_flyer.egg-info/dependency_links.txt
+alfred_workflow_flyer.egg-info/requires.txt
+alfred_workflow_flyer.egg-info/top_level.txt
+workflow_flyer/__init__.py
+workflow_flyer/base.py
+workflow_flyer/common.py
+workflow_flyer/dispatcher.py
+workflow_flyer/registry.py
+workflow_flyer/sample.py
