@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pendulo
+Version: 0.9.3
+Summary: Python interface for retrieving results of Pendulo water hammer simulation
+Home-page: UNKNOWN
+Author: Dr. Pierre Antoine Jarrige
+Author-email: piccolo@safege.fr
+License: commercial
+Keywords: Pendulo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (>=1.19.4)
+
+PenWin32 (Pendulo) python API calling interface
+
+What is it?
+-----------
+A python package enabling users to call a minimal set of PenWin32.dll API functions and subroutines within python scripts. For latest python version e.g. 3.10. 32 bits only.
+
+Installation
+------------
+*Windows only* :: 
+
+    pip install pendulo
+
+Requirements (32 bits)
+----------------------
+  #) python 3.10
+  #) numpy 1.21.3 (python 3.10)
+  #) Pendulo kernel library (penwin32.dll)
+  #) valid Pendulo_size and Pendulo_version license
+
+
+This tool expects Picwin32.dll to be in the PATH or in one of the following folders::
+
+                 %localappdata%/Programs/Safege/Pendulo_ or
+                 %localappdata%/Programs/Suez/Pendulo_ or
+ [ C: or D: ] / 'Program Files (x86)/Safege/Pendulo_' 
+              + ['fr' or 'uk' or 'esp' or 'eng'] + ['' or '_ck']
+
+With custom installations, PENDULO_DIR environment variable can be set to define the path. 
+
+Content
+-------
+
+The package provides:
+ #) 'sim' package:
+     - a few basic functions for reading or loading a model, running hydraulic and WQ simulations.
+     - 'getter' functions for individual objects and attributes, time series vectors, attribute vector of all object (attribute maps).
+     - iterators over links, nodes, tanks, demands, and tables, or over Piccolo command language selections.
+     - a Graph class built from the current model graph, with propagation functions.
+
+Example
+-------
+
+::
+
+ # Sorry - no example at the moment.
+
+
+
