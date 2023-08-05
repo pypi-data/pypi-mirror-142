@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sohbat-client
+Version: 0.8.9
+Summary: sohbat_client
+Home-page: UNKNOWN
+Author: Joksar
+Author-email: politer72@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
+
