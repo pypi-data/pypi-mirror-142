@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mkvpy/src/mkvpy.py
+mkvpy/src/mkvpy.egg-info/PKG-INFO
+mkvpy/src/mkvpy.egg-info/SOURCES.txt
+mkvpy/src/mkvpy.egg-info/dependency_links.txt
+mkvpy/src/mkvpy.egg-info/top_level.txt
