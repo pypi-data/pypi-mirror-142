@@ -1,0 +1,27 @@
+[project]
+name = "mkdocs_latest_version_tag_plugin"
+version = "0.1.1"
+description = ""
+authors = [
+    { name = "Michael Kalashnikov", email = "kalashnikovsystem@gmail.com" },
+]
+license-expression = "MIT"
+dependencies = [
+    "GitPython>=3.1.27",
+    "mkdocs>=1.2.3",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/m-v-kalashnikov/mkdocs_latest_version_tag_plugin"
+
+[project.entry-points."mkdocs.plugins"]
+git-latest-version-tag = "mkdocs_latest_version_tag_plugin.plugin:GitLatestVersionTagPlugin"
+
+[tool.pdm]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
