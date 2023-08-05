@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+framework.md
+pyproject.toml
+readme.md
+setup.cfg
+setup.py
+src/dataito/__init__.py
+src/dataito/read.py
+src/dataito/save.py
+src/dataito/transform.py
+src/dataito.egg-info/PKG-INFO
+src/dataito.egg-info/SOURCES.txt
+src/dataito.egg-info/dependency_links.txt
+src/dataito.egg-info/top_level.txt
