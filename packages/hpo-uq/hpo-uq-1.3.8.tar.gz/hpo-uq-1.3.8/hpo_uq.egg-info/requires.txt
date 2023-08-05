@@ -1,0 +1,10 @@
+deap
+matplotlib==3.1.3
+numpy
+pandas
+pickle5
+plotly
+pyyaml
+SALib
+scipy
+sklearn
