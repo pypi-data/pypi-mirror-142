@@ -1,0 +1,11 @@
+calango/__init__.py,sha256=z2HbXKjka4uezbuwn3gc_6FybfzUZxwNTECcZ7A3850,1299
+calango/devices.py,sha256=fltTIKu5KJvsVQV0KqU-9TGMgH6EH0XRsmp1gfG_5Wk,4542
+calango/media.py,sha256=5RHl7eSAnNVaFVb4U1yWTmk2VRixACtiRQXl54Uixxs,22060
+calango/settings.py,sha256=LyHFGz-I7u5R7Xg8xiCk8lPGufN1kl4Jlfi0Rkis1EE,295
+calango/utils.py,sha256=Cr19li5_zX17oWfFJdgMSUZuE2Mzp_4b9CutYs544uE,613
+tests/__init__.py,sha256=X_LjL8Gnda4ELWHvceEEqbZq_yk-_TQnxa2LCLnJfMc,135
+calango-2.0.1.dist-info/LICENSE,sha256=iOhOEgTvkW5WjUPJW1pZhx_QJwqH-itutap5_oUXFwY,1063
+calango-2.0.1.dist-info/METADATA,sha256=A9aKIL9fGTNCexQS_NpMnBj3KbGfhS23Z0E_8qwhD9U,2815
+calango-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+calango-2.0.1.dist-info/top_level.txt,sha256=sCU-vV7gA74d54wEfc2uC25gYB47npsZUNs6s3P6row,14
+calango-2.0.1.dist-info/RECORD,,
