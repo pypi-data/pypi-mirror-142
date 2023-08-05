@@ -1,0 +1,3 @@
+[console_scripts]
+bible-cli=bible_cli.app:app
+
