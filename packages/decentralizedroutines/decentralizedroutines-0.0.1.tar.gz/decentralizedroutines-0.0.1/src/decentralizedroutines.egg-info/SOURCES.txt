@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Routines/DailyRoutine.py
+src/Routines/RoutineScheduler.py
+src/Routines/RunRoutines.py
+src/Routines/StartScheduler.py
+src/Routines/__init__.py
+src/Routines/test.py
+src/decentralizedroutines.egg-info/PKG-INFO
+src/decentralizedroutines.egg-info/SOURCES.txt
+src/decentralizedroutines.egg-info/dependency_links.txt
+src/decentralizedroutines.egg-info/requires.txt
+src/decentralizedroutines.egg-info/top_level.txt
