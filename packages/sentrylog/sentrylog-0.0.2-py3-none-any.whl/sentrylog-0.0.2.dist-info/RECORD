@@ -1,0 +1,9 @@
+sentrylog/README.md,sha256=w3UqTvFvUDKWgojHtrUCi8KRjBYlGSCCcIlbcqtKwuY,2689
+sentrylog/__init__.py,sha256=RTm_VPzd77IQkrkjg6XIgYp_nz_XaLvmc7njbRX5DMA,663
+sentrylog/log_test.py,sha256=ScBcmvoe3YCNxj472ZCs_FKpQDGIXNamkNmHfk85N0g,1292
+sentrylog/logger.py,sha256=6mwSa1XMuA_A35fnSGcdFsU0l6IHsxoNPASYN6UWB_4,2319
+sentrylog/requirements.txt,sha256=_-6E3ZjhnBYqfdxJgQTUg9DnMoygOhFbLCAkrDR3WqU,36
+sentrylog-0.0.2.dist-info/METADATA,sha256=7yYu0E7-gkD6I79MOAcg8DQ7ZewzIdSLU3wUgtbOpeI,3020
+sentrylog-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sentrylog-0.0.2.dist-info/top_level.txt,sha256=7E-zJcvLLXl_JIDeASlT74Fa0eRq4i3bencnx1YsHks,10
+sentrylog-0.0.2.dist-info/RECORD,,
