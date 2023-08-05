@@ -1,0 +1,3 @@
+[console_scripts]
+_groupa4 = src.scene.scenario:main
+
