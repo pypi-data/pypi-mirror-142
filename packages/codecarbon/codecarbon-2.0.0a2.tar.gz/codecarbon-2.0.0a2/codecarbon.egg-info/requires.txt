@@ -1,0 +1,16 @@
+arrow
+pandas
+pynvml
+requests
+psutil
+py-cpuinfo
+fuzzywuzzy
+click
+
+[:python_version < "3.7"]
+dataclasses
+
+[viz]
+dash
+dash_bootstrap_components
+fire
