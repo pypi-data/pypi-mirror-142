@@ -1,0 +1,14 @@
+deutschland/dip_bundestag/__init__.py,sha256=S1Su84-h7Pxw2QNQ7-MX23inZOGjGodTvVVFAyiBZlU,653
+deutschland/dip_bundestag/api/__init__.py,sha256=SO9X1t3_yiOsHpvBfgjDowm1eLk6oom17XiQ2u5I3f0,229
+deutschland/dip_bundestag/api/default_api.py,sha256=rIf1a1UP7yXLrfU8cVWmnkKi1KhwDzSM7xN537SNjjQ,72674
+deutschland/dip_bundestag/api_client.py,sha256=RtY5epePEscACEu_7rhX11KuGkImQoh2vjliHJaem-M,37295
+deutschland/dip_bundestag/apis/__init__.py,sha256=sGVjMJJNL6c8uNiU_DNBdGdwmP5323OTkYD4K1mwtb8,477
+deutschland/dip_bundestag/configuration.py,sha256=2iBIH74oOFg-mwGfhJlGLRYh9YAPHRGR7pKCLn4WSys,17440
+deutschland/dip_bundestag/exceptions.py,sha256=BHTSENQ4UWb6Ii61klv6OmqJge941PkrkH3B5k6ZUA4,5032
+deutschland/dip_bundestag/model/__init__.py,sha256=V2hBXnNCuYnyWvgZid4d_t50TMZKoi0DowheNl50Ga0,359
+deutschland/dip_bundestag/model_utils.py,sha256=ZXlPdU_ZA0SwPq018vE9JAkLjmYsaRuLC9WSZouHXVM,81896
+deutschland/dip_bundestag/models/__init__.py,sha256=A6GikV7b53_gzOXyrvOnKJoVVWchi_CphYSovpFq-Ho,386
+deutschland/dip_bundestag/rest.py,sha256=8aUPO3vIH0z_nxfY2wlrhWF_VZfdDo49FNIUlGUM3Lc,14516
+de_dip_bundestag-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+de_dip_bundestag-0.1.0.dist-info/METADATA,sha256=jqK9_jAbLyx4tSRTuMjUFekpXMdRymni9-W9jVYi88c,6518
+de_dip_bundestag-0.1.0.dist-info/RECORD,,
