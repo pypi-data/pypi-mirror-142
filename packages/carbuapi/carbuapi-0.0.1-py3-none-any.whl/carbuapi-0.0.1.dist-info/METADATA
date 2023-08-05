@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: carbuapi
+Version: 0.0.1
+Summary: Query fuel prices in Spain
+Home-page: https://github.com/ldotlopez/carbuapi
+Author: Luis López
+Author-email: luis@cuarentaydos.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ldotlopez/carbuapi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: haversine
+Requires-Dist: requests
+
+# CarbuAPI
+
+[![Upload Python Package](https://github.com/ldotlopez/carbuapi/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ldotlopez/carbuapi/actions/workflows/python-publish.yml)
+
+Access to [https://sedeaplicaciones.minetur.gob.es/](https://sedeaplicaciones.minetur.gob.es/) fuel prices (Spain)
+
+**Useful links**
+
+  * [Related Home-Assistant component](https://github.com/ldotlopez/ha-carbuapi)
+  * Inspired by:
+    - [https://domology.es/sensor-del-precio-de-la-gasolina-diesel-en-ha/](https://domology.es/sensor-del-precio-de-la-gasolina-diesel-en-ha/)
+    - Petrol prices crisis from 2022
+
+

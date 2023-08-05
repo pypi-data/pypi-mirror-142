@@ -1,0 +1,16 @@
+PRODUCTS = [
+    ("Biodiesel", "biodiesel"),
+    ("Bioetanol", "bioetanol"),
+    ("Gas Natural Comprimido", "gas-natural-comprimido"),
+    ("Gas Natural Licuado", "gas-natural-licuado"),
+    ("Gases licuados del petróleo", "gases-licuados-del-petroleo"),
+    ("Gasoleo A", "gasoleo-a"),
+    ("Gasoleo B", "gasoleo-b"),
+    ("Gasoleo Premium", "gasoleo-premium"),
+    ("Gasolina 95 E10", "gasolina-95-e10"),
+    ("Gasolina 95 E5", "gasolina-95-e5"),
+    ("Gasolina 95 E5 Premium", "gasolina-95-e5-premium"),
+    ("Gasolina 98 E10", "gasolina-98-e10"),
+    ("Gasolina 98 E5", "gasolina-98-e5"),
+    ("Hidrogeno", "hidrogeno"),
+]
