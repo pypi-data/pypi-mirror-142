@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+krk_tablebase_generator.egg-info/PKG-INFO
+krk_tablebase_generator.egg-info/SOURCES.txt
+krk_tablebase_generator.egg-info/dependency_links.txt
+krk_tablebase_generator.egg-info/top_level.txt
+src/krk_tablebase/krk_tablebase.cpp
+src/krk_tablebase/krk_tablebase.cpp

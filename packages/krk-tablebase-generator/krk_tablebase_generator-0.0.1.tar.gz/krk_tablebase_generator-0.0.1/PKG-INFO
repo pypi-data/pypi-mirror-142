@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: krk_tablebase_generator
+Version: 0.0.1
+Summary: C++ extension package that generates a tablebase of KR_K chess endgames.
+Author: Nolan Chu
+Author-email: nolan.chu.2012@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# KRK Tablebase Generator
+
+KRK Tablebase Generator is a C++ extension for accelerating the generation of a [King and Rook versus King](https://www.chessprogramming.org/KRK) (KRK) endgame tablebase.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install krk-tablebase-generator.
+
+```bash
+pip install krk-tablebase-generator
+```
+
+## Usage
+
+```python
+import tablebase
+
+# returns a tuple containing black to move positions and white to move positions
+tablebase.get_lists()
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
