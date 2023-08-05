@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/django_socket_framework/__init__.py
+src/django_socket_framework/auth.py
+src/django_socket_framework/consumers.py
+src/django_socket_framework/method_lists.py
+src/django_socket_framework/middlewares.py
+src/django_socket_framework/types.py
+src/django_socket_framework/utils.py
+src/django_socket_framework.egg-info/PKG-INFO
+src/django_socket_framework.egg-info/SOURCES.txt
+src/django_socket_framework.egg-info/dependency_links.txt
+src/django_socket_framework.egg-info/requires.txt
+src/django_socket_framework.egg-info/top_level.txt
