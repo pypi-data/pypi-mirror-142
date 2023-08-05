@@ -1,0 +1,8 @@
+bilby_cython/__init__.py,sha256=4qO4Reh4pAjyQmJ9XY4FCYPvzPqxlYlcp4l6TGMv0VU,281
+bilby_cython/.version,sha256=5e0OxVh0OV9hE3KXMj30Bnvn4ZQeUhFlmehRFhf0hWE,49
+bilby_cython/geometry.cpython-310-x86_64-linux-gnu.so,sha256=HiAocYDpHjQmC55E_gYJ9AVaasY0KVmVrtp_hidHbNw,1687304
+bilby.cython-0.1.4.dist-info/top_level.txt,sha256=zLDE8qSLXh2BNgBgFFsgWTVODGNnbWgatne7yfpYVwA,13
+bilby.cython-0.1.4.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
+bilby.cython-0.1.4.dist-info/METADATA,sha256=dqKr7NyivWHZ6DtSgrTwL-TsJNsPnCqcWa02TcKyod4,3845
+bilby.cython-0.1.4.dist-info/RECORD,,
+bilby.cython-0.1.4.dist-info/LICENSE,sha256=tsqEqlcBtL76ZUdklvwu7GKKrZP4K5aA_VH6IGsvp2w,1068
