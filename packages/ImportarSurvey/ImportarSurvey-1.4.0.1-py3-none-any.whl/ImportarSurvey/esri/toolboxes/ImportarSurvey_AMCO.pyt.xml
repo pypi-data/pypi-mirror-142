@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="es">
+	<Esri>
+		<CreaDate>20201109</CreaDate>
+		<CreaTime>10344400</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>TRUE</SyncOnce>
+		<ModDate>20210222</ModDate>
+		<ModTime>122010</ModTime>
+		<DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\Rename" Date="20201202" Time="095911">Rename "D:\Desarrollo\Catastro Multiproposito 2020\PrecargarDatosEnSurvey\ImportarEncuestaActualizacionCatastral\ImportarSurvey_pyt - copia\ImportarSurvey.pyt" "D:\Desarrollo\Catastro Multiproposito 2020\PrecargarDatosEnSurvey\ImportarEncuestaActualizacionCatastral\ImportarSurvey_pyt - copia\ImportarSurvey_AMCO.pyt" #</Process></lineage></DataProperties></Esri>
+	<toolbox name="ImportarSurvey_AMCO" alias="ImportarSurvey">
+		<arcToolboxHelpPath>c:\program files\arcgis\pro\Resources\Help\gp</arcToolboxHelpPath>
+		<toolsets/>
+	</toolbox>
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>ImportarSurvey_AMCO</resTitle>
+		</idCitation>
+	</dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorFormat>
+				<formatName>ArcToolbox Toolbox</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+</metadata>
