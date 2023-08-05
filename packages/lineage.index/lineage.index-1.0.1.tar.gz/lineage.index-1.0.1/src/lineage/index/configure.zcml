@@ -1,0 +1,45 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <include package="collective.lineage"/>
+
+  <adapter name="childsite" factory=".index.childsite"/>
+
+  <utility
+      component=".vocabulary.childSiteVocabulary"
+      name="lineage.childsites"
+      />
+
+  <browser:page
+      for="*"
+      name="childsite"
+      class=".view.ChildsiteView"
+      permission="zope.Public"
+      allowed_attributes="titleForKey"
+      />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Lineage Index"
+      directory="profiles/default"
+      description="Index for searching content of childsites"
+      provides="Products.GenericSetup.interfaces.EXTENSION"/>
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Lineage Index (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the lineage.index add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"/>
+
+  <genericsetup:upgradeStep
+      source="1"
+      destination="2"
+      title="Upgrade to UUID based indexing."
+      description="Rebuild the catalog to reindex UUID values instead the id."
+      profile="lineage.index:default"
+      handler=".upgrades.upgrade_uuid"
+      />
+
+</configure>
