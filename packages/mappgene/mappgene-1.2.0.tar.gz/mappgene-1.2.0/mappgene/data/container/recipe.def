@@ -1,0 +1,40 @@
+Bootstrap: docker
+From: ubuntu:18.04
+
+%post
+    MINICONDA=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    SNPEFF=https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
+    # https://github.com/andersen-lab/ivar/issues/17
+    # https://raw.githubusercontent.com/nf-core/viralrecon/master/bin/ivar_variants_to_vcf.py
+    IVAR_VCF=https://raw.githubusercontent.com/nf-core/viralrecon/ee5cbd676abb124a93cf43cd2467fc677c5d12a0/bin/ivar_variants_to_vcf.py
+
+    apt-get -y update
+    apt-get install -y wget locales git bash vim-tiny default-jre unzip perl zsh libcurl3
+    apt-get install bedtools  # https://bedtools.readthedocs.io/en/latest/content/installation.html
+    locale-gen en_US.UTF-8
+    rm /bin/sh
+    ln -s /bin/bash /bin/sh
+    wget --no-check-certificate $MINICONDA
+    sh Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda
+    PATH=$PATH:/opt/miniconda/bin
+    conda init bash
+    conda create -n V-pipe -c conda-forge -c bioconda python=3.8.10 snakemake-minimal=5.14.0 ivar=1.3.1 samtools=1.12 bwa=0.7.17 bbmap=38.18 bcftools=1.12 lofreq=2.1.5
+    git clone -b v2.0.0 https://github.com/cbg-ethz/V-pipe.git /opt/vpipe
+    wget --no-check-certificate $SNPEFF
+    unzip snpEff_latest_core.zip -d /opt
+    java -jar /opt/snpEff/snpEff.jar download -v NC_045512.2
+    wget -O /opt/ivar_variants_to_vcf.py "$IVAR_VCF"
+
+%environment
+    __conda_setup="$('/opt/miniconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "/opt/miniconda/etc/profile.d/conda.sh" ]; then
+            . "/opt/miniconda/etc/profile.d/conda.sh"
+        else
+            export PATH="/opt/miniconda/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+    conda activate V-pipe
