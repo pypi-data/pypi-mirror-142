@@ -1,0 +1,15 @@
+airbase/__init__.py,sha256=eytwXI7PfPotoFOfFT5xB8oYhKC5kodXJ3ZnvWO0fbM,84
+airbase/airtable.py,sha256=ba7JgDyyU2ZJuQF8mlPGpIRvCeTCEUXxTWuLYSlcIg8,24476
+airbase/exceptions.py,sha256=oQIbsMv78hVS1v8VkRj7UY29rgrLflqmIQFPKHV51co,72
+airbase/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airbase/tools.py,sha256=4wrWZXhfP0EBSJ51dAKtoxneFSqFgbP1yot7N_yeoz0,13698
+airbase/urls.py,sha256=FRNBALmBNkKyLE2VLrqIXaTWFgl6Llzo3xy23HPyppY,71
+airbase/validations.py,sha256=z9v5-MZf5WuDa_toVZoV8Ifkn4vu3eI9lUUesSxWA20,3131
+airbase/utils/__init__.py,sha256=z0vMx2WIQBRFaddvCbuboHqHmXMzvtQ4wpCvr8UpplM,1980
+airbase/utils/logger.py,sha256=vLjn1CIDLDv7DCoh8FY5fD_DqrpOg8Rt_3-UXMlF8oY,910
+airbase/utils/semaphore.py,sha256=8ZjIpODUpaYWGQqPzvoMCFGWWUI74L1iW10u31XJjNE,2007
+airtable_async_ti-0.0.1b11.dist-info/LICENSE,sha256=g3UCE2hA7nTPwUH98-qoUfiFvN2bygSRXH_8EomVnqg,1074
+airtable_async_ti-0.0.1b11.dist-info/METADATA,sha256=9apC8whDJskXXPoJVgp_xo4s8iHB63scp2iEpiXm4hY,899
+airtable_async_ti-0.0.1b11.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+airtable_async_ti-0.0.1b11.dist-info/top_level.txt,sha256=mQbE3FsRAjsLLshjx0X9IwS4sHOmnO-pK1tl6jJmPI0,8
+airtable_async_ti-0.0.1b11.dist-info/RECORD,,
