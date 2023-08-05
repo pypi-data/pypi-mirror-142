@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bible-cli"
+version = "0.1.0"
+description = ""
+authors = ["Ian Kollipara <ian.kollipara@cune.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^12.0.0"
+requests = "^2.27.1"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+
+[tool.poetry.scripts]
+bible-cli = "bible_cli.app:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
