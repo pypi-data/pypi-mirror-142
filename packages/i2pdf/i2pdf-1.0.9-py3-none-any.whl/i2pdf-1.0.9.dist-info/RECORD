@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main_app.py,sha256=lSe_a1yqBPUeIHYD78sD2fGcuPoqc5LvepTqhG96yDA,5022
+src/auxiliary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/auxiliary/file_explorer.py,sha256=n4EHrR-v0-fXPZ82xfHWirrQALDQDLWrpsrOSa9I3Cs,1673
+src/auxiliary/message_keys.py,sha256=Q1nP8yPYLMG4ONfC9aIqd_nKvNEs_GHCd6yRhSrLvSc,3251
+i2pdf-1.0.9.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i2pdf-1.0.9.dist-info/METADATA,sha256=wfUISMPIRYWiKQgBW3vaow6IHYpYpr6sMJjR-AM1fRc,3800
+i2pdf-1.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+i2pdf-1.0.9.dist-info/entry_points.txt,sha256=6qlgWCaZzTyzeMCtzRwgT22--GxCWjrfDqkKur2msXs,73
+i2pdf-1.0.9.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+i2pdf-1.0.9.dist-info/RECORD,,
