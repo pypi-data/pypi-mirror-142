@@ -1,0 +1,13 @@
+umlsequence2/__init__.py,sha256=7AHBjuPmdYZhV3Yd3zsl7VIR4SS_kYGy_Amy_tUfLW8,43
+umlsequence2/config.py,sha256=LyY0HdArojYuyP5WLuHqdpIo5Iqr8QxXkJYUdmylVXU,1446
+umlsequence2/converter.py,sha256=-GoRvYVKX4kXU3b4eVuY5Nzj46AXvpVkbPss1hmrA1Q,521
+umlsequence2/main.py,sha256=7jXS12ZKde0AwnawSvGBYWZweDSmuAknQj4v-lHsCkY,5749
+umlsequence2/parser.py,sha256=iKkFhuapJLiXn0FQY2ScM_0dA0K6Bu_I-Ifr4RysBxo,10986
+umlsequence2/svg_renderer.py,sha256=7JIoQ2Bdqq2y4wpioWv0GgojSqro9dSLgaL5TxwZJig,6073
+umlsequence2/uml_builder.py,sha256=dE-W_Ujb6bOdN14RYck02GuP_Lv6TU314sO3CKxgXPI,18895
+umlsequence2-2.0.4.post1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+umlsequence2-2.0.4.post1.dist-info/METADATA,sha256=TIy_meqOn1hJd4LJrXhCjRFnZ7X4JyJ6aUZDBGi5IOA,3758
+umlsequence2-2.0.4.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+umlsequence2-2.0.4.post1.dist-info/entry_points.txt,sha256=NjIyiiuzQfXHnw6M1aMVBuxzpsyj7XGw3PNE4eNwoUE,57
+umlsequence2-2.0.4.post1.dist-info/top_level.txt,sha256=k9eAcaEXYwd3advP9dyDXlF7PUhW5l-4-qRwaq_ceOY,13
+umlsequence2-2.0.4.post1.dist-info/RECORD,,
