@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gorillamind_scraper_test.egg-info/PKG-INFO
+gorillamind_scraper_test.egg-info/SOURCES.txt
+gorillamind_scraper_test.egg-info/dependency_links.txt
+gorillamind_scraper_test.egg-info/requires.txt
+gorillamind_scraper_test.egg-info/top_level.txt
+scraper/__init__.py
+scraper/gorilla_scraper.py
+test/__init__.py
+test/test_scraper.py
