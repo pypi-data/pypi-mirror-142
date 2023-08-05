@@ -1,0 +1,6 @@
+README.md
+setup.py
+easyprofiler.egg-info/PKG-INFO
+easyprofiler.egg-info/SOURCES.txt
+easyprofiler.egg-info/dependency_links.txt
+easyprofiler.egg-info/top_level.txt
