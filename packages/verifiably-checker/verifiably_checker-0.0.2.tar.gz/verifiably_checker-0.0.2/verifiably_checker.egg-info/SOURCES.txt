@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+verifiably_checker/__init__.py
+verifiably_checker/attestation.py
+verifiably_checker/root.pem
+verifiably_checker.egg-info/PKG-INFO
+verifiably_checker.egg-info/SOURCES.txt
+verifiably_checker.egg-info/dependency_links.txt
+verifiably_checker.egg-info/requires.txt
+verifiably_checker.egg-info/top_level.txt
