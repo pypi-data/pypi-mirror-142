@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: urw
+Version: 0.0.5
+Summary: Urdu word/phrase generator.
+Author: siphr
+Author-email: pypi@techtum.dev
+License: UNKNOWN
+Project-URL: Homepage, https://www.techtum.dev/work-urw-220310.html
+Project-URL: Source, https://github.com/siphr/urw
+Project-URL: Tracker, https://github.com/siphr/urw/issues
+Keywords: urdu,random,words,generator
+Platform: any
+
+URW
+===
+
+A random Urdu word generator.
+
+
+Details
+-------
+
+Uses a predefined set of words for enumeration.
+
+
+Package Usage
+-------------
+
+from urw import urw
+
+\# show a phrase made of n=2 random words
+urw.show_random_words(2)
+
+

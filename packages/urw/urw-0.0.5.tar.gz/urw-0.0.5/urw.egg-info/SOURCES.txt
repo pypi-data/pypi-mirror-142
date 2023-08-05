@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+urw/__init__.py
+urw/urw.py
+urw/wordlist.txt
+urw.egg-info/PKG-INFO
+urw.egg-info/SOURCES.txt
+urw.egg-info/dependency_links.txt
+urw.egg-info/top_level.txt
