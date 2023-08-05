@@ -1,0 +1,4 @@
+six
+lxml
+requests==2.18.4
+request-toolbelt
