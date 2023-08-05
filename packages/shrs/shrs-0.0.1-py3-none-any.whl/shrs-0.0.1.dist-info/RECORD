@@ -1,0 +1,9 @@
+shrs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shrs/__main__.py,sha256=uuouQUAF6kOCHlY6IOjj5yW7a6neG4Um49FkycBf9Pk,1154
+shrslib/__init__.py,sha256=V2hnOxXKcjMiusdGP8sOAR4QsBlWHQ0pZZMN2Cean6o,38
+shrslib/__version__.py,sha256=0VhyFV5MCZ7ZqHEWZbFmlwLQhJ8jqGsw-awDXbDMuyA,84
+shrs-0.0.1.dist-info/LICENSE,sha256=ZSgoW9M2FC29tLH2_9km5BzrHDC2sEdeuKhdH6blswo,1075
+shrs-0.0.1.dist-info/METADATA,sha256=Mcj45I2tfJP_u-i1vh-OBPOvWSiytK63mxCE8Fh-H_w,1777
+shrs-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shrs-0.0.1.dist-info/top_level.txt,sha256=1dGXfqkf42Fl0wxImThcPoR_KCRUjiClyOvgaIu57Xc,13
+shrs-0.0.1.dist-info/RECORD,,
