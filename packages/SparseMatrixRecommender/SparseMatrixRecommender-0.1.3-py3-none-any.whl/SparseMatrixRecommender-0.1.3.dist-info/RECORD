@@ -1,0 +1,12 @@
+SparseMatrixRecommender/CrossTabulate.py,sha256=yaSuJUAbX3JAforK8yrs2MMRtKIRT9O3wsinQ-Beh2Y,5107
+SparseMatrixRecommender/DataLoaders.py,sha256=ClEMp5nixlOI1H9fyYolRzBByPcmXGutLZtHlXrbZqw,2609
+SparseMatrixRecommender/DocumentTermWeightFunctions.py,sha256=7fVYogd13_MSehjcZRnDqowwyacVPtwUIx8uAZSqclQ,6647
+SparseMatrixRecommender/SparseMatrixRecommender.py,sha256=q_xuTZAMfJdL_hwCGrP1iCmnGHJW5y-sTmZr37wBymI,36369
+SparseMatrixRecommender/__init__.py,sha256=TIeMeUE2CySbbOA9xalIDXSSaTbN9tNAxmgYJr2Q6N0,446
+SparseMatrixRecommender/resources/dfMushroom.csv.gz,sha256=gn2vJGhb6IgKpz3MuCkm3QQYcBgKubTCh-_Spv2Rilw,69237
+SparseMatrixRecommender/resources/dfTitanic.csv,sha256=f2cq2jQETD2QHgIF9xicd-UFpfD32k6_JIlVbaUeMb4,38493
+SparseMatrixRecommender-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+SparseMatrixRecommender-0.1.3.dist-info/METADATA,sha256=NxO-Jo3n25kUljETuZYgvt6pPoSnZ4ULwcqeZFiKoIw,6998
+SparseMatrixRecommender-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SparseMatrixRecommender-0.1.3.dist-info/top_level.txt,sha256=agrcbIPW6gkJNpKiCrEiC9ijudNKwRvQF01Y0HN9FR0,24
+SparseMatrixRecommender-0.1.3.dist-info/RECORD,,
