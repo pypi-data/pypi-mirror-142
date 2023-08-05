@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: imreco
+Version: 0.0.1
+Summary: A cli program to resize images and convert between different formats.
+Home-page: https://github.com/tamton-aquib/imreco
+Author: aquib
+Author-email: aquibjavedt007@gmail.com
+License: MIT
+Keywords: image,resizer,converter
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
