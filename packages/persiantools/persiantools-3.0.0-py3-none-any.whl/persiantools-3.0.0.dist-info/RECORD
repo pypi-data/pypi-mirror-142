@@ -1,0 +1,10 @@
+persiantools/__init__.py,sha256=0nKBHWVaz9rLvUkbID0C29rLsYFQTNl-dE93janKFLE,600
+persiantools/characters.py,sha256=RYSNAj_XjspN7Gd9fK7BJSG7dziFq153rHSb4TmE0JQ,977
+persiantools/digits.py,sha256=u7w3hmG_Zpbg_t9YVbE4bGqkKKB2mWyvY5ETeWKRVsY,5077
+persiantools/jdatetime.py,sha256=gOW-falfiHDPl8M_leU2MGsaaBKeX1z9a0QtOqUyQTQ,38154
+persiantools/utils.py,sha256=YXhbvpVtyJk1ZCgAWQKgFKJN8BLF-zZyz2O9H232bdM,298
+persiantools-3.0.0.dist-info/LICENSE,sha256=cUpl9s7jkurUkLcrY4HLrH4I-w2HFjqzBNWbdolIIM4,1085
+persiantools-3.0.0.dist-info/METADATA,sha256=NCP8hZ20hv2zzP4FYtGBhJVUcjOEAadsxhHWPCz7Bjk,6026
+persiantools-3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+persiantools-3.0.0.dist-info/top_level.txt,sha256=FmfrvH3Sg_jSPTtHg7FISYB1sijpFrCRqNYSLHja_Nk,13
+persiantools-3.0.0.dist-info/RECORD,,
