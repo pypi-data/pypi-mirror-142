@@ -1,0 +1,18 @@
+ #!/bin/bash
+
+ORIGIN_VERSION=$(cat VERSION)
+pipenv run version-update $1
+NEW_VERSION=$(cat VERSION)
+MESSAGE="Bump version $1 from $ORIGIN_VERSION to $NEW_VERSION"
+
+echo $MESSAGE
+
+git add VERSION setup.cfg
+git commit -m "$MESSAGE"
+
+% if package:
+# deploy as package
+rm -rf dist
+pipenv run python -m build --sdist --wheel .
+pipenv run python -m twine upload --verbose --repository gitlab dist/*
+% endif
