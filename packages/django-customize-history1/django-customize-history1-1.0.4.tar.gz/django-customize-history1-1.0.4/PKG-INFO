@@ -1,0 +1,925 @@
+Metadata-Version: 2.1
+Name: django-customize-history1
+Version: 1.0.4
+Summary: Store model history and view/revert changes from admin site.
+Home-page: https://github.com/mayur-softices/djnago-customize-history/
+Author: Mayur Ariwala
+Author-email: mayur@softices.com
+License: MIT
+Description: #
+        d
+        j
+        a
+        n
+        g
+        o
+        -
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+        -
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        *
+        *
+        d
+        j
+        a
+        n
+        g
+        o
+        -
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+        -
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        *
+        *
+         
+        i
+        s
+         
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+         
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+         
+        f
+        e
+        a
+        t
+        u
+        r
+        e
+         
+        w
+        h
+        i
+        c
+        h
+         
+        i
+        s
+         
+        u
+        s
+        e
+        d
+         
+        t
+        o
+         
+        s
+        h
+        o
+        w
+         
+        t
+        h
+        e
+         
+        o
+        l
+        d
+         
+        a
+        n
+        d
+         
+        n
+        e
+        w
+         
+        v
+        a
+        l
+        u
+        e
+         
+        o
+        f
+         
+        m
+        o
+        d
+        e
+        l
+        '
+        s
+         
+        c
+        h
+        a
+        n
+        g
+        e
+         
+        f
+        i
+        e
+        l
+        d
+         
+        i
+        n
+         
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+         
+        a
+        c
+        t
+        i
+        o
+        n
+         
+        o
+        f
+         
+        a
+        d
+        m
+        i
+        n
+         
+        p
+        a
+        n
+        e
+        l
+        .
+        
+        
+        
+        
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        
+        
+        I
+        n
+        s
+        t
+        a
+        l
+        l
+        a
+        t
+        i
+        o
+        n
+        
+        
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        
+        
+        
+        
+        J
+        u
+        s
+        t
+         
+        u
+        s
+        e
+        :
+        
+        
+        
+        
+        :
+        :
+        
+        
+        
+        
+         
+         
+         
+         
+        p
+        i
+        p
+         
+        i
+        n
+        s
+        t
+        a
+        l
+        l
+         
+        d
+        j
+        a
+        n
+        g
+        o
+        -
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+        -
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        
+        
+        
+        
+        S
+        e
+        t
+        u
+        p
+        
+        
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        A
+        d
+        d
+         
+        *
+        *
+        d
+        j
+        a
+        n
+        g
+        o
+        _
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+        _
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        *
+        *
+         
+        t
+        o
+         
+        *
+        *
+        I
+        N
+        S
+        T
+        A
+        L
+        L
+        E
+        D
+        _
+        A
+        P
+        P
+        S
+        *
+        *
+         
+        i
+        n
+         
+        y
+        o
+        u
+        r
+         
+        s
+        e
+        t
+        t
+        i
+        n
+        g
+        s
+        .
+        p
+        y
+        ,
+         
+        e
+        .
+        g
+        .
+        :
+        
+        
+        
+        
+        :
+        :
+        
+        
+        
+        
+         
+         
+         
+         
+        I
+        N
+        S
+        T
+        A
+        L
+        L
+        E
+        D
+        _
+        A
+        P
+        P
+        S
+         
+        =
+         
+        [
+        
+        
+         
+         
+         
+         
+        .
+        .
+        .
+        
+        
+         
+         
+         
+         
+        '
+        d
+        j
+        a
+        n
+        g
+        o
+        _
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        s
+        e
+        _
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        '
+        ,
+        
+        
+         
+         
+         
+         
+        .
+        .
+        .
+        
+        
+        
+        
+        
+        
+        U
+        s
+        a
+        g
+        e
+        
+        
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        I
+        n
+        h
+        e
+        r
+        i
+        t
+         
+        f
+        r
+        o
+        m
+         
+        *
+        *
+        D
+        j
+        a
+        n
+        g
+        o
+        C
+        u
+        s
+        t
+        o
+        m
+        H
+        i
+        s
+        t
+        o
+        r
+        y
+        *
+        *
+         
+        t
+        o
+         
+        g
+        e
+        t
+         
+        t
+        h
+        e
+         
+        c
+        u
+        s
+        t
+        o
+        m
+         
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+         
+        f
+        e
+        a
+        t
+        u
+        r
+        e
+        .
+        
+        
+        
+        
+        a
+        d
+        m
+        i
+        n
+        .
+        p
+        y
+         
+        e
+        .
+        g
+        .
+        :
+        
+        
+        
+        
+        :
+        :
+        
+        
+        
+        
+         
+         
+         
+         
+        
+        
+         
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        d
+        j
+        a
+        n
+        g
+        o
+        .
+        c
+        o
+        n
+        t
+        r
+        i
+        b
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        a
+        d
+        m
+        i
+        n
+        
+        
+         
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        .
+        m
+        o
+        d
+        e
+        l
+        s
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        E
+        x
+        a
+        m
+        p
+        l
+        e
+        M
+        o
+        d
+        e
+        l
+        
+        
+         
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        d
+        j
+        a
+        n
+        g
+        o
+        _
+        c
+        u
+        s
+        t
+        o
+        m
+        i
+        z
+        e
+        _
+        h
+        i
+        s
+        t
+        o
+        r
+        y
+        .
+        a
+        d
+        m
+        i
+        n
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        D
+        j
+        a
+        n
+        g
+        o
+        C
+        u
+        s
+        t
+        o
+        m
+        H
+        i
+        s
+        t
+        o
+        r
+        y
+        
+        
+         
+         
+         
+         
+        
+        
+         
+         
+         
+         
+        @
+        a
+        d
+        m
+        i
+        n
+        .
+        r
+        e
+        g
+        i
+        s
+        t
+        e
+        r
+        (
+        E
+        x
+        a
+        m
+        p
+        l
+        e
+        M
+        o
+        d
+        e
+        l
+        )
+        
+        
+         
+         
+         
+         
+        c
+        l
+        a
+        s
+        s
+         
+        E
+        x
+        a
+        m
+        p
+        l
+        e
+        M
+        o
+        d
+        e
+        l
+        A
+        d
+        m
+        i
+        n
+        (
+        D
+        j
+        a
+        n
+        g
+        o
+        C
+        u
+        s
+        t
+        o
+        m
+        H
+        i
+        s
+        t
+        o
+        r
+        y
+        ,
+         
+        a
+        d
+        m
+        i
+        n
+        .
+        M
+        o
+        d
+        e
+        l
+        A
+        d
+        m
+        i
+        n
+        )
+        :
+        
+        
+         
+         
+         
+         
+         
+         
+         
+         
+        .
+        .
+        .
+        
+        
+Keywords: Django Customize History
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
