@@ -1,0 +1,5 @@
+voxcov-0.2.4.dist-info/METADATA,sha256=fw4h0JdIEToowRSW_Vcbh3-I1wSOI-L4axHeBqF1xiI,1854
+voxcov-0.2.4.dist-info/WHEEL,sha256=VwXaiSoH4wL10RVMRWwnjuMgt8c1zazXBk5xl4DdBA4,131
+voxcov/__init__.py,sha256=vV_rlCbgg4R_D9t6EmRBmiM_nTiA0aLBAoJiaVKGMVI,48
+voxcov/voxcov.cpython-310-x86_64-linux-gnu.so,sha256=4p73vp4xVgTHW1osmBna_Mn5halujq9i_cm4bL86nuU,3899152
+voxcov-0.2.4.dist-info/RECORD,,
