@@ -1,0 +1,5 @@
+alive_progress==2.3.1
+colorama==0.4.4
+PyMySQL==0.9.3
+pyarrow==7.0.0
+XlsxWriter==3.0.2

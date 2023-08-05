@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mysql2file=mysql2file.cli:cli
+    
