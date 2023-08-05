@@ -1,0 +1,10 @@
+motivus/__init__.py,sha256=YLioaC737bv1i3dcp1GkeVu9LwK7aljJJ7LVklPmSBM,121
+motivus/__main__.py,sha256=DqXux87ecmCkoMYsLrgVEGKyhHMp4pkWqi5O18A4eOk,96
+motivus/cli.py,sha256=vtP3wmrYk2sBYn0SGSP9tOfiVYngf00bZ2mX3Mn0X0k,8495
+motivus/client.py,sha256=yQzq0XRBsP9sxq1-nHPl5umnZ9X5NSE4cbMM4H4YHdI,11436
+motivus-1.5.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+motivus-1.5.2.dist-info/METADATA,sha256=9K6Hc_t8kJJdLYCgwCE4ivNQH1Af2TEr0vA-jAvaH48,2603
+motivus-1.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+motivus-1.5.2.dist-info/entry_points.txt,sha256=KFB7Y1LikxYrHEkfazCJSaf1yyF8OK38e_rNn3unIAA,44
+motivus-1.5.2.dist-info/top_level.txt,sha256=QM9RcjkeGDIaw8u-w6oMOQWA8OZcrcHqA1vCbb2fbE8,8
+motivus-1.5.2.dist-info/RECORD,,
