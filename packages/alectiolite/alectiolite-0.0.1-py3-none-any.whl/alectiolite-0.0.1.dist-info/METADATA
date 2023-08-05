@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: alectiolite
+Version: 0.0.1
+Summary: Integrate customer side ML application with the Alectio Platform
+Home-page: https://github.com/alectio/alectio-lite
+Author: Alectio
+Author-email: admin@alectio.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: requests (>=2)
+Requires-Dist: tqdm (==4.63.0)
+Requires-Dist: boto3 (==1.16.11)
+Requires-Dist: botocore (==1.19.52)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: s3transfer (==0.3.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: scikit-learn (==0.22.1)
+Requires-Dist: hurry.filesize
+Requires-Dist: sentry-sdk (==0.15.1)
+Requires-Dist: psutil (==5.7.0)
+Requires-Dist: wheel
+Requires-Dist: blinker
+Requires-Dist: redis
+Requires-Dist: pickle-mixin
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: protobuf
+Requires-Dist: tabulate
+Requires-Dist: aiohttp
+Requires-Dist: gql
+Requires-Dist: asyncio
+Requires-Dist: aiogqlc (==1.0.5)
+Requires-Dist: envyaml
+Requires-Dist: pyarrow (==0.16.0)
+Requires-Dist: rich
+Requires-Dist: yacs
+Requires-Dist: pandas
+Requires-Dist: smart-open
+Requires-Dist: s3fs
+Requires-Dist: awswrangler
+Requires-Dist: python-snappy
+Requires-Dist: duckdb
+Requires-Dist: pycocotools
+
+# Alectiolite
+New SDK format <br />
+
+
+# Brief instructions 
+conda create -n myenv python=3.6 <br />
+conda activate myenv<br />
+
+# Testing
+## Temporary installation instructions until stable and publishable
+python setup.py sdist bdist_wheel <br />
+pip install . <br />
+
+## Temporary uninstallation instructions
+rm -fr  < path-to-alectio-lite-installation > <br />
+rm -rf ./build <br />
+rm -rf ./alectiolite.egg-info <br />
+rm -rf ./dist <br />
+
+## TODO 
+- creating docstrings <br />
+
+
