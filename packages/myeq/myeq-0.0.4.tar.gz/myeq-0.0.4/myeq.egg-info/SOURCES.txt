@@ -1,0 +1,8 @@
+README.md
+setup.py
+myeq/__init__.py
+myeq/distance.py
+myeq.egg-info/PKG-INFO
+myeq.egg-info/SOURCES.txt
+myeq.egg-info/dependency_links.txt
+myeq.egg-info/top_level.txt
