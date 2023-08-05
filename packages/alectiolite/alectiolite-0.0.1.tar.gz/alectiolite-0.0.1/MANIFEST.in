@@ -1,0 +1,17 @@
+include MANIFEST.in
+include LICENSE
+include requirements.txt
+include pyproject.toml
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.orig
+recursive-exclude test *
+recursive-exclude examples *
+include backend
+include callbacks
+include curate
+include config
+include proto
+include logger
+include filter
