@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nat/__init__.py
+nat/nat_amc_zynqup_sdr4.py
+nat/nat_amc_zynqup_sdr8.py
+pynat_iio.egg-info/PKG-INFO
+pynat_iio.egg-info/SOURCES.txt
+pynat_iio.egg-info/dependency_links.txt
+pynat_iio.egg-info/requires.txt
+pynat_iio.egg-info/top_level.txt
