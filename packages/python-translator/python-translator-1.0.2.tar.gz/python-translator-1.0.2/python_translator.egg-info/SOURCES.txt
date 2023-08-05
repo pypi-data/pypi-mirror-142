@@ -1,0 +1,9 @@
+setup.py
+python_translator/__init__.py
+python_translator/exceptions.py
+python_translator/lang_codes.py
+python_translator/translator.py
+python_translator.egg-info/PKG-INFO
+python_translator.egg-info/SOURCES.txt
+python_translator.egg-info/dependency_links.txt
+python_translator.egg-info/top_level.txt
