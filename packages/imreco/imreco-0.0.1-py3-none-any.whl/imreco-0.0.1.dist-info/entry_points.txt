@@ -1,0 +1,2 @@
+[console_scripts]
+imreco = imreco.imreco:main
