@@ -1,0 +1,9 @@
+bicpl/__init__.py,sha256=ns7QWIXE_nZPBUJ2UJN_EkjbGqmMSEG6i-jDQR42pbQ,182
+bicpl/math.py,sha256=Zy-4E1E_JGjVQ1FggCBK5gNZqKuiZj2QS6aMe3PHRk0,1070
+bicpl/obj.py,sha256=8SgOSyJuLvPMuXuRGebFvuEN6R-Sn1x8rr4dp6Mhqs4,7722
+bicpl/types.py,sha256=s4GSRFaKKR1YYNL3LaiS7YXMqCIpFK5yvwNvJ68xV54,1208
+pybicpl-0.3.1.dist-info/LICENSE,sha256=t4cwwwLO5hZxAR8ysP9dMtFT09yoNNeK3XGwbiDNOcQ,1068
+pybicpl-0.3.1.dist-info/METADATA,sha256=Tvf5C0VNM3ULrUqxHTS8GT-s6TAZ17y2lO3rPUxM9uI,413
+pybicpl-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pybicpl-0.3.1.dist-info/top_level.txt,sha256=UkXS1tU1m9KsHpg0s6DG-8zlgeT_mhTDiQiUTPGMitw,6
+pybicpl-0.3.1.dist-info/RECORD,,
