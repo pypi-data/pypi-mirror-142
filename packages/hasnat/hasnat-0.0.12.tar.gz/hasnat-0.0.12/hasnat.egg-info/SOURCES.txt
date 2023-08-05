@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hasnat/__init__.py
+hasnat.egg-info/PKG-INFO
+hasnat.egg-info/SOURCES.txt
+hasnat.egg-info/dependency_links.txt
+hasnat.egg-info/top_level.txt
