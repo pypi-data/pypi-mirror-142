@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: abi-ds-utils
+Version: 0.1.1
+Summary: Utility modules for working with mlflow, containers, aws and many more.
+License: Private
+Author: Martin Matousek
+Requires-Python: ==3.8.8
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: boto3 (>=1.21.14,<2.0.0)
