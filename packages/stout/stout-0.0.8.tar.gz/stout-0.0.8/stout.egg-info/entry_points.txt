@@ -1,0 +1,3 @@
+[console_scripts]
+stout = stout.command_line:main
+

@@ -1,0 +1,13 @@
+FROM ubuntu:18.04
+
+RUN apt-get update && apt-get install -y python3 python3-pip
+RUN python3 -m pip install --upgrade pip
+
+WORKDIR /app
+COPY . .
+
+RUN  if test -e requirements.txt; then pip install -r requirements.txt; fi
+
+ARG SCRIPT
+
+CMD python3 ${SCRIPT}
