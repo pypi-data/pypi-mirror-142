@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""[summary]
+"""
+import click
+
+from energinetml.cli.utils import discover_model
+from energinetml.core.http import run_predict_api
+from energinetml.core.model import Model
+
+
+@click.command()
+@discover_model()
+@click.option(
+    "--trained-model-file",
+    "trained_model_file",
+    type=click.Path(file_okay=True, resolve_path=True),
+    help="Trained model file",
+)
+@click.option(
+    "--host",
+    default="127.0.0.1",
+    type=str,
+    help="Host to serve on (default: 127.0.0.1)",
+)
+@click.option("--port", default=8080, type=int, help="Port to serve on (default: 8080)")
+@click.option(
+    "--model-version",
+    "model_version",
+    required=False,
+    type=str,
+    default="Unspecified",
+    help="Model version (used for logging)",
+)
+def serve(
+    host: str,
+    port: int,
+    model: Model,
+    trained_model_file: str,
+    model_version: str = None,
+) -> None:
+    """Serve a HTTP web API for model prediction."""
+    trained_model = model.load(trained_model_file)
+
+    run_predict_api(
+        model=model,
+        trained_model=trained_model,
+        model_version=model_version,
+        host=host,
+        port=port,
+    )
