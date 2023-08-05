@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-seafile-2022
+Version: 0.0.1
+Summary: Client interface for Seafile Web API(2022)
+Home-page: https://github.com/JohnEskimSmith/python-seafile-2022
+Author: Igor Rumyantsev, Andrey Skhomenko
+Author-email: andrew.foma@gmail.com
+License: BSD
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: requests
+
+UNKNOWN
+
