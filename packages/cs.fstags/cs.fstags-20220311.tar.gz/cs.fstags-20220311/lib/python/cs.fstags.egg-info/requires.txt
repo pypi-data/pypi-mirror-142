@@ -1,0 +1,13 @@
+cs.cmdutils>=20210404
+cs.context
+cs.deco
+cs.fileutils
+cs.lex
+cs.logutils
+cs.pfx
+cs.resources
+cs.tagset>=20211212
+cs.threads
+cs.upd
+icontract
+typeguard
