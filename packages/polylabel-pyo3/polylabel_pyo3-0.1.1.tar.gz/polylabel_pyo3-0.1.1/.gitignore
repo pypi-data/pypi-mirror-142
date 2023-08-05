@@ -1,0 +1,22 @@
+/target
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+
+# Unit test / coverage reports
+
+.DS_Store
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/

@@ -1,0 +1,26 @@
+[package]
+authors = ["Alexander Hirner <alexander.hirner@moonvision.io>"]
+license = "MIT"
+repository = "https://github.com/MoonVision/polylabel-pyo3"
+homepage = "https://github.com/MoonVision/polylabel-pyo3"
+name = "polylabel-pyo3"
+version = "0.1.1"
+edition = "2018"
+readme = "Readme.md"
+keywords = ["geometry", "geo", "polylabel", "opimization", "python", "pyo3"]
+description = "Polylabel algorithm for optimal label centers in polygons (python wheels)."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package.metadata.maturin]
+python-source = "python"
+
+[lib]
+name = "polylabel_pyo3"
+crate-type = ["cdylib"]
+
+[dependencies]
+polylabel = "2.4.0"
+geo = "*"
+pyo3 = { version = "0.16", features = ["extension-module"] }
+numpy = "0.16"

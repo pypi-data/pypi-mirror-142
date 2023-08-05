@@ -1,0 +1,13 @@
+name: Benchmark
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: python3 -m pip install . -r requirements.txt
+      - run: python3 -m pytest benchmarks
