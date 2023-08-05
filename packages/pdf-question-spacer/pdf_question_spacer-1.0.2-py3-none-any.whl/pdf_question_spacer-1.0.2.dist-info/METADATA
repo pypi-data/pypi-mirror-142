@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pdf-question-spacer
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/LaurenceWarne/pdf-question-spacer
+Author: Laurence Warne
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: opencv-python
+Requires-Dist: pytesseract
+Requires-Dist: fuzzywuzzy
+Requires-Dist: matplotlib
+Requires-Dist: python-Levenshtein
+Requires-Dist: pdf2image
+Requires-Dist: Pillow
+
+UNKNOWN
+

@@ -1,0 +1,16 @@
+pdf_question_spacer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_question_spacer/space_pdf.py,sha256=3NwtaGssV32sCDaW26P0nL16ER9VMPHeYYVOC7TtHNw,5340
+pdf_question_spacer/text_row_extractors.py,sha256=b5uh7IqjCoHYNBCSz7znURuZyp5jx9vk5fn3fRuttmw,2413
+pdf_question_spacer/text_row_filters.py,sha256=LQybXJAUX7kVllZF0IlsmkZ_Ly_i19c-PBZjlFPMPmM,7252
+pdf_question_spacer/whitespace_inserter.py,sha256=bkWNROJqZWJvwlOouRyj8OXTTM7BZn1Hb9eRzpYMmOQ,5252
+pdf_question_spacer-1.0.2.data/scripts/space-pdf-interactive,sha256=hFXM4M2vMQEDSJPOYSx-k7TsYfE4qIuIt37VX793bqI,110
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/text_row_extractors_test.py,sha256=Ib434B0rgcuIApgA1w3UsDZu74IiW3kvUsorqr4tjkQ,4072
+tests/text_row_filters_test.py,sha256=egz_xrREpIqHkfawQ2_0meGfYQUtwvA7ilHYQf2Bgw8,1527
+tests/whitespace_insert_test.py,sha256=xirDATS7eG9KUhUrkGcG9WBgy0FTZTfTfEobI2IvEQo,9179
+pdf_question_spacer-1.0.2.dist-info/LICENSE,sha256=XeM59KP05tI1TPyteNB3GVtR9HdrU21APMu16THSGHQ,1071
+pdf_question_spacer-1.0.2.dist-info/METADATA,sha256=3bH-eoo_0AbFD1SA7jd8XMtIl1EYbzmThlOib-AguAA,474
+pdf_question_spacer-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdf_question_spacer-1.0.2.dist-info/entry_points.txt,sha256=DX1ECCTxxKjQ_45_Cbwx1Ha8_Hg3XNUOQuNL161i0AU,65
+pdf_question_spacer-1.0.2.dist-info/top_level.txt,sha256=rDM-_VGL0JMA86uW7vD7n7majrRdKxyBIUanmsaUk3s,26
+pdf_question_spacer-1.0.2.dist-info/RECORD,,
