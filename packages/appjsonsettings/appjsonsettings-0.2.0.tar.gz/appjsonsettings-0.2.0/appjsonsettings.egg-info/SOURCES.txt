@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+appjsonsettings/__init__.py
+appjsonsettings.egg-info/PKG-INFO
+appjsonsettings.egg-info/SOURCES.txt
+appjsonsettings.egg-info/dependency_links.txt
+appjsonsettings.egg-info/top_level.txt
