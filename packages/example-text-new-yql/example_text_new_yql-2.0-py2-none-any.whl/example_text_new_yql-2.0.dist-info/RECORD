@@ -1,0 +1,16 @@
+example_text_new_yql/__init__.py,sha256=3DutNcPCkCsYUQ4UtMg4yGv1y-uA3IHjISgWXfN8xqo,191
+example_text_new_yql/main.py,sha256=zTMz2ezCA9hu6P9cEE9MXEFoXJraN0EOVNh-VokHyH8,299
+example_text_new_yql/test.py,sha256=0uJ0jrDA3DFA2pqTMrFRoty_CxoOcwYQgakgnu_-QUQ,185
+example_text_new_yql-2.0.dist-info/DESCRIPTION.rst,sha256=2-x0z4EdoB5-CM3QH38AxXEWBcYqPcVszzT1ExijvjY,79
+example_text_new_yql-2.0.dist-info/METADATA,sha256=DUKdZyBhn5BHtVrRcSSeAtW0jVJsujC9NB2VdzuOoG8,910
+example_text_new_yql-2.0.dist-info/RECORD,,
+example_text_new_yql-2.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+example_text_new_yql-2.0.dist-info/metadata.json,sha256=W4mR7GhlCGEjQhTIzy4bnCbJymgE79LjPhA8gz6t7cw,949
+example_text_new_yql-2.0.dist-info/top_level.txt,sha256=AwKBstzrYqq7XPCjFHgLSfpCVAhSeJqBt9EbnNgA4Nw,21
+example_text_yql/__init__.py,sha256=3DutNcPCkCsYUQ4UtMg4yGv1y-uA3IHjISgWXfN8xqo,191
+example_text_yql/main.py,sha256=zTMz2ezCA9hu6P9cEE9MXEFoXJraN0EOVNh-VokHyH8,299
+example_text_yql/test.py,sha256=0uJ0jrDA3DFA2pqTMrFRoty_CxoOcwYQgakgnu_-QUQ,185
+example_text_yql/data/data.dat,sha256=dJqywNBsQq47hBt555h18Cs6BC5DySN4zSi9REwE0oQ,4
+foo/example_text_yql/__init__.py,sha256=3DutNcPCkCsYUQ4UtMg4yGv1y-uA3IHjISgWXfN8xqo,191
+foo/example_text_yql/main.py,sha256=viZaw21IqhCw5kAPdG-vqQdAM08QR1CSu5hqdZyDAEA,283
+foo/example_text_yql/test.py,sha256=0uJ0jrDA3DFA2pqTMrFRoty_CxoOcwYQgakgnu_-QUQ,185
