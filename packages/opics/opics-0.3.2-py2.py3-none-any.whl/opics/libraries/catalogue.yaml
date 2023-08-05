@@ -1,0 +1,24 @@
+ebeam:
+  dl_link: https://github.com/jaspreetj/opics_ebeam/archive/refs/tags/0.3.34.zip
+  installed: true
+  library_path: C:\Users\jeida\Desktop\delete/opics_ebeam-0.3.34/
+  name: ebeam
+  version: 0.3.34
+shuksan:
+  dl_link: https://github.com/jaspreetj/opics_shuksan/archive/refs/tags/0.1.1.zip
+  installed: false
+  library_path: null
+  name: shuksan
+  version: 0.1.1
+general:
+  dl_link:
+  installed: true
+  library_path: C:\Users\jeida\Desktop\temp_library/
+  name: general
+  version: 0.1
+temporary:
+  dl_link:
+  installed: true
+  library_path: C:\Users\jeida\Desktop\temp_library/
+  name: temporary
+  version: 0.1
