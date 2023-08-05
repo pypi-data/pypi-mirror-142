@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyTTF/__init__.py
+pyTTF/pyTTF.py
+pyTTF.egg-info/PKG-INFO
+pyTTF.egg-info/SOURCES.txt
+pyTTF.egg-info/dependency_links.txt
+pyTTF.egg-info/top_level.txt
