@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: packup
+Version: 0.1.0
+Summary: A full-fledged Python/C-Extension packaging frontend for humans
+License: Apache-2.0
+Author: Adam Hendry
+Author-email: adam.grant.hendry@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
