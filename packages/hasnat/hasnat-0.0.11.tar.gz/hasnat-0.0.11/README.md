@@ -1,0 +1,2 @@
+# hasnat
+import hasnat
