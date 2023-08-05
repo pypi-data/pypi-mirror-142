@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+pyproject.toml
+readme.md
+setup.cfg
+setup.py
+src/DataControl.egg-info/PKG-INFO
+src/DataControl.egg-info/SOURCES.txt
+src/DataControl.egg-info/dependency_links.txt
+src/DataControl.egg-info/top_level.txt
+src/datacontrol/__init__.py
+src/datacontrol/qunat.py
+src/datacontrol/textfill.py
