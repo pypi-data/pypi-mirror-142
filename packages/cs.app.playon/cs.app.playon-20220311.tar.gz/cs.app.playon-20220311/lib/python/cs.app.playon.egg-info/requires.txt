@@ -1,0 +1,17 @@
+cs.cmdutils
+cs.context
+cs.deco
+cs.fileutils>=20210731
+cs.fstags
+cs.lex
+cs.logutils
+cs.pfx>=20210731
+cs.progress
+cs.resources
+cs.result
+cs.sqltags
+cs.threads
+cs.units
+cs.upd
+requests
+typeguard
