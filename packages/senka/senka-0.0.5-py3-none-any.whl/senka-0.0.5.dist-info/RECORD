@@ -1,0 +1,8 @@
+senka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senka/plugin_manager.py,sha256=Vb48sjF-glI7HIDFXDZTqDVt1o6my9YHVlooV2ZGwwQ,923
+senka/senka.py,sha256=1aDu15lo3lHo9javBlM3ypNQJLcJA5NOdyJMDM3JJZk,2059
+senka/unknown_transaction.py,sha256=ecWZwyQQOL0PhhNY5jl78o3rljsxRxkxJoO8uE_jq5k,225
+senka-0.0.5.dist-info/LICENSE,sha256=e37dNwGaSWn3RDyU8q1Tqui_F6WebIZZGJwOMsFeqTA,1066
+senka-0.0.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+senka-0.0.5.dist-info/METADATA,sha256=NfRHAiFzcQSRT4WtB4Zd_xEEdoQ5Hn89qVhzr9x9Qjs,534
+senka-0.0.5.dist-info/RECORD,,
