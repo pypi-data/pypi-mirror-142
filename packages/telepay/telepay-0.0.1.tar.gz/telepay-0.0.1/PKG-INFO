@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: telepay
+Version: 0.0.1
+Summary: Python SDK for the TelePay API
+Home-page: https://github.com/TelePay-cash/telepay-python
+License: MIT
+Keywords: payments,gateway,cryptocurrencies,TON
+Author: Carlos Lugones
+Author-email: contact@lugodev.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Bug Tracker, https://github.com/TelePay-cash/telepay-python/issues
+Project-URL: Repository, https://github.com/TelePay-cash/telepay-python
+Description-Content-Type: text/markdown
+
+# telepay-python
+
+Python SDK for the TelePay API
+
