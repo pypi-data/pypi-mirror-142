@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: MoleculeACE
+Version: 1.0.8
+Summary: MoleculeACE
+Home-page: https://github.com/derekvantilborg/MoleculeACE
+Author: Derek van Tilborg
+Author-email: d.w.v.tilborg@tue.nl
+License: MIT
+Platform: UNKNOWN
+License-File: LICENCE
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: twine
+Requires-Dist: importlib-metadata
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: chembl-webresource-client
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: python-Levenshtein
+Requires-Dist: progress
+Requires-Dist: rdkit-pypi
+
+UNKNOWN
+
