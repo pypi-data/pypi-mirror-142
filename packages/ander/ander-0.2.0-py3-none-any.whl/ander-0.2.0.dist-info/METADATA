@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ander
+Version: 0.2.0
+Summary: A CLI tool to identify elements that are contained in both file
+Home-page: https://github.com/joe-yama/ander
+License: MIT
+Author: Josuke Yamane
+Author-email: s1r0mqme@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire
+Project-URL: Repository, https://github.com/joe-yama/ander
+Description-Content-Type: text/markdown
+
+# ander: A CLI tool to identify elements that are contained in both file
+
+![PyPi ver](https://img.shields.io/pypi/v/ander?style=flat-square)
+![LICENSE budge](https://img.shields.io/github/license/joe-yama/ander?style=flat-square)
+
+## Basic Usage
+
+```bash
+$ cat file1.txt
+duplicated
+notduplicated
+
+$ cat file2.txt
+duplicated
+not duplicated
+
+$ ander file1.txt file2.txt
+duplicated
+```
+
+## Installation
+
+```bash
+$ pip install ander
+```
+
+### Requirements
+
+- Python >= 3.6
+- Some Python Libraries (see `pyproject.toml`)
+
+## License
+
+This software is released under the MIT License, see LICENSE.
+

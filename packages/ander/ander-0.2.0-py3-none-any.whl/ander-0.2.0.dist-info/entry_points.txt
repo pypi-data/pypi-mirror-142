@@ -1,0 +1,3 @@
+[console_scripts]
+ander=ander.cli:main
+
