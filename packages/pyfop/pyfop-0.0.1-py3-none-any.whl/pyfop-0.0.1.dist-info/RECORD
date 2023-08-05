@@ -1,0 +1,8 @@
+pyfop/__init__.py,sha256=Ltvy1nzzD5ty2Iplwkawr3mC-arGn2qyk7JTb1JbBw8,40
+pyfop/core.py,sha256=lA_8569Cz2m_dQEwexeG4g0uIAMHh9ThH57t6dmPbaI,3784
+tests/test.py,sha256=IrzeMXDQwK05kaU35yQ7phMKJwYFubsvsEqgTIzTZhM,3281
+pyfop-0.0.1.dist-info/LICENSE.txt,sha256=EouM7s-oxRtS-T3BbhPhCSj3JFrA1m1QjlLj1zlq6LA,11555
+pyfop-0.0.1.dist-info/METADATA,sha256=_CF7PgYCJR0jUXgR_PnFY4pDapdHb3pLe8gmOdHrPIg,5970
+pyfop-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyfop-0.0.1.dist-info/top_level.txt,sha256=p4XbqxsVP2pPa-ic0-TO0bd0iMBSS1VtKukXVT3HGwU,12
+pyfop-0.0.1.dist-info/RECORD,,
