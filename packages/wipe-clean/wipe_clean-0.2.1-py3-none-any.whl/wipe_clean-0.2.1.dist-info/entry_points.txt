@@ -1,0 +1,3 @@
+[console_scripts]
+wipe-clean=wipe_clean.main:_outer_cli
+
