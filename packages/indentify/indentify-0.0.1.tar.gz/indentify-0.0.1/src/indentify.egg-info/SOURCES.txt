@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/indentify/__init__.py
+src/indentify/__main__.py
+src/indentify.egg-info/PKG-INFO
+src/indentify.egg-info/SOURCES.txt
+src/indentify.egg-info/dependency_links.txt
+src/indentify.egg-info/entry_points.txt
+src/indentify.egg-info/requires.txt
+src/indentify.egg-info/top_level.txt
