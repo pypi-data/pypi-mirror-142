@@ -1,0 +1,11 @@
+Tailer/LocalAligner.py,sha256=p4cL72ShCYTKYmGBbDw9KmjW8VgB_WRJvK9QW6TB__o,9298
+Tailer/Tailer.py,sha256=mqw6jB-JWCSvAaRVt3ubt23PTVwaTr06R1o_9PICAj0,3872
+Tailer/TailerFunctions.py,sha256=pWwPgt__VJvbRlKLP14mRM-xSqGbVMEPI2cBM7YnOrA,12694
+Tailer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Tailer/miRNA_tailer.py,sha256=hVh7Eaj3qt6cTTLq6IZ4R-AbuAMkumJlm2tevOvb1nc,5498
+jla_tailer-0.1.18.dist-info/LICENSE,sha256=9cMeyl_voFH6wUn9Il5yO0aeAZhwjPH93tdw5AaB76k,1057
+jla_tailer-0.1.18.dist-info/METADATA,sha256=A_x4NJozhcQNoIQ2TYWqfHwRgsdlsnxq5SyMKU4mhWQ,3002
+jla_tailer-0.1.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jla_tailer-0.1.18.dist-info/entry_points.txt,sha256=LnZyHe0WxkdhWz4-aATKr689_kiQHb73x-vdirAarj8,46
+jla_tailer-0.1.18.dist-info/top_level.txt,sha256=oSbUOCDRaRYRpzVmWyzYishKGljxwX06Y7Mn_x62stc,7
+jla_tailer-0.1.18.dist-info/RECORD,,
