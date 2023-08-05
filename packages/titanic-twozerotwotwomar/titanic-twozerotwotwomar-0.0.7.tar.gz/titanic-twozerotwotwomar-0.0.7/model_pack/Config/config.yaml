@@ -1,0 +1,37 @@
+
+
+#Test_Train:
+TARGET: survived
+test_size: 0.2
+Random_State: 0
+
+
+#Model_Params:
+Model_name: logistic_regression
+C: 0.0005
+Model_random_State: 0
+
+
+#Pipeline:
+NUMERICAL_VARIABLES:
+  - age
+  - fare
+
+CATEGORICAL_VARIABLES: 
+  - sex
+  - cabin
+  - embarked
+  - title
+
+CABIN: 
+  - cabin
+
+SALUTATION: 
+  - name
+
+DROP:
+  - name
+  - ticket
+  - boat
+  - body
+  - home_dest
