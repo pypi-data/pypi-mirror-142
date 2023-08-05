@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: mxos-east
+Version: 0.0.5
+Summary: Tool for build MXOS application.
+Home-page: https://github.com/smartsnow/east
+Author: Snow Yang
+Author-email: snowyang.iot@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/smartsnow/east/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+
+This is the MXOS meta tool, ``east``.
+
+https://www.mxchip.com
+
+Installation
+------------
+
+Using pip:
+
+``pip3 install mxos-east``
+
+(Use ``pip3 uninstall mxos-east`` to uninstall it.)
+
+Basic Usage
+-----------
+
+Build ``demos/helloworld`` and flash APP image into EMC3080.
+
+``east build -m emc3080 demos/helloworld -f APP``
+
+Additional Commands
+-------------------
+
+East has multiple sub-commands. 
+
+For a list of available commands, run ``east -h``. Get help on a
+command with ``east <command> -h``.
+
+
