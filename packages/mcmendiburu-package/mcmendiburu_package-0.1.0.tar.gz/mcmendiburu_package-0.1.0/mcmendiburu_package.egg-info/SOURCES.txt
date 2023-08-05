@@ -1,0 +1,8 @@
+setup.py
+mcmendiburu_package/Inverse.py
+mcmendiburu_package/__init__.py
+mcmendiburu_package.egg-info/PKG-INFO
+mcmendiburu_package.egg-info/SOURCES.txt
+mcmendiburu_package.egg-info/dependency_links.txt
+mcmendiburu_package.egg-info/requires.txt
+mcmendiburu_package.egg-info/top_level.txt
