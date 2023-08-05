@@ -1,0 +1,11 @@
+deadlink/__about__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+deadlink/__init__.py,sha256=k54PhVVuNe2azpjMiW5cQ7UHxmEZuS6uQlZhSxFwpko,145
+deadlink/_check.py,sha256=SI6w056honbcc2bSjI1-WqzvBwwDfsZxrUOJfR7ZAAM,2059
+deadlink/_cli.py,sha256=ztvqpEbIiIzLN1-wF6Bj0ZbqM-mma4FXtaTBXA4j1lw,4505
+deadlink/_main.py,sha256=GGxK5ym_Vl_3SIHJ1ITDdCYQ9XoOm-VR1gJdpwcsJ-I,10699
+deadlink/_replace_redirects.py,sha256=HqcWoVp34T7HsIVjcopsfGqDyLX2pJIMOawR3MZ1OcU,2894
+deadlink-0.5.0.dist-info/entry_points.txt,sha256=3ECYX4lkiN7kZM8be8VzBTWdI72KAsxXsEa8gNfmGG4,41
+deadlink-0.5.0.dist-info/LICENSE,sha256=ArQBjrswd2ZM1q91VEA5wrO04wVgS8TAw7VwGL_yGDQ,1086
+deadlink-0.5.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+deadlink-0.5.0.dist-info/METADATA,sha256=vP-HbhenzK9hH-TDAgBZX-zmGxEbGqG1iLZqPxxv11A,3682
+deadlink-0.5.0.dist-info/RECORD,,
