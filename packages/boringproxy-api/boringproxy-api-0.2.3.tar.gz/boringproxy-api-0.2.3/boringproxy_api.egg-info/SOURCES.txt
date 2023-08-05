@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+boringproxy_api/__init__.py
+boringproxy_api/boringproxy_api.py
+boringproxy_api.egg-info/PKG-INFO
+boringproxy_api.egg-info/SOURCES.txt
+boringproxy_api.egg-info/dependency_links.txt
+boringproxy_api.egg-info/requires.txt
+boringproxy_api.egg-info/top_level.txt
