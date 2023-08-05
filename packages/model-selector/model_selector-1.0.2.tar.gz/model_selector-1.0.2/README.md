@@ -1,0 +1,6 @@
+
+# Model-Selection
+There are a lot of predictive modeling algorithms in machine learning (ML) in engineering applications. Predictive modeling is the problem of developing a model using historical data to predict new data where we do not have the answer. Predictive modeling can be described as the mathematical problem of approximating a mapping function (f) from input variables (X) to output variables (y). This is called the problem of function approximation. Generally, we can divide all function approximation tasks into classification and regression tasks. 
+Regression models include Single and Multiple Linear Regression, Decision Tree, Polynomial, Random Forest, and Support Vector. Classification models include Decision Tree, K-Nearest Neighbors, Kernel SVM, Logistic Regression, Naïve Bayes, Random Forest, and Support Vector Machine.
+One of the most frequently asked questions in the data science community seeks to determine which regression or classification model is best suited to be used on different datasets. This project aims to build a python package that will help you evaluate your regression models to select the best model for your dataset quickly and efficiently. Provide the file path to your dataset with some optional parameters and watch this package do the rest of the work for you.
+

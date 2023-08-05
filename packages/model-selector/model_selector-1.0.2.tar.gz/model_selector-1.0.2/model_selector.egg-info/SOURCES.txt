@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+model_selector/__init__.py
+model_selector.egg-info/PKG-INFO
+model_selector.egg-info/SOURCES.txt
+model_selector.egg-info/dependency_links.txt
+model_selector.egg-info/top_level.txt
+model_selector/classification/__init__.py
+model_selector/classification/base_classification.py
+model_selector/classification/evaluate.py
+model_selector/classification/models.py
+model_selector/regression/__init__.py
+model_selector/regression/base_regression.py
+model_selector/regression/evaluate.py
+model_selector/regression/models.py
