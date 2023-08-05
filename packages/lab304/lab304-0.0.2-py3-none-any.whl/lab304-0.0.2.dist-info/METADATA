@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lab304
+Version: 0.0.2
+Summary: sharing code in lab 304
+Home-page: UNKNOWN
+Author: wei yang, 
+Author-email: test@test.com
+License: MIT-0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+UNKNOWN
+
