@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "restructuredtext.confPath": "",
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
