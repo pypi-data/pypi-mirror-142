@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: django-customize-history1
+Version: 1.0.7
+Summary: Store model history and view/revert changes from admin site.
+Home-page: https://github.com/mayur-softices/djnago-customize-history/
+Author: Mayur Ariwala
+Author-email: mayur@softices.com
+License: MIT
+Description: #django-customise-history
+        ========================
+        
+        **django-customise-history** is customise history feature which is used to show the old and new value of model's change field in history action of admin panel.
+        
+        ------------
+        Installation
+        ------------
+        
+        Just use:
+        
+        ::
+        
+            pip install django-customise-history
+        
+        Setup
+        =====
+        
+        Add **django_customise_history** to **INSTALLED_APPS** in your settings.py, e.g.:
+        
+        ::
+        
+            INSTALLED_APPS = [
+            ...
+            'django_customise_history',
+            ...
+        
+        
+        Usage
+        =====
+        
+        Inherit from **DjangoCustomHistory** to get the custom history feature.
+        
+        admin.py e.g.:
+        
+        ::
+        
+            
+            from django.contrib import admin
+            from .models import ExampleModel
+            from django_customize_history.admin import DjangoCustomHistory
+            
+            @admin.register(ExampleModel)
+            class ExampleModelAdmin(DjangoCustomHistory, admin.ModelAdmin):
+                ...
+        
+Keywords: Django Customize History
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
