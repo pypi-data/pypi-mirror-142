@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mcpybox.egg-info/PKG-INFO
+mcpybox.egg-info/SOURCES.txt
+mcpybox.egg-info/dependency_links.txt
+mcpybox.egg-info/top_level.txt
+text_animation/__init__.py
+text_animation/debug.py
