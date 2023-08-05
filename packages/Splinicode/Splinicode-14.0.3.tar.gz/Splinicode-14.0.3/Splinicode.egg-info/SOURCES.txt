@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+Splinicode/__init__.py
+Splinicode/functions.py
+Splinicode/get_property.py
+Splinicode/splinicode.py
+Splinicode.egg-info/PKG-INFO
+Splinicode.egg-info/SOURCES.txt
+Splinicode.egg-info/dependency_links.txt
+Splinicode.egg-info/not-zip-safe
+Splinicode.egg-info/top_level.txt
