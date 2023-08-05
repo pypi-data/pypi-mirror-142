@@ -1,0 +1,35 @@
+---
+site_name: The Blue Book
+site_description: My second brain
+site_author: Lyz
+site_url: https://lyz-code.github.io/blue-book
+site_dir: site
+nav:
+  - Introduction: index.md
+  - DevOps:
+      - devops/devops.md
+      - Infrastructure as Code:
+          - Helm:
+              - devops/helm/helm.md
+  - Coding:
+      - TDD: coding/tdd.md
+      - Python:
+          - Libraries:
+              - GitPython: coding/python/gitpython.md
+  - Botany:
+      - Trees: botany/trees.md
+  - Emojis: emojis.md
+
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+  - autolinks
+  - section-index
+  - mkdocs-newsletter
+
+markdown_extensions:
+  - toc:
+      baselevel: 2
+theme:
+  name: material
+  logo: img/logo.bmp
