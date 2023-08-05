@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+kornia_moons/__init__.py
+kornia_moons/_nbdev.py
+kornia_moons/feature.py
+kornia_moons.egg-info/PKG-INFO
+kornia_moons.egg-info/SOURCES.txt
+kornia_moons.egg-info/dependency_links.txt
+kornia_moons.egg-info/entry_points.txt
+kornia_moons.egg-info/not-zip-safe
+kornia_moons.egg-info/requires.txt
+kornia_moons.egg-info/top_level.txt
