@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/east/__init__.py
+src/east/log.py
+src/east/main.py
+src/mxos_east.egg-info/PKG-INFO
+src/mxos_east.egg-info/SOURCES.txt
+src/mxos_east.egg-info/dependency_links.txt
+src/mxos_east.egg-info/entry_points.txt
+src/mxos_east.egg-info/requires.txt
+src/mxos_east.egg-info/top_level.txt
