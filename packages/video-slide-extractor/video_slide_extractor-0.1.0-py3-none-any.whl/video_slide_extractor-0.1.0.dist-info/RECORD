@@ -1,0 +1,8 @@
+video_slide_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+video_slide_extractor/cli.py,sha256=YuBCoAT1h_PbN1cPPA9HUkwyF_lFkwZcynCe06jU__E,3253
+video_slide_extractor/core.py,sha256=KGyV4nUtKSrXPmq3XxERGOZMLUJv8xRMaLljaF7J19E,2988
+video_slide_extractor/output_path_format.py,sha256=689Y_R2urET-HE5HD18QaC-I67Mpba_nr4eHq3f4-JM,2651
+video_slide_extractor-0.1.0.dist-info/entry_points.txt,sha256=8SfdN7ioolfPB33TN1KFl5_e-aehT90uRVx7KbEjgh0,66
+video_slide_extractor-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+video_slide_extractor-0.1.0.dist-info/METADATA,sha256=ZLjfbMXg3035uYDpTGwCVNhD66rF4qShDzZAjbzqOxc,552
+video_slide_extractor-0.1.0.dist-info/RECORD,,

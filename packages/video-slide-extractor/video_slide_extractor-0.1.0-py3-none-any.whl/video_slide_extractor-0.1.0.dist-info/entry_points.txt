@@ -1,0 +1,3 @@
+[console_scripts]
+slide-extractor=video_slide_extractor:cli.main
+
