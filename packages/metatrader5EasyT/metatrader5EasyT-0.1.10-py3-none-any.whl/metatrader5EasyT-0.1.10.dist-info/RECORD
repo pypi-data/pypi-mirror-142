@@ -1,0 +1,17 @@
+metatrader5EasyT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metatrader5EasyT/initialization.py,sha256=5GDD6w-UITuBmItm_ufSEjBvu0aofQsysK25srH2XXc,4355
+metatrader5EasyT/rates.py,sha256=Fon9WvXRjGaYH0MVHy8LEioy9hryQKTtLRoMYiPM5ME,5786
+metatrader5EasyT/tick.py,sha256=BVeSDRTTOxtZp3sDhk6mv6GSt1Atn5f-9hTD90-uXD8,2952
+metatrader5EasyT/timeframe.py,sha256=CbtZkhh_lhvyQKbF85AfFn6Ar7-_dC3NMJYbGpKtI_8,1894
+metatrader5EasyT/trade.py,sha256=1Ld_HOMymb1Eb1QwdVzpAwjtNM7PZCL-GRh7O_OxwY8,21064
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=TADIoT8Ro1lm_XU1_a73ew3ze6kthxvnV_7CKl5-XMQ,344
+tests/test_initialization.py,sha256=4pW9NmVPsNanuIuDS9GQoQIRRCEpP1BKeJxiLQXtA2g,1952
+tests/test_rates.py,sha256=CCHCEzmpd-FvWTijcLznk5irBuGaH49-C85ZvWqi2uo,1704
+tests/test_tick.py,sha256=3rfHiEgJ-S4BZtepgkigN9SYZOWQBEwxRzqgsGxZ4jo,1010
+tests/test_trade.py,sha256=ys1n5vgoT2UsGpbgYC4Y25OKaydluQkt_UiyUrg_alQ,5565
+metatrader5EasyT-0.1.10.dist-info/LICENSE,sha256=zlWLtJY1fTwwv-GpXwvS8WQ4F8YnZ6c9zlOpCuV8ARI,1093
+metatrader5EasyT-0.1.10.dist-info/METADATA,sha256=MpAL0Eq0Fy49hILVaInungrM52X8nS0rbLzlVOTcvNY,3139
+metatrader5EasyT-0.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+metatrader5EasyT-0.1.10.dist-info/top_level.txt,sha256=bUI7L751QX0Kt2E5LSXvHR70HOEhx6tGtbjBWPCF_xE,23
+metatrader5EasyT-0.1.10.dist-info/RECORD,,
