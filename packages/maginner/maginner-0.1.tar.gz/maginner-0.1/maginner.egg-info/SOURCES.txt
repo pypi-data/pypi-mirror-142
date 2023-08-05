@@ -1,0 +1,9 @@
+README.md
+setup.py
+maginner/__init__.py
+maginner/maginner.py
+maginner.egg-info/PKG-INFO
+maginner.egg-info/SOURCES.txt
+maginner.egg-info/dependency_links.txt
+maginner.egg-info/not-zip-safe
+maginner.egg-info/top_level.txt
