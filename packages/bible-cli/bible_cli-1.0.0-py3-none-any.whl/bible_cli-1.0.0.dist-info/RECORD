@@ -1,0 +1,6 @@
+bible_cli/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+bible_cli/app.py,sha256=fiopGDo0mRGfRr_jm601HmYjWHGNppiE2g1enLTkWME,2674
+bible_cli-1.0.0.dist-info/entry_points.txt,sha256=VcCrSs8DNT84v7QLo2iPvYRZzmiEs2eaDIQUtVPGjbI,47
+bible_cli-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bible_cli-1.0.0.dist-info/METADATA,sha256=hlB4-beo5bFFPzJY8AN4sMaTmtuwiuTnVJhY24NDcSQ,369
+bible_cli-1.0.0.dist-info/RECORD,,
