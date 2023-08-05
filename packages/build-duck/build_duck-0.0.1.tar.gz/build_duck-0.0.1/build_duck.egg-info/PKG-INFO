@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: build-duck
+Version: 0.0.1
+Summary: Package to create a duck marker in matplotlib.
+Home-page: https://github.com/CoraDeFrancesco/build_duck
+Author: Cora DeFrancesco
+Author-email: coraanndefran@gmail.com
+License: UNKNOWN
+Description: # build_duck
+        Add a duck marker to Matplotlib.
+        
+        # Example
+        import build_duck
+        
+        duck_marker = build_duck()
+        
+        plt.plot(x, y, marker=duck_marker)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
