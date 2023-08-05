@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hasnat
+Version: 0.0.1
+Summary: Hasnat Library
+Home-page: https://hasnat.io
+Author: Hasnat Abdul
+Author-email: abdul@hasnat.io
+License: MIT
+Keywords: hasnat
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+# hasnat
+import hasnat
+
+
+0.0.1
+  - Package setup
+
