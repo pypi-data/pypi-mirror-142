@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+package.json
+setup.py
+ABTesting/__init__.py
+ABTesting/controller.py
+ABTesting/utils.py
+py_ab_testing.egg-info/PKG-INFO
+py_ab_testing.egg-info/SOURCES.txt
+py_ab_testing.egg-info/dependency_links.txt
+py_ab_testing.egg-info/requires.txt
+py_ab_testing.egg-info/top_level.txt
