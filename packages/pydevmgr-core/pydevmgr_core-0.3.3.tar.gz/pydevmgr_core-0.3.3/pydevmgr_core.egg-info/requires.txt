@@ -1,0 +1,6 @@
+pyyaml
+pydantic
+py_expression_eval
+
+[QT]
+pyqt5
