@@ -1,0 +1,17 @@
+classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classes/structures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classes/structures/bbox.py,sha256=tLtJaawzzKDMUuqU9y7nASnhVmJXFI0Jezt69TwIrAg,545
+ninja_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ninja_tools/find_image.py,sha256=p3PKY_M_N-DWcqmdj7u8jJbGNU14FYOlh_J258gl9cM,2274
+ninja_tools/image_cropper.py,sha256=lELfpbQdHxDo9IVvTDboTa2WWrjxEV_kGyyALSWsxsg,2215
+ninja_tools/image_functions.py,sha256=39jfl1aIpzvhfcTK3DmZRi3EpRNQpWEjbngWHe70Drg,1036
+ninja_tools/image_processor.py,sha256=fHo-e4oLAL7WQI5WtXIVXNRmSUIgryzJ_2wakUKhrQ0,15285
+ninja_tools/keyboard.py,sha256=tXLCsvOW0CbMyNlq0fOOLAP1JL0i8OSEvNpL2FV6rfw,10273
+ninja_tools/mouse.py,sha256=rAJsFC33pdmKMJofWHzTnoCaf7E8NQVCmffT_bZ55ko,3169
+ninja_tools/processing.py,sha256=lwckXPrML-yaI0ML67w3L25P7I7fQTcK6JZrvBu13Ss,1971
+ninja_tools/screen_capture.py,sha256=yy7ym4SiPh82BWOpbxXJ157h3W6O69JPRWWTMa4xwkg,2147
+ninja_tools/utils.py,sha256=sek8Rz1PFfUFSqeV2mmLXk4kgjBOMI9RqJzyYLr6mq0,1775
+NinjaTools-0.2.6.dist-info/METADATA,sha256=qgid1B8c8nkxwQwRH3JuI_-fP3JV66wUxr0M-s85Tuw,656
+NinjaTools-0.2.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+NinjaTools-0.2.6.dist-info/top_level.txt,sha256=5WVcSvN2cnBMAJK-M-iXY8yg7r2XOiJtJXceh9FWr-w,20
+NinjaTools-0.2.6.dist-info/RECORD,,
