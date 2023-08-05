@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+csvdedupe/__init__.py
+csvdedupe/csvdedupe.py
+csvdedupe/csvhelpers.py
+csvdedupe/csvlink.py
+csvdedupe2.egg-info/PKG-INFO
+csvdedupe2.egg-info/SOURCES.txt
+csvdedupe2.egg-info/dependency_links.txt
+csvdedupe2.egg-info/entry_points.txt
+csvdedupe2.egg-info/requires.txt
+csvdedupe2.egg-info/top_level.txt
