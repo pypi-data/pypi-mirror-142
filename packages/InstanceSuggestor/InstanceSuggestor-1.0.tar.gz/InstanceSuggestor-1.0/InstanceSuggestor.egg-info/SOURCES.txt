@@ -1,0 +1,7 @@
+README.md
+setup.py
+InstanceSuggestor.egg-info/PKG-INFO
+InstanceSuggestor.egg-info/SOURCES.txt
+InstanceSuggestor.egg-info/dependency_links.txt
+InstanceSuggestor.egg-info/not-zip-safe
+InstanceSuggestor.egg-info/top_level.txt
