@@ -1,0 +1,10 @@
+csvdedupe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvdedupe/csvdedupe.py,sha256=Zt60P9XH9XHAFM8PNBD4o2U9hcHcN3p-Snd9JA4gBZE,7745
+csvdedupe/csvhelpers.py,sha256=rOt7kxPbGqGRoBB3yldGv0xkx5Mp1L2jnGHJitrv4jU,9984
+csvdedupe/csvlink.py,sha256=CBkJeeIn53-HEgSX72aH-OCt2kawVLpB6aPRnBzsDnw,8486
+csvdedupe2-0.2.6.dist-info/LICENSE.md,sha256=3iQ975UlnWAzY3ceWb9GZcgqHVj0KTrev4cqFmF2CmE,1180
+csvdedupe2-0.2.6.dist-info/METADATA,sha256=8z8_h6EgBSk7vVl-k0v7TP8mmad-LKOIv0gnZVESwm0,12214
+csvdedupe2-0.2.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+csvdedupe2-0.2.6.dist-info/entry_points.txt,sha256=WRDjWN-n8rev4Hy_rDlTGGHpt4ZWQxT3N0hBJwIOuzE,118
+csvdedupe2-0.2.6.dist-info/top_level.txt,sha256=8NPTaXetZ-h5usqlwHhohJsLtkeJrhn1HXaFEaPxb4g,10
+csvdedupe2-0.2.6.dist-info/RECORD,,
