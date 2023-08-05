@@ -1,0 +1,12 @@
+blamscamp/__init__.py,sha256=ffgFic3VOf2Vq4vZt5KSJ8DYfci7vlyCSQr5YFypYLI,15886
+blamscamp/__version__.py,sha256=Ka-AYkpxVRfVKCVVDT_BANa0r0-7kiqLtDZDN3JU8q0,38
+blamscamp/images.py,sha256=5iADF5chMpt6tVA7TOQeW4XThYJRxs1Ft2vqQOyZLW0,3156
+blamscamp/jinja_templates/index.html,sha256=CrQ7TO2ixqEtrwi8mLUJt3NpXcHtLVHnyfFWQWgpmyI,2385
+blamscamp/jinja_templates/player.css,sha256=fBfjidXQP6Q_9xW0XW39MyLr1GKoFuH_JJspCwqtljk,3078
+blamscamp/jinja_templates/player.js,sha256=nC91yHddQ9zCtga6qds67IkplxoQKBg0iayy2YV2rI4,3848
+blamscamp/util.py,sha256=nuiAqrS3RstPuOPrXIjxBjJ9-5fRBWOLXu6_TmJde9Y,876
+blamscamp-0.2.3.dist-info/entry_points.txt,sha256=hlk2DaRUh2C2QkxTD7KAvHAa4rFp0w2vqBnOb8tx40s,53
+blamscamp-0.2.3.dist-info/LICENSE,sha256=VTfU0Qt2uBtujf2LZESApLHvozL7sM22ESbFvnge97Q,6554
+blamscamp-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+blamscamp-0.2.3.dist-info/METADATA,sha256=S1egvTgUOvC7HF04Xm92cPvo9MmZDzlUY1wV69Z0K3g,5475
+blamscamp-0.2.3.dist-info/RECORD,,
