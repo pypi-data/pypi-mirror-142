@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: bike
+Version: 0.2.0
+Summary: A lightweight model validator for modern projects.
+Home-page: https://github.com/manasseslima/bike
+License: MIT
+Author: Manasses Lima
+Author-email: manasseslima@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/manasseslima/bike
+Description-Content-Type: text/markdown
+
+# bike
+A lightweight model validator for modern projects.
+
+## Instalation
+```shell
+pip install bike
+```
+
+## First Pedals
+
+Lets define a simple model to represent a person.
+
+```python hl_lines="1"
+import bike
+
+@bike.model()
+class Person:
+    name: str
+    height: float
+    weight: float
+
+```
+A Person instance can be created passing the attributes.
+```python
+person = Person(name='Patrick Love', height=75, weight=180)
+```
+Also can be instatiated by a dict data.
+```python
+data = {
+    'name': 'Patrick Love',
+    'height': 75,
+    'weight': 180
+}
+
+person = Person(**data)
+
+```
+
+
+
+
