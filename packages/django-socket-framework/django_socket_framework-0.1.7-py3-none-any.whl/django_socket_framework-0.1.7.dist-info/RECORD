@@ -1,0 +1,12 @@
+django_socket_framework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_socket_framework/auth.py,sha256=gErs8sBshrd5pVv2kZs2UY6mTsHMjeO6AqDGTV8reac,1337
+django_socket_framework/consumers.py,sha256=KvHuiqGYpk0ls9pnVbyYDQhVW9wsWYimwefH82nj7WI,9588
+django_socket_framework/method_lists.py,sha256=hLBdZCHcAePXlkxv-rFMneotz7ovFhLk-GiYji4ppLQ,1216
+django_socket_framework/middlewares.py,sha256=xH0TT64iC0FiwOjLhkwpCAlpn5bZ5aKqB21VWiOQMM8,197
+django_socket_framework/types.py,sha256=o6mKefmtjNfp4OXd29_7bmX7XkFItMBqZIeIJxR_aGY,2029
+django_socket_framework/utils.py,sha256=0hwj5TpZwX1UnSzroiMYxxi3VnOv7lrxLwaXb3-6ZiQ,363
+django_socket_framework-0.1.7.dist-info/LICENSE,sha256=NgyLNOjOuVEf0uAQEoKexbLtPO4VxMTsOfkK-K-aCYw,1070
+django_socket_framework-0.1.7.dist-info/METADATA,sha256=aFB1j5-3cSqZojhz7aPRehOy1LBpe8CcwDkgR8Yeg18,1046
+django_socket_framework-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_socket_framework-0.1.7.dist-info/top_level.txt,sha256=PtTA6mCAEo9XdHI9fpcGyMSyYjsSVmvODEyEjGT1uBc,24
+django_socket_framework-0.1.7.dist-info/RECORD,,
