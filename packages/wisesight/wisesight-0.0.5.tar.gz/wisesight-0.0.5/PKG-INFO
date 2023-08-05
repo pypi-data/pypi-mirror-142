@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: wisesight
+Version: 0.0.5
+Summary: The wisesight social listening project
+Home-page: https://github.com/plutonyx/wisesight
+Author: P4L3K1N6
+Author-email: p4l3k1n6@gmail.com
+License: MIT
+Description: # WISESIGHT
+        
+        Wisesight is a Python library for consuming the wisesight socialistening api.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `wisesight`.
+        
+        ```bash
+        pip install wisesight
+        ```
+        
+        ## Usage
+        
+        ```python
+        import wisesight
+        
+        ```
+        
+        ## Contributing
+        
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
