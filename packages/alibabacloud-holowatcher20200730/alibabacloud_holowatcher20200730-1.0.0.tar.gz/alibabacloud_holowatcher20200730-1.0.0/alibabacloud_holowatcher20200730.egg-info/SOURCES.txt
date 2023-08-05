@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_holowatcher20200730/__init__.py
+alibabacloud_holowatcher20200730/client.py
+alibabacloud_holowatcher20200730/models.py
+alibabacloud_holowatcher20200730.egg-info/PKG-INFO
+alibabacloud_holowatcher20200730.egg-info/SOURCES.txt
+alibabacloud_holowatcher20200730.egg-info/dependency_links.txt
+alibabacloud_holowatcher20200730.egg-info/requires.txt
+alibabacloud_holowatcher20200730.egg-info/top_level.txt
