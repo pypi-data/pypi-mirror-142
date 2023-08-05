@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: InSAR
+Version: 0.0.1
+Summary: InSAR Python
+Home-page: UNKNOWN
+Author: Mi BoYang
+Author-email: UNKNOWN
+License: Apache2 License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
