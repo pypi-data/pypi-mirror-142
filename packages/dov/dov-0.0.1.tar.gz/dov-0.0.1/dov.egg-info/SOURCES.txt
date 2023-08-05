@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+dov/__init__.py
+dov/version.py
+dov.egg-info/PKG-INFO
+dov.egg-info/SOURCES.txt
+dov.egg-info/dependency_links.txt
+dov.egg-info/entry_points.txt
+dov.egg-info/requires.txt
+dov.egg-info/top_level.txt
+dov.egg-info/zip-safe
+dov/shell/__init__.py
+dov/shell/usage.py
+dov/src/temp.txt
