@@ -1,0 +1,12 @@
+dov/__init__.py,sha256=ZnCyrOpUU8S2gdPpT86iOHYHcncBgB8TmsA-oWnBU5o,115
+dov/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+dov/shell/__init__.py,sha256=tIIEIJdxCGBZuWo3hTU-1JwjBAVQcd6pbigPslT90OA,48
+dov/shell/usage.py,sha256=cRNco6mgFj3mbA1BtYK0qvrCH9BR4eOwbTqtNb0QtSs,188
+dov/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dov-0.0.1.dist-info/LICENSE,sha256=-c7nNoVc0tOlHheDKz3DoQ7meSyZGusP6c18nqFochI,1062
+dov-0.0.1.dist-info/METADATA,sha256=KnOgJe2DxJ6mTyCZ3RSzgrE2A7SDjaDdi8HakYxzNR0,3014
+dov-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dov-0.0.1.dist-info/entry_points.txt,sha256=iJ-ol-rFjvo9VqaUeeNV0pHy5snoW5E2Zwk-dF7FA_A,39
+dov-0.0.1.dist-info/top_level.txt,sha256=j7Fj8mEnQ7SOKnefM7FPdeRLtsuPWBESVKi4vVU_Aws,4
+dov-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dov-0.0.1.dist-info/RECORD,,
