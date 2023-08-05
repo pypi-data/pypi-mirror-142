@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: python-retry
+Version: 0.0.1
+Summary: Retry package for Python
+Home-page: https://github.com/pyprogrammerblog/python-retry
+Author: JM Vazquez
+Author-email: 
+License: MIT License
+Keywords: python,retry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+Python Retry
+=============
+
+.. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+    :target: https://github.com/pyprogrammerblog/python-retry/blob/master/LICENSE
+    :alt: License-MIT
+
+.. image:: https://readthedocs.org/projects/py-retry/badge/?version=latest
+    :target: https://py-retry.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://github.com/pyprogrammerblog/python-retry/workflows/Test%20Suite/badge.svg/
+    :alt: GitHub Actions
+
+.. image:: https://badge.fury.io/py/python-retry.svg/
+    :target: https://badge.fury.io/py/python-retry/
+    :alt: Badge PyPi
+
+
+Features
+----------
+
+1. Generic Decorator
+2. Specify stop condition (i.e. limit by number of attempts)
+3. Specify wait condition (i.e. exponential backoff sleeping between attempts)
+4. Customize retrying on Exceptions
+
+`Read the docs <https://py-retry.readthedocs.io/en/latest/>`_ for further information.
+
+Installation
+-------------
+
+Install using ``pip``::
+
+    pip install python-retry
+
+
+Example
+--------
+
+.. code:: python
+
+    >>> from python_retry import retry
+    >>> import pytest
+    >>>
+    >>> @retry()
+    ... def div(num: int, den: int):
+    ...     return num/den
+    >>>
+    >>> div(1, 0)
+
+
+Advanced use
+--------------
+
+.. code:: python
+
+    >>> import logging
+    >>> logger = logging.getLogger("foo")
+    >>>
+    >>> @retry(
+    ...     retry_on=(ZeroDivisionError,),
+    ...     max_retries=2,
+    ...     backoff_factor=1,
+    ...     supress_exception=True,
+    ...     retry_logger=logger
+    ... )
+    ... def div(num: int, den: int):
+    ...     return num / den
+    >>>
+    >>> div(1, 0)
+
+
+Documentation
+---------------
+
+You can find here at `Read the docs <https://py-retry.readthedocs.io/en/latest/>`_ the complete documentation.
+
+
+Changelog
+========================================================
+
+
+0.0.1 (2022-03-09)
+-------------------
+
+- Initial project structure.
+
+- Test suite.
+
+- Examples.
+
+
