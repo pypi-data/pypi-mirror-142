@@ -1,0 +1,8 @@
+verifiably_checker/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+verifiably_checker/attestation.py,sha256=_HN32Qfw0W3uANDi9EkmpGcgcVO7iSQlJaa_NDZSD8k,4926
+verifiably_checker/root.pem,sha256=brlogwXku8pn9EtZwpoGYa6TDwm1lFtdHZrgESXI1sA,777
+verifiably_checker-0.0.3.dist-info/LICENSE,sha256=vxr4l9MrHsybfJvZWpxGLOCtd4kAGyBCILMTk-47iKc,11313
+verifiably_checker-0.0.3.dist-info/METADATA,sha256=9BRMwv8d0qmAB_JRxxOsKP8_zItzy2TTlDcn6amQzc0,1013
+verifiably_checker-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+verifiably_checker-0.0.3.dist-info/top_level.txt,sha256=mdRH5w3H8XZKxTBFXURd5EfGgYRTlroOqA0V3iBg1Rc,19
+verifiably_checker-0.0.3.dist-info/RECORD,,

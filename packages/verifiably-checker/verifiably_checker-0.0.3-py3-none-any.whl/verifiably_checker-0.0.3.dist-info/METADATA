@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: verifiably-checker
+Version: 0.0.3
+Summary: Library to verify the results sent by a vFunction.
+Home-page: https://github.com/verifiably/checker
+Author: Verifiably
+Author-email: contact@verifiably.com
+License: UNKNOWN
+Keywords: python,security,verification,attestation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cbor2 (==5.2.0)
+Requires-Dist: cose (==0.9.dev2)
+Requires-Dist: cryptography (==3.2.1)
+Requires-Dist: pyOpenSSL (==19.1.0)
+Requires-Dist: pycryptodome (==3.9.9)
+
+# Verifiably Checker
+
+This library offers an easy way to verify the results sent by a vfunction. For more details about the process visit the [Attestation Documentation](https://developer.verifiably.com/docs/vfunctions/attestation).
+
+## Installation
+To install this library run:
+
+```
+pip install verifiably_checker
+```
+
+
