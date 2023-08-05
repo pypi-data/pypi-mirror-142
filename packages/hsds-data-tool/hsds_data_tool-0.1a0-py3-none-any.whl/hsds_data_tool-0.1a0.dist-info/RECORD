@@ -1,0 +1,10 @@
+hsds_data_tool/__init__.py,sha256=z2YoxkwiaBefCL3FD8RA94vMYytiB-2cRirkgDfpKHI,676
+hsds_data_tool/build_schema.py,sha256=JZSpBiUEr0yEI-Vm6wj7k_F4ytSv2zN1innRAkTLmh8,3025
+hsds_data_tool/cli.py,sha256=8xzciL5iApYCH1VWTPdK9VXmoAY4p4IaixTiV39dp00,1622
+hsds_data_tool/hsds_schemas.py,sha256=6ADv9kK0BGMwJbrqlTmIfTk6wBs5f3ttZQQxWpo0EBU,38197
+hsds_data_tool-0.1a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hsds_data_tool-0.1a0.dist-info/METADATA,sha256=YMzLhDY3QbwWSWzlO8div31m6DRMWTX6btECXNSAwEU,2060
+hsds_data_tool-0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hsds_data_tool-0.1a0.dist-info/entry_points.txt,sha256=ljMZ_I5OaUVyld0J_CQNuydWkxsgLjDUNtnPp6XMEps,58
+hsds_data_tool-0.1a0.dist-info/top_level.txt,sha256=_dQ02ng2r0dtMfxCLQaAOarvlbcGuQjdVd4GfgLdnd4,15
+hsds_data_tool-0.1a0.dist-info/RECORD,,
