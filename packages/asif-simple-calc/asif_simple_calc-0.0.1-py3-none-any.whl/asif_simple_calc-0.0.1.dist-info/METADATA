@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: asif-simple-calc
+Version: 0.0.1
+Summary: A simple educational package to perform basic mathematical calculations
+Home-page: https://github.com/aliasif1/pypi_simple_calculator.git
+Author: Asif Ali Mehmuda
+Author-email: asif.mehmuda9@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+An educational package to perform addition, subtraction and absolute subtraction of two numbers
+
+
