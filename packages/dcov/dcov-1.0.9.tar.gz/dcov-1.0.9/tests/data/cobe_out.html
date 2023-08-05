@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+        <title>Diff Coverage</title>
+        <style>
+            .src-snippet { margin-top: 2em; }
+            .src-name { font-weight: bold; }
+            .snippets {
+                border-top: 1px solid #bdbdbd;
+                border-bottom: 1px solid #bdbdbd;
+            }
+            pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.hll { background-color: #ffcccc }
+.c { color: #3D7B7B; font-style: italic } /* Comment */
+.err { border: 1px solid #FF0000 } /* Error */
+.k { color: #008000; font-weight: bold } /* Keyword */
+.o { color: #666666 } /* Operator */
+.ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.cp { color: #9C6500 } /* Comment.Preproc */
+.cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
+.gd { color: #A00000 } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #E40000 } /* Generic.Error */
+.gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.gi { color: #008400 } /* Generic.Inserted */
+.go { color: #717171 } /* Generic.Output */
+.gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.gt { color: #0044DD } /* Generic.Traceback */
+.kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008000 } /* Keyword.Pseudo */
+.kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #B00040 } /* Keyword.Type */
+.m { color: #666666 } /* Literal.Number */
+.s { color: #BA2121 } /* Literal.String */
+.na { color: #687822 } /* Name.Attribute */
+.nb { color: #008000 } /* Name.Builtin */
+.nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.no { color: #880000 } /* Name.Constant */
+.nd { color: #AA22FF } /* Name.Decorator */
+.ni { color: #717171; font-weight: bold } /* Name.Entity */
+.ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
+.nf { color: #0000FF } /* Name.Function */
+.nl { color: #767600 } /* Name.Label */
+.nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.nt { color: #008000; font-weight: bold } /* Name.Tag */
+.nv { color: #19177C } /* Name.Variable */
+.ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mb { color: #666666 } /* Literal.Number.Bin */
+.mf { color: #666666 } /* Literal.Number.Float */
+.mh { color: #666666 } /* Literal.Number.Hex */
+.mi { color: #666666 } /* Literal.Number.Integer */
+.mo { color: #666666 } /* Literal.Number.Oct */
+.sa { color: #BA2121 } /* Literal.String.Affix */
+.sb { color: #BA2121 } /* Literal.String.Backtick */
+.sc { color: #BA2121 } /* Literal.String.Char */
+.dl { color: #BA2121 } /* Literal.String.Delimiter */
+.sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.s2 { color: #BA2121 } /* Literal.String.Double */
+.se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
+.sh { color: #BA2121 } /* Literal.String.Heredoc */
+.si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
+.sx { color: #008000 } /* Literal.String.Other */
+.sr { color: #A45A77 } /* Literal.String.Regex */
+.s1 { color: #BA2121 } /* Literal.String.Single */
+.ss { color: #19177C } /* Literal.String.Symbol */
+.bp { color: #008000 } /* Name.Builtin.Pseudo */
+.fm { color: #0000FF } /* Name.Function.Magic */
+.vc { color: #19177C } /* Name.Variable.Class */
+.vg { color: #19177C } /* Name.Variable.Global */
+.vi { color: #19177C } /* Name.Variable.Instance */
+.vm { color: #19177C } /* Name.Variable.Magic */
+.il { color: #666666 } /* Literal.Number.Integer.Long */
+        </style>
+    </head>
+    <body>
+        <h1>Diff Coverage Report</h1>
+        <p>Diff: HEAD^ HEAD, staged and unstaged changes</p>
+        <ul>
+            <li><b>Total</b>: 2 lines</li>
+            <li><b>Missing</b>: 2 lines</li>
+            <li><b>Coverage</b>: 0%</li>
+        </ul>
+        <table border="1">
+            <tr>
+                <th>Source File</th>
+                <th>Diff Coverage (%)</th>
+                <th>Missing Lines</th>
+            </tr>
+            <tr>
+                <td>dcov/violationsreporters/violations_reporter.py</td>
+                <td>0.0%</td>
+                <td>236</td>
+            </tr>
+            <tr>
+                <td>pyproject.toml</td>
+                <td>0.0%</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <div class="src-snippet">
+            <div class="src-name">dcov/violationsreporters/violations_reporter.py</div>
+            <div class="snippets">
+            <table class="snippettable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">232</span>
+<span class="normal">233</span>
+<span class="normal">234</span>
+<span class="normal">235</span>
+<span class="normal">236</span>
+<span class="normal">237</span>
+<span class="normal">238</span>
+<span class="normal">239</span>
+<span class="normal">240</span></pre></div></td><td class="code"><div class="snippet"><pre><span></span><a id="dcov/violationsreporters/violations_reporter.py-232" name="dcov/violationsreporters/violations_reporter.py-232"></a>                <span class="c1"># difference between changed_lines and line_nodes</span>
+<a id="dcov/violationsreporters/violations_reporter.py-233" name="dcov/violationsreporters/violations_reporter.py-233"></a>                <span class="n">df</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">changed_lines</span><span class="p">)</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">measured</span><span class="p">)</span>
+<a id="dcov/violationsreporters/violations_reporter.py-234" name="dcov/violationsreporters/violations_reporter.py-234"></a>                <span class="c1"># intersection between changed_lines and line_nodes</span>
+<a id="dcov/violationsreporters/violations_reporter.py-235" name="dcov/violationsreporters/violations_reporter.py-235"></a>                <span class="n">it</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">changed_lines</span><span class="p">)</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">measured</span><span class="p">)</span>
+<a id="dcov/violationsreporters/violations_reporter.py-236" name="dcov/violationsreporters/violations_reporter.py-236"></a><span class="hll">
+</span><a id="dcov/violationsreporters/violations_reporter.py-237" name="dcov/violationsreporters/violations_reporter.py-237"></a>                <span class="n">violations</span> <span class="o">=</span> <span class="p">{</span>
+<a id="dcov/violationsreporters/violations_reporter.py-238" name="dcov/violationsreporters/violations_reporter.py-238"></a>                    <span class="n">Violation</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="p">),</span> <span class="kc">None</span><span class="p">)</span>
+<a id="dcov/violationsreporters/violations_reporter.py-239" name="dcov/violationsreporters/violations_reporter.py-239"></a>                    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">df</span>
+<a id="dcov/violationsreporters/violations_reporter.py-240" name="dcov/violationsreporters/violations_reporter.py-240"></a>                <span class="p">}</span>
+</pre></div>
+</td></tr></table>
+            </div>
+        </div>
+        <div class="src-snippet">
+            <div class="src-name">pyproject.toml</div>
+            <div class="snippets">
+            <table class="snippettable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="snippet"><pre><span></span><a id="pyproject.toml-1" name="pyproject.toml-1"></a><span class="k">[tool.poetry]</span><span class="w"></span>
+<a id="pyproject.toml-2" name="pyproject.toml-2"></a><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;dcov&quot;</span><span class="w"></span>
+<a id="pyproject.toml-3" name="pyproject.toml-3"></a><span class="hll"><span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;1.0.6&quot;</span><span class="w"></span>
+</span><a id="pyproject.toml-4" name="pyproject.toml-4"></a><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Modify diff algorithm&quot;</span><span class="w"></span>
+<a id="pyproject.toml-5" name="pyproject.toml-5"></a><span class="n">authors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s">&quot;See Contributors&quot;</span><span class="p">]</span><span class="w"></span>
+<a id="pyproject.toml-6" name="pyproject.toml-6"></a><span class="n">homepage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;https://github.com/xiak/dcov&quot;</span><span class="w"></span>
+<a id="pyproject.toml-7" name="pyproject.toml-7"></a><span class="n">repository</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;https://github.com/xiak/dcov&quot;</span>
+</pre></div>
+</td></tr></table>
+            </div>
+        </div>
+    </body>
+</html>
