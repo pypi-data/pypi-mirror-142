@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+build_duck.egg-info/PKG-INFO
+build_duck.egg-info/SOURCES.txt
+build_duck.egg-info/dependency_links.txt
+build_duck.egg-info/top_level.txt
