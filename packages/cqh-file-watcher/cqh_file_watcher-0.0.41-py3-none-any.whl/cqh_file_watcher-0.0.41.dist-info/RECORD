@@ -1,0 +1,12 @@
+cqh_file_watcher/__init__.py,sha256=8g2eK9Qo0Vv2UpGh2gfEO6WPUdSdi04PIYHqdey9snE,23
+cqh_file_watcher/__main__.py,sha256=j7ylR001BSyJSsvGSp43exD_njZme9g6RBgzYWtYFfQ,78
+cqh_file_watcher/command_caller.py,sha256=tcirC_5SWCCq8xgzLvHFVPyM2Sl4_JnCfx_doGqTgBE,4005
+cqh_file_watcher/conf.py,sha256=5zHJ0Ktlnue5ZCZ2DPudnWQxAH5Paf1DD2dkJp0QFtM,2859
+cqh_file_watcher/run.py,sha256=GBuvtv1WvG0HARkwjKvFRMiMISgnHO3w2KI9ehBMhU4,7896
+cqh_file_watcher/util.py,sha256=9BbA9KhJJq80HFcarsJ-81JlXUaz8CckZfU0b_Aab_s,162
+cqh_file_watcher-0.0.41.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cqh_file_watcher-0.0.41.dist-info/METADATA,sha256=rkUTeaPa4j4Gayol7SkErs5ZRjxiOKNmJwa2oPyZvwQ,3314
+cqh_file_watcher-0.0.41.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cqh_file_watcher-0.0.41.dist-info/entry_points.txt,sha256=7eueaRhjKnUp10ZE1WzPtWRAMO0AEFQ0mS8wibUtcbg,64
+cqh_file_watcher-0.0.41.dist-info/top_level.txt,sha256=sHL95qEGYTAkXLoN9x2DvyUFm4IyOUv5SOGqI0BNnBA,17
+cqh_file_watcher-0.0.41.dist-info/RECORD,,
