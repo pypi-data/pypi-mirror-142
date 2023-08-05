@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mpysync
+Version: 0.2.1
+Summary: Rsync-like tool for MicroPython.
+Home-page: https://github.com/keredson/mpysync
+Author: Derek Anderson
+Author-email: public@kered.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires: adafruit_ampy
+Requires: darp
+Requires: requests
