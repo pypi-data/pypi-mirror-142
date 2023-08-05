@@ -1,0 +1,12 @@
+BasicVector/__init__.py,sha256=mYFHuqiImwCptJQpar-W7OLhkBg4KPaZfG-gVoJ2jvk,95
+BasicVector/colors.py,sha256=DE1Y5L_ipDyTw-DfeygoNNBOjFeezIMkrxMJs0xaYw0,234
+BasicVector/errors.py,sha256=R0a_pBtR9O5s68XPQxtl3_esdv09FaMXPLVI50mBg1w,240
+BasicVector/locals.py,sha256=zGU9IW_PQsXCQodBLgdxlON8xBSuDZZ0VSoXGmR8UXs,161
+BasicVector/vec2.py,sha256=njIjEs5kBdzI-ka98toHvgN42BcmVUtNRq4zaCRHPuc,10485
+BasicVector/vec3.py,sha256=jBd1tBEM4QKwtQNC-7k9tWAw4SJ7-Y04wgCOwMc4FNM,11915
+BasicVector/vec4.py,sha256=EJjchX93V7RP6vsLL6I5tkrfgNvbEgxb7YPCcqnvy1U,13694
+BasicVector-0.0.9.dist-info/LICENSE,sha256=U3BsYEKWbOB4C07QduydzHwqNMmzNyOWzMIL-Re9m2w,1088
+BasicVector-0.0.9.dist-info/METADATA,sha256=NJZxIKUgtZMrSSNE9NGTy2pfRSPTyqoD2jtHxL9XxwE,3633
+BasicVector-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+BasicVector-0.0.9.dist-info/top_level.txt,sha256=zWjgrU3fJDTo24joIwRNu-1UjWsjz6pEmyn4EgJ3Q0Y,12
+BasicVector-0.0.9.dist-info/RECORD,,
