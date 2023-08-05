@@ -1,0 +1,10 @@
+LICENSE-apl
+LICENSE-mpl
+README.md
+pyeigenisolve.cpp
+pyeigenisolve.py
+setup.py
+pyeigenisolve.egg-info/PKG-INFO
+pyeigenisolve.egg-info/SOURCES.txt
+pyeigenisolve.egg-info/dependency_links.txt
+pyeigenisolve.egg-info/top_level.txt
