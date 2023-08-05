@@ -1,0 +1,14 @@
+dgraph_orm/ACL/client.py,sha256=nPcdeUHHjZZqB4irqV5Za_qPI7emnCqt-pNVlDhl0HE,8058
+dgraph_orm/__init__.py,sha256=VqCSwlN-_kPXeugQYtV3Aq4RjkCE-LGJ0-VH66_Hy-0,170
+dgraph_orm/errors.py,sha256=c6sHJiz4CGQtjyrlVumKOjninBBEbfmT4E36CGan3dk,40
+dgraph_orm/execute.py,sha256=tWFjDB2zc7GxYmX3hWOE9NhMOWNvYLa_AgXiknGEc40,2506
+dgraph_orm/generate_orm.py,sha256=ra3RagQ5TRK5N20zoG4Z-gBHBn66TFR_jOxPGA74-38,35735
+dgraph_orm/gql_input.py,sha256=BMuo2mPkYohDqbk3oJ_7gOz-SIWnlsi8C8macIBK3nY,2429
+dgraph_orm/layers.py,sha256=Xt5hox81Uds7FPCJ0nSOlqR8iepkQJDKCXSyPww2tmY,3027
+dgraph_orm/node.py,sha256=Bkma0uGnM7zvnIi3e8QMF2iO5i5IVp2_U50b4YZnCgg,23801
+dgraph_orm/resolver.py,sha256=8wFT9gYDZJqTacV-Fa2ZLGx9ivC6E5jBfQ3vpJ4OI18,9484
+dgraph_orm/strawberry_helpers/resolvers.py,sha256=ZqGQ9pKNj9xpuVm7pPWYH-_b-KMcM79MnUmybEeFKOg,2519
+dgraph_orm/utils/gql.py,sha256=eRlpSy_jBR-fSKNUrQ-a6cgnEpNI219hi_GkP87oySU,4475
+dgraph_orm-0.1.94.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dgraph_orm-0.1.94.dist-info/METADATA,sha256=C3pa__fhuZLsxpVqxTIIbhB5PBLyRv0Qa7k7EwTn40o,623
+dgraph_orm-0.1.94.dist-info/RECORD,,
