@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: gattino
+Version: 0.0.7
+Summary: Gattino
+Home-page: https://github.com/kmuumdmrj76/gattino
+Author: kmuumdmrj76
+Author-email: kmuumdmrj76@163.com
+Maintainer: kmuumdmrj76
+Maintainer-email: kmuumdmrj76@163.com
+License: MIT
+Description: gattino
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6

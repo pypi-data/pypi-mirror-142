@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+./gattino/__init__.py
+./gattino/ext.py
+./gattino/gattino.py
+gattino/__init__.py
+gattino/ext.py
+gattino/gattino.py
+gattino.egg-info/PKG-INFO
+gattino.egg-info/SOURCES.txt
+gattino.egg-info/dependency_links.txt
+gattino.egg-info/top_level.txt
