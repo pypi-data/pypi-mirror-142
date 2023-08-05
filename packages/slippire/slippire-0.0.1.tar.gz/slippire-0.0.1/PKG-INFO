@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: slippire
+Version: 0.0.1
+Summary: slippire
+Author-email: charlie gruhler <chgruhler@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# slippiRe
+Adapting py-slippi to make some of the commands easier to use
+
