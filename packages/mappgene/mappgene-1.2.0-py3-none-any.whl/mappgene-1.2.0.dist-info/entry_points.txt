@@ -1,0 +1,2 @@
+[console_scripts]
+mappgene = mappgene.cli:main
