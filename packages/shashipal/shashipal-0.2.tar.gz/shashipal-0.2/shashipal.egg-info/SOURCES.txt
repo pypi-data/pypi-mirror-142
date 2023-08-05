@@ -1,0 +1,9 @@
+LICENSE.TEXT
+setup.py
+shashipal/__init__.py
+shashipal/calculate.py
+shashipal.egg-info/PKG-INFO
+shashipal.egg-info/SOURCES.txt
+shashipal.egg-info/dependency_links.txt
+shashipal.egg-info/not-zip-safe
+shashipal.egg-info/top_level.txt
