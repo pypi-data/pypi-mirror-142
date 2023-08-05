@@ -1,0 +1,8 @@
+libterraform/__init__.py,sha256=TbPOupKGMDHKkgPePu380WPGlX1KJe0dchGWBrYdpl4,404
+libterraform/config.py,sha256=HNxAyK-LOXqyL3v_IuCjn-LsnYAafBsQY7o7uh89jrg,1392
+libterraform/exceptions.py,sha256=GlLE0EkatCKQMtS0_IT0s-AqYAXXOdgVsFPjvUSoKI8,45
+libterraform/libterraform.so,sha256=HpKLi5-IUubBg9kT6tpvIAJKT8ytZK6VeAYGQHrgMyM,35367848
+libterraform-0.1.0.dist-info/LICENSE.txt,sha256=7OBBEO-HLH0abndvFp2J69ibp7ZkD2aURhJTCiLMXXA,1066
+libterraform-0.1.0.dist-info/WHEEL,sha256=SOsrz628DsyCXOIfu6zehs3_o78vtT0Ldh27DTk3gno,103
+libterraform-0.1.0.dist-info/METADATA,sha256=ee28Evw6972dH2rkkEn3fRtfx8yEHk1Av7NN2dN4lFM,2124
+libterraform-0.1.0.dist-info/RECORD,,
