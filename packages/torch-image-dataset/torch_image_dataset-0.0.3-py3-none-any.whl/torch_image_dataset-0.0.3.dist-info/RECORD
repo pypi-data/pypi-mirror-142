@@ -1,0 +1,13 @@
+imagedataset/__init__.py,sha256=98dCtsimKgYQ4sKJAqMK8dUblxA8vXFwCjKA5-i6cYY,201
+imagedataset/dataloaders.py,sha256=t3N9ABtBpl9Ina_UFCSBGkPVCebbvyeviQLXHOHT3ks,7552
+imagedataset/datasets.py,sha256=EvzhEMY3OWaOMsJ1QucB5MDRq374tviMZBJx4kML0e0,36115
+imagedataset/imagedecoders.py,sha256=GwX3DviFHjUyobG0eunv7k67fWd7BIWYjgVL_mxkNCU,7851
+imagedataset/imageloaders.py,sha256=WjW3DvxNyRZwmqa_E--0aZ_6pfo-2yUuzUCoqRikEZA,9771
+imagedataset/interpolations.py,sha256=8zecc6tbfC5QTTYMkL8m3ON7fMdNNqcvhniN2-FLu3Q,1218
+imagedataset/operations.py,sha256=UWtz2l4bAGUW2SXBm7JnUIjKoIvHH33wepL6jFw8UG0,2374
+imagedataset/utils.py,sha256=AxYNVAgtX3VEjowkAqi1AxCabzQyBq80_AuDX3dDHGM,3601
+torch_image_dataset-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+torch_image_dataset-0.0.3.dist-info/METADATA,sha256=5kGGIBGcdOnBsAXmXQ645DipzBqJ_aaKlWryozx8vfU,6103
+torch_image_dataset-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torch_image_dataset-0.0.3.dist-info/top_level.txt,sha256=eJckkM5QuASjmM97XZGepX5I0S0zipyxa0wg988cvuQ,13
+torch_image_dataset-0.0.3.dist-info/RECORD,,
