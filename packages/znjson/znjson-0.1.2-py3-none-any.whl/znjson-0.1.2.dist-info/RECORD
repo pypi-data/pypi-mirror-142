@@ -1,0 +1,16 @@
+znjson/__init__.py,sha256=aWAIP8kheh363hiW1GBrf87p4WJnEf_1129L00BZyJA,295
+znjson/base.py,sha256=Xv-y72kmMyay3-_wGgSWLWl8PrPSsaeRTjH2aAKeJ8w,2393
+znjson/config.py,sha256=cH2K_YAauB3oTEK29G-wkkkB6ODwdNaCAWg3i5rTFxY,1650
+znjson/main.py,sha256=eqYOUmL-ZClKH0k8ocNkIlJMdAN2qcLetMEW7Sjy5Ck,1273
+znjson/converter/__init__.py,sha256=yPvzZjcBKIMDfPpDczrIXz_9ARP7JQQ-zm_0foh-6sc,667
+znjson/converter/class_converter.py,sha256=-tCcVASd-zCQrN4lpdWghPAHnppIoU5JQz7EzgdavjY,879
+znjson/converter/numpy_converter_base64.py,sha256=OWGl9os8_4TzF8sVC7JYgKVQhv2RNgE0IAjvn_KO2OI,527
+znjson/converter/numpy_converter_latin1.py,sha256=PnEiFtR587kBYpyrsIzx1Zsrc2XarbpFjo9UIthGgxo,522
+znjson/converter/pandas_converter.py,sha256=I3osJ2EQD78u98bO_9TCJ-MnUJqqJkJlia17pFfSQrM,533
+znjson/converter/pathlib_converter.py,sha256=lrdkX42v34w-fFtiimKnXd2v8F-voWaeTldDqDc_HU0,308
+znjson/converter/small_numpy_converter.py,sha256=mzkZ9_8-VvSPK6LSZUZDWNrwFxQSo4j_6q-T5EBzRhI,388
+znjson-0.1.2.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+znjson-0.1.2.dist-info/METADATA,sha256=oNXDTf5pH5TJqPixLvK0w9i12MHtQiZdKUXAu3qY_8I,3311
+znjson-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+znjson-0.1.2.dist-info/top_level.txt,sha256=Ril033lOgPYVAR1hSUp2i5ImgCdETOnhE8jUM0Z2tgo,7
+znjson-0.1.2.dist-info/RECORD,,
