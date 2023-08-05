@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyTGR/__init__.py
+pyTGR.egg-info/PKG-INFO
+pyTGR.egg-info/SOURCES.txt
+pyTGR.egg-info/dependency_links.txt
+pyTGR.egg-info/requires.txt
+pyTGR.egg-info/top_level.txt
