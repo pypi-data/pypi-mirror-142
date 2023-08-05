@@ -1,0 +1,7 @@
+calibrate.py
+europi.py
+setup.py
+micropython_europi.egg-info/PKG-INFO
+micropython_europi.egg-info/SOURCES.txt
+micropython_europi.egg-info/dependency_links.txt
+micropython_europi.egg-info/top_level.txt
