@@ -1,0 +1,13 @@
+qikpropservice/__init__.py,sha256=jWYXdll_Js8x36UnJI_RrTdSd5CEMTy4irlUqU8M4I4,508
+qikpropservice/_version.py,sha256=Wh1wW-y8VXzQ2Ulp6Znss6o0CRJ91NeIeCjgeEQ0ejc,497
+qikpropservice/data_models.py,sha256=A1u-q4hDr9c3q78RuY3whZJnWL8k1Po8w0sstoYvHfc,1823
+qikpropservice/hashing.py,sha256=RpFuplEe_l_JekFeFmZ8tVPCGyy9LjUsb1Mn5s9keKQ,626
+qikpropservice/qpcli.py,sha256=Bdw2835lWiYue3YE4u42U6nXa4KsfFzekOpY6Tl7WkM,2115
+qikpropservice/qplib.py,sha256=w2Ac8qoG7lIRPv5C5VzpxbYSzZORctk_BMb5YPWII3U,14755
+qikpropservice-0.2.4.dist-info/LICENSE,sha256=kHJaVHUDcg3GabbjeeKm-yCkwEfCQzO9UC8Ae9WHzb0,1080
+qikpropservice-0.2.4.dist-info/METADATA,sha256=0AlehFoJO8Idg3wa_NgIi96TIKjmmnDCf1y6TIrqCdI,5919
+qikpropservice-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qikpropservice-0.2.4.dist-info/entry_points.txt,sha256=gfM6hm2-XVEj711T9WI5IMJRXJr5-uFlQaotRG24NMI,53
+qikpropservice-0.2.4.dist-info/top_level.txt,sha256=Xj56-sFGn2V2diBb-WDGByl6HxV0rcMvR-QJ05n2avc,15
+qikpropservice-0.2.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qikpropservice-0.2.4.dist-info/RECORD,,
