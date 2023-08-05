@@ -1,0 +1,6 @@
+notebook.py
+setup.py
+SampleNoteBook.egg-info/PKG-INFO
+SampleNoteBook.egg-info/SOURCES.txt
+SampleNoteBook.egg-info/dependency_links.txt
+SampleNoteBook.egg-info/top_level.txt
