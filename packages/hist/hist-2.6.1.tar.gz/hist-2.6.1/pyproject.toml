@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/hist/version.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -Wd --strict-markers"
+xfail_strict = true
+testpaths = ["tests"]
+required_plugins = ["pytest-mpl"]
+log_cli_level = "DEBUG"
+
+
+[tool.nbqa.mutate]
+black = 1
+pyupgrade = 1
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.check-manifest]
+ignore = [
+    ".pre-commit-config.yaml",
+    ".readthedocs.yml",
+    "examples/**",
+    "notebooks/**",
+    "docs/**",
+    "CONTRIBUTING.md",
+    "*.html",
+    "*.in",
+    "*.json",
+    "*.yml",
+    "src/hist/version.py",
+    "tests/.pytest_cache/**",
+    ".all-contributorsrc",
+    "noxfile.py",
+]
+
+
+[tool.mypy]
+warn_unused_configs = true
+files = "src"
+python_version = "3.7"
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "histoprint.*",
+    "scipy.optimize.*",
+    "uncertainties.*",
+    "matplotlib.*",
+    "scipy.*",
+    "iminuit.*",
+    "mplhep.*",
+    "hist.version",
+]
+ignore_missing_imports = true
+
+[tool.pylint]
+master.py-version = "3.7"
+master.extension-pkg-allow-list = ["boost_histogram._core"]
+reports.output-format = "colorized"
+similarities.ignore-imports = "yes"
+master.jobs = "0"
+messages_control.enable = [
+  "useless-suppression",
+]
+messages_control.disable = [
+  "fixme",
+  "invalid-name",
+  "line-too-long",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "missing-module-docstring",
+  "protected-access",
+  "too-few-public-methods",
+  "too-many-arguments",
+  "too-many-branches",
+  "too-many-lines",
+  "too-many-locals",
+  "too-many-return-statements",
+  "too-many-statements",
+  "wrong-import-position",
+  "duplicate-code",
+  "import-outside-toplevel",
+  "import-error",
+  "disallowed-name",
+]
