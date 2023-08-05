@@ -1,0 +1,10 @@
+vfunctions_sdk/NSM.py,sha256=JEVPe3BjLTJH4slfYvP1UevHYAUZAoIXDBape0_aj4U,1444
+vfunctions_sdk/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+vfunctions_sdk/connection.py,sha256=1kjeqz-gxW6q58Ja7ox7J1HpcEsPkOG25uvWv310mZQ,2655
+vfunctions_sdk/publish.py,sha256=kh3kNPGjS2CQ1drvc1thIeKasQ24lm9uFdizHMXM3MM,2427
+vfunctions_sdk/vFunction.py,sha256=cSIancHsu7CF9U9RbXvWiois9MZSQlWfoPVSphlcZ28,1610
+vfunctions_sdk-0.0.6.dist-info/LICENSE,sha256=vxr4l9MrHsybfJvZWpxGLOCtd4kAGyBCILMTk-47iKc,11313
+vfunctions_sdk-0.0.6.dist-info/METADATA,sha256=RM6LPHMIz98S7vbFSJOMOPMNp7J7wPQHmCR1RtRKz-8,1002
+vfunctions_sdk-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vfunctions_sdk-0.0.6.dist-info/top_level.txt,sha256=N6IktqgLhbh7AN67D3VXoyBEyK-sPp1x9Vepfaqy20A,15
+vfunctions_sdk-0.0.6.dist-info/RECORD,,
