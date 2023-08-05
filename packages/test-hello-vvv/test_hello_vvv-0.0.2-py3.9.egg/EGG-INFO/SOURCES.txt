@@ -1,0 +1,6 @@
+setup.py
+temp/hello.py
+test_hello_vvv.egg-info/PKG-INFO
+test_hello_vvv.egg-info/SOURCES.txt
+test_hello_vvv.egg-info/dependency_links.txt
+test_hello_vvv.egg-info/top_level.txt
