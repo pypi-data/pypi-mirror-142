@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/decentralizedroutines.egg-info/PKG-INFO
+src/decentralizedroutines.egg-info/SOURCES.txt
+src/decentralizedroutines.egg-info/dependency_links.txt
+src/decentralizedroutines.egg-info/requires.txt
+src/decentralizedroutines.egg-info/top_level.txt
