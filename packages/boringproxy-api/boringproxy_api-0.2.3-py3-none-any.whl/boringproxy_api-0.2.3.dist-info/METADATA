@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: boringproxy-api
+Version: 0.2.3
+Summary: Simplify boringproxy service management
+Home-page: https://github.com/bodiroga/boringproxy-python-api
+Download-URL: https://pypi.org/project/boringproxy-api/
+Author: Aitor Iturrioz
+Author-email: riturrioz@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: beautifulsoup4 (==4.10.0)
+
+# BORINGPROXY PYTHON API
+
