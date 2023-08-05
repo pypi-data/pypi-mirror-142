@@ -1,0 +1,7 @@
+[console_scripts]
+teramesh-configure = teramesh_hardware_tester.configurer:run_configurer
+teramesh-dump-config = teramesh_hardware_tester.dumper:run_dumper
+teramesh-hardware-test = teramesh_hardware_tester.tester:run_tester
+teramesh-modbus-test = teramesh_hardware_tester.modbuser:run_modbuser
+tht-ui = teramesh_hardware_tester.server:main
+
