@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "matterapi"
+version = "0.4.0"
+description = "A client library for Mattermost API supporting sync/async"
+license = "MIT"
+authors = [ "Georg Merzdovnik" ]
+
+homepage = "https://matterapi.readthedocs.io/"
+repository = "https://github.com/gmerz/MatterApi"
+
+readme = "README.md"
+
+packages = [
+    {include = "matterapi"},
+]
+include = ["matterapi/py.typed"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0.0"
+httpx = ">=0.21.0"
+pydantic = "^1.9.0"
+websockets = "^10.0"
+python-dateutil = "^2.8.0"
+
+[tool.poetry.dev-dependencies]
+Sphinx = ">=4.4.0"
+myst-parser = ">0.16.0"
+sphinx-rtd-theme = "^1.0.0"
+sphinxcontrib-programoutput = "^0.17"
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38', 'py39', 'py310']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | build
+    | dist
+    | docs
+    | venv
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+disable = "empty-docstring,C0116,duplicate-code"
+exclude-too-few-public-methods = ".*BaseConfig,.*.Config"
+
+
+[tool.pylint.'MASTER']
+extension-pkg-whitelist="pydantic"
+
+
+[tool.pylint.'FORMAT']
+# Regexp for a line that is allowed to be longer than the limit.
+ignore-long-lines='https?://'
+
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
