@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: installer
+Version: 0.5.1
+Summary: A library for installing Python wheels.
+Home-page: None
+Author: None
+Author-email: Pradyun Gedam <pradyunsg@gmail.com>
