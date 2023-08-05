@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/gchat_logging_handler/__init__.py
+src/gchat_logging_handler/__main__.py
+src/gchat_logging_handler.egg-info/PKG-INFO
+src/gchat_logging_handler.egg-info/SOURCES.txt
+src/gchat_logging_handler.egg-info/dependency_links.txt
+src/gchat_logging_handler.egg-info/requires.txt
+src/gchat_logging_handler.egg-info/top_level.txt
