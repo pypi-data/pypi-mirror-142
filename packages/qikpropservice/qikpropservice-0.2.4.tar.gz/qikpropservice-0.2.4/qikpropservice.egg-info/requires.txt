@@ -1,0 +1,8 @@
+requests
+click
+pydantic
+tqdm
+
+[tests]
+pytest
+pytest-cov
