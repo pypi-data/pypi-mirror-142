@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: compas-pythreejs
+Version: 0.2.1
+Summary: Extension for display COMPAS geometries in Jupyter Notebook through pythreejs.
+Home-page: https://github.com/BlockResearchGroup/compas_pythreejs
+Author: Li Chen
+Author-email: li.chen@arch.ethz.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# compas_pythreejs
+
+Extension for display COMPAS geometries in Jupyter Notebook through pythreejs.
+
+
