@@ -1,0 +1,6 @@
+README.md
+setup.py
+DuckMarker.egg-info/PKG-INFO
+DuckMarker.egg-info/SOURCES.txt
+DuckMarker.egg-info/dependency_links.txt
+DuckMarker.egg-info/top_level.txt
