@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+rlsa/rlsa.c
+rlsa.egg-info/PKG-INFO
+rlsa.egg-info/SOURCES.txt
+rlsa.egg-info/dependency_links.txt
+rlsa.egg-info/not-zip-safe
+rlsa.egg-info/requires.txt
+rlsa.egg-info/top_level.txt
