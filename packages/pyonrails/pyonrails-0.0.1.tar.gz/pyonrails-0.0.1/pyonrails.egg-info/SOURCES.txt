@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+pyonrails/__init__.py
+pyonrails.egg-info/PKG-INFO
+pyonrails.egg-info/SOURCES.txt
+pyonrails.egg-info/dependency_links.txt
+pyonrails.egg-info/top_level.txt
+pyonrails/orm/base.py
