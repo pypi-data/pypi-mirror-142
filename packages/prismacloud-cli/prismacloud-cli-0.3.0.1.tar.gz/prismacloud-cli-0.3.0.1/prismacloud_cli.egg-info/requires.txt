@@ -1,0 +1,8 @@
+requests
+pandas
+jsondiff
+importlib
+ipython
+click
+click_help_colors
+tabulate
