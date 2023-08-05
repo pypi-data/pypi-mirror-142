@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+git-latest-version-tag=mkdocs_latest_version_tag_plugin.plugin:GitLatestVersionTagPlugin
+
