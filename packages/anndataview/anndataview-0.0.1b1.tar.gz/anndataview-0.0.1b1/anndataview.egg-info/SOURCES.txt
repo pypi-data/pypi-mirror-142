@@ -1,0 +1,8 @@
+README.md
+setup.py
+anndataview/version.py
+anndataview.egg-info/PKG-INFO
+anndataview.egg-info/SOURCES.txt
+anndataview.egg-info/dependency_links.txt
+anndataview.egg-info/requires.txt
+anndataview.egg-info/top_level.txt
