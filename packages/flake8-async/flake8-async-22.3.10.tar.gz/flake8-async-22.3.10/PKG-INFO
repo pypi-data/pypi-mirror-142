@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: flake8-async
+Version: 22.3.10
+Summary: A flake8 plugin that checks bad async / asyncio practices
+Home-page: https://github.com/cooperlees/flake8-async
+Author: Cooper Lees and Zac Hatfield-Dodds
+Author-email: me@cooperlees.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flake8-async
+
+A flake8 plugin that checks for bad async / asyncio practices.
+
+## Installation
+
+```console
+pip install flake8-async
+```
+
+- Or from GitHub
+
+```console
+pip install git+https://github.com/cooperlees/flake8-async
+```
+
+## List of warnings
+
+- **ASYNC100**: Warning about the use of a blocking http call inside an `async def`
+coroutine
+
+## Development
+
+To run our test suite please use tox.
+
+```console
+python3 -m venv --upgrade-deps /tmp/tfa
+/tmp/tfa/bin/pip install tox
+# Linting
+/tmp/tfa/bin/tox -e check
+# Test Running
+/tmp/tfa/bin/tox -e test -- -n auto
+```
+
+## License
+
+MIT
+
+# Changelog
+
+## 22.3.10
+
+- Initial release
+
+
