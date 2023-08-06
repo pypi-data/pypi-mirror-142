@@ -1,0 +1,8 @@
+ase
+fortnet-python
+h5py
+hsd
+numpy
+pytest
+setuptools
+wheel

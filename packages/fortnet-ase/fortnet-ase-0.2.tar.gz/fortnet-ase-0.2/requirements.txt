@@ -1,0 +1,5 @@
+pytest
+numpy
+h5py
+ase
+fortnet-python
