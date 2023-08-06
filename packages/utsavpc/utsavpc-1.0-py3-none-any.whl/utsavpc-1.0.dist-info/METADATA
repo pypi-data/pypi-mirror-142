@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: utsavpc
+Version: 1.0
+Summary: SUM/SUB/NUM/DIV
+Home-page: UNKNOWN
+Author: Utsav Chabhadiya
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: Licence.txt
+
+ This is a package whcih sums the value of two numbers.
+
