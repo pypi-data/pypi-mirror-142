@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+dgspoc/__init__.py
+dgspoc/__main__.py
+dgspoc/config.py
+dgspoc/core.py
+dgspoc/exceptions.py
+dgspoc/main.py
+dgspoc.egg-info/PKG-INFO
+dgspoc.egg-info/SOURCES.txt
+dgspoc.egg-info/dependency_links.txt
+dgspoc.egg-info/entry_points.txt
+dgspoc.egg-info/requires.txt
+dgspoc.egg-info/top_level.txt
