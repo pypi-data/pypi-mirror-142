@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: logsmith
+Version: 0.0.1
+Summary: A Logging Library for Python
+Home-page: https://github.com/TanmoySG/logsmith
+Author: Tanmoy Sen Gupta
+Author-email: tanmoysps@gmail.com
+License: MIT
+Keywords: imports,logs,python,logging
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# logsmith
+A Logging Library for Python
+
+
