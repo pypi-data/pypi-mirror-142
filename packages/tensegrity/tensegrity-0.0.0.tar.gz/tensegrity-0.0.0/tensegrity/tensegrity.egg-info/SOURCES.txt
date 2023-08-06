@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tensegrity/core/__init__.py
+tensegrity/core/utils.py
+tensegrity/tensegrity.egg-info/PKG-INFO
+tensegrity/tensegrity.egg-info/SOURCES.txt
+tensegrity/tensegrity.egg-info/dependency_links.txt
+tensegrity/tensegrity.egg-info/requires.txt
+tensegrity/tensegrity.egg-info/top_level.txt
