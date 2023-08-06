@@ -1,0 +1,10 @@
+deepbench/.DS_Store,sha256=gBODszXIhXfOp80cff7yNoQ0Ljx7T00EWthjhFXwuug,6148
+deepbench/README.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepbench/pyproject.toml,sha256=zGEAPwIGlkpdKsE7SOFrNcvaeoZxH9MejdCZIlFpHe4,315
+deepbench/src/.DS_Store,sha256=WXElsdvf2xc4MPDjxM7pgLqn2K6ZHKaglitY47E8nCE,6148
+deepbench/src/deepbench/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+deepbench/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepbench/tests/test_deepbench.py,sha256=CyBGJ-Dj7kn79Q9hZJ4lRjN-VPXvnyhhPuY8WWiz--Y,90
+deepbench-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deepbench-0.1.0.dist-info/METADATA,sha256=N5Q3SCZbk2rRD2nNlsTLOV2WlB5TvaW2lqDzr16ZR9k,401
+deepbench-0.1.0.dist-info/RECORD,,
