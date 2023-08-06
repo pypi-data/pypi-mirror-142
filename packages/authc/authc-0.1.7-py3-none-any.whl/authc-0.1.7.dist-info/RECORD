@@ -1,0 +1,11 @@
+authc/__init__.py,sha256=Aj0H2iwOWH_ZYRx4Q0oPAVxB2crzNahysQYVNUOtKYo,88
+authc/core.py,sha256=tPW8yIcP0hsyOVYH-YJMIZTekBKGZz-_HrOiAVb7ESQ,2517
+authc/myredis.py,sha256=Ih2UcZ7K621VsU21G4AqTJph1x8uRwJC9PLIqrPuw8k,440
+authc/data/linux,sha256=nlSMFGPvuPIEBGtDTjX14bZXWUmVkyMATtbg0Mt2Ip0,1259888
+authc/data/m1,sha256=eGnQ7GsRJC9lv_wofyXILjff7KoT4bC6GMJSvMWwhU0,979704
+authc/data/mac,sha256=coooV6r5hwOOHiwQUQbsjzmO1D_3PjJ3-W1C_tlSu9k,1055440
+authc-0.1.7.dist-info/METADATA,sha256=OQy8PPToPye9-McM8ApqumGiVQSzh9E8I7XSYkcLnFU,463
+authc-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+authc-0.1.7.dist-info/entry_points.txt,sha256=ts4P2oedV8161K6YIweAx1n37cxY5U5HZNVI8nzMia8,38
+authc-0.1.7.dist-info/top_level.txt,sha256=ME4fYzzdfspzO_9ymlP2Q50bFce2Hr2pxDgGtGKmpf4,6
+authc-0.1.7.dist-info/RECORD,,
