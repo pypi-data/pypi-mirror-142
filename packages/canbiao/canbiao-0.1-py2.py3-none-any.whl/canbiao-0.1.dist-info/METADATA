@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: canbiao
+Version: 0.1
+Summary: Toolbox for Python
+Author-email: jutooy <jutooy@qq.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: pycryptodome
+Requires-Dist: pymongo
+Requires-Dist: pymysql
+Requires-Dist: aiomysql
+
+
