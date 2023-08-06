@@ -1,0 +1,8 @@
+include collimator/VERSION
+include collimator/icon.png
+include collimator/welcome.png
+
+include requirements.txt
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
