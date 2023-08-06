@@ -1,0 +1,15 @@
+chimp_detector/__init__.py,sha256=bT41_6HlEq5ezJE-qBDZkewX9Xtdu01d1tAgZW6hymI,825
+chimp_detector/helper/__init__.py,sha256=_31VqV9Hkoh3B_u0qx4jN38nxco4QDGe5DveiyM5s7E,811
+chimp_detector/helper/audio_processor.py,sha256=YmIHcagHp6tmKouul17sNLSlaefotv--80TYn848QLI,1482
+chimp_detector/helper/chimp_detector.py,sha256=c7-4jO9QGJVz7m5UjB5LSEwMXnM6OyWItTg0skc1fnY,810
+chimp_detector/helper/config.py,sha256=7xnG61r8BmrBmdVXB8P-Ot-Mm0uBCc6dDIP7Q8Nb8GY,457
+chimp_detector/helper/featuremap_processor.py,sha256=iOREmAbJiF-II3uajsI8Q6h0IvnzocLjDmNUOpLfYMw,2612
+chimp_detector/helper/predictor.py,sha256=e4QKt2P9MWzFHtQDeoxywSHHlX39WNpkiNuV7q-Fu3k,1065
+chimp_detector/helper/data/DATE:2022-01-28_15:51:39_CLASS:drumming_TestF1:0.379/saved_model.pb,sha256=LMcXK2ol6dzbo6Wy_37sJcmAWAUtHcPfuT89lzlczUY,2407895
+chimp_detector/helper/data/DATE:2022-01-28_15:51:39_CLASS:drumming_TestF1:0.379/variables/variables.data-00000-of-00001,sha256=bL2aaTrGeweIjNtjevDwA3rpcUCWV5u_ZliFyTxpWac,3321764
+chimp_detector/helper/data/DATE:2022-01-28_15:51:39_CLASS:drumming_TestF1:0.379/variables/variables.index,sha256=DxlL7Pf_-KQwdbplzNijsFy1IxUsPUVKnZ9dH2Q1t4M,3959
+ChimpDrummingDetector-0.0.2.dist-info/LICENSE,sha256=0pAd736KSHD4_cceYAyASwNFs_1j17US1CnkjSdZvlk,1068
+ChimpDrummingDetector-0.0.2.dist-info/METADATA,sha256=qXAjekG8qpxq7DJ0DGD6_VafZZwldz4gMvOUDIkbDjU,1979
+ChimpDrummingDetector-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ChimpDrummingDetector-0.0.2.dist-info/top_level.txt,sha256=N9-X3cwYDy-Fzh6qJ2-RpvEJNt4hiiOq0aTqTQ4L0TI,15
+ChimpDrummingDetector-0.0.2.dist-info/RECORD,,
