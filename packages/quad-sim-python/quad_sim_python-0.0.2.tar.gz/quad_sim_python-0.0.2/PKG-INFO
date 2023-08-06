@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: quad_sim_python
+Version: 0.0.2
+Summary: Simple quadcopter simulator in Python
+Home-page: https://github.com/ricardodeazambuja/quad_sim_python
+Author: Ricardo de Azambuja
+Author-email: ricardo.azambuja@gmail.com
+License: MIT
+Download-URL: https://github.com/ricardodeazambuja/quad_sim_python/archive/refs/tags/v0.0.2.tar.gz
+Keywords: CogniFly,Betaflight,iNAV,drone,UAV,Multi Wii Serial Protocol,MSP,Quadcopter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quad_sim_python
+Simple quadcopter simulator in Python
+
+# Installation:
+## Method #0
+```
+$ pip3 install quad_sim_python --upgrade
+```
+
+## Method #1
+```
+$ git clone https://github.com/ricardodeazambuja/quad_sim_python.git
+$ cd quad_sim_python
+$ pip3 install . --upgrade
+```
+
+## Method #2
+```
+$ pip3 install git+git://github.com/ricardodeazambuja/quad_sim_python --upgrade
+```
+
+# How to use it:
+Check the files inside the directory `examples`: `run_online.py` and `run_trajectory.py`.
+
+
+# Acknowledgments
+Adapted from https://github.com/bobzwik/Quad_Exploration
+
