@@ -1,0 +1,1 @@
+cdk_cloudformation_registry_test_resource1_module
