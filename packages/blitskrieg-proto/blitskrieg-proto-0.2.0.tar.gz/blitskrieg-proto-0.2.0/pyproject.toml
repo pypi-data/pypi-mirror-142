@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = 'blitskrieg-proto'
+version = '0.2.0'
+description = 'Protobuf generated libraries for Blitskrieg'
+license = ' AGPL-3.0-or-later'
+authors = ['Hashbeam <hashbeam@protonmail.com>']
+repository = 'https://gitlab.com/hashbeam/blitskrieg-proto'
+keywords = ['blitskrieg', 'protobuf', 'grpc', 'lightning network', 'bitcoin']
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    'Operating System :: MacOS',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Other/Nonlisted Topic',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+grpcio = "^1.43.0"
+protobuf = "^3.19.1"

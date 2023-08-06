@@ -1,0 +1,1 @@
+"""Blitskrieg proto package."""
