@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: util-rpa
+Version: 1.25
+Summary: Utilitarios usados por RPA Python
+Author: Jonathan Bolo
+Author-email: jonathan.bolo@telefonica.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: bcrypt (==3.2.0)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: ci-info (==0.2.0)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: configobj (==5.0.6)
+Requires-Dist: configparser (==5.2.0)
+Requires-Dist: cryptography (==36.0.1)
+Requires-Dist: docutils (==0.18.1)
+Requires-Dist: et-xmlfile (==1.1.0)
+Requires-Dist: etelemetry (==0.3.0)
+Requires-Dist: filelock (==3.6.0)
+Requires-Dist: fitz (==0.0.1.dev2)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: httplib2 (==0.20.4)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.11.2)
+Requires-Dist: importlib-resources (==5.4.0)
+Requires-Dist: isodate (==0.6.1)
+Requires-Dist: keyring (==23.5.0)
+Requires-Dist: lxml (==4.8.0)
+Requires-Dist: networkx (==2.7.1)
+Requires-Dist: nibabel (==3.2.2)
+Requires-Dist: nipype (==1.7.0)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: openpyxl (==3.0.9)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.4.0)
+Requires-Dist: paramiko (==2.9.2)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: pkginfo (==1.8.2)
+Requires-Dist: prov (==2.0.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pydot (==1.4.2)
+Requires-Dist: Pygments (==2.11.2)
+Requires-Dist: PyNaCl (==1.5.0)
+Requires-Dist: pyparsing (==3.0.7)
+Requires-Dist: pysftp (==0.2.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: pyxnat (==1.4)
+Requires-Dist: rdflib (==6.1.1)
+Requires-Dist: readme-renderer (==33.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: simplejson (==3.17.6)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tqdm (==4.63.0)
+Requires-Dist: traits (==6.3.2)
+Requires-Dist: twine (==3.8.0)
+Requires-Dist: typeshed-client (==2.0.3)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.7.0)
+
+pip install twine
+python setup.py bdist_wheel 
+python setup.py sdist
+
+twine upload dist/* 
+
