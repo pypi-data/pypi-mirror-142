@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/dbots/__init__.py
+src/dbots.py.egg-info/PKG-INFO
+src/dbots.py.egg-info/SOURCES.txt
+src/dbots.py.egg-info/dependency_links.txt
+src/dbots.py.egg-info/requires.txt
+src/dbots.py.egg-info/top_level.txt
