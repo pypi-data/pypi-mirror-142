@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: amqp-rpc-client
+Version: 1.0.0
+Summary: An asynchronous RPC client for message brokers implementing the AMQPv0-9-1 protocol
+Home-page: https://github.com/j-suchard/amqp-rpc-client
+Author: Jan Eike Suchard
+Author-email: jan-eike.suchard@magenta.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AMQP RPC Client
+
+This package provides an easy way to use remote procedure calls in microservice 
+architectures. The underlying library is `pika` which is fully written in python.
+
+The client uses events and threads to stop blocking the main thread while waiting
+for responses from other services
+

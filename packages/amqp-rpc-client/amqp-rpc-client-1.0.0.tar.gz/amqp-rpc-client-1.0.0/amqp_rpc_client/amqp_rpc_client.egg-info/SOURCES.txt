@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+amqp_rpc_client/amqp_rpc_client.egg-info/PKG-INFO
+amqp_rpc_client/amqp_rpc_client.egg-info/SOURCES.txt
+amqp_rpc_client/amqp_rpc_client.egg-info/dependency_links.txt
+amqp_rpc_client/amqp_rpc_client.egg-info/requires.txt
+amqp_rpc_client/amqp_rpc_client.egg-info/top_level.txt
