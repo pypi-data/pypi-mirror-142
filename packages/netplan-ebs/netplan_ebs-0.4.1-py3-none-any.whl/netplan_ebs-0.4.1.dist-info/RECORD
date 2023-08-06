@@ -1,0 +1,11 @@
+netplan/__init__.py,sha256=iqOSr4LUA_DxuFFCcD84jqDT4iGNVfIbyj7joOtwnQo,1878
+netplan/config.py,sha256=lSxcWCAxuYSQ0ZVW5mgfz-3GK-FA_tWNerz-EVZGJsM,4034
+netplan/interface.py,sha256=kwPpI6JYAb3321S_Q35djRMJRQ6KAlOxysrAcuYEj5k,4788
+netplan/parser.py,sha256=q49uizn14SnRD5kHCxXiI_nnXNDXspVLE0VsuCD0ckM,7088
+netplan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netplan_ebs-0.4.1.data/scripts/netplan-parser,sha256=kuxXx0Xd52oF6yj0xvPlAV6HuHuK7oP72GFvphZF4bU,5704
+netplan_ebs-0.4.1.dist-info/METADATA,sha256=BRGYSFFtLyTrNE0fWHgMahphQc71r4q5xn41Oa7PwHc,4829
+netplan_ebs-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+netplan_ebs-0.4.1.dist-info/top_level.txt,sha256=QZVKQl42P4lpDVXL_1Za5PgIPYKSVEm6j4RBFiZiE4Y,8
+netplan_ebs-0.4.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+netplan_ebs-0.4.1.dist-info/RECORD,,
