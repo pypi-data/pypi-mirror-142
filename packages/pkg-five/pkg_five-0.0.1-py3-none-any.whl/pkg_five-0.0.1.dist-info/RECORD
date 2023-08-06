@@ -1,0 +1,5 @@
+example_pkg/__init__.py,sha256=WQGKt_RLiC-fqmXEhsNtF2JmOTnM-obkau17_cuz7Ts,15
+pkg_five-0.0.1.dist-info/METADATA,sha256=mwYiJVlHXVuGFROkK5ar0r84bqjqAAFyAknzTVpQsGw,374
+pkg_five-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pkg_five-0.0.1.dist-info/top_level.txt,sha256=6z5BxHpE17rpY8UuF_FwZjTIbkRc7f6jXImHpIXC7gw,12
+pkg_five-0.0.1.dist-info/RECORD,,
