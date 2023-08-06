@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/wotlk_db_BY_MCH.egg-info/PKG-INFO
+src/wotlk_db_BY_MCH.egg-info/SOURCES.txt
+src/wotlk_db_BY_MCH.egg-info/dependency_links.txt
+src/wotlk_db_BY_MCH.egg-info/top_level.txt
