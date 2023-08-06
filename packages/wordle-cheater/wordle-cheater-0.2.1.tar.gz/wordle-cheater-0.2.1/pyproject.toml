@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "wordle-cheater"
+version = "0.2.1"
+description = "Utilities for cheating on Wordle :("
+authors = ["Edward Eskew <eeskew@gatech.edu>"]
+readme = "README.md"
+repository = "https://github.com/edsq/wordle-cheater"
+documentation = "http://wordle-cheater.readthedocs.io/"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.4"
+importlib-metadata = {version = "^4.2", python = "<3.8"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+ipython = "^7.0"
+pre-commit = "^2.17.0"
+black = "^22.1.0"
+coverage = {extras = ["toml"], version = "^6.3.2"}
+pytest-cov = "^3.0.0"
+nox = "^2022.1.7"
+nox-poetry = "^0.9.0"
+flake8 = "^4.0.1"
+flake8-black = "^0.3.2"
+flake8-bugbear = "^22.1.11"
+flake8-import-order = "^0.18.1"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.1"
+Sphinx = "^4.3"
+numpydoc = "^1.2"
+sphinx-click = "^3.1.0"
+furo = "^2022.3.4"
+myst-parser = "^0.17.0"
+
+[tool.poetry.scripts]
+wordle-cheater = "wordle_cheater.cli:wordle_cheat"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["wordle_cheater"]
+omit = ["*/interface.py"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
