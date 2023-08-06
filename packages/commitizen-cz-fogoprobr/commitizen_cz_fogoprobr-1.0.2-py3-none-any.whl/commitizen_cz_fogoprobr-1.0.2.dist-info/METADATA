@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: commitizen-cz-fogoprobr
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/melattofogo/cz-fogoprobr
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: commitizen (>=2.21.2)
+
+# commitizen-cz-fogoprobr
+
+Commitizen personalizado por melattofogo
+
+## Uso
+
+Listar commitizen instalados
+
+```
+cz ls
+```
+
+*Commit* de *code* em *stage*
+
+```
+cz --name cz_fogoprobr commit
+```
+
+Alternativamente, definindo o commitizen do projeto em um arquivo ```.cz``` do projeto
+
+```
+(echo [commitizen] & echo.name = cz_fogoprobr) >> .cz
+cz commit
+```
+
+## Requisitos
+
+- [commitizen](https://github.com/commitizen-tools/commitizen) ```2.21.2```
+
+## Autor
+Joao Fogo (melatto.fogo@live.com)
+
+
