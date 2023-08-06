@@ -1,0 +1,10 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/cli.py,sha256=qrqsOY8JXZbN7R7-WBQbY89usBbanFEnO5wc7aHKhw0,839
+eaasi_uvi_client/__init__.py,sha256=diE_unyp3jrWqUbya0FzvAZ8qYQh--WMF5MVTFmb9lY,61
+eaasi_uvi_client/eaasi_uvi_client.py,sha256=15K7QdC8l_gWHanfegd_oZItHsiBMGxYnM6LvdHg9sY,4153
+eaasi_uvi_client-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eaasi_uvi_client-0.1.0.dist-info/METADATA,sha256=UN9bbhZzeU4T0HOAqShdsZHWR8HHEuk2DRbbvXXIFeo,3090
+eaasi_uvi_client-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+eaasi_uvi_client-0.1.0.dist-info/entry_points.txt,sha256=rkcAI8XjJdq5KMaDbjo09MmorYLwOKWhOwJojAv5OTk,93
+eaasi_uvi_client-0.1.0.dist-info/top_level.txt,sha256=oAAhsWCFVxMzJN3bE33GHkeLxsGRBW-rggOLaJADNbg,21
+eaasi_uvi_client-0.1.0.dist-info/RECORD,,

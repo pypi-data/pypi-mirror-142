@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        get-eaasi-recommendations=cli.cli:get_recommendations
+    
