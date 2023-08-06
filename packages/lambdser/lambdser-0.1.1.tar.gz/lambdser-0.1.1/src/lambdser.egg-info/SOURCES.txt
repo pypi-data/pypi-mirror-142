@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/lambdser/__init__.py
+src/lambdser/lambdser.py
+src/lambdser.egg-info/PKG-INFO
+src/lambdser.egg-info/SOURCES.txt
+src/lambdser.egg-info/dependency_links.txt
+src/lambdser.egg-info/not-zip-safe
+src/lambdser.egg-info/requires.txt
+src/lambdser.egg-info/top_level.txt
+test/test_lambler.py
