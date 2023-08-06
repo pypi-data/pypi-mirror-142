@@ -1,0 +1,9 @@
+.*
+*~
+!/.gitignore
+!/.Dockerfile
+!/.gitlab-ci.yml
+
+build
+dist
+__pycache__

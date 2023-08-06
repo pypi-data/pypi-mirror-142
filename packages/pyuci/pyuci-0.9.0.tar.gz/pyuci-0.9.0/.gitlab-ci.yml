@@ -1,0 +1,53 @@
+image: $CI_REGISTRY_IMAGE
+
+stages:
+  - docker
+  - test
+  - pages
+
+docker:
+  stage: docker
+  image: $CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX/docker
+  services:
+    - $CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX/docker:dind
+  tags:
+    - dind
+    - privileged
+  variables:
+    TAG: "$CI_REGISTRY_IMAGE"
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker pull $TAG || true
+    - docker build --pull --cache-from $TAG --tag $TAG --file .Dockerfile .
+    - docker push $TAG
+
+unittests:
+  stage: test
+  before_script:
+    - pip3 install .
+    - pip3 install pytest-cov  # This can be removed once base image is updated
+    - export LD_LIBRARY_PATH=/usr/local/lib
+  script:
+    - python3 -m pytest -v --junitxml=report.xml --cov-report xml:coverage.xml --cov-report term --cov=euci tests
+  artifacts:
+    reports:
+      junit: report.xml
+      cobertura: coverage.xml
+  coverage: /^TOTAL.*\s+([^\s]+)%$/
+
+pages:
+  stage: pages
+  before_script:
+    - COVERAGE=y python3 setup.py install
+    - export LD_LIBRARY_PATH=/usr/local/lib
+    - python3 -m pytest tests
+  script:
+    - lcov --capture --no-external --base-directory . --directory build/temp.* --output-file coverage.info
+    - genhtml coverage.info --output-directory public/coverage-c
+  artifacts:
+    when: on_success
+    paths:
+      - public
+  only:
+  - master
