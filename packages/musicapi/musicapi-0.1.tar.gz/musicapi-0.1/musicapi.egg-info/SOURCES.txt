@@ -1,0 +1,10 @@
+README.md
+setup.py
+musicapi/__init__.py
+musicapi/qq.py
+musicapi/wyy.py
+musicapi.egg-info/PKG-INFO
+musicapi.egg-info/SOURCES.txt
+musicapi.egg-info/dependency_links.txt
+musicapi.egg-info/requires.txt
+musicapi.egg-info/top_level.txt
