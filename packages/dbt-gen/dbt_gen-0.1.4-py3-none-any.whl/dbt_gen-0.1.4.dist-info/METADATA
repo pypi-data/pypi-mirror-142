@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: dbt-gen
+Version: 0.1.4
+Summary: Tool to generate dbt resources.
+Home-page: https://github.com/joon-solutions/dbt-gen
+Author: Joon Solutions
+Author-email: tien.tq@joonsolutions.com
+License: GPLv3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyarrow (==6.0.1)
+Requires-Dist: pyYAML (==6.0)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: google-cloud-bigquery (==2.34.0)
+Requires-Dist: snowflake-connector-python (==2.7.4)
+Requires-Dist: jinja2 (==3.0.3)
+Requires-Dist: tqdm (==4.63.0)
+Provides-Extra: tests
+Requires-Dist: flake8 (==4.0.1) ; extra == 'tests'
+Requires-Dist: black (==22.1.0) ; extra == 'tests'
+Requires-Dist: pytest (==7.0.1) ; extra == 'tests'
+
+# dbt-gen
+Tool for generating dbt model, source files.
+
+## Commands
+
+### 1. Generate dbt project from cookiecutter template
+
+```bash
+dbt_gen generate_dbt
+```
+
+### 2. Generate source
+
+```bash
+dbt_gen generate_source --help
+usage: dbt_gen generate_source [-h] [--profile-path PROFILE_PATH]
+                               [--profile-name PROFILE_NAME] [--target TARGET]
+                               [--database DATABASE] [--threads THREADS]
+                               source_folder
+
+positional arguments:
+  source_folder         Folder to write source YAML files
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --profile-path PROFILE_PATH
+                        Path to dbt profile YAML. Default is
+                        /home/tien/.dbt/profiles.yml
+  --profile-name PROFILE_NAME
+                        Dbt profile name. Default is `default`.
+  --target TARGET       Dbt profile target. Default is `dev`.
+  --database DATABASE   Database to inspect. Default is the database in
+                        profile.
+  --threads THREADS     Max threads. Default is your machine number of
+                        threads.
+```
+
+### 3. Generate base models
+
+```bash
+dbt_gen generate_base_model --help
+usage: dbt_gen generate_base_model [-h] [--profile-path PROFILE_PATH]
+                                   [--profile-name PROFILE_NAME]
+                                   [--target TARGET] [--threads THREADS]
+                                   source_path output_folder
+
+positional arguments:
+  source_path           Path to dbt source YAML.
+  output_folder         Folder to write base models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --profile-path PROFILE_PATH
+                        Path to dbt profile YAML. Default is
+                        /home/tien/.dbt/profiles.yml
+  --profile-name PROFILE_NAME
+                        Dbt profile name. Default is `default`.
+  --target TARGET       Dbt profile target. Default is `dev`.
+  --threads THREADS     Max threads. Default is your machine number of
+                        threads.
+```
+
