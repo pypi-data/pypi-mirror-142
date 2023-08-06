@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/watchio/__init__.py
+src/watchio.egg-info/PKG-INFO
+src/watchio.egg-info/SOURCES.txt
+src/watchio.egg-info/dependency_links.txt
+src/watchio.egg-info/entry_points.txt
+src/watchio.egg-info/requires.txt
+src/watchio.egg-info/top_level.txt
