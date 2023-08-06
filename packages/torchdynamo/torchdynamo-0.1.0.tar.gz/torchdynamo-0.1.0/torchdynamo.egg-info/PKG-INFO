@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torchdynamo
+Version: 0.1.0
+Summary: A Python-level JIT compiler designed to make unmodified PyTorch programs faster.
+Home-page: https://github.com/facebookresearch/torchdynamo
+Author: Jason Ansel
+Author-email: jansel@fb.com
+License: BSD-3
+Keywords: pytorch machine learning compilers
+Platform: UNKNOWN
+Requires-Python: >=3.8, <3.9
+License-File: LICENSE
+
+UNKNOWN
+
