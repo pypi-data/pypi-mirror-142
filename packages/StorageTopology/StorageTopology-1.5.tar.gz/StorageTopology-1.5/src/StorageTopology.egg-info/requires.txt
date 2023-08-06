@@ -1,0 +1,6 @@
+itertools
+numpy
+sympy
+grinpy
+networkx
+math
