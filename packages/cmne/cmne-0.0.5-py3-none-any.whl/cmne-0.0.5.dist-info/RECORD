@@ -1,0 +1,11 @@
+cmne/__init__.py,sha256=2hyDtR0Jg_kw01kjryXtPapo0Oh_Q0yXuCIj9332eUk,563
+cmne/_version.py,sha256=0Uc3zDF9XadX9j08cOIZbGoZsI0JPHTxemWum3gkos4,21
+cmne/data.py,sha256=FM3lCTUzbhr6mI7ETFv8c9JCeT3V2rmGBC6j6S-Hne0,25303
+cmne/example.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+cmne/settings.py,sha256=tChdWvMTp_DOFekQ9wG39pxXeHqcUFrp0sow6Ekw1tI,5701
+cmne/train.py,sha256=FqKRjdmAlMYL0fTHTgX5qrutB12rX0LBSN2IoJ0usPM,4335
+cmne-0.0.5.dist-info/LICENSE,sha256=sqGZNsKkEe3cYGRmHNctTfV0EpQPTjXmXWO-R8t-rfo,1098
+cmne-0.0.5.dist-info/METADATA,sha256=TkbNpjmkJyaE2GIsnnMO1jrwFHohq9dR5sctZI9o4Tg,4037
+cmne-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cmne-0.0.5.dist-info/top_level.txt,sha256=h79sHLqw9y3duuHX24l2JsvgV0lcDbPwgMkzRt98EiQ,5
+cmne-0.0.5.dist-info/RECORD,,
