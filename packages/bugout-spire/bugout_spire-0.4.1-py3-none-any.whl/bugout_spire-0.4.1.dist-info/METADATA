@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: bugout-spire
+Version: 0.4.1
+Summary: Spire: Bugout custom knowledge base
+Home-page: https://github.com/bugout-dev/spire
+Author: Bugout.dev
+Author-email: engineering@bugout.dev
+License: UNKNOWN
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: appdirs
+Requires-Dist: attrs
+Requires-Dist: boto3 (>=1.20.2)
+Requires-Dist: bugout (>=0.1.19)
+Requires-Dist: bugout-brood (>=0.2.2)
+Requires-Dist: bugout-locust (>=0.2.8)
+Requires-Dist: cached-property
+Requires-Dist: chardet
+Requires-Dist: cryptography
+Requires-Dist: docutils
+Requires-Dist: elasticsearch (==7.8.1)
+Requires-Dist: fastapi (>=0.75.0)
+Requires-Dist: httptools
+Requires-Dist: multidict
+Requires-Dist: psycopg2-binary (>=2.9.1)
+Requires-Dist: pydantic
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: redis
+Requires-Dist: requests
+Requires-Dist: sqlalchemy (>=1.4.26)
+Requires-Dist: toml
+Requires-Dist: typed-ast
+Requires-Dist: uvicorn (>=0.17.6)
+Requires-Dist: uvloop
+Requires-Dist: websockets
+Requires-Dist: yarl
+Provides-Extra: dev
+Requires-Dist: alembic ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-redis ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: types-python-dateutil ; extra == 'dev'
+Requires-Dist: types-toml ; extra == 'dev'
+Provides-Extra: distribute
+Requires-Dist: setuptools ; extra == 'distribute'
+Requires-Dist: twine ; extra == 'distribute'
+Requires-Dist: wheel ; extra == 'distribute'
+
+# Spire
+
+Bugout custom knowledge bases
+
+### Setup:
+* Clone git repository
+* Install postgresql (https://www.postgresql.org/download/linux/ubuntu/)
+* Install elasticsearch (https://www.elastic.co/guide/en/elasticsearch/reference/7.9/deb.html)
+* Install requirements
+* Create dev version and manage app at https://api.slack.com/apps/
+* Copy sample.env to dev.env and fill `dev` fields
+```
+export BUGOUT_SLACK_[your info for slack apps]
+...
+export SPIRE_DB_URI="postgresql://postgres:postgres@localhost/brood_dev"
+export ELASTICSEARCH_[your info for elasticsearch]
+...
+export BUGOUT_JOURNAL_EMOJI="beetle"
+export SPIRE_API_URL="http://0.0.0.0:7475"
+export BUGOUT_AUTH_URL="http://localhost:7474"
+```
+* Copy `alembic.sample.ini` to `alembic.dev.ini` and correct field
+```
+sqlalchemy.url = postgresql://postgres:postgres@localhost/brood_dev
+```
+* Run alembic migration
+```
+> ./alembic.sh -c alembic.dev.ini upgrade head
+```
+* Install ngrok (https://ngrok.com/download)
+* Run ngrok tunnel
+```
+> ngrok http 7475
+```
+* Run server
+```
+> ./dev.sh
+```
+* Set slack `OAuth & Permissions` Redirect URLs to ngrok
+```
+https://60843a634907.ngrok.io/slack/oauth
+```
+* Add OAuth Scopes
+```
+app_mentions:read
+channels:history
+channels:read
+chat:write
+commands
+emoji:read
+groups:history
+groups:read
+im:history
+im:write
+links:read
+mpim:history
+reactions:read
+reactions:write
+users.profile:read
+```
+* Set slack `Event Subscriptions` Request URL to ngrok
+```
+https://60843a634907.ngrok.io/slack/event
+```
+* Add events
+```
+app_mentions
+app_uninstalled
+channel_rename
+emoji_changed
+link_shared
+message.im
+reaction_added
+reaction_removed
+```
+* Run brood local server
+* Create brood user `slack_installation` with hard password (this user will be managing 
+whole slack workspaces), generate token for this user and add it to environment at `dev.env`
+```
+export BUGOUT_INSTALLATION_TOKEN="<installation user token from brood>"
+```
+* Add slack dev bot to slack
+
+* For Shortcuts use readme (https://github.com/simiotics/spire/blob/bug-9-visual-slack-search/spire/slack/shortcuts.md)
+
+
