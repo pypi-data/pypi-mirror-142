@@ -1,0 +1,9 @@
+instahunter/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+instahunter/lib/data.py,sha256=bw3BYeAXxBt1EqLWaNVfw42ZZhrGijEP9agtRjeW8QI,4998
+instahunter/lib/io.py,sha256=0C7ygvwMEHm7FU3E6_mU7sAm3uXh-KDMTxBJuh7IgFg,994
+instahunter/lib/utils/question.py,sha256=lVQbh-ockDkuTHDMQutOmY2R9qiu_99gKFltO2VB-_U,2071
+instahunter/main.py,sha256=WrwqyLudg8fvm5I4UPrXLrzB3QV00wS9M5ZbJDfO_-I,1307
+instahunter-2.0.4.dist-info/entry_points.txt,sha256=9hFkOV4NWK2hHWRAmkRkcAvo4ZVmurWr0-ynxikbFAI,53
+instahunter-2.0.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+instahunter-2.0.4.dist-info/METADATA,sha256=3v2qyoefvkkQwPfjCmQRyfbBZQkToS9tzXQF66K0EAU,561
+instahunter-2.0.4.dist-info/RECORD,,
