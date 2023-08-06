@@ -1,0 +1,5 @@
+appdirs
+docopt
+pypandoc
+rich
+stop-words
