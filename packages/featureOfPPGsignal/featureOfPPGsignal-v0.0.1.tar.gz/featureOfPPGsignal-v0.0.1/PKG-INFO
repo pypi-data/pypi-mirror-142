@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: featureOfPPGsignal
+Version: v0.0.1
+Summary: extract features of the photoplethysmographic signal
+Home-page: https://github.com/NikoletaMpena/featurePPGsignal.git
+Author: Nikoleta Dimitra Bena
+Author-email: nd_bena@hotmail.com
+License: MIT
+Download-URL: https://github.com/NikoletaMpena/featurePPGsignal/archive/refs/tags/v0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: PPG,features
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
