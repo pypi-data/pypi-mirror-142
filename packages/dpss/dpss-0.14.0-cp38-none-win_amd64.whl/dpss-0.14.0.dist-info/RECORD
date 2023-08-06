@@ -1,0 +1,5 @@
+dpss-0.14.0.dist-info/METADATA,sha256=oDWIbR69EJt9cspqcE-TSpmRhPfArD_G7vAUyO4R6M4,8928
+dpss-0.14.0.dist-info/WHEEL,sha256=oY2mDBziP8z6yvQSdiZR9gV5Aet1Ul3ppgG6araN2lY,95
+dpss/__init__.py,sha256=Y4yXiZ5KmcMcWmLqSpNkf0L7TYSzKeACQmSguGDSJMM,44
+dpss/dpss.cp38-win_amd64.pyd,sha256=borQbch-Z9aYz6NFcYxP2Lxf6X3qBrB2mkMw1CysJyU,327680
+dpss-0.14.0.dist-info/RECORD,,
