@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: modm
+Version: 0.1.2
+Summary: modm command-line interface
+Home-page: https://modm.io
+Author: Niklas Hauser
+Author-email: niklas@salkinium.com
+License: MPLv2
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Embedded Systems
+Requires-Python: >=3.5.0
+License-File: LICENSE
+Requires-Dist: lbuild
+Requires-Dist: lxml
+Requires-Dist: pyelftools
+
+Currently only used for grouping dependencies.
+
