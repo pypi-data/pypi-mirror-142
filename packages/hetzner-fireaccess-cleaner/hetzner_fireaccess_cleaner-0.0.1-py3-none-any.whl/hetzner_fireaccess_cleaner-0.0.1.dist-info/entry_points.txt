@@ -1,0 +1,2 @@
+[console_scripts]
+hetzner-fireaccess-cleaner = hetzner_fireaccess_cleaner.hetzner_fireaccess_cleaner:cli
