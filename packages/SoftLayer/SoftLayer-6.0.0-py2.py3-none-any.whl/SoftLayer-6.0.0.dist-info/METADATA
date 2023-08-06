@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SoftLayer
+Version: 6.0.0
+Summary: A library for SoftLayer's API
+Home-page: http://github.com/softlayer/softlayer-python
+Author: SoftLayer, Inc., an IBM Company
+Author-email: SLDNDeveloperRelations@wwpdl.vnet.ibm.com
+License: MIT
+Requires-Dist: prettytable (>=2.0.0)
+Requires-Dist: click (>=7)
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: prompt-toolkit (>=2)
+Requires-Dist: pygments (>=2.0.0)
+Requires-Dist: urllib3 (>=1.24)
+
+SoftLayer API Python Client
+
+
