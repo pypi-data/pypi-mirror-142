@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+neurokime/core/__init__.py
+neurokime/core/utils.py
+neurokime/neurokime.egg-info/PKG-INFO
+neurokime/neurokime.egg-info/SOURCES.txt
+neurokime/neurokime.egg-info/dependency_links.txt
+neurokime/neurokime.egg-info/requires.txt
+neurokime/neurokime.egg-info/top_level.txt
