@@ -1,0 +1,17 @@
+pyfunctools/__init__.py,sha256=hZP3sPxnBp6OE4NhBj5vuL_sjC-uLWt0eLuSRLABkXk,11440
+pyfunctools/__version__.py,sha256=oIy4R6bGCWwrs4NK5kTGL2OSyKHjAyk9yioPHTd1Ybw,369
+pyfunctools/at.py,sha256=IfDflRmEFa9X05V01i4aEvzOpjJbACPxqCpwvtYcfKo,1085
+pyfunctools/chunk.py,sha256=3TY96Isl2i_l97uDarAlZuiOvL30lkWZh8q3RXfgF8g,647
+pyfunctools/compact.py,sha256=MdkjPw6gRLSqV3gnz3_IweGlvwtWUqakxqwT0e4AgX8,450
+pyfunctools/filter.py,sha256=6cJoEmKOR8rD6c3rg_BnW8iSg-4CV7acglsoXKWRghk,478
+pyfunctools/flatten.py,sha256=nXnD4eyUZ5Ok16jZTLfNMjc0pcwpWYkBuUrwRs5fG9Q,984
+pyfunctools/foreach.py,sha256=PG2paHCqPHMiXczbl5z1OmJUDiJXyKFRYyR-TPGb3YM,428
+pyfunctools/map.py,sha256=CL3sXLclZNKJ5hDc0DWqj0rWll23l5gJpqDqTo8kOmA,611
+pyfunctools/memoize.py,sha256=Xl77Akn6liBLSNG3ewEl8RipOP2rFKACn6QxPIF4wpI,1085
+pyfunctools/reduce.py,sha256=6FplPYnYJxdtIKvGjXRsMn0PVdRzz1tU-jxyBiheLi0,1204
+pyfunctools/utils.py,sha256=WiUa4nDD9G9ksyGl8rSjMtI8UjfumXe-Gkx_E-eX4gs,5002
+pyfunctools-0.4.1.dist-info/LICENSE,sha256=r3fnznonLcGYNkbzNi4BXFCUfOBATI-unNDwtw_UUyk,1083
+pyfunctools-0.4.1.dist-info/METADATA,sha256=LL8PZ8ImvSVBcsDkvcKcEY4mE-ODTFL-hhfKDWRDuXk,2245
+pyfunctools-0.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfunctools-0.4.1.dist-info/top_level.txt,sha256=lsEzlTMpYpil7cOYthpWERgVjyOm-73wKf65dNd8Yf4,12
+pyfunctools-0.4.1.dist-info/RECORD,,
