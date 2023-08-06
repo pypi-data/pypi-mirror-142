@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gradedoc
+Version: 0.0.0
+Summary: Grader for DOCX lab reports using comments.
+Author-email: Blake Naccarato <blake.naccarato+gradedoc@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Project-URL: Home, https://github.com/blakeNaccarato/gradedoc
+
+# gradedoc
+
+Grader for DOCX lab reports using comments.
+
