@@ -1,0 +1,2 @@
+[console_scripts]
+haploblock-shuffler = haploblock_shuffler.cli:main

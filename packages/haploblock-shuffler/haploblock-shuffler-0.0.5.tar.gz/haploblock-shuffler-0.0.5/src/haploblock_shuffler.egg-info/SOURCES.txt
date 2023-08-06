@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/conftest.py
+src/haploblock_shuffler/__init__.py
+src/haploblock_shuffler/__main__.py
+src/haploblock_shuffler/cli.py
+src/haploblock_shuffler/utils.py
+src/haploblock_shuffler.egg-info/PKG-INFO
+src/haploblock_shuffler.egg-info/SOURCES.txt
+src/haploblock_shuffler.egg-info/dependency_links.txt
+src/haploblock_shuffler.egg-info/entry_points.txt
+src/haploblock_shuffler.egg-info/not-zip-safe
+src/haploblock_shuffler.egg-info/requires.txt
+src/haploblock_shuffler.egg-info/top_level.txt
