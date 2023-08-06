@@ -1,0 +1,7 @@
+func_adl_servicex/ServiceX.py,sha256=hJNKn8jWblS0BXEEq9cGrHkQBUKganPJjZtjZNiJwQE,8646
+func_adl_servicex/__init__.py,sha256=ZioqIxhXxrWgdGqdNxUseSLRF58evH_auH4EtztdA0k,276
+func_adl_servicex/local_dataset.py,sha256=taV1cvI8YGwlOw8abMTgX3eivDcuAKnRW32Fuf9qUr0,9735
+func_adl_servicex-2.0b1.dist-info/METADATA,sha256=g8VP_TyMHCUS0jR1FE1FoPNQcGdbqVjuxLiqJW0PRV0,6644
+func_adl_servicex-2.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+func_adl_servicex-2.0b1.dist-info/top_level.txt,sha256=ZNhXPS3Z7H5rBYcgxznZTcarVxFa_8saq7XISJ2NYwc,18
+func_adl_servicex-2.0b1.dist-info/RECORD,,
