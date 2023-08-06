@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+ufjc/__init__.py
+ufjc/core.py
+ufjc/isometric.py
+ufjc/isotensional.py
+ufjc/monte_carlo.py
+ufjc/potential.py
+ufjc/utility.py
+ufjc.egg-info/PKG-INFO
+ufjc.egg-info/SOURCES.txt
+ufjc.egg-info/dependency_links.txt
+ufjc.egg-info/requires.txt
+ufjc.egg-info/top_level.txt
