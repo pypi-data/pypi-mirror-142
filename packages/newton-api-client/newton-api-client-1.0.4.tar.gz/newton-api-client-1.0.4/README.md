@@ -1,0 +1,88 @@
+# Newton API client
+
+This is python package to call all API from (https://api.objectways.com/docs)
+
+## Import package and create a `client`
+## "api_url" is and optional parameter for private installs
+```python
+from pprint import pprint
+from objectways import newton
+
+client = newton.Newton(api_url="YOUR_API_URL",api_key="YOUR_API_KEY")
+```
+
+## 1. Task
+### 1.1. Add new task
+
+```python
+body = {
+  "project_id": "449354de1168469a8229f605",
+  "file_name": "document.pdf",
+  "file_type": "application/pdf",
+  "source": "s3://examples/pdfs/document.pdf"
+}
+
+pprint(client.add_task(body))
+```
+
+### 1.2. Add task file
+
+```python
+data = client.add_task_file(
+    project_id="449354de1168469a8229f605", 
+    file_path="examples/pdfs/document.pdf",
+    mime_type="application/pdf",
+    annotations=None
+)
+
+pprint(data)
+```
+
+### 1.3. Find task by Filters
+
+- Find all the tasks by `task_id`, `file_name`, `file_type` and `trail`
+- If all of `task_id`, `file_name`, `file_type` are `None`, it will return all possible tasks
+
+```python
+tasks = client.find_task(
+    project_id="449354de1168469a8229f605", 
+    task_id="449354de1168469a8229f605-0",
+    file_name=None,
+    file_type=None,
+    trail = False
+)
+
+pprint(tasks)
+```
+
+## 2. Project
+
+### 2.1. Add a new project
+
+```python
+body = {
+  "project_name": "TestProject",
+  "project_type": "NER",
+  "enable_text_mode_option": true,
+  "disable_quality_audit": true,
+  ...
+}
+# check API docs for the full body: https://api.objectways.com/docs/#/projects/upload_project
+
+pprint(client.add_project(body))
+```
+
+### 2.2. Find projects by Filters
+
+- Find all the projects by `project_id`, `project_name` or `active`
+- If all of `project_id`, `project_name`, `active` are `None`, it will return all possible projects 
+
+
+```python
+projects = client.find_project(
+    project_id="449354de1168469a8229f605", 
+    project_name=None, 
+    active: bool=None
+)
+
+```
