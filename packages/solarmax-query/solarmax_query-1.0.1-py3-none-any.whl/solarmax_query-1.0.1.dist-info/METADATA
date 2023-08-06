@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: solarmax-query
+Version: 1.0.1
+Summary: A library for quering SolarMax inverters
+Home-page: https://github.com/3tes/solarmax_query
+Author: 3tes
+Author-email: 3tes@3tes.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/3tes/solarmax_query/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# solarmax_query
+A python library for quering SolarMax inverters
+
+This was create with the help of: https://github.com/bwurst/python-solarmax
+
+You can read about the exact specifications of the protocol in the pdf in the docs folder.
+
+## Installation
+```python
+pip install solarmax-query
+```
+
+## Usage
+```python
+from solarmax_query import SolarMax
+solarmax = SolarMax(host, port, index)
+```
+
