@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/scalewise.egg-info/PKG-INFO
+src/scalewise.egg-info/SOURCES.txt
+src/scalewise.egg-info/dependency_links.txt
+src/scalewise.egg-info/top_level.txt
