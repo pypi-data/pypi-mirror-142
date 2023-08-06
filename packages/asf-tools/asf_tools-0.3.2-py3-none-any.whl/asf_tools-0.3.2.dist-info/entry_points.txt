@@ -1,0 +1,4 @@
+[console_scripts]
+calculate_hand = asf_tools.hand.calculate:main
+make_composite = asf_tools.composite:main
+water_map = asf_tools.water_map:main
