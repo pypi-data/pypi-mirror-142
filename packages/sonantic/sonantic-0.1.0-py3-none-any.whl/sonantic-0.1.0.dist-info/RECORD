@@ -1,0 +1,13 @@
+sonantic/__init__.py,sha256=XUhyZz2GKO0l7rdKMUHDazc6XfDMXM11VAaC9n4l1ec,207
+sonantic/core.py,sha256=ixIe-i7qmO4P7VWJlO3wqTgsr8eS6kGWKSjOu8ADvxo,2305
+sonantic/logger.py,sha256=Lt9wryt9pVn_D-Xa_ha00abse77qXM5p02DkJ3yeLhI,55
+sonantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sonantic/serialiser.py,sha256=eoLf3U5Gmc73ynAGN-hufc931vly69LaM3TQJnpKFoI,242
+sonantic/speech.py,sha256=j_cXA76tqVwNLH83XRN_Atn0BZigZlo-0YK4x3zXq6E,5632
+sonantic/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sonantic/voices.py,sha256=95QEGu2i6-9zpsU3CHZd5jsRoqEQ6tQr6FoN8Syxj2E,1470
+sonantic-0.1.0.dist-info/LICENSE,sha256=zfA-zVZUghluVplRX4KtQoRTBdzvirh2D0g23U0Ushc,1087
+sonantic-0.1.0.dist-info/METADATA,sha256=Tr25HHkWyL8j6RlYzGBBUOyksRayZ0wReiUNfa46cVU,2263
+sonantic-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sonantic-0.1.0.dist-info/top_level.txt,sha256=ZRlvvZqC83-J3gab9Mu838GFLS_wXUO1b3DKlsOVt-E,9
+sonantic-0.1.0.dist-info/RECORD,,
