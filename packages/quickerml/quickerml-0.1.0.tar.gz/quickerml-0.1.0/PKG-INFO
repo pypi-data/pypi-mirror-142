@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: quickerml
+Version: 0.1.0
+Summary: Machine learning toolkit to find the best starting model for your project
+Home-page: https://quickerml.readthedocs.io/
+Author: Rafael Moret
+Author-email: rafaelmoretgalan@gmail.com
+License: MIT
+Description: # quickerml
+        >Machine learning module intended to be your first shot swiss knife.
+        
+        If you work on Data Science or Artificial Intelligence projects you probably have had to repeat over and over again the same crucial first steps on your project in order to find what's the best model option for your data.  
+        There is the idea that gave birth to `quickerml`: Automatize those repetitive initial tests to find the best starting model for your project.
+        
+        ### Installation
+        ```
+        pip install quickerml
+        ```
+        
+        ### Get started
+        ```
+        from quickerml import Finder
+        
+        finder = Finder(
+            problem_type='regression', 
+            models=[
+                LinearSVR(), 
+                RandomForestRegressor(), 
+                XGBRegressor(), 
+                LGBMRegressor()
+            ]
+        )
+        
+        best = finder.find(X, y)
+        ```
+        
+        <p align="center">
+          <img src="images/terminal_exec.png" alt="Terminal Execution">
+        </p>
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
