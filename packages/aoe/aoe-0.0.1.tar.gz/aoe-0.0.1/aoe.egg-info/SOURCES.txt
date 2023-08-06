@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aoe/__init__.py
+aoe.egg-info/PKG-INFO
+aoe.egg-info/SOURCES.txt
+aoe.egg-info/dependency_links.txt
+aoe.egg-info/entry_points.txt
+aoe.egg-info/top_level.txt
+aoe.egg-info/zip-safe
+aoe/shell/__init__.py
+aoe/shell/usage.py
+aoe/src/temp.txt
