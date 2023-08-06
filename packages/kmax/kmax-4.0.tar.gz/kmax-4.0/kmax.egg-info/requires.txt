@@ -1,0 +1,7 @@
+dd
+enum34
+networkx==2.2
+regex
+requests
+whatthepatch
+z3-solver
