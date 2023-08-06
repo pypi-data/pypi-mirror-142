@@ -1,0 +1,15 @@
+concise_concepts/.pytest_cache/.gitignore,sha256=58a7MBSM9mdgbc1j58p3rKo8-wyDA78J5kGeHhZp3G0,39
+concise_concepts/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+concise_concepts/.pytest_cache/README.md,sha256=Qg6AjXmmwl082grzO8R4IxShSUmGZoLGjOgUnom2a3A,310
+concise_concepts/.pytest_cache/v/cache/nodeids,sha256=EU89oeV_L4XkbePMhALaAQcxZpaMRou2oJ031wwM0XA,46
+concise_concepts/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+concise_concepts/__init__.py,sha256=s5pMC07LfAk0ig0kgYVb22Hd5t7yy3iy9yTtwnobIPc,477
+concise_concepts/conceptualizer/__init__.py,sha256=WeIValRMXSe2BhbiwdDf6WI5cJiDCPL6EnBHmXWTskE,4474
+concise_concepts/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+concise_concepts/examples/data.py,sha256=QJnUeoYeV2GGeLKUJyDYpfy7xg_K-jj4uSz07ITKQNo,462
+concise_concepts/examples/example.py,sha256=DqsB0ed7FsLgH0DtOAPdNOEW8e6PkTpQY5SD75z4_8I,242
+concise_concepts/test.py,sha256=uPcELdML1jPqYp1c7l5qoGJk9MJvIXwScK-h_EhbkB4,73
+concise_concepts-0.1.0.dist-info/LICENSE,sha256=QD2ueIDzTdG1rIoZnE9TyDIdNljIrvNOOw82x4o5dl0,1098
+concise_concepts-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+concise_concepts-0.1.0.dist-info/METADATA,sha256=f52zLLMyGIVmjZnI0SCcCav2hPif6uPI_p-E3Jqczeg,2366
+concise_concepts-0.1.0.dist-info/RECORD,,
