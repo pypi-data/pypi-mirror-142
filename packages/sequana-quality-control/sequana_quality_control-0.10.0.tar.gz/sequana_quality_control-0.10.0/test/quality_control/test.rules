@@ -1,0 +1,36 @@
+
+FILENAME = {
+    'data': ["../data/data_R1_.fastq.gz","../data/data_R2_.fastq.gz"]}
+
+
+
+
+
+
+from sequana_pipetools import PipelineManager
+
+# This must be defined before the include
+configfile: "config.yaml"
+
+# The sequana pipeline manager
+manager = PipelineManager("quality_control", config)
+
+
+
+rule all:
+    input: expand("{sample}/fastq_stats_samples/data_boxplot.png", sample=['data'])
+
+
+# FASTQ stats on input data set
+rule fastq_stat_samples:
+    input: manager.getrawdata()
+    output:
+        json="{sample}/fastq_stats_samples/{sample}.json",
+        gc="{sample}/fastq_stats_samples/{sample}_gc.png",
+        boxplot="{sample}/fastq_stats_samples/{sample}_boxplot.png"
+    params:
+        max_reads=config['fastq_stats']['max_reads']
+    wrapper:
+        "fix_fastq_stats/wrappers/fastq_stats"
+
+
