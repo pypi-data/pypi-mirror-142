@@ -1,0 +1,15 @@
+cnm/__init__.py,sha256=ym6_r14cgznliKmnAy0beLKQoXuVKDfIfVn042qbSns,92
+cnm/shell/__init__.py,sha256=43blYsSrp8jbsdHP7GptOsFNbrk88walQn3Gcv7LnZA,57
+cnm/shell/usage.py,sha256=5B-RUviR4kbkPS9ILXjH9bbjw-xncBspFg8wOF4rd3w,188
+cnm/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnm-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+cnm-0.0.1.dist-info/METADATA,sha256=enl-9DaWvohs8JIyBPgUyZCEwEFB482msSMn-pz5LuQ,3102
+cnm-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cnm-0.0.1.dist-info/entry_points.txt,sha256=oQGo8nIP_GXDq14L7Ok2vVEk9IqRicJVLFlODDtp9Ak,39
+cnm-0.0.1.dist-info/top_level.txt,sha256=awLU9CurMAooiHoM483QLczxIqlm1gYTbfBtjptVpXA,4
+cnm-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cnm-0.0.1.dist-info/RECORD,,

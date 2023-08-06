@@ -1,0 +1,3 @@
+[console_scripts]
+cnm = cnm.shell:run
+
