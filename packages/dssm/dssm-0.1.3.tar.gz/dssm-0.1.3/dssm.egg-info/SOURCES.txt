@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+dssm/__init__.py
+dssm/dataset.py
+dssm/model.py
+dssm/utils.py
+dssm/vectorizer.py
+dssm.egg-info/PKG-INFO
+dssm.egg-info/SOURCES.txt
+dssm.egg-info/dependency_links.txt
+dssm.egg-info/requires.txt
+dssm.egg-info/top_level.txt
