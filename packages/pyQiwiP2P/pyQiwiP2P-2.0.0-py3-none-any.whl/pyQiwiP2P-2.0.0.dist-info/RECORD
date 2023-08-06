@@ -1,0 +1,16 @@
+pyqiwip2p/AioQiwip2p.py,sha256=vsaNy4t0itYmm91MquBCFIa87NgcGHuKC5Nb23XadHo,12416
+pyqiwip2p/Qiwip2p.py,sha256=d3eGxvwmeb0Yphso29XlRUCPM4dKqQKFjvj2UpqSuDE,11969
+pyqiwip2p/__init__.py,sha256=u-qqeJOzTn_RLnP5kpKFatUYmhMsRrkSvv6UBqSQ8P0,82
+pyqiwip2p/notify/__init__.py,sha256=eH37sB_jWXSTCmMJDb5kH-x0U61iqIbbztGrmS-3ZmM,3569
+pyqiwip2p/notify/async_client.py,sha256=-qLKUteyP6Lh5x6w7gTIuLyi8n_ih4mCqd7zS2FHY5M,2761
+pyqiwip2p/p2p_types/__init__.py,sha256=Caa2t0Q1eKFecXiAvfqynHI3pQjDz3XXf3tI29n0fMU,224
+pyqiwip2p/p2p_types/custom_fields.py,sha256=yRCRGTUrUctYxo6WmVNI6sVgH_emCcxS0hZWRIVzvJY,93
+pyqiwip2p/p2p_types/customer.py,sha256=bdjNiWzKhBKEcAXlb8tycWZLC89kW0F9r1LZjzUZc00,3116
+pyqiwip2p/p2p_types/errors.py,sha256=WY8_KZpYxIuZpI7DsAXTCLZQ0O8BEic9Tp7DodNxdsY,1666
+pyqiwip2p/p2p_types/qiwi_datetime.py,sha256=C6-qKH2Q-FGcwSKUor-VH45hOq1_EoxesvxvuQKH_T4,4277
+pyqiwip2p/p2p_types/responses.py,sha256=zOOZVcj1iLVHzaLVMfFkNcbIRM5QXSe59e4wrEtp5Yo,4143
+pyQiwiP2P-2.0.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyQiwiP2P-2.0.0.dist-info/METADATA,sha256=FPJxG37bP5vwOjc_f0SeYu5R-serysWVVh1MSq-0IP0,13110
+pyQiwiP2P-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyQiwiP2P-2.0.0.dist-info/top_level.txt,sha256=XtgRulu9R2EoE9fLRRQaLoPGgZ7LKkCPbXnpm8PR7Aw,10
+pyQiwiP2P-2.0.0.dist-info/RECORD,,
