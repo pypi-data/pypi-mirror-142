@@ -1,0 +1,5 @@
+PyYAML>=6.0
+dill>=0.3.4
+
+[server]
+Flask>=2.0.0
