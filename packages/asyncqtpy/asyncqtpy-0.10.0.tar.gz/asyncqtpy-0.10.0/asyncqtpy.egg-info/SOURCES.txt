@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+asyncqtpy/__init__.py
+asyncqtpy/common.py
+asyncqtpy/unix.py
+asyncqtpy/windows.py
+asyncqtpy.egg-info/PKG-INFO
+asyncqtpy.egg-info/SOURCES.txt
+asyncqtpy.egg-info/dependency_links.txt
+asyncqtpy.egg-info/requires.txt
+asyncqtpy.egg-info/top_level.txt
