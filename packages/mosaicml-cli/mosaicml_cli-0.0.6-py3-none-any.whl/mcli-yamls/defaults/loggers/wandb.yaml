@@ -1,0 +1,4 @@
+loggers:
+  - wandb:
+      flatten_hparams: true
+      rank_zero_only: true

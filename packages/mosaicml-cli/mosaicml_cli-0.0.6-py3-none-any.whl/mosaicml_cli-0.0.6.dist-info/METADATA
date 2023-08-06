@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: mosaicml-cli
+Version: 0.0.6
+Summary: Running stuff
+Home-page: https://github.com/mosaicml/mosaicml-cli
+Author: MosaicML
+Author-email: team@mosaicml.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: argcomplete (>=2.0.0)
+Requires-Dist: argparse (>=1.4.0)
+Requires-Dist: coolname (>=1.1.0)
+Requires-Dist: fire (>=0.4.0)
+Requires-Dist: kubernetes (>=21.7.0)
+Requires-Dist: parse (>=1.19.0)
+Requires-Dist: prompt-toolkit (>=3.0.24)
+Requires-Dist: pyyaml (>=5.4.1)
+Requires-Dist: rich (>=10.16.2)
+Requires-Dist: ruamel.yaml (>=0.17.21)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: typing-extensions (>=4.0.1)
+Requires-Dist: wandb (>=0.12.2)
+Requires-Dist: pytest (>=6.2.5)
+Requires-Dist: radon (>=5.1.0)
+Requires-Dist: yapf (>=0.32.0)
+Requires-Dist: pre-commit (>=2.17.0)
+Requires-Dist: pylint (>=2.12.2)
+Requires-Dist: sphinx (>=4.3.1)
+Requires-Dist: isort (>=5.9.3)
+Provides-Extra: all
+Requires-Dist: pytest (>=6.2.5) ; extra == 'all'
+Requires-Dist: radon (>=5.1.0) ; extra == 'all'
+Requires-Dist: yapf (>=0.32.0) ; extra == 'all'
+Requires-Dist: pre-commit (>=2.17.0) ; extra == 'all'
+Requires-Dist: pylint (>=2.12.2) ; extra == 'all'
+Requires-Dist: sphinx (>=4.3.1) ; extra == 'all'
+Requires-Dist: isort (>=5.9.3) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: isort (>=5.9.3) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.17.0) ; extra == 'dev'
+Requires-Dist: pylint (>=2.12.2) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'dev'
+Requires-Dist: radon (>=5.1.0) ; extra == 'dev'
+Requires-Dist: sphinx (>=4.3.1) ; extra == 'dev'
+Requires-Dist: yapf (>=0.32.0) ; extra == 'dev'
+
+#  Mosaic CLI (MCLI)
+
+### Entrypoint Commands
+
+```bash
+mosaic
+mcli
+mos
+m
+```
+
+
+#### Tab Autocomplete
+
+To enable Tab completion run
+``` bash
+eval "$(register-python-argcomplete mosaic)"
+eval "$(register-python-argcomplete mcli)"
+eval "$(register-python-argcomplete mos)"
+eval "$(register-python-argcomplete m)"
+```
+
+
