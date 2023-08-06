@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_tf_github_repository/__init__.py
+src/cdk_cloudformation_tf_github_repository/py.typed
+src/cdk_cloudformation_tf_github_repository.egg-info/PKG-INFO
+src/cdk_cloudformation_tf_github_repository.egg-info/SOURCES.txt
+src/cdk_cloudformation_tf_github_repository.egg-info/dependency_links.txt
+src/cdk_cloudformation_tf_github_repository.egg-info/requires.txt
+src/cdk_cloudformation_tf_github_repository.egg-info/top_level.txt
+src/cdk_cloudformation_tf_github_repository/_jsii/__init__.py
+src/cdk_cloudformation_tf_github_repository/_jsii/tf-github-repository@1.0.0-alpha.5.jsii.tgz
