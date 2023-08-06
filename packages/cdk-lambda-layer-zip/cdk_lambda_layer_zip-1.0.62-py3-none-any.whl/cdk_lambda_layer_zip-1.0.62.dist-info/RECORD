@@ -1,0 +1,9 @@
+cdk_lambda_layer_zip/__init__.py,sha256=kki4b4r7Fs003HLzlqSyr9dcjBWvAweDAo-bULctdpk,1722
+cdk_lambda_layer_zip/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_lambda_layer_zip/_jsii/__init__.py,sha256=MhZ0SOG2Q7YMxEUm8wzOBtFdGB8qxlYGeBB1_oi4j4I,425
+cdk_lambda_layer_zip/_jsii/cdk-lambda-layer-zip@1.0.62.jsii.tgz,sha256=bI0TB3dfLFQTCTDT05ZaxNFU586twGTbl8CQJ3XPkpQ,6769146
+cdk_lambda_layer_zip-1.0.62.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_lambda_layer_zip-1.0.62.dist-info/METADATA,sha256=EPEC_pyJtxFix47ChRygvFhJdwy0anZsWvxAmJxyZ6E,2211
+cdk_lambda_layer_zip-1.0.62.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_lambda_layer_zip-1.0.62.dist-info/top_level.txt,sha256=1H5K1Ik2xTAnlSS17IWpCsj-x8UcInN8EZtbMAVAiZI,21
+cdk_lambda_layer_zip-1.0.62.dist-info/RECORD,,
