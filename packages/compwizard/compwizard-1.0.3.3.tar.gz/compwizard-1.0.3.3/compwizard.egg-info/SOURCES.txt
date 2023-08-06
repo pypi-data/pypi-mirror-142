@@ -1,0 +1,12 @@
+README.md
+install_elements.py
+Elements/Compounds.py
+Elements/EnergyLib.py
+Elements/__init__.py
+Elements/__version__.py
+Elements/colours.txt
+compwizard.egg-info/PKG-INFO
+compwizard.egg-info/SOURCES.txt
+compwizard.egg-info/dependency_links.txt
+compwizard.egg-info/requires.txt
+compwizard.egg-info/top_level.txt
