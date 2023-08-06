@@ -1,0 +1,9 @@
+README.md
+setup.py
+cookie_sync/__init__.py
+cookie_sync/server.py
+cookie_sync.egg-info/PKG-INFO
+cookie_sync.egg-info/SOURCES.txt
+cookie_sync.egg-info/dependency_links.txt
+cookie_sync.egg-info/requires.txt
+cookie_sync.egg-info/top_level.txt
