@@ -1,0 +1,14 @@
+keygen_licensing_tools.pyi,sha256=rgVUZ_kRLGYC-qii8eiVzCI8ozObqDHS5QNchoFKRxk,1090
+keygen_licensing_tools.cpython-37m-x86_64-linux-gnu.so,sha256=yDVck1UZd4rBRCGFtb6NcosScs0u9XwpbK_7k9nOzSQ,927688
+keygen_licensing_tools/_main.pyi,sha256=MGWif7QyRGzGhEsf016g5WA3SGKrqDR6JZiONeejAi0,646
+keygen_licensing_tools/_exceptions.pyi,sha256=MgYHf4GTJ31E6DFRHLjIUs5gH9_zPR_G353TN20MnlM,207
+keygen_licensing_tools/__about__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keygen_licensing_tools/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+keygen_licensing_tools/_helpers.pyi,sha256=AFrs5_cQlMP31UktUg_KEhT3iLjlM16HSzvD4_91tuM,119
+keygen_licensing_tools/_offline_keys.pyi,sha256=MfTjkFLjISqkIBskbo7ciMbKsEutNL05oNze6qq9ymk,211
+keygen_licensing_tools/__init__.pyi,sha256=JVdsw0nH6KYDLEar9gb1V-0-1H7acGPuF91zPEWbMCI,42
+keygen_licensing_tools-0.3.1.dist-info/LICENSE,sha256=ArQBjrswd2ZM1q91VEA5wrO04wVgS8TAw7VwGL_yGDQ,1086
+keygen_licensing_tools-0.3.1.dist-info/METADATA,sha256=hpPPEt09sEVSdG0KreOKXtDX9Y7-qm4vALOXOlpDoUk,2882
+keygen_licensing_tools-0.3.1.dist-info/top_level.txt,sha256=31fhZYSl6g6IM8el6rPOwlUufT5a0VjC2Vie2yCGJAU,23
+keygen_licensing_tools-0.3.1.dist-info/RECORD,,
+keygen_licensing_tools-0.3.1.dist-info/WHEEL,sha256=9layKQNMWZwX9OtVB6zqV0korKGrhsxJBmwobA6iTW0,144
