@@ -1,0 +1,7 @@
+deprecated<2.0.0,>=1.0.0
+semver<3.0.0,>=2.10.0
+simplejson
+pandas>=1.1.0
+grpcio==1.44.0
+grpcio-tools==1.44.0
+mypy-protobuf==3.0
