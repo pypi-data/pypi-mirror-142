@@ -1,0 +1,4 @@
+Celery<6,>=5.2
+python-dateutil<3,>=2.8.2
+redis<5,>=4.1
+requests<3,>=2.27
