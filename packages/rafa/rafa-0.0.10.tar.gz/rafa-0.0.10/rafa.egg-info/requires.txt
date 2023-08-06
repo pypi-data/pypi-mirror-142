@@ -1,0 +1,4 @@
+rafa-db
+python-dotenv
+psycopg2-binary
+google-cloud-bigquery
