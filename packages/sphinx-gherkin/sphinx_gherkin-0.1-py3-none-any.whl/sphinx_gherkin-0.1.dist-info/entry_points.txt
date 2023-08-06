@@ -1,0 +1,2 @@
+[console_scripts]
+sphinx-gherkin = sphinx_gherkin.gherkin2rst:main
