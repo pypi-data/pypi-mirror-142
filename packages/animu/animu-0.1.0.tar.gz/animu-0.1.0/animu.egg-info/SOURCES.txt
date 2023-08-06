@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+animu/__init__.py
+animu/client.py
+animu/model.py
+animu.egg-info/PKG-INFO
+animu.egg-info/SOURCES.txt
+animu.egg-info/dependency_links.txt
+animu.egg-info/requires.txt
+animu.egg-info/top_level.txt
