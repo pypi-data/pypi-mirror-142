@@ -1,0 +1,3 @@
+[build-system]
+requires = ["pandas","sqlalchemy","psycopg2-binary","setuptools"]
+build-backend = "setuptools.build_meta"
