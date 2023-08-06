@@ -1,0 +1,13 @@
+from typing import Any, Callable, TypeVar, Union, Type
+
+T = TypeVar("T")
+
+def with_metaclass(metaclass) -> Callable[[Callable[..., T]], Callable[..., T]]: ...
+def tolong(val: float) -> int: ...
+def conv2str(s: Union[bytes, str]) -> str: ...
+def isstr(s: Union[str, Any]) -> bool: ...
+
+int_typelist: Union[tuple[Type[int], Any], tuple[Type[int]]]
+str_typelist: Union[tuple[Type[str], Any], tuple[Type[bytes], Type[str]]]
+Mapping: Any
+Sequence: Any
