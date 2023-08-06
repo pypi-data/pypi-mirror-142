@@ -1,0 +1,2 @@
+[console_scripts]
+spoke-webproxy = spoke_web.cli:webproxy
