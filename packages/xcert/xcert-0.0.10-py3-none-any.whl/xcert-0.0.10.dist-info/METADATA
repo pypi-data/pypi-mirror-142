@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: xcert
+Version: 0.0.10
+Summary: A tool to manage Xolphin certificates
+Author: Riny Meester
+Author-email: rinini@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyOpenSSL
+Requires-Dist: xolphin-api
+
+##Getting started
+
+This script communicates with the Xolphin API to manage certificates.\
+The script is pretty basic and doesnt contain much error handling.
+also the output is plain json sometimes. But it gets the job done.
+
+### Installation
+
+Run (preferably in a venv environment):
+```commandline
+python3 -m pip install xcert
+```
+
+### Usage
+```
+usage: xcert [-h] [--create-pem filename] [--kube-secret filename] [--list-requests]
+             [--retry-validation domain_name] [--download-certificate domain_name]
+             [--list-certificates] [--request-status domain_name]
+             [--request-certificate domain_name] [--renew-certificate domain_name]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --create-pem filename
+                        Creates a .pem file with the certificate(.crt), the intermediates(.ca) and the key(.key). And a .cer file with the Certificate and the intermediates. Requires the following files: FILENAME.crt ,FILENAME.ca and FILENAME.key
+  --kube-secret filename
+                        Prints a kubernetes secret in yaml format generated from a cert/key. Requires a FILENAME.cer and a FILENAME.key
+  --list-requests       Lists all pending requests at Xolphin
+  --retry-validation domain_name
+                        Triggers a validation of the certificate request with DOMAIN_NAME
+  --download-certificate domain_name
+                        Downloads the certificate for DOMAIN_NAME and saves it as DOMAIN_NAME.cer. Also downloads the corresponding intermediate certificates as DOMAIN_NAME.ca
+  --list-certificates   Lists all current certificates at Xolphin
+  --request-status domain_name
+                        Gets the status of the request with the DOMAIN_NAME. If DOMAIN_NAME is "all" then list the status of all requests
+  --request-certificate domain_name
+                        Request a new certificate from Xolphin, and saves the generated DOMAIN_NAME.csr and DOMAIN_NAME.key
+  --renew-certificate domain_name
+                        Renews an existing certificate from Xolphin, and saves the generated DOMAIN_NAME.csr and DOMAIN_NAME.key
+
+additional information:
+    This program needs 2 environment variables to be set with your Xolphin credentials:
+        XOLPHIN_USER='foo@bar.nl'
+        XOLPHIN_PASSWORD='secret_password'
+    It will use these credentials to authenticate to the Xolphin API.
+```
+
+##TODO
+Add build and publish instructions
+
