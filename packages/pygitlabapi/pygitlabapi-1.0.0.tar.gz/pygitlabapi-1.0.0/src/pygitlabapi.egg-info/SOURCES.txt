@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+data/edit_project.json
+data/project.json
+src/pygitlabapi.egg-info/PKG-INFO
+src/pygitlabapi.egg-info/SOURCES.txt
+src/pygitlabapi.egg-info/dependency_links.txt
+src/pygitlabapi.egg-info/requires.txt
+src/pygitlabapi.egg-info/top_level.txt
