@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: etchlang
+Version: 0.2.3
+Summary: Etch, an easy-to use, high-level, interpreted lang based on Python.
+Home-page: https://github.com/GingerIndustries/Etch
+Author: Ginger Industries
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: repl
+Requires-Dist: etchrepl (>=0.1.3); extra == "repl"
+Requires-Dist: sly (>=0.4,<0.5)
+Project-URL: Repository, https://github.com/GingerIndustries/Etch
+Description-Content-Type: text/markdown
+
+# Etch
+
+To install, run the command `pip3 install --user etchlang[repl]` or the equivalent for your package manager (This will also bundle the repl). Once you've installed Etch, just type `etch` at the command line to be dropped into the REPL.
+
