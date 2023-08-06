@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: gitflic
+Version: 0.11
+Summary: GitflicApi wrapper
+Home-page: https://github.com/SantaSpeen/gitflic
+Author: SantaSpeen
+Author-email: dir@sssr.dev
+License: Apache License 2.0 
+Project-URL: Documentation, https://anixart.readthedocs.io/
+Project-URL: Source, https://github.com/SantaSpeen/anixart
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# gitflic
+
+<p align="center">
+    <a href="https://github.com/SantaSpeen/gitflic/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SantaSpeen/gitflic?style=for-the-badge"></a>    
+    <a href="https://github.com/SantaSpeen/gitflic/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/SantaSpeen/gitflic?style=for-the-badge"></a>    
+    <a href="https://github.com/SantaSpeen"><img src="https://img.santaspeen.ru/github/magic.svg" alt="magic"></a>
+    <br/>
+    <a href="examples/reg_call.py">
+        <img src="https://img.santaspeen.ru/github/gitflic/preview.png" alt="preview">
+    </a>
+    <br/>
+</p>
+
+### About 
+
+[![PyPI download month](https://img.shields.io/pypi/dm/gitflic.svg)](https://pypi.python.org/pypi/gitflic/)
+[![PyPI download week](https://img.shields.io/pypi/dd/gitflic.svg)](https://pypi.python.org/pypi/gitflic/)
+
+This is wrapper of gitflic API.\
+All API documentation is here: https://gitflic.ru/help/api/intro
+
+### Installation
+
+Install via pip:
+
+`pip install gitflic`
+
+### Example:
+
+All examples in [examples](./examples) dir.
+
+```python
+from gitflic import Gitflic, GitflicAuth
+
+# Your authentication token.
+# See: https://gitflic.ru/settings/oauth/token/create
+token = "token_here"  
+
+# Creating authorized session with our token.
+gf_session = GitflicAuth(token)
+gf = Gitflic(gf_session)
+
+
+# Call method to get authorized user from API.
+user_me = gf.call("/user/me")
+print(user_me)
+```
+
