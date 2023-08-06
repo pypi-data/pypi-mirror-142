@@ -1,0 +1,45 @@
+{
+    "char": {
+        "title": "『深度回音』北方联合大型",
+        "pool_img": "",
+        "start_time": "2022-02-24T15:00:00",
+        "end_time": "2022-03-10T09:00:00",
+        "up_char": [
+            {
+                "name": "喀琅施塔得",
+                "star": 5,
+                "limited": false,
+                "zoom": 1.2,
+                "type_": "超巡"
+            },
+            {
+                "name": "伏尔加",
+                "star": 4,
+                "limited": false,
+                "zoom": 2.0,
+                "type_": "正航"
+            },
+            {
+                "name": "基辅",
+                "star": 4,
+                "limited": false,
+                "zoom": 0.5,
+                "type_": "驱逐"
+            },
+            {
+                "name": "阿尔汉格尔斯克",
+                "star": 3,
+                "limited": false,
+                "zoom": 2.5,
+                "type_": "战列"
+            },
+            {
+                "name": "灵敏",
+                "star": 3,
+                "limited": false,
+                "zoom": 0.0,
+                "type_": "驱逐"
+            }
+        ]
+    }
+}

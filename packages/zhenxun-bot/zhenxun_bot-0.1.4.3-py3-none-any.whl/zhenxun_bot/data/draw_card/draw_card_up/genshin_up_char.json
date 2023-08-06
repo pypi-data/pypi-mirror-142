@@ -1,0 +1,84 @@
+{
+    "char": {
+        "title": "「华紫樱绯」",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/ys\/9\/93\/3226ujr7kia3c5rbja8r2a9lskag2zt.png",
+        "start_time": "2022-02-16T17:59:59",
+        "end_time": "2022-03-08T17:59:59",
+        "up_char": [
+            {
+                "name": "八重神子",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "托马",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "菲谢尔",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "迪奥娜",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            }
+        ]
+    },
+    "arms": {
+        "title": "「神铸赋形」",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/ys\/c\/c3\/p8ldvqt6n21wo6b6q1nku8ujz9bi1wu.png",
+        "start_time": "2022-02-16T17:59:59",
+        "end_time": "2022-03-08T17:59:59",
+        "up_char": [
+            {
+                "name": "神乐之真意",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "磐岩结绿",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "断浪长鳍",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "祭礼剑",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "雨裁",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "昭心",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "绝弦",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            }
+        ]
+    }
+}

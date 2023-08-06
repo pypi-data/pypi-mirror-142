@@ -1,0 +1,21 @@
+{
+    "super": {
+        "white_group_list": []
+    },
+    "group_manager": {
+        "863633108": {
+            "level": 9,
+            "status": true,
+            "close_plugins": [
+                "pixiv_rank_search"
+            ],
+            "group_task_status": {
+                "zwa": false,
+                "group_welcome": true,
+                "refund_group_remind": true,
+                "broadcast": true,
+                "genshin_alc": true
+            }
+        }
+    }
+}

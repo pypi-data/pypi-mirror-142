@@ -1,0 +1,28 @@
+{
+    "char": {
+        "title": "火花绽放",
+        "pool_img": "https:\/\/ak.hycdn.cn\/announce\/images\/20220125\/cbddebc52a404f41d0e1cbf0ebe76a7c.jpg",
+        "start_time": "2022-02-15T16:00:00",
+        "end_time": "2022-03-01T03:59:00",
+        "up_char": [
+            {
+                "name": "澄闪",
+                "star": 6,
+                "limited": false,
+                "zoom": 0.5
+            },
+            {
+                "name": "夏栎",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.5
+            },
+            {
+                "name": "天火",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.5
+            }
+        ]
+    }
+}

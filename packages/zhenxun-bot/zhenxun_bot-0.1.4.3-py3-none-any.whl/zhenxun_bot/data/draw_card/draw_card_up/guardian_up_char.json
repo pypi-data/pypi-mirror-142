@@ -1,0 +1,66 @@
+{
+    "char": {
+        "title": "本次up从2月17日开始，至3月3日结束。",
+        "pool_img": "",
+        "start_time": "2022-02-17T00:00:00",
+        "end_time": "2022-03-03T00:00:00",
+        "up_char": [
+            {
+                "name": "海滩科学家索菲",
+                "star": 3,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "未来骑士",
+                "star": 3,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "奈莉",
+                "star": 3,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "偶像伊娃",
+                "star": 3,
+                "limited": false,
+                "zoom": 0.0
+            }
+        ]
+    },
+    "arms": {
+        "title": "本次up从2月17日开始，至3月3日结束。",
+        "pool_img": "",
+        "start_time": "2022-02-17T00:00:00",
+        "end_time": "2022-03-03T00:00:00",
+        "up_char": [
+            {
+                "name": "海之女神",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "宇宙毁灭者",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "仙玉",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.0
+            },
+            {
+                "name": "天使之音",
+                "star": 5,
+                "limited": false,
+                "zoom": 0.0
+            }
+        ]
+    }
+}
