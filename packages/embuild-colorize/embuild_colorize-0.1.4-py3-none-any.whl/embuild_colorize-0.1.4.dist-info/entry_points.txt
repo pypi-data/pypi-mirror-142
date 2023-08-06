@@ -1,0 +1,2 @@
+[console_scripts]
+embuild-colorize = embuild_colorize.colorize:cli
