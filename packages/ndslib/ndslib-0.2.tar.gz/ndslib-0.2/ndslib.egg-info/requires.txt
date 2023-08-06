@@ -1,0 +1,6 @@
+numpy
+nibabel
+ipython
+jupyter
+pandas
+seaborn
