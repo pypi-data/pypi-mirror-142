@@ -1,0 +1,2 @@
+https://github.com/uncharted-distil/distil-primitives.git@666233600447f7c4cc09fbd0e59c87ca5b842011#egg=distil-primitives
+https://gitlab.com/datadrivendiscovery/contrib/kungfuai-primitives.git@49acb225bb6994d3dfaffdf3b7761395423680a4#egg=kf-d3m-primitives
