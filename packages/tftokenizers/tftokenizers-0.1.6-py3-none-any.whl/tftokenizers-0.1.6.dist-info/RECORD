@@ -1,0 +1,15 @@
+tftokenizers/__init__.py,sha256=acJHo4btEUdFC6zxeJdxlLBSsMW7gccs24IFt9RKJdY,582
+tftokenizers/database.py,sha256=LrKSZGN8sRSoE93Y5JDKyJEldVHKKPv2Kt3SNm2OL9w,2059
+tftokenizers/detect.py,sha256=QYKEhg9gct5o3lzdGG3eD-0aw0YrK5CJ0pxziazF37c,1592
+tftokenizers/download.py,sha256=gtD3lQStVuo_r9qUGhFHq-DjzAyrcVDWbMS29E7SUFE,1744
+tftokenizers/file.py,sha256=OAAtHyofL8xDs1qP7x2s55j5a53B7_dnKTt4ASLjVSA,2424
+tftokenizers/main.py,sha256=gCCrD6x1iGXYZ76sm-uFyHffukp4Hix8Ufup5FdeaFc,3110
+tftokenizers/model.py,sha256=HzPGyJf8zOAKnM_9bi75cyXr2FY0m0ZSso90fKZbVDY,1702
+tftokenizers/tokenizer.py,sha256=AsLNE1pyp_0Re34bUEG2esLW3Yxoh8mC4aMtWjrDT_0,23443
+tftokenizers/types.py,sha256=HLEEmKg_zNNlEJDsnJForB26esbE9GxAYAhSokHVfxM,1694
+tftokenizers/utils.py,sha256=T41Imsyc39TATBPVuTmpiKQ07IeeyKcNGqrywWrWCLA,2318
+tftokenizers-0.1.6.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tftokenizers-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tftokenizers-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tftokenizers-0.1.6.dist-info/METADATA,sha256=eTNl83j8YtgnC5kOtrv70gS9wPwLYx7hDW7ejj_ZOlQ,12976
+tftokenizers-0.1.6.dist-info/RECORD,,
