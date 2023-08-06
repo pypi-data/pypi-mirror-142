@@ -1,0 +1,3 @@
+[console_scripts]
+pandas_historical = pandas_historical.__main__:main
+
