@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: python-oam
+Version: 0.1
+Summary: OAM toolbox made by the community to the community
+Home-page: UNKNOWN
+Author: ['Rodrigo Faria', 'Tiago Colli']
+Author-email: rodrigo.f.ss@uol.com.br
+License: MIT
+Description: UNKNOWN
+Keywords: oam,outlier,aspect,mining,data,explicability,outlying
+Platform: UNKNOWN
