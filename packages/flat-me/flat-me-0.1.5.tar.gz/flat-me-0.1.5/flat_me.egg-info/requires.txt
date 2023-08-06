@@ -1,0 +1,4 @@
+PyInquirer
+pyfiglet
+pandas
+pathlib
