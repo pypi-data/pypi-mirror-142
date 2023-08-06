@@ -1,0 +1,3 @@
+class MarketaException(Exception):
+    pass
+
