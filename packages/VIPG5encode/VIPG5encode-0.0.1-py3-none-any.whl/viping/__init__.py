@@ -1,0 +1,1 @@
+from .VIPG5encode import EncodeVip
