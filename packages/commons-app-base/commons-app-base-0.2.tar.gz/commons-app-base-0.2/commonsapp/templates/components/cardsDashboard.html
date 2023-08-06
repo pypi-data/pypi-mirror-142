@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Dashboard {% endblock %}
+
+{% block container %}
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% include 'components/cards.html' with card_title='Clientes' item_card_number='200' class_card_icon='material-icons' card_icon_name='group' url='empresas' bg_color='bg-warning' %}
+
+        {% include 'components/cards.html' with card_title='Clientes' item_card_number='500' class_card_icon='material-icons' card_icon_name='group' url='empresas' bg_color='bg-success' %}
+
+        {% include 'components/cards.html' with card_title='Clientes' item_card_number='200' class_card_icon='material-icons' card_icon_name='group' url='empresas' bg_color='bg-warning' %}
+
+    </div>
+
+{% endblock %}
