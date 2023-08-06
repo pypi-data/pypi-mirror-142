@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/trendreview.egg-info/PKG-INFO
+src/trendreview.egg-info/SOURCES.txt
+src/trendreview.egg-info/dependency_links.txt
+src/trendreview.egg-info/top_level.txt
