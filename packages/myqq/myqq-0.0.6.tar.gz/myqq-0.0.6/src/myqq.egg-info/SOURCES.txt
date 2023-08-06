@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/myqq/__init__.py
+src/myqq/send.py
+src/myqq.egg-info/PKG-INFO
+src/myqq.egg-info/SOURCES.txt
+src/myqq.egg-info/dependency_links.txt
+src/myqq.egg-info/top_level.txt
