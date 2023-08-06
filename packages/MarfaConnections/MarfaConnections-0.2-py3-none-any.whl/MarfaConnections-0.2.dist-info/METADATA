@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: MarfaConnections
+Version: 0.2
+Summary: for connection
+Home-page: UNKNOWN
+Author: Ruslan Galimov
+Author-email: rgalimov@marfa-tech.com
+License: MIT
+Keywords: marfatech connections lib
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: SQLAlchemy
+Requires-Dist: sqlalchemy-migrate
+Requires-Dist: sshtunnel
+Requires-Dist: PyYAML
+Requires-Dist: pymysql
+Requires-Dist: pandas
+
+Really, the funniest around.
+
