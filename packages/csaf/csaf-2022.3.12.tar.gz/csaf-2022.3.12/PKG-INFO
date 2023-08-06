@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: csaf
+Version: 2022.3.12
+Summary: Common Security Advisory Framework (CSAF) Verification, Validation, and Application Programming Interface (API).
+Home-page: https://github.com/sthagen/csaf
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/csaf/issues
+Project-URL: Documentation, https://sthagen.github.io/csaf
+Project-URL: Source Code, https://github.com/sthagen/csaf
+Keywords: code-generation,developer-tools,validation,verification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CSAF
+
+Common Security Advisory Framework (CSAF) Verification, Validation, and Application Programming Interface (API).
+
+In this project the attempt is made, to provide API and tools to support the CSAF communities from a single repository in the easy to prototype python language.
+
+If, and when this endeavor succeeds, other languages can easily derive form the approach (as long as these offer similar capabilties to keep the effort in check).
+
+**Note**: CSAF predecessor CVRF versions 1.1 and 1.2 are out of scope.
+
+[License: MIT](https://github.com/sthagen/csaf/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/csaf.svg?style=flat)](https://pypi.python.org/pypi/csaf/)
+[![downloads](https://pepy.tech/badge/csaf/month)](https://pepy.tech/project/csaf)
+[![wheel](https://img.shields.io/pypi/wheel/csaf.svg?style=flat)](https://pypi.python.org/pypi/csaf/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/csaf.svg?style=flat)](https://pypi.python.org/pypi/csaf/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/csaf.svg?style=flat)](https://pypi.python.org/pypi/csaf/)
+
+## Status
+
+Experimental
+
+**Note**: The default branch is `default`.
+
+
