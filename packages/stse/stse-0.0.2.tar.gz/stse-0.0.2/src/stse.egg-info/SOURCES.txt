@@ -1,0 +1,9 @@
+setup.py
+src/stse/__init__.py
+src/stse/dataframes.py
+src/stse/duplicates.py
+src/stse.egg-info/PKG-INFO
+src/stse.egg-info/SOURCES.txt
+src/stse.egg-info/dependency_links.txt
+src/stse.egg-info/requires.txt
+src/stse.egg-info/top_level.txt
