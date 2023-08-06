@@ -1,0 +1,16 @@
+PipeRider/VERSION,sha256=pd00ZUajhDYpNrl6TC9dotPSUwQ-qWeap7l9iVUN_b0,6
+PipeRider/__init__.py,sha256=wEBMMcYsQDl_Fz8A4FIMdNpt9RXRDDLpLXpibcU2_9s,3490
+PipeRider/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PipeRider/api/datasets.py,sha256=EY_o2Doj7dofNkWuO-MHhNGfdFUXqhhnUtYvbunJ08M,2639
+PipeRider/api/events.py,sha256=C6FpfuAf8cW0SfMS3ju3mRNNpsGG72AweDGaY6jghF0,1965
+PipeRider/api/http_client.py,sha256=xj7JfE4FHEfIgXL24sQm3tlYDnfAkdGLZSa1YFlkPCY,2733
+PipeRider/api/logger.py,sha256=PVUraf7zOjoriFejVq_8eIORn61HwD42klrd1gBtWKA,452
+PipeRider/api/models.py,sha256=lsP7mZFLLyfued2xLFZD3k4w6nuQtT_1a5pZRLwtrsM,1229
+PipeRider/api/projects.py,sha256=KpAYPPyazvZ5_7uyUOP-tDWw-H8xtui0xpvUePQpkQw,2834
+PipeRider/api/runs.py,sha256=L5Otunpdvcla-3DT-c3ImeJ1qFJsl1STptzaNUpjSXs,1565
+PipeRider/api/users.py,sha256=JoQB6bdlmthN4zjKOYYLhbiE_BpOoapcb6_2hQCxXN0,988
+PipeRider/testutils/__init__.py,sha256=xsZTcPo877ebjVYuZuSO4KNYkKCDz6gyVWufK_N0hD0,3371
+piperider_python_sdk-0.0.2.dist-info/METADATA,sha256=2_aOW0MYtlKbMtB4YyhvUJHGlobv8susQOEKljry9Wk,2514
+piperider_python_sdk-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+piperider_python_sdk-0.0.2.dist-info/top_level.txt,sha256=XtWcVxBjglVwUOV2TxfMVDMVgE0nJSwM5BJJeIMny_I,10
+piperider_python_sdk-0.0.2.dist-info/RECORD,,
