@@ -1,0 +1,14 @@
+README.md
+setup.py
+dailydotdev_bookmark_cli/__init__.py
+dailydotdev_bookmark_cli/__main__.py
+dailydotdev_bookmark_cli/bookmarks.py
+dailydotdev_bookmark_cli/change_dailyid.py
+dailydotdev_bookmark_cli/dailydotdev_bookmark_cli.py
+dailydotdev_bookmark_cli/delete_dailyid.py
+dailydotdev_bookmark_cli.egg-info/PKG-INFO
+dailydotdev_bookmark_cli.egg-info/SOURCES.txt
+dailydotdev_bookmark_cli.egg-info/dependency_links.txt
+dailydotdev_bookmark_cli.egg-info/entry_points.txt
+dailydotdev_bookmark_cli.egg-info/requires.txt
+dailydotdev_bookmark_cli.egg-info/top_level.txt
