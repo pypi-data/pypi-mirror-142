@@ -1,0 +1,7 @@
+{
+  "python.analysis.extraPaths": ["tests", "mylogging", "../mypythontools", "../mydatapreprocessing"],
+  "restructuredtext.confPath": "${workspaceFolder}\\docs\\source\\conf.py",
+  "esbonio.server.enabled": false,
+  "esbonio.sphinx.buildDir": "c:\\Users\\Turtor\\ownCloud\\Github\\mylogging/docs/source/_build",
+  "esbonio.sphinx.confDir": "c:\\Users\\Turtor\\ownCloud\\Github\\mylogging\\docs\\source\\conf.py"
+}
