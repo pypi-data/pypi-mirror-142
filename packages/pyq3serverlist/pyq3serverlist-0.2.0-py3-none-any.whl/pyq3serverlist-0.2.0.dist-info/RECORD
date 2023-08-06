@@ -1,0 +1,10 @@
+pyq3serverlist/__init__.py,sha256=cKGpkyAQRnO9GVuA5ppb3P2ZeBHtBv7X0VLre12UHCk,503
+pyq3serverlist/connection.py,sha256=5n7Cr-ApxUINsyDaJBVxaBlgyr4uh1jgvwaTF8-5duU,3208
+pyq3serverlist/exceptions.py,sha256=tazQqo_VRMgqYSUHlEdEyx-BPzda23MtqOmRHN5d8eg,152
+pyq3serverlist/principalserver.py,sha256=7AjAzUVcDV2u0PQP90pDwTfn-KDEHNCbD-Qzi2KeAQY,2280
+pyq3serverlist/server.py,sha256=5HNid_gmwcLDi42N0o36masddnlEeOQ1AZ6XGfefplE,5634
+pyq3serverlist-0.2.0.dist-info/LICENSE.md,sha256=GbjlnvoQaMTG1hb8UtPi59CV5Hs3LWiUuzsf6lAkbu4,1074
+pyq3serverlist-0.2.0.dist-info/METADATA,sha256=TA3TO2MoXJRFK4hVpHs5WrFrWlvQw5AqyVn5NWpdm9g,2840
+pyq3serverlist-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyq3serverlist-0.2.0.dist-info/top_level.txt,sha256=4V5qMbZuMuyX32m20m9C4koQsUinsEm1tPwIXOYrUlU,15
+pyq3serverlist-0.2.0.dist-info/RECORD,,
