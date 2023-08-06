@@ -1,0 +1,3 @@
+[console_scripts]
+imc = imc.cli:main
+
