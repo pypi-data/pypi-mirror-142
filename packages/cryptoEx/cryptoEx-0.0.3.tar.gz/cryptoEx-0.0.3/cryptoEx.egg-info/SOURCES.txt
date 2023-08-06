@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+cryptoEx/DEVICE.py
+cryptoEx/__init__.py
+cryptoEx/binanceBasic.py
+cryptoEx/globalVariable.py
+cryptoEx/huobiBasic.py
+cryptoEx/krakenBasic.py
+cryptoEx/myHttp.py
+cryptoEx/okexBasic.py
+cryptoEx/others.py
+cryptoEx.egg-info/PKG-INFO
+cryptoEx.egg-info/SOURCES.txt
+cryptoEx.egg-info/dependency_links.txt
+cryptoEx.egg-info/requires.txt
+cryptoEx.egg-info/top_level.txt
