@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastarg
+Version: 0.0.2
+Summary: A lightweight argparse wrapper for building CLI tools.
+Home-page: https://github.com/travisluong/fastarg
+Author: Travis Luong
+Author-email: travis@travisluong.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/travisluong/fastarg/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fastarg
+
