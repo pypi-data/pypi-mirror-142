@@ -1,0 +1,6 @@
+Click>=7.0
+grpcio
+modelaapi
+protobuf
+tabulate
+tqdm
