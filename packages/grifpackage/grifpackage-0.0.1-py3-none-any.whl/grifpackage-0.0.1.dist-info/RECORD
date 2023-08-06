@@ -1,0 +1,13 @@
+grifpackage/__init__.py,sha256=ujuvFNB-hdwA6EzgOSs0JmWAtGNWnFqCRJgVf1ClaSM,180
+grifpackage/add.py,sha256=3l-I08UiMS3MWEf2VrhwHvGcWQQ6l6IZD7gdwqHcogE,197
+grifpackage/substract.py,sha256=PnwgGA_TC9yDMNsstsQ2Apu40r7AtFgwiNbCwK1Qgk0,151
+grifpackage/deneme/__init__.py,sha256=_fSo1ZzbATbM8lXTEr8ws8VimNusb-sFJqVlDb5CNcg,157
+grifpackage/deneme/divide.py,sha256=hWW9kZ45dJP-Ot7db4ErBIhztWwWCkIHCfbs9RkdGXA,147
+grifpackage/deneme/multiply.py,sha256=0CT6RgtRPuBxLCl5VVutyzRJ6T5AO71FcZZbR-AjuQ8,153
+test/__init__.py,sha256=TTPXSkUbA907kv3zeN7yvFGtl6tujwLYAGipDxZNuRE,143
+test/test_deneme.py,sha256=lBElH3zUru05w1MeYZHDMLUlR0fBULtNSVMVWc3TKbE,412
+test/test_poipackage.py,sha256=BSE3xwNZvR-Zj--pL2rD4ZO2v2vUJ5lzwf9xXU4GMEU,411
+grifpackage-0.0.1.dist-info/METADATA,sha256=p2777eWd9a5v2BRniaFaWgIZrQuN3M4lVcFBTTZ6sNo,557
+grifpackage-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+grifpackage-0.0.1.dist-info/top_level.txt,sha256=xeYGkIM0eZpKsiVmBBHt1AhdZFzJRjHqiwBjYWqsvNg,17
+grifpackage-0.0.1.dist-info/RECORD,,
