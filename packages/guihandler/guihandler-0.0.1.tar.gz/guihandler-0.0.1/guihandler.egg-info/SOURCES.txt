@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+guihandler/__init__.py
+guihandler.egg-info/PKG-INFO
+guihandler.egg-info/SOURCES.txt
+guihandler.egg-info/dependency_links.txt
+guihandler.egg-info/requires.txt
+guihandler.egg-info/top_level.txt

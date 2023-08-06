@@ -1,0 +1,1 @@
+This is a library using pygame to create different gui elements
