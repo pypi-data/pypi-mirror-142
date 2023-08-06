@@ -1,0 +1,3 @@
+[console_scripts]
+piedpy = piedpy.main:cli
+
