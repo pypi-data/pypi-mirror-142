@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dockerich
+Version: 0.0.1
+Summary: dockerich
+Home-page: https://github.com/JeanMaximilienCadic/dockerich.git
+Author: CADIC Jean-Maximilien
+Author-email: contact@cadic.jp
+License: MIT
+Platform: linux_debian_10_x86_64
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: rich
+Requires-Dist: docker
+Requires-Dist: pandas
+
+dockerich
+
+
