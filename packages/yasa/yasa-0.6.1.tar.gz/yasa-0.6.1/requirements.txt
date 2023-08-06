@@ -1,0 +1,16 @@
+numpy>=1.16.5
+scipy
+pandas
+mne>=0.20
+numba
+outdated
+matplotlib
+ipywidgets
+seaborn
+lspopt
+tensorpac>=0.6.5
+scikit-learn
+pyriemann>=0.2.7
+joblib
+antropy
+lightgbm
