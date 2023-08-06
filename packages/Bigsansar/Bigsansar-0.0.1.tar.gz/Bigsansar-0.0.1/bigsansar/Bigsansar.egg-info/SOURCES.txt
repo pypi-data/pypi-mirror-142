@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bigsansar/Bigsansar.egg-info/PKG-INFO
+bigsansar/Bigsansar.egg-info/SOURCES.txt
+bigsansar/Bigsansar.egg-info/dependency_links.txt
+bigsansar/Bigsansar.egg-info/requires.txt
+bigsansar/Bigsansar.egg-info/top_level.txt
