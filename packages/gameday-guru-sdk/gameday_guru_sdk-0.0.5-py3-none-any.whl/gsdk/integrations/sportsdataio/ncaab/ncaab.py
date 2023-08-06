@@ -1,0 +1,19 @@
+from dotenv import dotenv_values
+from . import ncaablike
+from . import game
+from .. import sportsdataio_meta
+
+
+
+class Ncaab(ncaablike.NCAABlike):
+
+    games : game.gameslike.Gameslike
+    
+    def __init__(self) -> None:
+
+        meta = sportsdataio_meta.SportsDataIOMetalike=sportsdataio_meta.SportsDataIOmeta(
+            str(dotenv_values()["SPORTS_DATA_KEY"]),
+            str(dotenv_values()["SPORTS_DATA_DOMAIN"])
+        )
+        self.games = game.games.Games(meta)
+
