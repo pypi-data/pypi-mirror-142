@@ -1,0 +1,12 @@
+LICENSE,sha256=dKM0DKHHZ67SxUL2o7dJN17iVGRa9epZvz6ViamhQ-U,1066
+fractal_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_analysis/estimator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_analysis/estimator/holder_exponent_ir_estimator.py,sha256=ec3OWGSKx85Ze-RP6UH7x-VVmw5GFyny0nscgKZl9TU,4098
+fractal_analysis/tester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_analysis/tester/critical_surface.py,sha256=LXBP5xqo_KRu-GBGCHKnrWbt74p8hvqrj9nPpHv62Q4,4244
+fractal_analysis/tester/estimate_sigma.py,sha256=W7-79EA3DbNfY9I0rHaBW2Azez3zV6dF5lT1KO5ltdc,2362
+fractal_analysis/tester/series_tester.py,sha256=zbNdGYz5BnRb1LEw1fWiN1wcTUiuhzMWvQvuEjbM0SI,4537
+fractal_analysis-0.1.4.dist-info/LICENSE,sha256=dKM0DKHHZ67SxUL2o7dJN17iVGRa9epZvz6ViamhQ-U,1066
+fractal_analysis-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fractal_analysis-0.1.4.dist-info/METADATA,sha256=vfkkFHrkk10QH438ZpIFuejNpjvy9oDTuW_m9iZ_W7g,3081
+fractal_analysis-0.1.4.dist-info/RECORD,,
