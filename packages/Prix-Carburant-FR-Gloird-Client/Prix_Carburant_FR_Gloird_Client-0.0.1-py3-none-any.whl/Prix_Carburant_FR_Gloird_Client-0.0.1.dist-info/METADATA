@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Prix-Carburant-FR-Gloird-Client
+Version: 0.0.1
+Summary: StationEssence client by Gloird
+Home-page: https://github.com/Gloird/essence
+Author: Maxime Wantiez, Yann RITTER, Nicolas <Gloird> DUPUIS
+Author-email: gloird@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Client d'appel a l'API public https://www.prix-carburants.gouv.fr/
+
+# Information
+
+Il s'agit d'un fork de https://github.com/max5962/essence, mis Ã  jour afin de recuperer les donnÃ©e instantanÃ© , mais aussi la longitude et latitude
+
+
