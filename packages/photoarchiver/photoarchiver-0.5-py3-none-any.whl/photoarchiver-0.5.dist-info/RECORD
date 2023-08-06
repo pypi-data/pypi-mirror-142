@@ -1,0 +1,13 @@
+photoarchiver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+photoarchiver/__main__.py,sha256=SBzTy0dXUM5K7U-_nRUGMVQ0eIFC59RULHX3dSJda8w,1090
+photoarchiver/photoarchiver.py,sha256=yqV_DwHBtcR04dsWZPgjTaigIS-fYLlj4EZ1HhVFYXo,4976
+photoarchiver/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+photoarchiver/helpers/exif.py,sha256=xIaQV8H9jjglnLU-44FdX6tAHg8K4_QI7ctDWQftShM,3111
+photoarchiver/helpers/file.py,sha256=TKUyZhj6PSXlX6YWHtUPvP-D_nJB88Sbbtzidqc17R8,407
+photoarchiver/helpers/path.py,sha256=gaSV5vZAh_NlkJVDjPo47e7o3ffdQ4RmFkV-fQlkCjU,1900
+photoarchiver-0.5.dist-info/LICENSE,sha256=bReZlZE4RBrppiVu6KAn0PiQE2_bGlOfCt_ev_BksXg,1081
+photoarchiver-0.5.dist-info/METADATA,sha256=tPktORXx9DnJq9KXg1G2N-JdJvVcS22erm_BizfDoFg,1453
+photoarchiver-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+photoarchiver-0.5.dist-info/entry_points.txt,sha256=mizhdbW-WD_BmzC411dMrWxHKKN2DxqANb8GxqqnAOM,62
+photoarchiver-0.5.dist-info/top_level.txt,sha256=yKnUq5zcE-K9Pwr16VRfKSZQ0t6jT59i0eapcSPcOVI,14
+photoarchiver-0.5.dist-info/RECORD,,
