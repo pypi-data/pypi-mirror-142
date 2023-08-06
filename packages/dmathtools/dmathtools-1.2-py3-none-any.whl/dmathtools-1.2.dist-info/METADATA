@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dmathtools
+Version: 1.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: networkx (>=2.7.1)
+Requires-Dist: ply (>=3.11)
+Requires-Dist: pyqt5 (>=5.15.4)
+
+UNKNOWN
+
