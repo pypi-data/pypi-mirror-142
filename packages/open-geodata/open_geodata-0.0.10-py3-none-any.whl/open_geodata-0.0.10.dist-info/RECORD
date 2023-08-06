@@ -1,0 +1,9 @@
+open_geodata/__init__.py,sha256=xCc6W7cFPcxfxB20muTzQ5P9cjHmwohjTMpIOlTz1Zk,23
+open_geodata/functions.py,sha256=m2sgSjj-moC5OXKtO4WUF-2Qba3sXdB0kJeKP6hW6A0,1187
+open_geodata/geo.py,sha256=CLnQVxWKru-Lm8h4ekj5pTdV3fHzNgMLxguSHBe_JLk,812
+open_geodata/data/sp_250k_wgs84.geojson,sha256=ho2hktG7bMOnCRnguCBik133nrZ_Vju76I78bVO7VOw,28360317
+open_geodata-0.0.10.dist-info/LICENSE,sha256=bYA9sHw9Pn4xQCLD2CfTsXXUQWxxkL3pLRE_E9o3XIw,1069
+open_geodata-0.0.10.dist-info/METADATA,sha256=KO7PGtNHXAmVIlr5lMAh7Rfs2qagMflN-vcu8d2Q4rU,1683
+open_geodata-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+open_geodata-0.0.10.dist-info/top_level.txt,sha256=DTG78ePnrdOsueNrYW3PilkBEGMqmGj7Gb783U4tcxo,13
+open_geodata-0.0.10.dist-info/RECORD,,
