@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mahlzeit/__init__.py
+mahlzeit.egg-info/PKG-INFO
+mahlzeit.egg-info/SOURCES.txt
+mahlzeit.egg-info/dependency_links.txt
+mahlzeit.egg-info/top_level.txt
