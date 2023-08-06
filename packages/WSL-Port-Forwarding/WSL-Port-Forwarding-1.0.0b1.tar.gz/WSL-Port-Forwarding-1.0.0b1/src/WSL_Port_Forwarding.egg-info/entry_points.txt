@@ -1,0 +1,2 @@
+[console_scripts]
+port_forwarding = wsl_port_forwarding.port_forwarding:main
