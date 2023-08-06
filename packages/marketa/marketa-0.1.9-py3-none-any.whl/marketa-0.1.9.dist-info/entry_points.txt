@@ -1,0 +1,4 @@
+[console_scripts]
+marketa=marketa.cli:run
+mk=marketa.cli:run
+
