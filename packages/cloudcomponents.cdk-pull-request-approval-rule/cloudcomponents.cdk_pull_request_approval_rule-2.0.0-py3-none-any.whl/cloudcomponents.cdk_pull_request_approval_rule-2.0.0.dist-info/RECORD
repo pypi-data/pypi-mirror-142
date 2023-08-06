@@ -1,0 +1,9 @@
+cloudcomponents/cdk_pull_request_approval_rule/__init__.py,sha256=zJzrIe8DJLNodveiW42JpEaR4xCUs7cA_QlDl0qpwCo,16668
+cloudcomponents/cdk_pull_request_approval_rule/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_pull_request_approval_rule/_jsii/__init__.py,sha256=5dQP0DvoZKkEvPB1RVE08b6vUiUl03gXvnGhplI5-Jg,423
+cloudcomponents/cdk_pull_request_approval_rule/_jsii/cdk-pull-request-approval-rule@2.0.0.jsii.tgz,sha256=8s4u-RPV5eiNEGt-yfg4pm9TpNEDCnAFh82anxwRZRY,115017
+cloudcomponents.cdk_pull_request_approval_rule-2.0.0.dist-info/LICENSE,sha256=DC5mwzjdvc14vNIkGbMDFyOOJTkxI2b_1OtpeNA0A0A,1072
+cloudcomponents.cdk_pull_request_approval_rule-2.0.0.dist-info/METADATA,sha256=GtKptZXnV9t_shpjCvPkle-trmb2nlSaMRn139Zo3sU,5435
+cloudcomponents.cdk_pull_request_approval_rule-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloudcomponents.cdk_pull_request_approval_rule-2.0.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_pull_request_approval_rule-2.0.0.dist-info/RECORD,,
