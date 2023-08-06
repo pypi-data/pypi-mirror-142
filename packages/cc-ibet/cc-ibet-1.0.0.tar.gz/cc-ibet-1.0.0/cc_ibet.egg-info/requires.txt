@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+imagetyperzapi3
+pycryptodome
