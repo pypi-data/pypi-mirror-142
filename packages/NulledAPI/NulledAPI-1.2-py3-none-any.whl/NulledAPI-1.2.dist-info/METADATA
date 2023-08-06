@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: NulledAPI
+Version: 1.2
+Summary: NulledAPI - UnOfficial Nulled API
+Home-page: https://www.nulled.to/user/4103370-m3gz
+Author: M3GZ
+Author-email: megzfromnulled@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: cloudscraper
+
+# NulledAPI - Unofficial Nulled.to API
+NulledAPI is an unofficial [nulled.to](https://www.nulled.to/) API to better and more easily integrate features such as a ramped up version of nulled auth, and have access to useful functions such as searching for users, getting user info (much more functions in the works).
+
+It has been created by [M3GZ](https://www.nulled.to/user/4103370-m3gz)
+## REQUIREMENTS:
+[Python 3](https://www.python.org/downloads/)
+## INSTALLATION:
+```pip install NulledAPI```
+## EXAMPLE USAGE:
+```python
+from NulledAPI import Nulled
+nulled = Nulled()
+print(nulled.get_user_info(1234144))
+```
+##### Output
+(In Dict Format)
+```json
+{
+    'user_found': True,
+    'username': 'finndev',
+    'id': 1234144,
+    'group': 'reverser',
+    'shouts': 1,
+    'discord': None,
+    'error': (False, 'NO_ERROR_USER_FOUND')
+}
+```
+## METHODS:
+1. auth(auth_code: str)
+   ----------
+    Returns dictionary in the format below<br><br>
+    Example usage<br>`print(nulled.auth('NULLED-5E72C-60984-4D332-5B526-X'))`
+    ```json
+	{
+    	'authenticated': True,
+    	'user_found': True,
+    	'username': 'M3GZ',
+    	'id': 4103370,
+    	'group': 'aqua',
+    	'shouts': 348,
+    	'discord': '_megz#1304',
+    	'error': (False, 'NO_ERROR_USER_FOUND')
+	}
+    ```
+    #### Now you can limit parts of your programs for different usergroups Kappa
+	Parameters<br>
+	    auth_code : str
+            Description: Nulled auth code (https://www.nulled.to/auth.php)
+    
+2. get_user_info(user_name_or_id, secure_hash, session_id)
+   ----------
+    Returns dictionary in the format below<br><br>
+    Example usage<br>`print(nulled.get_user_info('brian','secure_hash','session_id'))`<br>
+    OR<br>
+    `print(nulled.get_user_info(1468487))`
+    ```json
+	{
+    	'user_found': True,
+    	'username': 'Brian',
+    	'id': 1468487,
+    	'group': 'disinfector',
+    	'shouts': 2381,
+    	'discord': None,
+    	'error': (False, 'NO_ERROR_USER_FOUND')
+	}
+    ```
+    ##### Go crazy with the information, information is power, especially when it's just one line of code to get it
+	
+	Parameters<br>
+	    1. user_name_or_id : str/int
+            Description: Use either UID or username
+                UID: Standalone usage
+                Username: You need to put in your session_id and secure_hash
+                          (Check notes)
+        
+        2. secure_hash : str, not required with UID
+            Description: Your nulled.to secure_hash
+                UID: Standalone usage
+                Username: You need to put in your secure_hash
+                          (Check notes)
+        
+        3. session_id : str, not required with UID
+            Description: Your nulled.to secure_hash
+                UID: Standalone usage
+                Username: You need to put in your latest session_id
+                          (Check notes)
+                          
+3. search_user(username: str, secure_hash: str, session_id: str)
+   ----------
+    Returns dictionary of all similarly named users found<br><br>
+    Example usage<br>`print(nulled.search_user('m3gz','secure_hash','session_id'))`
+    ```json
+	{
+	    '4103370': {        #Dict keys are the UIDs
+	        'name': 'M3GZ',
+	        'group': 'Aqua',
+	        'profile_pic': 'https://www.nulled.to/uploads/profile/photo-thumb-4103370.png?_r=1598880866'
+        },
+        '2515890': {
+            'name': 'm3gzz',
+            'group': 'Members',
+            'profile_pic': 'https://media.nulled.to/public/style_images/images/profile/default_large.png'
+        }
+    }
+    ```
+    ##### User search function might be useful to get user-list for various purposes,<br>you could check each user with get_user_info() to get more information
+	
+	Parameters<br>
+	    1. username : str
+            Description: Username to search
+        
+        2. secure_hash : str
+            Description: Your nulled.to secure_hash
+            You need to put in your secure_hash
+            (Check notes)
+        
+        3. session_id : str
+            Description: Your nulled.to secure_hash
+            You need to put in your latest session_id
+            (Check notes)
+
+4. More functions WIP
+
+## Notes
+To get the `session_id` and `secure_hash`:<br>
+1. Open any nto page on your browser being logged in
+2. Then press `Ctrl + U`
+3. In the source page, search for the term `secure_hash`
+4. There'll be a line like `ipb.vars['secure_hash'] = 'xyz';`<br>
+`xyz` is the `secure_hash`, use that in the methods
+5. The line below the secure_hash line will contain the `session_id`<br>
+>Note: `session_id` keeps changing occasionally, so you'll need to input the latest one while calling the method.
+
+Documentation can also be viewed using Visual Studio Code - https://i.imgur.com/PkEUaLo.png<br>
+While we are on the topic, might I suggest using [VSCodium](https://vscodium.com/)
+
+Important: The API might fail to return results if Nulled is having cloudflare (or any general) errors.<br>If you keep getting error codes like `BAD_SESSION_ID_OR_CF_ERROR` even with the correct `session_id`, open your browser page, solve the cloudflare captcha and run the code again.<br> Unfortunately this will be an issue till the stable release of V4.
+\
+\
+Made with 🖤 by M3GZ<br>
+For Terms of Service visit https://bit.ly/3aeIVfl
+
