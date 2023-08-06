@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+qtscompile/__init__.py
+qtscompile/__main__.py
+qtscompile/qts.py
+qtscompile.egg-info/PKG-INFO
+qtscompile.egg-info/SOURCES.txt
+qtscompile.egg-info/dependency_links.txt
+qtscompile.egg-info/top_level.txt
