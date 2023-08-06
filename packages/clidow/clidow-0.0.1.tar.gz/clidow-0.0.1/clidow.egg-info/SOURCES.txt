@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+clidow/__init__.py
+clidow.egg-info/PKG-INFO
+clidow.egg-info/SOURCES.txt
+clidow.egg-info/dependency_links.txt
+clidow.egg-info/requires.txt
+clidow.egg-info/top_level.txt
