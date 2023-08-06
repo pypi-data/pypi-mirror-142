@@ -1,0 +1,13 @@
+stocksera/__init__.py,sha256=ytKmF5ZmT2vlcyxN34jWYK3ROy37DhoLRkeUWaUIB8o,261
+stocksera/discover.py,sha256=U3tDOo4U0ERWon5bLuSNcPpR53DQ8-TuoQTqKX6B1ns,969
+stocksera/economy.py,sha256=yoJpA4rtLd91HpZWA8Z-U077LsUuETLCw1QmJQhcqvI,1099
+stocksera/etf.py,sha256=eMc1gdjDhd4FXNqY33hGuwgZDtw2yIvcZMbGZdjEkHs,297
+stocksera/government.py,sha256=gENiidSKaohJjUuvdqZB6WLFcRQ16ch_UHFbmP2cjd0,816
+stocksera/news.py,sha256=lIMbFPy6Nay2aVD32kSvHA9KzZTieLqC17TlF5hBBic,370
+stocksera/social.py,sha256=1w3f8cwel3A7qb3YN9PYZL7CTw1xJEuXIQ97lAu077I,990
+stocksera/stock.py,sha256=aC1PYt1Bw7bXz-IdtRU7eR7a4pl-9WFrF9tDJ4x61Xc,2007
+stocksera-0.1.20.dist-info/LICENSE,sha256=ekQc73RTqwa3eQamwcMffT3obKjYSiFKcPGvr4XxW8Y,1099
+stocksera-0.1.20.dist-info/METADATA,sha256=RL7L-Ue_tP-5xT9S4EUGe3Mqta2imy6AyRTIPNS-8w0,8482
+stocksera-0.1.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stocksera-0.1.20.dist-info/top_level.txt,sha256=Npou-qpftjAo4kHkWqhZAOhe4atorosk0bJNcvq0Qcg,10
+stocksera-0.1.20.dist-info/RECORD,,
