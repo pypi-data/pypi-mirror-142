@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: winfeatures
+Version: 0.1b
+Summary: Turn Windows Features On or Off through DISM with Python
+Home-page: https://github.com/weareblahs/winfeatures_py
+Author: Tan (weareblahs)
+Author-email: tanyuxuan2005@gmail.com
+License: MIT
+Download-URL: https://github.com/weareblahs/winfeatures_py/archive/refs/heads/main.tar.gz
+Description: UNKNOWN
+Keywords: windows,windows features,dism
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
