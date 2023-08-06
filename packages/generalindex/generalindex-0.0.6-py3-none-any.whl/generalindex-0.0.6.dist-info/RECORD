@@ -1,0 +1,12 @@
+generalindex/Authenticator.py,sha256=yWRi7jn1YcIP6q2xpCoNtTpSq8Lkag7UyvB4dZ9tktE,1318
+generalindex/DatalakeHandler.py,sha256=pT06eLXY9MmgMuyQjNRcYF3_XN9qliDvevICX5AA5LE,9179
+generalindex/HTTPCalller.py,sha256=37Km0AWTSaBkpZxWPEacQmD6e9FesJV-Vjjs1KUl2Tg,6393
+generalindex/StatusHandler.py,sha256=R21FUPC1Kfg0qpJIkpMSJbIzu6YBkrIhmJrxHy96SYw,1998
+generalindex/TaskHandler.py,sha256=wFkNpIJtLspoMFn9vF4Pf3z-fq8YU14FvUggLKy_ij0,8670
+generalindex/Timeseries.py,sha256=KDlumQFy9tHqLeu6lCXfx0AD-_kSp0xVJW0BzgkThkY,10906
+generalindex/__init__.py,sha256=GZ4fraAvTdVv-ny996458b97_4QRkBNFTrOLMxMg22s,1271
+generalindex-0.0.6.dist-info/LICENSE,sha256=dbCr_gOqjtZL8jPT1E7g3KCo_tCRL1eCoWNlC3rwBac,1055
+generalindex-0.0.6.dist-info/METADATA,sha256=SyncItcatIdXmCqqav_iKpFnbr1eLzIsoNK3aieOJpQ,25103
+generalindex-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+generalindex-0.0.6.dist-info/top_level.txt,sha256=d6O9P3wDDbUIcOp1N8Jjwht9veFEX1YRCo8tNXSPx-8,13
+generalindex-0.0.6.dist-info/RECORD,,
