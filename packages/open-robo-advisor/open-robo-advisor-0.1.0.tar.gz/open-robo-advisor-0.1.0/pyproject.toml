@@ -1,0 +1,41 @@
+[project]
+name = "open-robo-advisor"
+version = "0.1.0"
+description = "Open Robo-Advisor is an open source robo-advisor engine written in Python."
+authors = [
+    { name = "Chris Riccomini", email = "criccomini@apache.org" },
+]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/highwire-ai/open-robo-advisor"
+
+[project.optional-dependencies]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "mypy==0.931",
+    "pytest>=7.0.1",
+    "flake8==4.0.1",
+    "twine==3.8.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "src",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
