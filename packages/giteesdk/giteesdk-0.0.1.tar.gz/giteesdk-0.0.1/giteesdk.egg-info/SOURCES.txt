@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+giteesdk/__init__.py
+giteesdk.egg-info/PKG-INFO
+giteesdk.egg-info/SOURCES.txt
+giteesdk.egg-info/dependency_links.txt
+giteesdk.egg-info/requires.txt
+giteesdk.egg-info/top_level.txt
