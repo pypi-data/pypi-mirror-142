@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-brightness-contrast = napari_brightness_contrast
