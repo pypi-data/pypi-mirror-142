@@ -1,0 +1,2826 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Databases</name>
+    </assembly>
+    <members>
+        <member name="P:Technica.Databases.Avb.IAvb.version">
+            <summary>
+            Version of the message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Avb.IEcuAvb">
+            <summary>
+            Represents an AVB Ecu.
+            <seealso cref="T:Technica.Databases.Avb.Stream"/>
+            <seealso cref="T:Technica.Databases.Common.IEcu"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.IEcuAvb.source_mac_address">
+            <summary>
+            The source mac address of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.IEcuAvb.transmitted_streams">
+            <summary>
+            A list of the transmitted streams of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.IEcuAvb.received_streams">
+            <summary>
+            A list of the received streams of the ECU.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Avb.Stream">
+            <summary>
+            Represents an AVB Stream (IEEE1722 protocol).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.stream_id">
+            <summary>
+            The id of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.name">
+            <summary>
+            The name of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.destination_mac_address">
+            <summary>
+            The MAC address destination of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.vlan_id">
+            <summary>
+            The VLAN Id of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.version">
+            <summary>
+            The version of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.priority">
+            <summary>
+            The priority of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.bandwidth">
+            <summary>
+            The bandwidth of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.maxframe_size">
+            <summary>
+            The maximum frame size of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.maxinterval_frames">
+            <summary>
+            The maximum interval between frames of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.max_transit_time">
+            <summary>
+            The max_transit_time of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.stream_description">
+            <summary>
+            The stream description.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.ecu_parent">
+            <summary>
+            The ECU parent of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.receivers">
+            <summary>
+            The list of destinations of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.media_type">
+            <summary>
+            The MEDIA TYPE of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property1">
+            <summary>
+            The codec video of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property2">
+            <summary>
+            The resolution of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property3">
+            <summary>
+            The frame rate of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property4">
+            <summary>
+            The property4 of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property5">
+            <summary>
+            The audio codec of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property6">
+            <summary>
+            The channels of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property7">
+            <summary>
+            The sample rate of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Avb.Stream.property8">
+            <summary>
+            The byte order of the stream.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IChannel.channel_name">
+            <summary>
+            Extracts the name of the channel.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IChannel.channel_id">
+            <summary>
+            Extracts the Id of the channel.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IChannel.uuid">
+            <summary>
+            Extracts the UUID of the channel.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IChannelCan.pdu_triggings">
+            <summary>
+            Extracts the pdu triggings of the channel.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IChannelCan.frame_triggings">
+            <summary>
+            Extracts the frame triggings of the channel.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IConnectorType">
+            <summary>
+            Represents a Connector.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IConnectorType.uuid">
+            <summary>
+            The uuid of the connector.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IConnectorType.input_ports">
+            <summary>
+            A list of the input ports of the connector
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IConnectorType.output_ports">
+            <summary>
+            A list of the output ports of the connector
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IConnectorType.applications">
+            <summary>
+            A list of applications of the connector
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IConnectorType.networks">
+            <summary>
+            A list of networks of the connector
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.ICyclicTimingType">
+            <summary>
+            Represents a cyclic timing type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ICyclicTimingType.cycle">
+            <summary>
+            The cycle default value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ICyclicTimingType.min_value">
+            <summary>
+            The minimum value of the cycle.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ICyclicTimingType.max_value">
+            <summary>
+            The maximum value of the cycle.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IE2EInformation">
+            <summary>
+            Represents the information of e2e
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.profile">
+            <summary>
+            The profile of the information, could be <c>1A</c> or <c>2</c> or <c>4A</c> or <c>7</c> etc.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.data_id">
+            <summary>
+            The data id of the profile.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.data_id_list">
+            <summary>
+            When the profile is <c>2</c>, this will be the list of the possible data ids of the profile, <c>None</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.counter_signal">
+            <summary>
+            Alive counter signal of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.crc_signal">
+            <summary>
+            CRC signal of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.chl_signal">
+            <summary>
+            CHL signal of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IE2EInformation.data_length">
+            <summary>
+            The length of the profile's data.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IEcuCan">
+            <summary>
+            Represents a CAN Ecu.
+            <seealso cref="T:Technica.Databases.Can.IFrameInstance"/>
+            <seealso cref="T:Technica.Databases.Common.IEcu"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IEcuCan.input_frames">
+            <summary>
+            A list of the input frames of the ECU
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IEcuCan.output_frames">
+            <summary>
+            A list of the output frames of the ECU
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.FrameType">
+            <summary>
+            An enumeration that represents the different frame types.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IFrame">
+            <summary>
+            Represents a Frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.id_string">
+            <summary>
+            the ID of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.cycle">
+            <summary>
+            the cycle of the frame (may be <c>None</c> value).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.is_dynamic">
+            <summary>
+            <c>True</c> if the frame if dynamic, <c>False</c> if not.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.frame_type">
+            <summary>
+            The type of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.debounce_time">
+            <summary>
+            The debounce time of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.signals">
+            <summary>
+            The signals list of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.cyclic_timings">
+            <summary>
+            The possible Cyclic times of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.pdu_mappings">
+            <summary>
+            The mapping to the pdus of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.final_repetitions">
+            <summary>
+            The number of additional times a frame is repeated in case of it being event driven.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.repeating_time_range">
+            <summary>
+            The cycle between event driven repetitions.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.signal_activation_configs">
+            <summary>
+            A list of the states on which the signals of the frame are activated.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrame.pn_send_condition">
+            <summary>
+            A list of the conditions on which the frame is sent.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.SignalsContainer">
+            <summary>
+            Represents a Frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.name">
+            <summary>
+            The name of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.id">
+            <summary>
+            The id of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.uuid">
+            <summary>
+            The uuid of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.base_cycle">
+            <summary>
+            Extract from FlexRay database the base cycle of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.cycle_repetition">
+            <summary>
+            Extract from FlexRay database the cycle repetition of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.length">
+            <summary>
+            The byte length of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.signals">
+            <summary>
+            The signals list of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.SignalsContainer.e2e">
+            <summary>
+            The E2E information of the frame.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IFrameInstance">
+            <summary>
+            Represents a input port and output port.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IFrameTriggering">
+            <summary>
+            Represents a Frame Triggering.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrameTriggering.can_frame_tx_behaviour">
+            <summary>
+            the can frame Tx behavior of the frame triggering.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IFrameTriggering.can_frame_rx_behaviour">
+            <summary>
+            the can frame Rx behavior of the frame triggering.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IMultiplexedPart">
+            <summary>
+            Represents a Multiplexed Part of a Multiplexed PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IMultiplexedPart.name">
+            <summary>
+            The name of the Multiplexed Part.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IMultiplexedPart.uuid">
+            <summary>
+            The UUID of the Multiplexed Part.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IMultiplexedPart.pdus">
+            <summary>
+            The Com PDU alternatives that are transmitted in the Dynamic Part of the Multiplexed PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IMultiplexedPart.segment_positions">
+            <summary>
+            The segments that the Multiplexed Part can be separated in within the multiplexed PDU
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IPduMapping">
+            <summary>
+            Represents a Frame's PDU Mapping.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduMapping.uuid">
+            <summary>
+            The UUID of the PDU Mapping.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduMapping.bit_position">
+            <summary>
+            The Start Position of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduMapping.is_high_low_byte_order">
+            <summary>
+            <c>True</c> if bytes order is high to low, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduMapping.pdu">
+            <summary>
+            The PDU that is referenced by the PDU-REF in the PDU Mapping.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.IPduType">
+            <summary>
+            Represents a PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.name">
+            <summary>
+            The name of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.uuid">
+            <summary>
+            The UUID of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.id_string">
+            <summary>
+            The UUID of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.byte_length">
+            <summary>
+            Pdu length in bytes.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.pdu_type">
+            <summary>
+            The type of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.signal_instances">
+            <summary>
+            The Signals of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.signals">
+            <summary>
+            The Signals of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.multiplexer_selector">
+            <summary>
+            The Multiplexed Signal of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.unused_bit_pattern">
+            <summary>
+            The unused bit pattern of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.dynamic_parts">
+            <summary>
+            The Dynamic Parts of the Multiplexed PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.IPduType.static_parts">
+            <summary>
+            The Static Parts of the Multiplexed PDU.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.ISegmentPosition">
+            <summary>
+            Represents the position and the length of a PDU fragment.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISegmentPosition.bit_position">
+            <summary>
+            The bit position of the PDU fragment.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISegmentPosition.bit_length">
+            <summary>
+            The bit length of the PDU fragment.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISegmentPosition.is_high_low_byte_order">
+            <summary>
+            <c>True</c> if bytes order is high to low, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.ISwitchedPduInstance">
+            <summary>
+            Represents the Com PDU alternative that is transmitted in the Dynamic Part of the Multiplexed PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISwitchedPduInstance.pdu">
+            <summary>
+            The PDU that is referenced by the PDU-REF.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISwitchedPduInstance.switch_code">
+            <summary>
+            The value of the selector field that selects the layout of the Multiplexed Part of the PDU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISwitchedPduInstance.initial_dynamic_part">
+            <summary>
+            <c>True</c> if the Multiplexed Part is the initial Part, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.Signal">
+            <summary>
+            Represents a signal description from database
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.name">
+            <summary>
+            Gets the name of the signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.uuid">
+            <summary>
+            Gets the uuid of the signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.bit_length">
+            <summary>
+            gets the bit length.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.lower_limit">
+            <summary>
+            Gets the lower limit.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.upper_limit">
+            <summary>
+            Gets the upper limit.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.validity">
+            <summary>
+            Gets the validity value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.bit_position">
+            <summary>
+            Gets the bit position.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Can.Signal.raw_to_physical(System.UInt64)">
+            <summary>
+            converts the raw value of the signal to its corresponding physical measurement
+            </summary>
+            <param name="raw">The raw value to be converted.</param>
+            <returns>physical measurement of the signal.</returns>
+        </member>
+        <member name="M:Technica.Databases.Can.Signal.raw_to_interpretation(System.UInt64)">
+            <summary>
+            Converts the raw value of the signal to its corresponding interpretation.
+            </summary>
+            <param name="raw">The raw value to be converted.</param>
+            <returns>Interpretation of the signal.</returns>
+        </member>
+        <member name="M:Technica.Databases.Can.Signal.physical_to_raw(System.Double)">
+            <summary>
+            converts the physical measurement of the signal to its corresponding raw value
+            </summary>
+            <param name="physical">the physical measurement of the signal</param>
+            <returns>The raw value of the signal.</returns>
+        </member>
+        <member name="M:Technica.Databases.Can.Signal.get_interpretations">
+            <summary>
+            Returns a dictionary of tuple (min_physical_value, max_physical_value)
+            </summary>
+            <returns>Dictionary of tuple (min_physical_value, max_physical_value)</returns>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.is_high_low_byte_order">
+            <summary>
+            Gets bool value whether the byte order is low or high.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.initial_value">
+            <summary>
+            The signal value at startup.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.Signal.unit">
+            <summary>
+            The signal unit value.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Can.ISignalInstance">
+            <summary>
+            Represents a Signal Instance.
+            <seealso cref="T:Technica.Databases.Can.Signal"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.id_string">
+            <summary>
+            Gets the signal ID.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Technica.Databases.Can.ISignalInstance.coding" -->
+        <member name="P:Technica.Databases.Can.ISignalInstance.signal_type">
+            <summary>
+            Gets the signal type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.method">
+            <summary>
+            Gets the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.crc_id">
+            <summary>
+            Gets the CRC ID.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.signal_type_attribute_name">
+            <summary>
+            Gets the attribute name of the signal type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.compu_methods">
+            <summary>
+            Gets the composition methods.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Can.ISignalInstance.signal_activation_configs">
+            <summary>
+            The signal activations conditions.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.COMPU_METHOD_CATEGORY">
+            <summary>
+            An enumeration that represents the category of the computation method.
+            <seealso cref="T:Technica.Databases.Common.ICompuMethod"/>
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.VALIDITY">
+            <summary>
+            An enumeration that represents the validity of the computation method.
+            <seealso cref="T:Technica.Databases.Common.ICompuMethod"/>
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.ICompuMethod">
+            <summary>
+            Represents a Computation Method. A computation method that can be used to transform fixed-point representations of variables in the ECU memory into corresponding physical values and vice versa.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.rationalCoeffs">
+            <summary>
+            The rational coefficients of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.categorie">
+            <summary>
+            The category of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.compu_method_name">
+            <summary>
+            The name  of the computation method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.coding">
+            <summary>
+            The coding of the computation method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.unit">
+            <summary>
+            The unit of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.internal_to_phys">
+            <summary>
+            A list of the internal to physical scales of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.internal_constr">
+            <summary>
+            A list of the internal constraints of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuMethod.phys_constr">
+            <summary>
+            A list of the physical constraints of the method.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.ICompuScale">
+            <summary>
+            Represents a computation scale of the computation method.
+            <seealso cref="T:Technica.Databases.Common.ICompuMethod"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.lower_limit">
+            <summary>
+            The lower Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.upper_limit">
+            <summary>
+            The upper Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.compu_const">
+            <summary>
+            The computation constant of the scale.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.desc_code">
+            <summary>
+            A description code of the scale.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.rational_coeffs">
+            <summary>
+            The rational coefficient of the scale.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.ICompuScale.mask">
+            <summary>
+            The mask of the scale (<c>None</c> if the computation method is not <c>BITFIELD_TEXTTABLE</c>)
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.IConstraint">
+            <summary>
+            Represents a Limit (intervale with lower limit and upper limit).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IConstraint.lower_limit">
+            <summary>
+            The lower Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IConstraint.upper_limit">
+            <summary>
+            The upper Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IConstraint.scale_constrs">
+            <summary>
+            The scale constraints
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IEcu.ecu_id">
+            <summary>
+            Extracts from the database the unique ID of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IEcu.uuid">
+            <summary>
+            Extracts from the database the UUID of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IEcu.ecu_name">
+            <summary>
+            Extracts from the database the name of the ECU.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.IRationalCoeff">
+            <summary>
+            Represents a rational coefficient that is used when transforming values (follows AUTOSAR standard).
+            <seealso cref="T:Technica.Databases.Common.ICompuMethod"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IRationalCoeff.numerator1">
+            <summary>
+            The first numerator of the rational coefficient.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IRationalCoeff.numerator2">
+            <summary>
+            The second numerator of the rational coefficient.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IRationalCoeff.denominator">
+            <summary>
+            The denominator of the rational coefficient.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.IScaleConstraint">
+            <summary>
+            Represents a constraint scale of a computation method.
+            <seealso cref="T:Technica.Databases.Common.ICompuMethod"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IScaleConstraint.lower_limit">
+            <summary>
+            The lower Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IScaleConstraint.upper_limit">
+            <summary>
+            The upper Limit
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.IScaleConstraint.validity">
+            <summary>
+            The validity of the constraint scale
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Common.Unit">
+            <summary>
+            Represents a unit of a physical value (as specified in AUTOSAR standards)
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.Unit.id_string">
+            <summary>
+            The Id of the unit in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.Unit.name">
+            <summary>
+            the name of the unit.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Common.Unit.display_name">
+            <summary>
+            The display name of the unit.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.ConverterUtils.ArgumentEscaper">
+            <summary>
+            A utility for escaping arguments for new processes.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.ConverterUtils.ArgumentEscaper.EscapeAndConcatenate(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Undo the processing which took place to create string[] args in Main, so that the next process will
+            receive the same string[] args.
+            </summary>
+            <remarks>
+            See https://blogs.msdn.microsoft.com/twistylittlepassagesallalike/2011/04/23/everyone-quotes-command-line-arguments-the-wrong-way/
+            </remarks>
+            <param name="args">The arguments</param>
+            <returns>A single string of escaped arguments</returns>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.IEcuEthcc">
+            <summary>
+            Represents an ETHCC Ecu.
+            <seealso cref="T:Technica.Databases.Ethcc.IMessageEthcc"/>
+            <seealso cref="T:Technica.Databases.Common.IEcu"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEcuEthcc.ecu_oid">
+            <summary>
+            Extracts from the database the unique ID of the ECU.
+            </summary>
+            <returns> ID of the ECU.</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEcuEthcc.source_mac_address">
+            <summary>
+            Extracts the source MAC address of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEcuEthcc.source_ip_address">
+            <summary>
+            Extracts the source IP address of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEcuEthcc.transmitted_messages">
+            <summary>
+            Extracts the Transmitted messages of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEcuEthcc.received_messages">
+            <summary>
+            Extracts the received messages of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEnumerationList.enum_oid">
+            <summary>
+            Extracts the unique Id of the Enumeration list.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEnumerationList.name">
+            <summary>
+            Extracts the name of the Enumeration list.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEnumerationList.item">
+            <summary>
+            Extracts the list of items of the enumeration list.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEthccDb.enumeration_list">
+            <summary>
+            Extracts the Enumeration list of the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEthccDb.ecus">
+            <summary>
+            Extracts the ECUs of the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEthccDb.messages">
+            <summary>
+            Extracts the messages of the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEthccDb.signals">
+            <summary>
+            Extracts the signals of the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IEthccDb.version">
+            <summary>
+            Extracts the version of the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IItem.value">
+            <summary>
+            Extracts the value of the item from the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IItem.typed_value">
+            <summary>
+            Extracts the typed value of the item from the database.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.PROTOCOL">
+            <summary>
+            An enumeration that represents the transport protocol of the ETHCC message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.SEND_TYPE">
+            <summary>
+            An enumeration that represents the Send type of the ETHCC message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.DIRECTION">
+            <summary>
+            An enumeration that represents the possile direction of the ETHCC message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.PAYLOAD_TYPE">
+            <summary>
+            An enumeration that represents the payload type of the ETHCC message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.MessageAuthentication">
+            <summary>
+            An enumeration that represents the different message authentication value (<c>Yes</c> if the message has authentication, <c>No</c> if not and <c>Empty</c> when it's not specified.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.IMessageEthcc">
+            <summary>
+            Represents an ETHCC message.
+            <seealso cref="T:Technica.Databases.Ethcc.ISignalEthcc"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.msg_id">
+            <summary>
+            Message Id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.start_delay_time">
+            <summary>
+            Message start delay time.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.send_type">
+            <summary>
+            Message send type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.cycle_time">
+            <summary>
+            Message cycle.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.protocol">
+            <summary>
+            This field defines the protocol bytes used.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.source_port_number">
+            <summary>
+            Message source port number.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.destination_port_number">
+            <summary>
+            Message destination port number.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.destination_ip_address">
+            <summary>
+            Message destination IP address.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.destination_mac_address">
+            <summary>
+            Message destination mac address.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.vlan_id">
+            <summary>
+            The vlan id of the message
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.priority">
+            <summary>
+            Message priority.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.e2e_protection">
+            <summary>
+            <c>True</c> if the message is e2e protected, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.message_authentication">
+            <summary>
+            The message authentication object, could be <c>None</c> value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.dynamic_length">
+            <summary>
+            <c>True</c> if the message has a dynamic length, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.direction">
+            <summary>
+            The direction of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.payload_type">
+            <summary>
+            The payload type of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.trigger_repetition">
+             <summary>
+            The network request  is defined in the signal. If we have at least one of signals has the value "yes", the message will be sent three times. 
+             </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.signals">
+            <summary>
+            A list of the signals of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.IMessageEthcc.ecu">
+            <summary>
+            The ECU parent of the message
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.VALIDITY_SIGNAL">
+            <summary>
+            An enumeration that represents the possible Validity values of an ETHCC Signal.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.ValueType">
+            <summary>
+            The value type of the signal.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethcc.ISignalEthcc">
+            <summary>
+            Represents an ETHCC Signal.
+            <seealso cref="T:Technica.Databases.Can.Signal"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.factor">
+            <summary>
+            The signal factor value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.offset">
+            <summary>
+            The signal offset value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.network_request">
+            <summary>
+            <c>True</c> if the signal is a network request signal, <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.value_type">
+            <summary>
+            The value type of the signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.minimum_delay_time">
+            <summary>
+            The minimum delay time of the signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.network_request_holding_time">
+            <summary>
+            The network request holding time.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.function_des">
+            <summary>
+            A string that represents the function destination of the signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethcc.ISignalEthcc.receivers">
+            <summary>
+            A list of the receivers of the signal.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.CouplingElement">
+            <summary>
+            the coupling element of Fibex data base 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.CouplingElement.name">
+            <summary>
+            the name of coupling element 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.CouplingElement.uuid">
+            <summary>
+            the UUID of coupling element 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.CouplingElement.ports">
+            <summary>
+            the list port  of coupling element 
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.CouplingPort">
+            <summary>
+            the coupling port of the coupling element
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.CouplingPort.connected_to">
+            <summary>
+            the connected_to of coupling port named  COUPLING-PORT-REF 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.CouplingPort.vlan_memberships">
+            <summary>
+            the list VlanMembership of coupling port
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Event">
+            <summary>
+            Represents a SOME/IP Event.
+            <seealso cref="T:Technica.Databases.Ethernet.Parameter"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IServiceInterface"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Event.application_cycle">
+            <summary>
+            represents the application cycle.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Event.get_crc_profile">
+            <summary>
+            gets the CRC profile of the current event.
+            </summary>
+            <returns>CRC profile of the event.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Event.get_crc_parameter">
+            <summary>
+            gets CRC parameter of the current event.
+            </summary>
+            <returns> parameter of the event.</returns>        
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Field">
+            <summary>
+            Represents a SOME/IP Field.
+            <seealso cref="T:Technica.Databases.Ethernet.Parameter"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IServiceInterface"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.identifier">
+            <summary>
+            It is the first <c>16bits</c> of the Sequence Identifier field. This file is used to help match echo requests with the associated reply. It identifies the first byte of the data that is stored in the data portion of the segment.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.uuid">
+            <summary>
+            The UUID of the Field in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.id_string">
+            <summary>
+            The id of the Field in string format.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Field.compute_bit_length_and_positions">
+            <summary>
+            Computes the bit length and positions of the field.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.application_cycle">
+            <summary>
+            represents the application cycle.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.debounce_time_notifier">
+            <summary>
+            Specify of the time that elapses before the notifier can be sent the next time
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.debounce_time_getter">
+            <summary>
+            Specify of the time that elapses before the getter can be sent the next time
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.debounce_time_setter">
+            <summary>
+            Specify of the time that elapses before the setter can be sent the next time
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.getter_id">
+            <summary>
+            Identifier of the getter associated with the field. A getter is a request/response call that allows read access to a field.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.setter_id">
+            <summary>
+            Identifier of the setter associated with the field. A setter is a request/response call that allows to write access to a field.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.notifier_id">
+            <summary>
+            Identifier of the notifier associated with the field. A notifier is an element in charge of sending out event messages every time the value of a field changes.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.service_parent">
+            <summary>
+            Service to which the Field belongs.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Field.service_parent_identifier">
+            <summary>
+            The identifier of the service to which the Field belongs.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Field.get_crc_profile">
+            <summary>
+            gets the CRC profile of the Field.
+            </summary>
+            <returns>CRC profile of the event.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Field.get_crc_parameter">
+            <summary>
+            get the CRC profile of the current field.
+            </summary>
+            <returns>bit position of the field.</returns>        
+        </member>
+        <member name="T:Technica.Databases.Ethernet.CRC_PROFILE">
+            <summary>
+            Used to define the profile of the desired field or event.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Protocols">
+            <summary>
+            Represents the possible ethernet transport protocols (UDP or TCP).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.providedServices">
+            <summary>
+            A list of the provided services.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.consumedServices">
+            <summary>
+            A list of the consumed services.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.id_string">
+            <summary>
+            The id of the endpoint in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.uuid">
+            <summary>
+            The UUID of the application endpoint in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.network">
+            <summary>
+            The network of the endpoint.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IApplicationEndpoint.name">
+            <summary>
+            Application endpoint's name.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.ArrayDefinition">
+            <summary>
+            Represents the Definition of an array for SOME/IP standard.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.ArrayDefinition.is_dynamic">
+            <summary>
+            <c>True</c> if the array is of dynamic size, <c>False</c> if not.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.ArrayDefinition.is_fixed">
+            <summary>
+            <c>True</c> if the array is of fixed size, <c>False</c> if not.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.ArrayDefinition.minimum_size">
+            <summary>
+            Minimum size of the array.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.ArrayDefinition.maximum_size">
+            <summary>
+            Maximum size of the array, this value is <c>None</c> if the array has a fixed size.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.ArrayDefinition.length_field_size">
+            <summary>
+            Retrieves the array length of field size.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IChannelEthernet">
+            <summary>
+            Represents an Ethernet Channel.
+            <seealso cref="T:Technica.Databases.Can.IChannel"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IChannelEthernet.vlan_name">
+            <summary>
+            Extracts the vlan name of the channel.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IChannelEthernet.vlan_identifier">
+            <summary>
+            Extracts the vlan identifier of the channel.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IConsumedEventGroup">
+            <summary>
+            Represents a Consumed Event Group.
+            <seealso cref="T:Technica.Databases.Ethernet.IEventGroup"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.cyclic_request_delay">
+            <summary>
+            Time between two consecutive SOME/IP-SD Find messages during the main phase is in milliseconds. Used, for example, when an ECU is working on ETS client mode, where Finds are sent cyclically during the main phase.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.ttl">
+            <summary>
+            Time to live for the SOME/IP-SD messages sent from this consumed service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.id_string">
+            <summary>
+            The Id of the consumed eventgroup in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.service">
+            <summary>
+            Retrieves the Service Interface object.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.repetition_max">
+            <summary>
+            Retrieves the max number of SOME/IP-SD Offer messages sent from the start-up of the ECU until entering the main phase i.e. during the repetition phase.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.repetition_base">
+            <summary>
+            Gets the base delay used for sending SOME/IP-SD Offer messages during the repetition phase in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.initial_delay_max">
+            <summary>
+            Gets the time elapsed between the start-up of the ECU and the first SOME/IP-SD message in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.identifier">
+            <summary>
+            Retrieves the ID of the consumed eventgroup.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedEventGroup.eventgroup">
+            <summary>
+            Gets the EventGroup object.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IConsumedService">
+            <summary>
+            Represents a Consumed Service.
+            <seealso cref="T:Technica.Databases.Ethernet.IConsumedEventGroup"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IServiceInterface"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.ttl">
+            <summary>
+            The TTL (time to live) of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.id_string">
+            <summary>
+            The Id of the service in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.uuid">
+            <summary>
+            The UUID of the service in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.repetition_max">
+            <summary>
+            The maximum amount of repetitions of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.repetition_base">
+            <summary>
+            The base amount of repetitions of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.initial_delay_max">
+            <summary>
+             Gets the time elapsed between the start-up of the ECU and the first SOME/IP-SD message in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.instance_id">
+            <summary>
+             Retrieves the instance ID of the provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.service">
+            <summary>
+            The service of the consumed service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IConsumedService.consumed_event_groups">
+            <summary>
+            Gets the list of Consumed Eventgroup of this consumed service.
+            </summary>        
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IControllerType">
+            <summary>
+            Represents a Controller.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IControllerType.mac_unicast_address">
+            <summary>
+            The MAC unicast address of the controller.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IControllerType.uuid">
+            <summary>
+            The ID of the controller.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IControllerType.name">
+            <summary>
+            The name of the controller.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IControllerType.id_string">
+            <summary>
+            The ID of the controller.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IECUEthernet">
+            <summary>
+            Represents an Ethernet ECU object.
+            <seealso cref="T:Technica.Databases.Ethernet.IProvidedService"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IConsumedService"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IECUEthernet.mac_unicast_addresses">
+            <summary>
+            A list of the MAC unicast addresses of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IECUEthernet.diagnostic_addresses">
+            <summary>
+            A list of the diagnostic addresses of the ECU.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_ips(System.Func{System.String,System.Boolean}[])">
+            <summary>
+            Extracts a list of IPs from the network of the ECU by applying a list of filters.
+            </summary>
+            <param name="filters">Filters applied before extracting the list of IPs</param>
+            <returns>A list of IPs</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_consumed_services_by_ip(System.String)">
+            <summary>
+            Extracts from the database the complete list of consumed services by a certain ECU. These consumed services contain info not only about the services itself, but also about the eventgroups used, transport info, etc.
+            </summary>
+            <param name="ip">IP address of the desired ECU.</param>
+            <returns>List of consumed services by the IP</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_provided_services_by_ip(System.String)">
+            <summary>
+            Extracts from the database the complete list of provided services by a certain ECU.
+            </summary>
+            <param name="ip">IP address of the desired ECU.</param>
+            <returns> List of services provided by the IP</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_e2e_profile_4_message_table">
+            <summary>
+            Extracts from the database the complete table of e2e_profile_4 messages by a certain ECU.
+            </summary>
+            <returns>Dictionary: “key”= message id. “value”= Ie2eType profile type</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_e2e_profile_1a_message_table">
+            <summary>
+            Extracts from the database the complete table of e2e_profile_1a messages by a certain ECU.
+            </summary>
+            <returns>Dictionary: “key”= message id. “value”= Ie2eType1C profile type</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.get_e2e_profile_1c_message_table">
+            <summary>
+            Extracts from the database the complete table of e2e_profile_1c messages by a certain ECU.
+            </summary>
+            <returns>Dictionary: “key”= message id. “value”= Ie2eType1C profile type</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IECUEthernet.consumed_services">
+            <summary>
+            Gets the complete list of services consumed by the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IECUEthernet.provided_services">
+            <summary>
+            Gets the complete list of services provided by the ECU.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.find_provided_service_instances(System.UInt16)">
+            <summary>
+            Gets a list of provided service objects found for the ECU that correspond to the service id given.
+            </summary>
+            <param name="service_id">Id of the desired service.</param>
+            <returns>List of provided services found.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IECUEthernet.find_consumed_service_instances(System.UInt16)">
+            <summary>
+            Gets a list of consumed service objects found for the ECU that correspond to the service id given. An ECU can consume the same service id with different event groups, IPs and ports, and for each combination of these parameters a consumed service object is created.
+            </summary>
+            <param name="service_id">Id of the desired service.</param>
+            <returns> List of consumed services found.</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IECUEthernet.couplings">
+            <summary>
+            list of coupling elements in ecu ethernet
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Ie2eType">
+            <summary>
+            Represents end to end type of an ethernet message (as specified by E2E protocol). 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyCrcId">
+            <summary>
+            The property CRC id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyDataID">
+            <summary>
+            The property data id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyInstanceID">
+            <summary>
+            The property instance id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyMessageID">
+            <summary>
+            The property message id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyCyclicTime">
+            <summary>
+            The property cyclic time.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertySourceIP">
+            <summary>
+            The property source ip.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PrpertyCrc">
+            <summary>
+            The property CRC.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyAliveCounterMaxValue">
+            <summary>
+            The property Alive counter max value.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyDebounceTime">
+            <summary>
+            The property debounce time.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyServiceName">
+            <summary>
+            The property service name.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyEventName">
+            <summary>
+            The property Event name.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PrpertyAliveCounter">
+            <summary>
+            The property alive counter parameter.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_data_id">
+            <summary>
+            Gets the property data id.
+            </summary>
+            <returns>Property data id.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_instance_id">
+            <summary>
+            Gets the instance id of the property.
+            </summary>
+            <returns>Instance id of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_message_id">
+            <summary>
+            Gets the message id of the property.
+            </summary>
+            <returns>Message id of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_source_ip">
+            <summary>
+            Gets the source ip of the property.
+            </summary>
+            <returns>Source ip of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_alive_counter_max_value">
+            <summary>
+            Gets the maximum value of the alive counter.
+            </summary>
+            <returns>Maximum value of the alive counter.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_debounce_time">
+            <summary>
+            Gets the debounce time value of the property.
+            </summary>
+            <returns>Debounce time value of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_service_name">
+            <summary>
+            Gets the service name of the property.
+            </summary>
+            <returns>Service name of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_method_name">
+            <summary>
+            Gets the event name of the property.
+            </summary>
+            <returns>Event name of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_cyclic_time">
+            <summary>
+            Gets the cyclic time of the property.
+            </summary>
+            <returns>Cyclic time of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_crc_id">
+            <summary>
+            Gets the CRC id of the property.
+            </summary>
+            <returns>CRC id of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_alive_counter_param">
+            <summary>
+            Gets the alive counter parameter of the property.
+            </summary>
+            <returns>alive counter parameter of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_alive_counter_length">
+            <summary>
+            Gets the alive counter length of the property.
+            </summary>
+            <returns>Alive counter length of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_alive_counter_start_index">
+            <summary>
+            Gets the alive counter starting index of the property.
+            </summary>
+            <returns>The alive counter starting index of the property.</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyAliveCounterLength">
+            <summary>
+            The alive counter length value of the property.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType.PropertyAliveCounterBitPosition">
+            <summary>
+            The alive counter starting index of the property.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType.get_crc_param">
+            <summary>
+            Gets the CRC parameter of the property.
+            </summary>
+            <returns>CRC parameter of the property.</returns>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Ie2eType1A">
+            <summary>
+            Represents an E2E type 1A property of an ethernet message.
+            <seealso cref="T:Technica.Databases.Ethernet.Ie2eType"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType1A.PropertyCrcLength">
+            <summary>
+            The property CRC length.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType1A.PropertyCrcBitPosition">
+            <summary>
+            The property CRC bit position.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType1A.get_crc_length">
+            <summary>
+            Gets the property CRC length.
+            </summary>
+            <returns>CRC length of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType1A.get_crc_start_index">
+            <summary>
+            Gets the CRC starting index of the property.
+            </summary>
+            <returns>CRC starting index of the property.</returns>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Ie2eType1C">
+            <summary>
+            Represents E2E type 1C property of an Ethernet message..
+            <seealso cref="T:Technica.Databases.Ethernet.Ie2eType1A"/>
+            <seealso cref="T:Technica.Databases.Ethernet.Ie2eType"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType1C.PrpertyChl">
+            <summary>
+            The CHL parameter of the property.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType1C.PropertyChlLength">
+            <summary>
+            The CHL parameter length of the property.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Ie2eType1C.PropertyChlBitPosition">
+            <summary>
+            The CHL parameter starting index of the property..
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType1C.get_chl_param">
+            <summary>
+            Gets the CHL parameter of the property.
+            </summary>
+            <returns>CHL parameter of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType1C.get_chl_length">
+            <summary>
+            Gets the CHL parameter length of the property.
+            </summary>
+            <returns>CHL parameter length of the property.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Ie2eType1C.get_chl_start_index">
+            <summary>
+            Gets the CHL parameter starting index of the property.
+            </summary>
+            <returns>CHL parameter starting index of the property.</returns>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IEventGroup">
+            <summary>
+            Represents an Event Group, responsible for regulating the message flow between Service providers and consumers.
+            <seealso cref="T:Technica.Databases.Ethernet.Event"/>
+            <seealso cref="T:Technica.Databases.Ethernet.Field"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IServiceInterface"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.name">
+            <summary>
+            Name of the eventgroup.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.uuid">
+            <summary>
+            UUID of the eventgroup in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.id_string">
+            <summary>
+            Id of the eventgroup in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.identifier_integer">
+            <summary>
+            Id of the eventgroup in integer format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.service_parent">
+            <summary>
+            The service interface parent of the eventgroup.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.service_parent_identifier">
+            <summary>
+            The integer identifier of the service parent.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.events">
+            <summary>
+            List of the events of the eventgroup.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventGroup.fields">
+            <summary>
+            List of the fields of the eventgroup.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IEventHandler">
+            <summary>
+            Represents an Event Handler, responsible for handling Event related to specific consumed event groups.
+            <seealso cref="T:Technica.Databases.Ethernet.IConsumedEventGroup"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IEventHandler.consumed_event_group">
+            <summary>
+            An array of the consumed event groups of the handler.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IMacMulticastGroup">
+            <summary>
+            Represents a MAC multicast group (with name and multicast address).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IMacMulticastGroup.name">
+            <summary>
+            Group name.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IMacMulticastGroup.uuid">
+            <summary>
+            Group UUID.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IMacMulticastGroup.mac_multicast_address">
+            <summary>
+            Group multicast address.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IManufacturerMethodExtension">
+            <summary>
+            Represents a Method Extension of a manufacturer.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerMethodExtension.debounce_time">
+            <summary>
+            The debounce time of the method extension (as specified in FIBEX Standard).
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.DataTypeCategory">
+            <summary>
+            An enumeration that represents the category of the data type (used to indicate vital data).
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IManufacturerParameterExtension">
+            <summary>
+            Represents a parameter extension for manufacturer (as specified in FIBEX Standard).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerParameterExtension.type">
+            <summary>
+            The category type of the extension.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerParameterExtension.method">
+            <summary>
+            The method string of the extension.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerParameterExtension.crc_id">
+            <summary>
+            The CRC Id.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerParameterExtension.functional_partial_network">
+            <summary>
+             Extract from the database a list of the functional partial network vehicle state on
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IManufacturerParameterExtension.basic_partial_network">
+            <summary>
+              Extract from the database a list of the basic partial network  vehicle state
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetwork.uuid">
+            <summary>
+            The UUID of the network in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetwork.id_string">
+            <summary>
+            The id of the network in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetwork.name">
+            <summary>
+            The name of the network.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetwork.network_endpoint_addresses">
+            <summary>
+            The network endpoint addresses.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.INetworkConfiguration">
+            <summary>
+            Represents a network configuration object (for example a service).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkConfiguration.ip">
+            <summary>
+            Retrieves the IP address associated with the SOME/IP messages sent from this provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkConfiguration.port">
+            <summary>
+            Retrieves the port number used for TCP or UDP connections when it comes to SOME/IP messages from this provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkConfiguration.network_mask">
+            <summary>
+            Retrieves the network mask address associated with the SOME/IP messages sent from this provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkConfiguration.protocol">
+            <summary>
+            Gets description of the transport protocol(s) used by the methods, events or fields from the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.ipv4_address">
+            <summary>
+            The IP address of the network endpoint.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.ipv4_address_source">
+            <summary>
+            The ipv4 address source, could have value of <c>FIXED</c>, <c>DHCPV4</c> or <c>AUTOIP</c>.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.network_mask">
+            <summary>
+            The network mask.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.ipv6_address">
+            <summary>
+            The IPv6 address of the network endpoint.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.ipv6_address_prefix_length">
+            <summary>
+            The IPv6 address prefix length.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.INetworkEndpointAddress.ipv6_address_source">
+            <summary>
+            The IPv6 address source.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.IParameterLayoutCalculator.compute_bit_length_and_positions(Technica.Databases.Ethernet.Parameter[])">
+            <summary>
+            Computes the bit length and positions of the parameters.
+            </summary>
+            <param name="parameters">Desired parameters.</param>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IProvidedService">
+            <summary>
+            Represents a provided service.
+            <seealso cref="T:Technica.Databases.Ethernet.INetworkConfiguration"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.ttl">
+            <summary>
+            Retrieves the time to live for the SOME/IP-SD messages sent from this provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.id_string">
+            <summary>
+            The Id of the Provided service in string format
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.uuid">
+            <summary>
+            The UUID of the Provided service in string format
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.query_response_delay">
+            <summary>
+            Gets the time elapsed between the reception of a FindService request and the sending of the corresponding answer in milliseconds. Introduced with the goal of avoiding overload caused by duplicated messages. All the identical messages received within this interval will be ignored since only one reply is enough.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.repetition_max">
+            <summary>
+            Retrieves the max number of SOME/IP-SD Offer messages sent from the start-up of the ECU until entering the main phase, i.e. during the repetition phase.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.repetition_base">
+            <summary>
+            Gets the base delay used for sending SOME/IP-SD Offer messages during the repetition phase in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.cyclic_announce_delay">
+            <summary>
+            Gets the time in milliseconds between two consecutive SOME/IP-SD Offer messages during the main phase of this provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.initial_delay_max">
+            <summary>
+            Gets the time in milliseconds elapsed between the start-up of the ECU and the first SOME/IP-SD message in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.instance_id">
+            <summary>
+            Retrieves the instance ID of the provided service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.service">
+            <summary>
+            Retrieves the Service Interface object.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IProvidedService.event_handlers">
+            <summary>
+            Retrieves all the events contained in the service.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.IServiceInterface">
+            <summary>
+            Represents a Service Interface object.
+            <seealso cref="T:Technica.Databases.Ethernet.Event"/>
+            <seealso cref="T:Technica.Databases.Ethernet.Method"/>
+            <seealso cref="T:Technica.Databases.Ethernet.Field"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IEventGroup"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.service_id">
+            <summary>
+            Gets the identifier of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.uuid">
+            <summary>
+            Gets the UUID  of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.name">
+            <summary>
+            The name of the Service Interface
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.id_string">
+            <summary>
+            The Id of the service interface in string format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.major_version">
+            <summary>
+            Gets the major version of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.minor_version">
+            <summary>
+            Gets the minor version of the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.package">
+            <summary>
+            The package of the Service interface.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.events">
+            <summary>
+            Retrieves all the list of Event contained in the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.methods">
+            <summary>
+            Retrieves all the list of Method contained in the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.event_groups">
+            <summary>
+            Retrieves all the list of EventGroup contained in the service.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.IServiceInterface.fields">
+            <summary>
+            Retrieves all the list of Field contained in the service.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.CALLSEMANTIC">
+            <summary>
+            An enumeration that represents the type of the service call.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Method">
+            <summary>
+            Represents the definition of a Method for SOME/IP standard
+            <seealso cref="T:Technica.Databases.Ethernet.Parameter"/>
+            <seealso cref="T:Technica.Databases.Ethernet.IServiceInterface"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.name">
+            <summary>
+            name of the interface.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.id_string">
+            <summary>
+            Id string of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.uuid">
+            <summary>
+            UUID of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.description">
+            <summary>
+            Description of the method.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.identifier_integer">
+            <summary>
+             Retrieves the identifier of the event in integer format.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.call_semantic">
+            <summary>
+            Compute the bit length and its position.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Method.compute_bit_length_and_positions">
+            <summary>
+            Computes the bit length and positions
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.manufacturer_extension">
+            <summary>
+            gets the manufacturer extension.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.input_parameters">
+            <summary>
+            represents all the input Parameters.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.return_parameters">
+            <summary>
+            gets the list of return Parameters of the current interface.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.service_parent">
+            <summary>
+            get the service parent of the current interface.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Method.service_parent_identifier">
+            <summary>
+            get the service parent identifier of the current interface.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Package">
+            <summary>
+            Represents an Ethernet package information (name and id).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Package.name">
+            <summary>
+            The name of the package
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Package.uuid">
+            <summary>
+            The UUID of the package
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Package.id_string">
+            <summary>
+            The Id of the package in string format.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.Parameter">
+            <summary>
+            Represents a parameter object.
+            <seealso cref="T:Technica.Databases.Can.ISignalInstance"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.type_field_size">
+            <summary>
+            The optional size of a type field of a data type. Applies for complex union data types.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.description">
+            <summary>
+            A description of the object.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.compu_methods">
+            <summary>
+            Represent the method to calculate the transmitted value to the physical representation.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.name">
+            <summary>
+            Name of the parameter object.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.uuid">
+            <summary>
+            The UUID of the parameter object.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.manufacturer_extension">
+            <summary>
+            The manufacturer extensions.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.bit_length">
+            <summary>
+            Static length of the declared data type. It represents the bit length used to encode the parameter. It could be, for example, a byte coded parameter but coded only on <c>2</c> bits.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.signal_ref">
+            <summary>
+            Subordinated signal.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.is_high_low_bit_order">
+            <summary>
+            <c>True</c> if the bytes are stored in big endian format. <c>False</c> if they are stored using little endian encoding.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.arrays">
+            <summary>
+            List of arrays that are part of the parameter. A parameter can have a list of arrays, each o them defined by a dimension, a number of elements, the field_size (if it’s dynamic) and a type of elements. To determine the size of the array a length parameter, which counts the bytes of the array, added during the serialization process.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.members">
+            <summary>
+            List of members or parts of the parameter if its type is complex. Each member is a parameter and, as such, it contains the same properties the parameter objects have.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.functional_partial_network">
+            <summary>
+            Extract from the database a list of the functional partial network vehicle state on
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.basic_partial_network">
+            <summary>
+            Extract from the database a list of the basic partial network  vehicle state
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.base_type">
+            <summary>
+            String used in the Fibex database to specify the basic data type.
+            It can be one of the following values: bool uint8 uint8 uint16 uint32 uint64 int8 int16 int32 int64 float32 float64 string struct union typedef
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.is_array">
+            <summary>
+            <c>True</c> if the parameter is of type array. <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.is_enum">
+            <summary>
+            <c>True</c> if the parameter is an enumeration. <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.is_complex">
+            <summary>
+            <c>True</c> if the parameter has a dynamic length. <c>False</c> otherwise.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Parameter.get_bit_position">
+            <summary>
+            Retrieves the bit position of the current parameter.
+            </summary>
+            <returns>Bit position of the parameter.</returns>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Parameter.get_length">
+            <summary>
+            Retrieves the length of the current parameter.
+            </summary>
+            <returns>Length of the parameter.</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.position">
+            <summary>
+            Position of the complex data type member within the complex datatype.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.mandatory">
+            <summary>
+            <c>True</c> if the parameter is mandatory, <c>False</c> if not.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.tag_id">
+            <summary>
+            Identifier of the tag field.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.length_field_size">
+            <summary>
+            The optional size of a leading length parameter of a data type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.enumeration_elements">
+            <summary>
+            Dictionary containing enum values and keys if the parameter is an enumeration object.
+            </summary>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Parameter.set_length(System.Int32)">
+            <summary>
+            Sets the length of the parameter data.
+            </summary>
+            <param name="p0">Desired length.</param>
+        </member>
+        <member name="M:Technica.Databases.Ethernet.Parameter.set_payload_offset(System.Int32)">
+            <summary>
+            Sets the offset of the payload.
+            </summary>
+            <param name="payloadOffset">Payload offset.</param>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.string_encoding">
+            <summary>
+            Specifying the data encoding if not defined by the data type.
+            It can be one of the following values: <c>utf-8</c>, <c>utf-16</c>, <c>iso-8859-1</c>, <c>iso-8859-2</c>, <c>windows-1252</c>.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.string_bom">
+            <summary>
+            Defines whether a BOM is present in a string (EXPLICIT) or not (NONE).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.Parameter.string_termination">
+            <summary>
+            Specifying the termination used. It can be one of the following value: NONE, ZERO
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.TpAddress">
+            <summary>
+            Represents a diagnostic address of an ECU
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.TpAddress.addressing">
+            <summary>
+            The addressing of diagnostic addresses (PHYSICAL, FUNCTIONAL, TESTER, OTHER)
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.TpAddress.value">
+            <summary>
+             The tp addresses
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethernet.VlanMembership">
+            <summary>
+            the VlanMembership of coupling port 
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.VlanMembership.channel">
+            <summary>
+            the channel in the VlanMembership
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethernet.VlanMembership.default_priority">
+            <summary>
+            the default_priority in the VlanMembership
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethtp.IEcuEthtp">
+            <summary>
+            Represents an ETHTP Ecu.
+            <seealso cref="T:Technica.Databases.Common.IEcu"/>
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IEcuEthtp.source_mac_address">
+            <summary>
+             Extracts from the database the source mac address of the ECU.
+            </summary>
+            <returns> source mac address</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IEcuEthtp.source_ip_address">
+            <summary>
+             Extracts from the database the source IP address of the ECU.
+            </summary>
+            <returns> source IP address</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IEcuEthtp.transmitted_messages">
+            <summary>
+            Extracts from the database the complete list of transmitted messages
+            </summary>
+            <returns> list of transmitted messages</returns>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IEcuEthtp.received_messages">
+            <summary>
+            Extracts from the database the complete list of received messages
+            </summary>
+            <returns> list of received messages</returns>
+        </member>
+        <member name="T:Technica.Databases.Ethtp.Protocol">
+            <summary>
+             Extracts from the database the protocol of the message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethtp.TcpPayloadType">
+            <summary>
+             Extracts from the database the tcp payload type of the message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethtp.ConnectionCondition">
+            <summary>
+             Extracts from the database the connection condition of the message.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Ethtp.IMessageEthtpDb">
+            <summary>
+            Represents an ETHTP Message information (fetched from the database).
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.msg_id">
+            <summary>
+             Extracts from the database the unique id of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.name">
+            <summary>
+             Extracts from the database the name of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.transport_protocol">
+            <summary>
+             Extracts from the database the protocol of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.tcp_payload_type">
+            <summary>
+             Extracts from the database the tcp payload type of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.connection_condition">
+            <summary>
+             Extracts from the database the connection condition of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.validity">
+            <summary>
+             Extracts from the database the validity of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.vlan_id">
+            <summary>
+             Extracts from the database the byte order of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.priority">
+            <summary>
+             Extracts from the database the priority of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.source_port_number">
+            <summary>
+             Extracts from the database the source port number of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.destination_port_number">
+            <summary>
+             Extracts from the database the destination port number of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.connection_name">
+            <summary>
+             Extracts from the database the connection name of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.connection_id">
+            <summary>
+             Extracts from the database the connection id of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.destination_mac_address">
+            <summary>
+             Extracts from the database the destination mac address of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.destination_ip_address">
+            <summary>
+             Extracts from the database the destination IP address of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.function_description">
+            <summary>
+             Extracts from the database the function description of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.ecu">
+            <summary>
+             Extracts from the database the ecu parent of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.at_start_value">
+            <summary>
+             Extracts from the database at start value of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.network_request">
+            <summary>
+             Extracts from the database the network request of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.network_request_holding_time">
+            <summary>
+             Extracts from the database the network request holding time of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.version">
+            <summary>
+             Extracts from the database the version of the message.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Ethtp.IMessageEthtpDb.receivers">
+            <summary>
+             Extracts from the database the list of receivers.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.IPduSignalInstance">
+            <summary>
+            Represents The PDU Signal Instance
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.IPduSignalInstance.id_string">
+            <summary>
+            The ID String of the pdu signal instance
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.IPduSignalInstance.bit_position">
+            <summary>
+            The pdu signal instance bit position
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.IPduSignalInstance.is_hight_low_byte_order">
+            <summary>
+            A boolean represents if the high low byte order is true or false
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.IPduSignalInstance.signal_ref">
+            <summary>
+            The signal Ref
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Lin.ILinEcu">
+            <summary>
+            Represents a LIN ECU
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.is_master">
+            <summary>
+            <c>True</c> if this ECU is the LIN master
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.protocol_version">
+            <summary>
+            The LIN protocol version.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.initial_nad">
+            <summary>
+            The initial Node Address value of the ECU
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.configured_nad">
+            <summary>
+            The value of the configured Node Address.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.name">
+            <summary>
+            The ECU name.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.consumed_frames">
+            <summary>
+            List of the consumed frames of the ECU.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinEcu.provided_frames">
+            <summary>
+            List of the Provided frames of the ECU.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Lin.ILinFrame">
+            <summary>
+            Represents a LIN frame
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ILinFrame.protocol_version">
+            <summary>
+            The LIN protocol version.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Lin.ScheduleCommand">
+            <summary>
+            Represents the schedule command
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ScheduleCommand.type">
+            <summary>
+            The schedule command's type.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ScheduleCommand.frame">
+            <summary>
+            The schedule command's frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ScheduleCommand.delay">
+            <summary>
+            The schedule command's delay.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Lin.ScheduleTable">
+            <summary>
+            Represents the schedule table
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ScheduleTable.name">
+            <summary>
+            The schedule table's name.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Lin.ScheduleTable.commands">
+            <summary>
+            A list of the schedule commands.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Pdu.PduEcu">
+            <summary>
+            A PDU Ecu instance.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduEcu.transmitted_messages">
+            <summary>
+            The transmitted messages of the ecu.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduEcu.received_messages">
+            <summary>
+            The received messages of the ecu.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Pdu.PduFrame">
+            <summary>
+            A PDU Frame instance.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.port_src">
+            <summary>
+            The port source of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.ip_src">
+            <summary>
+            The ip source of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.port_dst">
+            <summary>
+            The port destination of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.ip_dst">
+            <summary>
+            The ip destination of the frame.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.cycle">
+            <summary>
+            The cycle of the message. <c>0</c> if no cycle is found in the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.debounce_time">
+            <summary>
+            The debounce time of the message. <c>0</c> if no debounce time is found in the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.trigger_count">
+            <summary>
+            The trigger count of the message. <c>0</c> if no trigger count is found in the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.trigger_cycle">
+            <summary>
+            The trigger cycle of the message. <c>0</c> if no trigger cycle is found in the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduFrame.cyclic_timings">
+            <summary>
+            The cyclic timing of the message. <c>None</c> if no timing is found in the database.
+            </summary>
+        </member>
+        <member name="T:Technica.Databases.Pdu.PduParser">
+            <summary>
+            Pdu Parser Instance
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduParser.ecus">
+            <summary>
+            The ecus parsed from the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduParser.frames">
+            <summary>
+            The frames parsed from the database.
+            </summary>
+        </member>
+        <member name="P:Technica.Databases.Pdu.PduParser.signals">
+            <summary>
+            The signals parsed from the database.
+            </summary>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.ecus">
+            <summary>
+            Extracts from the database the complete list of ecus
+            </summary>
+            <returns> list of ecus</returns>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.messages">
+            <summary>
+            Extracts from the database the complete list of mesages
+            </summary>
+            <returns> list of messages</returns>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.messages_tp">
+            <summary>
+            Extracts from the database the complete list of messages where tcp payload type is tp
+            </summary>
+            <returns> list of tp messages</returns>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.messages_diag">
+            <summary>
+            Extracts from the database the complete list of messages where tcp payload type is diag
+            </summary>
+            <returns> list of diag messages</returns>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.messages_reprog">
+            <summary>
+            Extracts from the database the complete list of messages where tcp payload type is reprogramming
+            </summary>
+            <returns> list of reprogramming messages</returns>
+        </member>
+        <member name="P:PrimaITechnica.Databases.Ethtp.IEthtpDB.messages_tcp">
+            <summary>
+            Extracts from the database the complete list of messages where tcp payload type is tcp
+            </summary>
+            <returns> list of tcp transmitted messages</returns>
+        </member>
+    </members>
+</doc>

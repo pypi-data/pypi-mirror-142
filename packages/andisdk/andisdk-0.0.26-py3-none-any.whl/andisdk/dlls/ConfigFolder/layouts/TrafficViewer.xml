@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="MainForm">
+  <property name="ColumnFormat">dec</property>
+  <component name="splitContainer1">
+    <property kind="height%" name="SplitterDistance">0.349462365591398</property>
+  </component>
+  <component name="splitContainer2">
+    <property kind="width%" name="SplitterDistance">0.324891461649783</property>
+  </component>
+  <component name="grid">
+    <member name="AllColumns">
+      <column name="No">
+        <property kind="width%" name="Width">0.0506512301013025</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Time">
+        <property kind="width%" name="Width">0.0506512301013025</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Delta">
+        <property kind="width%" name="Width">0.0434153400868307</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Vlan">
+        <property kind="width%" name="Width">0.0434153400868307</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Direction">
+        <property kind="width%" name="Width">0.0434153400868307</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Bus">
+        <property kind="width%" name="Width">0.0578871201157742</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Message">
+        <property kind="width%" name="Width">0.0506512301013025</property>
+        <property name="IsVisible">False</property>
+      </column>
+      <column name="Id">
+        <property kind="width%" name="Width">0.0578871201157742</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Source">
+        <property kind="width%" name="Width">0.108538350217077</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Destination">
+        <property kind="width%" name="Width">0.108538350217077</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Protocol">
+        <property kind="width%" name="Width">0.0578871201157742</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Length">
+        <property kind="width%" name="Width">0.0434153400868307</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Info">
+        <property kind="width%" name="Width">0.065123010130246</property>
+        <property name="IsVisible">True</property>
+      </column>
+      <column name="Payload">
+        <property kind="width%" name="Width">0.247467438494935</property>
+        <property name="IsVisible">True</property>
+      </column>
+    </member>
+  </component>
+</workspace>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.WireBytes</name>
+    </assembly>
+    <members>
+        <member name="F:Technica.WireBytes.AutosarCrcs.profile4Tab">
+            <summary>
+            We have no idea how this table was calculated, if you do find out
+            Replace it with CrcCaclulator like in Profile1
+            </summary>
+        </member>
+        <member name="T:Technica.WireBytes.CrcCalculator">
+            <summary>
+            See http://www.zorc.breitbandkatze.de/crc.html
+            </summary>
+        </member>
+        <member name="M:Technica.WireBytes.CrcCalculator.Calculate(System.Span{System.Byte})">
+            <summary>
+            call the CRC algorithm using the CRC parameters and return the result
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Technica.WireBytes.NetConverter">
+            <summary>
+            Drop-in replacement for <see cref="T:System.BitConverter"/> 
+            that uses network byte order instead of host byte order
+            </summary>
+        </member>
+        <member name="M:Technica.WireBytes.StringParser.ParseString(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Method to parse zero-terminated strings, will parse bytes until \0 is found or string ends (maximum length)
+            </summary>
+            <param name="bytes">The bytes to parse the string from</param>
+            <param name="index">Index to parse from</param>
+            <param name="max_length">Maximum length of string bytes.</param>
+            <returns>Parsed string.</returns>
+        </member>
+        <member name="M:Technica.WireBytes.StringParser.ParseString(System.Span{System.Byte})">
+            <summary>
+            Method to parse zero-terminated strings, will parse bytes until \0 is found or string ends (maximum length)
+            </summary>
+            <param name="bytes">The bytes to parse the string from</param>
+            <returns>Parsed string.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Pendulum</name>
+    </assembly>
+    <members>
+        <member name="T:Technica.Pendulum.Schedulers.TriggerConflictResolution">
+            <summary>
+            How to handle conflict between trigger and future cycle
+            </summary>
+        </member>
+        <member name="T:Technica.Pendulum.Timers.ITimer">
+            <summary>
+            Represents a project timer object.
+            </summary>
+        </member>
+    </members>
+</doc>

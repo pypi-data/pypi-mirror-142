@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wibu</name>
+    </assembly>
+    <members>
+        <member name="M:Wibu.Core.WibuLicenseManager.IsCodeMeterInstalled">
+            <summary>
+            Check CodeMeter installed and version >= 7.10
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wibu.Core.WibuLicenseManager.DeleteCmActLicense(System.String)">
+            <summary>
+            Delete license, used only for blacklisted container which are lost
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wibu.Program.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,645 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Databases.Ethtp</name>
+    </assembly>
+    <members>
+        <member name="T:ECU">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ECU.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU.SOURCE_MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU.SOURCE_IP_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_MAC_ADDRESS, SOURCE_IP_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:MESSAGE">
+            <summary>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.transport_protocol">
+            <summary>
+             Extracts from the database the transport protocol of the message.
+            </summary>
+        </member>
+        <member name="P:MESSAGE.tcp_payload_type">
+            <summary>
+             Extracts from the database the tcp payload type of the message.
+            </summary>
+        </member>
+        <member name="P:MESSAGE.connection_condition">
+            <summary>
+             Extracts from the database the connection condition of the message.
+            </summary>
+        </member>
+        <member name="M:MESSAGE.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.ID">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.TRANSPORT_PROTOCOL">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.VLAN_ID">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.PRIORITY">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.SOURCE_PORT_NUMBER">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.DESTINATION_PORT_NUMBER">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.CONNECTION_NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.CONNECTION_ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.CONNECTION_CONDITION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.TCP_PAYLOAD_TYPE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.DESTINATION_MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.DESTINATION_IP_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.FUNCTION_DESCRIPTION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.RECEIVERS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.AT_START_VALUE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.VALIDITY">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.NETWORK_REQUEST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.NETWORK_REQUEST_HOLDING_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID?, NAME, TRANSPORT_PROTOCOL, VLAN_ID?, PRIORITY, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, CONNECTION_NAME, CONNECTION_ID, CONNECTION_CONDITION, TCP_PAYLOAD_TYPE, DESTINATION_MAC_ADDRESS, DESTINATION_IP_ADDRESS, FUNCTION_DESCRIPTION, RECEIVERS, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:TCP">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="M:TCP.#ctor">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:TCP.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:TCP.CONFIGURATIONS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:TCP.ECU_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:TCP.MESSAGE_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ITEM.value">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDER.target">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.ITEM">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.name">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION_LIST">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION_LIST.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION_LIST.ENUMERATION">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:CONFIGURATIONS">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="M:CONFIGURATIONS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.DATA_TYPES">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.BYTE_ORDERS">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="T:DATA_TYPES">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="M:DATA_TYPES.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:DATA_TYPES.ENUMERATION_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:BYTE_ORDERS">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:BYTE_ORDERS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.BYTE_ORDER">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.enum_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ECU_LIST">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ECU_LIST.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ECU_LIST.ECU">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:TRANSPORT_PROTOCOL.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONNECTION_CONDITION.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:TCP_PAYLOAD_TYPE.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="T:RECEIVERS">
+            <summary>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:RECEIVERS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:RECEIVERS.RECEIVER">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:RECEIVERS.RECEIVERLocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:VALIDITY.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:NETWORK_REQUEST.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="T:MESSAGE_LIST">
+            <summary>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:MESSAGE_LIST.#ctor">
+            <summary>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:MESSAGE_LIST.MESSAGE">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+    </members>
+</doc>
