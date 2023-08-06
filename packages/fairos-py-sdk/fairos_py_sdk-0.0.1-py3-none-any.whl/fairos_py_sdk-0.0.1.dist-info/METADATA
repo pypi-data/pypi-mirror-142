@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fairos-py-sdk
+Version: 0.0.1
+Summary: a python SDK for FairOS
+Home-page: https://github.com/SwarmLover/FairOS-Python-SDK
+Author: jusonalien
+Author-email: jusonalien@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.27.1)
+
+# FairOS-Python-SDK
+a python SDK for FairOS
+
+```
+```
+# Installing FairOS-Python-SDK and Suported Versions
+
+```
+```
+
+

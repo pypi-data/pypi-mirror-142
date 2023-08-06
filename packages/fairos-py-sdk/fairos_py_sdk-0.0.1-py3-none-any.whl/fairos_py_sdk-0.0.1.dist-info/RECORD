@@ -1,0 +1,15 @@
+fairospy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairospy/fair_doc_db.py,sha256=dn-RU4lYgpdPaxZ53OCulYJ7G-H855yXGaX949VuH2U,1579
+fairospy/fair_fs.py,sha256=fLWo9Bqa3m8_iNgLrWhElcPVimE0s4yqDvi8Z7bZYw0,1115
+fairospy/fair_kv.py,sha256=sDmFaY8huTkP0go_z1zumZ8NQhFsxj3rVYYdb0QtIAo,2730
+fairospy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairospy/core/base_obj.py,sha256=klWxFAttejUqi_GOLXEXHEjdLjGXuOLPz-y30YP9nuE,1594
+fairospy/core/fair_kv.py,sha256=sDmFaY8huTkP0go_z1zumZ8NQhFsxj3rVYYdb0QtIAo,2730
+fairospy/core/fair_os.py,sha256=Sx6vz-Pe2L2Pg16q38jOl3ZYHwz22D6wM3x6OAZRVFY,22584
+fairospy/core/fair_pod.py,sha256=_sXLvhGKa1K5ikascDvWi2n9tAIRwVWn7IjobPYYPxM,1304
+fairospy/core/fair_user.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairos_py_sdk-0.0.1.dist-info/LICENSE,sha256=v8PPpxq9g1IS6mbm3yB1EYkmuHBX8M-BZhc0ryhv1Os,1067
+fairos_py_sdk-0.0.1.dist-info/METADATA,sha256=TKOxypMLKzo_0iAbnVUYFXUSN2cSccyQalalcU8knGU,596
+fairos_py_sdk-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fairos_py_sdk-0.0.1.dist-info/top_level.txt,sha256=TdT0dIWzGP4nxK28G6jjbhvMN8EbX09Zm9sJPaMDm0o,9
+fairos_py_sdk-0.0.1.dist-info/RECORD,,
