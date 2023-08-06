@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-dushyant-mishra
+Version: 0.0.1
+Summary: This project is an implementation of a simple perceptron
+Home-page: https://github.com/dushyant-mishra/oneNeuron_pypi
+Author: dushyant-mishra
+Author-email: dushyant.mishra@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dushyant-mishra/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+
