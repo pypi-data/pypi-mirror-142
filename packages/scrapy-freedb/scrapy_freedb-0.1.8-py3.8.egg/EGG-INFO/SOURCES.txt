@@ -1,0 +1,16 @@
+README.md
+setup.py
+scrapy_freedb/__init__.py
+scrapy_freedb/base.py
+scrapy_freedb/plugin.py
+scrapy_freedb.egg-info/PKG-INFO
+scrapy_freedb.egg-info/SOURCES.txt
+scrapy_freedb.egg-info/dependency_links.txt
+scrapy_freedb.egg-info/entry_points.txt
+scrapy_freedb.egg-info/requires.txt
+scrapy_freedb.egg-info/top_level.txt
+scrapy_freedb/middleware/__init__.py
+scrapy_freedb/middleware/dupefilter.py
+scrapy_freedb/middleware/freedb.py
+scrapy_freedb/middleware/mapper.py
+scrapy_freedb/middleware/pipeline.py
