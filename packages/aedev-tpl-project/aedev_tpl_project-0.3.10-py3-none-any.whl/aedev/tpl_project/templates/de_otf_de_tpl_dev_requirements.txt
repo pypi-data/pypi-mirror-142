@@ -1,0 +1,1 @@
+{os.linesep.join(norm_name(tpl['import_name']) + '==' + tpl['version'] for tpl in reversed(tpl_projects))}
