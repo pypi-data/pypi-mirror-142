@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cosoquehacecosas/__init__.py
+cosoquehacecosas/main.py
+cosoquehacecosas.egg-info/PKG-INFO
+cosoquehacecosas.egg-info/SOURCES.txt
+cosoquehacecosas.egg-info/dependency_links.txt
+cosoquehacecosas.egg-info/top_level.txt
