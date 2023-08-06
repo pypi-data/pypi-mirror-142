@@ -1,0 +1,6 @@
+setup.py
+tradehelper.egg-info/PKG-INFO
+tradehelper.egg-info/SOURCES.txt
+tradehelper.egg-info/dependency_links.txt
+tradehelper.egg-info/requires.txt
+tradehelper.egg-info/top_level.txt
