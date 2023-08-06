@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mpk
+Version: 0.1.0a9
+Summary: Media Programming Kit Python bindings
+Home-page: https://hg.rwest.io/mpk
+License: WTFPL
+Keywords: media,Rust,FFI,audio
+Author: ellis
+Author-email: ellis@rwest.io
+Requires-Python: >=3.9,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: essentia (==2.1b6)
+Requires-Dist: librosa (>=0.9.1,<0.10.0)
+Requires-Dist: numpy (>=1.21.5,<1.22)
+Project-URL: Repository, https://hg.rwest.io/mpk
