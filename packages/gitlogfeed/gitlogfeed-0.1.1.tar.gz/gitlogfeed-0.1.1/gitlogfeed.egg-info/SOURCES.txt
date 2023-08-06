@@ -1,0 +1,9 @@
+LICENSE
+README.md
+gitlogfeed.py
+setup.py
+gitlogfeed.egg-info/PKG-INFO
+gitlogfeed.egg-info/SOURCES.txt
+gitlogfeed.egg-info/dependency_links.txt
+gitlogfeed.egg-info/entry_points.txt
+gitlogfeed.egg-info/top_level.txt
