@@ -1,0 +1,12 @@
+click
+docker>=3.0.0
+Jinja2
+pip>=10
+pyyaml>=3.11
+packaging
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[:python_version < "3.9"]
+importlib_resources
