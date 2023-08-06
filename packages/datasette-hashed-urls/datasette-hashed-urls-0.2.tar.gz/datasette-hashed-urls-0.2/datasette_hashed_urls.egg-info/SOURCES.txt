@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datasette_hashed_urls/__init__.py
+datasette_hashed_urls.egg-info/PKG-INFO
+datasette_hashed_urls.egg-info/SOURCES.txt
+datasette_hashed_urls.egg-info/dependency_links.txt
+datasette_hashed_urls.egg-info/entry_points.txt
+datasette_hashed_urls.egg-info/requires.txt
+datasette_hashed_urls.egg-info/top_level.txt
