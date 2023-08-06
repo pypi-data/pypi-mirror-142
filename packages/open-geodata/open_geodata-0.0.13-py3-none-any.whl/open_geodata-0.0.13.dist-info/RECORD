@@ -1,0 +1,11 @@
+open_geodata/__init__.py,sha256=f36Zn7rkv1DDTKB_9xdH7Z3uHl_VnU1ruO6EuHkmRcQ,129
+open_geodata/converts.py,sha256=JyWotRKpOJcuybSlZ3bABM4Ilyx0_UAtV3zNm4a66s4,3453
+open_geodata/functions.py,sha256=iETn8bqzpaLvYisSKrR-feOV-EHKrr2TmPfdCwq9NJ8,1178
+open_geodata/geo.py,sha256=Bv72Q7n1nlGlUrPnok7L3AptuRSZxjOgLR60j1GER-E,822
+open_geodata/data/layers.py,sha256=UUjxlnVprYmLRaCyJLo7t0_S4T7gAlnS6zG6mzLFR7Q,2755
+open_geodata/data/sp_250k_wgs84.geojson,sha256=ho2hktG7bMOnCRnguCBik133nrZ_Vju76I78bVO7VOw,28360317
+open_geodata-0.0.13.dist-info/LICENSE,sha256=bYA9sHw9Pn4xQCLD2CfTsXXUQWxxkL3pLRE_E9o3XIw,1069
+open_geodata-0.0.13.dist-info/METADATA,sha256=g5h0wFHg62g4QTKYdQe_2kF3os6y7grtm3ztSNnseJk,1683
+open_geodata-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+open_geodata-0.0.13.dist-info/top_level.txt,sha256=DTG78ePnrdOsueNrYW3PilkBEGMqmGj7Gb783U4tcxo,13
+open_geodata-0.0.13.dist-info/RECORD,,
