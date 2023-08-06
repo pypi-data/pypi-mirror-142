@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: background_removal
+Version: 0.0.1.dev1
+Summary: Remove background from images or videos.
+Home-page: https://github.com/descriptinc/background-removal
+Author: Diksha Meghwal
+Author-email: diksha@descript.com
+License: MIT
+Description: # background-removal
+        A robust algorithm designed to remove background from videos or images with a focus on human potraits
+        
+Keywords: video,image,matting,background,removal,background removal,video matting,image matting
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Editors
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
