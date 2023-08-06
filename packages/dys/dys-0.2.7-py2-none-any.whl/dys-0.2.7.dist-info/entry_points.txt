@@ -1,0 +1,3 @@
+[console_scripts]
+dys = dys.__main__:main
+
