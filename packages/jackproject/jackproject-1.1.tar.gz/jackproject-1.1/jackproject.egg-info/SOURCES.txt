@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+jackproject/__init__.py
+jackproject/pdf2image.py
+jackproject/pdf2text.py
+jackproject.egg-info/PKG-INFO
+jackproject.egg-info/SOURCES.txt
+jackproject.egg-info/dependency_links.txt
+jackproject.egg-info/top_level.txt
