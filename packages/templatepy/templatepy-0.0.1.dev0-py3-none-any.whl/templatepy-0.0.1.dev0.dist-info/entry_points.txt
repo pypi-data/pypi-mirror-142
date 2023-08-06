@@ -1,0 +1,2 @@
+[console_scripts]
+console_script_name = module.path.to.function:function_name

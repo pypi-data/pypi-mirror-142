@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: templatepy
+Version: 0.0.1.dev0
+Summary: templatepy
+Home-page: https://github.com/larsrollik/templatepy
+Author: Lars B. Rollik
+Author-email: L.B.Rollik@protonmail.com
+License: BSD 3-Clause License        
+        Copyright (c) 2021, Lars B. Rollik
+        All rights reserved.        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: gitpython ; extra == 'dev'
+Requires-Dist: coverage (>=5.0.3) ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+[![DOI](https://zenodo.org/badge/370470893.svg)](https://zenodo.org/badge/latestdoi/370470893)
+[![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fgithub.com/larsrollik/templatepy)](https://github.com/larsrollik/templatepy)
+[![PyPI](https://img.shields.io/pypi/v/templatepy.svg)](https://pypi.org/project/templatepy)
+[![Wheel](https://img.shields.io/pypi/wheel/templatepy.svg)](https://pypi.org/project/templatepy)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
+
+# templatepy
+Template repo for python repositories & PyPi integration
+---
+
+
+## Usage & file overview
+
+- `setup.py`: to install the package with `pip`, lists dependencies in `install_requires` keyword.
+  - Install development version for features below with `pip install -e package[dev]` to select `extras_require` packages as well
+- `.pre-commit-config.yaml`: use [pre-commit](https://pre-commit.com) to run code formatting (e.g. with [black](https://github.com/psf/black) and `flake8`) and PEP compliance checks
+  - Install pre-commit hook with `pre-commit install` (Note: only installs it in the current virtual environment)
+- `.toml`: config for black code formatter (see above)
+- `setup.cfg`: config for [bump2version](https://github.com/c4urself/bump2version) and `flake8` formatting (see pre-commit)
+- `MANIFEST.in`: description to select included files and directories for installation (see [here](https://packaging.python.org/en/latest/guides/using-manifest-in) for details)
+- `LICENSE`: legal info about sharing and using of this code
+- `README.md`: markdown readme file
+- `.github`: folder that contains github automation workflows and issues templates
+  - workflow for linting: install pre-commit hooks locally via `pre-commit install` in the repo dir
+  - workflow for uploading package to [pypi](pypi.org): (1) get pypi API key in your account, (2) add new github repo secret for actions at [https://github.com/larsrollik/templatepy/settings/secrets/actions/new](https://github.com/larsrollik/templatepy/settings/secrets/actions/new) as `TWINE_API_KEY`, (3) create new release by tagging a commit with `git tag $TAG_NAME` or on github at [https://github.com/larsrollik/templatepy/releases/new](https://github.com/larsrollik/templatepy/releases/new)
+- `.gitignore`: ignored files/folders in git tools
+- `package`: placeholder folder for any python package that is configured for install via `setup.py`
+
+
+## TODO for adapting template to new project
+
+- [ ] Change package name: (1) `package` folder, (2) README.md, (3) `name` argument in `setup.py`, (4) `.github/workflows` files, (5) `setup.cfg`: `[bumpversion:file:PACKAGEFOLDER/__init__.py]`
+- [ ] Change details about project author, etc. in `setup.py`, `README.md`, and `package/__init__.py`
+- [ ] Change license holder in `LICENSE`
+- [ ] Verify inclusions/exclusions of installable files/folders in `MANIFEST.in`
+- [ ] Check `.gitignore` contains relevant criteria
+- [ ] Add all locations to `setup.cfg` that will contain the version string. Use same syntax as for `[bumpversion:file:PACKAGEFOLDER/__init__.py]` line to describe how to find version on version increment
+
+
+## License
+This software is released under the **[BSD 3-Clause License](https://github.com/larsrollik/templatepy/blob/main/LICENSE)**
+
+
