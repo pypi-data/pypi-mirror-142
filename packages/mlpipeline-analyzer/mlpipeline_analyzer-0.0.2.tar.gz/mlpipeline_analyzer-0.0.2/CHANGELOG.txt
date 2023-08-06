@@ -1,0 +1,10 @@
+Change Log
+==============================================================================
+
+0.0.1 (2022-30-01)
+------------------
+- Initial release
+
+0.0.1 (2022-17-03)
+------------------
+- Added show, show_params and suggest functionalities and updated the description
