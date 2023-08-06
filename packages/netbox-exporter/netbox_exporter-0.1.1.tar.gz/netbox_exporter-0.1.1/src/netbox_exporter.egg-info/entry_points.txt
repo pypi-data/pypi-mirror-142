@@ -1,0 +1,2 @@
+[console_scripts]
+netbox_export = netbox_exporter.cli:main
