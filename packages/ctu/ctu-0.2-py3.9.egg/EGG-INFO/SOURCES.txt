@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+ctu/__init__.py
+ctu/_version.py
+ctu/cocout00_utils.py
+ctu/cocout01_slicer.py
+ctu/cocout02_invariant_format.py
+ctu/cocout03_inv_to_coco.py
+ctu/cocout04_agg_coco.py
+ctu/cocout_wrapper.py
+ctu.egg-info/PKG-INFO
+ctu.egg-info/SOURCES.txt
+ctu.egg-info/dependency_links.txt
+ctu.egg-info/not-zip-safe
+ctu.egg-info/requires.txt
+ctu.egg-info/top_level.txt
