@@ -1,0 +1,81 @@
+{% extends 'ad_import/base.html' %}
+{% block content %}
+    <table>
+        <tr>
+            <th>Directory</th>
+            <td>{{ computer.directory }}</td>
+        </tr>
+        <tr>
+            <th>Last update</th>
+            <td>{{ computer.last_update }}</td>
+        </tr>
+        <tr>
+            <th>cn</th>
+            <td>{{ computer.cn }}</td>
+        </tr>
+        <tr>
+            <th>description</th>
+            <td>{{ computer.description }}</td>
+        </tr>
+        <tr>
+            <th>distinguishedName</th>
+            <td>{{ computer.distinguishedName }}</td>
+        </tr>
+        <tr>
+            <th>lastLogon</th>
+            <td>{{ computer.lastLogon }}</td>
+        </tr>
+        <tr>
+            <th>logonCount</th>
+            <td>{{ computer.logonCount }}</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>{{ computer.name }}</td>
+        </tr>
+        <tr>
+            <th>objectGUID</th>
+            <td>{{ computer.objectGUID }}</td>
+        </tr>
+        <tr>
+            <th>objectSid</th>
+            <td>{{ computer.objectSid }}</td>
+        </tr>
+        <tr>
+            <th>objectSidString</th>
+            <td>{{ computer.objectSidString }}</td>
+        </tr>
+        <tr>
+            <th>operatingSystem</th>
+            <td>{{ computer.operatingSystem }}</td>
+        </tr>
+        <tr>
+            <th>operatingSystemHotfix</th>
+            <td>{{ computer.operatingSystemHotfix }}</td>
+        </tr>
+        <tr>
+            <th>operatingSystemServicePack</th>
+            <td>{{ computer.operatingSystemServicePack }}</td>
+        </tr>
+        <tr>
+            <th>operatingSystemVersion</th>
+            <td>{{ computer.operatingSystemVersion }}</td>
+        </tr>
+        <tr>
+            <th>pwdLastSet</th>
+            <td>{{ computer.pwdLastSet }}</td>
+        </tr>
+        <tr>
+            <th>userAccountControl</th>
+            <td>{{ computer.userAccountControl }}</td>
+        </tr>
+        <tr>
+            <th>whenChanged</th>
+            <td>{{ computer.whenChanged }}</td>
+        </tr>
+        <tr>
+            <th>whenCreated</th>
+            <td>{{ computer.whenCreated }}</td>
+        </tr>
+    </table>
+{% endblock %}

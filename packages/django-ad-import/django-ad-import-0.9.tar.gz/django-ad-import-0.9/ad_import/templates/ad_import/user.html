@@ -1,0 +1,153 @@
+{% extends 'ad_import/base.html' %}
+{% block content %}
+    <table>
+        <tr>
+            <th>Directory</th>
+            <td>{{ user.directory }}</td>
+        </tr>
+        <tr>
+            <th>Last update</th>
+            <td>{{ user.last_update }}</td>
+        </tr>
+        <tr>
+            <th>accountExpires</th>
+            <td>{{ user.accountExpires }}</td>
+        </tr>
+        <tr>
+            <th>cn</th>
+            <td>{{ user.cn }}</td>
+        </tr>
+        <tr>
+            <th>company</th>
+            <td>{{ user.company }}</td>
+        </tr>
+        <tr>
+            <th>department</th>
+            <td>{{ user.department }}</td>
+        </tr>
+        <tr>
+            <th>departmentNumber</th>
+            <td>{{ user.departmentNumber }}</td>
+        </tr>
+        <tr>
+            <th>description</th>
+            <td>{{ user.description }}</td>
+        </tr>
+        <tr>
+            <th>displayName</th>
+            <td>{{ user.displayName }}</td>
+        </tr>
+        <tr>
+            <th>distinguishedName</th>
+            <td>{{ user.distinguishedName }}</td>
+        </tr>
+        <tr>
+            <th>employeeID</th>
+            <td>{{ user.employeeID }}</td>
+        </tr>
+        <tr>
+            <th>employeeNumber</th>
+            <td>{{ user.employeeNumber }}</td>
+        </tr>
+        <tr>
+            <th>givenName</th>
+            <td>{{ user.givenName }}</td>
+        </tr>
+        <tr>
+            <th>homeDirectory</th>
+            <td>{{ user.homeDirectory }}</td>
+        </tr>
+        <tr>
+            <th>homeDrive</th>
+            <td>{{ user.homeDrive }}</td>
+        </tr>
+        <tr>
+            <th>ipPhone</th>
+            <td>{{ user.ipPhone }}</td>
+        </tr>
+        <tr>
+            <th>lastLogon</th>
+            <td>{{ user.lastLogon }}</td>
+        </tr>
+        <tr>
+            <th>logonCount</th>
+            <td>{{ user.logonCount }}</td>
+        </tr>
+        <tr>
+            <th>mail</th>
+            <td>{{ user.mail }}</td>
+        </tr>
+        <tr>
+            <th>manager</th>
+            <td>{{ user.manager }}</td>
+        </tr>
+        <tr>
+            <th>middleName</th>
+            <td>{{ user.middleName }}</td>
+        </tr>
+        <tr>
+            <th>mobile</th>
+            <td>{{ user.mobile }}</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>{{ user.name }}</td>
+        </tr>
+        <tr>
+            <th>objectGUID</th>
+            <td>{{ user.objectGUID }}</td>
+        </tr>
+        <tr>
+            <th>objectSid</th>
+            <td>{{ user.objectSid }}</td>
+        </tr>
+        <tr>
+            <th>objectSidString</th>
+            <td>{{ user.objectSidString }}</td>
+        </tr>
+        <tr>
+            <th>physicalDeliveryOfficeName</th>
+            <td>{{ user.physicalDeliveryOfficeName }}</td>
+        </tr>
+        <tr>
+            <th>pwdLastSet</th>
+            <td>{{ user.pwdLastSet }}</td>
+        </tr>
+        <tr>
+            <th>sAMAccountName</th>
+            <td>{{ user.sAMAccountName }}</td>
+        </tr>
+        <tr>
+            <th>scriptPath</th>
+            <td>{{ user.scriptPath }}</td>
+        </tr>
+        <tr>
+            <th>sn</th>
+            <td>{{ user.sn }}</td>
+        </tr>
+        <tr>
+            <th>telephoneNumber</th>
+            <td>{{ user.telephoneNumber }}</td>
+        </tr>
+        <tr>
+            <th>title</th>
+            <td>{{ user.title }}</td>
+        </tr>
+        <tr>
+            <th>userAccountControl</th>
+            <td>{{ user.userAccountControl }}</td>
+        </tr>
+        <tr>
+            <th>userPrincipalName</th>
+            <td>{{ user.userPrincipalName }}</td>
+        </tr>
+        <tr>
+            <th>whenChanged</th>
+            <td>{{ user.whenChanged }}</td>
+        </tr>
+        <tr>
+            <th>whenCreated</th>
+            <td>{{ user.whenCreated }}</td>
+        </tr>
+    </table>
+{% endblock %}

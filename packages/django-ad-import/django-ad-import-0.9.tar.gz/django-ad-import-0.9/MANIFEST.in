@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include ad_import/VERSION
+recursive-include ad_import/management *
+recursive-include ad_import/templates *
+recursive-include ad_import/static *
