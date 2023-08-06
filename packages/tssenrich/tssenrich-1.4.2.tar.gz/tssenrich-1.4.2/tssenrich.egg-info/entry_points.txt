@@ -1,0 +1,2 @@
+[console_scripts]
+tssenrich = tssenrich.tssenrich:main
