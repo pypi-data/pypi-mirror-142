@@ -1,0 +1,4 @@
+[build-system]
+requires = ["setuptools>=42"]
+install_requires = ["dnspython", "tld"]
+build-backend = "setuptools.build_meta"
