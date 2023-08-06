@@ -1,0 +1,14 @@
+wagtailshowsimilar/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+wagtailshowsimilar/edit_handlers.py,sha256=lTS3kdpLAoIxTtuqHlyqlx0_ORen3EVIQLughQ0PiN8,779
+wagtailshowsimilar/urls.py,sha256=lC3MP7wabTGUUhb9qm4_TxFdE9RK47Gxe9BN2yPOixQ,288
+wagtailshowsimilar/views.py,sha256=mqg6PiLeSe-E-4COOXW1udaC-DK0naIbk2yIHgGGa7Q,1844
+wagtailshowsimilar/widgets.py,sha256=Bj2agqagbWjaR7fzg77cbq1fV7mSxgQWGUnZnt4HRQc,1124
+wagtailshowsimilar/locale/zh_Hant/LC_MESSAGES/django.mo,sha256=2s0pP2dV_t0VZwXaK2Ix90jNGmEyEAcTJ9vCysIb7DQ,428
+wagtailshowsimilar/locale/zh_Hant/LC_MESSAGES/django.po,sha256=FvIDyHg_8ihxdH5mop2gGjg8SX-vEehFd5xKYvNCcO8,686
+wagtailshowsimilar/static/wagtailshowsimilar/showsimilar.js,sha256=ZE49I4XBH7LYzFQEe4USlQ8LwiK1nMF-4A4kVdaeK2Y,1881
+wagtailshowsimilar/templates/wagtailshowsimilar/showsimilar.html,sha256=HsmGGLhrpegLcDVSvilXqQgs1L-yK99fDkeg_YXDbQc,381
+wagtail_showsimilar-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wagtail_showsimilar-0.0.1.dist-info/METADATA,sha256=jXZIT0nRBScsqShBEvHIyHZPChLgfIuHoMRsLurwxsQ,3485
+wagtail_showsimilar-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wagtail_showsimilar-0.0.1.dist-info/top_level.txt,sha256=XftvqZF2jUiI0LKHLJf2_iHNzt4bT__cyS1qRt1j4F4,19
+wagtail_showsimilar-0.0.1.dist-info/RECORD,,
