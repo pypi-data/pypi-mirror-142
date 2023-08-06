@@ -1,0 +1,7 @@
+metDataModel
+mass2chem
+jms-metabolite-services
+pymzml
+statsmodels
+numpy
+scipy
