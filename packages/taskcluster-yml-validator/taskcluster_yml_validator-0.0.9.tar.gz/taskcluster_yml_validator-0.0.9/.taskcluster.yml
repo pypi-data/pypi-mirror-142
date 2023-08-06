@@ -1,0 +1,47 @@
+version: 1
+policy:
+  pullRequests: public
+tasks:
+  $let:
+    user: ${event.sender.login}
+
+    head_rev:
+      $if: 'tasks_for == "github-pull-request"'
+      then: ${event.pull_request.head.sha}
+      else:
+        $if: 'tasks_for == "github-push"'
+        then: ${event.after}
+        else: ${event.release.tag_name}
+
+    repository:
+      $if: 'tasks_for == "github-pull-request"'
+      then: ${event.pull_request.head.repo.html_url}
+      else: ${event.repository.html_url}
+  in:
+    $if: 'tasks_for == "github-push" || (tasks_for == "github-pull-request" && event["action"] in ["opened", "reopened", "synchronize"])'
+    then:
+      - taskId: { $eval: as_slugid("lint_and_tests_task") }
+        created: { $fromNow: "" }
+        deadline: { $fromNow: "1 hour" }
+        provisionerId: proj-misc
+        workerType: ci
+        payload:
+          maxRunTime: 3600
+          image: python
+          command:
+            - "/bin/bash"
+            - "-lcx"
+            - "git clone --quiet ${repository} &&
+              cd taskcluster_yml_validator &&
+              git -c advice.detachedHead=false checkout ${head_rev} &&
+              pip install --quiet -r requirements.txt &&
+              pip install --quiet -r test-requirements.txt &&
+              pre-commit run -a --show-diff-on-failure &&
+              python -m pytest -v tests/test_*.py &&
+              python setup.py sdist &&
+              pip install dist/taskcluster_yml_validator-$(cat VERSION).tar.gz"
+        metadata:
+          name: taskcluster_yml_validator lint and tests
+          description: taskcluster_yml_validator lint and tests
+          owner: mcastelluccio@mozilla.com
+          source: ${repository}/raw/${head_rev}/.taskcluster.yml
