@@ -1,0 +1,9 @@
+rwpk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rwpk/languages.py,sha256=PlZKQ5Z0BJdaqwsPCz1LSJpHQjko2FUrIpC1FchOS6k,629
+rwpk/rwpk.py,sha256=nC3F50Wq-Wb0i-ykDGmsHsmjGx_Jepp2SVtui0XhLqQ,1632
+rwpk/languages/sindhi.txt,sha256=xuj_81SkXlB9gikwXOsBiWwJWaq1ZFLSAT6Ihs2bjmI,9357
+rwpk/languages/urdu.txt,sha256=8I7-p2JzM95QaxIsbmS2wgmyaVktZhRqF-DRjB1BR0I,2700112
+rwpk-0.0.1.dist-info/METADATA,sha256=wSDfSX589FkkTi4svYXDd5eX1GUKGFTI9JhgaDL9TaE,639
+rwpk-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rwpk-0.0.1.dist-info/top_level.txt,sha256=lGWDCbls-vYbn7X3ZFuusg_eXMZq99d288FGAkwZuoA,5
+rwpk-0.0.1.dist-info/RECORD,,
