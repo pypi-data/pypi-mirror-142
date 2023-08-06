@@ -1,0 +1,11 @@
+caselawclient/Client.py,sha256=mbfpwvDgbOiqZSoq-DQqDjZyhiEYyAjcGAGVkCvHEI8,7540
+caselawclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caselawclient/xquery/is-published.xqy,sha256=AdnE5Y75YbidkWBdQIW3_PpB0ZHmolUDuTdSxmc5LUI,161
+caselawclient/xquery/publish.xqy,sha256=eHHP2CQsLAje_5ZIgvWpe2fJpA-8fPSzRwdpLciN4YA,242
+caselawclient/xquery/search.xqy,sha256=Evqk93kF1A_P9Zni8Blx2HZRcgqQXnFGS1sOTx_KdVA,4437
+caselawclient/xquery/xslt.xqy,sha256=w57wNijH3dkwHkpKeAxqjlghVflQwo8cq6jS_sm-erM,199
+ds_caselaw_marklogic_api_client-0.0.5.dist-info/LICENSE,sha256=U2orIxXNpmxMnMFJfmPWv65zyf93SsojPT0ZNi9yMj4,1064
+ds_caselaw_marklogic_api_client-0.0.5.dist-info/METADATA,sha256=Ph8uulxPrx87ah7sCGW6M53r8GAJy6o7ZaxXWzHg2YY,654
+ds_caselaw_marklogic_api_client-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ds_caselaw_marklogic_api_client-0.0.5.dist-info/top_level.txt,sha256=4dpSf3FUPNlPEIj3wBStqbgm3MBrVDAlsdW1EDHtcuw,14
+ds_caselaw_marklogic_api_client-0.0.5.dist-info/RECORD,,
