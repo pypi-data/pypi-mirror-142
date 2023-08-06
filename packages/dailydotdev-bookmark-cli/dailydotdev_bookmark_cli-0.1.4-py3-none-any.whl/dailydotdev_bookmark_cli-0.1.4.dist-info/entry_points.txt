@@ -1,0 +1,3 @@
+[console_scripts]
+bookmarks = dailydotdev_bookmark_cli.dailydotdev_bookmark_cli:main
+
