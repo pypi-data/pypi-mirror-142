@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pcs-to-vmix
+Version: 1.0.0
+Summary: Interface between PCS scoring data and vMix telnet API
+Home-page: https://gitlab.com/smudge1977/pcs-to-vmix-interface
+Author: Keith Marston
+Author-email: keith@sneconsulting.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Play Cricket Scorer to vMix interface
+
+Reads [PCS (Play Cricket Scorer)](https://www.play-cricket.com/features-playcricketscorerpro) data files and updates [vMix](https://www.vmix.com/help24/index.htm?vMixTitleDesigner.html) title data for both legacy titles and GT Designer titles
+
+[Intro to GT video](https://www.youtube.com/watch?v=emScjEUVrJc)
+[Stingers](https://www.youtube.com/watch?v=uS6y6PWPiNI)
+
+
+## Push to PyPi
+
+### Setup
+
+Require twine installed
+```
+pip install twine
+```
+You also need to be able to `pip install -e .` your package so have a valid `setup.py`  
+
+Essentially you are putting a `.gz` file on a web server that contains all the assets.  
+* Create the `.gz`/`.zip` (sdist - source, bdist - binary)
+* Check the nicities of it like README renders on PyPi ok etc. 
+* Push to PyPi test (an "rc" release?)/ procuction (a "formal" release)
+# TODO
+# Look at [https://pypi.org/project/bumpversion/](https://pypi.org/project/bumpversion/)
+```
+# python setup.py build
+python setup.py sdist bdist
+# _wheel
+
+twine check dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload dist/*
+```  
+
+
+
+
+

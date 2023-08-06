@@ -1,0 +1,3 @@
+[console_scripts]
+pcs_to_vmix = pcs_to_vmix.tcpclient:main
+

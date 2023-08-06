@@ -1,0 +1,11 @@
+setup.py
+pcs_to_vmix/__init__.py
+pcs_to_vmix/runme.py
+pcs_to_vmix/tcpclient.py
+pcs_to_vmix/vmix.py
+pcs_to_vmix.egg-info/PKG-INFO
+pcs_to_vmix.egg-info/SOURCES.txt
+pcs_to_vmix.egg-info/dependency_links.txt
+pcs_to_vmix.egg-info/entry_points.txt
+pcs_to_vmix.egg-info/requires.txt
+pcs_to_vmix.egg-info/top_level.txt
