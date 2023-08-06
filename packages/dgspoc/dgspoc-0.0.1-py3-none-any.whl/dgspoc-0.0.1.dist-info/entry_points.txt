@@ -1,0 +1,3 @@
+[console_scripts]
+dgspoc = dgspoc.main:execute
+
