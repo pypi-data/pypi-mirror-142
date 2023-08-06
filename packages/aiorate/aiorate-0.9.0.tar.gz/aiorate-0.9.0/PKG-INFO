@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: aiorate
+Version: 0.9.0
+Summary: Loop frequency regulator for asyncio.
+Home-page: None
+Author: None
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
