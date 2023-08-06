@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_mongodb_atlas_networkpeering/__init__.py
+src/cdk_cloudformation_mongodb_atlas_networkpeering/py.typed
+src/cdk_cloudformation_mongodb_atlas_networkpeering.egg-info/PKG-INFO
+src/cdk_cloudformation_mongodb_atlas_networkpeering.egg-info/SOURCES.txt
+src/cdk_cloudformation_mongodb_atlas_networkpeering.egg-info/dependency_links.txt
+src/cdk_cloudformation_mongodb_atlas_networkpeering.egg-info/requires.txt
+src/cdk_cloudformation_mongodb_atlas_networkpeering.egg-info/top_level.txt
+src/cdk_cloudformation_mongodb_atlas_networkpeering/_jsii/__init__.py
+src/cdk_cloudformation_mongodb_atlas_networkpeering/_jsii/mongodb-atlas-networkpeering@1.2.0-alpha.5.jsii.tgz
