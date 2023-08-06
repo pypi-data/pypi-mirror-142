@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Steppenwolf
+Version: 1.6
+Summary: UNKNOWN
+Home-page: https://github.com/eddo888/Steppenwolf
+Author: David Edson
+Author-email: eddo888@tpg.com.au
+License: MIT
+Download-URL: https://github.com/eddo888/Steppenwolf/archive/1.6.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Steppenwolf
+
+simple example using PyGithub to do github things
+like perform a release for pypi.org
+
+
+
+
+
