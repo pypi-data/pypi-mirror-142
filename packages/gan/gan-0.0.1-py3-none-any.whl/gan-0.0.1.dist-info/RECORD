@@ -1,0 +1,15 @@
+gan/__init__.py,sha256=KuKaPggnFYqfTqBzel-IKq06QIB7lC0omJSNEI7XUfw,92
+gan/shell/__init__.py,sha256=_rARIxrfc8yEbVyq_ozg3VRbQezDf-gdiFIbkOf9_bw,57
+gan/shell/usage.py,sha256=6iDr0-q2ikRRb37VB9hQktbHIIorM3EPe1ghRidol_Q,188
+gan/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gan-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+gan-0.0.1.dist-info/METADATA,sha256=GTShoC03c8vAidavV_rTMLh40YZ6qgR5E3wYRjSs70U,3102
+gan-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gan-0.0.1.dist-info/entry_points.txt,sha256=unuvlkR-eaJhRmqUy5yGDy6xKRN3Z25h4DJ9rx_0Wuk,39
+gan-0.0.1.dist-info/top_level.txt,sha256=g-LL9Hg6hiV5zKYAGbVn0oDU8rtW4rrnzJGv8vpetyI,4
+gan-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gan-0.0.1.dist-info/RECORD,,
