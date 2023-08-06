@@ -1,0 +1,7 @@
+numpy
+pandas
+eclabfiles>=0.4.0
+pint
+scipy
+matplotlib
+schemdraw>=0.12
