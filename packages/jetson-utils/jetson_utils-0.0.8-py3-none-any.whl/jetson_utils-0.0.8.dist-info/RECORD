@@ -1,0 +1,11 @@
+jetson_serial/__init__.py,sha256=L6KAhx5Qq6sCUn6BGdfKqSQz3Q7ETqQEb6qjkIjUeYA,220
+jetson_serial/jetson_serial.py,sha256=EcAwbN_cmq3syHC0EMDwAzMZq2bOA1vZ-lOBsPAukVM,127
+jetson_serial/jetson_serial_util.py,sha256=EcAwbN_cmq3syHC0EMDwAzMZq2bOA1vZ-lOBsPAukVM,127
+jetson_utils/__init__.py,sha256=wyha8hRPbxHLVAIdEu9wwzDI6iPsliGfPHkBE-5alss,219
+jetson_utils/jetson_utils.py,sha256=vDcMFz_S48hmilYXZn8zevIYjqW4SlFHaKWht_SY4ug,1563
+test/__init__.py,sha256=1URm-rgoWC2uPY5Ie3evRiwHejl447419Z8X2qb66mU,73
+jetson_utils-0.0.8.dist-info/LICENSE,sha256=zKTh4_xbLIb8_C5Gh-bzpTaxdVASTj1NVpOdoPfrLHI,11347
+jetson_utils-0.0.8.dist-info/METADATA,sha256=bKyuTAWHvGiD6YkDkjJZrZeIjNdlUK_xx8UYDfd_4QU,487
+jetson_utils-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jetson_utils-0.0.8.dist-info/top_level.txt,sha256=p5rFBt_pmW-sbgs__xWYUvFRdiML-mYC1YIQOqp6HCQ,32
+jetson_utils-0.0.8.dist-info/RECORD,,
