@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_datadog_dashboards_dashboard/__init__.py
+src/cdk_cloudformation_datadog_dashboards_dashboard/py.typed
+src/cdk_cloudformation_datadog_dashboards_dashboard.egg-info/PKG-INFO
+src/cdk_cloudformation_datadog_dashboards_dashboard.egg-info/SOURCES.txt
+src/cdk_cloudformation_datadog_dashboards_dashboard.egg-info/dependency_links.txt
+src/cdk_cloudformation_datadog_dashboards_dashboard.egg-info/requires.txt
+src/cdk_cloudformation_datadog_dashboards_dashboard.egg-info/top_level.txt
+src/cdk_cloudformation_datadog_dashboards_dashboard/_jsii/__init__.py
+src/cdk_cloudformation_datadog_dashboards_dashboard/_jsii/datadog-dashboards-dashboard@2.0.2-alpha.5.jsii.tgz
