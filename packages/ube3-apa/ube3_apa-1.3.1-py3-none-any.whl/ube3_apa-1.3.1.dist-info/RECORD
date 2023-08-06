@@ -1,0 +1,12 @@
+ube3_apa/E3dict.csv,sha256=yDnTQClSwA0F98MLj1FCcBge_Pohscc4V_DT9WN4p5c,17397
+ube3_apa/__init__.py,sha256=rCZ7y7MVqDKGEfiDjevRbHvxMcXU--VoqlsGmq2Abu4,134
+ube3_apa/e3enrich.py,sha256=-lJX3Fo7rx1qMJScVRO74cOAdLW3i965dfqSKC1LJGo,15919
+ube3_apa/gui.py,sha256=S99Cw3XJKG_PY03OVPgI1pRfvED9WwqMkruCTuYTszc,7250
+ube3_apa/gui_for_maxqt.py,sha256=DvYPaOR8xrUka5lKukRf5kvJb8Aiuk8eHtbsn_FL6hQ,7461
+ube3_apa/maxqt2ube3.py,sha256=QQFRdHZro47uSSUzgPNn9fVfsV1ayQhAG25R4zpX_wk,4397
+ube3_apa/unigenedict.csv,sha256=Z3W_ZW1p4S-14yRwlsZeHi6A3d01OSjz0f5mUi2_yfs,2577751
+ube3_apa-1.3.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ube3_apa-1.3.1.dist-info/METADATA,sha256=6MaNXmQUomve-_8n2Zisviq23i1xcqCIY2FnyoJAAEs,657
+ube3_apa-1.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ube3_apa-1.3.1.dist-info/top_level.txt,sha256=xL9Ql0nzr2M9rXae6gycr3W6xNpawVRVGUaqNGPGk70,9
+ube3_apa-1.3.1.dist-info/RECORD,,
