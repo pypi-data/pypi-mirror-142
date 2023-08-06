@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Natsucord.egg-info/PKG-INFO
+src/Natsucord.egg-info/SOURCES.txt
+src/Natsucord.egg-info/dependency_links.txt
+src/Natsucord.egg-info/top_level.txt
+src/natsucord/__init__.py
+src/natsucord/_client.py
+src/natsucord/command.py
+src/natsucord/plugin.py
+src/natsucord/types.py
+src/natsucord/watchdog.py
