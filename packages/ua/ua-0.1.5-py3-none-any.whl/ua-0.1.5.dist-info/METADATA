@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: ua
+Version: 0.1.5
+Summary: User-Agent parsing and creation
+Home-page: https://github.com/tombulled/ua
+License: MIT
+Keywords: python,useragent,ua
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: parse (>=1.19.0,<2.0.0)
+Project-URL: Documentation, https://github.com/tombulled/ua
+Project-URL: Repository, https://github.com/tombulled/ua
+Description-Content-Type: text/markdown
+
+# ua
+User-Agent parsing and creation
+
+## Installation
+```console
+pip install ua
+```
+
+## Usage
+```python
+>>> import ua
+```
+
+### Parsing
+```python
+>>> user_agent = ua.parse('Mozilla/5.0 (X11; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0')
+>>>
+>>> user_agent
+UserAgent(
+    products=[
+        Product(name='Mozilla', version='5.0', comments=['X11', 'Linux x86_64', 'rv:88.0']),
+        Product(name='Gecko', version='20100101', comments=[]),
+        Product(name='Firefox', version='88.0', comments=[])
+    ]
+)
+>>>
+>>> str(user_agent)
+'Mozilla/5.0 (X11; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0'
+```
+
+### Creation
+```python
+>>> user_agent = ua.UserAgent(
+    products=[
+        ua.Product(
+            name='SomeProduct',
+            version='1.0',
+            comments=['SomeComment']
+        )
+    ]
+)
+>>>
+>>> str(user_agent)
+'SomeProduct/1.0 (SomeComment)'
+```
+
+## References
+* [User agent - Wikipedia](https://en.wikipedia.org/wiki/User_agent)
+* [User-Agent - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)
+* [RFC 7231 - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://datatracker.ietf.org/doc/html/rfc7231#section-5.5.3)
