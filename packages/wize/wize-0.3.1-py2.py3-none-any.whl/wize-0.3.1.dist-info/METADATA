@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: wize
+Version: 0.3.1
+Summary: Module specialising easy PyPi project creation...
+Home-page: https://github.com/Cu3t0m/wize
+Author: Diwan Mohamed Faheer
+Author-email: diwanmohamedfaheer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: colored (==1.4.3)
+
+<div>
+  <h1 align='center'>
+    wize
+  </h1>
+</div>
+<div>
+  <p align='center'>
+    <img src=https://img.shields.io/pypi/dm/wize?color=success&label=PyPi%20Downloads&style=flat-square>
+    <img src=https://img.shields.io/badge/Stable_Version-0.0.2-informational>
+    <img src=https://img.shields.io/badge/Development_Version-0.0.4-informational>
+  </p>
+  <p align='center'>
+    Wize is a module specialising in easy PyPi project creation.
+  </p>
+</div>
+<br>
+
+### Installation
+- From source (for the latest untested version)
+```
+pip install git+https://github.com/Cu3t0m/wize.git
+```
+- With pip
+```
+pip install wize
+```
+-----------------------
+### Example use
+
+```py
+>>> wize init
+```
+
