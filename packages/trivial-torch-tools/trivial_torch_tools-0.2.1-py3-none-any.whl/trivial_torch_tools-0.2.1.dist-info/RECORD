@@ -1,0 +1,12 @@
+trivial_torch_tools/__init__.py,sha256=8KaCuM5rcS85wgLpbc3p4iMSrkHZqe6zt6G6hg4DVzk,38
+trivial_torch_tools/core.py,sha256=7jzBUhOPpLKiNK0yRAH5N0tSXrXg3gmK-1HCbERveb4,4740
+trivial_torch_tools/generics.py,sha256=8-yJQUDqNsJUK-_D29UmZDEb54LAExdSU9KuTFeTSxw,8865
+trivial_torch_tools/image.py,sha256=c4nwYeSajdyYidG0OtrPoMSY8kEX45hI5Fo3RZv_jac,1328
+trivial_torch_tools/main.py,sha256=ZHY69PFvm2JgnIj5JXsAykrRvDG6uBTlOiZ3JmwLDJ0,1014
+trivial_torch_tools/misc.py,sha256=dNE5NcVbeIE604y4KRPEg60GjyARxee8adh9yVEeiXo,1830
+trivial_torch_tools/model.py,sha256=seyTMdRDV1vicGrqWMnQYFgSD3nUg0dTXcerNX1DUPg,7469
+trivial_torch_tools/one_hots.py,sha256=qQqSJ7f-lcjCauayPNjexf62-KwopFA7raLX1MfD_z0,1765
+trivial_torch_tools-0.2.1.dist-info/METADATA,sha256=Uo0MqdU4Kz0rYFUqF37Pixsu91yktVTUOfWRZoLGPZM,3107
+trivial_torch_tools-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trivial_torch_tools-0.2.1.dist-info/top_level.txt,sha256=d9QgpDeNkv0kWop04gVROJqqKUEyW7Zqz4D7CRLqqLI,20
+trivial_torch_tools-0.2.1.dist-info/RECORD,,
