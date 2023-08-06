@@ -1,0 +1,14 @@
+[console_scripts]
+InputError = autoDropbox:InputError
+cp = autoDropbox:cp
+download = autoDropbox:download
+downloadFolder = autoDropbox:downloadFolder
+ls = autoDropbox:ls
+mkdir = autoDropbox:mkdir
+mv = autoDropbox:mv
+rename = autoDropbox:rename
+rm = autoDropbox:rm
+setAccount = autoDropbox:setAccount
+setPassword = autoDropbox:setPassword
+upload = autoDropbox:upload
+
