@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tkinter_webcam
+Version: 1.0.3
+Summary: Easily display a webcam window in a Tkinter GUI
+Home-page: https://github.com/matthewkayne/Tkinter-Webcam
+Author: Matthew Kayne
+Author-email: matthewkayne2004@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tkinter-Webcam
+
+Easily display a webcam window in a Tkinter GUI
+
+To use the package simply import it:
+
+```python
+from tkinter_webcam import webcam
+```
+
+Then create the `Box` object using any variable name and immediently run the show frames function:
+
+```python
+webcamObject = webcam.Box(window)
+# Uses Box class from webcam to create video window
+webcamObject.show_frames()
+# Show the created Box
+```
+
+
