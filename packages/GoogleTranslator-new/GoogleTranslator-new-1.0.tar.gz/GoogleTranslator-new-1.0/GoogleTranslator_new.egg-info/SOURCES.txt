@@ -1,0 +1,8 @@
+README.md
+setup.py
+GoogleTranslator_new.egg-info/PKG-INFO
+GoogleTranslator_new.egg-info/SOURCES.txt
+GoogleTranslator_new.egg-info/dependency_links.txt
+GoogleTranslator_new.egg-info/top_level.txt
+src/__init__.py
+src/google_translator.py
