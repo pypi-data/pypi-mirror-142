@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: kraken-entity-client
+Version: 0.0.2
+Summary: Kraken Entity Client
+Home-page: https://github.com/tactik8/kraken_entity_client
+Author: Tactik8
+Author-email: info@tactik8.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Kraken Entity Client
+
+
+## Overview
+Class to interact with kraken db as entity
+
+## How to use
+
+```
+from kraken_entity_client.kraken_entity_client import Kraken_entity_client as K
+```
+
+# Set api url 
+(only have to do it once, will be reused as env variable for other instances)
+
+```
+k1 = K()
+k1.set_api_url('https://krakenengine.tactik8.repl.co/api')
+```
+
+# Get record
+
+```
+k1 = K()
+k1.record_type = 'schema:test'
+k1.record_id = 'id_of_record'
+k1.get()
+record = k1.record
+```
+
+# Post record
+
+```
+k1 = K()
+k1.record = record
+k1.post()
+```
+
+
+
+
