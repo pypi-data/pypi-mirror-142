@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: uu-enigma-kostas
+Version: 1.1
+Summary: An enigma-like simulator. Encrypts/Decrypts messages, given some enigma settings.
+Home-page: https://github.com/KPapac/Advanced_python_project
+Author: Konstantinos Papachristos
+Author-email: kostaspapac@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
