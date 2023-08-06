@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/kispythontest.egg-info/PKG-INFO
+src/kispythontest.egg-info/SOURCES.txt
+src/kispythontest.egg-info/dependency_links.txt
+src/kispythontest.egg-info/top_level.txt
+src/package/__init__.py
+src/package/parser.py
