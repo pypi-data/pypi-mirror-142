@@ -1,0 +1,17 @@
+Value Key,Required chassis (.+)
+Value cpu_manufacturer (.+)
+Value cpu_model (.+)
+Value flash_manufacturer (.+)
+Value flash_size (.+)
+Value ram_size (.+)
+Value fpga_control (.+)
+Value fpga_power (.+)
+Value uboot
+
+Start
+  ^Command\s+:\s+${command}\s*$$
+  ^\s+UserName\s+:\s+${username}\s*$$
+  ^\s+Date\s+:\s+${date}\s+$$
+  ^\s+Ip Addr\s+:\s+${ipaddr}\s*$$
+  ^\s+Result\s+:\s+${result}\s*$$ -> Record Start
+  ^. -> Error
