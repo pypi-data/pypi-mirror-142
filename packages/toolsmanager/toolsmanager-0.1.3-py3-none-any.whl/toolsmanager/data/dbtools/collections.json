@@ -1,0 +1,15 @@
+[
+    {
+        "name": "pentest-web",
+        "tools": ["gobuster", "nikto", "testssl"]
+    },
+    {
+        "name": "pentest",
+        "tools": ["nmap", "masscan","smbmap", "unicorn", "enyx", "linuxprivchecker", "linenum", "nishang", "jaws"],
+        "collections": "pentest-web"
+    },
+    {
+        "name": "debug",
+        "tools": ["nikto", "testssl"]
+    }
+]

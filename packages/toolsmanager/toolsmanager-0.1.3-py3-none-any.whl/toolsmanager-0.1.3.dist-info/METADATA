@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: toolsmanager
+Version: 0.1.3
+Summary: Tool to manage tools (installing from git, adding commands, aliases, variables, ...)
+Home-page: https://github.com/nazime/toolsmanager
+Author: Nazime LAKEHAL
+Author-email: nazime.lkh@gmail.com
+Maintainer: Nazime LAKEHAL
+Maintainer-email: nazime.lkh@gmail.com
+License: MIT
+Project-URL: Documentation, https://toolsmanager.readthedocs.org/
+Project-URL: Bug Tracker, https://github.com/nazime/toolsmanager/issues
+Project-URL: Source Code, https://github.com/nazime/toolsmanager
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: coloring (>=0.1.7)
+Requires-Dist: koalak
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: hypothesis ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinxcontrib.napoleon ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib.napoleon ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: hypothesis ; extra == 'tests'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'tests'
+Provides-Extra: travis
+Requires-Dist: codecov ; extra == 'travis'
+Requires-Dist: coverage ; extra == 'travis'
+Requires-Dist: hypothesis ; extra == 'travis'
+Requires-Dist: pre-commit ; extra == 'travis'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'travis'
+Requires-Dist: sphinx ; extra == 'travis'
+Requires-Dist: sphinx-rtd-theme ; extra == 'travis'
+Requires-Dist: sphinxcontrib.napoleon ; extra == 'travis'
+Requires-Dist: tox ; extra == 'travis'
+
+# Toolsmanager
+
+Toolsmanager helps managing tools and persistant variables/aliases
+
+- Manage persistent bash environment variables
+- [TODO] Manage persistent aliases
+- Manage executable commands (quickly add a new command to PATH to be executable)
+- Manage github repositories easily
+
+
