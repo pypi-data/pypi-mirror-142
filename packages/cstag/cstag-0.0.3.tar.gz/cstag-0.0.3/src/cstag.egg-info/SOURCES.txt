@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/cstag/__init__.py
+src/cstag/cstag.py
+src/cstag.egg-info/PKG-INFO
+src/cstag.egg-info/SOURCES.txt
+src/cstag.egg-info/dependency_links.txt
+src/cstag.egg-info/top_level.txt
