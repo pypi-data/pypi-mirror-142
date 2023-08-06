@@ -1,0 +1,12 @@
+warepy/__init__.py,sha256=FD6Ls0abMCph1dH5wzqGcDOfVjiutSLxzkAp2rWqU7k,9695
+warepy/logger.py,sha256=bSE44_7wykQ_uADEbLSyJ30wcw3B9agiYGpxMDgDD_4,3815
+warepy/noconflict.py,sha256=MeigLFLgcE78yxK_ovnWvxjfSKDIIUl-2xy_RP5dqr4,1527
+warepy/singleton.py,sha256=TupW8ZiyJHgJxmqYt6shTxEFFyAUV6FiGGnZWlF1iHQ,793
+warepy/__pycache__/__init__.cpython-310.pyc,sha256=0GeDbpNMskrV02IM6Qlr1JhpFlz8CgIDqaY-_oRyVAo,8373
+warepy/__pycache__/logger.cpython-310.pyc,sha256=H4wIEdHyo_HgtM5eNVj-gio3hgD8l-eo4-8DpHprFTM,3273
+warepy/__pycache__/noconflict.cpython-310.pyc,sha256=8VRq7PzDMQDrsnRufrtCpk74ne9N_XLaDxV-wEfady8,1989
+warepy/__pycache__/singleton.cpython-310.pyc,sha256=xq9CZD1H9ptQPUag5bxcI3KSi37uQPAF2ABxQruBDwU,1347
+warepy-0.5.0.dist-info/METADATA,sha256=oxVpBjifiWaLi8HlHTApx7LsIrOyBBL0mxJy3Cnv2pA,555
+warepy-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+warepy-0.5.0.dist-info/top_level.txt,sha256=WoA-zt5D_OoGq9gR9QBFDIFnBvPssUJllltZJfNOFbg,7
+warepy-0.5.0.dist-info/RECORD,,
