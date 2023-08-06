@@ -1,0 +1,6 @@
+catkin_pkg
+catkin_sphinx
+catkin_tools>=0.8.3
+pydoctor>=20.12.0
+pyyaml
+sphinx>=4.3.0
