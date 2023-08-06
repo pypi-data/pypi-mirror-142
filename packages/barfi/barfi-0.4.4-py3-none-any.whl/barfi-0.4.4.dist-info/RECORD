@@ -1,0 +1,17 @@
+barfi/__init__.py,sha256=8EZi1EbUJJGaY90QX_9WS944v0VmPuVEDiyZjQtRoiM,3667
+barfi/block_builder.py,sha256=f633ePC9tXZYbyeLUUYVtcJvYdNOsj5kcKxnKTJgvVU,5157
+barfi/compute_engine.py,sha256=ERDhvvQiuo66-wfYyAKsWFdO-_szTkwQFbpNGQSaPfE,7137
+barfi/link_builder.py,sha256=iX_hRoOtFK-YDEPtv6Ym8G25B82ByTGSakCfrVR9jEs,739
+barfi/manage_schema.py,sha256=77t1ZcYN--gkUN7YUNxFWEIt1x3CVBsOKO74dPfgfMY,9006
+barfi/option_builder.py,sha256=pzxKeJymR_rA9jrWf6V2qFEWwWhF_bgVeycQM8ZKmKM,4602
+barfi/client/index.html,sha256=jy65Ehh7XdAW6HwvnWNB-LPa1JoMn2IUQDcBh8-72KU,719
+barfi/client/css/app.51aff32b.css,sha256=rnZBHORwaBVngj26iBmgKpu5Nn0esXAkQcHD5bYnswg,14796
+barfi/client/js/app.043f9661.js,sha256=UQlULM7gXSyYkQVjn2wAQgKBEvKAhi3VA9NTNumJoxo,7465
+barfi/client/js/app.043f9661.js.map,sha256=YVo8WZ49jGiflnnZrWoo8bL_8d4_yQ9WqDXJKZ-mJkc,36967
+barfi/client/js/chunk-vendors.eb7fca41.js,sha256=8Z7fbuweakQyHJzTXEAXn_fTot61R5rfnzxg9kkifwQ,521554
+barfi/client/js/chunk-vendors.eb7fca41.js.map,sha256=U2hal_TivibKwhcGoTHnkSoqpBwbgVNEyiH524eN434,2306784
+barfi-0.4.4.dist-info/LICENSE,sha256=P1wUc7BtIZl057oRK9mqCUB84t_299F0yt3fJL7INzU,1073
+barfi-0.4.4.dist-info/METADATA,sha256=GWouluOzoJvoFjQjiSnRYBcmKZB0u3cPVxxW_8P8teE,859
+barfi-0.4.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+barfi-0.4.4.dist-info/top_level.txt,sha256=4fnRKOvSXtTKzscqDaY8hKozCp1wBszzymeNz7WwKJU,6
+barfi-0.4.4.dist-info/RECORD,,
