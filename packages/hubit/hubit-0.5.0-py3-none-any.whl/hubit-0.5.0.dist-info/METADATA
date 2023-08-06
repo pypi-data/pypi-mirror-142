@@ -1,0 +1,297 @@
+Metadata-Version: 2.1
+Name: hubit
+Version: 0.5.0
+Summary: Minimal tool for connecting your existing models in a composite model allowing for asynchronous multi-processed execution
+Home-page: https://github.com/mrsonne/hubit
+Author: Jacob Sonne
+Author-email: mrsonne@gmail.com
+License: BSD 3-Clause License
+Keywords: model,hub,multi-process,asynchronous
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pyyaml
+Requires-Dist: graphviz
+Requires-Dist: python-version (>="3.8")
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-PyYAML ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+
+﻿[![Build Status](https://travis-ci.com/mrsonne/hubit.svg?branch=master)](https://travis-ci.com/mrsonne/hubit)
+[![Coverage Status](https://coveralls.io/repos/github/mrsonne/hubit/badge.svg?branch=master)](https://coveralls.io/github/mrsonne/hubit?branch=master)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Version](https://img.shields.io/pypi/v/hubit.svg)](https://pypi.python.org/pypi/hubit/)
+[![Python versions](https://img.shields.io/pypi/pyversions/hubit.svg)](https://pypi.python.org/pypi/hubit/)
+[![Docs](https://github.com/mrsonne/hubit/actions/workflows/docs.yml/badge.svg)](https://github.com/mrsonne/hubit/actions/workflows/docs.yml)
+[![CI/CD](https://img.shields.io/badge/Travis-file-blue)](https://github.com/mrsonne/hubit/blob/master/.travis.yml)
+
+# hubit - a calculation hub  
+
+## At a glance
+
+`Hubit` is an event-driven orchestration hub for your existing calculation tools. It allows you to
+
+- execute calculation tools as one `Hubit` composite model with a loose coupling between the model components,
+- centrally configure the interfaces between calculation tools rather than coding them. This allows true separation of responsibility between different teams,
+- easily run your existing calculation tools asynchronously in multiple processes,
+- query the `Hubit` model for specific results thus avoiding explicitly coding (fixed) call graphs and running superfluous calculations,
+- make parameter sweeps,
+- feed previously calculated results into new calculations thus augmenting old results,
+- store results incrementally during execution and restart from previously stored results (model caching),
+- reuse results if calculations are executed multiple times with the same input (component caching),
+- visualize your `Hubit` composite model i.e. visualize your existing tools and the attributes that flow between them.
+
+## Motivation
+
+Many work places have developed a rich ecosystem of stand-alone tools. These tools may be developed/maintained by different teams using different programming languages and using different input/output data models. Nevertheless, the tools often depend on results provided the other tools leading to complicated dependencies and error-prone (manual) workflows involving copy & paste. If this sounds familiar you should try `Hubit`.
+
+By defining input and results data structures that are shared between your tools `Hubit` allows all your Python-wrappable tools to be seamlessly executed asynchronously as a single model. Asynchronous multi-processor execution often assures a better utilization of the available CPU resources compared to sequential single-processor execution. This is especially true when some time is spent in each component i.e. for CPU bound calculations. In practice this performance improvement often compensates the management overhead introduced by `Hubit`.
+Executing a fixed call graph is faster than executing the dynamically created call graph created automatically by `Hubit`. Nevertheless, a fixed call graph will typically always encompass all relevant calculations and provide all results, which in many cases will represent wasteful compute since only a subset of the results are actually needed. `Hubit` dynamically creates the smallest possible call graph that can provide the results that satisfy the user's query. Further, `Hubit` can visualize your existing tools and the data flow between them.
+
+## Teaser
+
+The example below is taken from the [in-depth tutorial](https://mrsonne.github.io/hubit/example-car.html), in the documentation.
+
+To get results from a `Hubit` model requires you to submit a _query_, which tells `Hubit` what attributes from the results data structure you want to have calculated. After `Hubit` has processed the query, i.e. executed relevant components, the values of the queried attributes are returned in the _response_.
+
+```python
+# Load model from file
+hmodel = HubitModel.from_file(
+  'model1.yml',
+  name='car'
+)
+
+# Load the input
+with open("input.yml", "r") as stream:
+    input_data = yaml.load(stream, Loader=yaml.FullLoader)
+
+# Set the input on the model object
+hmodel.set_input(input_data)
+
+# Query the model
+query = ['cars[0].price']
+response = hmodel.get(query)
+```
+
+The response looks like this
+
+```python
+{'cars[0].price': 4280.0}
+```
+
+A query for parts prices for all cars looks like this
+
+```python
+query = ['cars[:].parts[:].price']
+response = hmodel.get(query)
+```
+
+and the corresponding response is
+
+```python
+{
+  'cars[:].parts[:].price': [
+    [480.0, 1234.0, 178.0, 2343.0, 45.0],
+    [312.0, 1120.0, 178.0, 3400.0]
+  ]
+}
+```
+
+From the response we can see the prices for the five parts that comprise the first car and the prices for the four parts that comprise the second car. The full example illustrates how a second calculation component can be used to calculate the total price for each car.
+
+`Hubit` can render models and queries. In the example below we have rendered the query `cars[0].price` i.e. the price of the car at index 0 using
+
+```python
+query = ['cars[0].price']
+hmodel.render(query)
+```
+
+which yields the graph shown below.
+
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrsonne/hubit/blob/master/examples/car/images/query_car_2.png">
+  <img src="https://github.com/mrsonne/hubit/raw/master/examples/car/images/query_car_2.png" width="1000" style="max-width:100%;">
+</a>
+
+The graph illustrates nodes in the input data structure, nodes in the the results data structure, the calculation components involved in creating the response as well as hints at which attributes flow in and out of these components.
+
+## Installation & requirements
+
+Install from pypi
+
+```sh
+pip install hubit
+```
+
+Install from GitHub
+
+```sh
+pip install git+git://github.com/mrsonne/hubit.git
+```
+
+To render `hubit` models and queries you need to install Graphviz (<https://graphviz.org/download/>). On e.g. Ubuntu, Graphviz can be installed using the command
+
+```sh
+sudo apt install graphviz
+```
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.5.0] - 2022-03-17
+
+### Added
+
+- Support for negative indices in query paths. The feature is illustrated in `examples/car/run.py`.
+- Support for negative indices in model paths. The feature is illustrated in
+  - `examples/tanks/run_prices.py` and discussed in `examples/tanks/README.md`.
+  - `examples/wall/run_min_temperature.py` and discussed in `examples/wall/README.md`.
+- Reduced computational overhead
+
+### Fixed
+
+- Explicit indexing (e.g. 1@IDX) for non-rectangular data.
+- Occasional code stall when using component caching.
+- Component caching in the case where an "upstream" result is queried
+before a downstream. Consider a car price calculation (downstream) that consumes the prices of
+all parts (upstream). The query `"cars[:].price"` would produce the car price as expected. The query `["cars[:].price", "cars[:].parts[:].price"]` would produce the car price as expected and spawning the same number of workers as `"cars[:].price"`, thus ignoring the superfluous query path `"cars[:].parts[:].price"`. The query, `["cars[:].parts[:].price", "cars[:].price"]` was, however, broken.
+- Image links and model excerpt example in wall example documentation.
+
+## [0.4.1] - 2021-11-06
+
+### Fixed
+
+- Fix broken link in README.md
+
+## [0.4.0] - 2021-11-06
+
+### Changed
+
+- Entrypoint functions now accept only two arguments namely `_input_consumed` and `results_provided`. Previously three arguments were expected: `_input_consumed`, `_results_consumed` and `results_provided`. Now `_results_consumed` is simply included in `_input_consumed`. The changes renders entrypoint functions agnostic to the origin of their input.
+- The component list in the model configuration file must now sit under a key named"components".
+- The format for cache files stored in the folder `.hubit_cache` has changed. To convert old cache files see the example code below. Alternatively, clear the `Hubit` cache using the function `hubit.clear_hubit_cache()`.
+- Hyphen is no longer an allowed character for index identifiers. For example this model path is no longer valid `segments[IDX_SEG].layers[IDX-LAY]`.
+
+The example code below converts the cache file `old.yml` to `new.yml`. The file name `old.yml` will, more realistically, be named something like `a70300027991e56db5e3b91acf8b68a5.yml`.
+
+```python
+import re
+import yaml
+
+with open("old.yml", "r") as stream:
+    old_cache_data = yaml.load(stream, Loader=yaml.FullLoader)
+
+# Replace ".DIGIT" with "[DIGIT]" in all keys (paths)
+with open("new.yml", "w") as handle:
+    yaml.dump(
+        {
+            re.sub(r"\.(\d+)", r"[\1]", path): val
+            for path, val in old_cache_data.items()
+        },
+        handle,
+    )
+```
+
+All files in the Hubit cache folder `.hubit_cache` should be converted if you want them to be compatible with `Hubit` 0.4.0+.
+
+### Added
+
+- Support for subscriptions to other domains (compartments/cells/elements). Now you can easily configure one domain to use a result from other domains as input as well as set up boundary conditions. This new feature is illustrated in the example with connected tanks in `examples/tanks/README.md`. To enable connected domains Hubit now allows
+  - Components to share the same entrypoint function.
+  - Components to be scoped using the new field `component.index_scope`.
+  - Components to consume specific elements in lists.
+  - Index offsets which enables one domain to refer to e.g. the previous domain.
+- Improved performance for cases
+  - where only some branches in the input data tree are consumed, and
+  - where branches are not consumed all the way to the leaves.
+- Improved model validation.
+- Improved documentation for model configuration file format.
+
+### Fixed
+
+- Fix broken example (`examples/wall/run_precompute.py`)
+- The elements of lists that are leaves in the input data tree can now be referenced and queried.
+- Lists of length 1 in the input were erroneously interpreted as a simple value.
+
+## [0.3.0] - 2021-05-07
+
+### Changed
+
+- The model configuration format is defined and documented in the `HubitModelConfig` class.
+- Introducing `HubitModelConfig` four configuration attributes have been renamed. Therefore, model configuration files used in Hubit 0.3- must be migrated to Hubit 0.3 format. Below is a description of the necessary migrations
+  - The top-level object `provides` is now named `provides_results`.
+  - The sub-objects `consumes.input` is now a top-level object named `consumes_input`.
+  - The sub-objects `consumes.results` is now a top-level object named `consumes_results`.
+  - The value of `module_path` should now be specified in the `path` and is interpreted as a path present in `sys.path` that can be imported as a dotted path.
+    The most common use case is a package in `site-packages`. If `path` is a dotted path
+    `is_python_path` should be set to `True`.
+
+### Added
+
+- Improved model configuration validation
+- Documentation
+
+## [0.2.0] - 2021-03-26
+
+### Added
+
+- Model-level results caching.
+- Component-level results caching.
+- Introduced logging object accessed using `my_hubit_model.log()`.
+
+## [0.1.0] - 2021-02-28
+
+### Added
+
+- First release
+
+BSD 3-Clause License
+
+Copyright (c) 2021, Jacob Sonne.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided
+with the distribution.
+
+- Neither the name of the Hubit Developers nor the names of any
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
