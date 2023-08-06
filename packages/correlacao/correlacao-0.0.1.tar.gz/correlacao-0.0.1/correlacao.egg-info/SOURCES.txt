@@ -1,0 +1,9 @@
+README.md
+setup.py
+correlacao/__init__.py
+correlacao/spearman_pearson.py
+correlacao.egg-info/PKG-INFO
+correlacao.egg-info/SOURCES.txt
+correlacao.egg-info/dependency_links.txt
+correlacao.egg-info/requires.txt
+correlacao.egg-info/top_level.txt
