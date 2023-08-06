@@ -1,0 +1,97 @@
+[tool.poetry]
+name = "keyhint"
+version = "0.2.4"
+description = "Cheat-sheets for shortcuts & commands at your fingertips."
+keywords = ["shortcuts", "keybindings", "hints", "helper", "cheatsheet"]
+license = "MIT"
+authors = ["dynobo <dynobo@mailbox.org>"]
+readme = "README.md"
+repository = "https://github.com/dynobo/keyhint"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Utilities",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX :: Linux",
+]
+
+[tool.poetry.scripts]
+keyhint = "keyhint.app:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyGObject = "^3.42.0"
+PyYAML = "^6.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+mypy = "^0.931"
+isort = "^5.10.1"
+pylint = "^2.12.2"
+pydocstyle = "^6.1.1"
+rope = "^0.23.0"
+black = "^22.1.0"
+pytest-cov = "^3.0.0"
+pre-commit = "^2.17.0"
+coveralls = "^3.3.1"
+PyGObject-stubs = "^0.0.7"
+types-PyYAML = "^6.0.4"
+Nuitka = "^0.7.3"
+tbump = "^6.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.pylint.master]
+load-plugins = "pylint.extensions.mccabe"
+ignored-modules = "gi"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = ['logging-fstring-interpolation']
+
+[tool.mypy]
+files = ["keyhint/**/*.py", "tests/**/*.py"]
+follow_imports = "skip"
+ignore_missing_imports = true
+
+[tool.tbump]
+
+[tool.tbump.version]
+current = "0.2.4"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  ((?P<extra>.+))?
+  '''
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+[[tool.tbump.file]]
+src = "pyproject.toml"
+search = 'version = "{current_version}"'
+
+[[tool.tbump.file]]
+src = "Makefile"
+search = "KeyHint-{current_version}"
+
+[[tool.tbump.file]]
+src = "keyhint/resources/ApplicationWindow.glade"
+
+[[tool.tbump.before_commit]]
+name = "check changelog"
+cmd = "grep -q {new_version} CHANGELOG.md"
