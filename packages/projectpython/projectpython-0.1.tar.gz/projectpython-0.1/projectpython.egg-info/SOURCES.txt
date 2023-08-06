@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+projectpython/__init__.py
+projectpython/github_api.py
+projectpython.egg-info/PKG-INFO
+projectpython.egg-info/SOURCES.txt
+projectpython.egg-info/dependency_links.txt
+projectpython.egg-info/not-zip-safe
+projectpython.egg-info/requires.txt
+projectpython.egg-info/top_level.txt
