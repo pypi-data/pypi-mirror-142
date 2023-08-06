@@ -1,0 +1,7 @@
+reproduci/__init__.py,sha256=2d7kLKQ4r0jS6OUSFu_r5AwY6v9jhZ-4i7JJPHRkcT8,561
+reproduci/main.py,sha256=pWUyL3weVwKctzNMCe9Ga5o3r9jDKbpdkEYj79rr_yc,6005
+reproduci/slurm.py,sha256=YMGOD2QsUkJIQnKPpDyzqKMzArDYpidaNN057eOL4U8,1258
+reproduci-0.6.0.dist-info/entry_points.txt,sha256=q1vAsYHY8qSUG5eV-6ZPx9K1vuCLRuD0f6uHWTAqCMs,48
+reproduci-0.6.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+reproduci-0.6.0.dist-info/METADATA,sha256=jjbtKaDcf4p2xHSbCpyEWtO6W2dpbvb337F1uiu8nqQ,537
+reproduci-0.6.0.dist-info/RECORD,,
