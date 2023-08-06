@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: photovoltaic
+Version: 0.1.9
+Summary: Set of commonly used functions in photovoltaics
+Home-page: https://github.com/pvedu/photovoltaic
+Author: Stuart Bowden
+Author-email: sgbowden@asu.edu
+License: GPLv3
+Keywords: solar photovoltaic semiconductor
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENCE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
