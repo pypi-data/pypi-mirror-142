@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: i8-terminal
+Version: 0.1.2
+Summary: Investor8 CLI
+Home-page: UNKNOWN
+Author: investoreight
+Author-email: info@investoreight.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# investor8-cli
+
+## Requirements.
+3.4+
+
+## Installation & Usage
+pip install
+
+## Getting Started
+
+
