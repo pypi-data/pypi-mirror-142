@@ -1,0 +1,16 @@
+asynckivy/__init__.py,sha256=4c3OhcuWxW8Rs-ZMRsW-yDoWsXKXiBbXMN8qMGGwj8o,307
+asynckivy/_animation.py,sha256=NhPEVEzHLu_dUzdUrTxQ3dKejPfIc_RRRtH24p0zSmQ,4501
+asynckivy/_event.py,sha256=OKpa9QulbVgMrccAcmgDxqd-sYVUIHa5XV2pgpp1xsc,2274
+asynckivy/_interpolate.py,sha256=86O7YMVoWJ7Jxjs1tIjxDZnh2yq2MpKNUIqI3raRmXw,3427
+asynckivy/_n_frames.py,sha256=8wUj0SXxvKnn7Eu8Ud7buDIj26zDTu-KfYsH5JX7D24,1288
+asynckivy/_queue.py,sha256=1Y5wSw2eZsCGVhTEcbwgIxV_7_Sh-NENpAD-dddS4Ek,10089
+asynckivy/_rest_of_touch_moves.py,sha256=MIlBfbBOCmWA-y-Ex6sLUyc8LHbK33qJofwXAgOuDjM,2588
+asynckivy/_sleep.py,sha256=FRABdMDxKgP_51H51UpXdJThMnjkIFSsl6GmfS4zsUk,1830
+asynckivy/_start_soon.py,sha256=v6s3OE52q_NUbIRo_ixDwkSBIUwTUCv7mKwIRkN6Kh8,846
+asynckivy/_threading.py,sha256=MQRP0o74MYpAKpQz8vjBFPGh-0QuQdePYnTQPoYOl1I,952
+asynckivy/exceptions.py,sha256=iwigaRQenBVo6Dk-qdqjLbP-IDXwHmvR4LRGxgHWFEU,664
+asynckivy/queue.py,sha256=yw8UhEbC_MfBlQRPfaKuS6wM-88BqG7FdTaDu7UZIuw,3164
+asynckivy-0.5.3.dist-info/LICENSE,sha256=2jxtLdIltPBFl7vb9bLmquYKRJiyidCvO_DhOgFWIe8,1059
+asynckivy-0.5.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+asynckivy-0.5.3.dist-info/METADATA,sha256=U_NrmmIaBVRF2H24ZwiD_hnxmknApa6K5obgDKpZxwA,12230
+asynckivy-0.5.3.dist-info/RECORD,,
