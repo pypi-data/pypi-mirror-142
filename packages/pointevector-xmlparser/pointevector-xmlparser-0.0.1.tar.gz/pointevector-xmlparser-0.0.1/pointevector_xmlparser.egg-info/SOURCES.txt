@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pointevector/xml_parser/__init__.py
+pointevector/xml_parser/validate_config.py
+pointevector/xml_parser/xml_parser.py
+pointevector_xmlparser.egg-info/PKG-INFO
+pointevector_xmlparser.egg-info/SOURCES.txt
+pointevector_xmlparser.egg-info/dependency_links.txt
+pointevector_xmlparser.egg-info/requires.txt
+pointevector_xmlparser.egg-info/top_level.txt
