@@ -1,0 +1,11 @@
+pytest_schema/__init__.py,sha256=C5Uw7Sa3fFYkAyxn46NqGstgBZQiAyjrE9bYOkhBzp0,480
+pytest_schema/helpers.py,sha256=zflOAfRm2CISOURFkscPHHi0_64Zc8so-dJk6q34tqY,3030
+pytest_schema/match.py,sha256=BWSJ_jy8tJWcwLfjf3k7nkinA9RXRenu-34GZHkZzBE,1514
+pytest_schema/schema.py,sha256=lIMbnpO6eP6xGsQinQlclOnJT-lezvDHJzXq19JSkGY,3341
+pytest_schema/types.py,sha256=NA8f_KuvJwbiobzqM8X983_tORjoqQpLDUtdbwruWLE,485
+pytest_schema-0.1.1.dist-info/LICENSE,sha256=bh9bJ48NVf5o4V6A-aVDuMWZD5lVZ0-vr8lE5HEYyr8,1073
+pytest_schema-0.1.1.dist-info/METADATA,sha256=1Htd267MSoZE7fUYmBZ6izHpHYlkhVeSjAvZd2fOhAA,5702
+pytest_schema-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_schema-0.1.1.dist-info/entry_points.txt,sha256=KONVuxCFSWVxoxw8d6qvoDA51Ybl0PNeeg58un61hpg,35
+pytest_schema-0.1.1.dist-info/top_level.txt,sha256=-t7VIKYCs7W3KudghpkVtzCCOKQr5KH69-f3BMrJDL0,14
+pytest_schema-0.1.1.dist-info/RECORD,,
