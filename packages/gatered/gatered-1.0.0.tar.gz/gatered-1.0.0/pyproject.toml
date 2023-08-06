@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "gatered"
+version = "1.0.0"
+description = "Reddit Gateway API Library"
+authors = ["Darwin <darekaze@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/CounterTek/gatered"
+keywords = ["reddit", "reddit api"]
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+]
+packages = [
+    { include = "gatered"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = {extras = ["http2"], version = ">=0.21.0"}
+aiometer = ">=0.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+black = {version = "^21.12b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
