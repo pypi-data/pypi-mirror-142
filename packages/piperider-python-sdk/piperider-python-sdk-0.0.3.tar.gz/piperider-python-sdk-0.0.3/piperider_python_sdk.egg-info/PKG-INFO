@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: piperider-python-sdk
+Version: 0.0.3
+Summary: PipeRider Python SDK
+Home-page: https://github.com/InfuseAI/piperider-python-sdk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/InfuseAI/piperider-python-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# PipeRider SDK For Python
+
+The PipeRiper SDK for Python enables you to access and manipulate project resources in your PipeRider account.
+
+## Configuration
+
+To use the SDK you will need to obtain an API key. This can be done from the **User Settings** page of your account.
+
+[https://app.piperider.io/settings](https://app.piperider.io/settings)
+
+Configure your API key using one of the following methods.
+
+### Store API key in an environment variable
+
+Users can set the API key as an environment variable.
+
+```bash
+export PIPERIDER_API_KEY=<user_api_key>
+```
+
+### Configure API key using the set_api_key function
+
+Set your API key using the `set_api_key` function.
+
+```python
+from PipeRider.api.http_client import set_api_key
+
+set_api_key('api-key')
+
+```
+
+## Installation
+
+```bash
+pip install piperider-python-sdk
+```
+
+## Usage
+
+Import the PipeRider module.
+
+```python
+import PipeRider
+```
+
+Create a project.
+
+```python
+project = PipeRider.create_project('my-project')
+```
+
+Use an existing project.
+
+```python
+project = PipeRider.project_by_uid('6f9f6eb9-8657-4761-9e32-116f1b8cfb82')
+```
+
+Create a run and save the settings for a machine learning project.
+
+```python
+with project.runs.create(name='Awesome Run') as run:
+    run.config = {
+        'learning_rate': 0.02,
+        'architecture': 'CNN',
+        'dataset': 'TKNV-users',
+    }
+
+    run.params = {
+        'batch_size': 64,
+        'epoch': 100,
+        'learning_rate': 0.005
+    }
+```
+
+Add a dataset. This will enable you to more easily trace your model lineage.
+
+```python
+run.add_dataset('golden-dataset')
+```
+
+Comments can also be added to the timeline.
+
+```python
+project.comment('it is a good idea.')
+```
+
+If the run achieves the desired performance it can be registered as a model by declaring it a `win`.
+
+```python
+run.win()
+```
+
