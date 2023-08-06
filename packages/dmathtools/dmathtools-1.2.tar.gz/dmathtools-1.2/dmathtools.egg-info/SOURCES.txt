@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dmathtools/__init__.py
+dmathtools.egg-info/PKG-INFO
+dmathtools.egg-info/SOURCES.txt
+dmathtools.egg-info/dependency_links.txt
+dmathtools.egg-info/requires.txt
+dmathtools.egg-info/top_level.txt
+dmathtools/LogicCalculator/LogicCalculator.py
+dmathtools/LogicCalculator/__init__.py
+dmathtools/LogicCalculator/compileUi.py
+dmathtools/LogicCalculator/gui.py
+dmathtools/LogicCalculator/gui.ui
