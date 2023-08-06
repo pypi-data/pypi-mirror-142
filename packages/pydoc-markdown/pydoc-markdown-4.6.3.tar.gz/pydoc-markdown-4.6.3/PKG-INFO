@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: pydoc-markdown
+Version: 4.6.3
+Summary: Create Python API documentation in Markdown format.
+License: MIT
+Keywords: documentation,docs,generator,markdown,pydoc
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Provides-Extra: docs
+Provides-Extra: novella
+Requires-Dist: PyYAML (>=5.3,<6.0)
+Requires-Dist: click (>=7.1,<9.0)
+Requires-Dist: databind (>=1.5.0,<2.0.0)
+Requires-Dist: docspec (>=2.0.0a1,<3.0.0)
+Requires-Dist: docspec-python (>=2.0.0a1,<3.0.0)
+Requires-Dist: docstring-parser (>=0.11,<0.12)
+Requires-Dist: jinja2 (>=3.0.0,<4.0.0)
+Requires-Dist: nr.util (>=0.7.5,<1.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: tomli (>=2.0.0,<3.0.0)
+Requires-Dist: tomli_w (>=1.0.0,<2.0.0)
+Requires-Dist: watchdog
+Requires-Dist: yapf (>=0.30.0)
+Project-URL: Homepage, https://github.com/NiklasRosenstein/pydoc-markdown
+Description-Content-Type: text/markdown
+
+# Pydoc-Markdown
+
+![Python versions](https://img.shields.io/pypi/pyversions/pydoc-markdown?style=for-the-badge)
+[![Pypi version](https://img.shields.io/pypi/v/pydoc-markdown?style=for-the-badge)](https://pypi.org/project/pydoc-markdown/)
+[![Build status](https://img.shields.io/github/workflow/status/NiklasRosenstein/pydoc-markdown/Python%20package?style=for-the-badge)](https://github.com/NiklasRosenstein/pydoc-markdown/actions)
+[![Gitter chat](https://img.shields.io/badge/Chat-On%20Gitter-%2386f4e4?style=for-the-badge)](https://gitter.im/NiklasRosenstein/pydoc-markdown)
+
+Pydoc-Markdown is a tool to create Python API documentation in Markdown format. Instead of executing your Python
+code like so many other documentation tools, it parses it using [docspec][] instead. To run Pydoc-Markdown, you
+need to use at least Python 3.7.
+
+[>> Go to the Documentation][Documentation]
+
+  [contrib]: https://github.com/NiklasRosenstein/pydoc-markdown/blob/develop/.github/CONTRIBUTING.md
+  [docspec]: https://niklasrosenstein.github.io/docspec/
+  [Documentation]: https://niklasrosenstein.github.io/pydoc-markdown/
+  [MkDocs]: https://www.mkdocs.org/
+  [Novella]: https://niklasrosenstein.github.io/novella/
+  [Novella build backend]: https://niklasrosenstein.github.io/pydoc-markdown/usage/novella/
+
+### Installation
+
+I recommend to install Pydoc-Markdown using Pipx.
+
+    $ pipx install pydoc-markdown[novella]
+
+### Features
+
+* Understands multiple documentation styles (Sphinx, Google, Pydoc-Markdown specific) and converts them to properly
+  formatted Markdown
+* Can parse docstrings for variables thanks to [docspec][] (`#:` block before or string literal after the statement)
+* Generates links to other API objects per the documentation syntax (e.g. `#OtherClass` for the Pydoc-Markdown style)
+
+### News
+
+Starting with __4.6.0__, development focuses on integrating with [Novella][] and use it as a replacement for
+tool-specific renderers thus far provided directly by Pydoc-Markdown (i.e. integrations with MkDocs, Hugo and
+Docusuraus). Such integrations are/will be provided by Novella instead.
+
+With the Novella integration, you can now place generated API content in Markdown format inline with your
+existing Markdown documentation source files using `@pydoc` tags. Check out the [Documentation][] for more
+information on how to use Pydoc-Markdown with Novella.
+
+The old style of using Pydoc-Markdown with a YAML or PyProject configuration to generate files and kick off the
+build is now deprecated but will be maintained for the foreseeable future (at least until the next major version
+bump). It is strongly recommended to migrate your existing projects to using the Novella build backend.
+
+### Contributing to Pydoc-Markdown
+
+All contributions are welcome! Check out the [Contribution Guidelines][contrib].
+
+### Questions / Need help?
+
+Feel free to open a topic on [GitHub Discussions](https://github.com/NiklasRosenstein/pydoc-markdown/discussions)!
+
