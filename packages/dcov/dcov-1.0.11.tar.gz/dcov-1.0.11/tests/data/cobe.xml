@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.00027733481245233" branch-rate="0" lines-covered="4" lines-valid="14423" branches-covered="0" branches-valid="0" complexity="38378" version="0.4" timestamp="1646619607">
+  <sources>
+    <source>/data/__qci/root-workspaces/__qci-pipeline-436387-1/app</source>
+  </sources>
+  <packages>
+    <package name="" line-rate="0" branch-rate="0" complexity="95">
+      <classes>
+        <class name="App\Code" filename="dcov/violationsreporters/violations_reporter.py" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="reflClass" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1212" hits="0"/>
+              </lines>
+            </method>
+            <method name="codes" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1217" hits="0"/>
+              </lines>
+            </method>
+            <method name="getMessage" signature="int $code" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1222" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="75" hits="1"/>
+            <line number="76" hits="1"/>
+            <line number="191" hits="1"/>
+            <line number="242" hits="0"/>
+            <line number="243" hits="1"/>
+            <line number="244" hits="0"/>
+            <line number="245" hits="1"/>
+            <line number="246" hits="0"/>
+            <line number="248" hits="100"/>
+            <line number="252" hits="0"/>
+            <line number="1217" hits="0"/>
+            <line number="1222" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  
+   <package name="" line-rate="0" branch-rate="0" complexity="95">
+      <classes>
+        <class name="App\Code" filename="dcov/diff_cover_tool.py" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="reflClass" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1212" hits="0"/>
+              </lines>
+            </method>
+            <method name="codes" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1217" hits="0"/>
+              </lines>
+            </method>
+            <method name="getMessage" signature="int $code" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="1222" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="75" hits="1"/>
+            <line number="76" hits="1"/>
+            <line number="229" hits="100"/>
+            <line number="242" hits="0"/>
+            <line number="243" hits="1"/>
+            <line number="244" hits="0"/>
+            <line number="245" hits="1"/>
+            <line number="262" hits="0"/>
+            <line number="248" hits="100"/>
+            <line number="252" hits="0"/>
+            <line number="1217" hits="0"/>
+            <line number="1222" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
