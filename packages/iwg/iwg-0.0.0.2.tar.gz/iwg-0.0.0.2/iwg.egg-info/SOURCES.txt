@@ -1,0 +1,9 @@
+README.md
+setup.py
+iwg.egg-info/PKG-INFO
+iwg.egg-info/SOURCES.txt
+iwg.egg-info/dependency_links.txt
+iwg.egg-info/requires.txt
+iwg.egg-info/top_level.txt
+sitegenlib/__init__.py
+sitegenlib/__main__.py
