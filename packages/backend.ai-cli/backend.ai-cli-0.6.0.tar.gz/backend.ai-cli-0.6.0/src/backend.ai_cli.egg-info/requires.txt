@@ -1,0 +1,24 @@
+click~=8.0.1
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[build]
+wheel>=0.37.1
+twine>=3.8.0
+
+[dev]
+towncrier~=21.9
+
+[lint]
+flake8>=4.0.1
+
+[test]
+pytest>=7.1.0
+pytest-cov
+pytest-mock
+codecov
+
+[typecheck]
+mypy>=0.940
+types-click
