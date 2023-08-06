@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+backpropagation/Backpropagation.py
+backpropagation/HyperbolicTangent.py
+backpropagation/NeuralNetwork.py
+backpropagation/ReLU.py
+backpropagation/Sigmoid.py
+backpropagation/__init__.py
+backpropagation.egg-info/PKG-INFO
+backpropagation.egg-info/SOURCES.txt
+backpropagation.egg-info/dependency_links.txt
+backpropagation.egg-info/requires.txt
+backpropagation.egg-info/top_level.txt
