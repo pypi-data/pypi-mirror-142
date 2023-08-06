@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: tuhls
+Version: 1.1.22
+Summary: 
+Author-email: "Herbert Rusznak (tlb)" <herbert.rusznak@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: python-dotenv
+Requires-Dist: typer
+Requires-Dist: click
+Requires-Dist: plumbum
+Requires-Dist: toml
+Requires-Dist: pdfminer.six ; extra == "dev"
+Requires-Dist: django-debug-toolbar ; extra == "dev"
+Requires-Dist: django-mail-panel ; extra == "dev"
+Requires-Dist: parameterized ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: django-stubs ; extra == "dev"
+Requires-Dist: djangorestframework-stubs ; extra == "dev"
+Requires-Dist: django_coverage_plugin ; extra == "dev"
+Requires-Dist: tblib ; extra == "dev"
+Requires-Dist: pyupgrade ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: freezegun ; extra == "dev"
+Requires-Dist: django-extensions ; extra == "dev"
+Requires-Dist: Werkzeug ; extra == "dev"
+Requires-Dist: semver ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pyupgrade ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: black==21.7b0 ; extra == "dev"
+Requires-Dist: flake8 ; extra == "dev"
+Requires-Dist: mccabe ; extra == "dev"
+Requires-Dist: flake8-comprehensions ; extra == "dev"
+Requires-Dist: flake8-print ; extra == "dev"
+Requires-Dist: flake8-cognitive-complexity ; extra == "dev"
+Requires-Dist: pre_commit ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Requires-Dist: pytest-sugar ; extra == "dev"
+Requires-Dist: coverage ; extra == "dev"
+Requires-Dist: django_coverage_plugin ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: twine ; extra == "dev"
+Requires-Dist: toml ; extra == "dev"
+Requires-Dist: django ; extra == "prod"
+Requires-Dist: django-configurations[cache,database,email,search] ; extra == "prod"
+Requires-Dist: django-environ ; extra == "prod"
+Requires-Dist: psycopg2 ; extra == "prod"
+Requires-Dist: whitenoise ; extra == "prod"
+Requires-Dist: gunicorn ; extra == "prod"
+Requires-Dist: sentry-sdk ; extra == "prod"
+Requires-Dist: django-redis ; extra == "prod"
+Requires-Dist: django-q ; extra == "prod"
+Requires-Dist: django-q-email ; extra == "prod"
+Requires-Dist: django-cors-headers ; extra == "prod"
+Requires-Dist: djangorestframework ; extra == "prod"
+Requires-Dist: drf-spectacular ; extra == "prod"
+Requires-Dist: djoser ; extra == "prod"
+Requires-Dist: django-templated-mail ; extra == "prod"
+Requires-Dist: geoip2 ; extra == "prod"
+Requires-Dist: PyICU ; extra == "prod"
+Requires-Dist: reportlab ; extra == "prod"
+Requires-Dist: svglib ; extra == "prod"
+Requires-Dist: django-crispy-forms ; extra == "prod"
+Requires-Dist: crispy-tailwind ; extra == "prod"
+Requires-Dist: sortedcontainers ; extra == "prod"
+Requires-Dist: django-geoipdb-loader ; extra == "prod"
+Requires-Dist: django-countries ; extra == "prod"
+Requires-Dist: django-request-cache ; extra == "prod"
+Requires-Dist: django-hosts ; extra == "prod"
+Requires-Dist: pygments ; extra == "prod"
+Project-URL: Source, https://gitlab.com/tuhls/tuhls
+Provides-Extra: dev
+Provides-Extra: prod

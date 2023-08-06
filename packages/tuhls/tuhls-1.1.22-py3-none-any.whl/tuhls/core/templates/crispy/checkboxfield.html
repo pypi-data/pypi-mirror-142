@@ -1,0 +1,18 @@
+{% load tailwind_field %}
+<{% if tag %}{{ tag }}{% else %}div{% endif %} id="div_{{ field.auto_id }}" class="flex items-start {% if wrapper_class %}{{ wrapper_class }} {% endif %}{% if field_class %}{{ field_class }}{% else %}mb-3{% endif %}">
+
+<div class="flex items-center h-5">
+    <input
+        type="checkbox"
+        class="focus:ring-pc-500 h-4 w-4 text-pc-600 border-gray-300 rounded"
+        {% if field.value != False %} checked="checked"{% endif %}
+        name="{% if field.name|wordcount > 1 %}{{ field.name|slugify }}{% else %}{{ field.name }}{% endif %}"
+        id="id_{{ field.html_name }}"
+        {{ field.flat_attrs|safe }}>
+</div>
+<div class="ml-3 text-sm">
+    <label for="id_{{ field.html_name }}" class="text-gray-500">{{ field.label|safe }}</label>
+</div>
+
+</{% if tag %}{{ tag }}{% else %}div{% endif %}>
+{% include 'tailwind/layout/help_text_and_errors.html' %}

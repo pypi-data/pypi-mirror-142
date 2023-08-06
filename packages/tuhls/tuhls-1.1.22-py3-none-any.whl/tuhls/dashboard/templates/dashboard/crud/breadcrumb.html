@@ -1,0 +1,27 @@
+{% load icon dashboard %}
+<nav class="flex mb-8" aria-label="Breadcrumb">
+  <ol role="list" class="flex items-center space-x-4 text-gray-400">
+    <li>
+      <div>
+        <a href="/" class="hover:text-gray-500">
+          {% icon "home" "flex-shrink-0 h-5 w-5" "hs" %}
+          <span class="sr-only">Home</span>
+        </a>
+      </div>
+    </li>
+
+    <li>
+      <div class="flex items-center">
+        {% icon "chevron-right" "flex-shrink-0 h-5 w-5" %}
+        <a href="{% dashboard_url 'list' %}" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">{{ view.get_model_name }}</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="flex items-center">
+        {% icon "chevron-right" "flex-shrink-0 h-5 w-5" %}
+        <span class="ml-4 text-sm font-medium text-gray-700" aria-current="page">{{ view.action_title }}</span>
+      </div>
+    </li>
+  </ol>
+</nav>

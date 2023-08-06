@@ -1,0 +1,17 @@
+{% extends "auth/base_styled.html" %}
+{% load static tailwind_filters crispy_forms_tags %}
+{% block content %}
+    <div>
+        <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-pc-600.svg" alt="Workflow">
+        <h2 class="mt-6 text-3xl font-extrabold text-gray-900">
+            Sign Up today
+        </h2>
+        <p class="mt-2 text-sm text-gray-600">
+            Free Forever, No Credit Card Needed.
+        </p>
+    </div>
+
+    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        {% crispy form form.helper %}
+    </div>
+{% endblock %}
