@@ -1,0 +1,4 @@
+[console_scripts]
+archive-channels=slackarchiver.cli:cli_archive_channels
+list-channels=slackarchiver.cli:cli_list_channels
+
