@@ -1,0 +1,3 @@
+[console_scripts]
+download_manager = drb_download_manager.download_file:download_file
+

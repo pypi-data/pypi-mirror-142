@@ -1,0 +1,17 @@
+download_manager-1.0.0b1.data/data/requirements.txt,sha256=9iW9AiASutILbzln_xBN3Z8jXfEBB-8154QCEtqub74,105
+drb_download_manager/__init__.py,sha256=8tT-j5gbJBYfk_RCj9mfAt9o6vrLsqRs7kt3WGnRSAc,72
+drb_download_manager/_version.py,sha256=T-XGsDv5Sssf12PKAphkbOQdcBIOcLTcoItBTOZ_lIo,499
+drb_download_manager/download_file.py,sha256=DNeu2ryu7khsO4GAZAUMUdUQzcxDmnu-zR9pE5qz3LE,3973
+drb_download_manager/download_manager.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb_download_manager/utility.py,sha256=Z9XbqS3eWhcqTLAeRuYU75FAeU9UVcqEVdbSuaBhwxc,3600
+drb_download_manager/destination/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb_download_manager/destination/writer.py,sha256=_xKyZ99RrA9M0KQX88zHnlgDog9pDqXChho_CuqII8Y,1690
+drb_download_manager/source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb_download_manager/source/source.py,sha256=GffD89MRLh5wg7V2OqUMNZvgkfhFLWQbTiEzpV4qCyY,4359
+drb_download_manager/source/source_download.py,sha256=7Rmx8lJdHGuc7OFj5m81UeUJ4PbQJo_TZ1VEYvGqLpU,1598
+drb_download_manager/source/source_factory.py,sha256=_cWVAuj6-T9tK3TNm9hJN1w2XKzQn09L4YuKTVgT4o0,409
+download_manager-1.0.0b1.dist-info/METADATA,sha256=B-aDwv67EVCdati9k6MvheA-zg28DcfT7_tIdFpCOx0,2474
+download_manager-1.0.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+download_manager-1.0.0b1.dist-info/entry_points.txt,sha256=RXGGwZ87mDs9xc88NyC3be_UAUxHVwLZz8ArAZEdu9o,87
+download_manager-1.0.0b1.dist-info/top_level.txt,sha256=GLN0BW_21VTv_PWYVDluwdPOOD1UhTWyJq6bZx9ghyg,21
+download_manager-1.0.0b1.dist-info/RECORD,,
