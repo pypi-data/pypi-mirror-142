@@ -1,0 +1,12 @@
+README.txt
+setup.cfg
+setup.py
+distributionsYoWord/Binomialdistribution.py
+distributionsYoWord/Gaussiandistribution.py
+distributionsYoWord/Generaldistribution.py
+distributionsYoWord/__init__.py
+distributionsYoWord.egg-info/PKG-INFO
+distributionsYoWord.egg-info/SOURCES.txt
+distributionsYoWord.egg-info/dependency_links.txt
+distributionsYoWord.egg-info/not-zip-safe
+distributionsYoWord.egg-info/top_level.txt
