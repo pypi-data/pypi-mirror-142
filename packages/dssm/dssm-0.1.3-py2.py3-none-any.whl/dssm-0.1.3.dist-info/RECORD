@@ -1,0 +1,10 @@
+dssm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dssm/dataset.py,sha256=yxJhQ8I8Dse54FE2Qq6F-lISVhz5d3uExyp-IKbxObw,537
+dssm/model.py,sha256=jKs7hfTQWqNUZ2VaeqyJZxiRazmlfj9CtTCWiuT8uDQ,12916
+dssm/utils.py,sha256=ZiPhVbTqs70XJCt4pUFp9aSePGNUm1Kb8TwPVOfXDAE,1551
+dssm/vectorizer.py,sha256=cbx5qUkioopy6BbtDM785aWU0kO8UVeJ8-Q_S5T7b6Q,1572
+dssm-0.1.3.dist-info/LICENSE.txt,sha256=kV8fZCwFZSuAAV480L29BZKfh8slz7TePaZO7yFqTGc,1061
+dssm-0.1.3.dist-info/METADATA,sha256=pLLARNIIKpyFgTwEPx3rHRHDkC_aCQFLot-WGOKcpx0,2585
+dssm-0.1.3.dist-info/WHEEL,sha256=yeYGyEAjAVN0fp2OvAcpF9SZtr2vIzJc053UqC_mhts,110
+dssm-0.1.3.dist-info/top_level.txt,sha256=ceDU6DZMVq2DORFsiQGSkPc1fiVlwa_nsJ-Y5A-jf4I,5
+dssm-0.1.3.dist-info/RECORD,,
