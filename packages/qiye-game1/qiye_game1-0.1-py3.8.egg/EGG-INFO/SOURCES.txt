@@ -1,0 +1,8 @@
+setup.py
+qiye/github/__init__.py
+qiye/github/io/__init__.py
+qiye/github/io/game1.py
+qiye/qiye_game1.egg-info/PKG-INFO
+qiye/qiye_game1.egg-info/SOURCES.txt
+qiye/qiye_game1.egg-info/dependency_links.txt
+qiye/qiye_game1.egg-info/top_level.txt
