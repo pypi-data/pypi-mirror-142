@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head>
+  <meta charset="utf-8">
+  <title>ScrapQD - Sample Expense</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>/* You can add global styles to this file, and also import other style files */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi90bXAvYnVpbGRfYzVjZGQyN2FlNDhiNmIzMjliYmIxNDZiMDgwZmU4MWQvc3JjL3N0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUFBIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */</style><style>.error[_ngcontent-aya-c1] {
+  font-size: 0.75rem;
+  color: #dc8484;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi90bXAvYnVpbGRfYzVjZGQyN2FlNDhiNmIzMjliYmIxNDZiMDgwZmU4MWQvc3JjL2FwcC9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmVycm9ye1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGNvbG9yOiAjZGM4NDg0O1xufVxuIiwiLmVycm9yIHtcbiAgZm9udC1zaXplOiAwLjc1cmVtO1xuICBjb2xvcjogI2RjODQ4NDtcbn0iXX0= */</style><style>*[_ngcontent-aya-c2] {
+  border-radius: 0 !important;
+}
+
+.btn[_ngcontent-aya-c2]:active, .btn.focus[_ngcontent-aya-c2], input[_ngcontent-aya-c2]:active, input[_ngcontent-aya-c2]:focus {
+  outline: none;
+  -webkit-appearance: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+
+.bg-light-grey[_ngcontent-aya-c2] {
+  background-color: #e4e6e7 !important;
+}
+
+.info-card[_ngcontent-aya-c2] {
+  height: 1.875rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.content[_ngcontent-aya-c2] {
+  margin-top: 10rem;
+}
+
+.pointer[_ngcontent-aya-c2] {
+  cursor: pointer;
+}
+
+.container[_ngcontent-aya-c2] {
+  max-width: none;
+}
+
+.content-margin[_ngcontent-aya-c2] {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.filter[_ngcontent-aya-c2] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 0.75rem;
+  padding: 1px 4px;
+}
+
+.sort_by[_ngcontent-aya-c2], .sort_by_check[_ngcontent-aya-c2] {
+  font-size: 0.75rem;
+  padding: 1px 4px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .content-margin[_ngcontent-aya-c2] {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  input[_ngcontent-aya-c2]::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
+
+  .content[_ngcontent-aya-c2] {
+    margin-top: 12rem;
+  }
+}
+
+.top-alert[_ngcontent-aya-c2] {
+  margin: 0rem;
+  position: relative;
+  width: calc(100vw + 10px);
+  margin-left: -50vw;
+  left: 50%;
+  top: -0.45rem;
+}
+
+div.full-width[_ngcontent-aya-c2] {
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+}
+
+#expense[_ngcontent-aya-c2] {
+  margin-top: 4rem;
+}
+
+.expenseh[_ngcontent-aya-c2] {
+  height: 1.875rem;
+  border: 1px solid #ced4da !important;
+}
+
+.expense_group_date[_ngcontent-aya-c2] {
+  font-size: 0.75rem;
+  color: grey;
+  border-bottom: 1px solid grey;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+hr.full-width[_ngcontent-aya-c2] {
+  padding: 0.35rem 0;
+  border: none;
+}
+
+hr.full-width[_ngcontent-aya-c2]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  max-width: 100%;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pointer[_ngcontent-aya-c2] {
+  cursor: pointer;
+}
+
+.search-clear[_ngcontent-aya-c2] {
+  margin-left: -0.9rem;
+  margin-top: 0.6rem;
+  z-index: 100;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.dropdown-toggle[_ngcontent-aya-c2]:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.dropdown-menu[_ngcontent-aya-c2] {
+  font-size: 0.75rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding-bottom: 0;
+  padding-top: 0;
+  top: 0.5rem !important;
+  left: 5px !important;
+}
+
+.dropdown-item[_ngcontent-aya-c2] {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-menu[_ngcontent-aya-c2]    > li[_ngcontent-aya-c2] {
+  cursor: pointer;
+}
+
+.dropdown-menu[_ngcontent-aya-c2]::before {
+  position: absolute;
+  top: -0.45rem;
+  right: 0.55rem;
+  display: inline-block;
+  border-right: 0.45rem solid transparent;
+  border-bottom: 0.45rem solid #CCC;
+  border-left: 0.45rem solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  content: "";
+}
+
+.dropdown-menu[_ngcontent-aya-c2]::after {
+  position: absolute;
+  top: -0.375rem;
+  right: 10px;
+  display: inline-block;
+  border-right: 0.375rem solid transparent;
+  border-bottom: 0.375rem solid white;
+  border-left: 0.375rem solid transparent;
+  content: "";
+}
+
+
+
+a.dropdown-item[_ngcontent-aya-c2]:active {
+  background-color: #f8f9fa !important;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi90bXAvYnVpbGRfYzVjZGQyN2FlNDhiNmIzMjliYmIxNDZiMDgwZmU4MWQvc3JjL2FwcC9leHBlbnNlL2V4cGVuc2UuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2V4cGVuc2UvZXhwZW5zZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDJCQUFBO0FDQ0Y7O0FERUE7Ozs7RUFLSSxhQUFBO0VBQ0EsbUNBQUE7RUFDQSwyQkFBQTtFQUNBLG9DQUFBO0FDQUo7O0FER0E7RUFDRSxvQ0FBQTtBQ0FGOztBREdBO0VBQ0UsZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLHNCQUFBO0FDQUY7O0FER0E7RUFDRSxpQkFBQTtBQ0FGOztBREdBO0VBQ0UsZUFBQTtBQ0FGOztBREdBO0VBQ0UsZUFBQTtBQ0FGOztBREdBO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtBQ0FGOztBRElBO0VBQ0UsMEJBQUE7RUFBQSx1QkFBQTtFQUFBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQ0RGOztBRElBO0VBQ0Usa0JBQUE7RUFDQSxnQkFBQTtBQ0RGOztBRElBO0VBQ0UsdUJBQUE7RUFDQTtJQUNFLGNBQUE7SUFDQSxlQUFBO0VDREY7O0VER0E7SUFDSSx3QkFBQTtFQ0FKOztFREdBO0lBQ0UsaUJBQUE7RUNBRjtBQUNGOztBREdBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxhQUFBO0FDREY7O0FESUE7RUFDRSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0FDREY7O0FESUE7RUFDRSxnQkFBQTtBQ0RGOztBRElBO0VBQ0UsZ0JBQUE7RUFDQSxvQ0FBQTtBQ0RGOztBRElBO0VBQ0Usa0JBQUE7RUFDQSxXQUFBO0VBQ0EsNkJBQUE7RUFDQSwwQkFBQTtFQUFBLHVCQUFBO0VBQUEsa0JBQUE7QUNERjs7QURJQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtBQ0RGOztBREdFO0VBRUUsV0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxlQUFBO0VBQ0EsV0FBQTtFQUNBLFNBQUE7RUFDQSx3Q0FBQTtBQ0ZKOztBRE1BO0VBQ0UsZUFBQTtBQ0hGOztBRE1BO0VBQ0Usb0JBQUE7RUFDQSxrQkFBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7QUNIRjs7QURRQTtFQUNFLFVBQUE7RUFDQSxnQkFBQTtBQ0xGOztBRFFBO0VBQ0Usa0JBQUE7RUFDQSx5Q0FBQTtFQUNBLG9DQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGNBQUE7RUFDQSxzQkFBQTtFQUNBLG9CQUFBO0FDTEY7O0FEUUE7RUFDRSx5QkFBQTtBQ0xGOztBRFFBO0VBQ0UsZUFBQTtBQ0xGOztBRFFBO0VBQ0Usa0JBQUE7RUFDQSxhQUFBO0VBQ0EsY0FBQTtFQUNBLHFCQUFBO0VBQ0EsdUNBQUE7RUFDQSxpQ0FBQTtFQUNBLHNDQUFBO0VBQ0EsdUNBQUE7RUFDQSxXQUFBO0FDTEY7O0FEUUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EscUJBQUE7RUFDQSx3Q0FBQTtFQUNBLG1DQUFBO0VBQ0EsdUNBQUE7RUFDQSxXQUFBO0FDTEY7O0FEUUEsa0JBQUE7O0FBQ0E7RUFDRSxvQ0FBQTtBQ0xGIiwiZmlsZSI6InNyYy9hcHAvZXhwZW5zZS9leHBlbnNlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7XG4gIGJvcmRlci1yYWRpdXM6IDAgIWltcG9ydGFudDtcbn1cblxuLmJ0bjphY3RpdmUsXG4uYnRuLmZvY3VzLFxuaW5wdXQ6YWN0aXZlLFxuaW5wdXQ6Zm9jdXNcbntcbiAgICBvdXRsaW5lOm5vbmU7XG4gICAgLXdlYmtpdC1hcHBlYXJhbmNlOm5vbmUgIWltcG9ydGFudDtcbiAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XG4gICAgYm9yZGVyOiAxcHggc29saWQgI2NlZDRkYSAhaW1wb3J0YW50O1xufVxuXG4uYmctbGlnaHQtZ3JleSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNlNGU2ZTchaW1wb3J0YW50O1xufVxuXG4uaW5mby1jYXJke1xuICBoZWlnaHQ6IDEuODc1cmVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn1cblxuLmNvbnRlbnR7XG4gIG1hcmdpbi10b3A6IDEwcmVtO1xufVxuXG4ucG9pbnRlcntcbiAgY3Vyc29yOnBvaW50ZXI7XG59XG5cbi5jb250YWluZXJ7XG4gIG1heC13aWR0aDogbm9uZTtcbn1cblxuLmNvbnRlbnQtbWFyZ2lue1xuICBtYXJnaW4tbGVmdDogMnJlbTtcbiAgbWFyZ2luLXJpZ2h0OiAycmVtO1xufVxuXG5cbi5maWx0ZXJ7XG4gIHdpZHRoOiBmaXQtY29udGVudDtcbiAgZm9udC1zaXplOiAuNzVyZW07XG4gIHBhZGRpbmc6IDFweCA0cHg7XG59XG5cbi5zb3J0X2J5LCAuc29ydF9ieV9jaGVja3tcbiAgZm9udC1zaXplOiAuNzVyZW07XG4gIHBhZGRpbmc6IDFweCA0cHg7XG59XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgLyogRm9yIG1vYmlsZSBwaG9uZXM6ICovXG4gIC5jb250ZW50LW1hcmdpbntcbiAgICBtYXJnaW4tbGVmdDogMDtcbiAgICBtYXJnaW4tcmlnaHQ6IDA7XG4gIH1cbiAgaW5wdXQ6Oi13ZWJraXQtY2FsZW5kYXItcGlja2VyLWluZGljYXRvcntcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgfVxuXG4gIC5jb250ZW50e1xuICAgIG1hcmdpbi10b3A6IDEycmVtO1xuICB9XG59XG5cbi50b3AtYWxlcnR7XG4gIG1hcmdpbjogMHJlbTtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogY2FsYygxMDB2dyArIDEwcHgpO1xuICBtYXJnaW4tbGVmdDogLTUwdnc7XG4gIGxlZnQ6IDUwJTtcbiAgdG9wOiAtLjQ1cmVtXG59XG5cbmRpdi5mdWxsLXdpZHRoIHtcbiAgd2lkdGg6IDEwMHZ3O1xuICBtYXJnaW4tbGVmdDogLTUwdnc7XG4gIGxlZnQ6IDUwJTtcbn1cblxuI2V4cGVuc2V7XG4gIG1hcmdpbi10b3A6IDRyZW07XG59XG5cbi5leHBlbnNlaHtcbiAgaGVpZ2h0OiAxLjg3NXJlbTtcbiAgYm9yZGVyOiAxcHggc29saWQgI2NlZDRkYSAhaW1wb3J0YW50O1xufVxuXG4uZXhwZW5zZV9ncm91cF9kYXRlIHtcbiAgZm9udC1zaXplOiAwLjc1cmVtO1xuICBjb2xvcjogZ3JleTtcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XG4gIHdpZHRoOiBmaXQtY29udGVudDtcbn1cblxuaHIuZnVsbC13aWR0aHtcbiAgcGFkZGluZzogLjM1cmVtIDA7XG4gIGJvcmRlcjogbm9uZTtcblxuICAmOmJlZm9yZSB7XG4gICAgLy8gZnVsbC13aWR0aCBkaXZpZGVyXG4gICAgY29udGVudDogXCJcIjtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgcmlnaHQ6IDA7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJvcmRlcjogMDtcbiAgICBib3JkZXItdG9wOiAxcHggc29saWQgcmdiYSgwLDAsMCwuMSk7XG4gIH1cbn1cblxuLnBvaW50ZXJ7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLnNlYXJjaC1jbGVhcntcbiAgbWFyZ2luLWxlZnQ6IC0uOXJlbTtcbiAgbWFyZ2luLXRvcDouNnJlbTtcbiAgei1pbmRleDogMTAwO1xuICBmb250LXNpemU6LjhyZW07XG4gIGN1cnNvcjogcG9pbnRlclxufVxuXG5cblxuLmRyb3Bkb3duLXRvZ2dsZTpmb2N1cyB7XG4gIG91dGxpbmU6IDA7XG4gIGJveC1zaGFkb3c6IG5vbmVcbn1cblxuLmRyb3Bkb3duLW1lbnV7XG4gIGZvbnQtc2l6ZTogMC43NXJlbTtcbiAgYm94LXNoYWRvdzogMCA1cHggMTBweCByZ2JhKDAsMCwwLDAuMik7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwwLDAsLjEpO1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIHBhZGRpbmctYm90dG9tOiAwO1xuICBwYWRkaW5nLXRvcDogMDtcbiAgdG9wOiAuNXJlbSAhaW1wb3J0YW50O1xuICBsZWZ0OiA1cHggIWltcG9ydGFudDtcbn1cblxuLmRyb3Bkb3duLWl0ZW17XG4gIGNvbG9yOiByZ2JhKDAsMCwwLC41KTtcbn1cblxuLmRyb3Bkb3duLW1lbnUgPiBsaXtcbiAgY3Vyc29yOiBwb2ludGVyXG59XG5cbi5kcm9wZG93bi1tZW51OjpiZWZvcmUge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogLTAuNDVyZW07XG4gIHJpZ2h0OiAwLjU1cmVtO1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIGJvcmRlci1yaWdodDogMC40NXJlbSBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLWJvdHRvbTogMC40NXJlbSBzb2xpZCAjQ0NDO1xuICBib3JkZXItbGVmdDogMC40NXJlbSBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLWJvdHRvbS1jb2xvcjogcmdiYSgwLDAsMCwuMSk7XG4gIGNvbnRlbnQ6ICcnO1xufVxuXG4uZHJvcGRvd24tbWVudTo6YWZ0ZXIge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogLTAuMzc1cmVtO1xuICByaWdodDogMTBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBib3JkZXItcmlnaHQ6IDAuMzc1cmVtIHNvbGlkIHRyYW5zcGFyZW50O1xuICBib3JkZXItYm90dG9tOiAwLjM3NXJlbSBzb2xpZCB3aGl0ZTtcbiAgYm9yZGVyLWxlZnQ6IDAuMzc1cmVtIHNvbGlkIHRyYW5zcGFyZW50O1xuICBjb250ZW50OiAnJztcbn1cblxuLyogc2VsZWN0ZWQgbGluayAqL1xuYS5kcm9wZG93bi1pdGVtOmFjdGl2ZSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmOGY5ZmEgIWltcG9ydGFudDtcbn1cbiIsIioge1xuICBib3JkZXItcmFkaXVzOiAwICFpbXBvcnRhbnQ7XG59XG5cbi5idG46YWN0aXZlLFxuLmJ0bi5mb2N1cyxcbmlucHV0OmFjdGl2ZSxcbmlucHV0OmZvY3VzIHtcbiAgb3V0bGluZTogbm9uZTtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lICFpbXBvcnRhbnQ7XG4gIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2NlZDRkYSAhaW1wb3J0YW50O1xufVxuXG4uYmctbGlnaHQtZ3JleSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNlNGU2ZTcgIWltcG9ydGFudDtcbn1cblxuLmluZm8tY2FyZCB7XG4gIGhlaWdodDogMS44NzVyZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xufVxuXG4uY29udGVudCB7XG4gIG1hcmdpbi10b3A6IDEwcmVtO1xufVxuXG4ucG9pbnRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIG1heC13aWR0aDogbm9uZTtcbn1cblxuLmNvbnRlbnQtbWFyZ2luIHtcbiAgbWFyZ2luLWxlZnQ6IDJyZW07XG4gIG1hcmdpbi1yaWdodDogMnJlbTtcbn1cblxuLmZpbHRlciB7XG4gIHdpZHRoOiBmaXQtY29udGVudDtcbiAgZm9udC1zaXplOiAwLjc1cmVtO1xuICBwYWRkaW5nOiAxcHggNHB4O1xufVxuXG4uc29ydF9ieSwgLnNvcnRfYnlfY2hlY2sge1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIHBhZGRpbmc6IDFweCA0cHg7XG59XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgLyogRm9yIG1vYmlsZSBwaG9uZXM6ICovXG4gIC5jb250ZW50LW1hcmdpbiB7XG4gICAgbWFyZ2luLWxlZnQ6IDA7XG4gICAgbWFyZ2luLXJpZ2h0OiAwO1xuICB9XG5cbiAgaW5wdXQ6Oi13ZWJraXQtY2FsZW5kYXItcGlja2VyLWluZGljYXRvciB7XG4gICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICB9XG5cbiAgLmNvbnRlbnQge1xuICAgIG1hcmdpbi10b3A6IDEycmVtO1xuICB9XG59XG4udG9wLWFsZXJ0IHtcbiAgbWFyZ2luOiAwcmVtO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHdpZHRoOiBjYWxjKDEwMHZ3ICsgMTBweCk7XG4gIG1hcmdpbi1sZWZ0OiAtNTB2dztcbiAgbGVmdDogNTAlO1xuICB0b3A6IC0wLjQ1cmVtO1xufVxuXG5kaXYuZnVsbC13aWR0aCB7XG4gIHdpZHRoOiAxMDB2dztcbiAgbWFyZ2luLWxlZnQ6IC01MHZ3O1xuICBsZWZ0OiA1MCU7XG59XG5cbiNleHBlbnNlIHtcbiAgbWFyZ2luLXRvcDogNHJlbTtcbn1cblxuLmV4cGVuc2VoIHtcbiAgaGVpZ2h0OiAxLjg3NXJlbTtcbiAgYm9yZGVyOiAxcHggc29saWQgI2NlZDRkYSAhaW1wb3J0YW50O1xufVxuXG4uZXhwZW5zZV9ncm91cF9kYXRlIHtcbiAgZm9udC1zaXplOiAwLjc1cmVtO1xuICBjb2xvcjogZ3JleTtcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGdyZXk7XG4gIHdpZHRoOiBmaXQtY29udGVudDtcbn1cblxuaHIuZnVsbC13aWR0aCB7XG4gIHBhZGRpbmc6IDAuMzVyZW0gMDtcbiAgYm9yZGVyOiBub25lO1xufVxuaHIuZnVsbC13aWR0aDpiZWZvcmUge1xuICBjb250ZW50OiBcIlwiO1xuICBkaXNwbGF5OiBibG9jaztcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMDtcbiAgbWF4LXdpZHRoOiAxMDAlO1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiAwO1xuICBib3JkZXItdG9wOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjEpO1xufVxuXG4ucG9pbnRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLnNlYXJjaC1jbGVhciB7XG4gIG1hcmdpbi1sZWZ0OiAtMC45cmVtO1xuICBtYXJnaW4tdG9wOiAwLjZyZW07XG4gIHotaW5kZXg6IDEwMDtcbiAgZm9udC1zaXplOiAwLjhyZW07XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLmRyb3Bkb3duLXRvZ2dsZTpmb2N1cyB7XG4gIG91dGxpbmU6IDA7XG4gIGJveC1zaGFkb3c6IG5vbmU7XG59XG5cbi5kcm9wZG93bi1tZW51IHtcbiAgZm9udC1zaXplOiAwLjc1cmVtO1xuICBib3gtc2hhZG93OiAwIDVweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjEpO1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIHBhZGRpbmctYm90dG9tOiAwO1xuICBwYWRkaW5nLXRvcDogMDtcbiAgdG9wOiAwLjVyZW0gIWltcG9ydGFudDtcbiAgbGVmdDogNXB4ICFpbXBvcnRhbnQ7XG59XG5cbi5kcm9wZG93bi1pdGVtIHtcbiAgY29sb3I6IHJnYmEoMCwgMCwgMCwgMC41KTtcbn1cblxuLmRyb3Bkb3duLW1lbnUgPiBsaSB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLmRyb3Bkb3duLW1lbnU6OmJlZm9yZSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAtMC40NXJlbTtcbiAgcmlnaHQ6IDAuNTVyZW07XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgYm9yZGVyLXJpZ2h0OiAwLjQ1cmVtIHNvbGlkIHRyYW5zcGFyZW50O1xuICBib3JkZXItYm90dG9tOiAwLjQ1cmVtIHNvbGlkICNDQ0M7XG4gIGJvcmRlci1sZWZ0OiAwLjQ1cmVtIHNvbGlkIHRyYW5zcGFyZW50O1xuICBib3JkZXItYm90dG9tLWNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gIGNvbnRlbnQ6IFwiXCI7XG59XG5cbi5kcm9wZG93bi1tZW51OjphZnRlciB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAtMC4zNzVyZW07XG4gIHJpZ2h0OiAxMHB4O1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIGJvcmRlci1yaWdodDogMC4zNzVyZW0gc29saWQgdHJhbnNwYXJlbnQ7XG4gIGJvcmRlci1ib3R0b206IDAuMzc1cmVtIHNvbGlkIHdoaXRlO1xuICBib3JkZXItbGVmdDogMC4zNzVyZW0gc29saWQgdHJhbnNwYXJlbnQ7XG4gIGNvbnRlbnQ6IFwiXCI7XG59XG5cbi8qIHNlbGVjdGVkIGxpbmsgKi9cbmEuZHJvcGRvd24taXRlbTphY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZhICFpbXBvcnRhbnQ7XG59Il19 */</style><style>.expense-reject[_ngcontent-aya-c3], .expense-approve[_ngcontent-aya-c3] {
+  font-size: 0.75rem !important;
+  min-width: 5rem;
+}
+
+.expense-emp-name[_ngcontent-aya-c3] {
+  font-size: 1rem;
+}
+
+.expense-amount[_ngcontent-aya-c3] {
+  font-size: 0.9rem;
+}
+
+.expense-desc[_ngcontent-aya-c3] {
+  font-size: 0.8rem;
+  max-height: 4rem;
+  min-height: 4rem;
+  overflow-x: scroll;
+}
+
+.expense-desc[_ngcontent-aya-c3]::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.expense-desc[_ngcontent-aya-c3]::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+.expense-desc[_ngcontent-aya-c3]::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.expense-desc[_ngcontent-aya-c3]::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.review[_ngcontent-aya-c3] {
+  padding: 1px 4px;
+  border-radius: 4px !important;
+}
+
+.date_created[_ngcontent-aya-c3] {
+  float: right;
+  font-size: 0.8rem;
+  right: 1rem;
+}
+
+.card[_ngcontent-aya-c3] {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  min-height: 11rem;
+  max-width: 18rem;
+  min-width: 18rem;
+}
+
+.card[_ngcontent-aya-c3]:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.spinner-border-xs[_ngcontent-aya-c3] {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+button[_ngcontent-aya-c3]:disabled {
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.currency[_ngcontent-aya-c3] {
+  font-size: 0.75rem;
+  padding: 1px 4px;
+  color: #bec1c3;
+  border: 1px solid #bec1c3;
+}
+
+.title[_ngcontent-aya-c3] {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi90bXAvYnVpbGRfYzVjZGQyN2FlNDhiNmIzMjliYmIxNDZiMDgwZmU4MWQvc3JjL2FwcC9leHBlbnNlL3dpZGdldC93aWRnZXQuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2V4cGVuc2Uvd2lkZ2V0L3dpZGdldC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLDZCQUFBO0VBQ0EsZUFBQTtBQ0FGOztBREdBO0VBQ0UsZUFBQTtBQ0FGOztBREdBO0VBQ0UsaUJBQUE7QUNBRjs7QURHQTtFQUNFLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FEQ0U7RUFDSSx3QkFBQTtBQ0NOOztBREVFO0VBQ0ksVUFBQTtBQ0FOOztBREdFO0VBQ0ksWUFBQTtBQ0ROOztBRElFO0VBQ0ksa0JBQUE7RUFDQSx1QkFBQTtFQUF5QixrREFBQTtFQUN6QixvQ0FBQTtBQ0ROOztBREtBO0VBQ0UsZ0JBQUE7RUFDQSw2QkFBQTtBQ0ZGOztBREtBO0VBQ0UsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtBQ0ZGOztBREtBO0VBQ0UsMENBQUE7RUFDQSx3QkFBQTtFQUFBLGdCQUFBO0VBQ0EsaUJBQUE7RUFDQSxnQkFBQTtFQUNBLGdCQUFBO0FDRkY7O0FES0E7RUFDRSwyQ0FBQTtBQ0ZGOztBREtBO0VBQ0UsYUFBQTtFQUNBLGNBQUE7QUNGRjs7QURLQTtFQUNFLG1CQUFBO0VBQ0EsVUFBQTtBQ0ZGOztBREtBO0VBQ0Usa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7RUFDQSx5QkFBQTtBQ0ZGOztBREtBO0VBQ0UsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNGRiIsImZpbGUiOiJzcmMvYXBwL2V4cGVuc2Uvd2lkZ2V0L3dpZGdldC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLmV4cGVuc2UtcmVqZWN0LCAuZXhwZW5zZS1hcHByb3Zle1xuICBmb250LXNpemU6IC43NXJlbSAhaW1wb3J0YW50O1xuICBtaW4td2lkdGg6IDVyZW07XG59XG5cbi5leHBlbnNlLWVtcC1uYW1le1xuICBmb250LXNpemU6IDFyZW07XG59XG5cbi5leHBlbnNlLWFtb3VudHtcbiAgZm9udC1zaXplOiAuOXJlbTtcbn1cblxuLmV4cGVuc2UtZGVzY3tcbiAgZm9udC1zaXplOiAuOHJlbTtcbiAgbWF4LWhlaWdodDogNHJlbTtcbiAgbWluLWhlaWdodDogNHJlbTtcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xuICAmOjotd2Via2l0LXNjcm9sbGJhciB7XG4gICAgICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XG4gIH1cblxuICAmOjotd2Via2l0LXNjcm9sbGJhcjp2ZXJ0aWNhbCB7XG4gICAgICB3aWR0aDogOHB4O1xuICB9XG5cbiAgJjo6LXdlYmtpdC1zY3JvbGxiYXI6aG9yaXpvbnRhbCB7XG4gICAgICBoZWlnaHQ6IDExcHg7XG4gIH1cblxuICAmOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgICBib3JkZXItcmFkaXVzOiA4cHg7XG4gICAgICBib3JkZXI6IDJweCBzb2xpZCB3aGl0ZTsgLyogc2hvdWxkIG1hdGNoIGJhY2tncm91bmQsIGNhbid0IGJlIHRyYW5zcGFyZW50ICovXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAgcmdiYSgwLDAsMCwuMik7O1xuICB9XG59XG5cbi5yZXZpZXd7XG4gIHBhZGRpbmc6IDFweCA0cHg7XG4gIGJvcmRlci1yYWRpdXM6IDRweCAhaW1wb3J0YW50O1xufVxuXG4uZGF0ZV9jcmVhdGVkIHtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBmb250LXNpemU6IC44cmVtO1xuICByaWdodDogMXJlbTtcbn1cblxuLmNhcmQge1xuICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsMCwwLDAuMik7XG4gIHRyYW5zaXRpb246IDAuM3M7XG4gIG1pbi1oZWlnaHQ6IDExcmVtO1xuICBtYXgtd2lkdGg6IDE4cmVtO1xuICBtaW4td2lkdGg6IDE4cmVtO1xufVxuXG4uY2FyZDpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgNnB4IDEycHggMCByZ2JhKDAsMCwwLDAuMik7XG59XG5cbi5zcGlubmVyLWJvcmRlci14c3tcbiAgd2lkdGg6IC43cmVtO1xuICBoZWlnaHQ6IC43cmVtO1xufVxuXG5idXR0b246ZGlzYWJsZWR7XG4gIGN1cnNvcjogbm90LWFsbG93ZWQ7XG4gIG9wYWNpdHk6IDE7XG59XG5cbi5jdXJyZW5jeXtcbiAgZm9udC1zaXplOiAuNzVyZW07XG4gIHBhZGRpbmc6IDFweCA0cHg7XG4gIGNvbG9yOiAjYmVjMWMzO1xuICBib3JkZXI6IDFweCBzb2xpZCAjYmVjMWMzOztcbn1cblxuLnRpdGxle1xuICBmb250LXdlaWdodDogNTAwO1xuICBsaW5lLWhlaWdodDogMS4yO1xuICBmb250LXNpemU6IDFyZW07XG59XG4iLCIuZXhwZW5zZS1yZWplY3QsIC5leHBlbnNlLWFwcHJvdmUge1xuICBmb250LXNpemU6IDAuNzVyZW0gIWltcG9ydGFudDtcbiAgbWluLXdpZHRoOiA1cmVtO1xufVxuXG4uZXhwZW5zZS1lbXAtbmFtZSB7XG4gIGZvbnQtc2l6ZTogMXJlbTtcbn1cblxuLmV4cGVuc2UtYW1vdW50IHtcbiAgZm9udC1zaXplOiAwLjlyZW07XG59XG5cbi5leHBlbnNlLWRlc2Mge1xuICBmb250LXNpemU6IDAuOHJlbTtcbiAgbWF4LWhlaWdodDogNHJlbTtcbiAgbWluLWhlaWdodDogNHJlbTtcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xufVxuLmV4cGVuc2UtZGVzYzo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XG59XG4uZXhwZW5zZS1kZXNjOjotd2Via2l0LXNjcm9sbGJhcjp2ZXJ0aWNhbCB7XG4gIHdpZHRoOiA4cHg7XG59XG4uZXhwZW5zZS1kZXNjOjotd2Via2l0LXNjcm9sbGJhcjpob3Jpem9udGFsIHtcbiAgaGVpZ2h0OiAxMXB4O1xufVxuLmV4cGVuc2UtZGVzYzo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xuICBib3JkZXItcmFkaXVzOiA4cHg7XG4gIGJvcmRlcjogMnB4IHNvbGlkIHdoaXRlO1xuICAvKiBzaG91bGQgbWF0Y2ggYmFja2dyb3VuZCwgY2FuJ3QgYmUgdHJhbnNwYXJlbnQgKi9cbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjIpO1xufVxuXG4ucmV2aWV3IHtcbiAgcGFkZGluZzogMXB4IDRweDtcbiAgYm9yZGVyLXJhZGl1czogNHB4ICFpbXBvcnRhbnQ7XG59XG5cbi5kYXRlX2NyZWF0ZWQge1xuICBmbG9hdDogcmlnaHQ7XG4gIGZvbnQtc2l6ZTogMC44cmVtO1xuICByaWdodDogMXJlbTtcbn1cblxuLmNhcmQge1xuICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gIHRyYW5zaXRpb246IDAuM3M7XG4gIG1pbi1oZWlnaHQ6IDExcmVtO1xuICBtYXgtd2lkdGg6IDE4cmVtO1xuICBtaW4td2lkdGg6IDE4cmVtO1xufVxuXG4uY2FyZDpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgNnB4IDEycHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG59XG5cbi5zcGlubmVyLWJvcmRlci14cyB7XG4gIHdpZHRoOiAwLjdyZW07XG4gIGhlaWdodDogMC43cmVtO1xufVxuXG5idXR0b246ZGlzYWJsZWQge1xuICBjdXJzb3I6IG5vdC1hbGxvd2VkO1xuICBvcGFjaXR5OiAxO1xufVxuXG4uY3VycmVuY3kge1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIHBhZGRpbmc6IDFweCA0cHg7XG4gIGNvbG9yOiAjYmVjMWMzO1xuICBib3JkZXI6IDFweCBzb2xpZCAjYmVjMWMzO1xufVxuXG4udGl0bGUge1xuICBmb250LXdlaWdodDogNTAwO1xuICBsaW5lLWhlaWdodDogMS4yO1xuICBmb250LXNpemU6IDFyZW07XG59Il19 */</style></head>
+<body>
+  <app-root _nghost-aya-c0="" ng-version="8.2.14"><router-outlet _ngcontent-aya-c0=""></router-outlet><app-expense _nghost-aya-c2=""><div _ngcontent-aya-c2="" class="fixed-top bg-white pl-2 pr-3" style=""><div _ngcontent-aya-c2="" class="row bg-secondary p-3 pb-1 pt-1 pr-md-5 pl-md-5 justify-content-between"><div _ngcontent-aya-c2="" class="col-2 p-0"><button _ngcontent-aya-c2="" class="btn mr-1 filter btn-light float-left info-card"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-sign-out" style="font-size: 1.25rem; width: 1.25rem; vertical-align: middle;"></i><span _ngcontent-aya-c2="" class="d-none d-md-inline-block ml-1" style="font-size: .85rem"> Logout </span></button></div><div _ngcontent-aya-c2="" class="col-10 col-sm-7 col-md-5 input-group p-0">
+    <a href="/scrapqd" class="mr-2 site-link"><button class="btn-light">ScrapQD</button></a>
+    <input _ngcontent-aya-c2="" aria-label="Search" class="expenseh form-control ng-untouched ng-pristine ng-valid" id="expense_search" name="q" placeholder="Search.." type="text" ng-reflect-name="q"><!--bindings={
+  "ng-reflect-ng-if": null
+}--><div _ngcontent-aya-c2="" class="input-group-append"><button _ngcontent-aya-c2="" class="expenseh" style="background-color: rgb(206, 212, 218); --darkreader-inline-bgcolor:#303436;" data-darkreader-inline-bgcolor=""><i _ngcontent-aya-c2="" class="fa fa-search mr-1 ml-1"></i><span _ngcontent-aya-c2="" class="d-none d-sm-inline-block"> Search </span></button></div></div></div><div _ngcontent-aya-c2="" class="content-margin mt-2"><!--bindings={
+  "ng-reflect-ng-if": null
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-aya-c2="" class="query"><div _ngcontent-aya-c2="" class="row pt-1 justify-content-end justify-content-sm-around"><div _ngcontent-aya-c2="" class="col-12 col-sm-5 col-md-7"><div _ngcontent-aya-c2="" class="row justify-content-end"><div _ngcontent-aya-c2="" class="col-auto col-sm-12" style="width: fit-content"><button id="exp-total" _ngcontent-aya-c2="" class="btn mr-1 filter btn-info" ng-reflect-klass="btn mr-1 filter btn-outline-in" ng-reflect-ng-class="[object Object]"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-book"></i><span _ngcontent-aya-c2="" class="d-xs-inline-block ml-1"> All </span> (<span _ngcontent-aya-c2="">40</span>) </button><button id="emp-exp-approved" _ngcontent-aya-c2="" class="btn mr-1 filter btn-outline-success" ng-reflect-klass="btn mr-1 filter btn-outline-su" ng-reflect-ng-class="[object Object]"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-check"></i><span _ngcontent-aya-c2="" class="d-none d-md-inline-block ml-1"> Approved</span> (<span _ngcontent-aya-c2="">4</span>) </button><button id="emp-exp-rejected" _ngcontent-aya-c2="" class="btn mr-1 filter btn-outline-danger" ng-reflect-klass="btn mr-1 filter btn-outline-da" ng-reflect-ng-class="[object Object]"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-ban"></i><span _ngcontent-aya-c2="" class="d-none d-md-inline-block ml-1"> Rejected</span> (<span _ngcontent-aya-c2="">5</span>) </button><button id="emp-exp-pending" _ngcontent-aya-c2="" class="btn filter btn-outline-warning" ng-reflect-klass="btn filter btn-outline-warning" ng-reflect-ng-class="[object Object]"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-flag"></i><span _ngcontent-aya-c2="" class="d-none d-md-inline-block ml-1"> Pending </span> (<span _ngcontent-aya-c2="">31</span>) </button></div></div></div><div _ngcontent-aya-c2="" class="col-12 pb-2 pb-sm-0 order-first order-sm-last col-sm-7 col-md-5 pl-0"><button _ngcontent-aya-c2="" class="btn sort_by float-right btn-success ml-1 pointer"><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-refresh"></i><span _ngcontent-aya-c2="" class="d-sm-inline-block ml-1"> Refresh </span></button><span _ngcontent-aya-c2="" class="btn btn-sm btn-outline-secondary sort_by float-right dropdown ml-1 pointer" id="parentDropdown" style="margin-right: 0rem !important;" ng-reflect-klass="btn btn-sm btn-outline-seconda" ng-reflect-ng-class="[object Object]"><span _ngcontent-aya-c2="" aria-expanded="true" aria-haspopup="true" class="sort_by" data-target="#parentDropdown" data-toggle="dropdown" id="dropdownMenu1"><i _ngcontent-aya-c2="" aria-hidden="true" class="d-sm-inline-block fa fa-sort"></i><span _ngcontent-aya-c2="" class="d-sm-inline-block float-left mr-2 ml-2">Sort</span></span><ul _ngcontent-aya-c2="" aria-labelledby="dropdownMenu1" class="dropdown-menu dropdown-menu-right"><li _ngcontent-aya-c2=""><a _ngcontent-aya-c2="" class="dropdown-item"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--> Exp Amount: High to Low</a></li><li _ngcontent-aya-c2=""><a _ngcontent-aya-c2="" class="dropdown-item"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}-->Exp Amount: Low to High</a></li><li _ngcontent-aya-c2=""><a _ngcontent-aya-c2="" class="dropdown-item"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}-->Exp created date: Newest First</a></li><li _ngcontent-aya-c2=""><a _ngcontent-aya-c2="" class="dropdown-item"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}-->Exp created date: Oldest First</a></li></ul></span><span _ngcontent-aya-c2="" class="btn btn-sm btn-outline-secondary sort_by float-right dropdown ml-1 pointer" id="parentDropdown1" style="margin-right: 0rem !important;" ng-reflect-klass="btn btn-sm btn-outline-seconda" ng-reflect-ng-class="[object Object]"><span _ngcontent-aya-c2="" aria-expanded="true" aria-haspopup="true" class="dropdown-toggle sort_by" data-target="#parentDropdown1" data-toggle="dropdown" id="dropdownMenu2"><i _ngcontent-aya-c2="" aria-hidden="true" class="d-sm-inline-block fa fa-calendar"></i><span _ngcontent-aya-c2="" class="d-sm-inline-block float-left mr-2 ml-2">Date Range</span></span><ul _ngcontent-aya-c2="" aria-labelledby="dropdownMenu2" class="dropdown-menu dropdown-menu-right"><li _ngcontent-aya-c2=""><span _ngcontent-aya-c2="" class="dropdown-item mt-2"><span _ngcontent-aya-c2="" class="float-left">From:</span><input _ngcontent-aya-c2="" class="float-right ng-untouched ng-pristine ng-valid" name="from_date" placeholder="dd/mm/yyyy" type="date" ng-reflect-name="from_date"></span></li><li _ngcontent-aya-c2=""><span _ngcontent-aya-c2="" class="dropdown-item "><span _ngcontent-aya-c2="" class="float-left">Till Date:</span><input _ngcontent-aya-c2="" class="float-right ng-untouched ng-pristine ng-valid" name="to_date" type="date" ng-reflect-name="to_date" min="null"></span></li><li _ngcontent-aya-c2=""><button _ngcontent-aya-c2="" class="dropdown-item text-center mt-5 text-white bg-info">Fetch</button></li></ul></span></div></div><div _ngcontent-aya-c2="" class="row pt-2"><div _ngcontent-aya-c2="" class="col"><label _ngcontent-aya-c2="" style="font-size: .75rem"> Group by <span _ngcontent-aya-c2="" class="text-muted" style="font-size: .75rem">( Results: 40 <span _ngcontent-aya-c2="" class="d-none d-sm-inline-block"> expenses </span><!--bindings={
+  "ng-reflect-ng-if": "309"
+}--> of <span _ngcontent-aya-c2="" id="emp-exp-total"> 309 </span> ) </span><span _ngcontent-aya-c2=""><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-square fa-border p-0" style="bottom: 2px; border-radius: 4px !important; color: green; --darkreader-inline-color:#72ff72;" ng-reflect-ng-style="[object Object]" data-darkreader-inline-color=""></i> Date </span><span _ngcontent-aya-c2=""><i _ngcontent-aya-c2="" aria-hidden="true" class="fa fa-square fa-border p-0" style="bottom: 2px; border-radius: 4px !important; color: white; --darkreader-inline-color:#e8e6e3;" ng-reflect-ng-style="[object Object]" data-darkreader-inline-color=""></i> Name </span></label><label _ngcontent-aya-c2=""></label></div></div><hr _ngcontent-aya-c2="" class="full-width mb-0 mt-0 p-0"></div></div></div><div _ngcontent-aya-c2="" class="container content"><div _ngcontent-aya-c2="" class="content-margin"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-aya-c2="" infinitescroll="" ng-reflect-infinite-scroll-distance="1" ng-reflect-infinite-scroll-throttle="98" ng-reflect-infinite-scroll-disabled="false"><!--bindings={
+  "ng-reflect-ng-if": "[object Object],[object Object"
+}--><div _ngcontent-aya-c2=""><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-aya-c2="" class="mb-3"><div _ngcontent-aya-c2="" class="row mt-3"><div _ngcontent-aya-c2="" class="col"><div _ngcontent-aya-c2="" class="font-weight-bold expense_group_date"> 31 January 2020 </div></div></div><div _ngcontent-aya-c2="" class="row justify-content-center justify-content-md-start" id="31 January 2020"><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object]"
+}--><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3="">
+    <a href="/user_expenses?user=friwilan0123">Friedrich-Wilhelm, Langern</a>
+  </div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8800.00 </span><span _ngcontent-aya-c3="" class="currency">egp </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-5bbd5c2f-435d-4529-8a5b-f05f1f89db5a"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-5bbd5c2f-435d-4529-8a5b-f05f1f89db5a"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quam voluptatum placeat facere asperiores voluptatem.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Fri Jan 31 2020, 11:29:34 PM </footer></div></div></app-widget></div></div></div></div><div _ngcontent-aya-c2="" class="mb-3"><div _ngcontent-aya-c2="" class="row mt-3"><div _ngcontent-aya-c2="" class="col"><div _ngcontent-aya-c2="" class="font-weight-bold expense_group_date"> 1 February 2020 </div></div></div><div _ngcontent-aya-c2="" class="row justify-content-center justify-content-md-start" id="1 February 2020"><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  
+    <div _ngcontent-aya-c3=""><a href="/user_expenses?user=sb0891">Sebastian, Bien</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">3365.00 </span><span _ngcontent-aya-c3="" class="currency">mkd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-cce88426-53cf-4475-9204-32f50268911b"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-cce88426-53cf-4475-9204-32f50268911b"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Tenetur saepe facilis in dolorum nostrum consectetur laudantium.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 00:12:24 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  
+    <div _ngcontent-aya-c3=""><a href="/user_expenses?user=rosbec647">Rosa, Becker</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6700.00 </span><span _ngcontent-aya-c3="" class="currency">xof </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-a3ec6508-2c2c-439d-b090-b10ffef8189e" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approved</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-a3ec6508-2c2c-439d-b090-b10ffef8189e"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Hic nobis explicabo voluptatibus qui ab culpa magni.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 02:53:38 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=inesgro1682">Ines, Gröttner</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8427.00 </span><span _ngcontent-aya-c3="" class="currency">npr </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-f8053cc8-9178-4afd-be51-573e749323e7"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-f8053cc8-9178-4afd-be51-573e749323e7" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Rejected </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Nostrum perferendis hic vitae occaecati.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 03:12:19 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=clarbon1528">Clarissa, Bonbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">1609.00 </span><span _ngcontent-aya-c3="" class="currency">fjd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-10b88f2c-82ad-4f5d-bd1b-a03925934f0c"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-10b88f2c-82ad-4f5d-bd1b-a03925934f0c"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Sequi praesentium iure eveniet et qui aperiam autem.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 04:52:22 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=zbisto0543">Zbigniew, Stolze</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8789.00 </span><span _ngcontent-aya-c3="" class="currency">ern </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-c60cf612-50be-437d-9ba8-2492de96e9c4"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-c60cf612-50be-437d-9ba8-2492de96e9c4"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Possimus ea dignissimos.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 05:04:04 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=inesmen135">Ines, Mentzel</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">1750.00 </span><span _ngcontent-aya-c3="" class="currency">srd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-73717d32-2228-48f2-a09f-2e90eeb94056"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-73717d32-2228-48f2-a09f-2e90eeb94056"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Laborum nam quibusdam aperiam impedit blanditiis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 05:41:07 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=rosbec098">Rosa, Becker</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">7293.00 </span><span _ngcontent-aya-c3="" class="currency">mga </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-2e7ceca7-a40e-4bf5-ab43-f40ec9938b6a"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-2e7ceca7-a40e-4bf5-ab43-f40ec9938b6a" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Rejected </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Nesciunt nam iusto temporibus minus modi consequatur reiciendis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 06:59:26 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=sigros1029">Sigismund, Rosemann</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">997.00 </span><span _ngcontent-aya-c3="" class="currency">lbp </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-bb6e32a2-8167-456b-8433-5bb897e65e5d"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-bb6e32a2-8167-456b-8433-5bb897e65e5d"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Maxime assumenda repellat doloremque quam facere.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 07:39:03 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=edvan1230">Edelbert, van der Dussen</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">4573.00 </span><span _ngcontent-aya-c3="" class="currency">azn </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-f4fb98be-348a-4171-8d0e-622dcccb67e1"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-f4fb98be-348a-4171-8d0e-622dcccb67e1"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Veritatis unde quas consequatur quis recusandae tenetur.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 07:48:45 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=clabon10">Clarissa, Bonbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6533.00 </span><span _ngcontent-aya-c3="" class="currency">mxn </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-23bd3e8a-3991-4a60-b2af-9e408dc8567e"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-23bd3e8a-3991-4a60-b2af-9e408dc8567e"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Nisi dolores ipsum aliquid nulla omnis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 09:42:45 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=lilhen0987">Lilli, Heintze</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">3102.00 </span><span _ngcontent-aya-c3="" class="currency">kwd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-b3a5db8c-b20a-4327-8001-f4a60a034b34"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-b3a5db8c-b20a-4327-8001-f4a60a034b34"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Modi corporis facilis quidem.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 05:21:06 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=gabger1620">Gabriele, Gerlach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">21.00 </span><span _ngcontent-aya-c3="" class="currency">wst </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-e928c7f0-30e0-4e57-a149-f41b09d8961a"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-e928c7f0-30e0-4e57-a149-f41b09d8961a"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quo ipsum dolorum velit saepe consequuntur.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 05:44:36 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=olidvan072">Olivia, Dussen van</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6945.00 </span><span _ngcontent-aya-c3="" class="currency">kpw </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-6e03afc0-d380-4c55-9319-23dda59e19a2"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-6e03afc0-d380-4c55-9319-23dda59e19a2"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Ipsam explicabo qui eveniet.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 07:54:50 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alb1021">Albina, Neureuther</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">139.00 </span><span _ngcontent-aya-c3="" class="currency">kyd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-1ed63b1b-4158-43a5-9553-3b3969776ef2"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-1ed63b1b-4158-43a5-9553-3b3969776ef2" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Rejected </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Facere numquam reprehenderit suscipit cupiditate reiciendis asperiores.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 07:59:58 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=frlan1267">Friedrich-Wilhelm, Langern</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8250.00 </span><span _ngcontent-aya-c3="" class="currency">mro </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-3d166482-1932-40f3-a96a-db2b72162f24" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approved</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-3d166482-1932-40f3-a96a-db2b72162f24"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Consequatur velit recusandae quam.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 08:34:25 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=lilhei1090">Lilli, Heintze</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6258.00 </span><span _ngcontent-aya-c3="" class="currency">shp </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-745869fa-dccb-4660-a043-28b7b9ae3a0d"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-745869fa-dccb-4660-a043-28b7b9ae3a0d" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Rejected </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Impedit facilis aliquid vel blanditiis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 10:28:22 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=clabon1331">Clarissa, Bonbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">7274.00 </span><span _ngcontent-aya-c3="" class="currency">bhd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-30dc7b09-4b5d-4a2f-a8a1-09b0f36c5ebe"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-30dc7b09-4b5d-4a2f-a8a1-09b0f36c5ebe" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Rejected </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Laboriosam natus veritatis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 10:42:22 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=rolfk1089">Rolf, Kühnert</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6077.00 </span><span _ngcontent-aya-c3="" class="currency">htg </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-0e6ed73d-57f8-4178-ad32-1235808ca7dd" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approved</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-0e6ed73d-57f8-4178-ad32-1235808ca7dd"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quam voluptatem optio in.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 10:55:17 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alexa0012">Alexa, Reising</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2534.00 </span><span _ngcontent-aya-c3="" class="currency">huf </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-49eeff26-62fc-411c-a02f-b64ae58448f7" disabled=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approved</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-49eeff26-62fc-411c-a02f-b64ae58448f7"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Officia aliquid enim quod quae.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sat Feb 01 2020, 11:22:17 PM </footer></div></div></app-widget></div></div></div></div><div _ngcontent-aya-c2="" class="mb-3"><div _ngcontent-aya-c2="" class="row mt-3"><div _ngcontent-aya-c2="" class="col"><div _ngcontent-aya-c2="" class="font-weight-bold expense_group_date"> 2 February 2020 </div></div></div><div _ngcontent-aya-c2="" class="row justify-content-center justify-content-md-start" id="2 February 2020"><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=igro1654">Ines, Gröttner</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">5377.00 </span><span _ngcontent-aya-c3="" class="currency">ltl </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-bc4c6801-f135-4cfd-ab88-999215b6a69c"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-bc4c6801-f135-4cfd-ab88-999215b6a69c"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quas perspiciatis facilis tenetur labore harum.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 00:53:55 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=gab06781">Gabriele, Gerlach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">6478.00 </span><span _ngcontent-aya-c3="" class="currency">kwd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-2c9b1501-034a-46af-81ad-b4f5ecadb051"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-2c9b1501-034a-46af-81ad-b4f5ecadb051"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Est praesentium alias officiis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 01:29:46 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=albneu1190">Albina, Neureuther</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2495.00 </span><span _ngcontent-aya-c3="" class="currency">sll </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-f9b126b0-ffbe-4873-81f0-bb0fafeec55e"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-f9b126b0-ffbe-4873-81f0-bb0fafeec55e"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Velit ab laborum corrupti distinctio praesentium cum quia.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 05:50:43 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=abdul1895">Abdul, Bolnbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">7068.00 </span><span _ngcontent-aya-c3="" class="currency">all </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-c4f53406-410f-4dce-87dd-119d465a487d"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-c4f53406-410f-4dce-87dd-119d465a487d"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Earum dolor beatae quam architecto ducimus.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 09:08:24 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alres1258">Alexa, Reising</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">3916.00 </span><span _ngcontent-aya-c3="" class="currency">cny </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-dbb04ad5-c896-42be-9596-0bd07ef0c6bd"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-dbb04ad5-c896-42be-9596-0bd07ef0c6bd"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quibusdam consequatur eum quod nostrum.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 10:42:45 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=albn1199">Albina, Neureuther</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">7647.00 </span><span _ngcontent-aya-c3="" class="currency">bbd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-f61e5f2f-3596-425c-9d3d-114dc8497963"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-f61e5f2f-3596-425c-9d3d-114dc8497963"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Qui reiciendis voluptates totam ab eligendi.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 12:49:46 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alida0018">Alida, Niemeier</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8568.00 </span><span _ngcontent-aya-c3="" class="currency">cny </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-bd82e97d-8d97-414b-affe-3911b17798b9"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-bd82e97d-8d97-414b-affe-3911b17798b9"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Quos deserunt aliquid doloribus beatae asperiores.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 01:06:03 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=eimer7610">Sibylle, Eimer</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2155.00 </span><span _ngcontent-aya-c3="" class="currency">bam </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-bbad5ce0-bb8d-459f-b2ce-7ab42deda8e6"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-bbad5ce0-bb8d-459f-b2ce-7ab42deda8e6"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Pariatur quas molestiae sint ducimus saepe.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 01:19:32 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=nie3910">Alida, Niemeier</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2261.00 </span><span _ngcontent-aya-c3="" class="currency">byr </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-602e798a-e9d8-40c2-9b9c-abc707910f51"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-602e798a-e9d8-40c2-9b9c-abc707910f51"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Illo pariatur pariatur optio modi repellat.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 01:43:59 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=albe00191">Albina, Neureuther</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2345.00 </span><span _ngcontent-aya-c3="" class="currency">cop </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-dcee1983-0edd-4fe3-9e0b-6a91764055c7"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-dcee1983-0edd-4fe3-9e0b-6a91764055c7"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Ea ipsum tenetur at vitae saepe.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 02:53:27 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alni10168">Alida, Niemeier</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">8240.00 </span><span _ngcontent-aya-c3="" class="currency">lrd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-1ad71dbb-5753-4fa2-98d0-afee10682210"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-1ad71dbb-5753-4fa2-98d0-afee10682210"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Cumque rerum maiores error cupiditate blanditiis.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 06:41:39 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=10273458">Abdul, Bolnbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">1114.00 </span><span _ngcontent-aya-c3="" class="currency">brl </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-2de51261-325b-4f8b-a90f-b1965bd2d968"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-2de51261-325b-4f8b-a90f-b1965bd2d968"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Delectus temporibus eveniet dolorem vero quia magnam.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 07:20:01 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=091110168">Clarissa, Bonbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">3573.00 </span><span _ngcontent-aya-c3="" class="currency">ils </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-fc2c52a1-05c2-47e2-a04d-035830eebf97"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-fc2c52a1-05c2-47e2-a04d-035830eebf97"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Atque unde nisi dolore iure fuga.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 08:52:30 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=0912168">Edelbert, van der Dussen</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">1571.00 </span><span _ngcontent-aya-c3="" class="currency">zwd </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-61ce0628-7562-43a5-9dd2-20e681ca2370"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-61ce0628-7562-43a5-9dd2-20e681ca2370"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Earum error animi occaecati modi odit cumque.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 09:09:56 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=11210168">Hans-Georg, Bärer</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">468.00 </span><span _ngcontent-aya-c3="" class="currency">tjs </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-ca739d44-0108-47c2-966f-a24b5ed21eaa"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-ca739d44-0108-47c2-966f-a24b5ed21eaa"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Maxime porro et ab hic facere maiores.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 10:30:03 PM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=981010168">Sebastian, Bien</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2013.00 </span><span _ngcontent-aya-c3="" class="currency">mvr </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-2f45973e-9ae3-41f8-938a-72b0df5be061"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-2f45973e-9ae3-41f8-938a-72b0df5be061"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Neque similique hic.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Sun Feb 02 2020, 10:33:47 PM </footer></div></div></app-widget></div></div></div></div><div _ngcontent-aya-c2="" class="mb-3"><div _ngcontent-aya-c2="" class="row mt-3"><div _ngcontent-aya-c2="" class="col"><div _ngcontent-aya-c2="" class="font-weight-bold expense_group_date"> 3 February 2020 </div></div></div><div _ngcontent-aya-c2="" class="row justify-content-center justify-content-md-start" id="3 February 2020"><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=1010168">Ines, Gröttner</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">893.00 </span><span _ngcontent-aya-c3="" class="currency">ggp </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-704a6ee6-b5d8-42e2-92f0-ad0094c5b187"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-704a6ee6-b5d8-42e2-92f0-ad0094c5b187"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Aperiam exercitationem nobis nobis dolor.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Mon Feb 03 2020, 02:06:58 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=56610168">Abdul, Bolnbach</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">2065.00 </span><span _ngcontent-aya-c3="" class="currency">sll </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-6bcf66eb-9761-4a7f-a9c1-b90ec6c014fd"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-6bcf66eb-9761-4a7f-a9c1-b90ec6c014fd"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Accusamus harum dicta hic qui odio.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Mon Feb 03 2020, 02:24:35 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=alni10128">Albina, Neureuther</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">245.00 </span><span _ngcontent-aya-c3="" class="currency">spl </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-513eb588-fb56-450a-8b4a-456b8afb4441"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-513eb588-fb56-450a-8b4a-456b8afb4441"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Reiciendis deleniti eligendi fuga deserunt.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Mon Feb 03 2020, 03:36:55 AM </footer></div></div></app-widget></div></div><div _ngcontent-aya-c2=""><div _ngcontent-aya-c2="" class="col mt-3" style="min-height: 120px"><app-widget _ngcontent-aya-c2="" _nghost-aya-c3="" ng-reflect-expense="[object Object]"><div _ngcontent-aya-c3="" class="card"><div _ngcontent-aya-c3="" class="card-header"><div _ngcontent-aya-c3="" class="row justify-content-around"><div _ngcontent-aya-c3="" class="col-7 pr-0"><div _ngcontent-aya-c3="" class="card-title title expense-emp-name">
+  <div _ngcontent-aya-c3=""><a href="/user_expenses?user=zb1213e">Zbigniew, Stolze</a></div></div><h6 _ngcontent-aya-c3="" class="card-subtitle mb-2 text-muted expense-amount"><span _ngcontent-aya-c3="">9453.00 </span><span _ngcontent-aya-c3="" class="currency">dkk </span></h6></div><div _ngcontent-aya-c3="" class="col-5 pl-0 pr-0"><button _ngcontent-aya-c3="" class="mr-1 btn expense-approve review float-right mb-2 btn-outline-success" ng-reflect-klass="mr-1 btn expense-approve revie" ng-reflect-ng-class="[object Object]" id="APPROVE-13851cd2-9c9d-412d-8fd1-65f99df176fb"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-check"></i> Approve</button><button _ngcontent-aya-c3="" class="btn mr-1 expense-reject review float-right btn-outline-danger" ng-reflect-klass="btn mr-1 expense-reject review" ng-reflect-ng-class="[object Object]" id="REJECT-13851cd2-9c9d-412d-8fd1-65f99df176fb"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><i _ngcontent-aya-c3="" aria-hidden="true" class="fa fa-ban"></i> Reject </button></div></div></div><div _ngcontent-aya-c3="" class="card-body d-inline-block pb-0"><div _ngcontent-aya-c3="" class="card-text expense-desc"><div _ngcontent-aya-c3="">Culpa eos officiis tempore.</div></div></div><div _ngcontent-aya-c3="" class="card-footer text-muted date_created p-1"><footer _ngcontent-aya-c3="" class="blockquote-footer float-right"> Mon Feb 03 2020, 03:42:29 AM </footer></div></div></app-widget></div></div></div></div></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-aya-c2=""><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div></div></app-expense></app-root>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule="" defer=""></script><script src="polyfills-es5.js" nomodule="" defer=""></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule="" defer=""></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule="" defer=""></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule="" defer=""></script>
+
+</body></html>
