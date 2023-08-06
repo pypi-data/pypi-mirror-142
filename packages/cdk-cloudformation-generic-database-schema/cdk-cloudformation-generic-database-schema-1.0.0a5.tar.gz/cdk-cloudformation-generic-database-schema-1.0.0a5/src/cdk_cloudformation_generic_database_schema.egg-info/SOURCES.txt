@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_generic_database_schema/__init__.py
+src/cdk_cloudformation_generic_database_schema/py.typed
+src/cdk_cloudformation_generic_database_schema.egg-info/PKG-INFO
+src/cdk_cloudformation_generic_database_schema.egg-info/SOURCES.txt
+src/cdk_cloudformation_generic_database_schema.egg-info/dependency_links.txt
+src/cdk_cloudformation_generic_database_schema.egg-info/requires.txt
+src/cdk_cloudformation_generic_database_schema.egg-info/top_level.txt
+src/cdk_cloudformation_generic_database_schema/_jsii/__init__.py
+src/cdk_cloudformation_generic_database_schema/_jsii/generic-database-schema@1.0.0-alpha.5.jsii.tgz
