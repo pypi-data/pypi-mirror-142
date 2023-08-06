@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sample-vvs14
+Version: 0.0.1
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Vivek Singh
+Author-email: vivekvsingh14@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+
+My first Python package with a slightly longer description
+
