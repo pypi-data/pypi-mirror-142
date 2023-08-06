@@ -1,0 +1,51 @@
+<!-- Customized Code Check for field: {{ field_name }}  -->
+    <div class="container border border-4 border-light report-section">
+        <p class="customized_filed_name">{{ field_name }}</p>
+        <p class="customized_filed_tag">Customized Profiler: Codes Check</p>
+        <div class="container" id="{{ field_name }}_field_customized_codes_check_summary_container">
+            <div class="row">
+                <div class="col border border-2 ">
+                    <table class="table table-hover" id="{{ field_name }}_field_customized_codes_check_summary_table">
+                        <tbody>
+                            <tr>
+                                <td style="width: 25%">Total Row Count#</td>
+                                <td>{{ total_row_count }}</td>
+                            </tr>
+                            <tr>
+                                <td>Null Row Count #</td>
+                                <td>{{ null_row_count }} / {{ null_row_count_percent | fmt_percent }}</td>
+                            </tr>
+                            <tr>
+                                <td>Unexpected Valued Row Count</td>
+                                <td>{{ unexpected_valued_row_count }} / {{ unexpected_valued_row_count_percent | fmt_percent }}</td>
+                            </tr>
+                            <tr>
+                                <td>Unexpected Codes Samples</td>
+                                <td>{{ expected_codes_samples }} </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="MyCode_field_customized_codes_check_config_container">
+            <div class="row ">
+                <div class="col-6 border border-2 ">
+                    <table class="table table-hover " id="MyCode_field_customized_codes_check_config_table" width="25% ">
+                        <tbody>
+                            <tr>
+                                <td>Config Expected Codes</td>
+                            </tr>
+
+                            {% for element in config_expected_codes %}
+                            <tr>
+                                <td>{{ element }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
