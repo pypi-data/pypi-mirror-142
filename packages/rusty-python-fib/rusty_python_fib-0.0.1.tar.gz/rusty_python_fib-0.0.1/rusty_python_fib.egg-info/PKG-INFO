@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rusty-python-fib
+Version: 0.0.1
+Summary: Calculates a fibonacci number
+Home-page: https://github.com/ergho/rusty-python-fib
+Author: Alexander Stenmark
+Author-email: alexstenmark92@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Provides-Extra: server
+License-File: LICENSE
+
+# rusty-python-fib
+

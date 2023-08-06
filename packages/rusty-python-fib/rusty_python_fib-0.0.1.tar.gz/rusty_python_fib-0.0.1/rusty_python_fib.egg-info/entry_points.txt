@@ -1,0 +1,3 @@
+[console_scripts]
+fib-number = rusty_python_fib.cmd.fib_numb:fib_numb
+
