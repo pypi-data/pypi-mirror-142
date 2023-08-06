@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pynamodb-factories
+Version: 0.1.1
+Summary: Fakers for Pynamo models, based on the very helpful pydantic-factories.
+Home-page: https://github.com/jenniferplusplus/pynamo-factories
+License: Apache-2.0
+Keywords: pynamod,pynamodb,fake,pynamodb-factories
+Author: Jennifer Moore
+Author-email: jenniferplusplus@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Faker (>=13.3.1,<14.0.0)
+Requires-Dist: pynamodb (>=4.3.0)
+Project-URL: Repository, https://github.com/jenniferplusplus/pynamo-factories
