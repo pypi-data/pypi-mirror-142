@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2016-2019, Leftshift One
+  ~ __________________
+  ~ [2019] Leftshift One
+  ~ All Rights Reserved.
+  ~ NOTICE:  All information contained herein is, and remains
+  ~ the property of Leftshift One and its suppliers,
+  ~ if any.  The intellectual and technical concepts contained
+  ~ herein are proprietary to Leftshift One
+  ~ and its suppliers and may be covered by Patents,
+  ~ patents in process, and are protected by trade secret or copyright law.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Leftshift One.
+  -->
+
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:arrow="http://www.x-and-y.ai/schema/bpmn/arrow"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+    <bpmn:process id="main_process" isExecutable="true">
+
+        <bpmn:startEvent id="main_startevent"/>
+        <bpmn:sequenceFlow sourceRef="main_startevent" targetRef="callActivity"/>
+
+        <bpmn:callActivity id="callActivity" calledElement="subprocess">
+            <bpmn:extensionElements>
+                <arrow:incomingState>
+                    <arrow:variable source="x" target="x1"/>
+                    <arrow:expression source="process.env.x + 5" target="x2"/>
+                </arrow:incomingState>
+                <arrow:outgoingState>
+                    <arrow:variable source="y" target="y1"/>
+                    <arrow:expression source="process.env.y * 2" target="y2"/>
+                </arrow:outgoingState>
+            </bpmn:extensionElements>
+        </bpmn:callActivity>
+
+        <bpmn:sequenceFlow sourceRef="callActivity" targetRef="main_endevent"/>
+        <bpmn:endEvent id="main_endevent"/>
+    </bpmn:process>
+
+    <bpmn:process id="subprocess" isExecutable="true">
+        <bpmn:startEvent id="sub_startevent">
+            <bpmn:outgoing>startevent_manualTask</bpmn:outgoing>
+        </bpmn:startEvent>
+        <bpmn:sequenceFlow sourceRef="sub_startevent" targetRef="task"/>
+
+        <bpmn:scriptTask id="task" scriptFormat="javascript" arrow:varName="y">
+            <bpmn:script>
+                process.env.x1 * 3 / 2
+            </bpmn:script>
+        </bpmn:scriptTask>
+
+        <bpmn:sequenceFlow sourceRef="task" targetRef="sub_endevent"/>
+        <bpmn:endEvent id="sub_endevent" />
+    </bpmn:process>
+</bpmn:definitions>
