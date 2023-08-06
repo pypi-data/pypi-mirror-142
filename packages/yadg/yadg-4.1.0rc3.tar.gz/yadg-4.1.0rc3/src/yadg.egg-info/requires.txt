@@ -1,0 +1,15 @@
+numpy
+scipy
+pint
+uncertainties
+striprtf
+tzlocal
+python-dateutil
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+
+[testing]
+pytest
