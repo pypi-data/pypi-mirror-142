@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Gauss/MetGauss.py
+Gauss/__init__.py
+Metodo_GaussJordan.egg-info/PKG-INFO
+Metodo_GaussJordan.egg-info/SOURCES.txt
+Metodo_GaussJordan.egg-info/dependency_links.txt
+Metodo_GaussJordan.egg-info/requires.txt
+Metodo_GaussJordan.egg-info/top_level.txt
