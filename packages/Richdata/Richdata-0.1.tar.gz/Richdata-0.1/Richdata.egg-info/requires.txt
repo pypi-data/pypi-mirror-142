@@ -1,0 +1,8 @@
+pandas
+
+[postgres]
+SQLAlchemy
+psycopg2-binary
+
+[sqlserver]
+pyodbc
