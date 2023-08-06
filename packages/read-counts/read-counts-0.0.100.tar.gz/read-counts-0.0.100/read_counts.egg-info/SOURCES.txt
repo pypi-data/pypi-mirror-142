@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+read_counts/__init__.py
+read_counts/maths.py
+read_counts.egg-info/PKG-INFO
+read_counts.egg-info/SOURCES.txt
+read_counts.egg-info/dependency_links.txt
+read_counts.egg-info/requires.txt
+read_counts.egg-info/top_level.txt
