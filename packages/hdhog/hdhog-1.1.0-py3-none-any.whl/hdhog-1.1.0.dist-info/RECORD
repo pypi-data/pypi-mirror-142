@@ -1,0 +1,14 @@
+hdhog/CHANGES.txt,sha256=_VE1MQajK9f-jVSAmaF0jrH0m3tdfgM24DMUN83knYM,470
+hdhog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdhog/catalogue.py,sha256=vqztiMpH3ObfDQiK2NBR10ruFKjJgnM6DaENREAT4Qs,4458
+hdhog/container.py,sha256=Bgb6l5_CvgzYQUzgdgwb5l5e8YaKGYnrcrCGDMtsPOQ,4148
+hdhog/fsaction.py,sha256=hvlj1R1RF2WPIx1CHgxerx-F3B7uqu0mU_iRRSeyN1A,1289
+hdhog/gui.py,sha256=aGF5U7kizmknQfyDc7xM9vwVcZT_y9rOK7UjWIQHROM,12848
+hdhog/logger.py,sha256=7igyKfgdxvtPzx6wsS_LFW_0PhB6Q0YMlB0B-b7tzfk,251
+hdhog/tree.py,sha256=Xn8181hX9VzETYxdTdfKO2XiUZid-gGfIU83cxKZqWA,7368
+hdhog-1.1.0.data/scripts/hdhog,sha256=uG-LaKmGg5IfYh9fB9t0VnAPy0XG-meCQaZG_hM7aIw,118
+hdhog-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hdhog-1.1.0.dist-info/METADATA,sha256=6iEXfuWG3HWZKSg8Fa0R7_b3ogxbKek9F6ykRyQLvog,3331
+hdhog-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hdhog-1.1.0.dist-info/top_level.txt,sha256=FwnWUQmAl8lvsyTM6wXjATurQtepYXZxi726myHWhrg,6
+hdhog-1.1.0.dist-info/RECORD,,
