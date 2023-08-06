@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-package-plaw
+Version: 0.0.3
+Summary: Example to package code
+Home-page: https://github.com/pjlaw/python-package-plaw
+Author: Philip Law
+Author-email: philip.law@icr.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+### python-packaging-at
+
+Python code packaging demo
+
+## This is a test
+What does this package do?
+
