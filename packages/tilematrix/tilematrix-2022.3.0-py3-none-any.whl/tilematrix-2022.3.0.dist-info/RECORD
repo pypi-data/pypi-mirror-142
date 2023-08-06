@@ -1,0 +1,15 @@
+tilematrix/__init__.py,sha256=HMv0A2mKnOu2iAtN8YRZovydRFVy-JzzEGgQeyBq2OY,520
+tilematrix/_conf.py,sha256=RVQ-pk5YB07SIE6UammaMfB04-qR_8BVje-gwfSBDs0,726
+tilematrix/_funcs.py,sha256=W3vuEeVORg3oDonI0RVUs5v7N8He4a-HVKXYcYi6ofI,9594
+tilematrix/_grid.py,sha256=GxMvWf2V6qiLOLBJmoLrQ8AAv8XGprVfIPfRMH-XJwo,3717
+tilematrix/_tile.py,sha256=ASKCPkMeiDDmoFPHw6V4I331SyGsuzzEfh7fnhG_dAE,9837
+tilematrix/_tilepyramid.py,sha256=Bfh-lHuAAfz5ESl6xIk7irTPakwjkgSUeLUMwqlkfdg,10959
+tilematrix/_types.py,sha256=nPiLHdJMvA4qEbWlR34__LYPUqkoSksrAKkzYRZ4ZKg,188
+tilematrix/tmx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tilematrix/tmx/main.py,sha256=dtPwBv3X14KKH1X4yK8lwxwHxeCQp4K1RP-pGGyW3M8,6049
+tilematrix-2022.3.0.dist-info/LICENSE,sha256=wciQtsvQNNmQkVHncE5k1lhOhRaXVGQ-CzzmpXqJHaY,1094
+tilematrix-2022.3.0.dist-info/METADATA,sha256=naDSU8kyatmVTb1Z8XZVHvWfUVGo6hnCVbX7-RzPKjE,5468
+tilematrix-2022.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tilematrix-2022.3.0.dist-info/entry_points.txt,sha256=wdWJJIe5Jz2PT0ifzERA_KsYRdmz_XK8cHGH5Yd-WGA,49
+tilematrix-2022.3.0.dist-info/top_level.txt,sha256=zpMT3RzC_Ru84altd65zWlDuJCcsapPzLkZjUdzGkYc,11
+tilematrix-2022.3.0.dist-info/RECORD,,
