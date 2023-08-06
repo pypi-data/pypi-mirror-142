@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flameplot/__init__.py
+flameplot/examples.py
+flameplot/flameplot.py
+flameplot.egg-info/PKG-INFO
+flameplot.egg-info/SOURCES.txt
+flameplot.egg-info/dependency_links.txt
+flameplot.egg-info/requires.txt
+flameplot.egg-info/top_level.txt
