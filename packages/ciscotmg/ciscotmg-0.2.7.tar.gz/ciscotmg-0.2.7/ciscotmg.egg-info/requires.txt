@@ -1,0 +1,4 @@
+requests==2.27.1
+click==8.0.3
+rich==11.2.0
+rich-click==1.0.0
