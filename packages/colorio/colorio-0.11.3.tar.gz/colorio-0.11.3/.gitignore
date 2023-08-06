@@ -1,0 +1,16 @@
+*.pyc
+*.swp
+*.prof
+*.vtk
+*.vtu
+MANIFEST
+README.rst
+dist/
+build/
+.coverage
+.cache/
+*.egg-info/
+.pytest_cache/
+*.png
+coverage.xml
+.tox/
