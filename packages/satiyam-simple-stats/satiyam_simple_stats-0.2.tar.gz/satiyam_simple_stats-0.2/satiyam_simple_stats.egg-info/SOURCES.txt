@@ -1,0 +1,10 @@
+setup.py
+satiyam_simple_stats/Binomialdistribution.py
+satiyam_simple_stats/Gaussiandistribution.py
+satiyam_simple_stats/Generaldistribution.py
+satiyam_simple_stats/__init__.py
+satiyam_simple_stats.egg-info/PKG-INFO
+satiyam_simple_stats.egg-info/SOURCES.txt
+satiyam_simple_stats.egg-info/dependency_links.txt
+satiyam_simple_stats.egg-info/not-zip-safe
+satiyam_simple_stats.egg-info/top_level.txt
