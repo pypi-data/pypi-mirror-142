@@ -1,0 +1,2 @@
+[console_scripts]
+dismod = dismod.main:main
