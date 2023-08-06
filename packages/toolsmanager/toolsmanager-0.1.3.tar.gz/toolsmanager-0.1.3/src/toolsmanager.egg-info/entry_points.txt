@@ -1,0 +1,3 @@
+[console_scripts]
+toolsmanager = toolsmanager.__main__:main
+

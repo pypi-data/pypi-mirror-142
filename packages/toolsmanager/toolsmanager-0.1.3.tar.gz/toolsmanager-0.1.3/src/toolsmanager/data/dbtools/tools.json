@@ -1,0 +1,178 @@
+[
+  {
+    "name": "pidcat",
+    "tasks": [
+        {"task": "git", "repo": "JakeWharton/pidcat"},
+        {"task": "bin", "executables": "pidcat.py:pidcat"}
+    ]
+  },
+  {
+    "name": "enum4linux",
+    "tasks": [
+        {"task": "git", "repo": "CiscoCXSecurity/enum4linux"},
+        {"task": "bin", "executables": "enum4linux.pl:enum4linux"}
+    ]
+  },
+  {
+    "name": "sqlmap",
+    "tasks": [
+        {"task": "git", "repo": "sqlmapproject/sqlmap"},
+        {"task": "bin", "executables": "sqlmap.py:sqlmap"}
+    ]
+  },
+  {
+    "name": "nikto",
+    "tasks": [
+        {"task": "git", "repo": "sullo/nikto"},
+        {"task": "bin", "executables": "program/nikto.pl:nikto"}
+    ]
+  },
+  {
+    "name": "testssl",
+    "tasks": [
+        {"task": "git", "repo": "drwetter/testssl.sh"},
+        {"task": "bin", "executables": "testssl.sh:testssl"}
+    ]
+  },
+  {
+    "name": "exploitdb",
+    "tasks": [
+        {"task": "git", "repo": "offensive-security/exploitdb"},
+        {"task": "bin", "executables": "searchsploit"}
+    ]
+  },
+  {
+    "name": "tree",
+    "tasks": [
+        {"task": "apt", "toolname": "tree"}
+    ]
+  },
+  {
+    "name": "mobsf",
+    "tasks": [
+        {"task": "git", "repo": "MobSF/Mobile-Security-Framework-MobSF"},
+        {"task": "bash", "path": "setup.sh"},
+        {"task": "bin", "executables": "run.sh:mobsf"}
+    ]
+  },
+  {
+    "name": "discord",
+    "tasks": [
+      {"task": "snap", "toolname": "discord"}
+    ]
+  },
+  {
+    "name": "windapsearch",
+    "deps": ["python3-ldap"],
+    "tasks": [
+      {"task": "git", "repo": "ropnop/windapsearch"},
+      {"task": "bin", "executables": "windapsearch.py:windapsearch"}
+    ]
+  },
+  {
+    "name": "python3-ldap",
+    "tasks": [
+      {"task": "apt", "toolname": "python3-ldap"}
+    ]
+  },
+  {
+    "name": "go-windapsearch",
+    "tasks": [
+      {"task": "git", "repo": "ropnop/go-windapsearch"},
+      {"task": "mage"},
+      {"task": "bin", "executables": "windapsearch:go-windapsearch"}
+    ]
+  },
+  {
+    "name": "linuxprivchecker",
+    "tasks": [
+      {"task": "git", "repo": "sleventyeleven/linuxprivchecker"},
+      {"task": "www", "path": "linuxprivchecker.py"}
+    ]
+  },
+  {
+    "name": "linenum",
+    "tasks": [
+      {"task": "git", "repo": "rebootuser/LinEnum"},
+      {"task": "www", "path": "LinEnum.sh"}
+    ]
+  },
+  {
+    "name": "nishang",
+    "tasks": [
+      {"task": "git", "repo": "samratashok/nishang"}
+    ]
+  },
+  {
+    "name": "jaws",
+    "tasks": [
+      {"task": "git", "repo": "411Hall/JAWS"},
+      {"task": "www", "path": "jaws-enum.ps1"}
+    ]
+  },
+  {
+    "name": "unicorn",
+    "tasks": [
+      {"task": "git", "repo": "trustedsec/unicorn"},
+      {"task": "bin", "executables": "unicorn.py:unicorn"}
+    ]
+  },
+  {
+    "name": "enyx",
+    "tasks": [
+      {"task": "git", "repo": "trickster0/Enyx"},
+      {"task": "bin", "executables": "enyx.py:enyx"}
+    ]
+  },
+  {
+    "name": "b374k",
+    "tasks": [
+      {"task": "git", "repo": "b374k/b374k"}
+    ]
+  },
+  {
+    "name": "username-anarchy",
+    "tasks": [
+      {"task": "git", "repo": "urbanadventurer/username-anarchy"},
+      {"task": "bin", "executables": "username-anarchy", "fromdir": true}
+    ]
+  },
+   {
+    "name": "go",
+    "tasks": [
+      {"task": "snap", "toolname": "go", "classic": true},
+      {"task": "shrc", "content": "export GOROOT=/usr/lib/go\nexport GOPATH=$HOME/go\nexport PATH=$PATH:$GOROOT/bin:$GOPATH/bin"}
+    ]
+  },
+  {
+    "name": "mage",
+    "tasks": [
+      {"task": "git", "repo": "magefile/mage"},
+      {"task": "go", "args": ["run", "bootstarp.go"]}
+    ]
+  },
+  {
+    "name": "git",
+    "tasks": [
+      {"task": "apt", "toolname": "git"}
+    ]
+  },
+  {
+    "name": "apt"
+  },
+  {
+    "name": "bin"
+  },
+  {
+    "name": "shrc"
+  },
+  {
+    "name": "snap"
+  },
+  {
+    "name":"bash"
+  },
+  {
+    "name": "www"
+  }
+]
