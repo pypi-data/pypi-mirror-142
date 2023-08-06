@@ -1,0 +1,6 @@
+apache-airflow>=2.1.0rc1
+celery>=5.1.2,~=5.1
+celery>=5.2.3
+flower>=1.0.0
+gitpython
+wheel
