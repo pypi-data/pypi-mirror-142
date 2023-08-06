@@ -1,0 +1,7 @@
+pillow==9.0.1
+
+[cpu]
+tensorflow==2.4.4
+
+[gpu]
+tensorflow-gpu==2.4.4

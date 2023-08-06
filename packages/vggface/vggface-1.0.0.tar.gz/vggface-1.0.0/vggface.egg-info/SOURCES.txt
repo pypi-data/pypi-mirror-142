@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vggface/__init__.py
+vggface/utils.py
+vggface/vggface.py
+vggface.egg-info/PKG-INFO
+vggface.egg-info/SOURCES.txt
+vggface.egg-info/dependency_links.txt
+vggface.egg-info/requires.txt
+vggface.egg-info/top_level.txt
+vggface/resnet50/__init__.py
+vggface/resnet50/layers.py
+vggface/resnet50/resnet50.py
