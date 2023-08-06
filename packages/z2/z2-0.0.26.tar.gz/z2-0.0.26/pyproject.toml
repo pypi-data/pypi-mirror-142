@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "z2"
+version = "0.0.26"
+description = "A set of tools"
+authors = ["Mike Pennington <mike@pennington.net>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/mpenning/z2/"
+documentation = "http://www.pennington.net/py/z2/"
+keywords = ["tool"]
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Plugins",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+ciscoconfparse = ">=1.6.0"
+loguru = "0.6.0"
+toml = "0.10.2"
+sh = ">=1.14"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.5"
+pre-commit = "2.12.0"
+black = ">=20.8b1"
+Sphinx = "^4.3.0"
+sphinx-bootstrap-theme = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "wheel>=0.37.0",]
+build-backend = "poetry.core.masonry.api"
