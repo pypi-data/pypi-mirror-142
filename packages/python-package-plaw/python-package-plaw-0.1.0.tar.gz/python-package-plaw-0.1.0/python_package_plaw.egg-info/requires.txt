@@ -1,0 +1,9 @@
+pandas
+
+[dev]
+bump2version
+pytest
+pre-commit
+black
+mypy
+flake8
