@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: triex
+Version: 0.1.2
+Summary: An Interactive Trie CLI
+Keywords: trie,cli
+Author: Ashwin Sriram
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# CLI Server
