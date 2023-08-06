@@ -1,0 +1,10 @@
+dblog/__init__.py,sha256=gqouq6ax_6uS4z4Eb1QlDKXVjjHD-mGHTlvBownpgEI,229
+dblog/admin.py,sha256=2-HuTRcTNnM-OW5Vphar0bLpppKE9h5RAxY3XHANpNE,1930
+dblog/apps.py,sha256=xbXeJc51BN2vTpbOCsbEPERmQCdCJVjIpu0huit1Q38,114
+dblog/handlers.py,sha256=k17yZecCEArwOLpm0Fv3TC2cv9RNPbbOY_5B9l3O4jk,898
+dblog/models.py,sha256=dO5ynioK5Qv_i5gyRXBxY9rWCWQBoq0pBJFNwdSG6Kw,749
+django_dblog-0.3.0.dist-info/LICENSE,sha256=oHbUyV1R9_XM6IR1TmiKZIKtPYs6tkaArGJ_DDlP63E,557
+django_dblog-0.3.0.dist-info/METADATA,sha256=VGvuug3CZdUGKvkfrltScgYA2Fkj5QfyYOvK7CMeziM,2951
+django_dblog-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_dblog-0.3.0.dist-info/top_level.txt,sha256=fkBbXCebjLrg0P1zTiPDk4Ks4WXX2kfjzrbvQojoaak,6
+django_dblog-0.3.0.dist-info/RECORD,,
