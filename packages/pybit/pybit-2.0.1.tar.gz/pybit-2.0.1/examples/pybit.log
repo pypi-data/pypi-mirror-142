@@ -1,0 +1,343 @@
+2022-03-08 16:47:20,641 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-08 16:47:20,642 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-08 16:47:21,648 DEBUG WebSocket Spot closed.
+2022-03-08 16:47:21,648 DEBUG WebSocket Spot opened.
+2022-03-08 16:47:21,854 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-08 16:47:21,857 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-08 16:47:21,857 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-08 16:50:07,858 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-08 16:50:07,858 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-08 16:50:08,883 DEBUG WebSocket Spot closed.
+2022-03-08 16:50:08,883 DEBUG WebSocket Spot opened.
+2022-03-08 16:50:09,072 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-08 16:50:09,080 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-08 16:50:09,080 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 11:24:38,986 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 11:24:38,987 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 11:24:39,993 DEBUG WebSocket Spot closed.
+2022-03-09 11:24:39,993 DEBUG WebSocket Spot opened.
+2022-03-09 11:24:40,178 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 11:24:40,183 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 11:24:40,183 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 11:47:55,497 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:47:55,498 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:47:56,504 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:47:56,504 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:47:56,699 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:56,707 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:47:56,741 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:56,900 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:57,121 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:57,141 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:57,511 DEBUG WebSocket Spot closed.
+2022-03-09 11:47:57,511 DEBUG WebSocket Spot opened.
+2022-03-09 11:47:57,730 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 11:47:57,730 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 11:47:57,918 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:47:57,940 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x103842c10>: string indices must be integers
+2022-03-09 11:49:45,539 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:49:45,539 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:49:46,543 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:49:46,544 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:49:46,735 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c017c10>: string indices must be integers
+2022-03-09 11:49:46,743 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c017c10>: string indices must be integers
+2022-03-09 11:49:46,743 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:49:47,212 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c017c10>: string indices must be integers
+2022-03-09 11:50:10,928 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:50:10,928 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:50:11,933 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:50:11,933 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:50:12,117 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,121 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,122 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,123 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,124 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,125 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,126 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,127 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,127 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,127 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:50:12,188 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,216 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,340 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,544 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,701 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,725 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,744 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,908 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:50:12,940 DEBUG WebSocket Spot closed.
+2022-03-09 11:50:12,940 DEBUG WebSocket Spot opened.
+2022-03-09 11:50:13,089 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x109d01c10>: string indices must be integers
+2022-03-09 11:53:27,657 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:53:27,657 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:53:28,664 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:53:28,665 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:53:28,859 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:28,867 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:28,867 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:53:29,671 DEBUG WebSocket Spot closed.
+2022-03-09 11:53:29,671 DEBUG WebSocket Spot opened.
+2022-03-09 11:53:29,860 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 11:53:29,860 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 11:53:30,163 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:30,269 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:30,696 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:30,698 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:30,714 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:53:31,004 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1026a7c10>: string indices must be integers
+2022-03-09 11:54:39,924 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:54:39,924 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:54:40,930 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:54:40,930 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:54:41,121 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:54:41,125 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:54:41,125 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:54:41,126 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:54:41,126 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:54:41,438 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:54:41,496 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x104ec0c10>: string indices must be integers
+2022-03-09 11:55:13,951 DEBUG WebSocket USDT Perp closed.
+2022-03-09 11:55:13,951 DEBUG WebSocket USDT Perp opened.
+2022-03-09 11:55:14,955 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 11:55:14,956 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 11:55:15,151 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:15,157 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 11:55:15,656 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:15,855 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:15,961 DEBUG WebSocket Spot closed.
+2022-03-09 11:55:15,962 DEBUG WebSocket Spot opened.
+2022-03-09 11:55:16,147 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 11:55:16,147 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 11:55:16,318 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:16,338 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:16,382 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:16,514 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:16,657 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:16,833 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 11:55:17,014 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10588cc10>: string indices must be integers
+2022-03-09 12:03:06,068 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:03:06,069 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:03:07,075 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:03:07,075 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:03:07,263 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,271 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,272 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,273 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,274 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,275 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,277 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,279 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,280 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,281 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,282 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,283 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,285 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,286 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,288 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:07,288 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 12:03:08,083 DEBUG WebSocket Spot closed.
+2022-03-09 12:03:08,084 DEBUG WebSocket Spot opened.
+2022-03-09 12:03:08,162 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10c125c10>: string indices must be integers
+2022-03-09 12:03:08,273 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:03:08,273 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:05:15,722 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:05:15,723 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:05:16,729 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:05:16,729 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:05:16,917 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,922 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,923 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,924 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,925 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,927 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,928 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,929 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,930 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,932 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,933 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10bff5c10>: string indices must be integers
+2022-03-09 12:05:16,934 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 12:05:17,737 DEBUG WebSocket Spot closed.
+2022-03-09 12:05:17,737 DEBUG WebSocket Spot opened.
+2022-03-09 12:05:17,931 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:05:17,931 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:06:09,066 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:06:09,066 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:06:10,072 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:06:10,072 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:06:10,269 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:10,276 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 12:06:10,461 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:11,000 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:11,078 DEBUG WebSocket Spot closed.
+2022-03-09 12:06:11,079 DEBUG WebSocket Spot opened.
+2022-03-09 12:06:11,124 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:11,158 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:11,167 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:11,268 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:06:11,268 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:06:11,840 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:12,015 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:12,173 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:12,177 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:06:12,200 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1109aac10>: string indices must be integers
+2022-03-09 12:07:05,283 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:07:05,283 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:07:06,286 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:07:06,287 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:07:06,493 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 12:07:07,292 DEBUG WebSocket Spot closed.
+2022-03-09 12:07:07,293 DEBUG WebSocket Spot opened.
+2022-03-09 12:07:07,476 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:07:07,476 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:07:19,831 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:07:19,831 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:07:20,838 DEBUG WebSocket Spot closed.
+2022-03-09 12:07:20,838 DEBUG WebSocket Spot opened.
+2022-03-09 12:07:21,020 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:07:21,026 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: list indices must be integers or slices, not str
+2022-03-09 12:07:21,036 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,037 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,038 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,039 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:07:21,040 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:07:21,391 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,416 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,533 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,572 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,691 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:21,852 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1083d64c0>: 
+2022-03-09 12:07:44,666 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:07:44,666 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:07:45,672 DEBUG WebSocket Spot closed.
+2022-03-09 12:07:45,673 DEBUG WebSocket Spot opened.
+2022-03-09 12:07:45,868 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:07:45,873 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:07:45,873 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:07:58,563 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:07:58,564 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:07:59,569 DEBUG WebSocket Spot closed.
+2022-03-09 12:07:59,569 DEBUG WebSocket Spot opened.
+2022-03-09 12:07:59,757 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:07:59,761 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1041b04c0>: list indices must be integers or slices, not str
+2022-03-09 12:07:59,766 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1041b04c0>: 
+2022-03-09 12:07:59,767 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:07:59,767 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:08:01,159 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1041b04c0>: 
+2022-03-09 12:08:12,470 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:08:12,470 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:08:13,475 DEBUG WebSocket Spot closed.
+2022-03-09 12:08:13,475 DEBUG WebSocket Spot opened.
+2022-03-09 12:08:13,660 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:08:13,663 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1022b64c0>: list indices must be integers or slices, not str
+2022-03-09 12:08:13,671 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1022b64c0>: 
+2022-03-09 12:08:13,671 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:08:13,672 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:08:15,214 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1022b64c0>: 
+2022-03-09 12:08:33,899 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:08:33,899 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:08:34,905 DEBUG WebSocket Spot closed.
+2022-03-09 12:08:34,905 DEBUG WebSocket Spot opened.
+2022-03-09 12:08:35,092 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:08:35,094 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: list indices must be integers or slices, not str
+2022-03-09 12:08:35,099 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,100 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,100 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,101 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,101 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,102 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,103 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:08:35,103 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:08:35,103 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,117 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,265 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,847 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,861 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,926 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,945 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,963 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:35,998 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:36,072 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:08:37,160 ERROR error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x10a1674c0>: 
+2022-03-09 12:10:24,340 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:10:24,340 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:10:25,344 DEBUG WebSocket Spot closed.
+2022-03-09 12:10:25,344 DEBUG WebSocket Spot opened.
+2022-03-09 12:10:25,533 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:10:25,538 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:10:25,539 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:10:50,824 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-09 12:10:50,824 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-09 12:10:51,829 DEBUG WebSocket Spot closed.
+2022-03-09 12:10:51,829 DEBUG WebSocket Spot opened.
+2022-03-09 12:10:52,029 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:10:52,034 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-09 12:10:52,034 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:10:58,366 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:10:58,366 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:10:59,372 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:10:59,372 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:10:59,560 ERROR Couldn't subscribe to topic.Error: error:handler not found.
+2022-03-09 12:11:00,377 DEBUG WebSocket Spot closed.
+2022-03-09 12:11:00,377 DEBUG WebSocket Spot opened.
+2022-03-09 12:11:00,605 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:11:00,606 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-09 12:11:04,035 DEBUG WebSocket USDT Perp closed.
+2022-03-09 12:11:04,035 DEBUG WebSocket USDT Perp opened.
+2022-03-09 12:11:05,038 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-03-09 12:11:05,039 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-03-09 12:11:05,234 DEBUG Subscription to ['orderBookL2_25.BTCUSDT'] successful.
+2022-03-09 12:11:06,045 DEBUG WebSocket Spot closed.
+2022-03-09 12:11:06,045 DEBUG WebSocket Spot opened.
+2022-03-09 12:11:06,234 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-03-09 12:11:06,235 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:19:41,082 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:19:41,083 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:19:42,088 DEBUG WebSocket Spot closed.
+2022-03-17 09:19:42,088 DEBUG WebSocket Spot opened.
+2022-03-17 09:19:42,353 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:19:42,357 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-17 09:19:42,358 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:20:23,032 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:20:23,032 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:20:24,040 DEBUG WebSocket Spot closed.
+2022-03-17 09:20:24,040 DEBUG WebSocket Spot opened.
+2022-03-17 09:20:24,222 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:20:24,229 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-17 09:20:24,229 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:26:23,345 DEBUG WebSocket Spot (Auth) closed.
+2022-03-17 09:26:23,345 DEBUG WebSocket Spot (Auth) opened.
+2022-03-17 09:28:51,246 DEBUG WebSocket Spot (Auth) closed.
+2022-03-17 09:28:51,246 DEBUG WebSocket Spot (Auth) opened.
+2022-03-17 09:28:52,520 DEBUG Authorization for Spot (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:30:10,683 DEBUG WebSocket Spot (Auth) closed.
+2022-03-17 09:30:10,684 DEBUG WebSocket Spot (Auth) opened.
+2022-03-17 09:30:11,872 DEBUG Authorization for Spot (Auth) successful.
+2022-03-17 09:33:45,497 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:33:45,497 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:33:46,501 DEBUG WebSocket Spot closed.
+2022-03-17 09:33:46,501 DEBUG WebSocket Spot opened.
+2022-03-17 09:33:46,699 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:33:46,705 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-17 09:33:46,706 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:33:55,251 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:33:55,251 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:33:56,255 DEBUG WebSocket Spot closed.
+2022-03-17 09:33:56,256 DEBUG WebSocket Spot opened.
+2022-03-17 09:33:56,455 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:33:56,458 DEBUG Subscription to ['orderBookL2_25.BTCUSD'] successful.
+2022-03-17 09:33:56,458 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:34:11,174 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:34:11,174 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:34:12,383 DEBUG Authorization for Inverse Perp (Auth) failed. Please check your API keys and restart.
+2022-03-17 09:34:12,384 ERROR Couldn't subscribe to topic.Error: error:topic:position needs auth first.
+2022-03-17 09:34:29,761 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:34:29,761 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:34:31,013 DEBUG Authorization for Inverse Perp (Auth) successful.
+2022-03-17 09:34:31,013 DEBUG Subscription to ['position'] successful.
+2022-03-17 09:34:54,316 DEBUG WebSocket Inverse Perp (Auth) closed.
+2022-03-17 09:34:54,316 DEBUG WebSocket Inverse Perp (Auth) opened.
+2022-03-17 09:34:55,324 DEBUG WebSocket Spot (Auth) closed.
+2022-03-17 09:34:55,324 DEBUG WebSocket Spot (Auth) opened.
+2022-03-17 09:34:55,516 DEBUG Authorization for Inverse Perp (Auth) successful.
+2022-03-17 09:34:55,517 DEBUG Subscription to ['position'] successful.
+2022-03-17 09:34:56,539 DEBUG Authorization for Spot (Auth) successful.
