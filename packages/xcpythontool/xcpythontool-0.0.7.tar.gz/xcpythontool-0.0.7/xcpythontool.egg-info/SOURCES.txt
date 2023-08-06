@@ -1,0 +1,8 @@
+README.md
+setup.py
+xcpythontool/__init__.py
+xcpythontool/playGame.py
+xcpythontool.egg-info/PKG-INFO
+xcpythontool.egg-info/SOURCES.txt
+xcpythontool.egg-info/dependency_links.txt
+xcpythontool.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+from xcpythontool import playGame
