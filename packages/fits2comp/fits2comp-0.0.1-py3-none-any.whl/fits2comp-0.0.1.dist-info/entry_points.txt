@@ -1,0 +1,2 @@
+[console_scripts]
+fits2comp = fits2comp.__main__:main
