@@ -1,0 +1,6 @@
+aiohttp
+loguru
+requests
+setuptools
+websocket-client==0.57.0
+websockets
