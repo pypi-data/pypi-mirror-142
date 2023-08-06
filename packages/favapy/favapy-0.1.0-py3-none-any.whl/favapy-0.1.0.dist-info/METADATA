@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: favapy
+Version: 0.1.0
+Summary: Infer Functional Associations using Variational Autoencoders on -Omics data.
+Home-page: https://github.com/mikelkou/VAE_Functional_associations
+Author: Mikaela Koutrouli
+Author-email: mikaela.koutrouli@cpr.ku.dk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mikelkou/VAE_Functional_associations/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow (>=2)
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# VAE_Functional_associations
+
+
