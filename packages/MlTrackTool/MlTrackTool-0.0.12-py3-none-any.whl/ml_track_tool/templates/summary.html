@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+
+<body>
+    <h1 class="heading">Experiments Summary</h1>
+
+
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    {% for graphJSON in graphJSONs %}
+    <div id={{graphJSON[0]}} class='chart'></div>
+    <script type='text/javascript'>
+        var graph1 = {{ graphJSON[1] | safe}};
+        Plotly.plot({{ graphJSON[0]}}, graph1, {});
+
+
+    </script>
+    {% endfor %}
+</body>
+
+</html>
