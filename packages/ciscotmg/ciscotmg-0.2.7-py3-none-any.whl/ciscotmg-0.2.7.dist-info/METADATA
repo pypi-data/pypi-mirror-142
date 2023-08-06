@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ciscotmg
+Version: 0.2.7
+Summary: Private Python SDK for Cisco TMG APIs
+Home-page: https://github.com/robertcsapo/ciscotmg
+Author: Robert Csapo
+Author-email: rcsapo@cisco.com
+License: MIT; Copyright (c) 2022 Cisco Systems, Inc.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: rich (==11.2.0)
+Requires-Dist: rich-click (==1.0.0)
+
+# ciscotmg
+
+
