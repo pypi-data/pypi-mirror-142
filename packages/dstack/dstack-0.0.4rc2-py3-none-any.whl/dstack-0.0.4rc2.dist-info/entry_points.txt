@@ -1,0 +1,2 @@
+[console_scripts]
+dstack = dstack.cli.main:main
