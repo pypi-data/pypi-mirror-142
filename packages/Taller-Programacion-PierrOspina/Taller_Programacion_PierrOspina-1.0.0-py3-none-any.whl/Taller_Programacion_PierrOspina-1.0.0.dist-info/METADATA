@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Taller-Programacion-PierrOspina
+Version: 1.0.0
+Summary: Trabajo y manejo de matrices con operaciones basicas en phyton con el lenguaje numpy
+Home-page: https://github.com/FadeFruit/RepositorioProgramacionII
+Download-URL: https://github.com/FadeFruit/RepositorioProgramacionII
+Author: Jean Pierr Ospina
+Author-email: 
+License: MIT
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# RepositorioProgramacionII
+Usando operaciones basicas para entender como funcionan las matrices
+
+
