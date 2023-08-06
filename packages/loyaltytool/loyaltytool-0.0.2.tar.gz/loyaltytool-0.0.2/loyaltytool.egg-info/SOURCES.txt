@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+loyaltytool/__init__.py
+loyaltytool/tool.py
+loyaltytool.egg-info/PKG-INFO
+loyaltytool.egg-info/SOURCES.txt
+loyaltytool.egg-info/dependency_links.txt
+loyaltytool.egg-info/top_level.txt
