@@ -1,0 +1,13 @@
+api/__init__.py,sha256=3qnIPIu09WfiNjFtKHn4cHqAv8OPmfqq3io5HKBWq1w,33
+api/apiclient.py,sha256=dU2oEJZ-YEfByHi9MHQVi51TjsjyIDf9nK-F5zVDsX8,1948
+api/card.py,sha256=vxgv-n9wL3crBio2IWEMqTPowk8lRbaLxuQWxKSGd2A,193
+api/deck.py,sha256=5TkExLkEIii4IR6HARPieWoU1INZm0RnrUlj9sbwz7E,189
+api/drawncards.py,sha256=ppY60Du2NSmaVYdJwRGof12R5yfFaiUZfrfhLku3NZM,223
+api/fetchcache.py,sha256=1CquxoL42qyYXtdRDwJzxzOhUDCQoFBT_L0M5DF9E18,1563
+test/__init__.py,sha256=M9UtzQ_uWOmFGbhSZfyc6rRjaNTXxYCyrDdfMy3Hsl0,25
+test/test.py,sha256=X8MPB275LbdlIVf8Mawtah11TDi5cPI8aDrkduPD7y8,42
+boostrapsdk-0.0.12.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+boostrapsdk-0.0.12.dist-info/METADATA,sha256=pLh_1pml5GVNVIW1kVSMYFZuB3ByDTXNiH1JAoahfsA,875
+boostrapsdk-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boostrapsdk-0.0.12.dist-info/top_level.txt,sha256=1Cnv0uMbjE5V992Y7npp-xGIQK8O3lu1AxTxauJaA2Q,9
+boostrapsdk-0.0.12.dist-info/RECORD,,
