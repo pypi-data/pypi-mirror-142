@@ -1,0 +1,9 @@
+README.md
+setup.py
+logsmith/__init__.py
+logsmith/logSmith.py
+logsmith.egg-info/PKG-INFO
+logsmith.egg-info/SOURCES.txt
+logsmith.egg-info/dependency_links.txt
+logsmith.egg-info/not-zip-safe
+logsmith.egg-info/top_level.txt
