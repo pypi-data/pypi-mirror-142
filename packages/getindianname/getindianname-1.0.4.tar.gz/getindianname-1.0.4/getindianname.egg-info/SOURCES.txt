@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+getindianname/__init__.py
+getindianname/femalename.txt
+getindianname/femaletitle.txt
+getindianname/main.py
+getindianname/malename.txt
+getindianname/maletitle.txt
+getindianname/pyversion.txt
+getindianname/version.txt
+getindianname.egg-info/PKG-INFO
+getindianname.egg-info/SOURCES.txt
+getindianname.egg-info/dependency_links.txt
+getindianname.egg-info/top_level.txt
