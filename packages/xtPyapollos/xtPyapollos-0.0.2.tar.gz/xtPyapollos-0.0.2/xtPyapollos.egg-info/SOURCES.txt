@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyapollos/__init__.py
+xtPyapollos.egg-info/PKG-INFO
+xtPyapollos.egg-info/SOURCES.txt
+xtPyapollos.egg-info/dependency_links.txt
+xtPyapollos.egg-info/requires.txt
+xtPyapollos.egg-info/top_level.txt
