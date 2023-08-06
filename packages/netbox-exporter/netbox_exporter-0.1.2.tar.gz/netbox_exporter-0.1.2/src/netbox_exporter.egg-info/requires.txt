@@ -1,0 +1,11 @@
+click
+netbox-client
+requests
+pyyaml
+
+[dev]
+build
+ipython
+prompt-toolkit
+pylint
+twine
