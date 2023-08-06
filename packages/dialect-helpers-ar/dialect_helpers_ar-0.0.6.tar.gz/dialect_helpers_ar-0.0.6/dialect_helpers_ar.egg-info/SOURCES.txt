@@ -1,0 +1,8 @@
+setup.py
+dialect_helpers_ar/__init__.py
+dialect_helpers_ar/lstm_helpers.py
+dialect_helpers_ar/nlp_helpers.py
+dialect_helpers_ar.egg-info/PKG-INFO
+dialect_helpers_ar.egg-info/SOURCES.txt
+dialect_helpers_ar.egg-info/dependency_links.txt
+dialect_helpers_ar.egg-info/top_level.txt
