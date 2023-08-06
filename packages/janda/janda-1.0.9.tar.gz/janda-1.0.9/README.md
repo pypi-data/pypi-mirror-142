@@ -1,0 +1,2 @@
+# Janda
+[![Testing](https://github.com/sinkaroid/pururin/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/sinkaroid/pururin/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/3f12d56ab080f22e4495/maintainability)](https://codeclimate.com/github/sinkaroid/pururin/maintainability)  
