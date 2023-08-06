@@ -1,0 +1,5 @@
+feudalAdapter>=0.4.0
+flaat>=1.0.0
+fastapi
+uvicorn[standard]
+gunicorn
