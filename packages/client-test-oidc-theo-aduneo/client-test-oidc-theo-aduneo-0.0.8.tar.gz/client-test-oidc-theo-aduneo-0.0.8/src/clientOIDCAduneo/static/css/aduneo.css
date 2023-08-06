@@ -1,0 +1,106 @@
+.button {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.middlebutton {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div.idpList {
+  display: flex; 
+  justify-content: space-between; 
+  width: 800px; 
+  border: 1px solid gray;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+img.smallButton {
+  cursor: pointer;
+}
+
+table.fixed { 
+  table-layout:fixed; 
+  width: 1000px; 
+  border: 1px solid grey; 
+  border-collapse: collapse;
+  font-size: 12px;
+}
+table.fixed td {
+  overflow: hidden; 
+  padding: 10px; 
+  vertical-align: top; 
+  border: 1px solid lightgrey;
+  word-wrap:break-word;
+}
+table.fixed td:nth-of-type(1) {width:200px;}
+table.fixed td:nth-of-type(2) {width:800px;}
+
+input.intable {
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+}
+
+textarea.intable {
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+}
+
+select.intable {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+span.celltxt {
+  float: left;
+}
+
+span.cellimg {
+  float: right;
+}
+
+span.cellimg img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.etape_un {
+  border: solid 3px #004c97;
+}
+
+.etape_deux {
+  border: solid 3px #004c97;
+}
+
+.etape_trois {
+  border: solid 3px #004c97;
+}
+
+.buttonEtape {
+  float: right;
+  margin-right: 5px;
+}
