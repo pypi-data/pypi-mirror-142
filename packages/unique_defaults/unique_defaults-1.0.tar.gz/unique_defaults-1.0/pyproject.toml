@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "unique_defaults"
+version = "1.0"
+readme = "README.md"
+authors = [{name = "Jeremiah Paige", email = "ucodery@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+keywords = ["decorator", "defaults", "keywords"]
+dynamic = ["description"]
+
+[project.urls]
+Home = "https://github.com/ucodery/unique_defaults"
+
+[project.optional-dependencies]
+dev = ["flit", "nox"]
+test = ["pytest >=2.7.3", "mktestdocs ~= 0.1"]
