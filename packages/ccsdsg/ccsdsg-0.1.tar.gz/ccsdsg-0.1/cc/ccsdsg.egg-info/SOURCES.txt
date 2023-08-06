@@ -1,0 +1,5 @@
+setup.py
+cc/ccsdsg.egg-info/PKG-INFO
+cc/ccsdsg.egg-info/SOURCES.txt
+cc/ccsdsg.egg-info/dependency_links.txt
+cc/ccsdsg.egg-info/top_level.txt
