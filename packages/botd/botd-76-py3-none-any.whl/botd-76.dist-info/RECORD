@@ -1,0 +1,11 @@
+botd-76.data/data/share/botd/botd.service,sha256=pBsGOqLOR7WsHGhMrralA4gC19yM9J18oxSNDypyFbM,257
+botd-76.data/data/share/doc/botd/README.rst,sha256=wjkJmxuOrkd-9oIVNz8yduE8TSKPrTpkh5kjXpUV4zo,1776
+botd-76.data/scripts/bot,sha256=53dxlIMiwN6BA9rGytjOWlx-OHYBxYN4hl2TQXAusss,2007
+botd-76.data/scripts/botcmd,sha256=WHr-wOL1ivLt00P_zq-vIWDaplxscKWxR01ph63_-5w,530
+botd-76.data/scripts/botctl,sha256=b3ujgDDoADgGzg8UdYXPEB21KGn9ofpOKe1gaPpD1Ow,192
+botd-76.data/scripts/botd,sha256=qSo0g1shXhCJoaxp4qVVpbuRbkRyB8gd4OmHNfrGQn0,466
+botd-76.dist-info/METADATA,sha256=49uYzpnooKyYWtXKiOYQrSpnaWBet-UeY_wZIXrcFFU,2196
+botd-76.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botd-76.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+botd-76.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+botd-76.dist-info/RECORD,,

@@ -1,0 +1,32 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"bot daemon"
+
+
+from bot.irc import IRC
+from bot.irc import Config as IRCConfig
+from bot.kernel import Config, wait
+from bot.thread import launch
+
+
+Config.name = "BOTD"
+Config.workdir = "/var/lib/botd/"
+
+
+IRCConfig.channel = "#botd"
+IRCConfig.nick = "botd"
+IRCConfig.realname = "24/7 channel daemon"
+IRCConfig.username = "botd"
+
+
+import bot.all
+
+def main():
+    i = IRC()
+    launch(i.start)
+    wait()
+
+
+main()
