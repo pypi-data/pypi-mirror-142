@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_tf_random_uuid/__init__.py
+src/cdk_cloudformation_tf_random_uuid/py.typed
+src/cdk_cloudformation_tf_random_uuid.egg-info/PKG-INFO
+src/cdk_cloudformation_tf_random_uuid.egg-info/SOURCES.txt
+src/cdk_cloudformation_tf_random_uuid.egg-info/dependency_links.txt
+src/cdk_cloudformation_tf_random_uuid.egg-info/requires.txt
+src/cdk_cloudformation_tf_random_uuid.egg-info/top_level.txt
+src/cdk_cloudformation_tf_random_uuid/_jsii/__init__.py
+src/cdk_cloudformation_tf_random_uuid/_jsii/tf-random-uuid@1.0.0-alpha.5.jsii.tgz
