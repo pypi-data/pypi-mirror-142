@@ -1,0 +1,8 @@
+lam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lam/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lam/core/matrixexpression.py,sha256=JPgrmIb3BNBDbc0SLOe2lyeDcbJ4-xZY0HA3QJWuxV8,440
+lam/core/solver.py,sha256=xNgg_YCnQlEQhcTgGA9o8dPVj5fwLAcPthvkmdRAyqg,879
+linalgpy-0.0.1.dist-info/METADATA,sha256=CA6lxkszo6wa_mp8tmvjtfPl1UNmGy5aEvoOMfmiei4,792
+linalgpy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+linalgpy-0.0.1.dist-info/top_level.txt,sha256=WyM7-Ig60qQH9meqS293pEd83jrMtbvGJM8ALZOQCtA,4
+linalgpy-0.0.1.dist-info/RECORD,,
