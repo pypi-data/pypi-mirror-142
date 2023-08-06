@@ -1,0 +1,8 @@
+README.md
+setup.py
+RestoDivisao/__init__.py
+RestoDivisao/div5.py
+RestoDivisao.egg-info/PKG-INFO
+RestoDivisao.egg-info/SOURCES.txt
+RestoDivisao.egg-info/dependency_links.txt
+RestoDivisao.egg-info/top_level.txt

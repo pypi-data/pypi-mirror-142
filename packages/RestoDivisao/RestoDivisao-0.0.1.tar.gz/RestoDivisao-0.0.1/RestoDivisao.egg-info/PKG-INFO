@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: RestoDivisao
+Version: 0.0.1
+Summary: Resto da divisão
+Home-page: https://github.com/ljsmonteiro/simple-package-template
+Author: lucio
+Author-email: ljsmonteiro@gmail.com
+License: UNKNOWN
+Description: # package_name
+        
+        Description. 
+        The package package_name is used to:
+        	- Div5: Resto da divisÃ£o por 5 igual a 2 ou 3
+        	
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+        
+        ```bash
+        pip install RestoDivisao
+        ```
+        
+        ## Author
+        lucio
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
