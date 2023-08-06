@@ -1,0 +1,16 @@
+discord_integration/__init__.py,sha256=o6qgNFKqI_BfxtscKqwkoZNO0SH8UObfW2yUkbzx7jo,73
+discord_integration/admin.py,sha256=Fn4jbXnplEXWhRI4pzE5xT7nhdAgOEiRjJ4a3NOXno4,289
+discord_integration/apps.py,sha256=2x3dj0mGB19UyHjuId86Uut06WNkDxhYt9Y6-Vm2Nhw,265
+discord_integration/log.py,sha256=87MnpdIn8njOO9qFJD12GMINmIZILznfqAu4uh1DHN8,1558
+discord_integration/message.py,sha256=DFDI_q8fvGMpigB0y4lcFErdAHFhLC8EmwoJohm_FTg,852
+discord_integration/models.py,sha256=OynRHi4Pa1ZckjelE5l5ZWJtwmtAtASLpjgk7VHs8jI,794
+discord_integration/tests.py,sha256=qWDvA9ZhVCQ1rPbkoFify7o_fDirXMUdYMxF12q3WIM,26
+discord_integration/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+discord_integration/migrations/0001_initial.py,sha256=zmpbZVOVAFPCtq-B16X8dGCCUDY1EnqQxr05V6CCYS8,1029
+discord_integration/migrations/0002_auto_20200412_1649.py,sha256=4xvCx7Ll9W3IMJvY0PuC9ZJL6thwu2oIEgaehlDLDck,758
+discord_integration/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_discord_integration-1.0.8.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+django_discord_integration-1.0.8.dist-info/METADATA,sha256=ronzfFtJZVz5jn68VewIb62N0UjcbtafyNXIv2fqfeU,2120
+django_discord_integration-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_discord_integration-1.0.8.dist-info/top_level.txt,sha256=n_G58bvnDHJDbrMj8jcziwzwtThcstPAFMEB1OXo5jQ,20
+django_discord_integration-1.0.8.dist-info/RECORD,,
