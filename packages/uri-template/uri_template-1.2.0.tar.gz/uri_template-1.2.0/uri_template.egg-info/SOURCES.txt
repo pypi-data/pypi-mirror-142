@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uri_template/__init__.py
+uri_template/charset.py
+uri_template/expansions.py
+uri_template/py.typed
+uri_template/uritemplate.py
+uri_template/variable.py
+uri_template.egg-info/PKG-INFO
+uri_template.egg-info/SOURCES.txt
+uri_template.egg-info/dependency_links.txt
+uri_template.egg-info/requires.txt
+uri_template.egg-info/top_level.txt
