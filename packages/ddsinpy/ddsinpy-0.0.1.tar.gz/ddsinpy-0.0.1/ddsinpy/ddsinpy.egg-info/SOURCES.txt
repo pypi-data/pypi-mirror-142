@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+ddsinpy/core/__init__.py
+ddsinpy/core/main.py
+ddsinpy/ddsinpy.egg-info/PKG-INFO
+ddsinpy/ddsinpy.egg-info/SOURCES.txt
+ddsinpy/ddsinpy.egg-info/dependency_links.txt
+ddsinpy/ddsinpy.egg-info/top_level.txt
