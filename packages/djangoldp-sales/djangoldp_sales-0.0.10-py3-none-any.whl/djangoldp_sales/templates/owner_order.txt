@@ -1,0 +1,9 @@
+Bonjour,
+
+Une nouvelle commande a été effectuée pour la vente "{{order.sale.name|safe}}" par {% if order.client.first_name and order.client.last_name %} {{order.client.first_name|safe}} {{order.client.last_name|safe}} {% else %} {{order.client.username|safe}} {% endif %}
+
+Prix total : {{order.totalprice|safe}} €.
+
+Vous pouvez retrouver cette commande dans la gestion des commandes.
+
+Bonne journée !

@@ -1,0 +1,6 @@
+Bonjour {% if order.client.first_name and order.client.last_name %} {{order.client.first_name|safe}} {{order.client.last_name|safe}} {% else %} {{order.client.username|safe}} {% endif %},
+
+
+Merci pour votre commande sur la vente "{{order.sale.name|safe}}" pour un prix total de {{order.totalprice|safe}} €
+
+Bonne journée !
