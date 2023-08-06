@@ -1,0 +1,17 @@
+gradedoc/__init__.py,sha256=H_kJQQ_oJeLHcPy5LxPXos4ER5VtbYA7ORzOgv5Vwv8,76
+gradedoc/add_template_comments.py,sha256=51ztbljmCqZNE-C6IsXe4PdUkYtoBzWJrElljI8yTs4,2624
+gradedoc/close_all.py,sha256=zGcWeHfNSPwj-y3XJDw3VTxGzxlfA45mmec8Zjc6yI0,756
+gradedoc/deductions.py,sha256=51dCyd0_8-vIFeg1-mwDG00MKawxVZkae6-af5v3oQg,144
+gradedoc/deductions_to_semicolon_separated_variables.py,sha256=lje6xbhI9kCyysqiynIY6lm4Vl068lXp5B1bnNM1aFY,307
+gradedoc/delete_all_comments.py,sha256=VItEbIYf_Oq7f3rsgnJvoQh3NureblH0kUwllVxZXf8,1026
+gradedoc/open_all.py,sha256=_UQCuKKBBN9iuLzR0n2_eBzVLRmgM1LdkapKriYCpzg,921
+gradedoc/save_all.py,sha256=RWBAqsuPsiALhDOVmpiHkpVJnjYiHfHkvUNUDa8mRyI,746
+gradedoc/shared.py,sha256=hfWJO96oOcg-yV1GI7gvLJr9Wlz9qX7sLe8eZSfBrdU,4299
+gradedoc/toggle_active_review_pane.py,sha256=FSl1o_xhZmQrmnxkXDldedL4Wv2wygcIw8kmg2nLA3c,1417
+gradedoc/update_active_grade.py,sha256=VG5jJK1jBq5a9Y4UU61xHs4lgI84Bu4q65oRNbIThvg,1952
+gradedoc/update_all_grades.py,sha256=-8kE0B_T1yQCwzaXGHdIhvFxIXmMuFrBO_EIopQyIyA,1024
+gradedoc/update_grade.py,sha256=sKbOoTX5IiEFrQrHHSrNNqng1qMMO1FAnoqui1tTMBw,8007
+gradedoc-0.0.1.dist-info/LICENSE,sha256=cU-HNVvIQ0pIyExAoqcgw7pskmFMdqUqtCFWh8SFIqg,1072
+gradedoc-0.0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+gradedoc-0.0.1.dist-info/METADATA,sha256=xgmTUvDRhfBRSZm01jKg3-kCK5UB4hvqdoa4M0Zkb_g,446
+gradedoc-0.0.1.dist-info/RECORD,,
