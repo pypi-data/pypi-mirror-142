@@ -1,0 +1,15 @@
+flask_postgres/__init__.py,sha256=meKcsYnD27o3jUREtRsKSrxWTFcpIG-s6alEvfEuWZQ,202
+flask_postgres/_compat.py,sha256=6ezA6flO25Vz1cK0hoLy3plj65SKN5k4OFuqlIe4tqs,927
+flask_postgres/config.py,sha256=2y-QT_e6PCY591OlxjzGAoELM44YclbH51SiyiU6irs,1626
+flask_postgres/exceptions.py,sha256=ERyTmEG2zwPPGR0JN7kVLSY8GpU8msDJjkZ1ycVfi6U,1977
+flask_postgres/ops.py,sha256=rUWgqEUf6jX5GRrN61krSO_GyjBK0_OhO6RT8j0vnk8,4207
+flask_postgres/types.py,sha256=5-u10Zl73uHz8c1GTKBrmZJ_Axzv3QWgBUbsSgj2FRA,6202
+flask_postgres/utils.py,sha256=t5Ks7VZhjBip0asp8ezdGqTKxomqs8c9DNY0V13lGSw,2601
+flask_postgres/cli/__init__.py,sha256=NHxWYU2TINT4_GJpAxJ0XmW4_5xZBBwZuVQjt4dE_ZM,22
+flask_postgres/cli/main.py,sha256=TuynVqNWXLCK4n7gTlfodQFrfh5lGEh1U7Od3D17FUk,7286
+flask_postgres/cli/types.py,sha256=kVjVjJMGtN3oifoCO179S31P5ghHewsoY4WkBB5OmPU,2536
+flask_postgres-0.2.2.dist-info/entry_points.txt,sha256=0QGrwX13pwLyzW2YJF5TGFO2qVokKotLnDy63S500VM,46
+flask_postgres-0.2.2.dist-info/LICENSE,sha256=jWk5LUyhCkQbOQU4Fpqx9ki5zU2jfV3vGie-w81cdGc,1080
+flask_postgres-0.2.2.dist-info/WHEEL,sha256=LVOPL_YDMEiGvRLgDK1hLkfhFCnTcxcAYZJtpNFses0,81
+flask_postgres-0.2.2.dist-info/METADATA,sha256=LlfKz7romxIzjYr-1lKDy34vI8fycuWNO_HQdRguSEA,8924
+flask_postgres-0.2.2.dist-info/RECORD,,

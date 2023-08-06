@@ -1,0 +1,3 @@
+[flask.commands]
+psql=flask_postgres.cli:cli
+
