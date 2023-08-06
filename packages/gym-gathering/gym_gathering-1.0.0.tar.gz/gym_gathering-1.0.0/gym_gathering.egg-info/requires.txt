@@ -1,0 +1,7 @@
+gym
+numpy
+scipy
+opencv-python
+
+[keyboard]
+keyboard
