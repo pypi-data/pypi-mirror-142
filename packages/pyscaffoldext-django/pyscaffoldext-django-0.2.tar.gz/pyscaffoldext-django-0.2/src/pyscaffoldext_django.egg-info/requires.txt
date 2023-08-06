@@ -1,0 +1,12 @@
+pyscaffold<5.0a0,>=4.0b4
+django<5.0a0,>=4.0.3
+
+[testing]
+tox
+pre-commit
+setuptools_scm
+virtualenv
+configupdater
+pytest
+pytest-cov
+pytest-xdist
