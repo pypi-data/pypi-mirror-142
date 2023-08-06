@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ivtmetrics
+Version: 0.0.2
+Summary: A Python evaluation metrics package for action triplet recognition
+Home-page: https://github.com/CAMMA-public/ivtmetrics
+Author: Chinedu Nwoye
+Author-email: nwoye@unistra.fr
+License: BSD 2-clause
+Download-URL: https://github.com/CAMMA-public/ivtmetrics/archive/refs/tags/v0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: triplet,average precision,AP
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
