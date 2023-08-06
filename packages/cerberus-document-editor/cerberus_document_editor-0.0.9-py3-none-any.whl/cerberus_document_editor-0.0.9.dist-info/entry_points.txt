@@ -1,0 +1,3 @@
+[console_scripts]
+cde = cerberus_document_editor.__main__:main
+cerberus-document-editor = cerberus_document_editor.__main__:main
