@@ -1,0 +1,12 @@
+tfdata/__init__.py,sha256=x_1bs9yK54u6s8YbJeE_lePrSzEbM8NiB6_bl5gbAyA,131
+tfdata/tfclient.py,sha256=RC8KhcU-56N00T4w91e6rtS3SyFrpmg3IMBhLN2CYpU,22683
+tfdata/menu_text/att_list.py,sha256=I1a_JEgWAyYhMOQ8Gu2kk178nen602VSHfKVjzyG008,14346
+tfdata/menu_text/menu_text0.py,sha256=7beTY9is-RAmHTxZ2HICESXytpMmNconFPrci3_WHII,5319
+tfdata/utils/TF_utils.py,sha256=ddldOI0D57lCFjQaKnzQaD5VVhg_I0H97Ln4jeGkwUE,92
+tfdata/utils/__init__.py,sha256=8MM1WEYF1cpKTnPHj-IlSFcFSCgNewgJcasY5hSHpDA,169
+tfdata/utils/comm_utils.py,sha256=e0RtBDgqzSxDyfps6gslINkINH0hV2ikLjPPtH7N3H4,2964
+tfdata/utils/network_utils.py,sha256=KCDjRa8VjDSL-6Fu_SGeDUGoQChP3KCz7chI5XYGNlc,1342
+tfdata-0.2.2.dist-info/METADATA,sha256=uiXWhcnf5StkPbJYX7mmV157XhJAGgRTg3t3xNsXuaA,403
+tfdata-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tfdata-0.2.2.dist-info/top_level.txt,sha256=pkypg886jGJrqkyPZCa_p7KxsaCAL0bQsLY62DT1c8w,7
+tfdata-0.2.2.dist-info/RECORD,,
