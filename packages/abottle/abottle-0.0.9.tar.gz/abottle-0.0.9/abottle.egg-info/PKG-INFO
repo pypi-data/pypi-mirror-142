@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: abottle
+Version: 0.0.9
+Summary: put your model into **a bottle** then you get a working server and more.
+Home-page: UNKNOWN
+Author: taylorhere
+Author-email: taylorherelee@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: <3.10
+Description-Content-Type: text/markdown
+
+# abottle
+
+trition/tensorrt/onnxruntim/pytorch python server wrapper
+
+put your model into **a bottle** then you get a working server and more.
+
+# Demo
+```python
+
+import numpy as np
+from transformers import AutoTokenizer
+
+
+class MiniLM:
+    def __init__(self):
+        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+
+    def predict(self, X):
+        encode_dict = self.tokenizer(
+            X, padding="max_length", max_length=128, truncation=True
+        )
+        input_ids = np.array(encode_dict["input_ids"], dtype=np.int32)
+        attention_mask = np.array(encode_dict["attention_mask"], dtype=np.int32)
+
+        outputs = self.model.infer(
+            {"input_ids": input_ids, "attention_mask": attention_mask}, ["y"]
+        )
+
+        return outputs['y']
+
+
+    #you can write config in class or provide it as a yaml file or yaml string
+    class Config:
+        class model:
+            name = "minilm"
+            version = "2"
+```
+you can write a class like this, and then starts with abottle
+
+```shell
+abottle main.MiniLM
+```
+
+config with shell
+```shell
+abottle main.MiniLM --config """TritonModel:
+        triton_url: localhost
+        name: minilm
+        version: 2
+    """
+```
+
+config with file
+
+```shell
+abottle main.MiniLM --config <config yaml file path>
+```
+
+```python
+import numpy as np
+import pandas as pd
+from transformers import AutoTokenizer
+from typing import List
+
+
+class MiniLM:
+    def __init__(self):
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+        )
+
+    def cosine(self, a: List[List[float]], b: List[List[float]]) -> float:
+        a, b = np.array(a), np.array(b)
+        # |A|
+        sqrt_sqare_A = np.tile(
+            np.sqrt(np.sum(np.square(a), axis=1)).reshape((a.shape[0], 1)),
+            (1, a.shape[0]),
+        )
+        # |B|
+        sqrt_sqare_B = np.tile(
+            np.sqrt(np.sum(np.square(b.T), axis=0)).reshape((1, b.shape[0])),
+            (b.shape[0], 1),
+        )
+        # cosine similarity
+        score_matrix = np.divide(np.dot(a, b.T), sqrt_sqare_A * sqrt_sqare_B)
+        return score_matrix
+
+    def predict(self, X: List[str]) -> List[List[float]]:
+        encode_dict = self.tokenizer(
+            X, padding="max_length", max_length=128, truncation=True
+        )
+        input_ids = np.array(encode_dict["input_ids"], dtype=np.int32)
+        attention_mask = np.array(encode_dict["attention_mask"], dtype=np.int32)
+
+        outputs = self.model.infer(
+            {"input_ids": input_ids, "attention_mask": attention_mask}, ["y"]
+        )
+
+        return outputs["y"]
+
+    def evaluate(self, file_path: str, batch_size: int) -> float:
+        test_data = pd.read_csv(file_path, sep=", ", names=["query", "label"])
+        query, label = test_data["query"].tolist(), test_data["label"].tolist()
+        assert len(query) == len(label)
+
+        query_embedding, label_embedding = [], []
+        for i in range(0, len(query), batch_size):
+            query_embedding += self.predict(query[i : min(i + batch_size, len(query))])
+            label_embedding += self.predict(label[i : min(i + batch_size, len(label))])
+        assert len(query_embedding) == len(label_embedding)
+
+        # 分数矩阵
+        score_matrix = self.cosine(query_embedding, label_embedding)
+        # 算法性能
+        raw_result = np.argmax(score_matrix, axis=0) == np.array(
+            [i for i in range(score_matrix.shape[0])]
+        )
+        unique, counts = np.unique(a, return_counts=True)
+        top_1_accuracy = counts[unique.tolist().index(True)] / np.sum(counts)
+
+        return top_1_accuracy
+```
+
+def evaluate can be used as a tester like below
+```shell
+abottle main.MiniLM --as tester file_path='test.csv', batch_size=100
+```
+ the arguments you defined in the `evaluate` function can be set in CLI args with format xxx=xxx
+
+you can use different wrapper for your model, including:
+
+- abottle.ONNXModel
+- abottle.TensorRTModel
+- abottle.TritonModel
+- abottle.PytorchModel
+
+if you want to add more wrappers you can just implement abottle.BaseModel
+
+```shell
+abottle main.MiniLM --as server --wrapper abottle.TritonModel
+```
+
+# Motivation
+as a DL model creator, you don't need to focus on how to serve or test the performance of a model on a target platform or how to optimize your model and don't lose accuracy, just find a bottle and put your logic code into it, the DL engineer people can do those things for you, all you need to do is export your model to a onnx file, and write logic code like above examples.
+
+# Feature
+we will build this bottle as strong as possible, make this bottle become a standardization interface of the MLOps cycles, you can see more and more scenarios like optimization, graph fusing, performance test, deployment, data gathering, etc using this bottle.
+
