@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: mlpractice
+Version: 0.0.2
+Summary: MLpractice is a course, in which you will learn about the most effective machine learning techniques,and gain practice implementing them.
+Home-page: https://github.com/avalur/mlpractice
+License: MIT
+Keywords: machinelearning,deeplearning,ml,dl,practice,mlpractice,machine,deep
+Author: Vladislav Ushakov
+Author-email: uvd2001@mail.ru
+Requires-Python: >=3.7,<=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipython (>=7.30.1,<8.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
+Requires-Dist: scipy (>=1.7.2,<2.0.0)
+Requires-Dist: torch (>=1.10.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# <div align="center">MLpractice</div>
+<a href='https://mlpractice.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/mlpractice/badge/?version=latest' alt='Documentation Status' />
+</a>
+
+MLpractice 🚀 is a course, in which you will learn about the most effective machine learning techniques, and gain practice implementing them.
+
+## <div align="center">Documentation</div>
+
+See the [MLpractice Docs](https://mlpractice.readthedocs.io/en/latest/?badge=latest) for full documentation on course task functions.
+
+## <div align="center">Quick Start</div>
+
+<details open>
+<summary>Install</summary>
+  
+### Pip
+Pip install it in a [**Python>=3.7.0**](https://www.python.org/) environment.
+```bash
+pip install mlpractice
+```
+
+<!-- ### Clone and install
+Clone repo and install [requirements.txt](https://github.com/avalur/mlpractice/blob/main/requirements.txt) in a
+[**Python>=3.7.0**](https://www.python.org/) environment.
+
+```bash
+git clone https://github.com/avalur/mlpractice  # clone
+cd mlpractice
+pip install -r requirements.txt  # install
+``` -->
+
+</details>
+
+<details open>
+<summary>Init</summary>
+
+Make a course folder with tasks by simply running
+```bash
+mlpractice init
+```
+
+</details>
+
+## <div align="center">Contact</div>
+
+For MLpractice bugs and feature requests please visit [GitHub Issues](https://github.com/avalur/mlpractice/issues).
+
+</div>
+

@@ -1,0 +1,3 @@
+[console_scripts]
+mlpractice=mlpractice.cli:command_line
+
