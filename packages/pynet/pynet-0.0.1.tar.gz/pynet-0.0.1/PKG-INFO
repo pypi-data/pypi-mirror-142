@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pynet
+Version: 0.0.1
+Summary: pynet Python Library
+Home-page: https://github.com/istommao/pynet
+Author: CodeMax
+Author-email: istommao@gmail.com
+License: MIT
+Project-URL: Website, https://github.com/istommao/pynet
+Description: pynet Python Library
+Keywords: pynet python network sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
