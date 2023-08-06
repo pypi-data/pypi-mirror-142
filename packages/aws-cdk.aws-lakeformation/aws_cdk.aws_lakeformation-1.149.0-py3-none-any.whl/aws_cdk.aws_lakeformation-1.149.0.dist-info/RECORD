@@ -1,0 +1,10 @@
+aws_cdk/aws_lakeformation/__init__.py,sha256=VAhlWGpE11XpnGnPn19eqP2ryBVo17XBUVeIEoWNMTo,70827
+aws_cdk/aws_lakeformation/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_lakeformation/_jsii/__init__.py,sha256=gjpRQEgFPF2z1RqmN5ofOQLuMoMHiVS5e-PSjPMFVZ8,398
+aws_cdk/aws_lakeformation/_jsii/aws-lakeformation@1.149.0.jsii.tgz,sha256=-dOO34tKj05FfZlsKJdbfMru4wNbSMAp4Dzes0a4coM,45795
+aws_cdk.aws_lakeformation-1.149.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_lakeformation-1.149.0.dist-info/METADATA,sha256=nMNRq6iq-fTv_ycQvHWKxIU82V6OhM5vXV542r6G9tc,2523
+aws_cdk.aws_lakeformation-1.149.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_lakeformation-1.149.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_lakeformation-1.149.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_lakeformation-1.149.0.dist-info/RECORD,,
