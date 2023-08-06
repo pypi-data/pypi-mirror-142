@@ -1,0 +1,13 @@
+airflow/providers/zendesk/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/zendesk/get_provider_info.py,sha256=hd5FZBuZafxCTxMU77vFcRzPvxYVLHEtMpTkFi26nhE,1784
+airflow/providers/zendesk/example_dags/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/zendesk/example_dags/example_zendesk_custom_get.py,sha256=wlG_vq1USJzLAn4X1okHM9VMtch_e1ZMu9qOJxPUkiA,1364
+airflow/providers/zendesk/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/zendesk/hooks/zendesk.py,sha256=HUVwv1AouZoVbSvSMfAqHbV1U-9EhhQjIqTnBm9TdT4,4585
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/METADATA,sha256=Q7NoTmLhm8oM63Ul5AHqOhyJNqm08lcidBlPcZCPs5E,7011
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/entry_points.txt,sha256=tV4a4sZuJhlr4NQCHuB_WTMyNVXKfyRSotqItXTFR7Q,105
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_zendesk-3.0.2rc1.dist-info/RECORD,,
