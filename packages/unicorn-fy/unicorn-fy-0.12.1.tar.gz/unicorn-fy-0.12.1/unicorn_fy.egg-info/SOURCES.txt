@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+unicorn_fy/__init__.py
+unicorn_fy/unicorn_fy.py
+unicorn_fy.egg-info/PKG-INFO
+unicorn_fy.egg-info/SOURCES.txt
+unicorn_fy.egg-info/dependency_links.txt
+unicorn_fy.egg-info/requires.txt
+unicorn_fy.egg-info/top_level.txt
