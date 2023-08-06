@@ -1,0 +1,11 @@
+natsucord/__init__.py,sha256=OF9Lq2aOoWL2PSqn2DWB2jYjY9-M3fPxbZfeZhoeHB4,129
+natsucord/_client.py,sha256=aYfhLvdlCLZpPy_XYZCq-PmuHwK2Zlij7mOUxnazZWQ,1599
+natsucord/command.py,sha256=v6ItW12ouxOKUnJisyR6UZ_NCi74RX2xMDb0RyF5hqI,3166
+natsucord/plugin.py,sha256=ylV1wSzW-IBGgsGHWxhAjARdMKeceOjs11aixfPLTfI,1743
+natsucord/types.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+natsucord/watchdog.py,sha256=QwtppvlFjQxh1NerQl5ab5X9PJIv2NM1LhER5WHZrtg,1436
+Natsucord-0.0.1.dist-info/LICENSE,sha256=OTCbIq9B_ANualrDMa6Oud4chQz32zqe0RDn6lkGObw,1083
+Natsucord-0.0.1.dist-info/METADATA,sha256=PpgKK2k1r-NB-X5LXkhitA0s5SOaB5102v1DB8CPee0,530
+Natsucord-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Natsucord-0.0.1.dist-info/top_level.txt,sha256=CD-hSOhjfcPNKpnWP7ryPE5DsEU22aH_jpEY8g63Ri0,10
+Natsucord-0.0.1.dist-info/RECORD,,
