@@ -1,0 +1,8 @@
+ucheck/__init__.py,sha256=peyzw6dU_25fGAjN5CUk63BcWqN5BUueiWuA_jTTPa8,227
+ucheck/config.yaml,sha256=jxF43K1SFHR7jShZekDGIMA1YcIl-IGF3J2jBACwh7Q,1654
+ucheck/exceptions.py,sha256=xdgYGdUdWLAqwdXeFAQ1CJamETlpa0ds6HFOKJ3Z5c4,160
+ucheck/ucheck.py,sha256=_GR1-b3_A0xkhxmnO9-lDVGVgVsM_oZczX2TOQnwnsU,4384
+ucheck-0.0.5.dist-info/LICENSE,sha256=2ZsUS4XH6c7wu4FNgPu2zsoyisOcFvATiP3mjb2AQh0,1068
+ucheck-0.0.5.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+ucheck-0.0.5.dist-info/METADATA,sha256=n4gW-Vi3x1L4g6w9as6oxlEEAVXLZlM_uay5A7HP5sU,5299
+ucheck-0.0.5.dist-info/RECORD,,
