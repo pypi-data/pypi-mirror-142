@@ -1,0 +1,5 @@
+synapse_src/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+synapse_src/some.py,sha256=BROM3eHoVDgbBAMwU3ysQfi2whA7TE3ZveX7x6_I4Bw,32
+synapse_src-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+synapse_src-0.1.0.dist-info/METADATA,sha256=-Mj8G6yAIv6Q3kC5CWlCW9iZK6WpZ-_TBkzboZf_bVY,241
+synapse_src-0.1.0.dist-info/RECORD,,
