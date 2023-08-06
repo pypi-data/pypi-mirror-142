@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pymixer
+Version: 0.0.0
+Summary: Collection of utilities for working with MIDI and WAV files.
+Home-page: https://github.com/Nikolay-Lysenko/pymixer
+Author: Nikolay Lysenko
+Author-email: nikolay-lysenco@yandex.ru
+License: MIT
+Keywords: midi,mixing
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Artistic Software
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyMixer
+
+Collection of utilities for working with MIDI and WAV files. Coming soon...
+
+

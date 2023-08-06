@@ -1,0 +1,2 @@
+pretty-midi
+sinethesizer<0.7,>=0.6

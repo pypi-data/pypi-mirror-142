@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pymixer/__init__.py
+pymixer.egg-info/PKG-INFO
+pymixer.egg-info/SOURCES.txt
+pymixer.egg-info/dependency_links.txt
+pymixer.egg-info/requires.txt
+pymixer.egg-info/top_level.txt
