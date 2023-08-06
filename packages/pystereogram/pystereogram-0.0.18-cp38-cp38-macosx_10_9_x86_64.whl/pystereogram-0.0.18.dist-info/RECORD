@@ -1,0 +1,13 @@
+compute_line.cpython-38-darwin.so,sha256=P3zTSZ2phSWuj-H1gRjAoDKQ7MESZGk04OhdWVIiax4,186704
+autostereogram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autostereogram/compute_line.pyx,sha256=z9cqBR0BFLD2y0JPhtjwtn3e-xNcXIv5eUJNq_QLSqo,1142
+autostereogram/converter.py,sha256=L9RzZM3pcNlYeHl55HHT_5CbSXDcLX3TRThHrm2kYsI,6409
+autostereogram/sirds_converter.py,sha256=xYK4Cje2YDIaOYIGRtwuk5ZVVr-9olwm4W9j9tQmmeA,3134
+autostereogram/noise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autostereogram/noise/colored.py,sha256=Ab1evcAvAtXD6yDOoDkn_nhcQkltp9sfzT1kx1ruY44,953
+autostereogram/noise/perlin2d.py,sha256=JYm1Q4kd926BkW5--z0OLgZQHkybwU9vUvRYa9DsH7o,3566
+pystereogram-0.0.18.dist-info/LICENSE,sha256=kwVrG5b3UhEFw2_EilmU-NvTOMJRExORee6DHdWomM4,1066
+pystereogram-0.0.18.dist-info/METADATA,sha256=3mhRfBkuoWT9b6NkYlBQo_NGqgvZu9iwEsz-17KwpOY,1217
+pystereogram-0.0.18.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+pystereogram-0.0.18.dist-info/top_level.txt,sha256=ZMJ4AShG18sfCQuI7wsQPhP_WRPTxJrXSIlmHebbs_Q,28
+pystereogram-0.0.18.dist-info/RECORD,,
