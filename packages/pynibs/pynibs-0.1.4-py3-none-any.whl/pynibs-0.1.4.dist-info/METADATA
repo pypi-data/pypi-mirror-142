@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pynibs
+Version: 0.1.4
+Summary: A toolbox to prepare and analyse non-invasive brain stimulation experiments (NIBS).
+Home-page: UNKNOWN
+Author: Konstantin Weise
+Author-email: kweise@cbs.mpg.de
+License: GPL3
+Project-URL: Home, https://gitlab.gwdg.de/tms-localization/pynibs
+Project-URL: Docs, https://pynibs.readthedocs.io/
+Project-URL: Download, https://pypi.org/project/pynibs/
+Keywords: NIBS,non-invasive brain stimulation,TMS,FEM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dill
+Requires-Dist: h5py
+Requires-Dist: lmfit
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: nibabel
+Requires-Dist: pandas
+Requires-Dist: pygpc
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: packaging
+Requires-Dist: lxml
+Requires-Dist: tables
+Requires-Dist: tqdm
+Requires-Dist: pillow
+Requires-Dist: fslpy
+Requires-Dist: mkl
+Requires-Dist: trimesh
+Requires-Dist: fmm3dpy
+Requires-Dist: tvb-gdist
+Requires-Dist: ortools (<=9.1.9490)
+
+# pyNIBS
+Preprocessing, postprocessing, and analyses routines for non-invasive brain stimulation experiments.
+
+
+## Install
+Via pip:
+
+``` bash
+pip install pynibs
+```
+
+Or clone repo and install via `setup.py`:
+
+``` bash
+git clone https://gitlab.gwdg.de/tms-localization/pynibs
+cd pynibs
+python setup.py develop
+```
+
+## Bugs
+Yes. Drop us a line if you find any or feel free to file a PR.
+
