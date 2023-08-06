@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+oneclick_client/__init__.py
+oneclick_client/spectrum.py
+oneclick_client.egg-info/PKG-INFO
+oneclick_client.egg-info/SOURCES.txt
+oneclick_client.egg-info/dependency_links.txt
+oneclick_client.egg-info/requires.txt
+oneclick_client.egg-info/top_level.txt
