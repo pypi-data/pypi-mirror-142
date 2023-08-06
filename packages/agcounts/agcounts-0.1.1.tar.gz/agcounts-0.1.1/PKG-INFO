@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: agcounts
+Version: 0.1.1
+Summary: This project contains code to generate activity counts from accelerometer data.
+Home-page: https://github.com/actigraph/agcounts
+License: GPL-3.0-or-later
+Author: Actigraph LLC
+Author-email: data.science@theactigraph.com
+Maintainer: Ali Neishabouri
+Maintainer-email: ali.neishabouri@theactigraph.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.0,<2.0.0)
+Requires-Dist: pandas (>=1.3.5,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Project-URL: Repository, https://github.com/actigraph/agcounts
+Description-Content-Type: text/markdown
+
+# agcounts
+![Tests](https://github.com/actigraph/agcounts/actions/workflows/tests.yml/badge.svg)
+
+A python package for extracting actigraphy counts from accelerometer data. 
+
