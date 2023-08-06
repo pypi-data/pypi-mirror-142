@@ -1,0 +1,4 @@
+mysql-connector
+apscheduler
+pydantic
+python-telegram-bot
