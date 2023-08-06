@@ -1,0 +1,3 @@
+[console_scripts]
+djcli = djcli:cli.entry_point
+
