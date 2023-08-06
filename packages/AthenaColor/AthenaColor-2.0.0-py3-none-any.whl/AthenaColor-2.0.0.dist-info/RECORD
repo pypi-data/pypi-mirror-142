@@ -1,0 +1,16 @@
+AthenaColor/Help.py,sha256=9SbmrEXA8oaEob2QIy9mkcCTq3UggbxVZljOw4Eu68o,7675
+AthenaColor/__init__.py,sha256=A0OoSvHE3OfPI-4ml80mLd7ZDooNkkb3xhmFiUwrPPw,210
+AthenaColor/main.py,sha256=rIKK7J3i3UWP4sTvRbu3LpSKrQgY2FwDhwkU8Ygni9E,655
+AthenaColor/readme.py,sha256=xYrb7pQiT-hdhUV1unTzl3lM2dcuY3aX6iSyPLDkHfI,1714
+AthenaColor/ConsolePrinter/ConsolePrinter.py,sha256=BraOfoG1R5Jskwuj97xuxM_PXS3D6pixzcVqmJ3W6sM,3932
+AthenaColor/ConsolePrinter/__init__.py,sha256=4kYtUqkSVGWt2XVMlxfB5R2mniAwMy1Ta8e4JVxsZgE,346
+AthenaColor/Objects/Rgb.py,sha256=9fw-mVgAFII7iwTmDVoyGpPT016ZlFR80M-FxOfAGyc,10576
+AthenaColor/Objects/__init__.py,sha256=-6N-Fn5sBjsZC9I3Tl7J1Vxfezf8sxhgfg2nJojnOik,20
+AthenaColor/Predefined/ColorsBasic.py,sha256=L908PR99m9sOVpDmCOhh-q1qLRHOObcVyfklsdX3K0g,1957
+AthenaColor/Predefined/ColorsHtml.py,sha256=atKvaMiT_gndaGY5jiH1kYysWtCFYLa1jfrP3RqveoA,7333
+AthenaColor/Predefined/__init__.py,sha256=0FJczbK8ZDCRpCLPPEH5h3CPNXYhmdbPqRiwMbEl_gI,88
+AthenaColor-2.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+AthenaColor-2.0.0.dist-info/METADATA,sha256=79WVIcyC95nfcsM8GVetkzEWK3LcjXagifjSbS8d-IE,2744
+AthenaColor-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AthenaColor-2.0.0.dist-info/top_level.txt,sha256=Hrs3ueYd30J3NFB6ja0v9mX0821UtiiNKu7C4S9_qZU,12
+AthenaColor-2.0.0.dist-info/RECORD,,
