@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: typesplainer
+Version: 0.1.0
+Summary: Python typehint explainer
+Home-page: https://github.com/wasi-master/typesplainer
+Author: Wasi Master
+Author-email: arianmollik323@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/wasi-master/typesplainer/issues
+Project-URL: Source, https://github.com/wasi-master/typesplainer
+Project-URL: Say Thanks, https://saythanks.io/to/wasi-master
+Keywords: type,typehint,type explainer,typehint explainer,typesplainer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# typesplainer
+ A Python type explainer!
+
+
