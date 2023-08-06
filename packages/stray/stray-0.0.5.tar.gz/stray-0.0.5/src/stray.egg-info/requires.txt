@@ -1,0 +1,9 @@
+trimesh
+scipy
+pillow
+numpy
+scikit-video
+scikit-spatial
+pycocotools
+open3d
+opencv-python
