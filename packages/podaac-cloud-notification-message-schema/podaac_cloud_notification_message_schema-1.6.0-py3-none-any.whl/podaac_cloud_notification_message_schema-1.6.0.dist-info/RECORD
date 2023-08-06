@@ -1,0 +1,15 @@
+LICENSE.txt,sha256=XSAAop8CHF736nRk9MwUWRYu73mbW2CsQVlvq_nxSlc,575
+README.md,sha256=09sbU2lAvI---Nr_w0PA6roHCmJZTGZF7vWZVDVwvzo,11339
+cloudnotificationmessage.py,sha256=w1gPu3O4YB714EDoBHLVXM-mmvL5y1zP2BZE7bSPjKE,4145
+test.py,sha256=Iy5m0CUcbKLcL4e_Yu6xxl_as1OMTAbPiZ_d3khQOJU,2193
+validate_schema.py,sha256=eqflBlvC2NoN3NMKedBjtWDgQ6jfy7byFSZSyVl6UKE,97
+podaac_cloud_notification_message_schema.egg-info/PKG-INFO,sha256=1p3qW7IQ_cEofH6dT5VFqnggoDj_ZWvbOW0oe6w9nOw,358
+podaac_cloud_notification_message_schema.egg-info/SOURCES.txt,sha256=Vs-YDEfqmMMuYZLA7YsiHPKuo2ueBkoF3f-SYmqtCt8,404
+podaac_cloud_notification_message_schema.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+podaac_cloud_notification_message_schema.egg-info/requires.txt,sha256=PO3Nq0KkJd4-QO6LtktLsTm37HBpIdaXCvlI9uH8Ruw,25
+podaac_cloud_notification_message_schema.egg-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+podaac_cloud_notification_message_schema-1.6.0.dist-info/LICENSE.txt,sha256=XSAAop8CHF736nRk9MwUWRYu73mbW2CsQVlvq_nxSlc,575
+podaac_cloud_notification_message_schema-1.6.0.dist-info/METADATA,sha256=0SMfq0iqhDvF9e8Ljo8d513Vkxo4pWC7GqsHS1onYAQ,411
+podaac_cloud_notification_message_schema-1.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+podaac_cloud_notification_message_schema-1.6.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+podaac_cloud_notification_message_schema-1.6.0.dist-info/RECORD,,
