@@ -1,0 +1,15 @@
+numpy
+matplotlib
+pyrvo2-danieldugas
+matplotlib
+pyyaml
+stable-baselines3
+pyglet
+navrep
+typer
+pandas
+strictfire
+pyniel
+mlagents
+jedi
+gym<=0.18.0
