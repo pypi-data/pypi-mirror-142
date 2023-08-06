@@ -1,0 +1,9 @@
+combat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+combat/pycombat.py,sha256=p59d1uhoazUUR53yZmKsetcFkaIxU2iFbbvfYzH4wPU,26943
+combat/test_unit.py,sha256=Oybz-w9HTuGktGgdV6Ta0-RaKUKPSGUR3jFE40puTZ0,7804
+combat-0.3.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+combat-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+combat-0.3.1.dist-info/METADATA,sha256=QmRb-QYS4jOhqQL0J4dlwXAZr_se0IOsGTGtvHeyi1w,2690
+combat-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+combat-0.3.1.dist-info/top_level.txt,sha256=hp6ctjszj0ma0lJ5z6Ohy5D9FqM2DmfX-busB_4JUog,7
+combat-0.3.1.dist-info/RECORD,,
