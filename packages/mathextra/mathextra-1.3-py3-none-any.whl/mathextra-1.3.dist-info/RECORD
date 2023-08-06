@@ -1,0 +1,10 @@
+mathextra/__init__.py,sha256=N4xug6EyKF3XKUiAuLzwLZlRexl3OniC-flZ-8wkP9Q,3089
+mathextra/area.py,sha256=-yHA8BRwEh10jMI8uflRl0VjmfWOAaTJ4ZJ36H3KLew,653
+mathextra/arithmetic_ops.py,sha256=K7I2ole_G3JS2CoDLZ8JoMuJk4wii2MENigeNClNWyA,617
+mathextra/conversions.py,sha256=IXZrCwYnFvBwh9f5Iugb_xqsy_B56OCBb5MPzpk_2zk,869
+mathextra/factor.py,sha256=E-DwA2HVsK36Q2ME1U1h3KFq6kDnOS1vZKBDv_R0h-E,1006
+mathextra/formulas.py,sha256=9bxFxc1xaPTCCXP800DuqC0gBrOCJcqOG54c87ai8Rg,194
+mathextra-1.3.dist-info/METADATA,sha256=PVVzS7AIxJo56rf4Ja6awye1YoyIEfv8aMNi55UT-qs,708
+mathextra-1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mathextra-1.3.dist-info/top_level.txt,sha256=J5U4yoA91nX8PtsoC139ye56YhssW1ZSSdC5QCxvTV8,10
+mathextra-1.3.dist-info/RECORD,,
