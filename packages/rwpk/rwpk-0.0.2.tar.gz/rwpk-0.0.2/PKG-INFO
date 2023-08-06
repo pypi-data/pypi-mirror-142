@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rwpk
+Version: 0.0.2
+Summary: Pakistani word/phrase generator.
+Author: siphr
+Author-email: pypi@techtum.dev
+License: UNKNOWN
+Project-URL: Homepage, https://www.techtum.dev/work-rwp-220314.html
+Project-URL: Source, https://github.com/siphr/rwpk
+Project-URL: Tracker, https://github.com/siphr/rwpk/issues
+Keywords: pakistani,urdu,sindhi,random,words,generator
+Platform: any
+
+RWP
+===
+
+A Pakistani language random word generator.
+
+
+Details
+-------
+
+Uses a predefined set of words for enumeration.
+
+
+Package Usage
+-------------
+
+from rwpk import rwpk
+
+\# show a phrase made of n=2 random words
+
+rwpk.show_random_words('urdu', 2)
+
+
