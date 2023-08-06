@@ -1,0 +1,11 @@
+tess_py_api/__init__.py,sha256=nu3A7f12vow5YL-i1h3Y5LkObQhztoSq1v6Th9zmdW0,54
+tess_py_api/api.py,sha256=ZmiXMpjn_ye_OALVElU7UoXYfSUpmkAZcmxY6c0uNRs,3763
+tess_py_api/dummy_class.py,sha256=RgQ9dX-DxwxgwUXEE0ir1jJBrawcEDfDWSQAQYwfLOM,242
+tess_py_api/TessPyWrap/CpyAPI.py,sha256=U0kRWp14MHav1_lInh9Yna-Gyxydi3LWFQcw1xxxq8M,55526
+tess_py_api/TessPyWrap/__init__.py,sha256=jmZ9WPCCEDC7fzf5gXEenc1FpyBg2MgnQOh-e8qtyds,27
+tess_py_api/TessPyWrap/capi_types.py,sha256=dwBzNgRrqZYakyWH8F9PuxINRdor1UgP_9isgf2EJ2Q,1505
+tess_py_api-0.0.11.dist-info/LICENSE,sha256=xE-KHoOw04SKqLIk8kSFLSOqK5_jWTGFF5o5rJo1Yy0,1068
+tess_py_api-0.0.11.dist-info/METADATA,sha256=uTrAU91rlsXRVFlUyOVJ_1pWUUrN2x0YRGaGT9P2pQI,2161
+tess_py_api-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tess_py_api-0.0.11.dist-info/top_level.txt,sha256=g8QXwL7FM1YwtlRwLaSc4Rtkj8G4bIWSI2y0TVJBgg0,12
+tess_py_api-0.0.11.dist-info/RECORD,,
