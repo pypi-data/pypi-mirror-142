@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+regularizecl.py
+setup.cfg
+setup.py
+regularizecl.egg-info/PKG-INFO
+regularizecl.egg-info/SOURCES.txt
+regularizecl.egg-info/dependency_links.txt
+regularizecl.egg-info/requires.txt
+regularizecl.egg-info/top_level.txt

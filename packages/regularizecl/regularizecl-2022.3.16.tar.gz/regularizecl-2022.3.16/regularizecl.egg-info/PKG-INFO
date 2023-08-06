@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: regularizecl
+Version: 2022.3.16
+Summary: angular power spectra regularization
+Home-page: https://github.com/cltools/regularizecl
+Maintainer: Nicolas Tessore
+Maintainer-email: n.tessore@ucl.ac.uk
+License: MIT
+Project-URL: Documentation, https://cltools.readthedocs.io/regularizecl/
+Project-URL: Issues, https://github.com/cltools/regularizecl/issues
+Description: 
+        regularizecl
+        ============
+        
+        **regularize angular power spectra**
+        
+        This is a minimal Python package for regularising the angular power spectra of
+        multiple correlated spherical random fields.
+        
+        The package can be installed using pip:
+        
+            pip install regularizecl
+        
+        Then import the `regularize_cls` function from the package:
+        
+            from regularizecl import regularize_cls
+        
+        For more information, please see the [documentation].
+        
+        Current functionality covers the absolutely minimal use case.  Please open an
+        issue on GitHub if you would like to see anything added.
+        
+        [documentation]: https://cltools.readthedocs.io/regularizecl/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
