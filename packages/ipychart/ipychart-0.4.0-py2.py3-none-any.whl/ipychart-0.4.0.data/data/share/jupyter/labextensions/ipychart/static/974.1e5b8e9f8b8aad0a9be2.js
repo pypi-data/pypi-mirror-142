@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipychart=self.webpackChunkipychart||[]).push([[974,524],{8974:(a,e,k)=>{k.d(e,{uz:()=>s.O,S6:()=>s.D,kJ:()=>s.b,_D:()=>s.k,Kn:()=>s.i,TS:()=>s.a2,DB:()=>s.a,Xx:()=>s.s,re:()=>s.Z,oY:()=>s.C,Be:()=>s.v});var s=k(3940)}}]);
