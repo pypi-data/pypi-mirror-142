@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/boostrap_sdk_jcincotta22.egg-info/PKG-INFO
+src/boostrap_sdk_jcincotta22.egg-info/SOURCES.txt
+src/boostrap_sdk_jcincotta22.egg-info/dependency_links.txt
+src/boostrap_sdk_jcincotta22.egg-info/top_level.txt
