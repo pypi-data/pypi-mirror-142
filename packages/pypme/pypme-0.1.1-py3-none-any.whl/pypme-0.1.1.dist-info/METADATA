@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pypme
+Version: 0.1.1
+Summary: Python library for PME (Public Market Equivalent) calculation
+Home-page: https://github.com/ymyke/pypme
+License: MIT
+Author: ymyke
+Requires-Python: >=3.8,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy-financial (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: xirr (>=0.1.8,<0.2.0)
+Project-URL: Repository, https://github.com/ymyke/pypme
