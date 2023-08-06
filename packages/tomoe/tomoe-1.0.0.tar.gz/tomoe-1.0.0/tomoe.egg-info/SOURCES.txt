@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tomoe/__init__.py
+tomoe/pururin.py
+tomoe.egg-info/PKG-INFO
+tomoe.egg-info/SOURCES.txt
+tomoe.egg-info/dependency_links.txt
+tomoe.egg-info/requires.txt
+tomoe.egg-info/top_level.txt
