@@ -1,0 +1,9 @@
+SJ_CONSTANTS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SJ_CONSTANTS/constants.py,sha256=wetxKjCdm9iEJQTTZ_1IlBiX7hKU3mF5RIySDLT5JMI,2253
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_verifier.py,sha256=EUW9ePgec6KV8aRWvo8CNAPomV_hgfqCx-5KO_jBjYc,185
+SJ_CONSTANTS-0.0.1.dist-info/LICENSE,sha256=RmVxFuDO_StuZnXNjM3TLFhnOvMeLn-enmgPbr1vC20,1069
+SJ_CONSTANTS-0.0.1.dist-info/METADATA,sha256=axUA1_j9TbcHcC08BsUIhPSP5LOZIPAkzAHlznZj6nw,440
+SJ_CONSTANTS-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SJ_CONSTANTS-0.0.1.dist-info/top_level.txt,sha256=7spVDAH1Dzkztnk3zCprduCUndBfx6eGiaWATn7BFXQ,19
+SJ_CONSTANTS-0.0.1.dist-info/RECORD,,

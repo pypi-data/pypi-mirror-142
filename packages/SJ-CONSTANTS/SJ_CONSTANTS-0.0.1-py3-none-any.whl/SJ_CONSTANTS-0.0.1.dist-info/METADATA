@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SJ-CONSTANTS
+Version: 0.0.1
+Summary: This repository contains the cross-repository constants
+Home-page: https://github.com/BertVanAcker/SJ-CONSTANTS
+Download-URL: https://github.com/BertVanAcker/SJ-CONSTANTS
+Author: Bert Van Acker(B.MKR)
+Author-email: bva.bmkr@gmail.com
+License: https://github.com/BertVanAcker/SJ-CONSTANTS/blob/main/LICENSE
+Platform: any
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
