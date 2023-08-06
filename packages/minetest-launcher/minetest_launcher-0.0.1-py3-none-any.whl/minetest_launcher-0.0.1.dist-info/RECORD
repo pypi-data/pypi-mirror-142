@@ -1,0 +1,10 @@
+minetest_launcher/LauncherWindow.ui,sha256=qU1jpWA703zTS__DGpr6iVUAfhgZrhvHAuKeiiB0aVU,334
+minetest_launcher/ServerList.ui,sha256=EYr3DRwb5vQQuC1TRzVLx04Rvwd2RxHEetQcbHMgSys,164
+minetest_launcher/ServerWidget.ui,sha256=FFxc3o6X1y_0peSpQ1pJU-2jP-S2NErJ90Sk6c9w7nQ,190
+minetest_launcher/__init__.py,sha256=dYrdNvKM11CXxU0L_xxIY0FuZLqPVCWx7cRWymcEUMI,64
+minetest_launcher/__main__.py,sha256=sOgeaerHpjU8CoFH1xZNIHBth1QMLx7evdlXhUjJySE,1278
+minetest_launcher-0.0.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+minetest_launcher-0.0.1.dist-info/METADATA,sha256=KvM6roOrsYCjtYpKXhl_RsFdrAy6EB9_st5rfNX4vmU,586
+minetest_launcher-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minetest_launcher-0.0.1.dist-info/top_level.txt,sha256=5X-Hyqlpp9uPW60BIpft6pTttZT6t5R9dp5HUALGQTk,18
+minetest_launcher-0.0.1.dist-info/RECORD,,
