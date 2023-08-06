@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: urdf2casadi
+Version: 1.2.0
+Summary: Module for tuning a chain in a URDF to a casadi function.
+Author: Mathias Hauan Arbo
+Requires-Python: >=3.6.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: casadi (==3.5.5)
+Requires-Dist: numpy (>=1.15.0,<2.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: urdf_parser_py (>=0.0.3)

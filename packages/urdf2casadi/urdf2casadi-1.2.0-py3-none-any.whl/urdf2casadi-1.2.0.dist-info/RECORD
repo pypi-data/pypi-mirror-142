@@ -1,0 +1,11 @@
+urdf2casadi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2casadi/geometry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2casadi/geometry/dual_quaternion.py,sha256=qjW0NJCVLfuCaa_tO1WwbjbhpHruzcUR33r1yzVtsG0,15985
+urdf2casadi/geometry/plucker.py,sha256=inqlbjAUzDL4uCDEF2kqTHTH5vnZZwUNV364qaHFjbI,4860
+urdf2casadi/geometry/quaternion.py,sha256=aAMYI8jzoyEzu2qoAxQ1PzuoipyfDCX5grf1Ygz8xd4,2955
+urdf2casadi/geometry/transformation_matrix.py,sha256=YjRNKYn58FOpPJ4mTXp2hiT3vraBRaokfl982Dgwq1Y,4439
+urdf2casadi/urdfparser.py,sha256=efXJeBCxQ86MqqBNRAYY8NV3ZNmv07b6Z6E9QzU8Hv8,24879
+urdf2casadi-1.2.0.dist-info/LICENSE,sha256=aoKcApQumYEx8ruuS9sZgaM5rg9kKHum8pe9EJs56tg,1065
+urdf2casadi-1.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+urdf2casadi-1.2.0.dist-info/METADATA,sha256=A-YOoEjSk2PX5qP_GplcTJy9Ul-Q6h66YFFlCRfhtes,623
+urdf2casadi-1.2.0.dist-info/RECORD,,
