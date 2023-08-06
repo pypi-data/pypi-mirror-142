@@ -1,0 +1,4 @@
+graft clientOIDCAduneo/templates
+graft clientOIDCAduneo/static
+graft clientOIDCAduneo/tests
+graft clientOIDCAduneo/conf
