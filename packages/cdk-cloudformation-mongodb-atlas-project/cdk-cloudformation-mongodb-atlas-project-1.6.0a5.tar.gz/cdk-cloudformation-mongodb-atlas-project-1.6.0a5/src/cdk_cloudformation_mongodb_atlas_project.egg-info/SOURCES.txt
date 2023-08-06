@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_mongodb_atlas_project/__init__.py
+src/cdk_cloudformation_mongodb_atlas_project/py.typed
+src/cdk_cloudformation_mongodb_atlas_project.egg-info/PKG-INFO
+src/cdk_cloudformation_mongodb_atlas_project.egg-info/SOURCES.txt
+src/cdk_cloudformation_mongodb_atlas_project.egg-info/dependency_links.txt
+src/cdk_cloudformation_mongodb_atlas_project.egg-info/requires.txt
+src/cdk_cloudformation_mongodb_atlas_project.egg-info/top_level.txt
+src/cdk_cloudformation_mongodb_atlas_project/_jsii/__init__.py
+src/cdk_cloudformation_mongodb_atlas_project/_jsii/mongodb-atlas-project@1.6.0-alpha.5.jsii.tgz
