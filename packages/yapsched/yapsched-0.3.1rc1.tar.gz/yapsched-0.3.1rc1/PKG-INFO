@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yapsched
+Version: 0.3.1rc1
+Summary: Yet Another Python Scheduler
+Author: Software Factory Labs
+Author-email: eric@softwarefactorylabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Requires-Python: >= 3.9, < 4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Yet Another Python Scheduler (YAPS)
+
+A scheduler based on multiprocessing.
+
+
