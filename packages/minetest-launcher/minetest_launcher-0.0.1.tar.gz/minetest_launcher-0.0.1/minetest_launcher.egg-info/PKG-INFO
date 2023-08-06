@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: minetest-launcher
+Version: 0.0.1
+Summary: Work in progress Minetest server browser and launcher
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+License-File: COPYING
+
+UNKNOWN
+
