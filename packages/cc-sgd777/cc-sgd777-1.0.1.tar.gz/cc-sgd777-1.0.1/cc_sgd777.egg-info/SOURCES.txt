@@ -1,0 +1,13 @@
+README.md
+setup.py
+agent_sgd777/__init__.py
+agent_sgd777/__version__.py
+agent_sgd777/client.py
+agent_sgd777/exceptions.py
+agent_sgd777/settings.py
+cc_sgd777.egg-info/PKG-INFO
+cc_sgd777.egg-info/SOURCES.txt
+cc_sgd777.egg-info/dependency_links.txt
+cc_sgd777.egg-info/not-zip-safe
+cc_sgd777.egg-info/requires.txt
+cc_sgd777.egg-info/top_level.txt
