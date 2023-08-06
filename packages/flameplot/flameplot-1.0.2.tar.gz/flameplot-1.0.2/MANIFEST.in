@@ -1,0 +1,2 @@
+include flameplot/data/*.zip
+include flameplot/data/*.txt
