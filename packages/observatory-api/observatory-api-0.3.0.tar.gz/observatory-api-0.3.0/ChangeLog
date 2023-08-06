@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.3.0
+-----
+
+* Ensure that the blob name is unique across tables with the same name … (#548)
