@@ -1,0 +1,11 @@
+pyyaml
+pandas
+
+[dev]
+pyarrow
+pytest
+pytest-pep8
+pytest-cov
+pre-commit
+build
+twine
