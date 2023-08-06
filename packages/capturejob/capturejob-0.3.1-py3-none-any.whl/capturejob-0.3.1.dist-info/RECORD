@@ -1,0 +1,7 @@
+capturejob/__init__.py,sha256=WRc-LK-GNF9s1DeRqfo-4o-7dFuYiCBKco2vtS_C_zQ,1160
+capturejob/__main__.py,sha256=5xPLuTjZ5G392oqBBjLQ4-Xx82KCnjdjL_72pwwa424,48
+capturejob/service/fileservice.py,sha256=2n7y8svk1ytahzFUDYpSPuh7B7K-va5DAoeP7Cpeqek,1194
+capturejob-0.3.1.dist-info/entry_points.txt,sha256=Zyy6_5YB7zhRo6jfyaBfeSJcgKy1V5HaiIFbYrg83qk,63
+capturejob-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+capturejob-0.3.1.dist-info/METADATA,sha256=U9qr8s9QzphVn6mKk-zUCMPb6XgBJ9dXUrml4hTwot0,1554
+capturejob-0.3.1.dist-info/RECORD,,
