@@ -1,0 +1,7 @@
+requests
+logging
+argparse
+lockfile
+requests_toolbelt
+pyyaml
+crcmod>=1.7
