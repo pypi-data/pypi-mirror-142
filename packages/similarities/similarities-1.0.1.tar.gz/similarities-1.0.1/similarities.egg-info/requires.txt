@@ -1,0 +1,7 @@
+text2vec>=1.1.5
+transformers>=4.6.0
+jieba>=0.39
+loguru
+Pillow
+pytrec_eval
+hnswlib
