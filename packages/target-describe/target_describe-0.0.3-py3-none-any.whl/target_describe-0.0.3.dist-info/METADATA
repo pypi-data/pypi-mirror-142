@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: target-describe
+Version: 0.0.3
+Summary: Generate viz for your variables with your target for ML
+Home-page: https://github.com/DanielR59/target_description
+Author: Daniel Rosas
+Author-email: daniel_pumas_59@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: nbformat (==5.1.3)
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: pandas (>=1.3.1)
+Requires-Dist: plotly (==5.6.0)
+Requires-Dist: tenacity (==8.0.1)
+
+
+target_description
+==================
+
+La libreria ``target_describe`` es un complemento para la visualizacion de la relacion entre la variable objetivo y las variables para los problemas de machine learning, más allá de una matriz de correlación.
+
+Instalacion
+===========
+
+.. code-block::
+
+   pip install target-describe
+
+Modos disponibles
+=================
+
+Por el momento solo soporta problemas de clasificación binaria, poco a poco soportará problemas de regresión y clasificación multiple
+
+Ejemplo de uso
+==============
+
+La libreria hace uso de `Plotly <https://plotly.com/>`_\ , por lo que se recomienda su uso en Jupyter Notebook
+
+.. code-block:: python
+
+
+   import pandas as pd
+   from target_describe import targetDescribe
+   df = pd.read_csv(
+       "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+   )
+
+   td = targetDescribe(df,"Survived", problem="binary_classification")
+   td.all_associations()
+
+
+.. image:: https://github.com/DanielR59/target_description/blob/main/img/Sex.png
+   :target: https://github.com/DanielR59/target_description/blob/main/img/Sex.png
+   :alt: hola
+
+
+
+.. image:: https://github.com/DanielR59/target_description/blob/main/img/Pclass.png
+   :target: https://github.com/DanielR59/target_description/blob/main/img/Pclass.png
+   :alt: hola2
+
+
+Sin embargo tambien puedes hacer uso de la libreria mediante un script de python exportando directamente los gráficos en html.
+
+.. code-block:: python
+
+
+   import pandas as pd
+   from target_describe import targetDescribe
+   df = pd.read_csv(
+       "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+   )
+
+   td = targetDescribe(df,"Survived", problem="binary_classification")
+   td.all_associations(export=True)
+
+
