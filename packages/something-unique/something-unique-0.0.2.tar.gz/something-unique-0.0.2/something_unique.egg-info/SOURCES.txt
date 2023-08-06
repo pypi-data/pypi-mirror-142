@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README
+pyproject.toml
+setup.cfg
+something_unique/__init__.py
+something_unique/maths.py
+something_unique.egg-info/PKG-INFO
+something_unique.egg-info/SOURCES.txt
+something_unique.egg-info/dependency_links.txt
+something_unique.egg-info/requires.txt
+something_unique.egg-info/top_level.txt
