@@ -1,0 +1,8 @@
+README.md
+setup.py
+dexapi/__init__.py
+dexapi.egg-info/PKG-INFO
+dexapi.egg-info/SOURCES.txt
+dexapi.egg-info/dependency_links.txt
+dexapi.egg-info/requires.txt
+dexapi.egg-info/top_level.txt
