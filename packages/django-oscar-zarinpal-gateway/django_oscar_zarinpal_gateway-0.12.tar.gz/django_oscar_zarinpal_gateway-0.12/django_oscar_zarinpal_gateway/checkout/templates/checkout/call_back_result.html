@@ -1,0 +1,65 @@
+{% extends "oscar/checkout/layout.html" %}
+{% load currency_filters %}
+{% load i18n %}
+{% load image_tags %}
+
+{% block title %}
+    {% blocktrans with number=order.number %}
+        Order {{ number }}: confirmation
+    {% endblocktrans %} | {{ block.super }}
+{% endblock title %}
+
+{% block checkout_nav %}
+    {% include 'oscar/checkout/nav.html' with step=5 %}
+{% endblock %}
+
+{% block checkout_title %}
+    {% blocktrans %}
+        Order {{ number }} : confirmation
+    {% endblocktrans %}
+{% endblock %}
+
+
+{% block content %}
+    {% comment %} InsufficientPaymentSources {% endcomment %}
+    {% if status == 402 %} 
+        <div class="alert alert-warning" role="alert">
+            {% blocktrans %}
+                {{ msg }}
+            {% endblocktrans %}        
+        </div>
+    {% endif %}
+
+    {% comment %} UserCancelled {% endcomment %}
+    {% if status == 410 %}
+        <div class="alert alert-danger" role="alert">
+            {% blocktrans %}
+                {{ msg }}
+            {% endblocktrans %}
+        </div>
+    {% endif %}
+
+    {% comment %} UserCancelled {% endcomment %}
+    {% if status == 422 %}
+    <div class="alert alert-dark" role="alert">
+        {% blocktrans %}
+            {{ msg }}
+        {% endblocktrans %}
+    </div>
+    {% endif %}
+
+    {% comment %} UnexpectedError {% endcomment %}
+    {% if status == 500 %}
+        <div class="alert alert-info" role="alert">
+            {% blocktrans %}
+                {{ msg }}           
+            {% endblocktrans %}
+        </div>
+    {% endif %}
+    
+    <div class="container">
+        <div class="col-12 text-center">
+            <a class="btn btn-outline-secondary col-2" href="/" role="button">Home Page</a>
+        </div>
+    </div>
+{% endblock content %}

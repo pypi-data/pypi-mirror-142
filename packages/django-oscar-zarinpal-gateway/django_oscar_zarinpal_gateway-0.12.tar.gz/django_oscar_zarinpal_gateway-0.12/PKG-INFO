@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: django_oscar_zarinpal_gateway
+Version: 0.12
+Summary: Payment integration with Zarinpal for django-oscar
+Home-page: https://github.com/mojtabaakbari221b/django-oscar-zarinpal-gateway
+Author: Mojtaba Akbari
+Author-email: mojtaba.akbari.221B@gmail.com
+License: BSD-3-Clause
+Description: check https://github.com/mojtabaakbari221b/django-oscar-zarinpal-gateway
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
