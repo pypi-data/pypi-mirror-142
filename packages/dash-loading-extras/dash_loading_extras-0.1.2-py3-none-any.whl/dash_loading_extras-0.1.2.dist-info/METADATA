@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dash-loading-extras
+Version: 0.1.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: dash
+Requires-Dist: flask
+Requires-Dist: importlib-metadata ; python_version == "3.7"
+
+UNKNOWN
+
