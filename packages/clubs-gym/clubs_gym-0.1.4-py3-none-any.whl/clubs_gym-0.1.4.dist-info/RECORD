@@ -1,0 +1,12 @@
+clubs_gym/__init__.py,sha256=4FeqhCVQ16Lmdeb-eq8e0Pw0TNyw5oeVtNdjPbMHBzk,1223
+clubs_gym/error.py,sha256=tyfb2pH-w8tADMaueqLOCFO44XMYpYzLY4XuhUEPNcQ,162
+clubs_gym/agent/__init__.py,sha256=aakw48PcFCTXlAFEP-848WQ12Vk2IBi-AT0dXFPd5iw,94
+clubs_gym/agent/base.py,sha256=MwLKnI5gVNSs9b86LWB6TA5AHHlKB-a1Ba3gRT0ginI,181
+clubs_gym/agent/kuhn.py,sha256=jbdDnQKefbCwdH5GFTvEqGg-bUu28DYgsipDLoMfQLk,2607
+clubs_gym/envs/__init__.py,sha256=X8di9vApTfQQAqNWJUB3tY2pOg4-wH0FQ7bCC2AMnS4,72
+clubs_gym/envs/env.py,sha256=etz5KrrB2afTAN-0JgmaJ3Zykyp3a2X5QqFWBA4Rmdk,11663
+clubs_gym-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+clubs_gym-0.1.4.dist-info/METADATA,sha256=3nreQWfHAMjGOLrvtjY9cuC4uvpLSxr5TPUzNqYvMvA,4050
+clubs_gym-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clubs_gym-0.1.4.dist-info/top_level.txt,sha256=VKdFw6iZaKX17ZQdZxhWKw2sL4qpExDkdvxeckN43aQ,10
+clubs_gym-0.1.4.dist-info/RECORD,,
