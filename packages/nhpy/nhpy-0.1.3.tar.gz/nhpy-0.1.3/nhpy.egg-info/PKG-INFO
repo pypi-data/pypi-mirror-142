@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: nhpy
+Version: 0.1.3
+Summary: API wraper for nhentai.net
+Home-page: https://github.com/b3yc0d3/nhpy
+Author: b3yc0d3
+Author-email: b3yc0d3@dnmx.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/b3yc0d3/nhpy
+Project-URL: Issue tracker, https://github.com/b3yc0d3/nhpy/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## nhpy [![Downloads](https://pepy.tech/badge/nhpy)](https://pypi.org/project/nhpy/) ![](https://img.shields.io/pypi/format/nhpy) [![](https://img.shields.io/pypi/v/nhpy)](https://pypi.org/project/nhpy/) ![](https://img.shields.io/github/license/b3yc0d3/nhpy) ![](https://img.shields.io/github/languages/code-size/b3yc0d3/nhpy)
+nehntai api wrapper for python.\
+Read the [Documentation](https://github.com/b3yc0d3/nhpy/blob/main/DOCS/usage.md)
+
+## Planning
+- [X] get book by id
+- [X] get related books
+- [X] search with query
+- [X] get comments of a book
+
+#### user related
+- [ ] login
+- [ ] user search
+- [ ] get user profile
+
+## Code Snippet
+```py
+from nhpy import NhPy
+
+nhpy = NhPy()
+
+my_book = nhpy.get_book(394659)
+rel_books = nhpy.get_related_books(my_book.id)
+my_search = nhpy.search(["neko"])
+book_comment = nhpy.comments(394659)
+
+```
+
+
