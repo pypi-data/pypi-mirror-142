@@ -1,0 +1,14 @@
+pganonymize/__init__.py,sha256=AHHvCDLd_FAc067lhuWMpSJDdkeQUBLngdVRZmyROp0,106
+pganonymize/__main__.py,sha256=dnDkZMRBbS27ZID0PUjRfO0w-PoT5fOUo-_wkewKfmw,358
+pganonymize/cli.py,sha256=6MAFGC06mMuOeK4jl4plYOOP-af3cQnUL6FklqaH07c,3288
+pganonymize/constants.py,sha256=Z-tErOr_6sBKi2FBvfNNHhp_x9_04QgOxJ0GaXeXWYE,305
+pganonymize/exceptions.py,sha256=mXNGDZB5E_EuqcF8C2JDFHezviKYO_XyLb1wUH6-hb8,690
+pganonymize/providers.py,sha256=7uJ4-Ye8DpKqArXFZqHEtk5qTydGv7mej7b0g8UdRD8,4836
+pganonymize/utils.py,sha256=CRsQzNF4IKXyfoZPnGC2vmvxY09qoqdfhj_HCSGHbBk,14103
+pganonymize/version.py,sha256=7h9sWo_-TlTekk3n-iVt2Idy3dQc6DW6YFKQT72ek_k,47
+pganonymize-0.8.0.dist-info/LICENSE.rst,sha256=bFh2X41ddw3U1hHBbLHiOoyUqhs9wjk-yOiPH47h0FE,1105
+pganonymize-0.8.0.dist-info/METADATA,sha256=XtMgb8L-54VlAOYBcSABX21BlXOtwJEHOodpziPzeUA,9029
+pganonymize-0.8.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pganonymize-0.8.0.dist-info/entry_points.txt,sha256=B1eb5ASaSMNn9Ug9-Vnff2hlmTKhIJt-1HxxgOS01Zw,59
+pganonymize-0.8.0.dist-info/top_level.txt,sha256=lhkWpd9_3UOhp9fxpqMIHPSs4OObCUhrZJ_2fKr3rIU,12
+pganonymize-0.8.0.dist-info/RECORD,,

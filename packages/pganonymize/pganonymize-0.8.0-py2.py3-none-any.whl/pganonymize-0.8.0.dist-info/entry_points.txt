@@ -1,0 +1,3 @@
+[console_scripts]
+pganonymize = pganonymize.__main__:main
+
