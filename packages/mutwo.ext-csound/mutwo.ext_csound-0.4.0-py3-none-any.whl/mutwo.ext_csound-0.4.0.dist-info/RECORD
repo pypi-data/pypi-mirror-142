@@ -1,0 +1,9 @@
+mutwo/csound_converters/__init__.py,sha256=UVe0kM4TJeLeAsb1qf1zXZlV8pLbg3O9KJ7b9E03QFM,111
+mutwo/csound_converters/configurations.py,sha256=ilAYii6w5sEd7yLZIYxmDKSYphS2wIEXhYchSeuctGg,496
+mutwo/csound_converters/constants.py,sha256=Z8YqMIwoF8hF2Bd0d2kx4g6HjRX9I9bXWJJo8AFnsDY,871
+mutwo/csound_converters/csound.py,sha256=cs3lOOgj7zs4giwNEw7PvSgQ-jK4JIhjJMG582nQONE,12390
+mutwo.ext_csound-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mutwo.ext_csound-0.4.0.dist-info/METADATA,sha256=jKnza-WpN1MElZD6-a7HR9U9IgI_1baZb4bVAa3BM9Q,1464
+mutwo.ext_csound-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mutwo.ext_csound-0.4.0.dist-info/top_level.txt,sha256=1UzApATBnnDoZgVDqupcM1hYH7l1uhSHZQCf_nUK5y8,6
+mutwo.ext_csound-0.4.0.dist-info/RECORD,,
