@@ -1,0 +1,7 @@
+# Stubs
+recursive-include src *.pyi
+recursive-include src py.typed
+
+# Tests
+include tox.ini
+recursive-include tests *.py
