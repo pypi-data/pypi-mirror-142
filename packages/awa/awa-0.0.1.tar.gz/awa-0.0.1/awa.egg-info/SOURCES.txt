@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+awa/__init__.py
+awa.egg-info/PKG-INFO
+awa.egg-info/SOURCES.txt
+awa.egg-info/dependency_links.txt
+awa.egg-info/entry_points.txt
+awa.egg-info/top_level.txt
+awa.egg-info/zip-safe
+awa/shell/__init__.py
+awa/shell/usage.py
+awa/src/temp.txt

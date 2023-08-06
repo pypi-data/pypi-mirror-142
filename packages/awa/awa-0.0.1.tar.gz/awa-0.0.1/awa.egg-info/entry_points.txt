@@ -1,0 +1,3 @@
+[console_scripts]
+awa = awa.shell:run
+
