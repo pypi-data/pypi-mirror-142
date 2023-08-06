@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.py
+src/dictionarycom_ipa_scraper.egg-info/PKG-INFO
+src/dictionarycom_ipa_scraper.egg-info/SOURCES.txt
+src/dictionarycom_ipa_scraper.egg-info/dependency_links.txt
+src/dictionarycom_ipa_scraper.egg-info/requires.txt
+src/dictionarycom_ipa_scraper.egg-info/top_level.txt
+src/scraper/PagePartBlock.py
+src/scraper/__init__.py
+src/scraper/funcs_over_blocks.py
+src/scraper/get_by_tds.py
+src/scraper/imported.py
