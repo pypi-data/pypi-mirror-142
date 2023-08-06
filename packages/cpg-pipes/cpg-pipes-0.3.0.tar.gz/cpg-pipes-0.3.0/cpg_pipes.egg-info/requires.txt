@@ -1,0 +1,9 @@
+click
+pandas
+hail>=0.2.90
+cpg-gnomad
+google-cloud-storage
+fsspec
+sample-metadata
+analysis-runner
+cloudpathlib[gs]
