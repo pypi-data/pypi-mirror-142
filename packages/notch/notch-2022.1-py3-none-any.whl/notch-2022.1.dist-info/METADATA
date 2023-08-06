@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: notch
+Version: 2022.1
+Summary: The Python logging micropackage
+Home-page: https://github.com/williamjacksn/notch
+Author: William Jackson
+Author-email: william@subtlecoolness.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/williamjacksn/notch/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# notch
+
+🪵 The Python logging micropackage
+
+
