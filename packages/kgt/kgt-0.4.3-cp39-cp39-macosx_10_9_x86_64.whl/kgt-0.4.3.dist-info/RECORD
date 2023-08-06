@@ -1,0 +1,16 @@
+kgt.cpython-39-darwin.so,sha256=Un92Y54nyosDdvmH3x3aXRN9c9KY_Yb2r4xlNELfMFc,882880
+kgt.pyi,sha256=XuZm1G9mF0jqhkmAHOVkPAUiA14Pr8PBl9Yq-Uusoik,1161
+kgt/__about__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgt/__init__.pyi,sha256=V3OX_0ozwCD8Spfygo5abSC68OTiB5VM-G6J0jCGY2U,361
+kgt/_cached.pyi,sha256=kqlkZTTRj8uqNN5EmItKdDJjJnNpp_VEYpaTs528Mng,424
+kgt/_exceptions.pyi,sha256=MgYHf4GTJ31E6DFRHLjIUs5gH9_zPR_G353TN20MnlM,207
+kgt/_helpers.pyi,sha256=_NVW7vFj5p4UiG5iR4fTB_AOPnlqc_htaCrTDt4IVyI,237
+kgt/_main.pyi,sha256=W7aBQ7fDB4V__KTIxnabncjOe2UIZ5_mchKMI6DeV74,670
+kgt/_offline.pyi,sha256=99VEbb6CYiyxfx4Q5ntFDYG5ID0-WcbTyhpKUWPo0-g,155
+kgt/_online.pyi,sha256=2dz2MYJMHcFns9JRWaKktLi6NVpCf3yD-UXvfqNNVHY,130
+kgt/_unlock.pyi,sha256=tACgITVTOof0BVRaWe32qPFGp1ArBrcMpl7UjkoMTr4,103
+kgt/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+kgt-0.4.3.dist-info/METADATA,sha256=8obSTKVrhdJ1-UBdwa1mY97OzBG_zE--orXB1gashVA,2997
+kgt-0.4.3.dist-info/WHEEL,sha256=sNhm8G6BgQcv6-fsK9mlZ5-ld4sK5H3iy0VLfnK38rY,103
+kgt-0.4.3.dist-info/top_level.txt,sha256=7Qr09-XLARVhBjD8XniehDZ6-QUJh5OOLoABeHuO8Aw,4
+kgt-0.4.3.dist-info/RECORD,,
