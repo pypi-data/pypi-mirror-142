@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pydaisi
+Version: 0.2.0rc3
+Summary: A Python Interface for the Daisi Platform
+Home-page: https://github.com/BelmontTechnology/PyDaisi
+Author: BelmontTechnology
+Author-email: john@belmont.tech
+License: Apache License 2.0
+Keywords: Daisi SDK
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: dill
+Requires-Dist: rich
+
+UNKNOWN
+
