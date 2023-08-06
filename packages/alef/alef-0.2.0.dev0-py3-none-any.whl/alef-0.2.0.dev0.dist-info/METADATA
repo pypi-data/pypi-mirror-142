@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alef
+Version: 0.2.0.dev0
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: docker (>=5.0)
+Requires-Dist: invoke
+Requires-Dist: fabric (>=2.6)
+Requires-Dist: fire (>=0.4)
+Requires-Dist: redis (>=3.5)
+
+UNKNOWN
+
