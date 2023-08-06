@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Plex_TV_Show_File_Formatter
+Version: 1.0.3
+Summary: Renames an orded directory of a TV season into Plexs' preferred format
+Home-page: https://github.com/matthewkayne/Plex-TV-Show-File-Formatter
+Author: Matthew Kayne
+Author-email: matthewkayne2004@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Plex-TV-Show-File-Formatter
+
+[![PyPI version](https://badge.fury.io/py/Plex-TV-Show-File-Formatter.svg)](https://badge.fury.io/py/Plex-TV-Show-File-Formatter) [![CodeFactor](https://www.codefactor.io/repository/github/matthewkayne/plex-tv-show-file-formatter/badge)](https://www.codefactor.io/repository/github/matthewkayne/plex-tv-show-file-formatter)
+
+Renames an orded directory of a TV season into Plexs' preferred format
+
+Run buy calling `plex-rename`
+
+

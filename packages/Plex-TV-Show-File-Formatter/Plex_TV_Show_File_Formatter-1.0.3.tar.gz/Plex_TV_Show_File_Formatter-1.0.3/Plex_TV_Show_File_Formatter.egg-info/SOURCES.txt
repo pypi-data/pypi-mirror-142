@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Plex_TV_Show_File_Formatter.egg-info/PKG-INFO
+Plex_TV_Show_File_Formatter.egg-info/SOURCES.txt
+Plex_TV_Show_File_Formatter.egg-info/dependency_links.txt
+Plex_TV_Show_File_Formatter.egg-info/entry_points.txt
+Plex_TV_Show_File_Formatter.egg-info/top_level.txt
+plex_formatter/__init__.py
+plex_formatter/plex_rename.py
