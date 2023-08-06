@@ -1,0 +1,65 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.4,<4"]
+
+[project]
+authors = [{name = "xinetzone", email = "735613050@qq.com"}]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "pytorch_book"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+  "d2py",
+  "pydata_sphinx_theme"
+]
+
+maintainers = [
+  {name = "xinetzone", email = "735613050@qq.com"},
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Framework :: Sphinx",
+  "Framework :: Sphinx :: Theme",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Home = "https://github.com/xinetzone/pytorch_book"
+
+[project.optional-dependencies]
+doc = [
+  "myst_nb",
+  "pytest",
+  "pytest-regressions",
+  "sphinxext-rediraffe",
+  "sphinx_copybutton",
+  "sphinxcontrib-bibtex",
+  "invoke",
+]
+
+coverage = [
+  "pytest-cov",
+  "codecov",
+  "pytorch_book[test]",
+]
+dev = [
+  "pyyaml",
+  "pre-commit",
+  "pytorch_book[coverage]",
+]
+test = [
+  "pytest",
+  "pytorch_book[doc]",
+]
+
+[project.entry-points]
+"sphinx.html_themes" = {pytorch_book = "pytorch_book"}
+
+[tool.flit.sdist]
+# include = ["docs/"]
+exclude = ['docs', '.git', '.github']
