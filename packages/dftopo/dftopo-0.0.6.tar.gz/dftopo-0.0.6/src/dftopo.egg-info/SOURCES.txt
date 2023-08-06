@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dftopo.egg-info/PKG-INFO
+src/dftopo.egg-info/SOURCES.txt
+src/dftopo.egg-info/dependency_links.txt
+src/dftopo.egg-info/requires.txt
+src/dftopo.egg-info/top_level.txt
