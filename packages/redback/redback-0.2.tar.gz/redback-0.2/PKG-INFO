@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: redback
+Version: 0.2
+Summary: A Bayesian inference pipeline for electromagnetic transients
+Home-page: https://github.com/nikhil-sarin/redback
+Author: Nikhil Sarin, Moritz Huebner
+Author-email: nikhil.sarin@monash.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENCE.md
+
+UNKNOWN
+
