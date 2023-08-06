@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-janus
+Version: 0.1.0
+Summary: python bindings for Janus
+Home-page: https://github.com/alwinw/pyJanus
+Author: Alwin Wang
+Author-email: 16846521+AlwinW@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENCE.md
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+python bindings for Janus
+
