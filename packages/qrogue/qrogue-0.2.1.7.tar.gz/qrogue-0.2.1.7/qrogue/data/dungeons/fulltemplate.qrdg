@@ -1,0 +1,92 @@
+Qrogue<
+Name = "Full Template - x+x!"
+
+[Robot]
+2 qubits [ *hgate, *xgate, *CxGate, *h ]
+
+[Layout]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| __ .. cc 14 dd 11 oh .. __ .. __ .. __ |
+| ..    13    ..    ==    ..    ..    .. |
+| __ .. bb 33 aa 11 SR 22 fe .. __ .. __ |
+| ..    ..    ==    ..    ..    ..    .. |
+| __ .. __ .. aa .. __ .. __ .. __ .. __ |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Custom Rooms]
+// Puzzle: puzzle_id, state vector pool, reward pool, tutorial message (optional), event trigger (optional)
+
+aa (Wild):
+#############
+# 0 0 1 1 1 #
+# _ 2 5 5 5 #
+# 7 2 5 5 5 #
+# 6 7 _ _ 9 #
+# 7 3 8 4 8 #
+#############
+0 *stv *reward tutorial *tutpuzzle1 trigger *eventToTrigger1
+0 *stv *reward tutorial *ohADifferent0		// if we specify multiple 0s the first specification will be for the first 0, the second one for the second 0, ...; counting top to bottom, left to right
+1 *stv1 trigger *yetAnotherEvent
+1 *stv
+// by skipping 2, 3, 4 we tell the game to use default values
+5 *stv5 *reward5 
+6 *stv *reward tutorial *helptextFight	// we can also reference HelpTexts directly
+6 *stv *reward trigger *gameOver		// overspecification of a tile (e.g. we only have one 6 but define 2) is ignored
+
+oh (Wild):
+#############
+# _ _ _ _ _ #
+# _ _ _ _ _ #
+# _ _ _ _ _ #
+# _ _ _ _ _ #
+# _ _ _ _ _ #
+#############
+c *key 2 
+0 *stv *rewards
+
+c *coin 5; t *8093 		// nothing happens if we specify a trigger that is not used
+r [1, -0, +0, 0j] *hp
+$ *mixedPool 3
+c *key 1
+
+cc (visible Wild):
+#############
+#     _     #
+#     _     #
+# _ _ 0 _ _ #
+#     _     #
+#     _     #
+#############
+
+
+[Hallways]
+01 (locked; ; )
+22 (closed; ; )
+
+[StateVector Pools]
+custom
+*stv [ [1, 0, 0, 0] ]
+*stv1 [ [0, 0, 1, 0] ]
+*stv5 [ [0, 0, 0, 0, 1] ]	// an invalid state vector will trigger a warning and the default one will be used instead
+*myStvPool [ [0j, -0j, -1j, +0], [0.5, -.5j, +.5, 0.5j] ];  
+            default rewards: random *defaultStvRewardPool
+*inexactStv [ [.707, +0, -0 + 0j, .707j] ]	// magnitudes of the complex numbers don't have to add up exactly to 1, a small tolerance makes it more convenient to define
+
+default random [ [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1] ]	// elements of lists have to be separated with ","
+
+[Reward Pools]
+custom 
+*key [key 1]
+*keyRandom [key 1, key 2, key 3, key 4]
+*reward [key 1, coin 2, gate *X, coin 3, key 2]
+
+*myRewardPool [key 2, coin 3, gate *H, gate *x, gate *CxGate]
+*defaultStvRewardPool [coin 2, key 1]
+
+default ordered *myRewardPool	// default pools can not only be defined explicitely (like you saw for the default StateVector Pool) but also implicitely via reference!
+
+[Messages]
+*tutpuzzle1 "This is an example message that is shown after you step onto a puzzle and started solving it."
+*ohADifferent0 "You can define multiple instances of the same puzzle id!"
+
+>Qrogue

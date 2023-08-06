@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: qrogue
+Version: 0.2.1.7
+Summary: Qrogue is a modernized Quantum Computing take of the classical game Rogue. It can be played in a terminal and aims to improve your understanding of Quantum Computing
+Home-page: https://github.com/7Magic7Mike7/Qrogue
+Author: Michael Artner
+Author-email: michael.artner@jku.at
+License: MIT
+Download-URL: https://github.com/7Magic7Mike7/Qrogue/releases/tag/0.2.1.7
+Description: UNKNOWN
+Keywords: Quantum Computing,Gamification,Video Game,PyCUI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Programming Language :: Python :: 3.8
