@@ -1,0 +1,11 @@
+wordle_buddy/__init__.py,sha256=FEp29-s4bjpX7RTz1lURAsJO3PVh4BlG6QFMYZgVkmE,31
+wordle_buddy/solver.py,sha256=sa56HmyIomT_FVUZ6FHSE4TNzl5nQIarScy7WCRgqrQ,3384
+wordle_buddy/utilities.py,sha256=sR6q9-Tvbv5EAAlo5mMIcIU3SFOD_Q65nFt6zpEQoqo,545
+wordle_buddy/wordle.py,sha256=v1s9L6XbDRV_UCwWty8S52Gt-tgXB_6Mti7ZuG5wO9k,13611
+wordle_buddy-0.0.1.data/scripts/wordle_buddy,sha256=b-BFqlYdqarNlx2nzaYRCoAKmGd5ZDpe5_dITMX3sXQ,75
+wordle_buddy-0.0.1.data/scripts/wordle_buddy_manual,sha256=Fzb9Dtf-w7d5zLFAbbVpjrczCP2cgrOzvxY5EHJQCAM,88
+wordle_buddy-0.0.1.dist-info/LICENSE.rst,sha256=sSFMKtPNI7-yz1LEbaDPca_9LSk0ys6uXlP77uuxFnI,1048
+wordle_buddy-0.0.1.dist-info/METADATA,sha256=By9Iu8zdi1s0CnTIoKXdW9u3Q-xm-0Zfd6lTPdH01-k,1173
+wordle_buddy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordle_buddy-0.0.1.dist-info/top_level.txt,sha256=XR8AK_LWPRLkqqwSN_aX-JtVxl3bDeQKLy5Pe3dPJ9E,13
+wordle_buddy-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+#!python
+from wordle_buddy import WordleGame
+game = WordleGame()
+game.run()
