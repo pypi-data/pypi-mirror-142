@@ -1,0 +1,11 @@
+README.md
+setup.py
+twirl/__init__.py
+twirl/config.py
+twirl/utils.py
+twirl.egg-info/PKG-INFO
+twirl.egg-info/SOURCES.txt
+twirl.egg-info/dependency_links.txt
+twirl.egg-info/requires.txt
+twirl.egg-info/top_level.txt
+twirl.egg-info/zip-safe
