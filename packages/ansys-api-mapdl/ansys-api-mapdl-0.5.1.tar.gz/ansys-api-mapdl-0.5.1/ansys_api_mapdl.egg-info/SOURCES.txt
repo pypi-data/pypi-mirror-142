@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ansys/api/mapdl/VERSION
+ansys/api/mapdl/__init__.py
+ansys/api/mapdl/py.typed
+ansys/api/mapdl/v0/C_StreamGrpc.proto
+ansys/api/mapdl/v0/ansys_kernel.proto
+ansys/api/mapdl/v0/mapdl.proto
+ansys/api/mapdl/v0/mapdl_db.proto
+ansys_api_mapdl.egg-info/PKG-INFO
+ansys_api_mapdl.egg-info/SOURCES.txt
+ansys_api_mapdl.egg-info/dependency_links.txt
+ansys_api_mapdl.egg-info/entry_points.txt
+ansys_api_mapdl.egg-info/requires.txt
+ansys_api_mapdl.egg-info/top_level.txt
