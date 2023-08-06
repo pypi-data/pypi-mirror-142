@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: echoloader
+Version: 0.1.9
+Summary: 
+Author: mathias
+Author-email: mathias@us2.ai
+Requires-Python: >=3.7.5,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.4,<5.0.0)
+Requires-Dist: pycognito (>=2021.3.1,<2022.0.0)
+Requires-Dist: pydicom (>=2.2.2,<3.0.0)
+Requires-Dist: pynetdicom (>=1.5.7,<2.0.0)
+Requires-Dist: python-gdcm (>=3.0.10,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: watchdog (>=2.1.5,<3.0.0)
