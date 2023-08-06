@@ -1,0 +1,12 @@
+karrio/mappers/sendle/__init__.py,sha256=4R6uz695_7XA4eJMUSpKeJCdfOVAKbN8j9xlH_iwGBM,545
+karrio/mappers/sendle/mapper.py,sha256=ePifSVrSBqrjkf4Hl_IFdmhL99wzeocJDJmk2a3BV_g,4246
+karrio/mappers/sendle/proxy.py,sha256=mHJ4QE57CaC4zgq8XvA1CZBST5zjtdmty1zMz5vF8qA,1120
+karrio/mappers/sendle/settings.py,sha256=1Ve53pyy65kbrbzSoaauMnJMg8cvZaDxGAUo1zyKc8o,411
+karrio/providers/sendle/__init__.py,sha256=WJqriMeT3kxbQqK17stZYhdayyQ7BUb7xqX43p_9g1A,763
+karrio/providers/sendle/error.py,sha256=X9oUKcY5eOdf_q4bTxv75W0nAN9TeSit24HS4ACq3qU,754
+karrio/providers/sendle/tracking.py,sha256=TLVJdiW5KcIlQJ13_-cb6WFL82RnSiXCzP3p7luUKKQ,2008
+karrio/providers/sendle/units.py,sha256=DkWNt_g7mT25pjhUocLP4Xpn1hySBPqh4NiPovRl3VQ,1332
+karrio/providers/sendle/utils.py,sha256=c1jHCsk5zz4NMsFsHwmD08XmMnvzt7sitblurfFvTvY,634
+karrio.sendle-2022.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.sendle-2022.3.dist-info/METADATA,sha256=TDoAjYAk-pdd6JgF1jkkILCRlwNZRrVnk2uBGQNp0MY,1312
+karrio.sendle-2022.3.dist-info/RECORD,,
