@@ -1,0 +1,3 @@
+[console_scripts]
+docximg2md = docximg2md.program:main
+
