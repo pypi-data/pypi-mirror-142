@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Taller Programacion/Aplicacion Programacion.py
+Taller Programacion/__init__.py
+Taller_Programacion_PierrOspina.egg-info/PKG-INFO
+Taller_Programacion_PierrOspina.egg-info/SOURCES.txt
+Taller_Programacion_PierrOspina.egg-info/dependency_links.txt
+Taller_Programacion_PierrOspina.egg-info/requires.txt
+Taller_Programacion_PierrOspina.egg-info/top_level.txt
