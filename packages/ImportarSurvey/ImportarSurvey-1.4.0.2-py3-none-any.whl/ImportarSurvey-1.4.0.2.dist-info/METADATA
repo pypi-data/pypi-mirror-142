@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ImportarSurvey
+Version: 1.4.0.2
+Summary: Módulo de Geoprocesamiento ArcGIS Pro para la Precarga e Inyeccion de Encuestas de Actualización Catastral
+Home-page: https://dev.azure.com/esrico-con-uaecd-ladm/ImportarEncuestaActualizacionCatastral
+Author: Esri Colombia
+Author-email: mtorres@esri.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Other OS
+Classifier: Natural Language :: Spanish
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Caja de Herramientas Importar Survey UAECD
+Herramientas para la Precarga e Inyección de Encuestas de Actualización Catastral ArcGIS Survey 123 - ArcGIS Pro.
+UAECD - Unidad Administrativa Especial de Catastro Distrital
+
