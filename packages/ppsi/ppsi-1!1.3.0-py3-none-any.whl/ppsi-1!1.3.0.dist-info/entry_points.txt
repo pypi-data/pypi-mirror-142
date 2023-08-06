@@ -1,0 +1,4 @@
+[console_scripts]
+ppsi = ppsi.client:client_call
+ppsid = ppsi.server:server_call
+pspbar = ppsi.pspbar.__main__:main
