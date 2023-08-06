@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: beatlock
+Version: 0.0.2
+Summary: Celerybeat scheduler on redis-sentinel
+Home-page: https://github.com/kidig/beatlock
+Author: Dmitry Gerasimenko
+License: MIT
+Keywords: celerybeat redis sentinel scheduler
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# beatlock
+
+Celerybeat with failover on Redis-Sentinel
+
+
+## Installation
+
+```pip install beatlock```
+
+
+## Configuration
+
+```python
+# to set this scheduler instead default one
+CELERY_BEAT_SCHEDULER = "beatlock.schedulers.BeatLockScheduler"
+
+# for disable locking mechanism
+CELERY_BEATLOCK_LOCK_DISABLED = True  # default: False
+```
+
+
