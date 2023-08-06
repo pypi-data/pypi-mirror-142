@@ -1,0 +1,10 @@
+requests
+click
+numpy
+tqdm
+pillow
+scipy
+filetype
+opencv-python
+loguru
+torch>=1.10

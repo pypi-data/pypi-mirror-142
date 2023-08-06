@@ -1,0 +1,2 @@
+[console_scripts]
+fid-helper-pytorch = fid_helper_pytorch.cmd:main
