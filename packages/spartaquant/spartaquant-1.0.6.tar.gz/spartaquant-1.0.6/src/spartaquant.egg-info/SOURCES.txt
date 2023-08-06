@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/spartaquant/__init__.py
+src/spartaquant/getBBMData.py
+src/spartaquant.egg-info/PKG-INFO
+src/spartaquant.egg-info/SOURCES.txt
+src/spartaquant.egg-info/dependency_links.txt
+src/spartaquant.egg-info/top_level.txt
