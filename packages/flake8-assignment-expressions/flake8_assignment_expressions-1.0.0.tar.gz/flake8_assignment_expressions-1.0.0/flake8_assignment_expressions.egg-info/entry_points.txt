@@ -1,0 +1,2 @@
+[flake8.extension]
+ASE101 = flake8_assignment_expressions:Plugin

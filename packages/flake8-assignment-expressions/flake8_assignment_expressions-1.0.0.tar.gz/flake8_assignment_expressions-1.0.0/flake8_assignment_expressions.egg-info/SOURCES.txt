@@ -1,0 +1,12 @@
+LICENSE
+README.md
+flake8_assignment_expressions.py
+pyproject.toml
+setup.cfg
+setup.py
+flake8_assignment_expressions.egg-info/PKG-INFO
+flake8_assignment_expressions.egg-info/SOURCES.txt
+flake8_assignment_expressions.egg-info/dependency_links.txt
+flake8_assignment_expressions.egg-info/entry_points.txt
+flake8_assignment_expressions.egg-info/requires.txt
+flake8_assignment_expressions.egg-info/top_level.txt
