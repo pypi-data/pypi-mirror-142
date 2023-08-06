@@ -1,0 +1,13 @@
+ulist-0.8.0.dist-info/METADATA,sha256=TwiYsc5Ke3UJN4VPzqLEvypkttIzhVdMs6cDlcItaYA,66
+ulist-0.8.0.dist-info/WHEEL,sha256=m9GrjZojDuuAZAWxq9reVATN-3gflfa5Uef6-fGLzt0,96
+ulist/constructor.py,sha256=kU4anHnZHi52nqrAME-HdylwakV_3w40BeHFQl69_Wo,5587
+ulist/control_flow.py,sha256=QgHS9Bb7KRUL8WIzSmuc33mMIyLd0Xv7tnAEnOK3gMo,4373
+ulist/core.py,sha256=RTqVLeqb7d_CacqQcs3EXWgpiMpwsWuZ_hPKFUyozpQ,18663
+ulist/mypy.ini,sha256=9v1lpBV-vn4haLmhqzNmQ8T8dRhBVHxceaNEL4kw6zc,146
+ulist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ulist/typedef.py,sha256=SSXz8T21Lrmzp8cqIvkhEhN7PMvbU6knq3YTihAOuY0,413
+ulist/ulist.pyi,sha256=8Xwe-7l253938cLQOA_lzJgR5UylHj5HFplbXkQ-KDE,8074
+ulist/utils.py,sha256=TmlR4B7WJIkLoFH8ArnjDoiTZI8SQ8WOt6TGedYMG1o,8859
+ulist/__init__.py,sha256=3bhSB_QC5oaCJvu1pCm-VZxE2zcgaR3scW92iDywHOA,232
+ulist/ulist.cp39-win_amd64.pyd,sha256=J387scw6SF4E1Kb_T5a40XiNvIsh51gdHCS3SKIlDy0,737280
+ulist-0.8.0.dist-info/RECORD,,
