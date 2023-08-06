@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kc-test-leo-silva
+Version: 0.0.3
+Summary: primera practica
+Author: leosilva
+Author-email: leonardonevado.silva@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Primera practica-CICD
+
+- build
+- tests
+- coverage
+- package
+- publish
+
