@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+ashesdistribution/Binomialdistribution.py
+ashesdistribution/Gaussiandistribution.py
+ashesdistribution/Generaldistribution.py
+ashesdistribution/__init__.py
+ashesdistribution.egg-info/PKG-INFO
+ashesdistribution.egg-info/SOURCES.txt
+ashesdistribution.egg-info/dependency_links.txt
+ashesdistribution.egg-info/top_level.txt
