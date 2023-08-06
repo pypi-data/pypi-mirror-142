@@ -1,0 +1,3 @@
+[console_scripts]
+devseed=devseed.main:app
+
