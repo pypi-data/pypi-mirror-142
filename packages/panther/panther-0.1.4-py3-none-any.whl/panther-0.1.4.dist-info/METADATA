@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: panther
+Version: 0.1.4
+Summary: Fast, Friendly Python Web Framework
+Home-page: https://github.com/alirn76/panther
+Author: Ali RajabNezhad
+Author-email: alirn76@yahoo.com
+License: MIT
+Keywords: fast friendly web framework
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## Requirements
+
+Python 3.10+
+
+## Installation
+
+### Create Virtual Environment
+
+* <a href="https://">Linux </a>
+* <a href="https://">Windows </a>
+* <a href="https://">Mac </a>
+
+### Install Panther 
+
+<div class="termy">
+
+```console
+$ pip install panter
+```
+
+## Usage
+#### Create Project
+<div class="termy">
+
+```console
+$ panther create
+```
+</div>
+
+#### Manage Project
+<div class="termy">
+
+```console
+$ panther manage
+```
+</div>
+
+#### Run Project
+<div class="termy">
+
+```console
+$ panther run 
+```
+
+
+
+
