@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: image-processing-teste2
+Version: 0.0.1
+Summary: Versão de teste - Processamento de imagem. Este projeto pertence a Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist da Take. Este pacote é uma demonstração para simulação de upload no site Test Pypi, e é da classe do desenvolvedor do Bootcamp . E-mail: karinatkato@gmail.com.
+Author: gabriel
+Author-email: andre-carmo02@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Projeto: Pacote de Processamento de Imagens
+Autora do Projeto: Karina Kato
+Aula: Descomplicando a criaÃ§Ã£o de pacotes de processamento de imagens em Python - Digital Innovation One
+
+Tecnologia: Python
+Data: 16/03/2022
+
+## DescriÃ§Ã£o
+O pacote "image_processing-test" Ã© usado para:
+
+"MÃ³dulo "Processing":
+
+	CorrespondÃªncia de histograma;
+	Similaridade estrutural;
+	Redimensionar imagem;
+
+"MÃ³dulo "Utils":
+
+	Ler imagem;
+	Salvar imagem;
+	Plotar imagem;
+	Resultado do grÃ¡fico;
+	Plotar histograma;
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Usage
+
+```python
+from package_name.module1_name import file1_name
+file1_name.my_function()
+```
+
+## Autor (quem hospedou o projeto no Test Pypi) 
+Gabriel andre
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+

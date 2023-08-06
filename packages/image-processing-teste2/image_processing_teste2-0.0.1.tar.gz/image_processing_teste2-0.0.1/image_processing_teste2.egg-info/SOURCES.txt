@@ -1,0 +1,13 @@
+README.md
+setup.py
+image_processing_teste/__init__.py
+image_processing_teste2.egg-info/PKG-INFO
+image_processing_teste2.egg-info/SOURCES.txt
+image_processing_teste2.egg-info/dependency_links.txt
+image_processing_teste2.egg-info/top_level.txt
+image_processing_teste/processing/__init__.py
+image_processing_teste/processing/combination.py
+image_processing_teste/processing/transformation.py
+image_processing_teste/utils/__init__.py
+image_processing_teste/utils/io.py
+image_processing_teste/utils/plot.py
