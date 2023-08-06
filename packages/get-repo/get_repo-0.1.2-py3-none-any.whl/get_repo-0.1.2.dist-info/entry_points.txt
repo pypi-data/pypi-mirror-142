@@ -1,0 +1,3 @@
+[console_scripts]
+get-repo=get_repo.cli:main
+
