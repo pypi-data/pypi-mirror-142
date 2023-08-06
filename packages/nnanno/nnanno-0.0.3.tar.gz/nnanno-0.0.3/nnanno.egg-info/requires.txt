@@ -1,0 +1,9 @@
+pandas
+tqdm
+Pillow
+cytoolz
+ijson
+requests_cache>=0.6.0
+ipywidgets
+simplejson
+fastcore
