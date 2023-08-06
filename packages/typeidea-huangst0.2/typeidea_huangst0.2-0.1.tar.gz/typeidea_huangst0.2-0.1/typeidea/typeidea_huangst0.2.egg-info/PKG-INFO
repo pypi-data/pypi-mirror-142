@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: typeidea-huangst0.2
+Version: 0.1
+Summary: Blog System base on Django
+Home-page: https://www.huangst21.com
+Author: huangst
+Author-email: huangst21@lzu.edu.cn
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: ipython
