@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: FMLocker
+Version: 1.0.1.0
+Summary: A MySQL Distributed-Locker
+Home-page: https://pypi.python.org/pypi/FMLocker
+Author: inflower
+Author-email: inflowers@126.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
+UNKNOWN
+
