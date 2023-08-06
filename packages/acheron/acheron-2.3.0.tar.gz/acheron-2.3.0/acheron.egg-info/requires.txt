@@ -1,0 +1,10 @@
+asphodel
+boto3
+diskcache
+hyperborea
+numpy
+psutil
+PySide2
+pyqtgraph
+requests
+setproctitle

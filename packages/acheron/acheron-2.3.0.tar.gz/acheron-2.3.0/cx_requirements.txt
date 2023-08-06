@@ -1,0 +1,6 @@
+# include the main requirements
+-r requirements.txt
+
+cx_Freeze==6.5.3
+importlib-metadata==3.7.0
+zipp==3.4.1
