@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/simba/sb/__init__.py
+src/simba/sb/base.sb
+src/simba/sb/combinators.sb
+src/simba/sb/examples.sb
+src/simba/sb/standard.sb.txt
+src/simba_lang.egg-info/PKG-INFO
+src/simba_lang.egg-info/SOURCES.txt
+src/simba_lang.egg-info/dependency_links.txt
+src/simba_lang.egg-info/entry_points.txt
+src/simba_lang.egg-info/requires.txt
+src/simba_lang.egg-info/top_level.txt
