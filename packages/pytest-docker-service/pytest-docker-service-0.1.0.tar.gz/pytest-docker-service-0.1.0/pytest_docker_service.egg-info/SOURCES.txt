@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pytest_docker_service/__init__.py
+pytest_docker_service/plugin.py
+pytest_docker_service.egg-info/PKG-INFO
+pytest_docker_service.egg-info/SOURCES.txt
+pytest_docker_service.egg-info/dependency_links.txt
+pytest_docker_service.egg-info/entry_points.txt
+pytest_docker_service.egg-info/requires.txt
+pytest_docker_service.egg-info/top_level.txt
+tests/e2e/__init__.py
+tests/e2e/conftest.py
+tests/e2e/test_httpbin.py
+tests/e2e/test_postgres.py
