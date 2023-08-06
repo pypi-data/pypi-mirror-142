@@ -1,0 +1,9 @@
+lpsds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpsds/handlers.py,sha256=cYprNT1l_617XYUSOJMMfFXcjbphDex5vbR4_z72rQg,2110
+lpsds/inout.py,sha256=JeYov03k38V9ciCpBmDAaC1iHUyITWQ0L8kcWMF_Sxc,4330
+lpsds/pre_process.py,sha256=kn6MsajsVcfSVnNQMaw4yPTSsYHJ-ncj4N_5NXPsPUg,2889
+lpsds-0.0.1.dist-info/LICENSE,sha256=tXE0gNBEQywSXyKlfb0lEQ2cZBwJr9PT_yf-L6Ds3LY,1077
+lpsds-0.0.1.dist-info/METADATA,sha256=WmtKHsCNqvTZqpx5Uoj9xslbQdi2ViHljSSimbVx_U8,648
+lpsds-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lpsds-0.0.1.dist-info/top_level.txt,sha256=-umznXqEOXKXxrXsAg3biN-SxZVvQ9ER2eqqhm_5wCU,6
+lpsds-0.0.1.dist-info/RECORD,,
