@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: funppy
+Version: 0.3.0
+Summary: Python plugin over gRPC for funplugin
+Home-page: https://github.com/httprunner/funplugin
+License: Apache-2.0
+Author: debugtalk
+Author-email: mail@debugtalk.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: grpcio (>=1.44.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.44.0,<2.0.0)
+Project-URL: Repository, https://github.com/httprunner/funplugin
