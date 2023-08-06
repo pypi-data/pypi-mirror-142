@@ -1,0 +1,3 @@
+[console_scripts]
+eth2imx-meta = eth_to_imx_metadata_converter.cli:main
+
