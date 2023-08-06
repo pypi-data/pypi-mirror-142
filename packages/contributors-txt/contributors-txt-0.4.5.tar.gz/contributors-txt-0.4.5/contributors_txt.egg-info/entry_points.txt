@@ -1,0 +1,3 @@
+[console_scripts]
+contributors-txt = contributors_txt.__main__:main
+contributors-txt-migrate-from-copyrite = contributors_txt.migration_copyrite:main
