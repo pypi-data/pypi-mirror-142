@@ -1,0 +1,4 @@
+Wheel-Version: 1.0
+Generator: hatch 0.20.1
+Root-Is-Purelib: true
+Tag: cp37-cp37m-win_amd64
