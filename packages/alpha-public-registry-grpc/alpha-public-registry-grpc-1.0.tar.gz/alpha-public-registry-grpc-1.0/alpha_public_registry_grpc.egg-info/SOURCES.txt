@@ -1,0 +1,7 @@
+registry_pb2.py
+registry_pb2_grpc.py
+setup.py
+alpha_public_registry_grpc.egg-info/PKG-INFO
+alpha_public_registry_grpc.egg-info/SOURCES.txt
+alpha_public_registry_grpc.egg-info/dependency_links.txt
+alpha_public_registry_grpc.egg-info/top_level.txt
