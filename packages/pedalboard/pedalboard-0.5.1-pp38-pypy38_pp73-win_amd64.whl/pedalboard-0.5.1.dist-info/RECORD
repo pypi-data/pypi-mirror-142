@@ -1,0 +1,11 @@
+pedalboard_native.pypy38-pp73-win_amd64.pyd,sha256=zcqx_Za2FVwaIgOzEz347bf-JUYO9yZFodCrc4UaNH0,6992896
+pedalboard/__init__.py,sha256=9NCMRA1nDAJX9cjThENV_Ek0HWA16jggCsfkW4W5Z6M,947
+pedalboard/pedalboard.py,sha256=gH1auu1VMAxqzdqY48r4hshK-fXkTjfiurivvYNXAuk,24534
+pedalboard/version.py,sha256=XsCN4rjOINfxwjWuVStTZWscQs_a_2gKTrFg42MQFsU,705
+pedalboard/io/__init__.py,sha256=gzdfjQ02de1XOB6Vk7gu5NXf_8h6qbjiogz9iCe024A,56
+pedalboard-0.5.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pedalboard-0.5.1.dist-info/METADATA,sha256=mhUBkMjq9VyOT5wDUuUIVkGm8kC7jn3WKtrQZeSQDNc,15451
+pedalboard-0.5.1.dist-info/NOTICE,sha256=kiwgiOynSFva5dva9jbBupGHmrxihaxbDWAsJNGZzls,589
+pedalboard-0.5.1.dist-info/WHEEL,sha256=06TODGy9zsn9QCb4Oo1wjtnM2jOjgiTR78nw1cWltRU,107
+pedalboard-0.5.1.dist-info/top_level.txt,sha256=jXwDvqMjquuPLra-PGmmayt3AFe5_l7hpSqbUgOvP9g,29
+pedalboard-0.5.1.dist-info/RECORD,,
