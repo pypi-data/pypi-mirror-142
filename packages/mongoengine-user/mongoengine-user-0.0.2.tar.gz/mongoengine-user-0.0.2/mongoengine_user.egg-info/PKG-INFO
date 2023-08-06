@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mongoengine-user
+Version: 0.0.2
+Summary: Basic user models for mongoengine
+Home-page: https://github.com/The-Nicholas-R-Barrow-Company-LLC/mongoengine-user
+Author: The Nicholas R. Barrow Company, LLC
+Author-email: me@nicholasrbarrow.com
+License: MIT
+Description: # mongoengine-user
+        ```pip3 install mongoengine-user```
+        This module creates basic models to streamline application development using MongoDB (through mongoengine).
+        
+        Package Name: mongoengineuser
+        
+        ## Support
+        Tested on Mac OS 12.2 with Python 3.8.9 and mongoengine 0.24.0.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
