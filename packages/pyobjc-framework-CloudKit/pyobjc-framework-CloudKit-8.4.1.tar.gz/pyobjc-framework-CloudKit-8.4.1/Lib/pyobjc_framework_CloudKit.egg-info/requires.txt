@@ -1,0 +1,5 @@
+pyobjc-core>=8.4.1
+pyobjc-framework-Cocoa>=8.4.1
+pyobjc-framework-CoreLocation>=8.4.1
+pyobjc-framework-CoreData>=8.4.1
+pyobjc-framework-Accounts>=8.4.1
