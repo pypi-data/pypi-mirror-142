@@ -1,0 +1,16 @@
+numpy
+scipy
+scikit-learn>=0.23
+cython>=0.26
+pandas==0.25
+
+[docs]
+sphinx
+sphinx-gallery
+sphinx_rtd_theme
+numpydoc
+matplotlib
+
+[tests]
+pytest
+pytest-cov
