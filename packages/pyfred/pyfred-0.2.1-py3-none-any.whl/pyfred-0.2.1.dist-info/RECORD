@@ -1,0 +1,11 @@
+pyfred/__init__.py,sha256=qDpFHxV0jLkghQboJ_jec4GaWatKvMtFC_LY9MFj1wM,201
+pyfred/ex.py,sha256=IsbHN_W6pdySTZr5Yk7_BLZC_gZkikLyZBupWGElqTg,89
+pyfred/fred_client.py,sha256=z4u_OIER3F2gLLTWbXvRJ_zdCELJ0IPfuTMiwooG8qk,12635
+pyfred/__pycache__/__init__.cpython-38.pyc,sha256=K1jgvETYqSITpnQymAPjznOl_7r1m-VwdLVDAciI4PE,371
+pyfred/__pycache__/ex.cpython-38.pyc,sha256=9p5iyQKLmD8lMtBQASweYgFbbpyJggbZYtTp3kGbRaw,436
+pyfred/__pycache__/fred_client.cpython-38.pyc,sha256=ovusye-PIFYkIFiD-tZDvXVMRzQ_cniXjz6aD2pOr-U,10184
+pyfred-0.2.1.dist-info/LICENSE,sha256=qtojhGEa5P2E2BfsxdGaM806WwTODzn9ntLV02nMWcg,1088
+pyfred-0.2.1.dist-info/METADATA,sha256=bl6s6bH-XtCHf7w2YuGyNCkimdgi7lMyuk95BtN43PU,300
+pyfred-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfred-0.2.1.dist-info/top_level.txt,sha256=zNgribmjUxDttqbR3fJ_loN79O0F9TPdQPfAf9DarB0,7
+pyfred-0.2.1.dist-info/RECORD,,
