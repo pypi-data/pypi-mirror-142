@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "molting"
+version = "0.1.0"
+description = "Automatically bump your python project files to the latest version."
+authors = ["Lucas Melin <lucas.melin@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+nox = "^2022.1.7"
+pytest = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
