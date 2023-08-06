@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wepdf/__init__.py
+wepdf/pdf2image.py
+wepdf/pdf2text.py
+wepdf.egg-info/PKG-INFO
+wepdf.egg-info/SOURCES.txt
+wepdf.egg-info/dependency_links.txt
+wepdf.egg-info/top_level.txt
