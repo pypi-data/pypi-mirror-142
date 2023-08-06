@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: moscow-routes-parser
+Version: 0.0.14
+Summary: Parser for t.mos.ru to get routes and timetables of buses, tramways and trolleybus
+Home-page: https://github.com/rscprof/moscow_routes_parser
+Author: rscprof
+Author-email: rscprof@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires: requests
+License-File: LICENSE.txt
+
+UNKNOWN
+
