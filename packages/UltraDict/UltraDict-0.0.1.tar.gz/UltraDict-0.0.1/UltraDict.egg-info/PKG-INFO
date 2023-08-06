@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: UltraDict
+Version: 0.0.1
+Summary: Sychronized, streaming dictionary that uses shared memory as a backend
+Home-page: https://github.com/ronny-rentner/UltraDict
+Author: Ronny Rentner
+Author-email: mail@ronny-rentner.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
