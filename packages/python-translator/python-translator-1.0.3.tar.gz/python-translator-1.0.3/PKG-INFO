@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: python-translator
+Version: 1.0.3
+Summary: Translate text from one language to another.
+Home-page: https://github.com/bentettmar/python-translator
+Author: Ben Tettmar
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires: requests
+Requires: bs4
+Description-Content-Type: text/markdown
+
+
+# python-translator
+A python library to translate text from one language to another.  
+
+### Why use this?
+> It uses the Google API, showing the best results. And unlike other repos, does not require an API key to operate.
+
+### Install
+> ```bash
+> $ pip install python-translator
+> ```
+
+> ### Example
+> ```python
+> from python_translator import Translator
+> 
+> translator = Translator()
+> result = translator.translate("Hello world!", "spanish", "english")
+> 
+> print(result)
+> ```
+
+
