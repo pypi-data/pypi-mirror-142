@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rpathtool
+Version: 0.3.0
+Summary: Patch C extensions to link to shared libraries at relative path
+Home-page: https://github.com/bergkvist/pylagraph
+Author: Tobias Bergkvist
+Author-email: tobias@bergkv.ist
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
