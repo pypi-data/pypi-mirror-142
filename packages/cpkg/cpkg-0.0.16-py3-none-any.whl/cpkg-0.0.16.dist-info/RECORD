@@ -1,0 +1,8 @@
+cpkg/__init__.py,sha256=gRX8rKJDj9As4prRavFpWCQ3ykqN61tP9na9ZLAXjZ4,187
+cpkg/__main__.py,sha256=S6PV_6xBj9XxbETR6WHE6UJDe9Qllk9RMDTqEpybIs8,2324
+cpkg/createPkg.py,sha256=-k8hRjmgY2Ecn53JnAARHpuWn05wd6LL1S7Ik84xS54,4944
+cpkg-0.0.16.dist-info/LICENSE,sha256=6OkhSk7mNi6pGzUDlatvpF6air7ac1OJdoJkdr2t1DY,1073
+cpkg-0.0.16.dist-info/METADATA,sha256=eMCc5TlL_LY6tQDnhxGea7ywtJ2pPsGHQP6eDulSg8I,1194
+cpkg-0.0.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cpkg-0.0.16.dist-info/top_level.txt,sha256=g5JtTpl0DxZbQN9e_QuVe3yflvS8rVuYTL7X37nN4oY,6
+cpkg-0.0.16.dist-info/RECORD,,
