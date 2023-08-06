@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: explabox-demo-drugreview
+Version: 0.9b1
+Summary: Explabox demo for the UCI drug reviews dataset
+Home-page: UNKNOWN
+Author: NPAI
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: explabox (>=0.9b1)
+Requires-Dist: tokenizers (>=0.11.6)
+
+# explabox-demo-drugreview
+
+`pip3 install explabox-demo-drugreview`
+
+
