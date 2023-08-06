@@ -1,0 +1,10 @@
+scraper/PagePartBlock.py,sha256=v57-kOBJzeg6LspuYE3rn4A7JzshXJPO89_ZQOZYvmc,452
+scraper/__init__.py,sha256=Sq4uWMWuAhTyCxBDiHjCF9UpnzA8MG6vH4mz_xnDYuY,1857
+scraper/funcs_over_blocks.py,sha256=Z5IBoPjSm9pg7w-k0Rb3-eyGbnAREqVcqe9UHoSkE8s,2239
+scraper/get_by_tds.py,sha256=KPWs5r9h_ddae7GoYvyQ4dNBNIAfm1CE39xg0s8uCuA,5131
+scraper/imported.py,sha256=XogVpXtIOLo64vEYXSygjFQt2uMJQbM3r-uQPCYJtb4,28
+dictionarycom_ipa_scraper-2.1.0.dist-info/METADATA,sha256=YySfcTC9gVjPXNrkSpv4rN5DebcE8i6Qlj5KZC7KUV4,272
+dictionarycom_ipa_scraper-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dictionarycom_ipa_scraper-2.1.0.dist-info/license.txt,sha256=FeIxQtcsH7Odp5D3BMx2CPPKH6W41saowfRJjanx6qw,1091
+dictionarycom_ipa_scraper-2.1.0.dist-info/top_level.txt,sha256=7mMSfNnJkw1ZNz9GtP5MR6Hh0DYR7LY7dqAaNJATf4c,8
+dictionarycom_ipa_scraper-2.1.0.dist-info/RECORD,,
