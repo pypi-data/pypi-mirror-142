@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xtPyapollos
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Maoxinteng
+Author-email: 1214403402@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyapollos (>=0.1.5)
+
+# 基于Pyapollos 修改的阿波罗依赖三方库
+
+修改get_value方法，支持一次性获取配置内容 [whole=True]
+
