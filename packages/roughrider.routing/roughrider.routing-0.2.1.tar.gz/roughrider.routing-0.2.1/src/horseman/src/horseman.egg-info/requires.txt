@@ -1,0 +1,11 @@
+autoroutes>=0.2.0
+biscuits
+multifruits
+orjson
+setuptools
+wrapt
+
+[test]
+WebTest
+pytest
+tox
