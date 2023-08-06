@@ -1,0 +1,16 @@
+
+name: jupyterlab_server_documentation
+channels:
+  - conda-forge
+dependencies:
+- python=3.9
+- sphinx<4.0
+- sphinx-copybutton
+- pip
+- myst-parser
+- mistune<1
+- pip:
+  - autodoc-traits
+  - pydata_sphinx_theme
+  - sphinxcontrib-openapi
+  - numpydoc
