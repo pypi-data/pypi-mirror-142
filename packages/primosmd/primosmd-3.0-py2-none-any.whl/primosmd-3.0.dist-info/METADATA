@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: primosmd
+Version: 3.0
+Summary: Funcion numeros primos
+Home-page: UNKNOWN
+Author: mariodominguezcarnal@MacBook-Air-de-Mario
+Author-email: mdominguezcarnal@gmail.com
+License: GNU GPLv3
+Keywords: numeros primos,matematicas
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMEROS PRIMOS
+==============
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene un conjunto de funciones para poder sacar los números primos hasta llegar al número entero elegido por parámetros.
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
