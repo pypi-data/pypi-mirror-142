@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pylinal/__init__.py
+pylinal/matrix.py
+pylinal/vector.py
+pylinal.egg-info/PKG-INFO
+pylinal.egg-info/SOURCES.txt
+pylinal.egg-info/dependency_links.txt
+pylinal.egg-info/top_level.txt
+tests/test_readme.py
