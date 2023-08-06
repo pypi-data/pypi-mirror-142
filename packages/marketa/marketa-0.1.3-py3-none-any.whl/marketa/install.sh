@@ -1,0 +1,1 @@
+python -c 'from marketa.install import install; install()'
