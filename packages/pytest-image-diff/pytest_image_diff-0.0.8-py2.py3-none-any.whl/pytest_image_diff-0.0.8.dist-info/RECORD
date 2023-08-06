@@ -1,0 +1,13 @@
+pytest_image_diff/__init__.py,sha256=qBQKboFXpYQGPLAUq23A66o_SUJZVpuZmNmFGjzDo9Q,47
+pytest_image_diff/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_image_diff/_types.py,sha256=jlPcBcWyVBJOMSOBUPCnmm5XO0RySqIjPAxZTqw48Gc,896
+pytest_image_diff/helpers.py,sha256=eEHp-JQJrpHoFrjxmeaynTHUEK_b--UMngT-INO5rsI,2809
+pytest_image_diff/image_diff.py,sha256=VQZqVQ4XgiUySXXmEmXXwyXduFEplgpD35oGZY05PJ8,2221
+pytest_image_diff/plugin.py,sha256=BgP3EBNMTBQlPFBEl0Qo4LA6qX2M4UM4EVzmTUqutKw,6459
+pytest_image_diff/splinter.py,sha256=ZSeAOCRJSiaqmiQwxW_A-r2ufYNTbjnkaxjnF9DGzjM,2739
+pytest_image_diff-0.0.8.dist-info/LICENSE,sha256=YlH84loBHrojdkAnqPsCxwM-7nQe-WGBpw19wGG0oOY,1091
+pytest_image_diff-0.0.8.dist-info/METADATA,sha256=OVY-FkcK2YzHpLPEWve7nW4G2P-pVUrT1e-JFRxzQWU,3582
+pytest_image_diff-0.0.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pytest_image_diff-0.0.8.dist-info/entry_points.txt,sha256=oqtuHkC9st7998nVzZ3K09GtlgMS6nHiJ8Puea6la1k,49
+pytest_image_diff-0.0.8.dist-info/top_level.txt,sha256=oWwdaeeW6DZ74aLGUnIqVdWMpVGnOlmN1Wp2hbezLeU,18
+pytest_image_diff-0.0.8.dist-info/RECORD,,
