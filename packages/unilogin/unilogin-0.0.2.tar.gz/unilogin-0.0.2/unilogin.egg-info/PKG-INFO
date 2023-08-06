@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: unilogin
+Version: 0.0.2
+Summary: Log ind på alle sider som bruger unilogin kun ved brug af python
+Home-page: https://github.com/jona799t/unilogin-api
+Author: jona799t
+License: UNKNOWN
+Keywords: python,unilogin,uni-login,skole
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# Unilogin API
+Log ind på alle sider som bruger unilogin kun ved brug af Python
+
+# Installation
+```
+pip install unilogin
+```
+
+# Brug
+En fuld dokumentation er ikke udgivet endnu men her er basis
+```python
+from unilogin import Unilogin
+
+uniloginClient = Unilogin(brugernavn="brugernavn", adgangskode="adganskode")
+loginUrl = uniloginClient.login(href="login link fra side du prøver at logge in fra", referer="link fra side du prøver at logge in fra")
+
+print(loginUrl) #Output: Url som du kan bruge til at logge ind
+```
+
+# Pakker som bruger Unilogin API
+   - [Skoleintra API (ItsLearnings elev-intra)](https://github.com/jona799t/skoleintra-api)
+
+# To Do
+   - Kode oprydning
+   - Billede-koder
+
+# Dokumentation
+Kommer snart!
+
+
