@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/edotenv/__init__.py
+src/edotenv/cli.py
+src/edotenv/core.py
+src/edotenv/encryption.py
+src/python_edotenv.egg-info/PKG-INFO
+src/python_edotenv.egg-info/SOURCES.txt
+src/python_edotenv.egg-info/dependency_links.txt
+src/python_edotenv.egg-info/entry_points.txt
+src/python_edotenv.egg-info/requires.txt
+src/python_edotenv.egg-info/top_level.txt

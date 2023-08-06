@@ -1,0 +1,2 @@
+[console_scripts]
+edotenv = edotenv.cli:run
