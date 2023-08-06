@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+api/jcincotta_bootstrap.egg-info/PKG-INFO
+api/jcincotta_bootstrap.egg-info/SOURCES.txt
+api/jcincotta_bootstrap.egg-info/dependency_links.txt
+api/jcincotta_bootstrap.egg-info/requires.txt
+api/jcincotta_bootstrap.egg-info/top_level.txt
