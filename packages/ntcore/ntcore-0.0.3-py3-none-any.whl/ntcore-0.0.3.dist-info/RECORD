@@ -1,0 +1,12 @@
+ntcore/__about__.py,sha256=ZYtcjnPOJyY7rfHRwvz0Ee1knZQxbYz1r0CsFxrLw9U,266
+ntcore/__init__.py,sha256=hvOsQ4rHp-gcqkPgXN7TNMks-uQg0soU15JpQ9GeksE,46
+ntcore/client/__init__.py,sha256=9RBy4X_GNPLSbL-v6SHR4LJoyBMFvnoFFXouFcEXiBY,9128
+ntcore/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ntcore/integrations/utils.py,sha256=3GMaIOOvQVGB37E0jZsR3q4qhJsS-v21p2pS63jVKpw,118
+ntcore/integrations/sklearn/__init__.py,sha256=_foPinUnCzXb-Rk4C81cQwMm3W3lOhmbZ8laL0zVfDQ,2905
+ntcore/integrations/tensorflow/__init__.py,sha256=8awoOvM8UugdpcNao8FaScyLddAqcabxPHWLvOeI63E,5778
+ntcore-0.0.3.dist-info/METADATA,sha256=UwlS6veiiRRBMxr-DZlb0h36dHi4Mwuob7rNqZfPpRw,618
+ntcore-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ntcore-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ntcore-0.0.3.dist-info/top_level.txt,sha256=AAaE3j5A7CbLJ5iZKrJnK-vUXFxkjBDNiFljbUDu4m0,7
+ntcore-0.0.3.dist-info/RECORD,,
