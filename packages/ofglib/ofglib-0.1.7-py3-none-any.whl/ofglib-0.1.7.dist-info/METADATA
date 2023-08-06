@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ofglib
+Version: 0.1.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: dies0mbre
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6
+Requires-Dist: boto3 (>=1.17.69)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: matplotlib (>=3.4.2)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: pandas (>=1.3.0)
+Requires-Dist: scipy (>=1.7.0)
+Requires-Dist: scikit-learn (>=1.0)
+Requires-Dist: pymssql (>=2.2.2)
+Requires-Dist: pyod (>=0.9.5)
+Requires-Dist: autofeat (>=2.0.10)
+
+UNKNOWN
+
+
