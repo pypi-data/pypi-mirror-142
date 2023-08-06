@@ -1,0 +1,2 @@
+[distutils.commands]
+bdist_pyinstaller = bdist_pyinstaller.bdist_pyinstaller:PyInstalerCmd
