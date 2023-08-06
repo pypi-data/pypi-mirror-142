@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastapi-plugins-pika
+Version: 0.1.0
+Summary: 
+Author: chuhy
+Author-email: chu-hy@foxmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.75.0,<0.76.0)
