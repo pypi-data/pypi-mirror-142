@@ -1,0 +1,10 @@
+README.md
+setup.py
+torchhaarfeatures/__init__.py
+torchhaarfeatures/haarfeatures.py
+torchhaarfeatures.egg-info/PKG-INFO
+torchhaarfeatures.egg-info/SOURCES.txt
+torchhaarfeatures.egg-info/dependency_links.txt
+torchhaarfeatures.egg-info/not-zip-safe
+torchhaarfeatures.egg-info/requires.txt
+torchhaarfeatures.egg-info/top_level.txt
