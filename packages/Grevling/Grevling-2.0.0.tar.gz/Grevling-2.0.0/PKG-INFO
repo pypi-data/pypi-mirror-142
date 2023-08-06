@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Grevling
+Version: 2.0.0
+Summary: A batch runner tool
+Home-page: https://github.com/TheBB/Grevling
+Author: Eivind Fonn
+Author-email: eivind.fonn@sintef.no
+License: AGPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: testing
+Provides-Extra: deploy
+Provides-Extra: matplotlib
+Provides-Extra: plotly
