@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+funPIL.egg-info/PKG-INFO
+funPIL.egg-info/SOURCES.txt
+funPIL.egg-info/dependency_links.txt
+funPIL.egg-info/top_level.txt
