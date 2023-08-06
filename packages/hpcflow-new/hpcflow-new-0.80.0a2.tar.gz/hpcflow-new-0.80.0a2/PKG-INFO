@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hpcflow-new
+Version: 0.80.0a2
+Summary: Computational workflow management
+License: MIT
+Author: aplowman
+Author-email: adam.plowman@manchester.ac.uk
+Requires-Python: >=3.7,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: pyinstaller
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: pyinstaller (>=4.10,<5.0); extra == "pyinstaller"
+Requires-Dist: ruamel.yaml (>=0.17.20,<0.18.0)
+Requires-Dist: valida (>=0.2.0,<0.3.0)
+Requires-Dist: zarr (>=2.10.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+<img src="docs/source/_static/images/logo-v2.png" width="250" alt="hpcFlow logo"/>
+
+**hpcFlow manages your scientific workflows**
+
+Documentation: [https://hpcflow.github.io/docs](https://hpcflow.github.io/docs)
+
+## Acknowledgements
+
+
+hpcFlow was developed using funding from the [LightForm](https://lightform.org.uk/) EPSRC programme grant ([EP/R001715/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R001715/1))
+
+<img src="https://lightform-group.github.io/wiki/assets/images/site/lightform-logo.png" width="150"/>
+
