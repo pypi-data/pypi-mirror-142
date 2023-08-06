@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+learn_py_packaging/__init__.py
+learn_py_packaging/math.py
+learn_py_packaging/toy_module.py
+learn_py_packaging_ae.egg-info/PKG-INFO
+learn_py_packaging_ae.egg-info/SOURCES.txt
+learn_py_packaging_ae.egg-info/dependency_links.txt
+learn_py_packaging_ae.egg-info/requires.txt
+learn_py_packaging_ae.egg-info/top_level.txt
