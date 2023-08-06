@@ -1,0 +1,79 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Test imc package
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install wheel pytest
+        pip install .[deepcell,astir]
+    - name: Test with pytest
+      run: |
+        # Test package
+        python -m pytest imc/
+
+        # Run pipeline
+        mkdir -p imctest
+        cd imctest
+        imc process https://zenodo.org/record/5018260/files/COVID19_brain_Patient03_ROI3_COVID19_olfactorybulb.txt?download=1
+
+        # List output files
+        ls -l processed/
+        ls -l processed/${SAMPLE}
+        ls -l results/phenotyping
+    - name: Cache resources
+      id: cache-resources
+      uses: actions/cache@v2
+      with:
+        path: /home/$USER/.imc
+        key: imc-resources-linux
+
+  osx:
+    runs-on: macos-10.14
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install wheel pytest
+        pip install .[deepcell,astir]
+    - name: Test with pytest
+      run: |
+        # Test package
+        python -m pytest imc/
+
+        # Run example processing pipeline
+        mkdir -p imctest
+        cd imctest
+        imc process https://zenodo.org/record/5018260/files/COVID19_brain_Patient03_ROI3_COVID19_olfactorybulb.txt?download=1
+
+        # List output files
+        ls -l processed/
+        ls -l processed/${SAMPLE}
+        ls -l results/phenotyping
+    - name: Cache resources
+      id: cache-resources
+      uses: actions/cache@v2
+      with:
+        path: /home/$USER/.imc
+        key: imc-resources-osx
