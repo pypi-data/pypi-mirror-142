@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/easybioinfo/__init__.py
+src/easybioinfo/sequences.py
+src/easybioinfo.egg-info/PKG-INFO
+src/easybioinfo.egg-info/SOURCES.txt
+src/easybioinfo.egg-info/dependency_links.txt
+src/easybioinfo.egg-info/top_level.txt

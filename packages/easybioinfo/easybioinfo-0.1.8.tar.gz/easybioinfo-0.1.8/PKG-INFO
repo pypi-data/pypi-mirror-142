@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: easybioinfo
+Version: 0.1.8
+Summary: Convenient python functions for bioinformatics
+Home-page: https://github.com/marco-mariotti/easybioinfo
+Author: Marco Mariotti
+Author-email: marco.mariotti@ub.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# easybioinfo
+Convenient python functions for bioinformatics
+
+Install with conda:
+
+``conda install -c mmariotti easybioinfo``
+
+Or alternatively with pip:
+
+``pip install easybioinfo``
+
+See documentation at https://easybioinfo.readthedocs.io/
+
+
