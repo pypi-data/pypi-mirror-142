@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyfred
+Version: 0.1.0
+Summary: pyfred
+Home-page: UNKNOWN
+Author: Jason Darnell
+License: Proprietary
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pandas
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+UNKNOWN
+
