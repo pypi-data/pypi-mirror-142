@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-packaging-am
+Version: 0.0.1
+Summary: Example of how to package Python code for release
+Home-page: https://github.com/gitamartin01/python-packaging-am
+Author: Alexia Martin
+Author-email: amartin01@icr.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### python-packaging-at description
+
+Python code packaging demo
+
+
