@@ -1,0 +1,12 @@
+razo/__init__.py,sha256=SlsE6qJ4va6DJWP2s3zl2TUJjyqgPXD3HOm6epH6nUI,4283
+razo/de.py,sha256=eXuUpnHczot0We0S-S6ob5OjscFYpTdczeHqGe3exFA,2310
+razo/fr.py,sha256=iClwM9-BRhdxKk3TpvpFXhEybQnYkVoOwd6jHtmibYg,2369
+razo/how_to_turn_language.py,sha256=_He7L4c1D5HKEQT_7LvOM_ohacNr2bsG6UzVCFNHPvI,176
+razo/langpack.py,sha256=JEfdHFf5ag1wfjJ3Ee_q1zyCKDNwI93ZrdVMBWWulws,2583
+razo/zh_cn.py,sha256=fFl745YkEzKuryJVpa5u4hQzrn6XOj8UtscAw14q1EE,2521
+razo/zh_tw.py,sha256=7dJnCdblQj6Vo7iw7WnWKKU0dZkTulek1KEea3txL4M,1806
+razo-2022.55.0.0b1.dist-info/LICENSE,sha256=RkbY7V1xiE9kdxzjfyyKPdp_AnNHXygReAKNCmhReWU,1081
+razo-2022.55.0.0b1.dist-info/METADATA,sha256=3CoTUO_AsAjHq9TozBIN4ygMOhCbVZcYVC1E9VviyHI,2488
+razo-2022.55.0.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+razo-2022.55.0.0b1.dist-info/top_level.txt,sha256=hXxl00tvbR4eQDl7jxrigD9vXbOlUsOHssdpCVNGMu8,5
+razo-2022.55.0.0b1.dist-info/RECORD,,
