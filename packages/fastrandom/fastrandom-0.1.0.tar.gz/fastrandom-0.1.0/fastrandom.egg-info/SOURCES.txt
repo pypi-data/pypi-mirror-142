@@ -1,0 +1,12 @@
+.gitignore
+README.md
+setup.py
+fastrandom/__init__.py
+fastrandom/__main__.py
+fastrandom/__version__.py
+fastrandom.egg-info/PKG-INFO
+fastrandom.egg-info/SOURCES.txt
+fastrandom.egg-info/dependency_links.txt
+fastrandom.egg-info/entry_points.txt
+fastrandom.egg-info/requires.txt
+fastrandom.egg-info/top_level.txt

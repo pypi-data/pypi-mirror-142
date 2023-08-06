@@ -1,0 +1,3 @@
+[console_scripts]
+fastrandom = fastrandom.__main__:main
+
