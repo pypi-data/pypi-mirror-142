@@ -1,0 +1,12 @@
+noname_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noname_backend/cfg/__init__.py,sha256=qg-W41OEf_yKNIyTeoBmMlUR83iCj0l5PxPdpe0f3R0,120
+noname_backend/cfg/config_chain.py,sha256=62rkvu3qZJXTpX7-eP_Deejc-G4-ey1T1lXmq4V3wJo,745
+noname_backend/cfg/config_loader.py,sha256=kQjKTgRqslt8vMPhEI9Bd0TmX0m-tQEgzQd9jSnZbsg,245
+noname_backend/cfg/env_config.py,sha256=MnqSACh2OTQuQcPf1-ue6rjEoCsl-KdmFQicl1WjyCI,788
+noname_backend/db/__init__.py,sha256=9LTsVtgkVLCGB67gegMdAD289r_E3vfiF_PpYi_kA5I,59
+noname_backend/db/db_loader.py,sha256=0COF485PiyzkdTbYYNf9bn6EUQyln3tUakbJv8TCdiw,731
+noname_backend/flask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noname_backend/flask/http_exception.py,sha256=mtU4fNF1NQkNoPRwdXf4kskHg48MiYySxBhLAoFxa-o,287
+noname_backend_common-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+noname_backend_common-0.1.2.dist-info/METADATA,sha256=hFdMiTV2TleEs9enb-6qtk5l6OVCwk4kI5kAbE6PGKg,413
+noname_backend_common-0.1.2.dist-info/RECORD,,
