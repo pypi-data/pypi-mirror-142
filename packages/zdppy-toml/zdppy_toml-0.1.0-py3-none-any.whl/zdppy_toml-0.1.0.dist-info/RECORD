@@ -1,0 +1,12 @@
+zdppy_toml/__init__.py,sha256=xgct6-fH9IiAXyB3-wJVs-SM0CRtBy8kpsbNsCdgTcM,247
+zdppy_toml/libs/__init__.py,sha256=on6yFW48nLW9VnU9wkproWyQYPXn1GHiRr9cTskhKWA,166
+zdppy_toml/libs/toml/__init__.py,sha256=WkDAFNQjnDt5t8Y8gUrya_ZlTxa9hoVd-aPo4c_6-h0,579
+zdppy_toml/libs/toml/decoder.py,sha256=1mlZcLZzMZ2Ath4tLHF3VCrH0gWQ5xOMjtCqDVRp3_c,38967
+zdppy_toml/libs/toml/encoder.py,sha256=WHBpIqoqh2FhkIjCUY5Ukxo9AFFwFMOMqn_-M_3C8Fw,9936
+zdppy_toml/libs/toml/ordered.py,sha256=4p4EhnP6htNJjHNNuTwJ1Y-KVmjMZWA2ThAXShfQrho,362
+zdppy_toml/libs/toml/tz.py,sha256=-5vg8wkg_atnVi2TnEveexIVE7T_FxBVr_-2WVfO1oA,701
+zdppy_toml/zdppy_toml.py,sha256=g-kcQmsrA7-WohOicd66blABwz9806oF5yBoU_Sg8Es,2339
+zdppy_toml-0.1.0.dist-info/LICENSE,sha256=nxPT6MxxQBPHF50T4QMhpqG_MqqIRS5jKw0gwa8YqCA,1087
+zdppy_toml-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zdppy_toml-0.1.0.dist-info/METADATA,sha256=sx8pv9mYSJv2OT84PT6XXrAfQGsWD5crkwM4Jx1hHKM,300
+zdppy_toml-0.1.0.dist-info/RECORD,,
