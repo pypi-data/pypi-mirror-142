@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: jenkins-job-cli
+Version: 0.1.0
+Summary: Jcli: list, run, and check jenkins jobs
+Home-page: https://github.com/brokenpip3/jcli
+License: MIT
+Author: Brokenpip3
+Author-email: brokenpip3@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: api4jenkins (>=1.9,<2.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: rich (>=12.0.0,<13.0.0)
+Project-URL: Repository, https://github.com/brokenpip3/jcli
+Description-Content-Type: text/markdown
+
+# Jcli
+
+Small cli to list, run, and check jenkins jobs
+
+## Installation
+
+`pip install jenkins-job-cli`
+
+## Usage
+
+* `config`: setup the `jcli` configuration
+
+* `jobs`:
+  * `list`: list all jenkins jobs (default deep = 1)
+  * `run`: run a specific jenkins job
+
+* `jenkins`: show jenkins server info like version (`version`) and security options (`info`)
+
