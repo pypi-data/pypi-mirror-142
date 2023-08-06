@@ -1,0 +1,8 @@
+pendulo/__init__.py,sha256=Fq4PaUSEFi0hlZGq3es9UFIgvz_7h9eokRp_ntlZyuc,518
+pendulo/_getdll.py,sha256=xzlOHbBQL6STqZ1np8ZV2n_w6mbyjV8f9pTVruy0k-c,5201
+pendulo/_pyPendulo.cp39-win32.pyd,sha256=NmgPF1gWZwAjF9SvKc-EXhy4G2TDk-Jdk798pLd0JdM,460288
+pendulo/pendulo_core.py,sha256=ublgXGm24dds4ARteTOH40cevWlMpXrrd80K7sWVRlI,3260
+pendulo-0.9.6.dist-info/METADATA,sha256=LuAThw2QHOJ2NsXrPkGH1dLhEvW72TjD3hnWdrpP9Xw,4212
+pendulo-0.9.6.dist-info/WHEEL,sha256=oz1Y-dEwtUqQxLRjBaFy1chmu8DINNM_NE3ttEIz2rw,96
+pendulo-0.9.6.dist-info/top_level.txt,sha256=opeF13H4mWuOicsRihjldNb1WOsoK8F3vzthg0Qbrk0,8
+pendulo-0.9.6.dist-info/RECORD,,
