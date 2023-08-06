@@ -1,0 +1,11 @@
+click>=8.0
+jinja2
+pydeepmerge
+gitpython
+
+[tests]
+pytest-cov
+flake8
+mypy
+pytest
+types-setuptools
