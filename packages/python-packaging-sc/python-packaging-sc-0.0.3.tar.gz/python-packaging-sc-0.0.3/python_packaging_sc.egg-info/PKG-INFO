@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-packaging-sc
+Version: 0.0.3
+Summary: Example of how to package Python code for release
+Home-page: https://github.com/subinieee/python-packaging-sc
+Author: Subin Choi
+Author-email: subin.choi@icr.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### python-packaging-sc
+
+Python code packaging demo
+
