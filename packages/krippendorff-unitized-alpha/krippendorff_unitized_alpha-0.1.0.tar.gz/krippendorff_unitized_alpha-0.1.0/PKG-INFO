@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: krippendorff-unitized-alpha
+Version: 0.1.0
+Summary: 
+Author: Zeljko Bekcic
+Author-email: zeljko.bekcic@posteo.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pytest (>=7.1.0,<8.0.0)
