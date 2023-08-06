@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sc-notify
+Version: 1.2.0
+Summary: Slack and Email notifier for automated builds and more
+Home-page: UNKNOWN
+Author: SimonComputing, Inc.
+Author-email: simon@simoncomputing.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: slackclient (==2.5.0)
+
+UNKNOWN
+
+

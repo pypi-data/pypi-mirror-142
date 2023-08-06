@@ -1,0 +1,10 @@
+notify/__init__.py,sha256=j4XUPEpKr2xV7PY8aFdAUE4vjA5MKPjElQwyCbvRUlE,37
+notify/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notify/mail.py,sha256=5bx-DKR3U-N-gy4LPyfunkI6MmGVa0T7bHywQP4fmMM,5435
+notify/message.py,sha256=HPYcMIOc5uGg8POeI8zNQ4p8pUNB0fb1_lanYCjuvx0,801
+notify/pm.py,sha256=WyCirPamJ7ZtnNOh9GoWV6xc1rnmvtT2jD8ABTkkdPY,1472
+sc_notify-1.2.0.dist-info/METADATA,sha256=1ffLtsvu2kvmbCInQ5k63IELQeYozr1CgJXvV84Rlyw,287
+sc_notify-1.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sc_notify-1.2.0.dist-info/entry_points.txt,sha256=tdvptAP0dYDSOt5qLIDF513XCmNdzR2JRz4YCPpr5g4,49
+sc_notify-1.2.0.dist-info/top_level.txt,sha256=Kk6_ellnkvCS1o5NMa6G2vRgPmvON-4lzi9zajDOUfI,7
+sc_notify-1.2.0.dist-info/RECORD,,
