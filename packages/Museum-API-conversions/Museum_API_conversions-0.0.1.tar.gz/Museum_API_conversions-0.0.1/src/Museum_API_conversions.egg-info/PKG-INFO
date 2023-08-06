@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Museum-API-conversions
+Version: 0.0.1
+Summary: Museum_API objects which converts in json form and then json to pdf,html,xml,csv formats
+Home-page: UNKNOWN
+Author: Affan
+License: UNKNOWN
+Keywords: API conversion,python API conversions,Museum_API_conversions
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
