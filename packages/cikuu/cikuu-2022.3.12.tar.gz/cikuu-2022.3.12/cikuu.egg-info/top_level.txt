@@ -1,0 +1,9 @@
+app
+dic
+dm
+dsk
+en
+sbert
+so
+util
+uvirun
