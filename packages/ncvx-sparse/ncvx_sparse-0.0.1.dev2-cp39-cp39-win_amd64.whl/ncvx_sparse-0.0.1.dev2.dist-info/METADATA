@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: ncvx-sparse
+Version: 0.0.1.dev2
+Summary: Scikit-learn compatible implementation of nonconvex sparse estimators for single- and multi-task linear regressions (e.g. SCAD, MCP, l1-group-SCAD, etc).
+Home-page: https://github.com/scikit-learn-contrib/Clej/ncvx_estimators
+Download-URL: https://github.com/scikit-learn-contrib/Clej/ncvx_estimators
+Maintainer: Clement Lejeune
+Maintainer-email: clement.lejeune@irit.fr
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn (>=0.23)
+Requires-Dist: cython (>=0.26)
+Requires-Dist: pandas (==0.25)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+ncvx-sparse
+===========
+
+**ncvx-sparse** is a Python library for learning high-dimensional linear regresion models (single- and -multi-task) with nonconvex sparsity (e.g. SCAD, MCP, l1-group SCAD).
+Solvers are written in Cython and implementation follows the Scikit-learn API.
+
+Why imposing sparsity with nonconvex penalties (e.g. LASSO) ? Because...
+
+Currently, the **ncvx-sparse** solves the following problems:
+
+1. Single-task linear regression,
+
+::
+
+	\arg \min_{\beta \in \mathbb{R}^p} \frac{1}{2n} \sum_i (y_i - x_i^{\top} \beta)^2 + \lambda \rho P(\beta) + \frac{1-\rho}{2} ||\beta||_2^2
+
+where P stands for:
+
+- SCAD (SCADnet estimator), with parameter $\gamma > 2$.
+
+2. Multi-task linear regression,
+
+::
+
+	\arg \min_{\beta = (\beta_1 \dots \beta_k) \in \mathbb{R}^{K \times p}} \frac{1}{2} \sum_j^K \sum_i^n (y_{ik} - x_{ik}^{\top} \beta_j)^2
+
+where P stands for:
+
+- SCAD-l1 i.e. SCAD on the l1-norm of p-th feature vector accross the K tasks,
+- SCAD-l2, same as SCAD-l1 but with respect to the l2-norm (not squared).
+
+Install the released version
+============================
+
+Create a Python=3.6 environment (e.g. Anaconda), and install ncvx-sparse `from pip <https://pypi.python.org/pypi/ncvx-sparse/>`__.  with the following command line in your Anaconda prompt:
+
+::
+
+    pip install -U ncvx-sparse
+	
+Example
+=======
+
+References
+==========
+
+
+
