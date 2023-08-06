@@ -1,0 +1,7 @@
+aiohttp>=3.6.0
+
+[speed]
+aiodns>=1.1
+Brotlipy
+cchardet
+ujson
