@@ -1,0 +1,15 @@
+dagster_snowflake/__init__.py,sha256=cpjgjXhJCEs7cz_gygaRh7tTN3b6p8JjkDBgV56qsEI,424
+dagster_snowflake/configs.py,sha256=LwcAxTzwuj6yc1e-Q26FfXhsCEZg8BDJdHPT8uu_Irg,5486
+dagster_snowflake/resources.py,sha256=DzgZRrvM7CACHJ-d0vLzvCB-IR1pBvTLXXkRl5TQZCo,6907
+dagster_snowflake/solids.py,sha256=Er3PQ37cS_Dptxas7X3tJfLd82FYjufsXuGX6PgocpY,2142
+dagster_snowflake/version.py,sha256=uHT8cobVCVA7RC3zU1xBO8EMs7lKSJ3DHqvqQZLbnBs,26
+dagster_snowflake_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagster_snowflake_tests/test_resources.py,sha256=TsUh8pRzBWkyg6tnnHKED5WHp6Se0f-pu5xjqCL9dy8,3076
+dagster_snowflake_tests/test_solids.py,sha256=u1Qs-sWQY8fXYmtUBLDi3t3Jr3vM3Nq6RyxOLPe_MSs,1211
+dagster_snowflake_tests/test_version.py,sha256=LnsKhFFPjeB7_UXEXKtx4LVOrl9w1s7PHr3xKJA4Gw0,95
+dagster_snowflake_tests/utils.py,sha256=gu21tGm3vprIxq3IgtMHFPofnZDpKfCQ6q9wjWDJjHI,419
+dagster_snowflake-0.14.4rc0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_snowflake-0.14.4rc0.dist-info/METADATA,sha256=0G6bN44DB_Ju-C64d-6HmjvMkqy0V2qKQ04XC5dVfWk,845
+dagster_snowflake-0.14.4rc0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_snowflake-0.14.4rc0.dist-info/top_level.txt,sha256=k3vgEAwcK-Jpd8L8FGRZLRHJqTs9NoOdYk3y8FQ-Tjo,42
+dagster_snowflake-0.14.4rc0.dist-info/RECORD,,
