@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Natsucord.egg-info/PKG-INFO
+src/Natsucord.egg-info/SOURCES.txt
+src/Natsucord.egg-info/dependency_links.txt
+src/Natsucord.egg-info/top_level.txt
