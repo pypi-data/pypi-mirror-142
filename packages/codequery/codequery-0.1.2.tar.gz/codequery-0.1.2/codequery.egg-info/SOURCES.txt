@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+codequery.egg-info/PKG-INFO
+codequery.egg-info/SOURCES.txt
+codequery.egg-info/dependency_links.txt
+codequery.egg-info/top_level.txt
