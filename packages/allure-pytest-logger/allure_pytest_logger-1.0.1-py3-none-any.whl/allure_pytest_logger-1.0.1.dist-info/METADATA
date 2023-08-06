@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: allure-pytest-logger
+Version: 1.0.1
+Summary: PyTest Allure Logging Plugin
+Home-page: https://github.com/efpato/allure-pytest-logger
+License: MIT
+Keywords: pytest,py.test,allure
+Author: Sergey Demenok
+Author-email: sergey.demenok@gmail.com
+Maintainer: Sergey Demenok
+Maintainer-email: sergey.demenok@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: allure-pytest (>=2.9.45,<3.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Project-URL: Repository, https://github.com/efpato/allure-pytest-logger
+Description-Content-Type: text/x-rst
+
+PyTest Allure Logging Plugin
+============================
+
+PyTest plugin that allows you to attach logs to allure-report for failures only
+
