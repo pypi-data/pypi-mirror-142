@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: Viz2D
+Version: 0.0.1
+Summary: A basic visualizer for 2D data
+Home-page: UNKNOWN
+Author: Sai Krishna Vamshi Devarasetty
+Author-email: dskvamshi1998@gmail.com
+License: MIT
+Description: 
+        
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

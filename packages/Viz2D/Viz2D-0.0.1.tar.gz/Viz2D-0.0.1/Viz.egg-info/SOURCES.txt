@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Viz/__init__.py
+Viz.egg-info/PKG-INFO
+Viz.egg-info/SOURCES.txt
+Viz.egg-info/dependency_links.txt
+Viz.egg-info/top_level.txt
