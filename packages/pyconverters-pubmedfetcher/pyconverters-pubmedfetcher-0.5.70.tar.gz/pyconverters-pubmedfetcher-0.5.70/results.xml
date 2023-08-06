@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="2" tests="7" time="26.658" timestamp="2022-03-16T17:34:02.118150" hostname="OLI-OMEN"><testcase classname="bumpversion" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyconverters_pubmedfetcher/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyconverters_pubmedfetcher.__init__" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyconverters_pubmedfetcher/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyconverters_pubmedfetcher.pubmedfetcher" name="FLAKE8" time="0.103" /><testcase classname="tests.test_pubmedfetcher" name="FLAKE8" time="0.044"><failure message="/home/olivier/dev/kairntech/pyconverters_pubmedfetcher/tests/test_pubmedfetcher.py:4:1: F401 'pytest' imported but unused&#10;">/home/olivier/dev/kairntech/pyconverters_pubmedfetcher/tests/test_pubmedfetcher.py:4:1: F401 'pytest' imported but unused
+</failure></testcase><testcase classname="tests.test_pubmedfetcher" name="test_pubmedfetcher_ids" time="8.341" /><testcase classname="tests.test_pubmedfetcher" name="test_pubmedfetcher_allids" time="17.565"><failure message="requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.crossref.org/works/10.12307/2021.293">def test_pubmedfetcher_allids():
+        model = PubmedFetcherConverter.get_model()
+        model_class = model.construct().__class__
+        assert model_class == PubmedFetcherParameters
+        converter = PubmedFetcherConverter()
+        parameters = PubmedFetcherParameters(input_format=InputFormat.ID_List)
+        testdir = Path(__file__).parent
+        source = Path(testdir, "data/DOIs-only.txt")
+        with source.open("rb") as fin:
+&gt;           docs: List[Document] = converter.convert(
+                UploadFile(source.name, fin, "text/plain"), parameters
+            )
+
+tests/test_pubmedfetcher.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.tox/report/lib/python3.8/site-packages/pyconverters_pubmedfetcher/pubmedfetcher.py:68: in convert
+    art = get_article(pm_fetcher, cr_fetcher, input)
+.tox/report/lib/python3.8/site-packages/ratelimit/decorators.py:113: in wrapper
+    return func(*args, **kargs)
+.tox/report/lib/python3.8/site-packages/ratelimit/decorators.py:80: in wrapper
+    return func(*args, **kargs)
+.tox/report/lib/python3.8/site-packages/pyconverters_pubmedfetcher/pubmedfetcher.py:240: in get_article
+    article = doi2art(pm_fetcher, cr_fetcher, identifier)
+.tox/report/lib/python3.8/site-packages/pyconverters_pubmedfetcher/pubmedfetcher.py:187: in doi2art
+    res = cr_fetch.cr.works(doi)
+.tox/report/lib/python3.8/site-packages/habanero/crossref/crossref.py:344: in works
+    return request(
+.tox/report/lib/python3.8/site-packages/habanero/request.py:138: in request
+    r.raise_for_status()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;Response [404]&gt;
+
+    def raise_for_status(self):
+        """Raises :class:`HTTPError`, if one occurred."""
+    
+        http_error_msg = ''
+        if isinstance(self.reason, bytes):
+            # We attempt to decode utf-8 first because some servers
+            # choose to localize their reason strings. If the string
+            # isn't utf-8, we fall back to iso-8859-1 for all other
+            # encodings. (See PR #3538)
+            try:
+                reason = self.reason.decode('utf-8')
+            except UnicodeDecodeError:
+                reason = self.reason.decode('iso-8859-1')
+        else:
+            reason = self.reason
+    
+        if 400 &lt;= self.status_code &lt; 500:
+            http_error_msg = u'%s Client Error: %s for url: %s' % (self.status_code, reason, self.url)
+    
+        elif 500 &lt;= self.status_code &lt; 600:
+            http_error_msg = u'%s Server Error: %s for url: %s' % (self.status_code, reason, self.url)
+    
+        if http_error_msg:
+&gt;           raise HTTPError(http_error_msg, response=self)
+E           requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.crossref.org/works/10.12307/2021.293
+
+.tox/report/lib/python3.8/site-packages/requests/models.py:960: HTTPError</failure></testcase><testcase classname="tests.test_pubmedfetcher" name="test_pubmedfetcher_xml" time="0.097" /></testsuite></testsuites>
