@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gnu/__init__.py
+gnu.egg-info/PKG-INFO
+gnu.egg-info/SOURCES.txt
+gnu.egg-info/dependency_links.txt
+gnu.egg-info/entry_points.txt
+gnu.egg-info/top_level.txt
+gnu.egg-info/zip-safe
+gnu/shell/__init__.py
+gnu/shell/usage.py
+gnu/src/temp.txt
