@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: SD-Pytex-Tools
+Version: 0.0.1
+Summary: Tools to help interface Python with Latex
+Home-page: UNKNOWN
+Author: Sebastien Deriaz
+Author-email: sebastien.deriaz1@gmail.com
+License: UNKNOWN
+Keywords: python,latex,variables
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# SD-Pytex-Tools
+
+Tools for interfacing Python with Latex
+
+## Use python variables in latex
+
+
+
+
+

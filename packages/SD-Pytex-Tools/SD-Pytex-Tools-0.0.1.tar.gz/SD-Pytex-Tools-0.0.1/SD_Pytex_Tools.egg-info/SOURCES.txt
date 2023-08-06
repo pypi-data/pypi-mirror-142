@@ -1,0 +1,8 @@
+README.md
+setup.py
+Pytex_tools/__init__.py
+Pytex_tools/variables.py
+SD_Pytex_Tools.egg-info/PKG-INFO
+SD_Pytex_Tools.egg-info/SOURCES.txt
+SD_Pytex_Tools.egg-info/dependency_links.txt
+SD_Pytex_Tools.egg-info/top_level.txt
