@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+rsilk/__init__.py
+rsilk/_silk.pyi
+rsilk.egg-info/PKG-INFO
+rsilk.egg-info/SOURCES.txt
+rsilk.egg-info/dependency_links.txt
+rsilk.egg-info/not-zip-safe
+rsilk.egg-info/top_level.txt
