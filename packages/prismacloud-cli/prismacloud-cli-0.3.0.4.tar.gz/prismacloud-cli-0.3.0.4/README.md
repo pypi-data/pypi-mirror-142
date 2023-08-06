@@ -1,0 +1,121 @@
+# Prisma Cloud CLI
+
+This is the Prisma Cloud CLI, a command line for [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) by [Palo Alto Networks](https://www.paloaltonetworks.com/)
+The project is work in progress.
+
+:warning:
+These scripts have been developed by Prisma Cloud SAs, they are not Supported by Palo Alto Networks.
+Nevertheless, the maintainers will make a best-effort to address issues, and (of course) contributors are encouraged to submit issues and pull requests.
+
+
+## Getting started
+
+### Requirements
+ * Python >= 3.7 
+ * Pip
+
+### Installation
+
+```sh
+sudo pip3 install prismacloud-cli
+```
+
+Installation on Alpine:
+```sh
+sudo pip3 install --upgrade pip && pip3 install --upgrade setuptools
+sudo pip3 install prismacloud-cli
+```
+Installation on Ubuntu:
+```sh
+sudo apt update
+sudo apt install python3-pip
+sudo pip3 install prismacloud-cli
+```
+
+### Run the script
+
+Run the pc cli script. If you don't have a config file yet, it will help you to create one.
+
+```console
+pc version
+```
+
+This process looks like the screenshot below. the prismacloud-cli asks you for some details, stores it in the
+credentials file and uses that file when it is already available.
+
+![First run](screenshot.png)
+
+### Create your own configuration
+
+Create an access key from Settings then Access key  
+Get the path to console from Compute tab, System, Utilities  
+
+Create a file into home directory .prismacloud/credentials.json with the following structure  
+
+```json
+{
+  "api_endpoint": "__REDACTED__",
+  "pcc_api_endpoint": "__REDACTED__",
+  "access_key_id": "__REDACTED__",
+  "secret_key": "__REDACTED__"
+}
+```
+
+You can add additional configurations which you can call by using --config. For example, create a file 
+called ~/.prismacloud/demo.json with the contents above.
+
+Add ```--config demo``` to your cli commands.
+
+For example:
+
+```
+pc policies -o csv --config demo
+```
+
+
+
+## Examples
+```
+pc -o csv policies 
+pc -o json policies | jq
+pc tags
+pc stats -t dashboard
+pc -o json stats -t dashboard 
+pc users
+pc cloud
+pc -o json reports | jq
+pc --config local stats -t dashboard  --columns defendersSummary.host 
+```
+
+## Global options
+The following global options are available
+
+```
+--debug, -d, Show debug output
+--columns, Select columns to show
+--config, Read custom config file ~/.prismacloud/[value].json
+--limit, -l, Number of rows to show
+--output, -o, Output mode (json/csv/html/markdown/columns)
+```
+
+Use -o columns to get a list of columns available for --columns, e.g.:
+
+```
+pc images -o columns
+pc images -l 1 --columns hostname repoTag.repo osDistro -o csv 
+```
+
+## Use cases
+Show twistcli latest scans of scanned images and their number of critical CVEs:
+
+```
+pc scans --columns time entityInfo.id entityInfo.repoTag.registry entityInfo.repoTag.repo entityInfo.repoTag.tag entityInfo.vulnerabilityDistribution.high entityInfo.vulnerabilityDistribution.critical 
+```
+
+Get latest scan from image id
+```
+pc scans --columns entityInfo.id entityInfo.repoTag.registry entityInfo.repoTag.repo entityInfo.repoTag.tag entityInfo.vulnerabilityDistribution.critical time  --config local  --custom 'imageID=sha256:ef20bafd68d5e55da305c2289a58f367cd90f71ea97b5414a73b0be745f6aab9'
+```
+
+
+
