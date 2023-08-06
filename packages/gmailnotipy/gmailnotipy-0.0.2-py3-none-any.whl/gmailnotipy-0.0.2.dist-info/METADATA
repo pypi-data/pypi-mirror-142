@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: gmailnotipy
+Version: 0.0.2
+Summary: A command line tool which will notify when an email arrives in your Gmail inbox.
+Home-page: https://github.com/iamtalhaasghar/gmailnotipy
+Author: Talha Asghar
+Author-email: talhaasghar.contact@simplelogin.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: py-notifier (==0.3.2)
+
+# gmailnotipy
+`gmailnotipy` Watches your all gmail accounts and notifies you when an email arrives.
+
+# Config
+Place your credentials in `~/.config/gmailnotipy.json` as per following json format.
+```
+[
+    {
+        username: "gmail_account_1_username",
+        password: "gmail_account_1_password"
+    },
+    {
+        username: "gmail_account_2_username",
+        password: "gmail_account_2_password"
+    },
+    {
+        username: "gmail_account_2_username",
+        password: "gmail_account_2_password"
+    }
+]
+
+```
+
+
