@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nubecitast
+Version: 0.0.2
+Summary: Libreria para conectarse a servidor de 'Proyecto_nubecita'
+Home-page: https://github.com/sebastiantq/nubecita
+Author: Sebastian Tobar Quintero
+Author-email: sebastianq@javerianacali.edu.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nubecitast
+Libreria para conectarse a servidor de 'Proyecto_nubecita'.
+
+
