@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Example-Package-LE
+Version: 0.0.5
+Summary: Exon mapping between gtf and fasta files
+Home-page: https://github.com/lellingboe/Example_Package_LE
+Author: Lachlan Ellingboe
+Author-email: lachlan_ellingboe@yahoo.ie
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+Example package
+
+
