@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "boeah"
+version = "0.1.1"
+description = "Boeah Framework"
+authors = ["Fathur <hi.fathur.rohman@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pendulum = "^2.1.2"
+rich = "^11.2.0"
+Werkzeug = "^2.0.3"
+ipython = "^7.32"
+psycopg2 = "^2.9.3"  # Used to connect to postgres
+
+[tool.poetry.dev-dependencies]
+watchdog = "^2.1.6"
+pylint = "^2.12.2"
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
