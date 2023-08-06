@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+akim_zemar_api/__init__.py
+akim_zemar_api/func_akim.py
+akim_zemar_api/func_akim2.py
+akim_zemar_api/func_akim3.py
+akimzemar_api.egg-info/PKG-INFO
+akimzemar_api.egg-info/SOURCES.txt
+akimzemar_api.egg-info/dependency_links.txt
+akimzemar_api.egg-info/top_level.txt

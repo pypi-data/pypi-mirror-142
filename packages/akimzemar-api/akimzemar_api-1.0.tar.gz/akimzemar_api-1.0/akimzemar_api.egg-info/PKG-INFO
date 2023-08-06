@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: akimzemar-api
+Version: 1.0
+Summary: Biblioteka dlya mirea
+Home-page: UNKNOWN
+Author: Akim Zemar
+Author-email: akim.zemar@gmail.com
+License: UNKNOWN
+Keywords: python,akim,zemar,unittest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+
+# akim_zemar_api
+
+Biblioteka dlya mirea
+
+
