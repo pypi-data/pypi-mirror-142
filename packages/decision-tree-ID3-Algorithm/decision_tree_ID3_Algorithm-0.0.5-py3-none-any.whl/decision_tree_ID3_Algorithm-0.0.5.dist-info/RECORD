@@ -1,0 +1,14 @@
+ID3Algorithm.py,sha256=EabBB1FA-GWdAJosg09EjMoLUe7whPnUCgZjRMpSAJY,589
+buildTree.py,sha256=4Z3MtFZ_mLqzA4gBzoO9LvnLrjEYke-RN8q5Nib0Fgc,3134
+classify_data.py,sha256=bGk8JBf2XBdC96XMP0QGoEM-FO8q-YAh2vWFMzQiksU,853
+node.py,sha256=18oPGYwNpVPc6KpGeee-LvbGM4HTDPA-wLY2hvrMDMs,265
+decisiontree/ID3Algorithm.py,sha256=iMj3A8iNHG0nl6AUwrH0Bww9tvfLpRx84yssOurPAU8,615
+decisiontree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decisiontree/buildTree.py,sha256=0d1SNPKKFdWtwk7Wdo41uWmUQS2Bze44guxAQx-M-m8,3147
+decisiontree/classify_data.py,sha256=bGk8JBf2XBdC96XMP0QGoEM-FO8q-YAh2vWFMzQiksU,853
+decisiontree/node.py,sha256=18oPGYwNpVPc6KpGeee-LvbGM4HTDPA-wLY2hvrMDMs,265
+decision_tree_ID3_Algorithm-0.0.5.dist-info/LICENSE.txt,sha256=nrb2nUih3XZOijPxSlhPRg087GU0d8E2qV3W35wkkhE,1055
+decision_tree_ID3_Algorithm-0.0.5.dist-info/METADATA,sha256=CZhYeeQ8YOsUbqosF3TfdB55NuZdk81kSotAgBEVD0A,1075
+decision_tree_ID3_Algorithm-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+decision_tree_ID3_Algorithm-0.0.5.dist-info/top_level.txt,sha256=OnOzctpjAlCJWIZvnWSGWB2aAk8JiTPrNovaZbkq6x8,13
+decision_tree_ID3_Algorithm-0.0.5.dist-info/RECORD,,
