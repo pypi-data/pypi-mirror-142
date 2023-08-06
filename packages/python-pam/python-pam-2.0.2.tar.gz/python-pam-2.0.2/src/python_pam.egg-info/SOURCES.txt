@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pam/__init__.py
+src/pam/__internals.py
+src/pam/pam.py
+src/pam/version.py
+src/python_pam.egg-info/PKG-INFO
+src/python_pam.egg-info/SOURCES.txt
+src/python_pam.egg-info/dependency_links.txt
+src/python_pam.egg-info/top_level.txt
