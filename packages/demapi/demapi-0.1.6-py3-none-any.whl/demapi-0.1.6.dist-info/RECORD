@@ -1,0 +1,13 @@
+demapi/__init__.py,sha256=FyJ_VVbbWk3bqQ4Bo6_dsUfiKMXaxCIm3aAxEoxAuQQ,546
+demapi/configure/params.py,sha256=lGA9zc5npTMi01k7T1ACiE4J_TTw_7lGI1nL3In4Ogs,636
+demapi/configure/payload.py,sha256=2A1CBE-DQHeaJAzj95QD4zl3owFVIyWBqeV8fKrH6ko,174
+demapi/configure/view.py,sha256=b6b4P-NM8C1NlwmK1CYMKRGJ9zdqyGZIG6QWKXpmV1U,3338
+demapi/connector/coroutine.py,sha256=Kf8TNaiwJIL4_Uj4gvZuypcgWVf78cZkoiY2cryUwCA,1842
+demapi/connector/file.py,sha256=a5HPSesCIRFW53VqIrUoUXZUbgcCIDW65ocIXToPeHk,152
+demapi/connector/sync.py,sha256=VFfZkldewioQxxa2UIzDYSqSAF9HcilbRFk6PNgYz7Q,1303
+demapi/exceptions.py,sha256=dRjORqBQGhXJl83kFoKExJmQ6l0LgwN_lJw-NG82rMk,354
+demapi/loader.py,sha256=JWwxaX0AZw_NvqcTegJ8m2Ssxy1-IQg7a53RExipBNg,2210
+demapi-0.1.6.dist-info/LICENSE,sha256=RO4UqXUz-x3Zec6vFXFKsE0g-8rnsYFluigSXGmvrtY,1052
+demapi-0.1.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+demapi-0.1.6.dist-info/METADATA,sha256=jKtShEgNBQIEMJKsv1iolcq32MJsW3OD_BC-i3SExbo,3627
+demapi-0.1.6.dist-info/RECORD,,
