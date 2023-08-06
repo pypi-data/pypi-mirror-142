@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Vsvpack/src/Vsvpack.egg-info/PKG-INFO
+Vsvpack/src/Vsvpack.egg-info/SOURCES.txt
+Vsvpack/src/Vsvpack.egg-info/dependency_links.txt
+Vsvpack/src/Vsvpack.egg-info/top_level.txt
+Vsvpack/src/Vsvpack.py
+Vsvpack/src/Vsvpack.egg-info/PKG-INFO
+Vsvpack/src/Vsvpack.egg-info/SOURCES.txt
+Vsvpack/src/Vsvpack.egg-info/dependency_links.txt
+Vsvpack/src/Vsvpack.egg-info/top_level.txt
