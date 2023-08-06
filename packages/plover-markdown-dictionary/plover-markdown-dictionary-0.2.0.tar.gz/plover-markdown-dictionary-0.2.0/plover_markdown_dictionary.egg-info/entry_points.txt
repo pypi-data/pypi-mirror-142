@@ -1,0 +1,3 @@
+[plover.dictionary]
+md = plover_markdown_dictionary:MarkdownDictionary
+
