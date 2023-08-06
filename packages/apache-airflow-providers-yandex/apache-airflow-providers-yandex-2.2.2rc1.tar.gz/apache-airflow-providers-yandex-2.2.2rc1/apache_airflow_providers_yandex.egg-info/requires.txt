@@ -1,0 +1,4 @@
+apache-airflow>=2.1.0rc1
+yandexcloud>=0.146.0
+gitpython
+wheel
