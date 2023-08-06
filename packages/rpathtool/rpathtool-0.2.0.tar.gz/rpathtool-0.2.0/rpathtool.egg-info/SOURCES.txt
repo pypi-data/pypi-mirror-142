@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+rpathtool.egg-info/PKG-INFO
+rpathtool.egg-info/SOURCES.txt
+rpathtool.egg-info/dependency_links.txt
+rpathtool.egg-info/requires.txt
+rpathtool.egg-info/top_level.txt
