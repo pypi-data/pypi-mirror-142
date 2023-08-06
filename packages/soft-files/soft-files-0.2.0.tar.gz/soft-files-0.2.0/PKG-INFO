@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: soft-files
+Version: 0.2.0
+Summary: A homegrown file transfer protocol.
+License: MIT
+Author: Kronifer
+Author-email: 44979306+Kronifer@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyNaCl (>=1.5.0,<2.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
