@@ -1,0 +1,15 @@
+pycdsl/__init__.py,sha256=SZk1HHrGwHCj_Fa13SPRj7Mk89eCF9Tgztx8Qojby0U,759
+pycdsl/cli.py,sha256=glFdfVqZImEVGMtyGmO8ey17bIyTaqTITWZs9ptf8dc,3949
+pycdsl/constants.py,sha256=klH8Z5H8gyMnjJsnpjighE2FqJLcdchYL86oqlN9aO8,1260
+pycdsl/corpus.py,sha256=J6heCSfS6E262gpJwbvaakbL8LB7wQQsw-Ep8kb_a6o,10550
+pycdsl/lexicon.py,sha256=Gm1BHr_VdNrvzF3ebunfQRtMzb5os_IFfYcJhToLfJ0,15805
+pycdsl/models.py,sha256=1l5OH0kEAmI8UHc7kT0aEXDGzOGMAagVO9VeN07YCVc,6370
+pycdsl/shell.py,sha256=CLYSmyIhSO37ExK8V79872S1C4gR5vkOvwH6qEkljHo,12664
+pycdsl/utils.py,sha256=Xrv236yEOrh6PrR2OCI5SbDniLRpCai1TEQtnDNExzM,2307
+PyCDSL-0.7.0.dist-info/AUTHORS.rst,sha256=oPn2na2vtwDDxf9ue6OF-iGY7SgGg0rx89WZ4W9ubBM,172
+PyCDSL-0.7.0.dist-info/LICENSE,sha256=DUKo1Q1-YOoelgOaz7hC0MP8_x8ClZsGjfpW26cR3PU,1582
+PyCDSL-0.7.0.dist-info/METADATA,sha256=ZynJgHgJKSL86hwY1EcUBi8zCye4kkYWKZvfn0HcYq0,18303
+PyCDSL-0.7.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+PyCDSL-0.7.0.dist-info/entry_points.txt,sha256=T1O4RKTMUUL8HeN0xoV8QgOkZcfmVo2KDK6mFuPBP-E,42
+PyCDSL-0.7.0.dist-info/top_level.txt,sha256=czzH4tvSQEOAMAeioIeP8OmwT8e9cZ_B5zGd93E1BWY,7
+PyCDSL-0.7.0.dist-info/RECORD,,
