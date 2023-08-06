@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/boostrapsdk.egg-info/PKG-INFO
+src/boostrapsdk.egg-info/SOURCES.txt
+src/boostrapsdk.egg-info/dependency_links.txt
+src/boostrapsdk.egg-info/top_level.txt
