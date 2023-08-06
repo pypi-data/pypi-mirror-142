@@ -1,0 +1,7 @@
+build>=0.1
+setuptools
+tomli
+
+[test]
+mock>=3.0.0
+pytest
