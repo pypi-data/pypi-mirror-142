@@ -1,0 +1,11 @@
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/apiclient.py,sha256=s3uOqnneE3pchAlmwr-SUhQqyfAM9ZGHwS9eONTmpL4,1937
+api/card.py,sha256=z9TS6U4FnP1Ik5nAXwMenVndGNTZRVi-UFf01vwz934,194
+api/deck.py,sha256=o6L4-_tFU9AykmdqPgmdyAeSROGg3vXFPLshWRWQwY8,189
+api/drawncards.py,sha256=XlMustgX7EFCLp5a8ILrKaALgmodLhIA7s3mUSVUoUU,223
+api/fetchcache.py,sha256=jF4hsE2ORfBLSG6w1es-kbZKmqWrp4584Ix9TMX1T7k,1572
+boilerplate_sdk_python_jcincotta22-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+boilerplate_sdk_python_jcincotta22-0.0.3.dist-info/METADATA,sha256=7PhKdisivMfbNuhmV2p1oyQ8b_U7mKNRf-hmXBt10JQ,905
+boilerplate_sdk_python_jcincotta22-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boilerplate_sdk_python_jcincotta22-0.0.3.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+boilerplate_sdk_python_jcincotta22-0.0.3.dist-info/RECORD,,
