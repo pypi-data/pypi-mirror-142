@@ -1,0 +1,11 @@
+MahjongPyWrapper.so,sha256=1vEjf_i2-dZU2aNcLYl3zlOfWTtVRgGcBHHEQMmz4Ug,1411720
+pymahjong/models.py,sha256=3jpBa0pH0AoSYss4LVEn9STvtkXKgnlzKgukcrwXcsA,2324
+pymahjong/env_pymahjong.py,sha256=6pm4tPASjIu6uTrFCEKsovUsncllfX4c5mreFMIsicE,15739
+pymahjong/base_modules.py,sha256=xXK9DkgoNGTxviQzn-5ZkaYOVWoIikpzUqVSVhWjICk,4542
+pymahjong/test.py,sha256=YxIqM3ZKkOQUFiL7F-Q0hPFTYz78f-aSa805Tv6avOY,2761
+pymahjong/__init__.py,sha256=PYWV4HejkyOeUVEYDx46D7aHX8dIlN4tjPBiXT1BhO4,138
+pymahjong-1.0.0.dist-info/METADATA,sha256=PstTzFzb42JP53mf0liq2MvQ-Y37O-g1Km2sQkfVDo8,1080
+pymahjong-1.0.0.dist-info/WHEEL,sha256=jV5hw7ZxL_AXeKZJ-dkRf37KNN2X2oMyoHo4ae3-bZA,114
+pymahjong-1.0.0.dist-info/top_level.txt,sha256=z4T1Cm2SnOPYXurlAConNuziQ768Pb9HPiDKLn6ZjSo,10
+pymahjong-1.0.0.dist-info/RECORD,,
+pymahjong.libs/libpython3-2604f0cf.10.so.1.0,sha256=fuQLcpEC4HPM8gW827bO1cE0I7NeRegjJy5Iw8YA3QA,16585200
