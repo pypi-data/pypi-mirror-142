@@ -1,0 +1,16 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+gmailnotipy/__init__.py
+gmailnotipy/gmail.svg
+gmailnotipy/gmailnotipy.py
+gmailnotipy.egg-info/PKG-INFO
+gmailnotipy.egg-info/SOURCES.txt
+gmailnotipy.egg-info/dependency_links.txt
+gmailnotipy.egg-info/entry_points.txt
+gmailnotipy.egg-info/requires.txt
+gmailnotipy.egg-info/top_level.txt
