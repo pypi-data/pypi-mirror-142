@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+swannotificationsservice/__init__.py
+swannotificationsservice/__main__.py
+swannotificationsservice/_version.py
+swannotificationsservice/app.py
+swannotificationsservice/service.py
+swannotificationsservice.egg-info/PKG-INFO
+swannotificationsservice.egg-info/SOURCES.txt
+swannotificationsservice.egg-info/dependency_links.txt
+swannotificationsservice.egg-info/entry_points.txt
+swannotificationsservice.egg-info/not-zip-safe
+swannotificationsservice.egg-info/requires.txt
+swannotificationsservice.egg-info/top_level.txt
