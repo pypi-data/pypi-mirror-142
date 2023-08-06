@@ -1,0 +1,6 @@
+pyyaml
+selenium
+pytest
+allure-pytest
+faker
+loguru
