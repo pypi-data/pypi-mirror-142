@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ppdl
+Version: 0.1.6
+Summary: Source code for probabilistic deep learning course.
+Author: Juan Lara
+Author-email: julara@unal.edu.co
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: progressbar2 (>=4.0.0,<5.0.0)
+Requires-Dist: rlxutils (>=0.1.7,<0.2.0)
+Requires-Dist: sympy (>=1.9,<2.0)
+Requires-Dist: tensorflow (==2.7.0)
