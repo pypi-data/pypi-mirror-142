@@ -1,0 +1,39 @@
+config:
+    # Bootstrap target scripts for Linux/Windows
+    loadMeTargets:
+        - ${PROJECTDIR}/loadme.sh
+        - ${PROJECTDIR}/loadme.bat
+
+    # Bootstrap template scripts for Linux/Windows
+    loadMeTemplates:
+        - ${BASEDIR}/templates/loadme.sh
+        - ${BASEDIR}/templates/loadme.bat
+
+    # Python versions to call to bootstrap venv
+    loadMeVenvPython:
+        - python3
+        - python
+
+    # Required system dependencies (at least python!)
+    loadMeSysDeps:
+        python3:
+            apt: ["python3", "python3-venv"]
+        python:
+            url: https://www.python.org/downloads/
+
+    # Contribute to generated git attributes
+    gitFileAttributes:
+        "*.bat": "text eol=crlf" # Bat files are Windows files
+
+tasks:
+    # Generate bootstrap scripts
+    loadme:
+        description: Generate "loadme" scripts
+        emoji: rocket
+        appendToDeps: setup
+        input: ${loadMeTemplates}
+        output: ${loadMeTargets}
+        params:
+            deps: ${loadMeSysDeps}
+            venv_pythons: ${loadMeVenvPython}
+        builder: nmk_base.loadme.BuildLoadMe
