@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+contiguous/__init__.py
+contiguous/structures.py
+contiguous.egg-info/PKG-INFO
+contiguous.egg-info/SOURCES.txt
+contiguous.egg-info/dependency_links.txt
+contiguous.egg-info/top_level.txt
+tests/__init__.py
+tests/test-contiguous.py
