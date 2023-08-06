@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+README.md
+__init__.py
+setup.cfg
+setup.py
+fscloudutils/DB_client.py
+fscloudutils/chatbot.py
+fscloudutils/data_validation.py
+fscloudutils/license.txt
+fscloudutils/processors.py
+fscloudutils.egg-info/PKG-INFO
+fscloudutils.egg-info/SOURCES.txt
+fscloudutils.egg-info/dependency_links.txt
+fscloudutils.egg-info/requires.txt
+fscloudutils.egg-info/top_level.txt

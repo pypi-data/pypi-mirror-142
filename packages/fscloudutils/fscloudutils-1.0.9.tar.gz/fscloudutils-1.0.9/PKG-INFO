@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: fscloudutils
+Version: 1.0.9
+Summary: A package for all fs cloud utilities
+Home-page: UNKNOWN
+Author: Yotam Raz
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
