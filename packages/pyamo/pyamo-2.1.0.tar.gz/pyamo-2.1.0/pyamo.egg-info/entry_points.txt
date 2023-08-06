@@ -1,0 +1,2 @@
+[console_scripts]
+amo = pyamo.cli:main
