@@ -1,0 +1,13 @@
+airflow/providers/singularity/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/singularity/get_provider_info.py,sha256=ORO2YoRdV40Qu8DTLoWLs_NBXOxrgQP8X2rWqSAlzpI,1913
+airflow/providers/singularity/example_dags/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/singularity/example_dags/example_singularity.py,sha256=ZI5jtd_bL3k-NFu3NrOQ8b7Uhopqr7yh7efnuHo1wlI,1577
+airflow/providers/singularity/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/singularity/operators/singularity.py,sha256=5HXTTFyT4kZICwVWnntliKFZ-F1ZJDD9CyJbwGkskVY,6969
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/METADATA,sha256=6U-sVgwBBzeVdbAHfUWrpqVmcV0JV9644Dofp1c_ubo,7047
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/entry_points.txt,sha256=kwwMmFBkVSGJInBM70YWGjREWyeFbApxRkwICd3zQSk,109
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_singularity-2.0.3rc1.dist-info/RECORD,,
