@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+myspeed/__init__.py
+myspeed/myspeed.py
+myspeed.egg-info/PKG-INFO
+myspeed.egg-info/SOURCES.txt
+myspeed.egg-info/dependency_links.txt
+myspeed.egg-info/entry_points.txt
+myspeed.egg-info/requires.txt
+myspeed.egg-info/top_level.txt
