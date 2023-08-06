@@ -1,0 +1,22 @@
+image: archlinux
+packages:
+  - go-ipfs
+  - python-pip
+sources:
+  - https://git.sr.ht/~cnx/ipwhl-utils
+tasks:
+  - path: echo 'export PATH="$HOME/.local/bin:$PATH"' >> .buildenv
+  - init: |
+      ipfs init
+      systemctl --user enable --now ipfs.service
+      ipwhl-utils/.pinata.py
+      pip install pip
+      pip install tox
+  - lint: tox -c ipwhl-utils
+environment:
+  PIP_DEFAULT_TIMEOUT: 60
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+  PIP_FORCE_REINSTALL: 1
+  PIP_INDEX_URL: >-
+    http://localhost:8080/ipfs/QmZnbd6DBstuNJ3BBy1R37Wk6ujwYHWMgBgUdbgzW6xpNm
+  PIP_QUIET: 1
