@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pretty-genetic-algorithm
+Version: 0.0.1
+Summary: A genetic algorithm implementation with pretty progress updates
+Home-page: https://github.com/eniallator/pretty-genetic-algorithm
+Author: eniallator
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pretty Genetic Algorithm
+
+The pretty genetic algorithm project contains a genetic algorithm class which will provide pretty progress updates as well as many different options for how you want to implement a genetic algorithm.
+
+
