@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+eldadpdf/__init__.py
+eldadpdf/pdf2image.py
+eldadpdf/pdf2text.py
+eldadpdf.egg-info/PKG-INFO
+eldadpdf.egg-info/SOURCES.txt
+eldadpdf.egg-info/dependency_links.txt
+eldadpdf.egg-info/top_level.txt
