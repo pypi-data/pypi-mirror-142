@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+Utsavbasiccalculator.egg-info/PKG-INFO
+Utsavbasiccalculator.egg-info/SOURCES.txt
+Utsavbasiccalculator.egg-info/dependency_links.txt
+Utsavbasiccalculator.egg-info/top_level.txt
