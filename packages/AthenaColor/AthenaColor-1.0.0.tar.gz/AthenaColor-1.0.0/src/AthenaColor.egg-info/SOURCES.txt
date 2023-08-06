@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/AthenaColor/BASE.py
+src/AthenaColor/Format.py
+src/AthenaColor/__init__.py
+src/AthenaColor/main.py
+src/AthenaColor.egg-info/PKG-INFO
+src/AthenaColor.egg-info/SOURCES.txt
+src/AthenaColor.egg-info/dependency_links.txt
+src/AthenaColor.egg-info/top_level.txt
+src/AthenaColor/Predefined/Background.py
+src/AthenaColor/Predefined/Foreground.py
+src/AthenaColor/Predefined/Underline.py
+src/AthenaColor/Predefined/__init__.py
