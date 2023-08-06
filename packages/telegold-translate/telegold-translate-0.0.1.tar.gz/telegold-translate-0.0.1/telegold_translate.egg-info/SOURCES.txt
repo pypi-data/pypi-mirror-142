@@ -1,0 +1,8 @@
+setup.py
+telegold/__init__.py
+telegold/constant.py
+telegold/google_trans_new.py
+telegold_translate.egg-info/PKG-INFO
+telegold_translate.egg-info/SOURCES.txt
+telegold_translate.egg-info/dependency_links.txt
+telegold_translate.egg-info/top_level.txt
