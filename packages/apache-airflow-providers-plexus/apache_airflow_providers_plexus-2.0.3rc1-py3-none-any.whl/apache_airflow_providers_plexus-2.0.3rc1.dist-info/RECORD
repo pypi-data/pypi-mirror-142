@@ -1,0 +1,15 @@
+airflow/providers/plexus/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/plexus/get_provider_info.py,sha256=R31hyvIeZvxWXFGjYj12oS53809LBczfsRP3LVNpmrE,1924
+airflow/providers/plexus/example_dags/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/plexus/example_dags/example_plexus.py,sha256=3HXzKOy5wVg-Fjv35VQW53stmTfPi6Xu7tBLcrspOH4,1543
+airflow/providers/plexus/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/plexus/hooks/plexus.py,sha256=KdkrjV7j9EElCGF12fGvmiMehXJD6qtJl8yyCZdUaDY,2679
+airflow/providers/plexus/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/plexus/operators/job.py,sha256=BFb6i_gVKU4Yc1demw6tgftD2JCB8IsCzlrt9lr6Btw,6039
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/METADATA,sha256=4BZ-u5MDy8LC-ZngAPmlvZr9oWl5-CjuBQPPv5Y_PJI,6889
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/entry_points.txt,sha256=P527yHYMc8h1cWhn44-Brl5w2dgNMMxhr31YgsJH7w0,104
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_plexus-2.0.3rc1.dist-info/RECORD,,
