@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+SJ_CONSTANTS/__init__.py
+SJ_CONSTANTS/constants.py
+SJ_CONSTANTS.egg-info/PKG-INFO
+SJ_CONSTANTS.egg-info/SOURCES.txt
+SJ_CONSTANTS.egg-info/dependency_links.txt
+SJ_CONSTANTS.egg-info/top_level.txt
+tests/__init__.py
+tests/test_verifier.py
