@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quantfinpy
+Version: 0.0.3
+Summary: Quantitative finance in python.
+Author: TradingPy
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=21.4.0,<22.0.0)
+Requires-Dist: cytoolz (>=0.11.2,<0.12.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: pandas-stubs (>=1.2.0,<2.0.0)
+Requires-Dist: typing-extensions (>=4.1.1,<5.0.0)
