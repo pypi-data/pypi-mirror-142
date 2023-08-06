@@ -1,0 +1,10 @@
+conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haploblock_shuffler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haploblock_shuffler/__main__.py,sha256=31m4qhnDFvJIDB_RyMXUZi_XnjwYi5_ydB-TpEqzU9k,80
+haploblock_shuffler/cli.py,sha256=tkSFYx9JhopQOYI20BKeoCsd-tT0qfBTX1H1QZ2dImQ,1384
+haploblock_shuffler/utils.py,sha256=O1Q-SE7sijfyXw1xBfmIQFTRgG8FUvXHgcKdtQxe7SQ,4470
+haploblock_shuffler-0.0.5.dist-info/METADATA,sha256=TVcllPu7Bzk4yqPTuyzU2UgPy28GpQrBmBO8xR1tNu4,3042
+haploblock_shuffler-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+haploblock_shuffler-0.0.5.dist-info/entry_points.txt,sha256=IBhW-CWAbWbp5bm6Ko0i5121NsiswIDOoF7t4weFsQ4,69
+haploblock_shuffler-0.0.5.dist-info/top_level.txt,sha256=WWqsYEUG-Q8ZBeEm6pvTMo4RSMsyalKBeq4VtCit1jo,29
+haploblock_shuffler-0.0.5.dist-info/RECORD,,
