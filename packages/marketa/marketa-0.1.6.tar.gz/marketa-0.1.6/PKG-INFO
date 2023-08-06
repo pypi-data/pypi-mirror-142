@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: marketa
+Version: 0.1.6
+Summary: 
+Author: illiak
+Author-email: ilichpost@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.6,<6.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: SQLAlchemy (>=1.4.31,<2.0.0)
+Requires-Dist: SQLAlchemy-Utils (>=0.38.2,<0.39.0)
+Requires-Dist: daemonize (>=2.5.0,<3.0.0)
+Requires-Dist: diskcache (>=5.2.1,<6.0.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: exitstatus (>=2.2.0,<3.0.0)
+Requires-Dist: financedatabase (>=1.0.0,<2.0.0)
+Requires-Dist: humanize (>=3.13.1,<4.0.0)
+Requires-Dist: lagom (>=1.7.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: mplfinance (>=0.12.8-beta.9,<0.13.0)
+Requires-Dist: numpy (>=1.20.2,<2.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: purl (>=1.5,<2.0)
+Requires-Dist: sequential-uuids (>=1.0.0,<2.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: yfinance (>=0.1.63,<0.2.0)
