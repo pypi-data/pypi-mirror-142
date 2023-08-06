@@ -1,0 +1,9 @@
+datasets_sql/__init__.py,sha256=SMmyrUQGh99A7KMSQfRH4U5EStTsujFuX1wBEyQRB4Q,360
+datasets_sql/query.py,sha256=C8jAnHBSwijPO8zXiXXGKN6Dk-osn8ieSVmF3pkszCo,8813
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_query.py,sha256=rHaSCQ8mGdImB5al9NITGN9HD1M9UsodGuV14T_grH8,796
+datasets_sql-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+datasets_sql-0.1.1.dist-info/METADATA,sha256=oD7S6lpmgKmJWtr7xb6mEEt8BC5P0NcF69Ga67Oe1AA,2164
+datasets_sql-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datasets_sql-0.1.1.dist-info/top_level.txt,sha256=7bpH4i-EoFb-jx5BT-nqgT2nrh8Nb2OGoC8pS8VUcAA,19
+datasets_sql-0.1.1.dist-info/RECORD,,
