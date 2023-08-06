@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: figleaf-fasta
+Version: 1.1.1
+Summary: figleaf_fasta applies hard/soft masking to a FASTA file or excludes/extracts sub-sequences from a FASTA file.
+Home-page: https://github.com/AlexOrlek/figleaf_fasta
+Author: Alex Orlek
+Author-email: alex.orlek@gmail.com
+License: MIT license
+Description: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4680617.svg)](https://doi.org/10.5281/zenodo.4680617)
+        
+        figleaf_fasta applies hard/soft masking to a FASTA file or excludes/extracts sub-sequences from a FASTA file.<br>
+        * hard_mask: replace sequence with N, X, or ?
+        * soft_mask: convert sequence to lowercase
+        * exclude: exclude sub-sequences and concatenate non-excluded remainder
+        * extract: extract and concatenate sub-sequences
+        <br>
+        
+        Other tools for handling FASTA files (e.g. `bedtools maskfasta`, `bedtools getfasta`, `pybedtools`) require sequence name(s), corresponding to FASTA header names, to be specified (in addition to range information); sequence name specification allows different masking operations to be applied to different records in a multi-FASTA file.<br>
+        
+        figleaf_fasta is a simple lightweight tool that takes as input a (multi-)FASTA and range start, end positions; masking/exclusion/extraction will be applied to sequence(s) within the (multi-)FASTA, regardless of FASTA header names. This is useful if a user wants to apply the same masking to all FASTA files or all records of a multi-FASTA. A common use case is when handling reference-aligned (same-length) consensus FASTAs.<br>
+        
+        # Installation
+        
+        ## From pypi
+        ```bash
+        pip3 install figleaf_fasta
+        ```
+        ## From GitHub repository
+        ```bash
+        git clone https://github.com/AlexOrlek/figleaf_fasta.git
+        cd figleaf_fasta
+        pip3 install .
+        ```
+        
+        # Options and usage
+        
+        figleaf_fasta can be run from a Linux command-line as follows:<br>
+         `figleaf [`*`arguments...`*`]`
+        
+        figleaf_fasta can be used within a Python script as follows:<br>
+        `from figleaf_fasta.figleaf import figleaf`<br>
+        `figleaf([`*`arguments...`*`])`<br>
+        <br>
+        Running `figleaf -h` on the command-line produces a summary of the command-line options:
+        
+        ```
+        usage: figleaf [-h] -fi FASTA_INPUT -r RANGES_PATH -fo FASTA_OUTPUT [--task TASK] [--hard_mask_letter HARD_MASK_LETTER] [--inverse_mask]
+        
+        figleaf_fasta: apply hard/soft mask to FASTA file or exclude/extract sub-sequences
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+        
+        Input:
+          -fi FASTA_INPUT, --fasta_input FASTA_INPUT
+                                Filepath to input fasta file to be masked (required)
+          -r RANGES_PATH, --ranges_path RANGES_PATH
+                                Two-column tsv file with rows containing 0-indexed end-exclusive ranges to be masked/excluded/extracted (required)
+        
+        Output:
+          -fo FASTA_OUTPUT, --fasta_output FASTA_OUTPUT
+                                Filepath for masked output fasta file (required)
+        
+        Task:
+          --task TASK           "hard_mask","soft_mask","exclude","extract" (default: hard_mask)
+        
+        Mask:
+          --hard_mask_letter HARD_MASK_LETTER
+                                Letter to represent hard_mask regions (N, X or ?) (default: N)
+          --inverse_mask        If flag is provided, all except mask ranges will be masked
+        ```
+        
+        The same arguments are required when using the figleaf function within a Python script, except that start, end positions can be provided either as a filepath (`ranges_path`), OR as a Python list (`ranges_list`).
+        
+        
+        # Example
+        
+        To generate example output in the example/ directory, run:<br>
+        `python figleaf_fasta.py` or `bash figleaf_fasta.sh`
+        
+        
+        # License
+        
+        [MIT License](https://en.wikipedia.org/wiki/MIT_License)
+        
+        
+        # History
+        
+        ## 1.1.1
+        - Changed constraints on hardmask letters - can now use "?"
+        - Fixed bugs when using fasta file with more than one sequence, with --task='exclude' or with --inverse_mask=False
+        
+        ## 1.1.0
+        - First release on PyPI
+        ### Changed
+        - Packaged code with `setup.py` and unit testing; uploaded to PyPI
+        
+        ## 1.0.0
+        - First release, working code
+        
+        
+Keywords: figleaf_fasta
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
