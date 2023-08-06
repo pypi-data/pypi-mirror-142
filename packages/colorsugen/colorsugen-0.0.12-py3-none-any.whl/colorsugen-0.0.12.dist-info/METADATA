@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: colorsugen
+Version: 0.0.12
+Summary: Distinct color generator
+Home-page: https://github.com/Ricks-Lab/colors-ugen
+Author: RueiKe
+Author-email: rueikes.homelab@gmail.com
+License: GPL-3
+Project-URL: Bug Tracker, https://github.com/Ricks-Lab/colors-ugen/issues
+Project-URL: Documentation, https://github.com/Ricks-Lab/colors-ugen/blob/master/README.md
+Project-URL: Source Code, https://github.com/Ricks-Lab/colors-ugen
+Keywords: colors visualization data
+Platform: posix
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.1.2)
+
+# colors-ugen
+Utility to generate a list of unique colors
+
+
