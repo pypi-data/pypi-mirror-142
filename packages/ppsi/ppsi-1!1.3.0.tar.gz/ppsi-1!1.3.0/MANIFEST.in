@@ -1,0 +1,19 @@
+include *.in
+include *.rst
+include *.txt
+include *.yml
+include LongDescription
+recursive-include docs *.bat
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs *.svg
+recursive-include docs *.txt
+recursive-include docs Makefile
+recursive-include ppsi *.jpg
+recursive-include ppsi *.sh
+recursive-include ppsi *.svg
+recursive-include ppsi *.yml
+recursive-include tests *.coveragerc
+recursive-include tests *.py
+recursive-exclude docs _*/*
+

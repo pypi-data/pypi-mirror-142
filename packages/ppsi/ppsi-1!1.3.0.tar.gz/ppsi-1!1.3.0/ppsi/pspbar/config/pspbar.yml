@@ -1,0 +1,47 @@
+update: 1
+slow: 1
+time:
+  active: true
+  full: true
+  fmt24: "%x %X"
+  fmt12: "%x %R"
+
+battery:
+  active: true
+  suspend: 2.5
+  critical: 5
+  minimal: 10
+  low: 20
+  green: 75
+  yellow: 50
+  red: 25
+  display: time
+
+cpu:
+  active: True
+
+temperature:
+  active: true
+  fire: 80
+  orange: 70
+  yellow: 60
+  hot: 50
+  warm: 40
+
+ram:
+  active: true
+  red: 80
+  orange: 66
+  yellow: 50
+
+network:
+  active: true
+
+uname:
+  active: true
+
+load:
+  active: true
+  red: 100
+  orange: 80
+  yellow: 60
