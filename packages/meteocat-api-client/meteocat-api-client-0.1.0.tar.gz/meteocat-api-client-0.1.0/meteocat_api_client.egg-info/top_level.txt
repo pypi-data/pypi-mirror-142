@@ -1,0 +1,1 @@
+meteocat_api_client
