@@ -1,0 +1,2 @@
+[flake8.extension]
+CL = flake8_cls_attr_order.plugin:ClassAttrOrder
