@@ -1,0 +1,3 @@
+[console_scripts]
+wordle-cheater=wordle_cheater.cli:wordle_cheat
+

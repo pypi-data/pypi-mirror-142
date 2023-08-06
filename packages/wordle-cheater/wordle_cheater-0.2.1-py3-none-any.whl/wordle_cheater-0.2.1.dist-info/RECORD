@@ -1,0 +1,11 @@
+wordle_cheater/__init__.py,sha256=Q5y1mNnl1O4PMqlTYdUhHlKn9pUsr8sxI2GQ9hkhCy4,337
+wordle_cheater/cheater.py,sha256=yebty2kMZb_ysAkxxH7UZDJN5_j38eUy1oNK-CXRBNI,17133
+wordle_cheater/cli.py,sha256=KPiOhgE_oEC5nI0fWVFw2ABAPB6wrSYVq8qwu6X1vEo,3655
+wordle_cheater/dictionary.py,sha256=PbR-tdsM5xkwMFYnR6SLrD20r8BpUXNz1S2PSegj68s,169108
+wordle_cheater/interface.py,sha256=8X6cxcfGee1xFFTG3YBqGJk_iuelu-sPKiP9LsuuO2c,15388
+wordle_cheater/interface_base.py,sha256=4jRHGTfyW4j8rH6l1I5tM8yAA4e3G9lXuodC1ffTxtU,12936
+wordle_cheater-0.2.1.dist-info/entry_points.txt,sha256=xHxSBNBLtm_tF7o1Rov5xeQg-ZqGsg6R_leN-gkg9fs,66
+wordle_cheater-0.2.1.dist-info/LICENSE,sha256=yywIE_hDjp-VZ-eIx5D6kklZdRSc5OTI3-5AwP6nrrg,1069
+wordle_cheater-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+wordle_cheater-0.2.1.dist-info/METADATA,sha256=bZVqdvWUb4CjuEi_D-CA_qLOPj0wVu5y13s8JC1y4rM,2540
+wordle_cheater-0.2.1.dist-info/RECORD,,
