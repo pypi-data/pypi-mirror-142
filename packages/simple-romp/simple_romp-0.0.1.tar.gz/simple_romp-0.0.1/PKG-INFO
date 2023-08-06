@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: simple_romp
+Version: 0.0.1
+Summary: ROMP: Monocular, One-stage, Regression of Multiple 3D People, ICCV21
+Home-page: https://github.com/Arthur151/ROMP
+Author: Yu Sun
+Author-email: yusun@stu.hit.edu.cn
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Arthur151/ROMP/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple_ROMP
+
+Simplified implementation of ROMP: Monocular, One-stage, Regression of Multiple 3D People, ICCV21
+
+Please refer to https://github.com/Arthur151/ROMP for more details
+
+## Installation
+
+```
+pip install setuptools numpy cython
+pip install simple_romp
+```
+
+Or install from source:
+
+```
+pip install setuptools numpy cython
+python setup.py install
+```
+
+## Copyright
+
+Codes released under MIT license. All rights reserved by Yu Sun.
+
+
