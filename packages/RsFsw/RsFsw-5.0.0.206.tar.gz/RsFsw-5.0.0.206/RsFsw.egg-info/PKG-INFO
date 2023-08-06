@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: RsFsw
+Version: 5.0.0.206
+Summary: FSW Spectrum Analyzer Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+License: MIT
+Description: Rohde & Schwarz FSW Spectrum Analyzer RsFsw instrument driver.
+        
+        Supported instruments: FSW, FSVA3000
+        
+        The package is hosted here: https://pypi.org/project/RsFsw/
+        
+        Documentation: https://rohde-schwarz.github.io/RsFsw_PythonDocumentation/
+        
+        Examples: https://github.com/Rohde-Schwarz/Examples/tree/main/SpectrumAnalyzers/Python/RsFsw_ScpiPackage
+        
+        ----------------------------------------------------------------------------------
+        
+        Release Notes:
+        
+        Latest release notes summary: First released version
+        
+        Version 5.0.0.206
+        
+        - First released version
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
