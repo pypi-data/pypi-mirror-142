@@ -1,0 +1,5 @@
+argparse
+python-magic
+
+[full]
+argcomplete

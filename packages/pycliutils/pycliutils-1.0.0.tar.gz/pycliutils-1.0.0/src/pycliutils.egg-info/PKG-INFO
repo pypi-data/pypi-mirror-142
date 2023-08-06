@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pycliutils
+Version: 1.0.0
+Summary: A collection of utilities for python CLI projects
+Author: bit
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Provides-Extra: full
+
+# pycliutils
+A collection of utilities for python CLI projects.
+
+

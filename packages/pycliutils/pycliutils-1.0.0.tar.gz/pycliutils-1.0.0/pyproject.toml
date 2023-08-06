@@ -1,0 +1,4 @@
+[build-system]
+requires = ["sbuild[compile]"]
+build-backend = "sbuild"
+
