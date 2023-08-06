@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: podaac-cloud-notification-message-schema
+Version: 1.6.0a0
+Summary: PO.DAAC Cloud Notification Message Schema
+Home-page: https://github.com/podaac/cloud-notification-message-schema
+Author: PO.DAAC
+Author-email: podaac@podaac.jpl.nasa.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: testing
