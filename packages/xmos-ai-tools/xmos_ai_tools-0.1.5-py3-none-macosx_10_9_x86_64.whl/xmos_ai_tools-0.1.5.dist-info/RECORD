@@ -1,0 +1,11 @@
+xmos_ai_tools/xcore_tflm_host_interpreter/__init__.py,sha256=jJBrr5DDw7iF1A5M6MlnslaLFIOaWFuJIGtTMmKZVvw,11618
+xmos_ai_tools/xcore_tflm_host_interpreter/exceptions.py,sha256=HOjADxHYMPI9mN0YIbWxtw9hSeL2B6XWWwqtGtyJdVs,577
+xmos_ai_tools/xcore_tflm_host_interpreter/libs/macos/xtflm_python.1.0.1.dylib,sha256=867K_j7UTN987uISOb4nkTxufzWs9fB-sqAMzFWOEr0,1537728
+xmos_ai_tools/xcore_tflm_host_interpreter/libs/macos/xtflm_python.dylib,sha256=867K_j7UTN987uISOb4nkTxufzWs9fB-sqAMzFWOEr0,1537728
+xmos_ai_tools/xformer/__init__.py,sha256=D741VjrdhQVeKrQZkNsWi9M59p4Q9K0FVDMrk60AE6M,1055
+xmos_ai_tools-0.1.5.data/data/bin/xcore-opt,sha256=1Ex4gbuQccO1Woos7y-kNCsVFhetGWPvsotBuRRzTiU,74153088
+xmos_ai_tools-0.1.5.dist-info/LICENSE.rst,sha256=FELdTu5Wc0oYAVHFV56D45MnpJkaGBSv7DBbHI1dmmU,10650
+xmos_ai_tools-0.1.5.dist-info/METADATA,sha256=tVPJ0E7E9QZJ1axkAEbBYEcqYi4ekfVTytxRpW0OYuE,2206
+xmos_ai_tools-0.1.5.dist-info/WHEEL,sha256=2RPuuyK-ojSnZPD4PDGQU0e8QdWNlysyzv05dEOzyVU,108
+xmos_ai_tools-0.1.5.dist-info/top_level.txt,sha256=YWegea73ll3tMlRWRdHJemUy2VOuEYDdOIaffxu_eF0,14
+xmos_ai_tools-0.1.5.dist-info/RECORD,,
