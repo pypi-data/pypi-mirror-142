@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyschemer
+Version: 1.0.0
+Summary: A database visualization tool
+Home-page: https://github.com/MitchellWeg/schemer
+Author: Mitchell Weggemans
+Author-email: mitchell.w@live.nl
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ERDot
+Requires-Dist: pygraphviz
+Requires-Dist: prettytable
+
+UNKNOWN
+
