@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+spacekime/core/__init__.py
+spacekime/core/utils.py
+spacekime/spacekime.egg-info/PKG-INFO
+spacekime/spacekime.egg-info/SOURCES.txt
+spacekime/spacekime.egg-info/dependency_links.txt
+spacekime/spacekime.egg-info/requires.txt
+spacekime/spacekime.egg-info/top_level.txt
