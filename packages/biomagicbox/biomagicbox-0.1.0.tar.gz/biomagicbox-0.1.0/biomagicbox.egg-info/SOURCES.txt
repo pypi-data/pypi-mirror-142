@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+biomagicbox/__init__.py
+biomagicbox/expasy.py
+biomagicbox.egg-info/PKG-INFO
+biomagicbox.egg-info/SOURCES.txt
+biomagicbox.egg-info/dependency_links.txt
+biomagicbox.egg-info/not-zip-safe
+biomagicbox.egg-info/requires.txt
+biomagicbox.egg-info/top_level.txt

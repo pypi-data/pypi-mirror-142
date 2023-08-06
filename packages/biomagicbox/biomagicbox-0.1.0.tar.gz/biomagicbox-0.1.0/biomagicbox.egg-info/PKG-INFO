@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: biomagicbox
+Version: 0.1.0
+Summary: Tools for bioinformatics
+Home-page: https://github.com/sfjdx1144/biomagicbox
+Author: Fujun Sun
+Author-email: sfjdx1144@live.com
+License: MIT Licence
+Project-URL: Bug Tracker, https://github.com/sfjdx1144/biomagicbox/issues
+Platform: UNKNOWN
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+***
+
