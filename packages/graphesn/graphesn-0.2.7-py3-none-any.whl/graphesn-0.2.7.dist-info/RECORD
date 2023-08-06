@@ -1,0 +1,12 @@
+graphesn/__init__.py,sha256=6xDykfVTNT6cg2gdHMhRMwitvRb0-f_-ts_NM5w9rn8,312
+graphesn/data.py,sha256=7OQdesg0PCFf1PjrWJmv25x7IQ97Q5nfzmE1Xex_1SU,3185
+graphesn/dataset.py,sha256=eFtvQwVx87KauUvI2p8rCsynuYjbTMe6GKvg0KOb9aw,17016
+graphesn/matrix.py,sha256=oZraxLFhWmhYv_3LDEN-ItINRmrqTJEMhhuPT00BTWo,3893
+graphesn/readout.py,sha256=o_SeJii2rxd_sg4uOXoQjgWFsVhF4UIm39p5QNpeEV0,6537
+graphesn/reservoir.py,sha256=Av2N93tz6mzcf1sIXEpZfDrf2bTT7oAqPf8OT_Z1Qsc,16386
+graphesn/util.py,sha256=cNFjzNKZAA92gq5smHhOUMdyy4Z8IfVkeHojweohVYM,2805
+graphesn-0.2.7.dist-info/LICENSE,sha256=7OTrNxUNrWAeE6AIvlzp92vnIRZYD1TFMPMifVjpnF8,1110
+graphesn-0.2.7.dist-info/METADATA,sha256=JpXWH2X77VrK67XOtG8aJMITfZ-SKthh5R20fVakIiw,3032
+graphesn-0.2.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+graphesn-0.2.7.dist-info/top_level.txt,sha256=FBlT8K5zdWPu58w6QCuBsQ3bx2qDLGGtlKSmGrhJWIk,9
+graphesn-0.2.7.dist-info/RECORD,,
