@@ -1,0 +1,11 @@
+djsuperadmin/__init__.py,sha256=v4zmKjsKOPZbp6BrWoz7iK4ST0sdZdUh9bQSJmluZ5o,23
+djsuperadmin/apps.py,sha256=75hx9x8zzeCNBurbCIPuwO4QoJ7f0J1io_Ad2umKwXA,99
+djsuperadmin/mixins.py,sha256=MX2YzQtzIETaJLXRjpwe270RnJB1ThJmw87Xnp9-f5M,272
+djsuperadmin/dist/djsuperadmin.bundle.js,sha256=4Xn8dk0da_nx6fXuSRYJ9VIOGavCrSFI74_kDik6QK8,11497
+djsuperadmin/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djsuperadmin/templatetags/djsuperadmintag.py,sha256=Out7iRMvs7zYwAk0jMIH8TBaymzJ1aeRd1G1UJ_RjD8,1776
+djsuperadmin-0.10.0.dist-info/LICENSE,sha256=pNKLOJi9UM_Oyl_sPwr1Sz2k9doRTDqWh-EP9VK3-bI,1059
+djsuperadmin-0.10.0.dist-info/METADATA,sha256=L8Mv0qF-hmVvir1ElW7vPB-yWS-5Ptj9V63Ls9iRpVA,2279
+djsuperadmin-0.10.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+djsuperadmin-0.10.0.dist-info/top_level.txt,sha256=Hrb2p7H6kPDVhZV844xwW07Vkt1k5yn9XBs-3QVogsA,13
+djsuperadmin-0.10.0.dist-info/RECORD,,
