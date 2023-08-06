@@ -1,0 +1,8 @@
+pytest>=6.2.0
+port-for
+mirakuru>=2.3.0
+setuptools
+
+[tests]
+pytest-cov
+pytest-xdist
