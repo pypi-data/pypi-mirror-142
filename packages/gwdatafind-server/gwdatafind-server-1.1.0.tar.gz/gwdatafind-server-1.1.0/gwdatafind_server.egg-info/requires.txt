@@ -1,0 +1,4 @@
+setuptools
+flask>=1.0.0
+configobj
+ligo-segments

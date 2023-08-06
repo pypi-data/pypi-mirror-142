@@ -1,0 +1,31 @@
+# -- gwdatafind-server source package -----------------------------------------------
+
+Source: gwdatafind-server
+Maintainer: Duncan Meacher <duncan.meacher@ligo.org>
+Section: python
+Priority: optional
+Standards-Version: 3.9.1
+X-Python3-Version: >= 3.6
+Build-Depends:
+ debhelper (>= 9),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+ python3-configobj,
+ python3-flask (>= 1.0.0),
+ python3-ligo-segments,
+
+# -- python3-gwdatafind-server ------------------
+
+Package: python3-gwdatafind-server
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-configobj,
+ python3-flask (>= 1.0.0),
+ python3-ligo-segments,
+Description: Server app for the GWDataFind service
+ The DataFind service allows users to query for the location of
+ files containing data from the current
+ gravitational-wave detectors.
