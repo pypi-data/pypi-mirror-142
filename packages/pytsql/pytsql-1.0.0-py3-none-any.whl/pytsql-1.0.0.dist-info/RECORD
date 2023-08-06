@@ -1,0 +1,16 @@
+pytsql/__init__.py,sha256=wArpGDk9JU3zfxAxpBROyMaxrjU7fvNZYXaONcTm3IM,173
+pytsql/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytsql/tsql.py,sha256=YIkVBXjtkHmirkjlbcZJNKak734pEgIf74a4pp07uXQ,7616
+pytsql/grammar/__init__.py,sha256=-t8nOhTN35JSbq-IPvQto6FDDLM1zVZQ_hbxjhuulxQ,171
+pytsql/grammar/tsql.g4,sha256=wdLfhdBLzUDXqd1EqVQXntfHmgHP7nj35mfS0Jb-nTY,75066
+pytsql/grammar/tsql.interp,sha256=3iMfVThGrjpL5ppExTjmobY0wA2h127T2PiiBczNdAM,154130
+pytsql/grammar/tsql.tokens,sha256=-e7kcvxGNwddXPwb5kvTOCqOjZe6YMeVT-Uijrv4Ess,6443
+pytsql/grammar/tsqlLexer.interp,sha256=dy1KSG1iofrtY4mhPVmR-uy_lftVGNy0hwEj4tAo800,198499
+pytsql/grammar/tsqlLexer.py,sha256=HutXxXKEaV__eJh75YC8CcyvfYeImdTQKnL5dtF6Yyo,267011
+pytsql/grammar/tsqlLexer.tokens,sha256=-e7kcvxGNwddXPwb5kvTOCqOjZe6YMeVT-Uijrv4Ess,6443
+pytsql/grammar/tsqlListener.py,sha256=zZMobzE2zQzge2w7iPeWMOpm2HyA4_tFQcGwd7qM7-Y,75720
+pytsql/grammar/tsqlParser.py,sha256=COm3zO3LYrzEQgEk0zH71iohE9vPno7rBuFrDzoONhs,1190211
+pytsql-1.0.0.dist-info/LICENSE,sha256=3crLtMHH_oitgWNnhJ9v7KWS7s3EHqFhdMp5USit84Y,1513
+pytsql-1.0.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+pytsql-1.0.0.dist-info/METADATA,sha256=R_YcvjChj2FGJUqCn3pE7FlAg_XYmkSHPdgHBrMvyik,4686
+pytsql-1.0.0.dist-info/RECORD,,
