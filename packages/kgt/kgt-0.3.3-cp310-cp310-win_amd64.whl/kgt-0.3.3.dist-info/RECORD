@@ -1,0 +1,16 @@
+kgt.cp310-win_amd64.pyd,sha256=25XjkI27bxESREgo0Bf1Qse2WqGcO3wvboK51xkwEEY,408576
+kgt.pyi,sha256=HrkXUY0pdhr9cCRzKJHaq1KixG5hzUod6TM12_erlUI,1178
+kgt/__about__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgt/__init__.pyi,sha256=NW_T437QD8-JeJ8B3_8komO70ga6lLb_9oAnplkU8N8,379
+kgt/_cached.pyi,sha256=nhUfNKsl5j8WcWian-LJbbAORfaULByHiN8Wx9M99F0,341
+kgt/_exceptions.pyi,sha256=WLgUnIdyWr6-r-7_6XZ2_j6XABgJ-aB_2ZN0JPybPg8,215
+kgt/_helpers.pyi,sha256=tr4aghh9UTkgQVuSuR33TH54PFxdPR9VyWEtmiVIunQ,122
+kgt/_main.pyi,sha256=Z16EOuecTDFG3J0FdNlEAz86a2EOOwy2leypgSRqgfU,584
+kgt/_offline_keys.pyi,sha256=oJ-LQU1IjAQdyltpsiPhhzbB50tSo-0J9Jnb9yl75BI,215
+kgt/_online.pyi,sha256=ka6imT6GQWtUPYWEWDiIzJg_r2UBMgotjtR1dZqYdkI,198
+kgt/_unlock.pyi,sha256=pG5GvHjHRqYcTkYNlq3xXW8XrWzV0IXh8soyU4f_uZ8,55
+kgt/py.typed,sha256=a1RlQ-hAngPdZDtrgliwTVNtPmZYUZS3wvfbMRnunHI,28
+kgt-0.3.3.dist-info/METADATA,sha256=EbcLitxLUO0J13-Tat_YawEmxsw3PhUQoRROqdealws,3588
+kgt-0.3.3.dist-info/WHEEL,sha256=fTpZlIgBicPXJW97EQ3ixUE4YFR_HJi_80k1tAIE884,96
+kgt-0.3.3.dist-info/top_level.txt,sha256=7Qr09-XLARVhBjD8XniehDZ6-QUJh5OOLoABeHuO8Aw,4
+kgt-0.3.3.dist-info/RECORD,,
