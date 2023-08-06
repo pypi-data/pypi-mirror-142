@@ -1,0 +1,10 @@
+transmit/client.py,sha256=wuBS5KJlWBkzvIfU3GFdosMFocQsaAb7I4KH19djM3A,1093
+transmit/server.py,sha256=TBV2PxHtgY-N2DxX9QMUH2aBvyBgWQ-ElG_K87U19Kw,2370
+transmit/trans/__init__.py,sha256=Gl2QeiWdhLJYHa2BGdQ3eXy3IHITKHGlYLO-JrtYYek,47
+transmit/trans/constants.py,sha256=4amduC_GDlxhvfD98coHcgdEOkIkz7rp258JZ5LHERY,380
+transmit/trans/Transmit-remote,sha256=gviYF-3HzSjbCrmbBJmDinVbIp7vr3bwTLLVll77J1Q,2876
+transmit/trans/Transmit.py,sha256=JLHSvhws4xvak9htpXpU1LE8m3UykIVbDxvi8ofI08s,8834
+transmit/trans/ttypes.py,sha256=k-XqNqPogILzj1HiAuAN9y97y3syBy4p3VdKW-IMR9E,458
+transmit-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+transmit-0.1.2.dist-info/METADATA,sha256=B0NU331Kv4gsWbtxVI5vPHaKz15GvFjOb9U0bDWFafA,1789
+transmit-0.1.2.dist-info/RECORD,,
