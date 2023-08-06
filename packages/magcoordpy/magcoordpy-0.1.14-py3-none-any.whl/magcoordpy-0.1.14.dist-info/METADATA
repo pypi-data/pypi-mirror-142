@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: magcoordpy
+Version: 0.1.14
+Summary: A python package for working with magnetic coordinate transformations
+License: MIT
+Author: Giorgio Savastano
+Author-email: giorgio.savastano@uniroma1.it
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pymap3d (>=2.7.2,<3.0.0)
+Requires-Dist: urllib3 (>=1.26.8,<2.0.0)
