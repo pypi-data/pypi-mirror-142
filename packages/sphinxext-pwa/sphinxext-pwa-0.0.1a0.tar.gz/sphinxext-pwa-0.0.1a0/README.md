@@ -1,0 +1,66 @@
+# sphinxext-pwa
+
+## 🛑 **STOP** 🛑
+
+This technology is highly experimental and volatile. Individuals using this extension should expect the following:
+
+- completely random breakage
+- excessive data usage
+- excessive battery life drain
+- completely breaking your sphinx website
+
+## Current Issues
+- iOS is only partially working
+  - For some weird reason, the service worker is getting killed and not being reactivated consistently.
+
+See [issues](https://github.com/ItayZiv/sphinxext-pwa/issues/) for more information.
+
+## Introduction
+[Progressive Web Applications](https://developers.google.com/web/updates/2015/12/getting-started-pwa), also known as PWAs, are a fantastic technology that enables seemless integration between websites and mobile devices. It empowers websites with the ability to present itself as a native-style application; complete with notifications and offline support. This extension's goal is to provide a "close as possible" integration between Sphinx and PWAs.
+
+## Installation
+
+Installation is pretty easy but has a couple major points.
+
+First, you need to add this dependency to your `extensions` list in `conf.py`.
+
+```python
+extensions = [
+    "sphinxext.pwa",
+]
+```
+
+The extension will automatically prepopulate data for the `manifest` that is required for PWAs. However, setting the icons is mandatory. `pwa_icons` is a configuration variable that accepts a list of arrays. The nested array must have index `0` be the directory of the icon. The second `1` index must be string list of sizes of that icon. 
+
+**IMPORTANT:** Icons must be placed at the *root* of the `_static` directory. Subdirectories *will not work*.
+
+```python
+pwa_icons = [["_static/myicon.webp", "48x48"]]
+```
+
+This extension does require NodeJS >= 16. If you are deploying on ReadTheDocs, you need to add or customize the build config as shown [here](https://docs.readthedocs.io/en/stable/config-file/v2.html). Once this is done, that should be all that is required to turn your Sphinx website into a Progressive Web Application!
+
+## Configuration
+
+PWAs have *a lot* of configuration. For details on accepted inputs, see [the Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/Manifest). Only a limited subset of options are exposed. Below are a list of exposed manifest options.
+
+**Note:** Invalid inputs to these options can break the PWA and be extremely difficult to debug.
+
+| Configuration     | Default                         | Type                             |
+|-------------------|---------------------------------|----------------------------------|
+| `pwa_name`        | `project` variable in `conf.py` | String                           |
+| `pwa_short_name`  | None                            | String                           |
+| `pwa_theme_color` | None                            | String containing HEX color code |
+| `pwa_display`     | "standalone"                    | String                           |
+| `pwa_icons`       | MANDATORY                       | [["image location", "sizes"]]    |
+| `pwa_online_only` | False                           | Boolean                          |
+
+## Caveats
+
+**Supported Browsers:** Chrome (Desktop & Mobile), Firefox (Mobile), Safari (iOS). Only the standard, non-beta, non-light versions of these browsers are supported.
+
+**Supported OSes:** Android >= 6. iOS >= 14.2
+
+**Installation Time for Offline to Work**: It depends on the website, but a 160MB application takes on average 15 minutes to enable offline support. This also changes depending on the device specific implementation.
+
+**Cache Timeouts**: Whenever the user clears their browser cache, it will purge the assets. It is undetermined at this time if it will retrigger the download of the entire cache. Some users have space saving applications that may interfere with this.

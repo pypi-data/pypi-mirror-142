@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+sphinxext/pwa/__init__.py
+sphinxext/pwa/pwa_service_files/workbox-config.js
+sphinxext_pwa.egg-info/PKG-INFO
+sphinxext_pwa.egg-info/SOURCES.txt
+sphinxext_pwa.egg-info/dependency_links.txt
+sphinxext_pwa.egg-info/requires.txt
+sphinxext_pwa.egg-info/top_level.txt
