@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: CHPCDIANA
+Version: 0.0.7
+Summary: Implementation of the Divisive Analysis algorithm for clustering.
+Home-page: UNKNOWN
+Author: Ismail EL Yamani, Salma EL Omari, Widad EL Moutaouakal, Youssef EL Mrabet
+Author-email: ismail.elyamani.2000@gmail.com
+License: MIT
+Description: This package implements the DIvisive ANAlysis (DIANA) algorithm which is used for clustering.
+        
+        
+        Change Log
+        =================
+        0.0.7 (15/03/2022)
+        ---------------------
+        - First Release 
+Keywords: Divisive Analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

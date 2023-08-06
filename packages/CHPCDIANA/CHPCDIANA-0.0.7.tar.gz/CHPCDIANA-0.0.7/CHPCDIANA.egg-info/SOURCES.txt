@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+CHPCDIANA/DivisiveAnalysis.py
+CHPCDIANA/__init__.py
+CHPCDIANA.egg-info/PKG-INFO
+CHPCDIANA.egg-info/SOURCES.txt
+CHPCDIANA.egg-info/dependency_links.txt
+CHPCDIANA.egg-info/top_level.txt
