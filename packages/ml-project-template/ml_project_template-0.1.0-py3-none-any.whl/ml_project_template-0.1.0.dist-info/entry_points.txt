@@ -1,0 +1,3 @@
+[console_scripts]
+mlproject = ml_project_template.create_lib:main
+
