@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+waveshapes/__init__.py
+waveshapes/scene.py
+waveshapes.egg-info/PKG-INFO
+waveshapes.egg-info/SOURCES.txt
+waveshapes.egg-info/dependency_links.txt
+waveshapes.egg-info/top_level.txt
