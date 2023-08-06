@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+ebrains_neuromorphic_platform_admin.egg-info/PKG-INFO
+ebrains_neuromorphic_platform_admin.egg-info/SOURCES.txt
+ebrains_neuromorphic_platform_admin.egg-info/dependency_links.txt
+ebrains_neuromorphic_platform_admin.egg-info/entry_points.txt
+ebrains_neuromorphic_platform_admin.egg-info/requires.txt
+ebrains_neuromorphic_platform_admin.egg-info/top_level.txt
+nmpi/__init__.py
+nmpi/cli.py
+nmpi/nmpi_admin.py
+nmpi/nmpi_user.py
+test/test_client.py
+test/test_mock.py
