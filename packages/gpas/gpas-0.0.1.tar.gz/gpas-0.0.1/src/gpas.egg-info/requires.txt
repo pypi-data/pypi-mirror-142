@@ -1,0 +1,6 @@
+defopt>=6.3.0
+pandas>=1.4.1
+pytest>=7.0.1
+
+[test]
+pytest>=7.0.1

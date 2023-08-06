@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/gpas.egg-info/PKG-INFO
+src/gpas.egg-info/SOURCES.txt
+src/gpas.egg-info/dependency_links.txt
+src/gpas.egg-info/entry_points.txt
+src/gpas.egg-info/requires.txt
+src/gpas.egg-info/top_level.txt
