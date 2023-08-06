@@ -1,0 +1,17 @@
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+examples/bad.yml
+examples/good.yml
+yamlfixer/__init__.py
+yamlfixer/__main__.py
+yamlfixer_opt_nc.egg-info/PKG-INFO
+yamlfixer_opt_nc.egg-info/SOURCES.txt
+yamlfixer_opt_nc.egg-info/dependency_links.txt
+yamlfixer_opt_nc.egg-info/entry_points.txt
+yamlfixer_opt_nc.egg-info/requires.txt
+yamlfixer_opt_nc.egg-info/top_level.txt
