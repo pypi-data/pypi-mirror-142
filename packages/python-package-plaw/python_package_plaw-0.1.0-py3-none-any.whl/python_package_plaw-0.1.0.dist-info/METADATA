@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: python-package-plaw
+Version: 0.1.0
+Summary: Example to package code
+Home-page: https://github.com/pjlaw/python-package-plaw
+Author: Philip Law
+Author-email: philip.law@icr.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+### python-packaging-at
+
+Python code packaging demo
+
+## This is a test
+What does this package do?
+
