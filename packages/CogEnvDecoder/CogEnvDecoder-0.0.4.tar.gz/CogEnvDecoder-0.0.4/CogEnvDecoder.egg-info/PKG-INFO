@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CogEnvDecoder
+Version: 0.0.4
+Summary: For decoding observation data from Cog virtual environment
+Home-page: https://github.com/1019388642/UnityEnvDataDecoder
+Author: Haoran Li
+Author-email: lihaoran2015@ia.ac.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
