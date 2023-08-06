@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+python_package_plaw/__init__.py
+python_package_plaw/maths.py
+python_package_plaw.egg-info/PKG-INFO
+python_package_plaw.egg-info/SOURCES.txt
+python_package_plaw.egg-info/dependency_links.txt
+python_package_plaw.egg-info/requires.txt
+python_package_plaw.egg-info/top_level.txt
