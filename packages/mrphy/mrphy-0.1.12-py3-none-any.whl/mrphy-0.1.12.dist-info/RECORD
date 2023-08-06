@@ -1,0 +1,17 @@
+mrphy/__init__.py,sha256=dnKITDMo8DcBJ-cHLVE8TAUssnEZZs3I1L9qtHWS6sM,3045
+mrphy/beffective.py,sha256=j48gjf52Cg5iEg8oD99lEI521-LzygkGH0oHcfp4AtA,5618
+mrphy/mobjs.py,sha256=vvQGZnoRIhQ-y9NlVvUHwMnvgEO4LCZVi1IqzIllGYE,39930
+mrphy/sims.py,sha256=ubQE2iAsgGzxw_hIBUud-B-RX_kKqfvv9uq7B_gYoyw,17788
+mrphy/slowsims.py,sha256=Zo0ynHIHP7EkQKYvyxCfSkDkaiL0GYon02Jh6hFdDsU,5714
+mrphy/utils.py,sha256=-VcoPTvuuiqjuGQ7YGk_x29_T4ch8dxtcyBV7PachWA,10805
+mrphy/version.py,sha256=WBOcXh8XZ4FNX3RRgliAF5LcxRZyjlt2fyuSPGfwP98,23
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mobjs.py,sha256=skm1QuQD9T6VZ0WCXL7P-HBUATTT5wR-DlDas2-6Doo,6532
+tests/test_sims.py,sha256=X7ilvRvpaE0pVwOh3vjMvTAfh0Wnklsq9TzT-OwuaPk,6546
+tests/test_slowsims.py,sha256=FcbnsmEGumFeeFILsUP8H4NiMnIvFDoBnp4uC2PH_1s,4190
+tests/test_utils.py,sha256=OTIeDYfF0wFY5RmL3gHJHG6l_Tz1ylsh-ZKJvauUCRU,3333
+mrphy-0.1.12.dist-info/LICENSE,sha256=ZELKt0NLJy2xH5CWqifjABQ7EhTv34_Z6eXJWbUXxL8,1068
+mrphy-0.1.12.dist-info/METADATA,sha256=0qkYsPnpizfO_K0NGZ-xmtVJSI2Z4D09fKAT3YB-GRQ,2817
+mrphy-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mrphy-0.1.12.dist-info/top_level.txt,sha256=16k2OyR4SUIg5b6H4-Daebe5d8a6rdJ6rarHEFA7hIo,12
+mrphy-0.1.12.dist-info/RECORD,,
