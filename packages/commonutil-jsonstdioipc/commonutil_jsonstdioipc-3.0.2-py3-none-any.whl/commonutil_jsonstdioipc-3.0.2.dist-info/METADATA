@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: commonutil-jsonstdioipc
+Version: 3.0.2
+Summary: JSON IPC with Standard Input and Output
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
