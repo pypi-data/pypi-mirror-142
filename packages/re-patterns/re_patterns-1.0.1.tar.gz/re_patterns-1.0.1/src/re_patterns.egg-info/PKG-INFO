@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: re-patterns
+Version: 1.0.1
+Summary: python regular expressions for humans
+Home-page: https://github.com/Nagidal/re_patterns
+Author: Sven Siegmund
+Author-email: sven.siegmund@gmail.com
+License: UNKNOWN
+Keywords: regular expresstions,regex,re
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# re_patterns
+
+python regular expressions for humans
+
+## Description
+
+This module helps you build complex regular expressions.
+
+## Usage
+
+Example:
+```
+>>> from re_patterns import Rstr
+
+>>> regex = Rstr("Isaac").not_followed_by("Newton").named("non_newtonians")
+>>> regex
+'(?P<non-newtonians>Isaac(?!Newton))'
+>>> match = regex.search("Isaac Lobkowicz, Isaac Newton")
+>>> match.span()
+(0, 5)
+>>> match.group("non_newtonians")
+'Isaac'
+```
+
+For rufther uses please look at the methods of the `Rstr` class in `__init__.py`.
+
+
