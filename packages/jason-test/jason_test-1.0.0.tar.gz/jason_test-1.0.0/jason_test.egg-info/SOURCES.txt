@@ -1,0 +1,7 @@
+README.txt
+jason_test.py
+setup.py
+jason_test.egg-info/PKG-INFO
+jason_test.egg-info/SOURCES.txt
+jason_test.egg-info/dependency_links.txt
+jason_test.egg-info/top_level.txt
