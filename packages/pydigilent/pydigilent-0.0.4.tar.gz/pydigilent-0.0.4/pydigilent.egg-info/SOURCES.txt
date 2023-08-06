@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pydigilent/__init__.py
+pydigilent/dwf.py
+pydigilent/dwfconstants.py
+pydigilent.egg-info/PKG-INFO
+pydigilent.egg-info/SOURCES.txt
+pydigilent.egg-info/dependency_links.txt
+pydigilent.egg-info/top_level.txt
