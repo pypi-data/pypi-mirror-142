@@ -1,0 +1,12 @@
+dsputility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsputility/DSPdbInterface/DSPdbInterface.py,sha256=cf28zinRhkHSikPCPYtDTcNfMyQKo2FYfW7SeqDFCKI,1063
+dsputility/DSPdbInterface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsputility/DSPdbInterface/test_DSPdbInterface.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsputility/DSPloggin/DSPlogging.py,sha256=m5Ha0Lbuv7_mdrzy-4d1q-ZVNfHFfo5FuEOuldzTQVk,3909
+dsputility/DSPloggin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsputility/DSPloggin/test_DSPlogging.py,sha256=nb2adsZ-AF8i479xoEF4T3v4rUF_dg1sMY30RYzIaiI,8997
+DSPutility-0.0.8.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+DSPutility-0.0.8.dist-info/METADATA,sha256=4A5PgiCreVwPpDJ90XIr55NOqVEqTGD1hSdCGZN4cNo,1872
+DSPutility-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DSPutility-0.0.8.dist-info/top_level.txt,sha256=tjB2-2HczUF-WXuXCZ3uM8kp4NAi4E9M7jxni7-bCtc,11
+DSPutility-0.0.8.dist-info/RECORD,,
