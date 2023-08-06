@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/reddit_data_collector/__init__.py
+src/reddit_data_collector/exceptions.py
+src/reddit_data_collector/io.py
+src/reddit_data_collector/reddit_data_collector.py
+src/reddit_data_collector.egg-info/PKG-INFO
+src/reddit_data_collector.egg-info/SOURCES.txt
+src/reddit_data_collector.egg-info/dependency_links.txt
+src/reddit_data_collector.egg-info/requires.txt
+src/reddit_data_collector.egg-info/top_level.txt
