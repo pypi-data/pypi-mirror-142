@@ -1,0 +1,16 @@
+CreatePro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CreatePro/Definition/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CreatePro/Definition/Keywords/Clone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CreatePro/Definition/Keywords/Get.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CreatePro/Definition/Keywords/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CreatePro/Run/__init__.py,sha256=1CpgYn3W3rSyOjaUx5xKt8NGe34fTn_UYfuOxI8iSn0,595
+CreatePro/ScriptEngine/Compiler.py,sha256=o63CdS5AmydhkolTytiwtwLcAkYuE9RR8YcMwf8NXaU,3244
+CreatePro/ScriptEngine/VM.py,sha256=4fI4w1ccd9vtL4kZHdNfedgwWSgr9UPaN_dAFlc-Hbs,4252
+CreatePro/ScriptEngine/__init__.py,sha256=xrX0pb5ZcQLbNWUcrfZn5yXsgSQN-A1OtPBiy0aafOM,1766
+CreatePro-1.0.4.data/scripts/entry.py,sha256=i9QBRpYpgWvdDChvlpLMV5fVQBymXJeBU9aC9ROpd0I,297
+CreatePro-1.0.4.dist-info/LICENSE,sha256=SxeX775GNM2pVzHLjitn_yXy57s8L9eNBoKuc2TsEIE,1063
+CreatePro-1.0.4.dist-info/METADATA,sha256=1EwunE_ReWCReXE0nIJtpsl9wFesusItlv2lVgIwDFU,313
+CreatePro-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+CreatePro-1.0.4.dist-info/top_level.txt,sha256=34m-meMbQnaCN9R6upThlhZnOe6fMOHS5PnGkMaOyhY,10
+CreatePro-1.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+CreatePro-1.0.4.dist-info/RECORD,,
