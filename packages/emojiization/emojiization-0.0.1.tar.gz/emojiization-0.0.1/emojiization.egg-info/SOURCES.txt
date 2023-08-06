@@ -1,0 +1,11 @@
+README.md
+setup.py
+emojiization/__init__.py
+emojiization.egg-info/PKG-INFO
+emojiization.egg-info/SOURCES.txt
+emojiization.egg-info/dependency_links.txt
+emojiization.egg-info/requires.txt
+emojiization.egg-info/top_level.txt
+emojiization/functions/__init__.py
+emojiization/functions/metrics.py
+emojiization/functions/transform.py
