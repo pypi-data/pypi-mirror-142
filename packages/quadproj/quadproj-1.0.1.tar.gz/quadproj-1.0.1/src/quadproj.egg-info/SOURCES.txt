@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/quadproj.egg-info/PKG-INFO
+src/quadproj.egg-info/SOURCES.txt
+src/quadproj.egg-info/dependency_links.txt
+src/quadproj.egg-info/top_level.txt
+src/tests/__init__.py
