@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mavecore
+Version: 0.1.0
+Summary: MaveCore is to create a new dependency that contains all the shared functionality for MaveTools and MaveDB.
+Home-page: https://github.com/VariantEffect/MaveCore/tree/testMaveCore
+Author: Daniel Esposito and Alan F Rubin
+Author-email: alan.rubin@wehi.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MaveCore
+Shared MaveDB and MaveTools functionality
+
+
