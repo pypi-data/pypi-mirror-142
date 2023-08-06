@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+src/raw_sql_automigrate_test.egg-info/PKG-INFO
+src/raw_sql_automigrate_test.egg-info/SOURCES.txt
+src/raw_sql_automigrate_test.egg-info/dependency_links.txt
+src/raw_sql_automigrate_test.egg-info/top_level.txt
