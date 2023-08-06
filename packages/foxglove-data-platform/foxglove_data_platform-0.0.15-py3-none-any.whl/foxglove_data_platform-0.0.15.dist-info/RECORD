@@ -1,0 +1,9 @@
+foxglove_data_platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foxglove_data_platform/client.py,sha256=b91CoHpOkBPGMG6cQ70DP_oSUv1E4tdBW9DAUIxMnLU,10483
+foxglove_data_platform/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foxglove_data_platform/to_curl.py,sha256=CFcUQp9xEBX2Gml5hfQKW7WlFf3xAkpkU-ZMA4ENHTw,1144
+foxglove_data_platform-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+foxglove_data_platform-0.0.15.dist-info/METADATA,sha256=jkImthxlwPStJBjCN7YpBJcU3-kgDQ-hyxJkIsg8Iu0,1185
+foxglove_data_platform-0.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+foxglove_data_platform-0.0.15.dist-info/top_level.txt,sha256=GuC0alH5-bBFAXjaM76X7gT72ByoNCEPyVjLjEr3HkY,23
+foxglove_data_platform-0.0.15.dist-info/RECORD,,
