@@ -1,0 +1,2 @@
+[console_scripts]
+cypher-subgraph = cypher_subgraph.cli:cli
