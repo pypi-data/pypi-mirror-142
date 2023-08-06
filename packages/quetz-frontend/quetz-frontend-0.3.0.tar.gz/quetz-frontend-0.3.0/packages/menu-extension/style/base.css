@@ -1,0 +1,42 @@
+.topbar-spacer {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.topbar-search-wrapper {
+  max-width: 400px;
+  margin: auto 10px;
+  overflow: visible;
+}
+
+.topbar-search-wrapper jp-search {
+  width: 100%;
+}
+
+.topbar-item {
+  height: 100%;
+  margin: auto;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.quetz-main-menu {
+  margin: 3px 0px;
+}
+
+.quetz-main-menu > span:first-child {
+  padding-left: 21px;
+  padding-right: 18px;
+}
+
+.quetz-main-menu > .lm-Menu-content {
+  width: 100%;
+}
+
+.anonymous-icon > svg {
+  transform: translateY(2px);
+}

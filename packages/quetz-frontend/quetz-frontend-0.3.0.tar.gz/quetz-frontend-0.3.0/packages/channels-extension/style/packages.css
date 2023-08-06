@@ -1,0 +1,41 @@
+.package-row-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package-files-row {
+  display: flex;
+  padding: 18px 42px;
+  border-bottom: 1px solid var(--jp-layout-color2);
+  align-items: center;
+}
+
+.package-platform-noarch {
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.package-platform-icons {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.package-platform-icon {
+  margin-right: 20px;
+}
+
+.package-platform-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.package-install-command {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--jp-layout-color3);
+}
+
+.package-install-command pre {
+  margin: 0px;
+}
