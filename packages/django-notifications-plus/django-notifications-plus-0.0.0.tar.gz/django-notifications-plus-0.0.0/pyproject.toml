@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "django-notifications-plus"
+version = "0.0.0"
+description = ""
+authors = ["jukanntenn <jukanntenn@outlook.com>"]
+readme = "README.md"
+repository = "https://github.com/DjangoStudyTeam/django-notifications-plus"
+keywords = ["django"]
+packages = [
+    { include = "notifications_plus" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+django-filter = "^21.1"
+djangorestframework = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-django = "^4.5.2"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings"
+python_files = "tests.py test_*.py"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-notifications-plus
+Version: 0.0.0
+Summary: 
+Home-page: https://github.com/DjangoStudyTeam/django-notifications-plus
+Keywords: django
+Author: jukanntenn
+Author-email: jukanntenn@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django-filter (>=21.1,<22.0)
+Requires-Dist: djangorestframework (>=3.13.1,<4.0.0)
+Project-URL: Repository, https://github.com/DjangoStudyTeam/django-notifications-plus
+Description-Content-Type: text/markdown
+
+# django-notifications-plus
