@@ -1,0 +1,4 @@
+aioredis==2.0.1
+sscred==0.2.0
+starlette
+uvicorn[standard]
