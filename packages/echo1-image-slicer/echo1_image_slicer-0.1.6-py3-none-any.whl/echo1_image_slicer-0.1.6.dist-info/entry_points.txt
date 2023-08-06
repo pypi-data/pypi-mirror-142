@@ -1,0 +1,3 @@
+[console_scripts]
+image-slicer=echo1_image_slicer.echo1_image_slicer:app
+
