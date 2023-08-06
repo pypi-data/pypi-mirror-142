@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: streamlit-firstlanguage
+Version: 1.0.1
+Summary: Streamlit components for FirstLanguage API
+Home-page: https://github.com/FirstLanguage/streamlit-firstlanguage
+Author: Selva
+Author-email: selva@firstlangauge.in
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: firstlanguage-python (>=2.5.0)
+Requires-Dist: jsonpickle
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: st-annotated-text (>=3.0.0)
+Requires-Dist: streamlit (>=0.63)
+
+Ready to use components to interact with FirstLanguage API
+
+
