@@ -1,0 +1,10 @@
+
+[azure]
+aiocache
+aiohttp
+ujson
+msgpack
+aiohttp_retry
+
+[google]
+google-cloud-translate~=3.6.1
