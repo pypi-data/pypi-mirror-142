@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bizpy
+Version: 0.0.1.2022.314.beta
+Summary: A framework for developing fintech systems.
+Home-page: https://pypi.org/project/bizpy
+Author: EGOPY
+Author-email: 
+License: BSD
+Keywords: quant investment quantitative trading algotrading
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+License-File: LICENSE
+
+
+BizPy - A framework for developing biz systems by Python.
+
+Only for testing now!
+
+Only for testing now!
+
+Only for testing now!
+
+
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bizpy/__init__.py
+src/bizpy/uuid.cp38-win_amd64.pyd
+src/bizpy.egg-info/PKG-INFO
+src/bizpy.egg-info/SOURCES.txt
+src/bizpy.egg-info/dependency_links.txt
+src/bizpy.egg-info/top_level.txt
