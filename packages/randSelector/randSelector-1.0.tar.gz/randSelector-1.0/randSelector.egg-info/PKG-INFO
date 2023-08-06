@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: randSelector
+Version: 1.0
+Summary: random value selector with associated probability package
+Home-page: 
+Author: Syed Hamza Rafique
+Author-email: hamzah_shah@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Description: 
+RandSelector class in the rand_selector module contains a function select_rand,
+that can select a random a value from the data set and its associated probability
+
+
