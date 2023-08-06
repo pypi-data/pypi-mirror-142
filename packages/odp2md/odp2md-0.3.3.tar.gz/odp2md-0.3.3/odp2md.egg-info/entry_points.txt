@@ -1,0 +1,2 @@
+[console_scripts]
+odp2md = odp2md.__main__:main

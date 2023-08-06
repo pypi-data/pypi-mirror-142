@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+bin/odp2md
+odp2md/__init__.py
+odp2md/__main__.py
+odp2md/odp2md.py
+odp2md.egg-info/PKG-INFO
+odp2md.egg-info/SOURCES.txt
+odp2md.egg-info/dependency_links.txt
+odp2md.egg-info/entry_points.txt
+odp2md.egg-info/top_level.txt
