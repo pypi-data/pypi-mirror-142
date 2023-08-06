@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: docximg2md
+Version: 0.9.0
+Summary: Python command line program for taking the images in a word document to markdown
+Home-page: UNKNOWN
+Author: Isabel Sandstrøm
+Author-email: isabel@hermit.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# dockimg2md
+
+Python command line program that takes in a word document and transfers the images to a markdown file.
+
+## Usage:
+```
+docximg2md inputdocument markdownfile
+```
+
+where the inputdocumnet is the word document with the images, and the markdownfile is the name of the markdownfile you want to create containing the images.
+
+## Example:
+```
+docximg2md document.docx mdfile.md
+```
+

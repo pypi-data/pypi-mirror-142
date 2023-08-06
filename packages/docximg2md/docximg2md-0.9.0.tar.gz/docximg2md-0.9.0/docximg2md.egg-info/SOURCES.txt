@@ -1,0 +1,10 @@
+README.md
+setup.py
+docximg2md/__init__.py
+docximg2md/program.py
+docximg2md.egg-info/PKG-INFO
+docximg2md.egg-info/SOURCES.txt
+docximg2md.egg-info/dependency_links.txt
+docximg2md.egg-info/entry_points.txt
+docximg2md.egg-info/requires.txt
+docximg2md.egg-info/top_level.txt
