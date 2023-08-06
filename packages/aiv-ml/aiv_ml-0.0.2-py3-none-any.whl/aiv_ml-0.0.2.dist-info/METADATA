@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aiv-ml
+Version: 0.0.2
+Summary: for explain about pypi deploy
+Home-page: https://github.com/wonchul-kim/package
+Author: wonchul
+Author-email: kim.wonchul@aiv.ai
+License: UNKNOWN
+Download-URL: https://github.com/wonchul-kim/package/dist/aiv-0.0.1.tar.gz
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
