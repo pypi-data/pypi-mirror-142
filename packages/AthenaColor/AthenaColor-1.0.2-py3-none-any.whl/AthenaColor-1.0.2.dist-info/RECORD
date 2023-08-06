@@ -1,0 +1,13 @@
+AthenaColor/BASE.py,sha256=O-IiHKcLIbUXbF9iIsd_YYZYzrcw54gMtj2S7K9PrIU,1971
+AthenaColor/Format.py,sha256=HI0Go_mR1CK95Ac5FlRFenuTM8R9kAybU69S1uQHZ0I,1178
+AthenaColor/__init__.py,sha256=VfUqm6h5UxKdQnL7TqvQG5ubq0gADoxRUU4Nz96TAz0,209
+AthenaColor/main.py,sha256=eDnDBI4fw63iCBeodIexn2ljsoSsBE2b9KJP9JU51DI,2088
+AthenaColor/Predefined/Background.py,sha256=S0se13AoIqWYligBJSTSuyuSwRBBUo8NZnHfhlrOKnc,3385
+AthenaColor/Predefined/Foreground.py,sha256=ncvixGiG03xErpqyWfvcbZFcz_LVankhETCarHuBft4,3385
+AthenaColor/Predefined/Underline.py,sha256=RrKvwXnvNWRaXm_uOt_i44j2xbP0Pw-z4GU1ZOY8bRI,3384
+AthenaColor/Predefined/__init__.py,sha256=Yw-gTmMOfyPEbK5DeTxdvvsF0YCzMx-TYJGqlsWbFH4,104
+AthenaColor-1.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+AthenaColor-1.0.2.dist-info/METADATA,sha256=bGjm5MU076rT02EguZCjM2M4bD5nEbKvQG4wpSowhB8,2610
+AthenaColor-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AthenaColor-1.0.2.dist-info/top_level.txt,sha256=Hrs3ueYd30J3NFB6ja0v9mX0821UtiiNKu7C4S9_qZU,12
+AthenaColor-1.0.2.dist-info/RECORD,,
