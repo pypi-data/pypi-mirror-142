@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_auth/__init__.py
+src/cdk_auth/py.typed
+src/cdk_auth.egg-info/PKG-INFO
+src/cdk_auth.egg-info/SOURCES.txt
+src/cdk_auth.egg-info/dependency_links.txt
+src/cdk_auth.egg-info/requires.txt
+src/cdk_auth.egg-info/top_level.txt
+src/cdk_auth/_jsii/__init__.py
+src/cdk_auth/_jsii/cdk-auth@0.0.2.jsii.tgz
