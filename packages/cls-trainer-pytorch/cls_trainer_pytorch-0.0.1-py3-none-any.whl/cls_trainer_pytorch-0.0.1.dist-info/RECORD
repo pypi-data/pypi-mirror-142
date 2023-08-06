@@ -1,0 +1,10 @@
+trainer/__init__.py,sha256=bEV9VWNm47EKm8uQ_cH6oZdWhnXQYmhN5P4BDsdA47k,87
+trainer/_trainer.py,sha256=W9bCp2vxMqX6c9tLIT6GJZAXdJbtd_N_VkiFjL3rRf0,7895
+trainer/loaders.py,sha256=ZYClvwhXtfqhjKjSllW63SVdS_57s-5tJIUMpBdQy-Q,2748
+trainer/models.py,sha256=d9P-4IxMrXjY6OhkRMkYaj8GLyCczD3oLGtXqv0hf7A,6278
+trainer/trainer.py,sha256=jzCMcalc6G8O91bGuXQSUQwYgiiTHu1S0DcUm2xTjyU,7900
+trainer/utils.py,sha256=jmooIdV6qpoCuVFLODyYY7EMrIE3NWmSL1AcMSN21r8,336
+cls_trainer_pytorch-0.0.1.dist-info/METADATA,sha256=mdOfuPlGpFvRxVnO8nTX7QoLV7IE7a3TrAPkqF0tPp4,741
+cls_trainer_pytorch-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cls_trainer_pytorch-0.0.1.dist-info/top_level.txt,sha256=8AESsizm9pnQll31gnGhNaHakavuv6cTS03roANNod8,8
+cls_trainer_pytorch-0.0.1.dist-info/RECORD,,
