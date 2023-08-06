@@ -1,0 +1,6 @@
+torch_persistency/__init__.py,sha256=5ARJ5qcITDFs9RHgJALRVIdGHJAAmh0CrvTDUuVu81I,73
+torch_persistency/ModulePersistency.py,sha256=dvv1D9mMoZ5Ws0iyFTOmm9ubOMwKoxCdUxc9FDaovyk,1357
+torch_model_persistency-0.1.5.dist-info/LICENSE,sha256=UtZWDNH1SPuZSEXrZ5A12pQ5ih6g6ZnblHDKV-vCgqY,1052
+torch_model_persistency-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+torch_model_persistency-0.1.5.dist-info/METADATA,sha256=l3hcPMBnCeXeFF0A88RMyjk-vpAi_T21DzSKTbrN7Wo,514
+torch_model_persistency-0.1.5.dist-info/RECORD,,
