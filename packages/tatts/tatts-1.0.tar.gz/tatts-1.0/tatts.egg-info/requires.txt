@@ -1,0 +1,4 @@
+selenium
+colorama
+scikit-learn
+requests

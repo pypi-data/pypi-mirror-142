@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+tatts/__init__.py
+tatts/translate.py
+tatts/tts.py
+tatts.egg-info/PKG-INFO
+tatts.egg-info/SOURCES.txt
+tatts.egg-info/dependency_links.txt
+tatts.egg-info/requires.txt
+tatts.egg-info/top_level.txt
