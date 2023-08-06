@@ -1,0 +1,5 @@
+ARTICLE_FILE_NAME = "article.md"
+INDEX_FILE_NAME = "index.md"
+INDEX_FOLDER_NAME = "index"
+ARTICLES_FOLDER_NAME = "articles"
+META_FILE_NAME = "meta.json"
