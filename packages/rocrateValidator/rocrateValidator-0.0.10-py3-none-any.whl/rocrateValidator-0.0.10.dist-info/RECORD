@@ -1,0 +1,9 @@
+rocrateValidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocrateValidator/semanticCheck.py,sha256=5XY7pHou6qyF7CLhBgItUoVzAnnVW8ONayy5GZ-rOOs,30732
+rocrateValidator/syntaxCheck.py,sha256=wB6u7S3ABKkV3jnj9o3QNTs2FHkHcogeZMJY-2iBNS8,3464
+rocrateValidator/utils.py,sha256=TlYVSX9wA--F2ovsjtbJNqlIWF36CMBRbk59Y3zh-E4,316
+rocrateValidator/validate.py,sha256=kjLcFgcuPQ_hlL2NV1LXSAIcTAxcJERobeYf1EwmJxM,4138
+rocrateValidator-0.0.10.dist-info/METADATA,sha256=wD0ORj4jTSfL9LN5NB9mBMBlAeumHSSqp22FgZNCfM8,228
+rocrateValidator-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rocrateValidator-0.0.10.dist-info/top_level.txt,sha256=-Ac8pyAMF90fKAX8Alp8XJAwO8uCxnX82l7e4S3q67I,17
+rocrateValidator-0.0.10.dist-info/RECORD,,
