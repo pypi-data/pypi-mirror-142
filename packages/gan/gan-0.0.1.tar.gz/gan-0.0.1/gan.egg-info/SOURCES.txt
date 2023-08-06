@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gan/__init__.py
+gan.egg-info/PKG-INFO
+gan.egg-info/SOURCES.txt
+gan.egg-info/dependency_links.txt
+gan.egg-info/entry_points.txt
+gan.egg-info/top_level.txt
+gan.egg-info/zip-safe
+gan/shell/__init__.py
+gan/shell/usage.py
+gan/src/temp.txt
