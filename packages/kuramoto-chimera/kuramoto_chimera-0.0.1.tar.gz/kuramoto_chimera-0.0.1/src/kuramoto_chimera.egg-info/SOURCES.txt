@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kuramoto_chimera/__init__.py
+src/kuramoto_chimera.egg-info/PKG-INFO
+src/kuramoto_chimera.egg-info/SOURCES.txt
+src/kuramoto_chimera.egg-info/dependency_links.txt
+src/kuramoto_chimera.egg-info/top_level.txt
