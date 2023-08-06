@@ -1,0 +1,7 @@
+*.tex
+*.csv
+*.png
+*.pdf
+*.txt
+*.root
+EspressoCalibrations.py

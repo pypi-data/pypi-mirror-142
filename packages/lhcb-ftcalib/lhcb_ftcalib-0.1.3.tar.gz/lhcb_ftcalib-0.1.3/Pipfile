@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+numba = "==0.53.1"
+pandas = "*"
+argparse = "*"
+pytest = "*"
+matplotlib = "*"
+scipy = "*"
+iminuit = ">=2.3.0"
+uncertainties = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+ipython = "*"
+uproot = ">=4"
+uproot3 = "*"
+flake8 = "*"
