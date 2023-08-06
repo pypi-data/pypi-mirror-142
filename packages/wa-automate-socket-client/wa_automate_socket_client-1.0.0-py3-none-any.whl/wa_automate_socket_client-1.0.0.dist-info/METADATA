@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wa-automate-socket-client
+Version: 1.0.0
+Summary: A python interface for wa-automate-nodejs
+Home-page: UNKNOWN
+Author: Matias Rodal
+Author-email: me@mrodal.com
+License: H-DNH
+Keywords: Whatsapp Chat Bot Chatbot API wa-automate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Chat
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: python-socketio
+Requires-Dist: websocket-client
+
+UNKNOWN
+
