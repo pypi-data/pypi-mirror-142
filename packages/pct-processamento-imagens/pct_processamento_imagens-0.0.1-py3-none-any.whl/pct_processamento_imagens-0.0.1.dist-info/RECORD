@@ -1,0 +1,11 @@
+image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing/processing/combination.py,sha256=aV5ca6mRKN5p9kioHaTZonVSY71tis7DW359H_FuIsk,800
+image_processing/processing/transformation.py,sha256=XDK5z-lr_1oi-Q8IARGsJibSUxQhNnmciWERiua59eo,335
+image_processing/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing/utils/io.py,sha256=LNWT0p-Gal9q1LNOHeggi_Zu8Cvp6pvg7Euepd3HoXg,199
+image_processing/utils/plot.py,sha256=Ld6CM356SeDR75IFrN7myItjPVZ8IB2KkdIdlFzUZ9Q,934
+pct_processamento_imagens-0.0.1.dist-info/METADATA,sha256=klHcjFcGSh4GIkTNQdJgTmseu0Fa1Kblyo4YAGodu78,1437
+pct_processamento_imagens-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pct_processamento_imagens-0.0.1.dist-info/top_level.txt,sha256=XUDzXjSWX3N-UZq9tAwEc2WBn5lVluVQlUs0LvAWKOo,17
+pct_processamento_imagens-0.0.1.dist-info/RECORD,,
