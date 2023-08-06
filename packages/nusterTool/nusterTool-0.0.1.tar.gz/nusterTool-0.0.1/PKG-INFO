@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nusterTool
+Version: 0.0.1
+Summary: This is a toolkit for nuster.
+Home-page: https://github.com/nuster1128/nusterTool.git
+Author: Nuster
+Author-email: wfzhangzeyu@163.com
+License: MIT Licence
+Keywords: pip,toolkit
+Platform: any
+License-File: LICENSE
+
+This is a toolkit for nuster.
+
