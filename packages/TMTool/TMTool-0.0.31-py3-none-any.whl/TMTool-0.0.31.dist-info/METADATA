@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: TMTool
+Version: 0.0.31
+Summary: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: tkinter
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: Click
+Requires-Dist: lxml
+Requires-Dist: atlassian-python-api
+Requires-Dist: pypandoc
+Requires-Dist: xmltodict
+Requires-Dist: jira
+Requires-Dist: ttkthemes
+Requires-Dist: enum37 ; python_version < "3.7"
+
+UNKNOWN
+
