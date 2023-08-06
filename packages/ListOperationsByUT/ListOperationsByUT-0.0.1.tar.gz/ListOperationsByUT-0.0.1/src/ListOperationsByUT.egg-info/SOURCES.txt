@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ListOperationsByUT/__init__.py
+src/ListOperationsByUT/main.py
+src/ListOperationsByUT.egg-info/PKG-INFO
+src/ListOperationsByUT.egg-info/SOURCES.txt
+src/ListOperationsByUT.egg-info/dependency_links.txt
+src/ListOperationsByUT.egg-info/top_level.txt
