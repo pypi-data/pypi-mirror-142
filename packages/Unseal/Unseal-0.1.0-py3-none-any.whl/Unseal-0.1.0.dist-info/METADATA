@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Unseal
+Version: 0.1.0
+Summary: Unseal Collection of infrastructure and tools for research in transformer interpretability.
+Home-page: https://unseal.readthedocs.io
+Author: The Unseal Team
+Author-email: tlieberum@outlook.de
+License: Apache License 2.0
+Keywords: pytorch,tensor,machine learning,neural networks,interpretability,transformers
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: einops (>=0.3.2)
+Requires-Dist: numpy
+Requires-Dist: transformers
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: streamlit
+
+UNKNOWN
+
