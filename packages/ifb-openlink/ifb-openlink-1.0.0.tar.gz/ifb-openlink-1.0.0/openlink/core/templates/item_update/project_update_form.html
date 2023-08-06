@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load guardian_tags %}
+{% load widget_tweaks %}
+{% load url_link %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Edit project: {{ name }}</h4>
+
+<form method="post">
+    {% csrf_token %}
+    {% crispy form %}
+    {% get_obj_perms request.user for project as "project_perms" %}
+    {% if "change_project" not in project_perms %}
+    <div class="form-group">
+        <div class="aab col-sm-offset-1 col-sm-2"></div>
+        <div class="col-md-8 disabled-button-wrapper" data-toggle="popover" data-trigger="hover" data-placement="right"
+            title="Action not available" data-container="body" data-html="true"
+            data-content="You don't have sufficient permissions to  <br/> <strong>Edit this project</strong>.">
+            <button class="btn btn-primary" type="button" disabled>Update</button>
+        </div>
+    </div>
+    </div>
+
+    {% endif %}
+</form>
+{% endblock %}

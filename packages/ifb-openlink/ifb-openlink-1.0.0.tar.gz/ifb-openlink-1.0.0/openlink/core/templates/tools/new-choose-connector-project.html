@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select a tool connector</h4>
+<br>
+<form action="{% url 'core:select-connector-project' project.id %}" method="GET">
+    {% csrf_token %}
+    {{ form | crispy }}
+
+    <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+    <input class="btn btn-primary" type="submit" value="Next">
+</form>
+
+<script>
+
+document.addEventListener('input', function (event) {
+
+    if (event.target.id == 'id_connector') {
+        document.getElementById("id_name").value = event.target.value.replace('Connector', '');
+    }
+
+}, false);
+
+</script>
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<form action={{function}} method="post">
+    {% crispy form %}
+    <br>
+    <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+    {% if data_type == "study" %}
+        <button type="button" class="btn btn-secondary"><a
+        href="{% url 'core:edit-study' current_proj current_inv pk %}"> Cancel </a></button>
+    {% elif data_type == "assay" %}
+        <button type="button" class="btn btn-secondary"><a
+        href="{% url 'core:edit-assay' current_proj current_inv pk %}"> Cancel </a></button>
+    {% elif data_type == "dataset" %}
+        <button type="button" class="btn btn-secondary"><a
+        href="{% url 'core:edit-dataset' current_proj current_inv pk %}"> Cancel </a></button>
+    {% else %}
+        <button type="button" class="btn btn-secondary"><a
+        href="{% url 'core:edit-investigation' current_proj current_inv %}"> Cancel </a></button>
+    {% endif %}
+
+    <input type="submit" class="btn btn-primary" value="Add Link">
+</form>
+
+<br>
+
+<script>
+
+var checkBox_use = document.querySelector("input[name=use_description]");
+var checkBox_add = document.querySelector("input[name=add_description]");
+
+checkBox_use.addEventListener('change', function() {
+  if (this.checked) {
+    checkBox_add.checked = false;
+    console.log("Checkbox is checked..");
+  }
+});
+
+checkBox_add.addEventListener('change', function() {
+  if (this.checked) {
+    checkBox_use.checked = false;
+    console.log("Checkbox is checked..");
+  }
+});
+
+</script>
+{% endblock %}

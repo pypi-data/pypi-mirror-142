@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% load param %}
+{% load url_link %}
+{% block content %}
+<section>
+
+    {% if progress_bar == 1 %}
+    <div class="progress-project">
+        <div class="progress " style="height: 25px;">
+
+            {% for space in space_info_list %}
+            {% if space.tool != -1 %}
+            <div class="progress-bar progress-bar-striped active progress-bar-{{space.tool_name|lower}}"
+                role="progressbar" aria-valuenow="{{space.percent_space}}" aria-valuemin="0" aria-valuemax="100"
+                style="width: {{space.percent_space | safe}}%; color:#000000"> {{space.tool_name}}
+
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="legend">
+            {% for space in space_info_list %}
+            {% if forloop.last %}
+            {{space.tool_name}}: {{space.size_total}}
+            {% else %}
+            {{space.tool_name}}: {{space.size_total}} /
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+    </div>
+    {% include "projects/display_items_tree.html" with items=project.items %}
+
+    {% if project.items %}
+    <button class="btn btn-outline-primary btn-sm" type="button" onclick="expand()">Expand All</button>
+    <button class="btn btn-outline-primary btn-sm" type="button" onclick="collapse()">Collapse All</button>
+
+
+    <script>
+        function expand() {
+            $('.collapse').collapse('show');
+        }
+
+        function collapse() {
+            $('.collapse').collapse('hide');
+        }
+    </script>
+    {% else %}
+    <h3>Your project "{{project.name}}" is empty, </h3>
+    <h5>please start by adding a new investigation</h5>
+
+    {% endif %}
+
+    <script>
+        if (typeof jQuery !== 'undefined') {
+            console.log('jQuery Loaded');
+        } else {
+            console.log('not loaded yet');
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            console.log(localStorage);
+            //If shown.bs.collapse add the unique id to local storage
+            $(".collapse").on("shown.bs.collapse", function () {
+                localStorage.setItem("coll_" + this.id, true);
+            });
+            //If hidden.bs.collaspe remove the unique id from local storage
+            $(".collapse").on("hidden.bs.collapse", function () {
+                localStorage.removeItem("coll_" + this.id);
+            });
+            //If the key exists and is set to true, show the collapsed, otherwise hide
+            $(".collapse").each(function () {
+                if (localStorage.getItem("coll_" + this.id) == "true") {
+                    $(this).collapse("show");
+                } else {
+                    $(this).collapse("hide");
+                }
+            });
+        });
+    </script>
+</section>
+{% endblock %}

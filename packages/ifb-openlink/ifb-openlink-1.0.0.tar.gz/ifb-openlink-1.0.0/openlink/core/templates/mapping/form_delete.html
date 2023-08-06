@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Delete {{data_type}}</h4>
+
+
+<form method="POST">{% csrf_token %}
+    Do you want to delete the {{data_type}} <strong class="strong">"{{ obj.name }}"</strong> from OpenLink ?
+    {% if data_type == "investigation" or data_type == "project" %}
+    <br>
+    Investigation objects and all the mappings will be deleted from OpenLink.
+    <br>
+    Please type again the name of the investigation to confirm the deletion:
+    <br>
+    <br>
+    <label for="name">{{data_type|title}} Name:</label>
+    <br>
+    <input type="text" id="name" name="name">
+
+    {% endif %}
+    <div class='inline-block'><br>
+        <div class="top_title">
+
+            <input type="submit" class="btn btn-danger" value="Yes">
+</form>
+</div>
+<button type="button" class="btn btn-secondary">
+    {% if data_type == "project" %}
+    <a href='{% url 'core:projects' %}'>Cancel</a></button>
+    {% else %}
+    <a href='{% url 'core:projects-details' project_id %}'>Cancel</a></button>
+    {% endif %}
+
+    {% endblock %}

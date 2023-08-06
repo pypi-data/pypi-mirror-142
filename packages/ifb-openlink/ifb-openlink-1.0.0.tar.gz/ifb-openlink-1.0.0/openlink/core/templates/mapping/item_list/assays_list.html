@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h4 class style="cursor: default;">Assay not linked to {{investigation.name}}</h4>
+
+
+<div class="container">
+    <form action="assays" method="post">
+        {% csrf_token %}
+        {{ form.errors }}
+        {{ form.non_field_errors }}
+
+        <table id="table" class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Assay Name</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for obj in form %}
+                {% for exp in obj %}
+                <tr>
+                    <td><i class="fa fa-flask ic-w mr-1 experiment"></i>{{ exp }}</td>
+                </tr>
+
+                {% empty %}
+                <tr>
+                    <td colspan="4">All Assay already linked</td>
+                </tr>
+                {% endfor %}
+                {% endfor %}
+
+            </tbody>
+        </table>
+        <button type="button" onclick="select_all()">Select All</button>
+        <button type="button" onclick="deselect_all()">Deselect All</button>
+        </br>
+        </br>
+        <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+        <input type="submit" class="btn btn-primary" value="Link Assay">
+    </form>
+    </br>
+</div>
+
+<script>
+    function select_all() {
+        $('input[type=checkbox]').prop('checked', true);
+    }
+
+    function deselect_all() {
+        $('input[type=checkbox]').prop('checked', false);
+    }
+</script>
+
+{% endblock %}

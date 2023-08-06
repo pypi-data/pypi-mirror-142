@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: ifb-openlink
+Version: 1.0.0
+Summary: A dashboard that establish links between the structure of a research project and multiple data sources 
+Home-page: https://gitlab.com/igbmc/openlink
+Author: Laurent Bouri, Julien Seiler
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Bug Tracker, https://gitlab.com/igbmc/openlink/-/issues
+Project-URL: Source Code, https://gitlab.com/igbmc/openlink
+Keywords: FAIR,open-data,data-managment-tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenLink - A gateway for research data management plateform
+
+[![pipeline](https://gitlab.com/igbmc/openlink/badges/master/pipeline.svg)](https://gitlab.com/igbmc/openlink/-/commits/master)
+[![Documentation Status](https://readthedocs.org/projects/openlink/badge/?version=latest)](https://openlink.readthedocs.io/en/latest/?badge=latest)
+
+OpenLink is a web application designed to provide the researcher with a clear view of the data associated with each research project.
+It reduces the barriers to adopting the FAIR principles and assists researchers in publishing data
+
+OpenLink let's you create links between the structure of a research project described using the [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html) (Investigatio, Study, Assay) and multiple data sources.
+It supports an evolving collection of data sources including LabGuru, Omero, Seafile, SSH endpoints and Zenodo. It also embed features that facilitate data manipulation and assist researchers in publishing their data.
+
+OpenLink has been developped within Institut de Génétique et de Biologie Moléculaire et Cellulaire ([IGBMC](https://www.igbmc.fr/)) at Strasbourg, France. 
+The proof of concept has been funded by ANR in 2019 and since 2021, The French Institut of Bioinformatic ([IFB](https://www.france-bioinformatique.fr/)) is funding OpenLink in order to make it a more mature product.
+
+## Openlink installation
+
+This section describes the best way to install Openlink.
+
+Openlink releases can be downloaded from [Pypi]() or on [GitLab](https://gitlab.com/igbmc/openlink)
+
+### Requirements
+
+Openlink requires Python 3.6 or later
+
+### Install openlink package
+
+The recommended way of installing Openlink is via pip inside a virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install ifb-openlink
+```
+
+### Initializing the Openlink database
+
+OpenLink supports MariaDB/MySQL, PostgreSQL, and SQLite. See the complete guide on [configuring Openlink](configuration.md) for more details. By default, Openlink will use SQLite and create a database file in your current working directory.
+
+After configuring your database of choice you must first initialize the Openlink database. This should only be done once:
+
+```bash
+openlink migrate
+```
+
+### Add a superuser and start openlink server
+
+Add a superuser account in your database by running the following command:
+
+```bash
+openlink createsuperuser
+```
+
+### Start Redis Queue worker
+
+Openlink is able to handle asynchronous tasks in the background using RQ workers.
+You can find documentation on installing a Redis server on [the Redis website](https://redis.io/topics/quickstart)
+
+Once Redis is installed and runnning, start OpenLink RQ worker with the following command:
+
+```bash
+python openlink rqworker default
+```
+
+### Start Openlink server
+
+Use `runserver` command to quickly start a developpement web server:
+
+```bash
+openlink runserver
+```
+
+OpenLink is now running.
+
+Point your browser to http://localhost:8000 and login with the super user account you created.
+
+## License
+
+OpenLink is released under the GPLv3 license. See the LICENSE file.
+

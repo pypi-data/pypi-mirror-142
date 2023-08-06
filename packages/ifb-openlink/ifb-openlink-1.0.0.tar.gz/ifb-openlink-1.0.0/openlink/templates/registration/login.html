@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+{% load static %}
+{% load get_oidc %}
+{% block content %}
+    
+    <h1 style="background-color: rgb(255, 255, 255)" class="openlink_titre"><i class="fa fa-link ic-w mr-1"></i>OpenLink
+    </h1>
+    {% if form.errors %}
+        <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+    
+    {% if next %}
+        {% if user.is_authenticated %}
+            <p>Your account doesn't have access to this page. To proceed,
+                please login with an account that has access.</p>
+        {% else %}
+            <p>Please login to see this page.</p>
+        {% endif %}
+    {% endif %}
+    
+    
+    <div class="card" >
+        <div class="card-body" style="margin:auto;">
+    
+            <h3 class="card-title">Log in to your account</h3>
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+    
+                <input type="hidden" name="next" value="{{ next }}">
+                {{ form|crispy }}<button id="login-btn" type="submit" class="btn btn-primary ">Log in</button>
+    
+            </form>
+    
+            {% comment %} Assumes you setup the password_reset view in your URLconf {% endcomment %}
+            <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
+            {% if "val"|get_oidc %}
+            <hr class="hr">
+            <p><a href="{% url 'oidc_authentication_init' %}"><button type="button"> <img src="{% static 'images/OpenID_logo.svg' %}" width="100" /></button></a></p>
+            {% endif %}
+            <hr class="hr">
+            <p><a href="*">Contact Support</a></p>
+        </div>
+    </div>
+    
+    
+{% endblock %}

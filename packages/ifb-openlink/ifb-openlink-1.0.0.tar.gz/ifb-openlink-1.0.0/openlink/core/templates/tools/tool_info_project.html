@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% load param %}
+{% block content %}
+
+{% for tool in tool_list %}
+<h4 style="background-color: rgb(255, 255, 255)">{{ tool.name }}</h4>
+
+
+<div class="container">
+    <span>
+        <h5><i class="fas fa-wrench"></i> Tool details</h5>
+    </span>
+    <ul>
+        <li><b>Name:</b> {{ tool.name }}&nbsp;&nbsp; <a class="btn btn-primary"
+                href="{% url 'core:tools-edit-project' project.id  tool.id %}"
+                style="position: absolute; margin-right: 30%; right: 0">Edit tool name</a></li>
+        <li><b>url:</b> {{tool|param:"url"}}<a class="btn btn-primary"
+                href="{% url 'core:toolsparam-edit-project' project.id  tool.id %}"
+                style="position: absolute; margin-right: 30%; right: 0">Edit tool parameters</a></li>
+        <li><b>Date:</b> {{ tool.date_created }}</li>
+
+    </ul>
+</div>
+
+{% endfor %}
+
+<button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+
+</body>
+
+
+
+{% endblock %}

@@ -1,0 +1,339 @@
+{% load url_link %}
+{% load define %}
+{% load contains_assay %}
+{% load guardian_tags %}
+{% load has_access_url %}
+
+
+<ul style="padding-left: 2rem; list-style-type: none;">
+    {% for item in items %}
+    <li>
+        {% if item.type|lower == "investigation" %}
+        <div class="row no-gutters">
+            <div class="col-sm-7">
+                <div class="btn-group">
+                    <h5><a data-toggle="collapse" href="#investigation_{{item.id}}" aria-expanded="false"><i
+                                class="fa fa-plus pull-right"></i><i class="fa fa-minus pull-right"></i>
+                        </a>&nbsp;<i class="fas fa-feather"></i>&nbsp;<a
+                            href="{% url 'core:edit-investigation' project_id=project.id investigation_id=item.id %}">{{item.name|truncatechars:40}}</a>&nbsp;
+                        {% with map=item|url_link %}
+                        {% for value in map %}
+                        {% if value.tool_id|has_access_url %}
+                        <a class="btn-xs btn rounded btn-outline-dark" role=button href="{{value.link_url}}"
+                            target="_blank">{{value.tag_tool|lower}}</a>
+                        {% else %}
+                        <a class="btn-xs btn rounded btn-outline-dark" role=button>{{value.tag_tool|lower}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endwith %}
+
+                        {% get_obj_perms request.user for project as "project_perms" %}
+                        {% if "change_project" in project_perms %}
+                        <a class="btn btn-outline-dark btn-sm"
+                            href='{% url 'core:delete' project_id=project.id investigation_id=item.id data_type="investigation" pk=item.id  %}'><i
+                                class="fas fa-trash-alt" aria-hidden="true"></i></a>
+                        {% else %}
+                        <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                            data-placement="right" title="Action not available" data-container="body" data-html="true"
+                            data-content="You don't have sufficient permissions to  <br/> <strong>delete investigation</strong>.">
+                            <button class="btn btn-outline-dark btn-sm" type="button" disabled><i class="fas fa-delete"
+                                    aria-hidden="true"></i></button>
+                        </div>
+                        {% endif %}
+                    </h5>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="col-xs-12 offset-md-2">
+                    {% get_obj_perms request.user for project as "project_perms" %}
+                    {% if "change_project" in project_perms %}
+                    <a class="btn btn-outline-primary  btn-sm"
+                        href="{% url 'core:add-study' project.id item.id %}">Add study</a>
+                    {% if item.studies.all %}
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="{% url 'core:select-study-to-create-assay' project.id item.id %}">Add assay</a>
+                    {% else %}
+                    <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" title="Action not available" data-container="body" data-html="true"
+                        data-content="You can't <strong>add a new assay</strong> <br/> because at least one study should exist.">
+                        <button class="btn btn-outline-primary btn-sm" type="button" disabled>Add Assay</button>
+                    </div>
+
+                    {% endif %}
+                    {% if item|contains_assay %}
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="{% url 'core:select-assay-to-create-dataset' project.id item.id %}">Add
+                        dataset</a>
+                    {% else %}
+                    <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" title="Action not available" data-container="body" data-html="true"
+                        data-content="You can't <strong>add a new dataset</strong> <br/> because at least one assay should exist.">
+                        <button class="btn btn-outline-primary btn-sm" type="button" disabled>Add Dataset</button>
+                    </div>
+                    {% endif %}
+                    {% else %}
+                    <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" title="Action not available" data-container="body" data-html="true"
+                        data-content="You don't have sufficient permissions to  <br/> <strong>add a new study</strong>.">
+                        <button class="btn btn-outline-primary btn-sm" type="button" disabled>Add study</button>
+                    </div>
+                    <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" title="Action not available" data-container="body" data-html="true"
+                        data-content="You don't have sufficient permissions to  <br/> <strong>add a new assay</strong>.">
+                        <button class="btn btn-outline-primary btn-sm" type="button" disabled>Add assay</button>
+                    </div>
+                    <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" title="Action not available" data-container="body" data-html="true"
+                        data-content="You don't have sufficient permissions to  <br/> <strong>add a new dataset</strong>.">
+                        <button class="dropdown-item btn btn-outline-primary btn-sm" type="button" disabled>Add
+                            dataset</button>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <ul style="padding-left: 0rem;" id="investigation_{{item.id}}" class="collapse hide">
+            {% with investigation_id=item.id %}
+            {% include "projects/display_items_tree.html" with items=item.items %}
+            {% endwith %}
+        </ul>
+
+        {% elif item.type|lower == "study" %}
+        <div class="tree">
+            {% if data_type is None%}
+            {% if int is not None %}
+            {% define int|add:"1" as int%}
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5><a data-toggle="collapse" href="#study_{{item.id}}" aria-expanded="false"><i
+                                class="fa fa-plus pull-right"></i><i class="fa fa-minus pull-right"></i>
+                        </a>&nbsp;<i class="fa fa-folder folder"></i>&nbsp;<a>{{item.name|truncatechars:40}}</a>&nbsp;
+                        <input type="checkbox" name="{{item.id}}" value="{{item}}" id="{{int}} 0 0"
+                            onclick="autocheck({{int}},{{int2}},{{int3}})" checked>
+                    </h5>
+                </div>
+
+            </div>
+            <ul style="padding-left: 0rem;" id="study_{{item.id}}" class="collapse hide">
+                {% include "projects/display_items_tree.html" with items=item.items int=int int2=0 int3=0%}
+            </ul>
+            {% else %}
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5><a data-toggle="collapse" href="#study_{{item.id}}" aria-expanded="false"><i
+                                class="fa fa-plus pull-right"></i><i class="fa fa-minus pull-right"></i>
+                        </a>&nbsp;<i class="fa fa-folder folder"></i>&nbsp;<a
+                            href="{% url 'core:edit-study' project_id=project.id investigation_id=investigation_id study_id=item.id %}">{{item.name|truncatechars:40}}</a>&nbsp;
+
+                        {% with map=item|url_link %}
+                        {% for value in map %}
+                        {% if value.tool_id|has_access_url %}
+                        <a class="btn-xs btn rounded btn-outline-dark" role=button href="{{value.link_url}}"
+                            target="_blank">{{value.tag_tool|lower}}</a>
+                        {% else %}
+                        <a class="btn-xs btn rounded btn-outline-dark" role=button>{{value.tag_tool|lower}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endwith %}
+
+                        {% get_obj_perms request.user for project as "project_perms" %}
+                        {% if "change_project" in project_perms %}
+                        <a class="btn-sm btn rounded btn-outline-dark " role=button
+                            href='{% url 'core:delete' project_id=project.id investigation_id=investigation_id data_type="study" pk=item.id  %}'><i
+                                class="fas fa-trash-alt" aria-hidden="true"></i></a>
+                        {% else %}
+                        <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                            data-placement="right" title="Action not available" data-container="body" data-html="true"
+                            data-content="You don't have sufficient permissions to  <br/> <strong>delete study</strong>.">
+                            <button class="btn-sm btn rounded btn-outline-dark " type="button" disabled><i
+                                    class="fas fa-trash-alt" aria-hidden="true"></i></button>
+                        </div>
+                        {% endif %}
+                    </h5>
+                </div>
+            </div>
+            <ul style="padding-left: 0rem;" id="study_{{item.id}}" class="collapse hide">
+                {% include "projects/display_items_tree.html" with items=item.items %}
+            </ul>
+            {% endif %}
+            {% else %}
+            {% if data_type == "dataset" %}
+            <div class="row">
+                        <div class="col-sm-6">
+
+                <h5><a data-toggle="collapse" href="#{{item.name|cut:" " }}" aria-expanded="true"><i
+                            class="fa fa-folder folder"></i>&nbsp;{{item.name}}</a>
+
+                    {% with dict=item|url_link %}
+                    {% for key, value in dict.items %}
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded" role=button
+                        href="{{value}}" target="_blank">View on {{key}}</a>
+                    {% endfor %}
+                    {% endwith %}
+                </h5>
+            </div>
+        </div>
+        <ul id="{{item.name|cut:" "}}" class="collapse show">
+            {% include "projects/display_items_tree.html" with items=item.items %}
+        </ul>
+            {% elif data_type == "assay" %}
+            <div class="row">
+            <div class="col-sm-6">
+                {% for choice in form.studies_name.field.choices %}
+                {% if choice.0 == item.id %}
+                <h5><input type="radio" name="studies_name" value="{{item.id}}" required="" id="id_studies_name_1"> <a
+                        data-toggle="collapse" href="#{{item.name|cut:" " }}" aria-expanded="false"> <i
+                            class="fa fa-folder folder"></i>&nbsp;{{item.name}}</a>
+                    {% endif %}
+                    {% endfor %}
+                    {% with dict=item|url_link %}
+                    {% for key, value in dict.items %}
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded" role=button
+                        href="{{value}}" target="_blank">View on {{key}}</a>
+                    {% endfor %}
+                    {% endwith %}
+                </h5>
+            </div>
+        </div>
+        <ul id="{{item.name|cut:" "}}" class="collapse show">
+            {% include "projects/display_items_tree.html" with items=item.items %}
+        </ul>
+            {% endif %}
+            {% endif %}
+            {% elif item.type|lower == "assay" %}
+            {% if data_type is None%}
+            {% if int is not None %}
+            {% define int2|add:"1" as int2%}
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5><a data-toggle="collapse" href="#assay_{{item.id}}" aria-expanded="false"><i
+                                class="fa fa-plus pull-right"></i><i class="fa fa-minus pull-right"></i>
+                        </a>&nbsp;<i
+                            class="fa fa-flask experiment"></i>&nbsp;<a>{{item.name|truncatechars:40}}</a>&nbsp;
+                        <input type="checkbox" name="{{item.id}}" value="{{item}}" id="{{int}} {{int2}} 0"
+                            onclick="autocheck({{int}},{{int2}},{{int3}})" checked>
+                    </h5>
+                </div>
+            </div>
+            <ul style="padding-left: 0rem;" id="assay_{{item.id}}" class="collapse hide">
+                {% include "projects/display_items_tree.html" with items=item.items  int=int int2=int2 int3=0 %}
+            </ul>
+            {% else %}
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5><a data-toggle="collapse" href="#assay_{{item.id}}" aria-expanded="false"><i
+                                class="fa fa-plus pull-right"></i><i class="fa fa-minus pull-right"></i>
+                        </a>&nbsp;<i class="fa fa-flask experiment"></i>&nbsp;<a
+                            href="{% url 'core:edit-assay' project_id=project.id investigation_id=investigation_id assay_id=item.id %}">{{item.name|truncatechars:40}}</a>&nbsp;
+
+
+                        {% with map=item|url_link %}
+                        {% for value in map %}
+                        {% if value.tool_id|has_access_url %}
+                        <a class="btn btn-outline-dark btn-xs rounded" class="btn-sm btn rounded" role=button
+                            href="{{value.link_url}}" target="_blank">{{value.tag_tool|lower}}</a>
+                        {% else %}
+                        <a class="btn-xs btn rounded btn-outline-dark" role=button>{{value.tag_tool|lower}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endwith %}
+
+                        {% get_obj_perms request.user for project as "project_perms" %}
+                        {% if "change_project" in project_perms %}
+                        <a class="btn btn-outline-dark btn-sm rounded"
+                            href='{% url 'core:delete' project_id=project.id investigation_id=investigation_id data_type="assay" pk=item.id  %}'><i
+                                class="fas fa-trash-alt" aria-hidden="true"></i></a>
+                        {% else %}
+                        <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover"
+                            data-placement="right" title="Action not available" data-container="body" data-html="true"
+                            data-content="You don't have sufficient permissions to  <br/> <strong>delete this assay</strong>.">
+                            <button class="btn btn-outline-dark btn-sm rounded " type="button" disabled><i
+                                    class="fas fa-trash-alt" aria-hidden="true"></i></button>
+                        </div>
+                        {% endif %}
+                    </h5>
+                </div>
+            </div>
+            <ul style="padding-left: 0rem;" id="assay_{{item.id}}" class="collapse hide">
+                {% include "projects/display_items_tree.html" with items=item.items %}
+            </ul>
+            {% endif %}
+            {% else %}
+            {% if data_type == "dataset" %}
+            <div class="row">
+                <div class="col-sm-6">
+                {% for choice in form.assays_name.field.choices %}
+                {% if choice.0 == item.id %}
+                <h5></h5><input type="radio" name="assays_name" value="{{item.id}}" required="" id="id_assays_name_1">
+                <i class="fa fa-flask experiment"></i>&nbsp;&nbsp;{{item.name}}</a>
+                {% endif %}
+                {% endfor %}
+                {% with dict=item|url_link %}
+                {% for key, value in dict.items %}
+                <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded" role=button
+                    href="{{value}}" target="_blank">View on {{key}}</a>
+                {% endfor %}
+                {% endwith %}
+                </h5>
+                </div>
+                </div>
+            {% elif data_type == "assay" %}
+            <div class="row">
+            <div class="col-sm-6">
+                <h5><a data-toggle="collapse" href="#{{item.name|cut:" "}}" aria-expanded="true"><i
+                            class="fa fa-flask experiment"></i>&nbsp;{{item.name}}</a>
+                    {% with dict=item|url_link %}
+                    {% for key, value in dict.items %}
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded" role=button
+                        href="{{value}}" target="_blank">View on {{key}}</a>
+                    {% endfor %}
+                    {% endwith %}
+                </h5>
+            </div>
+        </div>
+        {% endif %}
+        {% endif %}
+            {% else %}
+            {% if int is not None %}
+            {% define int3|add:"1" as int3%}
+            <h5><i class="fa fa-database image"></i>&nbsp;<a>{{item.name|truncatechars:40}}</a>&nbsp;
+                <input type="checkbox" name="{{item.id}}" value="{{item}}" id="{{int}} {{int2}} {{int3}}"
+                    onclick="autocheck({{int}},{{int2}},{{int3}})" checked>
+            </h5>
+            {% else %}
+            <h5><i class="fa fa-database image"></i>&nbsp;<a
+                    href="{% url 'core:edit-dataset' project_id=project.id investigation_id=investigation_id dataset_id=item.id %}">{{item.name|truncatechars:40}}</a>&nbsp;
+
+                {% with map=item|url_link %}
+                {% for value in map %}
+                {% if value.tool_id|has_access_url %}
+                <a class="btn btn-outline-dark btn-xs rounded" role=button href="{{value.link_url}}"
+                    target="_blank">{{value.tag_tool|lower}}</a>
+                {% else %}
+                <a class="btn-xs btn rounded btn-outline-dark" role=button>{{value.tag_tool|lower}}</a>
+                {% endif %}
+                {% endfor %}
+                {% endwith %}
+
+                {% get_obj_perms request.user for project as "project_perms" %}
+                {% if "change_project" in project_perms %}
+                <a class="btn btn-outline-dark btn-sm rounded"
+                    href='{% url 'core:delete' project_id=project.id investigation_id=investigation_id data_type="dataset" pk=item.id  %}'><i
+                        class="fas fa-trash-alt" aria-hidden="true"></i></a>
+                {% else %}
+                <div class="disabled-button-wrapper" data-toggle="popover" data-trigger="hover" data-placement="right"
+                    title="Action not available" data-container="body" data-html="true"
+                    data-content="You don't have sufficient permissions to  <br/> <strong>delete this dataset</strong>.">
+                    <button class="btn btn-outline-dark btn-sm rounded" type="button" disabled><i
+                            class="fas fa-trash-alt" aria-hidden="true"></i></button>
+                </div>
+                {% endif %}
+            </h5>
+            {% endif %}
+            {% endif %}
+    </li>
+
+    {% endfor %}
+
+
+</ul>

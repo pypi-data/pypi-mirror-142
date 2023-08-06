@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+{% load static %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select options for the selected {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %}
+    "{{object_name}}":</h4>
+<br>
+<form action={{function}} method="post">
+    {% csrf_token %}
+    <h5 class="display-titre" style="background-color: rgb(255, 255, 255)">OpenLink Option</h5>
+
+    <input type="checkbox" name="replace_openlink_name" value="on" id="id_object_name_1">
+    <strong>Replace openlink {{data_type}} name by "{{object_name}}"</strong>
+    <br>
+    Update the assay name with the name of the {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %} "{{object_name}}"
+    <br>
+    <br>
+    <input type="checkbox" name="create_associated_objects_in_openlink" value="on" id="associated"
+        onclick="myFunction()">
+    <strong>Create and link
+        {% for obj in list_objects %}
+        {% if forloop.last %}
+        {{obj}}
+        {% else %}
+        {{obj}} and
+        {% endif %}
+        {% endfor %}
+        available in {{tool_name}} for "{{object_name}}"</strong>
+    <br>
+    Get links from the content of the {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %} "{{object_name}}" and create
+    {% for obj in list_objects %}
+    {% if forloop.last %}
+    {{obj}}
+    {% else %}
+    {{obj}} and
+    {% endif %}
+    {% endfor %} in Openlink
+    <br>
+    <br>
+    {% comment %}
+    {% if assay_mapping == "True" %}
+    <row id="test" style="display:none">
+        <input type="checkbox" name="synchronize_dataset_with_experiment" value="on" id="synch_data">
+        <strong>Link {{tool_name}} dataset in Labguru experiment?</strong>
+        <br>
+        Retrieve link from the selected dataset and add it at the end of Labguru experiment
+        <br>
+    </row>
+    {% endif %}
+    {% endcomment %}
+
+    {% comment %}
+    {% if data_type == "dataset" %}
+    <input type="checkbox" name="synchronize_dataset_with_experiment" value="on" id="id_object_name_1"> Link
+    {{tool_name}}
+    dataset in Labguru experiment?
+    <br>
+    {% endif %}
+    {% endcomment %}
+    {% if object_desc %}<input type="checkbox" name="option_description" id="id_object_name_2" value="replace"
+        onclick="document.getElementById('id_object_name_3').checked = false">
+    Use this description
+    {% else %}
+    <input type="checkbox" name="option_description" id="id_object_name_2" value="replace" class="regular-checkbox"
+        disabled> <label></label>
+    <label class="dis">
+        Use this description
+    </label>
+    {% endif %}
+    <br>
+
+    {% if actualy_desc and object_desc %}
+    <input type="checkbox" name="option_description" id="id_object_name_3" value="add"
+        onclick="document.getElementById('id_object_name_2').checked = false"> Add this description to current
+    description
+    {% else %}
+    <div> <input type="checkbox" name="option_description" id="id_object_name_3" value="add" class="regular-checkbox"
+            disabled> <label></label>
+        <label class="dis">
+            Add this description to current description
+        </label></div>
+
+    {% endif %}
+    <br>
+    {% if object_desc %}
+    found description :
+    <div class="description_found">
+        {{ object_desc | safe }}
+    </div>
+    {% endif %}
+    <br>
+    {% if has_mapping_options %}
+    <h5 class="display-titre" style="background-color: rgb(255, 255, 255)">{{tool_name}} Option</h5>
+    {% include tool_name|lower|add:"/add_option.html" %}
+    {% endif %}
+    <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+    {% if data_type == "study" %}
+    <button type="button" class="btn btn-secondary"><a
+            href="{% url 'core:edit-study' current_proj current_inv pk %}"> Cancel </a></button>
+    {% elif data_type == "assay" %}
+    <button type="button" class="btn btn-secondary"><a
+            href="{% url 'core:edit-assay' current_proj current_inv pk %}"> Cancel </a></button>
+    {% elif data_type == "dataset" %}
+    <button type="button" class="btn btn-secondary"><a
+            href="{% url 'core:edit-dataset' current_proj current_inv pk %}"> Cancel </a></button>
+    {% else %}
+    <button type="button" class="btn btn-secondary"><a
+            href="{% url 'core:edit-investigation' current_proj current_inv %}"> Cancel </a></button>
+    {% endif %}
+
+    <input type="submit" class="btn btn-primary" value="Add Link">
+</form>
+
+
+<br>
+<script>
+    function myFunction() {
+        // Get the checkbox
+        var checkBox = document.getElementById("associated");
+        // Get the output text
+        var text = document.getElementById("synch_data");
+
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true) {
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+</script>
+{% endblock %}

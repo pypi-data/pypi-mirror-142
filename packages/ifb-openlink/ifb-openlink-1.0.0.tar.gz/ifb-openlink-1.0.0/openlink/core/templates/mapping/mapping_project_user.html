@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load guardian_tags %}
+{% load widget_tweaks %}
+{% load url_link %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Manage Users for {{ project.name }}</h4>
+<section>
+
+    </h4>
+    <div class="row">
+        <div class="col-sm-6">
+            <span class="badge badge-pill badge-secondary">{{ mpu_list|length }}</span>
+            <span class="texte-badge">Users found</span>
+        </div>
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.non_form_errors.as_ul }}
+        <table id="table" class="form table table-striped table-bordered table-hover">
+            {{ form.management_form }}
+            {% for form in form.forms %}
+            {% if forloop.first %}
+            <thead>
+                <tr>
+                    {% for field in form.visible_fields %}
+                    <th>{{ field.label|capfirst }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            {% endif %}
+            <tr class="{% cycle row1 row2 %}">
+                {% for field in form.visible_fields %}
+                <td>
+                    {% comment %} Include the hidden fields in the form {% endcomment %}
+                    {% if forloop.first %}
+                    {% for hidden in form.hidden_fields %}
+                    {{ hidden }}
+                    {% endfor %}
+                    {% endif %}
+                    {{ field.errors.as_ul }}
+                    {{ field }}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+</section>
+
+<button type="button" class="btn btn-secondary"><a
+        href="{% url 'core:projects-details' project.id %}">Back</a></button>
+<button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+{% endblock %}

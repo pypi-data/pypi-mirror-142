@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select Assay</h4>
+<br>
+<form action="select_assay_to_create_dataset" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="button" class="btn btn-secondary"><a href="{% url 'core:projects-details' project.id %}">
+            Back
+        </a></button>
+
+    <input type="submit" class="btn btn-primary" value="Next">
+</form>
+
+{% endblock %}

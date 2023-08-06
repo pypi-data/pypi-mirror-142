@@ -1,0 +1,778 @@
+/*** Styles gÃ©nÃ©riques : ne devraient jamais Ãªtre Ã©ditÃ©s hormis pour le projet de rÃ©fÃ©rence ***/
+/*** IMPORTANT !!
+     VÃ©rifier si une classe bootstrap ne rÃ©pond pas dÃ©jÃ  au besoin avant de rajouter un style
+     (principalement typographie et alignement : http://getbootstrap.com/css/)
+***/
+
+/* ----------------------------- */
+/* = Index */
+/* ---------------------------- */
+/* 1- Styles gÃ©nÃ©raux */
+/* 2- Menus */
+/* 3- Pages */
+/* 4- Composants */
+/** 4.1- Tables **/
+/** 4.2- Formulaires **/
+/** 4.3- Sections **/
+/** 4.4- FlÃ¨ches de navigation **/
+/** 4.5- Datetimepicker **/
+/** 4.6 Changement utilisateur **/
+/* 5- Surcharge Bootstrap (v4.3.x) */
+
+
+/* Pense-bete couleurs */
+/* --- si nÃ©cessaire --- */
+
+/* Pense-bete polices */
+/* --- si nÃ©cessaire --- */
+
+
+
+/* ----------------------------- */
+/* 1- Styles gÃ©nÃ©raux */
+
+.version-application {
+    font-size: 10px;
+}
+
+footer {
+    height: 50px;
+}
+
+/* Texte concomitant au badge */
+
+.texte-badge {
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.texte-badge + .badge {
+    margin-left: 15px;
+}
+
+/* Message d'alerte rÃ©solution minimale */
+
+#alerte-resolution {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    #alerte-resolution {
+        display: block;
+        z-index: 99;
+        position: relative;
+    }
+}
+
+
+/* ----------------------------- */
+/* 2- Menus */
+
+.navbar-default #infos-utilisateur,
+.navbar-default #changement-utilisateur,
+.navbar-inverse #infos-utilisateur,
+.navbar-inverse #changement-utilisateur {
+  display: none;
+}
+
+#infos-utilisateur i {
+  font-size: 18px;
+}
+
+
+/* ----------------------------- */
+/* 3- Pages */
+
+/* Page de login */
+
+#drapeaux {
+    margin-top: 1em;
+    margin-right: 0.5em;
+}
+
+#drapeaux li {
+    display: inline-block;
+}
+
+#drapeaux li > a {
+    padding: 0;
+}
+
+/* Page d'accueil */
+
+.infos-accueil {
+    text-align: center;
+    margin-top: 1.5em;
+    height: 100%;
+    font-size: 6em;
+    color: #ccc;
+}
+
+.infos-accueil .version-application {
+    font-size: 0.4em;
+}
+
+/* Page d'erreur */
+
+.bloc-erreur {
+    margin-top: 10px !important;
+}
+
+.bloc-erreur h3 {
+    margin-bottom: 22px !important;
+}
+
+
+/* ----------------------------- */
+/* 4- Composants */
+
+
+/** 4.1- Tables **/
+
+tr.cliquable {
+    cursor: pointer;
+}
+
+td.ajustee {
+    /* Ajustement de la largeur de la colonne Ã  son contenu
+       Mettre une largeur infÃ©rieure Ã  un bouton de large ...
+       ... le contenu est insÃ©cable, donc la colonne ajuste la largeur au contenu */
+    width: 1px;
+    white-space: nowrap;
+}
+
+td.actions {
+    padding: 4px !important;
+    text-align: center;
+}
+
+.row + table {
+    margin-top: 1em;
+}
+
+ul.pagination {
+    float: right;
+}
+
+.bloc-pagination {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Classes pour le remplissages de colonnes au maximum
+   On utilise ces classes pour que les colonnes s'ajustent Ã  leur contenu et prennent le maximum de la place disponible */
+
+.cellule-remplie {
+    max-width:1px; width:100%;
+}
+
+.cellule-ellipsis {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+} /* Ã  utiliser avec le .cellule-remplie ou le no-wrap : si Ã§a dÃ©borde, voilÃ  ce que je fais */
+
+.cellule-noWrap {
+    white-space:nowrap;
+}
+
+/* Div d'attente lors de la pagination */
+
+.attente {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color:white;
+    z-index:10;
+    transition-delay: 2s;
+}
+
+.attente > i.fa-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    z-index:11
+}
+
+/* Si on affiche l'attente avec un texte, on opacifie plus pour que le texte ressorte */
+.texte_attente {
+    opacity: 0.9;
+}
+
+.texte_attente > div {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    font-weight: italic;
+}
+
+/** 4.2- Formulaires **/
+
+/* Cadre formulaire de Recherche */
+
+.cadre-formulaire {
+    border: 1px rgb(229, 229, 229) solid;
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
+}
+
+.titre-cadre-formulaire {
+    position: relative;
+    top: -0.8em;
+    margin-left: 1em;
+    display: inline;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(149, 149, 149);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cadre-formulaire button {
+    float: right;
+}
+
+
+/* Checkboxes remplacÃ©es par une icone (cas administration : est_actif) */
+
+.actif-checkbox{
+    margin-top: 3px;
+}
+
+.actif-checkbox > input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+.actif-checkbox > input[type=checkbox]:before {
+    font-size: 1.3em;
+    background-color: #fff;
+    font-family: FontAwesome;
+    content:"\f204";
+    color: #a94442;
+}
+
+.actif-checkbox > input[type=checkbox]:checked:before {
+    content:"\f205";
+    color: #3c763d;
+}
+
+
+/* Champs de type "plage de dates" */
+
+.plage-de-dates {
+    margin-right: 0px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.plage-de-dates > .plage-de-dates-label {
+    float: left;
+}
+
+
+.plage-de-dates-label .d-flex + .d-flex {
+    margin-top: 15px
+}
+
+.form-row .plage-de-dates {
+    display: flex!important;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-right: -20px;
+}
+
+
+/* SÃ©parateur des boutons d'action.
+
+ A utiliser lorsque les boutons d'actions ont des sections juste au-dessus, pour indiquer que les boutons
+ sont pour la page entiÃ¨re, et pas la section prÃ©cÃ©dente.
+*/
+
+hr.separateur_actions {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+/* Classes pour popovers sur boutons dÃ©sactivÃ©s */
+
+.disabled-button-wrapper {
+  display: inline-block;
+}
+
+.disabled-button-wrapper .btn[disabled] {
+  pointer-events: none;
+}
+
+.disabled-button-wrapper:hover {
+  cursor: not-allowed;
+}
+
+
+
+/** 4.3- Sections **/
+
+section h4 {
+    padding-bottom: 0.6em;
+    border-bottom: 1px #000 solid;
+}
+
+
+/** 4.4- FlÃ¨ches de navigation **/
+
+
+/* Boutons retour en haut et bas de page */
+
+.navigation-haut {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    bottom: 140px;
+    text-decoration: none;
+    padding: 1em;
+    display: none;
+    border-top-left-radius: 10px;
+}
+
+.navigation-bas {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    bottom: 92px;   /* height = 48px*/
+    text-decoration: none;
+    padding: 1em;
+    display: none;
+    border-bottom-left-radius: 10px;
+}
+
+.navigation-haut:focus, .navigation-haut:hover, .navigation-bas:focus, .navigation-bas:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+
+/** 4.5 Datetimepicker **/
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+    margin: 0 0 0 1.3em;
+}
+
+.bootstrap-datetimepicker-widget .row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.bootstrap-datetimepicker-widget .datepicker>div {
+    display: block;
+}
+
+
+/** 4.6 Changement utilisateur **/
+
+#infos-utilisateur button {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: -1px;
+    border-right-color: transparent;
+}
+
+#changement-utilisateur {
+    min-width: 200px
+}
+
+#changement-utilisateur .select2-selection.select2-selection--single {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.select2-container--bootstrap .select2-results__group {
+    color: #000;
+    background-color: #d9edf7;
+    font-size: 13px;
+    white-space: normal;
+}
+
+.select2-container--bootstrap .select2-results__option[aria-disabled=true]:after{
+    font-family: 'FontAwesome';
+    content: "\f007";
+    font-size: 16px;
+}
+
+/* ----------------------------- */
+/* 5- Surcharge Bootstrap (v4.3.x) */
+
+html {
+   font-size: 14px;
+   line-height: 1.428;
+}
+
+.badge {
+    padding: .3em .6em;
+    font-size: .95em;
+}
+
+
+/* Marges champs dans un form-row alignÃ©es sur form-group */
+
+
+.form-group {
+    display: flex!important;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 1rem;
+}
+
+form .cadre-formulaire .form-group {
+    margin-right: -5px;
+}
+
+#rechercheForm .cadre-formulaire .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cadre-formulaire .form-row {
+    margin: 0 0 1rem;
+}
+
+.cadre-formulaire .form-group {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+/* Affichage du sous-menu au survol (au lieu du clic) */
+
+.nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.nav>li:hover {
+    background-color: #e7e7e7;
+}
+
+.nav>li:hover>a {
+    color: #555;
+}
+
+.dropdown-menu {
+    border: 0px solid rgba(0,0,0,.15);
+    border-left: 1px solid rgba(0,0,0,.15);
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+/* Affichage checkbox pour IE */
+
+input[type=checkbox].form-control {
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+}
+
+.checkbox input[type=checkbox].form-control {
+    margin-top: 4px;
+}
+
+/* Labels champs obligatoires */
+
+.col-form-label.required:after {
+   content:"*";
+}
+
+/* Survol ligne tableau */
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #EDF6FD;
+}
+
+/* Alignement labels formulaires */
+
+label.checkbox {
+    text-align: left;
+    font-weight: 400;
+    padding-left: 1.4em;
+}
+
+label.checkbox:first-child {
+    margin-top: 0;
+}
+
+.checkbox.checkbox-ligne {
+    padding-top: 0;
+    padding-right: 15px;
+    display: inline-block
+}
+
+/* Taille Ã©lÃ©ment label (utlisÃ© pour les statuts) */
+
+.label {
+    font-size: 90%;
+}
+
+/* Checkboxes */
+
+.checkbox-inline {
+    padding-left: 0px;
+}
+
+/* Alignement icone centrÃ© par dÃ©faut */
+
+i.fa {
+    vertical-align: middle;
+}
+
+/* Onglets */
+
+.tab-pane {
+    display: inline-block;
+    width: 100%;
+    border: 1px rgb(229, 229, 229) solid;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent #DDD #DDD;
+    padding: 2em 1em;
+}
+
+.tab-pane label {
+    padding-right: 0px !important;
+    text-align: right;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0px;
+}
+
+/* Labels champs en ligne avec message d'erreur */
+
+.form-horizontal .control-label {
+    clear: left
+}
+
+.form-horizontal .en-ligne .control-label {
+    clear: none
+}
+
+.form-check{
+    padding-top: calc(.375rem + 1px);
+}
+
+form label.col-form-label {
+    padding-top: calc(.375rem + 1px);
+}
+
+label.col-form-label {
+    text-align: right;
+    font-weight: 700;
+}
+
+.alert-danger.fade, .alert-success.fade, .alert-warning.fade, .alert-info.fade, .tab-pane.fade {
+   opacity: 1
+}
+
+.btn-outline-secondary:not(.disabled):hover > i.fa,
+.btn-outline-secondary:hover > i.text-danger,
+.btn-outline-secondary:hover > i.text-success {
+    color: #fff !important
+}
+
+.badge:not(.badge-pill) {
+    font-size: 90%;
+}
+
+
+/* Select 2 */
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple {
+   border: 1px solid #ccc;
+}
+
+.select2-container .select2-selection--single, .select2-container .select2-selection--multiple {
+   min-height: 34px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+   line-height: 33px;
+   padding-left: 15px;
+}
+
+/*.select2-container .select2-selection--single .select2-selection__rendered {
+   padding-left: 15px;
+}*/
+
+.select2-results__option {
+   padding: 6px 15px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+   top: 60%;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #007bff;
+    color: white;
+}
+
+select.is-invalid + .select2.select2-container.select2-container--default .select2-selection.select2-selection--single,
+select.is-invalid + .select2.select2-container.select2-container--default .select2-selection.select2-selection--multiple {
+    border-color: #dc3545;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    margin-top: 9px;
+    padding-left: 10px;
+}
+
+
+/* Datepicker */
+
+.form-control.datepicker {
+    padding: .375rem .75rem;
+}
+
+.datepicker.dropdown-menu {
+    font-size: 1em;
+}
+
+.datepicker table tr td.today,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today:hover {
+    background-color: #ffc107;
+    background-image: none;
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover {
+    background-color: #007bff;
+    background-image: none;
+}
+
+.datepicker table tr td.active.active,
+.datepicker table tr td span.active.active{
+   background-color: #007bff;
+    background-image: none;
+}
+
+label.checkbox-inline {
+  font-weight: 500;
+  margin-top: 0.4em;
+}
+
+ul.help-block {
+  margin-bottom: 0;
+}
+
+
+/* Macro input_fichier */
+
+.input-group-btn .btn-outline-secondary {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.input-group-btn + input[readonly] {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+/* Alertes escamotables */
+
+.close:hover {
+    cursor: pointer
+}
+
+/* Icone pour afficher / masquer (data-toggle) */
+
+[data-toggle="collapse"] {
+    cursor: pointer
+}
+
+:not(.list-group-item) > [data-toggle="collapse"]:after {
+    margin-left: 0.5em;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* content: "\f0da"; */
+    transform: rotate(90deg) ;
+    transition: all linear 0.25s;
+}
+
+:not(.list-group-item) > [data-toggle="collapse"][aria-expanded="false"]:after {
+    transform: rotate(0deg) ;
+}
+
+
+/* Surcharge pour le composant jquery keyboard : style Bootstrap */
+
+.ui-widget input {
+    font-family: Arial, sans-serif;
+}
+
+.ui-keyboard div {
+    font-size: 0.75em;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: 1px solid #6c757d;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+    border: 1px solid #6c757d;
+    font-weight: bold;
+    color: #6c757d;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

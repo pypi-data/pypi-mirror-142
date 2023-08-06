@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+{% load static %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select options for the selected
+    {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %}
+    :</h4>
+<br>
+<form action={{function}} method="post">
+    {% csrf_token %}
+    <h5 class="display-titre" style="background-color: rgb(255, 255, 255)">OpenLink Option</h5>
+
+    <br>
+    <input type="checkbox" name="create_associated_objects_in_openlink" value="on" id="associated"
+        onclick="myFunction()">
+    <strong>Create and link
+        {% for obj in list_objects %}
+        {% if forloop.last %}
+        {{obj}}
+        {% else %}
+        {{obj}} and
+        {% endif %}
+        {% endfor %}
+        available in {{tool_name}} from each selected {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %}</strong>
+    <br>
+    Get links from the content of each selected {% for value in data_type_map %}{{value}}{% if not forloop.last %} or{% endif %}{% endfor %} and create
+    {% for obj in list_objects %}
+    {% if forloop.last %}
+    {{obj}}
+    {% else %}
+    {{obj}} and
+    {% endif %}
+    {% endfor %} in Openlink
+    <br>
+    <br>
+
+    <input type="checkbox" name="option_description" id="id_object_name_2" value="replace"
+        onclick="document.getElementById('id_object_name_3').checked = false">
+    Use any description found in {{tool_name}}
+    <br>
+    <br>
+    {% if has_mapping_options %}
+    <h5 class="display-titre" style="background-color: rgb(255, 255, 255)">{{tool_name}} Option</h5>
+    {% include tool_name|lower|add:"/add_option.html" %}
+    {% endif %}
+    <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+    <input type="submit" class="btn btn-primary" value="Add Link">
+</form>
+
+
+<br>
+<script>
+    function myFunction() {
+        // Get the checkbox
+        var checkBox = document.getElementById("associated");
+        // Get the output text
+        var text = document.getElementById("synch_data");
+
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true) {
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+</script>
+{% endblock %}

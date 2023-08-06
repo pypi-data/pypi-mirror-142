@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load guardian_tags %}
+{% load widget_tweaks %}
+{% load url_link %}
+{% load plurals %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Edit {{item.type}}: {{ name }}</h4>
+
+<form method="post">{% csrf_token %}
+    {% crispy form %}
+    {% get_obj_perms request.user for project as "project_perms" %}
+    {% if "change_project" not in project_perms %}
+    <div class="form-group">
+        <div class="aab col-sm-offset-1 col-sm-2"></div>
+        <div class="col-md-8 disabled-button-wrapper" data-toggle="popover" data-trigger="hover" data-placement="right"
+            title="Action not available" data-container="body" data-html="true"
+            data-content="You don't have sufficient permissions to  <br/> <strong>Edit this {{item.type}}</strong>.">
+            <button class="btn btn-primary" type="button" disabled>Update</button>
+        </div>
+    </div>
+    </div>
+
+    {% endif %}
+</form>
+
+{% if progress_bar == 1 %}
+<div class="progress-project">
+    <div class="progress " style="height: 25px;">
+
+        {% for space in space_info_list %}
+        {% if space.tool != -1 %}
+        <div class="progress-bar progress-bar-striped active progress-bar-{{space.tool_name|lower}}" role="progressbar"
+            aria-valuenow="{{space.percent_space}}" aria-valuemin="0" aria-valuemax="100"
+            style="width: {{space.percent_space}}%; color:#000000"> {{space.tool_name}}
+
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="legend">
+        {% for space in space_info_list %}
+        {% if forloop.last %}
+        {{space.tool_name}}: {{space.size_total}}
+        {% else %}
+        {{space.tool_name}}: {{space.size_total}} /
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endif %}
+</br>
+<section>
+    <h4 class style="cursor: default;">{{item|plurals}} linked</h4>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <span class="badge badge-pill badge-secondary">{{ nb_mapper }}</span>
+            <span class="texte-badge">{{item|plurals}} found</span>
+        </div>
+        <div class="col-sm-6 text-right">
+            {% include "item_update/"|add:item.type|add:"_update_form.html" %}
+            {% endblock %}

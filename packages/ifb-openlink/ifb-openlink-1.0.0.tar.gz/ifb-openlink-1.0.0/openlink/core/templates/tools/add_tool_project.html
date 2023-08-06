@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="row col-sm-12">
+    <div class="row col-sm-10">
+        <h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Add a new "{{ tool_name }}" tool for the project
+            "{{project.name}}"</h4>
+    </div>
+    <div class="row col-sm-2">
+        <img src ="{% static logo %}" style="width:100px">
+    </div>
+</div>
+<br>
+<form action="{% url 'core:add-tool-project' project.id connector %}" method="POST">
+    {% csrf_token %}
+    <input type="hidden" name="name" id="name" value={{tool_name}} />
+    {% crispy form form.helper %}
+</form>
+{% endblock %}

@@ -1,0 +1,3 @@
+recursive-include openlink/templates *
+recursive-include openlink/core/static *
+recursive-include openlink/core/templates *

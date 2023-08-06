@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select a {{type_to_select}} for mapping</h4>
+
+<form action={{function}} method="post">
+    {% csrf_token %}
+    <input id={{data_type}} name={{data_type}} type="hidden" value="{{selected_items}}">
+
+    {% if objects_to_select %}
+
+    <div class="tree">
+
+        {% include "projects/display_items_tree.html" with items=investigation.items data_type=data_type %}
+
+
+    </div>
+
+    <br>
+    {% if has_mapping_options %}
+    <h5 class="display-titre" style="background-color: rgb(255, 255, 255)">{{tool_name}} Option</h5>
+    {% include tool_name|lower|add:"/add_option.html" %}
+    {% endif %}
+    {% else %}
+    Please, create at least one {{type_to_select}}
+    {% endif %}
+    <br>
+    <button type="button" class="btn btn-secondary"><a onClick="javascript:history.go(-1);">Back</button>
+    <input type="submit" class="btn btn-primary" value="Link {{data_type}}">
+
+</form>
+
+<br>
+
+{% endblock %}

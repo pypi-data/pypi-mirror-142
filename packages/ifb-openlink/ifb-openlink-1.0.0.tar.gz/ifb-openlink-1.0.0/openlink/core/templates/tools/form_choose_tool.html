@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+{% load param %}
+{% block content %}
+
+<h4 class="display-titre" style="background-color: rgb(255, 255, 255)">Select Tool</h4>
+
+{% if exist_tool == 0 %}
+No tools avalaible,
+Please declare at least one tool for your project
+<br>
+<button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+{% else %}
+
+{% if form.Name|length < 1 %}
+All tools already link to this {{data_type}}
+<br>
+
+<button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+
+{% else %}
+
+{% if function == "publish" %}
+<form action="choose_tool_for_publish" method="post">
+    {% else%}
+    <form action="choose_tool" method="post">
+        {%endif%}
+        {% csrf_token %}
+
+
+        <div class="container">
+            <table id="table" data-page-length='25' class="table table-striped table-bordered ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th></th>
+                        <th>Tool name</th>
+                        <th>Url host</th>
+                        <th>Date_created</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in tool_list  %}
+                    <tr>
+                        <td><input type="radio" name="object_name" value="{{item.id}}" required=""
+                                id="id_object_name_1"></td>
+                        <td><i class=""></i>{{item.name}}&nbsp;&nbsp;<button disabled
+                                class="btn btn-outline-dark btn-xs rounded" role=button>{{item.tag_tool|lower}}</button>
+                        </td>
+                        <td><a href="{{ item|param:"url" }}" target="_blank">{{ item|param:"url" }}</a></td>
+                        <td>{{item.date_created}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="btn btn-secondary" onClick="window.history.go(-1);"> Back </button>
+
+
+        <input type="submit" class="btn btn-primary" value="Next">
+    </form>
+    <br>
+    {% endif %}
+
+    {% endif %}
+
+    {% endblock %}

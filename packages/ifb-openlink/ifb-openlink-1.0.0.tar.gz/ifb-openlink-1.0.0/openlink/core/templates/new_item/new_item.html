@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+{% if parent%}
+<h4>Add a new {{item}} to {{parent.name}}</h4>
+{%else%}
+<h4>Add a new project</h4>
+{%endif%}
+
+{% load crispy_forms_tags %}
+
+{% if not project %}
+<form action="{% url 'core:projects-add' %}" method="POST">
+    {%elif not investigation%}
+    <form action="{% url 'core:add-'|add:item project.id  %}" method="POST">
+        {% elif not study and not assay %}
+        <form action="{% url 'core:add-'|add:item project.id investigation.id  %}" method="POST">
+            {% elif not assay %}
+            <form action="{% url 'core:add-'|add:item project.id investigation.id study.id  %}" method="POST">
+                {% else %}
+                <form action="{% url 'core:add-'|add:item project.id investigation.id assay.id %}"
+                    method="POST">
+                    {%endif%}
+                    {% csrf_token %}
+                    {% crispy form %}
+                </form>
+
+                {% endblock %}

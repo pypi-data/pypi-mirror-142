@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% load param %}
+{%comment%}
+{% block content %}
+
+<a class="btn btn-dark" href="{% url 'core:tools-new' %}" style="position: absolute; right: 0;">Add tool...</a>
+
+<h1 class="display-titre" style="background-color: rgb(255, 255, 255)">My Tools</h1>
+
+<div class="container">
+    <table id="table" data-page-length='25' class="table table-striped table-bordered ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Tool name</th>
+                <th>Url host</th>
+                <th>Date_created</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for obj in list_tools_project %}
+            <tr>
+                <td>{{ obj.name }}</td>
+                <td><a href="{% url 'core:get_tool_info_project' obj.id %}">{{ obj|param:"url" }}</a></td>
+                <td>{{ obj.date_created }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">No data</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
+{%endcomment%}
+
+{% block content %}
+
+<section>
+    <h4 class style="cursor: default;">Manage Tools</h4>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <span class="badge badge-pill badge-secondary">{{ list_tools_project|length }}</span>
+            <span class="texte-badge">tools found</span>
+        </div>
+        <div class="col-sm-6 text-right">
+            <a class="add-link btn btn-primary" href="{% url 'core:select-connector-project' project.id %}">Add
+                tool</a>
+        </div>
+    </div>
+
+    <table id="table" class="table table-striped table-bordered table-hover">
+
+        <thead>
+            <tr>
+                <th>Tool name</th>
+                <th>Url host</th>
+                <th>Date_created</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for obj in list_tools_project %}
+            <tr>
+                <td><i class="fa fa-wrench fa-1x tool ic-w mx-1"></i><a
+                        href="{% url 'core:tool-project' project.id obj.id %}">{{ obj.name }}</a>&nbsp;&nbsp;<button
+                        disabled class="btn btn-outline-dark btn-xs rounded" role=button>{{obj.tag_tool|lower}}</button>
+                </td>
+                <td>
+                    <div data-toggle="popover" data-trigger="hover" data-placement="right"
+                        title={{ obj|param:"url"|truncatechars:40 }} data-container="body" data-html="true">
+                        <a href="{{ obj|param:"url" }}" target="_blank">{{ obj|param:"url"|truncatechars:40 }}</a>
+                    </div>
+                </td>
+                <td>{{ obj.date_created }}</td>
+                <td>
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded btn-secondary"
+                        href="{% url 'core:tools-edit-project' project.id  obj.id %}">Edit tool name</a>
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded btn-secondary"
+                        href="{% url 'core:toolsparam-edit-project' project.id  obj.id %}">Edit tool
+                        parameters</a>
+                    <a type="button" style="margin-right:0; margin-left: 10px;" class="btn-sm btn rounded btn-danger"
+                        role=button href="{% url 'core:delete_tool' project.id obj.id %}"><i
+                            class="fa fa-trash-alt fa-1x"></i></a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-secondary"><a
+            href="{% url 'core:projects-details' project.id %}">Back</a></button>
+    {% comment %} <i class="fa fa-arrow-left fa-1x ic-w mx-1  "></i><a
+        href="{% url 'core:projects-details' project.id %}">Back </a> {% endcomment %}
+
+    </div>
+
+</section>
+{% endblock %}

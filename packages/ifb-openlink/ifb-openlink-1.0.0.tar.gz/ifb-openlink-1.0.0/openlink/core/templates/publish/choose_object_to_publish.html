@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block content %}
+<form name="object" action="choose_object_to_publish" method="post">
+    {% csrf_token %}
+    {% include "projects/display_items_tree.html" with items=items.items int=0 int2=0 int3=0%}
+    <button type="button" class="btn btn-secondary" onClick="{% url 'core:edit-investigation' project.id items.id %}">back </button>
+    <input type="submit" class="btn btn-primary" value="Publish Data">
+
+</form>
+
+<script language="javascript">
+    function autocheck(int, int2, int3) {
+        id = int + " " + int2 + " " + int3
+        if (int2 == 0 && int3 == 0) {
+            changestatassay(int, int2, document.getElementById(id).checked)
+        } else if (int3 == 0) {
+            changestatedataset(int, int2, document.getElementById(id).checked)
+            id = int + " 0 0"
+            document.getElementById(id).checked = true;
+            uncheckassay(int)
+        } else {
+            id = int + " " + int2 + " " + int3
+            if (document.getElementById(id).checked) {
+                id = "" + int + " " + int2 + " 0"
+                document.getElementById(id).checked = true;
+                id = int + " 0 0"
+                document.getElementById(id).checked = true;
+            } else {
+                var boo = true
+                tmp = 1
+                id = "" + int + " " + int2 + " 1"
+                while (document.getElementById(id) && boo) {
+                    console.log(document.getElementById(id))
+                    console.log(id)
+                    if (document.getElementById(id).checked) {
+                        boo = false
+                    }
+                    tmp += 1
+                    id = "" + int + " " + int2 + " " + tmp
+                }
+                if (boo) {
+                    id = "" + int + " " + int2 + " 0"
+                    document.getElementById(id).checked = false;
+                    uncheckassay(int)
+                }
+            }
+        }
+    }
+
+    function uncheckassay(int) {
+        boo = true
+        tmp = 1
+        id = "" + int + " " + 1 + " 0"
+        while (document.getElementById(id) && boo) {
+            if (document.getElementById(id).checked) {
+                boo = false
+            }
+            tmp += 1
+            id = "" + int + " " + tmp + " " + 0
+        }
+        if (boo) {
+            id = "" + int + " 0 0"
+            document.getElementById(id).checked = false;
+        }
+    }
+
+    function changestatedataset(int, int2, state) {
+        tmp = 1
+        id = "" + int + " " + int2 + " 1"
+        while (document.getElementById(id)) {
+            document.getElementById(id).checked = state;
+            tmp += 1
+            id = "" + int + " " + int2 + " " + tmp
+        }
+    }
+
+    function changestatassay(int, int2, state) {
+        tmp2 = 1
+        id = int + " 1 0"
+        while (document.getElementById(id)) {
+            console.log(document.getElementById(id))
+            document.getElementById(id).checked = state;
+            changestatedataset(int, tmp2, state);
+            tmp2 += 1
+            id = int + " " + tmp2 + " 0"
+        }
+    }
+</script>
+
+<tags-input ng-model="tags" class="ti-input-lg"></tags-input>
+<tags-input ng-model="tags"></tags-input>
+<tags-input ng-model="tags" class="ti-input-sm"></tags-input>
+{% endblock %}
