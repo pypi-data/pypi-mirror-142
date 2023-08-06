@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+typesplainer/__init__.py
+typesplainer/__main__.py
+typesplainer/core.py
+typesplainer.egg-info/PKG-INFO
+typesplainer.egg-info/SOURCES.txt
+typesplainer.egg-info/dependency_links.txt
+typesplainer.egg-info/not-zip-safe
+typesplainer.egg-info/requires.txt
+typesplainer.egg-info/top_level.txt
