@@ -1,0 +1,13 @@
+affine
+attrs
+click
+cligj
+cycler
+kiwisolver
+matplotlib
+numpy
+openpyxl
+pandas
+python-dateutil
+setuptools
+traitlets
