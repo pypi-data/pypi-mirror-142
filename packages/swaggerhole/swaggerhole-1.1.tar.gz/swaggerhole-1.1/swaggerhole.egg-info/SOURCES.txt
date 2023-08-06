@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+swaggerhole/__init__.py
+swaggerhole/__main__.py
+swaggerhole.egg-info/PKG-INFO
+swaggerhole.egg-info/SOURCES.txt
+swaggerhole.egg-info/dependency_links.txt
+swaggerhole.egg-info/entry_points.txt
+swaggerhole.egg-info/requires.txt
+swaggerhole.egg-info/top_level.txt
+swaggerhole/core/__init__.py
+swaggerhole/core/misc.py
+swaggerhole/core/regex_config.py
+swaggerhole/core/research_secret.py
+swaggerhole/core/swaggerhub_data.py
