@@ -1,0 +1,11 @@
+pytket/extensions/iqm/__init__.py,sha256=K6gYE5VBarr04ZZ14y3W2zwpAQkNg_s1DRutnvKdVms,890
+pytket/extensions/iqm/_metadata.py,sha256=aISqHT7cvB9wAi21MsN8ySS7t4CORvjuIRdcqrYYkwM,66
+pytket/extensions/iqm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/iqm/backends/__init__.py,sha256=T0v7GWwZrnbVzlhySx_W4dWAhdd8CAz9nKgsOcfdJEw,690
+pytket/extensions/iqm/backends/config.py,sha256=1GDlNlqDwgHWjN0MKLzihi8hLVtpZecLmWovX8yY3Ak,1516
+pytket/extensions/iqm/backends/demo_settings.json,sha256=-Zb4x52ynqenvKc_oDyHlY5VlKwPOM7ayPeigQoYIFg,353550
+pytket/extensions/iqm/backends/iqm.py,sha256=s8tqURubcqpuS6sjqGzkoYKp71xqd1fQ7oNkfIkq36s,12147
+pytket_iqm-0.2.0.dist-info/METADATA,sha256=wSdUNMb05XgwwaRN9RRBnJlT7X2CANgfXLqO8fMPG4Q,1291
+pytket_iqm-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytket_iqm-0.2.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_iqm-0.2.0.dist-info/RECORD,,
