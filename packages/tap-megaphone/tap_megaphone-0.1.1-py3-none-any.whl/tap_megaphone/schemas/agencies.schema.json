@@ -1,0 +1,88 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "externalId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "billingMethod": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "paymentType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ein": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "commissionPercentage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "address": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "zipCode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

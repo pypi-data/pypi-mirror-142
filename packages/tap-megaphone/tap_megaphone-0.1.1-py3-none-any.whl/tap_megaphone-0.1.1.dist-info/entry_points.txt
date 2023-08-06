@@ -1,0 +1,3 @@
+[console_scripts]
+tap-instagram=tap_megaphone.tap:TapMegaphone.cli
+
