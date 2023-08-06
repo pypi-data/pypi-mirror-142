@@ -1,0 +1,2 @@
+[console_scripts]
+simba = src.simba:main
