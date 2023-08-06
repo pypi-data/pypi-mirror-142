@@ -1,0 +1,16 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pf_pweb_sourceman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pf_pweb_sourceman/cli_main.py,sha256=1W3nkYlknBzrRcQB1K1R4nb6oMnx_3R4scqnUvXuKW4,1261
+pf_pweb_sourceman/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pf_pweb_sourceman/common/console.py,sha256=sNb56jxfPaiawP34ZLWOoy1ph6dRg5ymkrP8j4TrKQc,816
+pf_pweb_sourceman/common/constant.py,sha256=Obna0hIPcNgTshfgrLeOJPSRCf3SiqBEWX5JFjrV4sU,37
+pf_pweb_sourceman/common/pcli.py,sha256=5mzXkBSHPKNUdN5Uf83r3y46EcmAxnld2KEU7KvNPH4,202
+pf_pweb_sourceman/task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pf_pweb_sourceman/task/git_repo_man.py,sha256=grW0F3hiZavaWHSy5uZnMJFq8vQLTSHaIQcBK90RH2w,1213
+pf_pweb_sourceman/task/project_manager.py,sha256=-dE3jT6bKSH4VW6nYYWcaQ0Y9ShPK-OVfPrRNxRLgJc,6106
+PF_PWeb_SourceMan-1.0.3.dist-info/LICENSE,sha256=5Fwkz6EwNEdMhAQgkjwOWcp-vWlVhQ2t-wl8-PVaGCQ,11550
+PF_PWeb_SourceMan-1.0.3.dist-info/METADATA,sha256=xLgDgwOmgYUO_jOsIN50jqvbL5wgbOK6SygEYYqqd4E,2024
+PF_PWeb_SourceMan-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PF_PWeb_SourceMan-1.0.3.dist-info/entry_points.txt,sha256=QKb8PFlQRPOZtf_G3d56MZTCXWNfn4bpQh1rLgW5YxM,59
+PF_PWeb_SourceMan-1.0.3.dist-info/top_level.txt,sha256=0j_g3PufVFoEp3ECgtvMFwC_TT63eNLjUsTlWjGUV1o,26
+PF_PWeb_SourceMan-1.0.3.dist-info/RECORD,,
