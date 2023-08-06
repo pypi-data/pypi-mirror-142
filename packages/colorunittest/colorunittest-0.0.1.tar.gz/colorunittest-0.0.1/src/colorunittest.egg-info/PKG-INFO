@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: colorunittest
+Version: 0.0.1
+Summary: Reformatting and coloring unittest output in Jupyter Notebooks
+Home-page: https://github.com/hilariesit/colorunittest
+Author: Hilarie Sit
+Author-email: hs764@cornell.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hilariesit/colorunittest/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# colorunittest
+PyPi package for reformatting and coloring unittest output in Jupyter Notebooks
+
+## Installation
+```pip install colorunittest```
+
+## Description
+To use, add the decorator `@run_unittest` to the unittest class and run cell.
+![how to use](https://github.com/HilarieSit/colorunittest/blob/master/example_pic.png)
+
