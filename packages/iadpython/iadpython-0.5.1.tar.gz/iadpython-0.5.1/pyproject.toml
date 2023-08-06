@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools >= 44.0.0",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.tox]
+legacy_tox_ini = """
+
+[tox]
+envlist = py39
+
+[testenv]
+deps = pytest
+       numpy
+       scipy
+
+commands =
+    python -m unittest tests/test_boundary.py
+    python -m unittest tests/test_combo.py
+    python -m unittest tests/test_fresnel.py
+    python -m unittest tests/test_layer.py
+    python -m unittest tests/test_nist.py
+    python -m unittest tests/test_quadrature.py
+    python -m unittest tests/test_redistribution.py
+    python -m unittest tests/test_sphere.py
+    python -m unittest tests/test_start.py
+    python -m unittest tests/test_ur1_uru.py
+"""
