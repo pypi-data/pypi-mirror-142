@@ -1,0 +1,2 @@
+kneedeepio-plugins>=0.0.6
+Flask>=2.0.0
