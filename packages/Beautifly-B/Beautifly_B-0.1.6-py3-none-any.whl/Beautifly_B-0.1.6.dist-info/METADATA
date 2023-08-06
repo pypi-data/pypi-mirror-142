@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Beautifly-B
+Version: 0.1.6
+Summary: Beautifly_B team B packages
+Home-page: https://github.com/azmidri/Beautifly_B
+Author: IE TeamB
+Author-email: azmidri@student.ie.edu
+License: MIT
+Keywords: pandas data-science data-analysis python eda
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: hvplot
+Requires-Dist: bokeh (>=2.4.2)
+Requires-Dist: holoviews (>=1.14.8)
+Requires-Dist: datetime
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
