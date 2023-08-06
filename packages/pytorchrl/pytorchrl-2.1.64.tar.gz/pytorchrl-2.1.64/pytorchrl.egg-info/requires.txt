@@ -1,0 +1,7 @@
+ray
+gym[atari]
+gym[accept-rom-license]
+pandas
+scipy
+lz4
+opencv-python
