@@ -1,0 +1,45 @@
+"""Declares :class:`MessageHandlersProvider`."""
+import collections
+import typing
+
+from .basemessage import BaseMessage
+from .messagemetaclass import MessageMetaclass
+from .models import MessageHeader
+from .models import Message
+
+
+class MessageHandlersProvider:
+    """Implements a registry that can match handlers to messages."""
+    __module__: str = 'aorta'
+    UnknownMessageType: type = type('UnknownMessageType', (Exception,), {})
+
+    def __init__(self):
+        self._handlers = collections.defaultdict(list)
+        self._types = {}
+
+    def get(self, message: typing.Union[MessageHeader, Message]) -> list:
+        """Return the list of handler classes for the given message."""
+        return self._handlers[message.api_version, message.kind]
+
+    def parse(self, data: dict) -> Message:
+        """Return a concrete message type by inspecting the metadata in the
+        header.
+        """
+        try:
+            header = MessageHeader(**data)
+        except ValueError:
+            raise self.UnknownMessageType
+        else:
+            key = (header.api_version, header.kind)
+            if key not in self._types:
+                raise self.UnknownMessageType
+            return self._types[key](**data)
+
+    def register(self, spec: MessageMetaclass, cls: type):
+        """Register handler class `cls` for the message of type
+        `spec`.
+        """
+        key = (spec._meta.api_version, spec._meta.name)
+        self._handlers[key].append(cls)
+        if key not in self._types:
+            self._types[key] = spec._envelope
