@@ -1,0 +1,12 @@
+find_julia/__init__.py,sha256=Ch4UJA7yAUbPmGcn-iJuR6f-IxqUFWZfVD_k2OIUBxA,165
+find_julia/_find.py,sha256=2UKGtuob_84B2BGA45wqCCn6tbUEJ8IlBZLn9-4l2kY,7787
+find_julia/_jill.py,sha256=D6w5InfeCoGai9BKqt2PTKVWC1O_abpcnYozckMbHtk,3674
+find_julia/install_julia.py,sha256=gYKqxOk4nGc6TGscITHCLSN7MzwBjses0FBxJKa4S7I,2734
+find_julia/julia_version.py,sha256=CdVt7dd1j7qTUILKwnPs_LfsRkkp6cDoqZCKbKI05T4,2082
+find_julia/juliaup.py,sha256=BEzgPo9cKfO0XMm6dXU-sQ7YD8wpKMRahbYUaxpH7aI,2232
+find_julia/util.py,sha256=fC6a22WbXCNRvkU_iAO22ewy_wbhgr8y1H5vk2jM-m0,1289
+find_julia-0.2.4.dist-info/LICENSE.md,sha256=sm7Lf1cG47GuPtPe1FKRIZpkgB81hlIVfYULRndGT5I,1069
+find_julia-0.2.4.dist-info/METADATA,sha256=hf-za0-YRKE1IshWqhlc8kyKO-spX9VQq6-aagD3MNQ,3246
+find_julia-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+find_julia-0.2.4.dist-info/top_level.txt,sha256=xYYyjy9ffLWNQttU4-J4jQ8xvBzBbj6xN0sLXnnBxhs,11
+find_julia-0.2.4.dist-info/RECORD,,
