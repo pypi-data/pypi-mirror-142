@@ -1,0 +1,2446 @@
+{
+    "mapeos": [
+        {
+            "origen": "[main_feature]",
+            "destino": "Predio",
+            "llaveRelacionOrigen": "globalid_lc_predio",
+            "llaveRelacionDestino": "GLOBALID",
+            "llavePrimariaOrigen": "globalid",
+            "llavePrimariaDestino": "GLOBALID",
+            "llaveEsGuid": "True",
+            "tipoOperacion": "U",
+            "campos": [
+                {
+                    "origen": "espacio_nombres_predio",
+                    "destino": "ESPACIO_DE_NOMBRES",
+                    "valor_predeterminado": "AMCO"
+                },
+                {
+                    "origen": "local_id_predio",
+                    "destino": "LOCAL_ID",
+                    "valor_predeterminado": "."
+                },
+                {
+                    "origen": "departamento_sec_i",
+                    "destino": "DEPARTAMENTO"
+                },
+                {
+                    "origen": "municipio_sec_i",
+                    "destino": "MUNICIPIO"
+                },
+                {
+                    "origen": "id_operacion_sec_iv",
+                    "destino": "ID_OPERACION",
+                    "valor_predeterminado": "."
+                },
+                {
+                    "origen": "predio_tiene_folio_sec_iv",
+                    "destino": "TIENE_FMI"
+                },
+                {
+                    "origen": "codigo_orip_sec_iv",
+                    "destino": "CODIGO_ORIP"
+                },
+                {
+                    "origen": "numero_matri_inmo_sec_iv",
+                    "destino": "MATRICULA_INMOBILIARIA"
+                },
+                {
+                    "origen": "numero_predi_anterio_sec_iv",
+                    "destino": "NUMERO_PREDIAL_ANTERIOR"
+                },
+                {
+                    "origen": "numero_predial_sec_iv",
+                    "destino": "NUMERO_PREDIAL"
+                },
+                {
+                    "origen": "nupre_sec_iv",
+                    "destino": "NUPRE"
+                },
+                {
+                    "origen": "nombre_predio_sec_iv",
+                    "destino": "NOMBRE"
+                },
+                {
+                    "origen": "avaluo_catastral_sec_iv",
+                    "destino": "AVALUO_CATASTRAL"
+                },
+                {
+                    "origen": "tipo_unidad_basica_sec_iv",
+                    "destino": "TIPO"
+                },
+                {
+                    "origen": "tipo_de_predio_sec_iv",
+                    "destino": "TIPOPREDIO"
+                },
+                {
+                    "origen": "cond_propiedad_esp_sec_iv",
+                    "destino": "CONDICION_PREDIO"
+                }
+            ],
+            "relacionesDestino": [
+                {
+                    "idRelacionDestino": 42,
+                    "destino": "Datos PH Condominio",
+                    "llavePrimariaOrigen": "globalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "llaveForaneaDestino": "LC_PREDIOGUID",
+                    "llaveEsGuid": "True",
+                    "condicion": {
+                        "campo": "cond_propiedad_esp_sec_iv",
+                        "valor": [
+                            "PH_Matriz",
+                            "PH_Unidad_Predial",
+                            "Condominio_Matriz",
+                            "Condominio_Unidad_Predial",
+                            "Mejora_PH",
+                            "Parque_Cementerio_Matriz",
+                            "Parque_Cementerio_Unidad_Predial"
+                        ]
+                    },
+                    "tipoOperacion": "CU",
+                    "campos": [
+                        {
+                            "origen": "area_total_terreno_sec_iv",
+                            "destino": "AREA_TOTAL_TERRENO"
+                        },
+                        {
+                            "origen": "area_total_privada_sec_iv",
+                            "destino": "AREA_TOTAL_TERRENO_PRIVADA"
+                        },
+                        {
+                            "origen": "area_total_comun_sec_iv",
+                            "destino": "AREA_TOTAL_TERRENO_COMUN"
+                        },
+                        {
+                            "origen": "area_total_cons_sec_iv",
+                            "destino": "AREA_TOTAL_CONSTRUIDA"
+                        },
+                        {
+                            "origen": "area_total_cons_priva_sec_iv",
+                            "destino": "AREA_TOTAL_CONSTRUIDA_PRIVADA"
+                        },
+                        {
+                            "origen": "area_total_cons_com_sec_iv",
+                            "destino": "AREA_TOTAL_CONSTRUIDA_COMUN"
+                        },
+                        {
+                            "origen": "numero_torres_sec_iv",
+                            "destino": "NUMERO_TORRES"
+                        },
+                        {
+                            "origen": "total_unidades_privadas_sec_iv",
+                            "destino": "TOTAL_UNIDADES_PRIVADAS"
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 41,
+                    "destino": "Datos adicionales levantamiento catastral",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaDestino": "LC_PREDIOGUID",
+                    "llaveEsGuid": "True",
+                    "tipoOperacion": "CU",
+                    "campos": [
+                        {
+                            "origen": "predio_area_registral_sec_v",
+                            "destino": "TIENE_AREA_REGISTRAL"
+                        },
+                        {
+                            "origen": "area_registral_sec_v",
+                            "destino": "AREA_REGISTRAL_M2"
+                        },
+                        {
+                            "origen": "tipo_procedimiento_rc_sec_v",
+                            "destino": "PROCEDIMIENTO_CATASTRALREGISTR"
+                        },
+                        {
+                            "origen": "destinacion_economica_sec_v",
+                            "destino": "DESTINACION_ECONOMICA"
+                        },
+                        {
+                            "origen": "clase_suelo_sec_v",
+                            "destino": "CLASE_SUELO"
+                        },
+                        {
+                            "origen": "categoria_suelo_tipo_sec_v",
+                            "destino": "CATEGORIA_SUELO"
+                        },
+                        {
+                            "origen": "observaciones_sec_v",
+                            "destino": "OBSERVACIONES"
+                        },
+                        {
+                            "origen": "fecha_diligenciamiento_sec_v",
+                            "destino": "FECHA_VISITA_PREDIAL"
+                        },
+                        {
+                            "origen": "tipo_doc_reconoc_sec_v",
+                            "destino": "TIPO_DOCUMENTO_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "num_doc_reconoc_sec_v",
+                            "destino": "NUMERO_DOCUMENTO_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "primer_nom_reconoc_sec_v",
+                            "destino": "PRIMER_NOMBRE_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "segundo_nom_reconoc_sec_v",
+                            "destino": "SEGUNDO_NOMBRE_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "primer_apel_reconoc_sec_v",
+                            "destino": "PRIMER_APELLIDO_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "segundo_apel_reconoc_sec_v",
+                            "destino": "SEGUNDO_APELLIDO_RECONOCEDOR"
+                        },
+                        {
+                            "origen": "resultado_visita_sec_v",
+                            "destino": "RESULTADO_VISITA"
+                        },
+                        {
+                            "origen": "susc_acta_colindancia_sec_v",
+                            "destino": "SUSCRIBE_ACTA_COLINDANCIA"
+                        }
+                    ],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 40,
+                            "idRelacionOrigen": 12,
+                            "origenHija": "novedad_numero_predial_sec_v",
+                            "destinoHija": "Estructura Novedad Número Predial",
+                            "llaveRelacionOrigen": "globalid_lc_estrnovnumpred",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_DATADICIONALESLEVCATGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "numero_predial_novedad_sec_v",
+                                    "destino": "NUMERO_PREDIAL"
+                                },
+                                {
+                                    "origen": "tipo_novedad_num_predial_sec_v",
+                                    "destino": "TIPO_NOVEDAD"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 39,
+                            "idRelacionOrigen": 13,
+                            "origenHija": "novedad_fmi_sec_v",
+                            "destinoHija": "Estructura Novedad FMI",
+                            "llaveRelacionOrigen": "globalid_lc_estrnovfmi",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_DATADICIONALESLEVCATGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "numero_fmi_novedad_sec_v",
+                                    "destino": "NUMERO_FMI"
+                                },
+                                {
+                                    "origen": "codigo_orip_novedad_fmi_sec_v",
+                                    "destino": "CODIGO_ORIP"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 38,
+                            "idRelacionOrigen": 15,
+                            "origenHija": "atendio_visita_sec_v",
+                            "destinoHija": "Contacto Visita",
+                            "llaveRelacionOrigen": "globalid_lc_contactovisita",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_DATADLEVCATASTRALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_doc_q_atendio_sec_v",
+                                    "destino": "TIPO_DOCUMENTO_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "num_doc_q_atendio_sec_v",
+                                    "destino": "NUMERO_DOCUMENTO_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "primer_nom_q_atendio_sec_v",
+                                    "destino": "PRIMER_NOMBRE_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "segundo_nom_q_atendio_sec_v",
+                                    "destino": "SEGUNDO_NOMBRE_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "primer_apel_q_atendio_sec_v",
+                                    "destino": "PRIMER_APELLIDO_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "segundo_apel_q_atendio_sec_v",
+                                    "destino": "SEGUNDO_APELLIDO_QUIEN_ATENDIO"
+                                },
+                                {
+                                    "origen": "relacion_con_predio_sec_v",
+                                    "destino": "RELACION_CON_PREDIO"
+                                },
+                                {
+                                    "origen": "domicilio_notificaciones_sec_v",
+                                    "destino": "DOMICILIO_NOTIFICACIONES"
+                                },
+                                {
+                                    "origen": "celular_sec_v",
+                                    "destino": "CELULAR"
+                                },
+                                {
+                                    "origen": "correo_electronico_sec_v",
+                                    "destino": "CORREO_ELECTRÓNICO"
+                                },
+                                {
+                                    "origen": "autoriza_notificaciones_sec_v",
+                                    "destino": "AUTORIZA_NOTIFICACIONES"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "relacionesOrigen": [
+                {
+<<<<<<< HEAD:ImportarSurvey_pyt/config.json
+                    "idRelacionDestino": 36,
+                    "idRelacionOrigen": 6,
+=======
+                    "idRelacion": 59,
+                    "origenHija": "copropiedad_sec_iv",
+                    "destinoHija": "Predio Copropiedad",
+                    "llaveRelacionOrigen": "globalid_lc_prediocopropiedad",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_COPROPIEDADGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "coeficiente_copropiedad_sec_iv",
+                            "destino": "COEFICIENTE"
+                        }
+                    ]
+                },
+                {
+                    "idRelacion": 44,
+                    "origenHija": "derecho_sec_iv",
+                    "destinoHija": "Derecho",
+                    "llaveRelacionOrigen": "globalid_lc_derecho",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "CU",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_PREDIOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_derecho",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_derecho",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "descripcion_derecho_sec_iv",
+                            "destino": "Descripcion"
+                        },
+                        {
+                            "origen": "derecho_tenencia_sec_iv",
+                            "destino": "Tipo"
+                        },
+                        {
+                            "origen": "fraccion_derecho_sec_iv",
+                            "destino": "Fraccion_Derecho"
+                        },
+                        {
+                            "origen": "fecha_ejerce_rela_ten_sec_iv",
+                            "destino": "Fecha_Inicio_Tenencia"
+                        },
+                        {
+                            "origen": "derecho_lc_interesadoguid",
+                            "destino": "LC_INTERESADOGUID"
+                        }
+                    ]
+                },
+                {
+                    "idRelacion": 36,
+>>>>>>> ad243011dc9a6a645073c47eb1ec62e3dfc7653e:src/ImportarSurvey/esri/toolboxes/_inyeccion.json
+                    "origenHija": "agrupacion_interesados_sec_iv",
+                    "destinoHija": "Agrupación de Interesados",
+                    "llaveRelacionOrigen": "globalid_lc_agrupacinteres",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "tipoOperacion": "CU",
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "U",
+                        "relationshipClass": "Derecho",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_AGRUPACIONINTERESADOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_agr_int",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_agr_int",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "nombre_agrupacion_sec_iv",
+                            "destino": "NOMBRE"
+                        },
+                        {
+                            "origen": "agrupacion_tipo_sec_iv",
+                            "destino": "TIPO"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": []
+                },
+                {
+<<<<<<< HEAD:ImportarSurvey_pyt/config.json
+                    "idRelacionDestino": 24,
+                    "idRelacionOrigen": 11,
+=======
+                    "idRelacion": 55,
+                    "origenHija": "interesado_sec_iv",
+                    "destinoHija": "Interesado",
+                    "llaveRelacionOrigen": "globalid_lc_interesado",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "CU",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "U",
+                        "relationshipClass": "Derecho",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_INTERESADOGUID"
+                    },
+                    "conectorFiltroDestino" : "OR",
+                    "filtroDestino" : {"campo" : ["Tipo_Documento", "DOCUMENTO_IDENTIDAD"]},
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_interesado",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_interesado",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "tipo_de_persona_sec_iv",
+                            "destino": "Tipo"
+                        },
+                        {
+                            "origen": "tipo_documento_sec_iv",
+                            "destino": "Tipo_Documento"
+                        },
+                        {
+                            "origen": "numero_documento_sec_iv",
+                            "destino": "DOCUMENTO_IDENTIDAD"
+                        },
+                        {
+                            "origen": "primer_nombre_sec_iv",
+                            "destino": "Primer_Nombre"
+                        },
+                        {
+                            "origen": "segundo_nombre_sec_iv",
+                            "destino": "Segundo_Nombre"
+                        },
+                        {
+                            "origen": "primer_apellido_sec_iv",
+                            "destino": "Primer_Apellido"
+                        },
+                        {
+                            "origen": "segundo_apellido_sec_iv",
+                            "destino": "Segundo_Apellido"
+                        },
+                        {
+                            "origen": "sexo_sec_iv",
+                            "destino": "Sexo"
+                        },
+                        {
+                            "origen": "grupo_etnico_sec_iv",
+                            "destino": "Grupo_Etnico"
+                        },
+                        {
+                            "origen": "razon_social_sec_iv",
+                            "destino": "Razon_Social"
+                        }
+                    ],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacion": 54,
+                            "origenHija": "miembros_sec_iv",
+                            "destinoHija": "Miembors",
+                            "llaveRelacionOrigen": "globalid_lc_miembros",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_INTERESADOGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "participacion_interesado_sec_iv",
+                                    "destino": "PARTICIPACION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacion": 53,
+                            "origenHija": "datos_contacto_interesado_sec_iv",
+                            "destinoHija": "Interesado Contacto",
+                            "llaveRelacionOrigen": "globalid_lc_interescontacto",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_INTERESADOGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "departamento_sec_iv",
+                                    "destino": "DEPARTAMENTO"
+                                },
+                                {
+                                    "origen": "municipio_sec_iv",
+                                    "destino": "MUNICIPIO"
+                                },
+                                {
+                                    "origen": "corregimiento_sec_iv",
+                                    "destino": "CORREGIMIENTO"
+                                },
+                                {
+                                    "origen": "vereda_sec_iv",
+                                    "destino": "VEREDA"
+                                },
+                                {
+                                    "origen": "direccion_residencia_sec_iv",
+                                    "destino": "DIRECCION_RESIDENCIA"
+                                },
+                                {
+                                    "origen": "domicilio_notificacion_sec_iv",
+                                    "destino": "DOMICILIO_NOTIFICACION"
+                                },
+                                {
+                                    "origen": "telefono1_sec_iv",
+                                    "destino": "TELEFONO1"
+                                },
+                                {
+                                    "origen": "telefono2_sec_iv",
+                                    "destino": "TELEFONO2"
+                                },
+                                {
+                                    "origen": "correo_electronico_sec_iv",
+                                    "destino": "CORREO_ELECTRONICO"
+                                },
+                                {
+                                    "origen": "autoriza_notificaciones_sec_iv",
+                                    "destino": "AUTORIZA_NOTIFICACION_CORREO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "idRelacion": 24,
+>>>>>>> ad243011dc9a6a645073c47eb1ec62e3dfc7653e:src/ImportarSurvey/esri/toolboxes/_inyeccion.json
+                    "origenHija": "unidadespacial_sec_iv",
+                    "destinoHija": "(LC) Unidad Espacial",
+                    "llaveRelacionOrigen": "globalid_lc_unidadesp",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "usarGeometria": "False",
+                    "filtroOrigen": {
+                        "campo": "subtipoue_sec_iv",
+                        "valor": 3
+                    },
+                    "filtroDestino": {
+                        "campo": "SUBTIPOUNIDADESPACIAL",
+                        "valor": 3
+                    },
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcue_lcpredio",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_uespacial",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_uespacial",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "subtipoue_sec_iv",
+                            "destino": "SUBTIPOUNIDADESPACIAL"
+                        },
+                        {
+                            "origen": "dimension_terreno_sec_iv",
+                            "destino": "DIMENSION"
+                        },
+                        {
+                            "origen": "rel_superficie_terreno_sec_iv",
+                            "destino": "RELACION_SUPERFICIE"
+                        },
+                        {
+                            "origen": "area_terreno_sec_iv",
+                            "destino": "AREA_TERRENO"
+                        },
+                        {
+                            "origen": "avaluo_terreno_sec_iv",
+                            "destino": "AVALUO_TERRENO"
+                        },
+                        {
+                            "origen": "manzana_vereda_codigo_sec_iv",
+                            "destino": "MANZANA_VEREDA_CODIGO"
+                        },
+                        {
+                            "origen": "area_servidumbre_sec_iv",
+                            "destino": "AREA_SERVIDUMBRE"
+                        },
+                        {
+                            "origen": "ident_construccion_sec_iv",
+                            "destino": "IDENTIFICADOR"
+                        },
+                        {
+                            "origen": "tipo_construccion_1_sec_iv",
+                            "destino": "TIPO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "tipo_dominio_1_sec_iv",
+                            "destino": "TIPO_DOMINIO"
+                        },
+                        {
+                            "origen": "numero_de_pisos_sec_iv",
+                            "destino": "NUMERO_PISOS"
+                        },
+                        {
+                            "origen": "numero_de_sotanos_sec_iv",
+                            "destino": "NUMERO_SOTANOS"
+                        },
+                        {
+                            "origen": "numero_de_mezanines_sec_iv",
+                            "destino": "NUMERO_MEZANINES"
+                        },
+                        {
+                            "origen": "numero_de_semisotanos_sec_iv",
+                            "destino": "NUMERO_SEMISOTANOS"
+                        },
+                        {
+                            "origen": "anio_construccion_1_sec_iv",
+                            "destino": "ANIO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "avaluo_construccion_sec_iv",
+                            "destino": "AVALUO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "area_construida_1_sec_iv",
+                            "destino": "AREA_CONSTRUIDA"
+                        },
+                        {
+                            "origen": "tipo_unidad_sec_iv",
+                            "destino": "TIPO_UNIDAD_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "uso_reg_ii_sec_iv",
+                            "destino": "USO"
+                        },
+                        {
+                            "origen": "tipo_planta_sec_iv",
+                            "destino": "TIPO_PLANTA"
+                        },
+                        {
+                            "origen": "ubicacion_planta_sec_iv",
+                            "destino": "PLANTA_UBICACION"
+                        },
+                        {
+                            "origen": "totalhabitaciones_sec_iv",
+                            "destino": "TOTAL_HABITACIONES"
+                        },
+                        {
+                            "origen": "totalbanios_sec_iv",
+                            "destino": "TOTAL_BANIOS"
+                        },
+                        {
+                            "origen": "totallocales_sec_iv",
+                            "destino": "TOTAL_LOCALES"
+                        },
+                        {
+                            "origen": "totalpisos_sec_iv",
+                            "destino": "TOTAL_PISOS"
+                        },
+                        {
+                            "origen": "avaluo_u_construccion_sec_iv",
+                            "destino": "AVALUO_UNIDAD_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "area_construida_2_sec_iv",
+                            "destino": "AREA_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "area_privada_m2_sec_iv",
+                            "destino": "AREA_PRIVADA_CONSTRUIDA"
+                        },
+                        {
+                            "origen": "altura_1_sec_iv",
+                            "destino": "ALTURA"
+                        },
+                        {
+                            "origen": "observaciones_1_sec_iv",
+                            "destino": "OBSERVACIONES"
+                        },
+                        {
+                            "origen": "etiqueta_terreno_sec_iv",
+                            "destino": "ETIQUETA"
+                        },
+                        {
+                            "origen": "cons_lc_construccionguid",
+                            "destino": "LC_CONSTRUCCIONGUID"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 15,
+                            "idRelacionOrigen": 21,
+                            "origenHija": "col_area_valor_sec_iv",
+                            "destinoHija": "Valores de área",
+                            "llaveRelacionOrigen": "globalid_lc_areavalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_area_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "area_valor_sec_iv",
+                                    "destino": "LEVANTAMIENTO.COL_AreaValor.AREA"
+                                },
+                                {
+                                    "origen": "datos_proyeccion_sec_iv",
+                                    "destino": "DATOS_PROYECCION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 19,
+                            "idRelacionOrigen": 22,
+                            "origenHija": "col_volumen_valor_sec_iv",
+                            "destinoHija": "Valores de volumen",
+                            "llaveRelacionOrigen": "globalid_lc_volvalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_volumen_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "volumen_medicion_sec_iv",
+                                    "destino": "VOLUMEN_MEDICION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 17,
+                            "idRelacionOrigen": 24,
+                            "origenHija": "calif_conv_sec_iv",
+                            "destinoHija": "Calificación Convencional",
+                            "llaveRelacionOrigen": "globalid_lc_califconv",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADCONSTRUCCIONGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_calificar_sec_iv",
+                                    "destino": "TIPO_CALIFICAR"
+                                },
+                                {
+                                    "origen": "totalcalificacionconv_sec_iv",
+                                    "destino": "TOTAL_CALIFICACION"
+                                }
+                            ],
+                            "relacionesDestino": [],
+                            "relacionesOrigen": [
+                                {
+                                    "idRelacionDestino": 37,
+                                    "idRelacionOrigen": 26,
+                                    "origenHija": "grupo_calificacion_estructura",
+                                    "destinoHija": "Grupo Calificación",
+                                    "llaveRelacionOrigen": "globalid_lc_grupocalestructura",
+                                    "llaveRelacionDestino": "GLOBALID",
+                                    "tipoOperacion": "CU",
+                                    "llavePrimariaOrigen": "globalid",
+                                    "llaveForaneaOrigen": "parentglobalid",
+                                    "llavePrimariaDestino": "GLOBALID",
+                                    "esllaveForaneaOrigenGuid": "True",
+                                    "filtroDestino": {
+                                        "campo": "CLASE_CALIFICACION",
+                                        "valor": "Estructura"
+                                    },
+                                    "llaveEsGuid": "True",
+                                    "detalleRelacion": {
+                                        "cardinalidad": "1-M",
+                                        "llaveForaneaHija": "LC_CALIFCONVENCIONAGUID"
+                                    },
+                                    "campos": [
+                                        {
+                                            "origen": "estructura_clasecalificacion",
+                                            "destino": "CLASE_CALIFICACION"
+                                        },
+                                        {
+                                            "origen": "conservacion_estructura_cali",
+                                            "destino": "CONSERVACION",
+                                            "valor_predeterminado": "Malo"
+                                        },
+                                        {
+                                            "origen": "subtotal_estructura",
+                                            "destino": "SUBTOTAL"
+                                        }
+                                    ],
+                                    "relacionesDestino": [],
+                                    "relacionesOrigen": [
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "idRelacionOrigen": 31,
+                                            "origenHija": "obj_const_estructura",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsestarmazon",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Armazon_Madera",
+                                                    "Armazon_Prefabricado",
+                                                    "Armazon_Ladrillo_Bloque",
+                                                    "Armazon_Concreto_Hasta_Tres_Pisos",
+                                                    "Armazon_Concreto_Cuatro_O_Mas_Pisos"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "armazon_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "armazon_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ],
+                                            "relacionesDestino": []
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_estructura",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsestmuros",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Muros_Materiales_Desecho_Esterillas",
+                                                    "Muros_Bahareque_Adobe_Tapia",
+                                                    "Muros_Madera",
+                                                    "Muros_Concreto_Prefabricado",
+                                                    "Muros_Bloque_Ladrillo"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "muros_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "muros_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ],
+                                            "relacionesDestino": []
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_estructura",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsestcubierta",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Cubierta_Materiales_Desecho_Telas_Asfalticas",
+                                                    "Cubierta_Zinc_Teja_De_Barro_Eternit_Rustico",
+                                                    "Cubierta_Entrepiso_Cubierta_Provisional_Prefabricado",
+                                                    "Cubierta_Eternit_O_Teja_De_Barro_Cubierta_Sencilla",
+                                                    "Cubierta_Zinc_Teja_De_Barro_Eternit_Rustico",
+                                                    "Cubierta_Placa_Impermeabilizada_Cubierta_Lujosa_U_Ornamental"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "cubierta_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "cubierta_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ],
+                                            "relacionesDestino": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "idRelacionDestino": 37,
+                                    "origenHija": "grupo_calificacion_acabados",
+                                    "destinoHija": "Grupo Calificación",
+                                    "llaveRelacionOrigen": "globalid_lc_grupocalacabados",
+                                    "llaveRelacionDestino": "GLOBALID",
+                                    "tipoOperacion": "CU",
+                                    "llavePrimariaOrigen": "globalid",
+                                    "llaveForaneaOrigen": "parentglobalid",
+                                    "llavePrimariaDestino": "GLOBALID",
+                                    "esllaveForaneaOrigenGuid": "True",
+                                    "llaveEsGuid": "True",
+                                    "filtroDestino": {
+                                        "campo": "CLASE_CALIFICACION",
+                                        "valor": "Acabados_Principales"
+                                    },
+                                    "detalleRelacion": {
+                                        "cardinalidad": "1-M",
+                                        "llaveForaneaHija": "LC_CALIFCONVENCIONAGUID"
+                                    },
+                                    "campos": [
+                                        {
+                                            "origen": "acabados_clasecalificacion",
+                                            "destino": "CLASE_CALIFICACION"
+                                        },
+                                        {
+                                            "origen": "conservacion_acabados_cali",
+                                            "destino": "CONSERVACION",
+                                            "valor_predeterminado": "Malo"
+                                        },
+                                        {
+                                            "origen": "subtotal_acabados",
+                                            "destino": "SUBTOTAL"
+                                        }
+                                    ],
+                                    "relacionesDestino": [],
+                                    "relacionesOrigen": [
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_constr_acabados",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsapfachada",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Fachada_Pobre",
+                                                    "Fachada_Sencilla",
+                                                    "Fachada_Regular",
+                                                    "Fachada_Buena",
+                                                    "Fachada_Lujosa"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "fachada_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "fachada_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_constr_acabados",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsapcubmuro",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Cubrimiento_Muros_Sin_Cubrimiento",
+                                                    "Cubrimiento_Muros_Paniete_Papel_Comun_Ladrillo_Prensado",
+                                                    "Cubrimiento_Muros_Estuco_Cerámica_Papel_Fino",
+                                                    "Cubrimiento_Muros_Madera_Piedra_Ornamental",
+                                                    "Cubrimiento_Muros_Marmol_Lujosos_Otros"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "cubrimiento_muros_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "cub_muros_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_constr_acabados",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsappisos",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Piso_Tierra_Pisada",
+                                                    "Piso_Cemento_Madra_Burda",
+                                                    "Piso_Baldosa_Comun_De_Cemento_Tablon_Ladrillo",
+                                                    "Piso_Liston_Maquihembrado",
+                                                    "Piso_Tableta_Caucho_Acrilico_Granito_Baldosa_Fina",
+                                                    "Piso_Parquet_Alfombra_Retal_De_Marmol",
+                                                    "Piso_Retal_De_Marmol_Marmol_Otros_Lujosos"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "pisos_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "pisos_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "idRelacionDestino": 37,
+                                    "origenHija": "grupo_calificacion_banio",
+                                    "destinoHija": "Grupo Calificación",
+                                    "llaveRelacionOrigen": "globalid_lc_grupocalbanio",
+                                    "llaveRelacionDestino": "GLOBALID",
+                                    "tipoOperacion": "CU",
+                                    "llavePrimariaOrigen": "globalid",
+                                    "llaveForaneaOrigen": "parentglobalid",
+                                    "llavePrimariaDestino": "GLOBALID",
+                                    "esllaveForaneaOrigenGuid": "True",
+                                    "llaveEsGuid": "True",
+                                    "filtroDestino": {
+                                        "campo": "CLASE_CALIFICACION",
+                                        "valor": "Banio"
+                                    },
+                                    "detalleRelacion": {
+                                        "cardinalidad": "1-M",
+                                        "llaveForaneaHija": "LC_CALIFCONVENCIONAGUID"
+                                    },
+                                    "campos": [
+                                        {
+                                            "origen": "banio_clasecalificacion",
+                                            "destino": "CLASE_CALIFICACION"
+                                        },
+                                        {
+                                            "origen": "conservacion_bano_cali",
+                                            "valor_predeterminado": "Malo",
+                                            "destino": "CONSERVACION"
+                                        },
+                                        {
+                                            "origen": "subtotal_bano",
+                                            "destino": "SUBTOTAL"
+                                        }
+                                    ],
+                                    "relacionesDestino": [],
+                                    "relacionesOrigen": [
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_banio",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsbataman",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroOrigen": {
+                                                "campo": "tamano_bano_cali",
+                                                "valor": "NOT NULL",
+                                                "operador": "IS"
+                                            },
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Tamanio_Banio_Sin_Banio",
+                                                    "Tamanio_Banio_Pequenio",
+                                                    "Tamanio_Banio_Mediano",
+                                                    "Tamanio_Banio_Grande"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "tamano_bano_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "tamano_bano_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_banio",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsbaenchape",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroOrigen": {
+                                                "campo": "enchapes_bano_cali",
+                                                "valor": "NOT NULL",
+                                                "operador": "IS"
+                                            },
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Enchape_Banio_Sin_Cubrimiento",
+                                                    "Enchape_Banio_Paniete_Baldosa_Comun_De_Cemento",
+                                                    "Enchape_Banio_Baldosin_Unicolor_Papel_Comun",
+                                                    "Enchape_Banio_Ceramica_Cristanac_Granito",
+                                                    "Enchape_Banio_Marmol_Enchape_Lujoso",
+                                                    "Enchape_Banio_Baldosin_Decorado_Papel_Fino"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "enchapes_bano_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "enchapes_bano_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_banio",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconsbamobil",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Mobiliario_Banio_Pobre",
+                                                    "Mobiliario_Banio_Sencillo",
+                                                    "Mobiliario_Banio_Regular",
+                                                    "Mobiliario_Banio_Bueno",
+                                                    "Mobiliario_Banio_Lujoso"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "mobiliario_bano_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "mobiliario_bano_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "idRelacionDestino": 37,
+                                    "origenHija": "grupo_calificacion_cocina",
+                                    "destinoHija": "Grupo Calificación",
+                                    "llaveRelacionOrigen": "globalid_lc_grupocalcocina",
+                                    "llaveRelacionDestino": "GLOBALID",
+                                    "tipoOperacion": "CU",
+                                    "llavePrimariaOrigen": "globalid",
+                                    "llaveForaneaOrigen": "parentglobalid",
+                                    "llavePrimariaDestino": "GLOBALID",
+                                    "esllaveForaneaOrigenGuid": "True",
+                                    "llaveEsGuid": "True",
+                                    "filtroDestino": {
+                                        "campo": "CLASE_CALIFICACION",
+                                        "valor": "Cocina"
+                                    },
+                                    "detalleRelacion": {
+                                        "cardinalidad": "1-M",
+                                        "llaveForaneaHija": "LC_CALIFCONVENCIONAGUID"
+                                    },
+                                    "campos": [
+                                        {
+                                            "origen": "cocina_clasecalificacion",
+                                            "destino": "CLASE_CALIFICACION"
+                                        },
+                                        {
+                                            "origen": "conservacion_cocina_cali",
+                                            "valor_predeterminado": "Malo",
+                                            "destino": "CONSERVACION"
+                                        },
+                                        {
+                                            "origen": "subtotal_cocina",
+                                            "destino": "SUBTOTAL"
+                                        }
+                                    ],
+                                    "relacionesDestino": [],
+                                    "relacionesOrigen": [
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_cocina",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconscoctaman",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroOrigen": {
+                                                "campo": "tamano_cocina_cali",
+                                                "valor": "NOT NULL",
+                                                "operador": "IS"
+                                            },
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Tamanio_Cocina_Sin_Cocina",
+                                                    "Tamanio_Cocina_Pequenia",
+                                                    "Tamanio_Cocina_Mediana",
+                                                    "Tamanio_Cocina_Grande"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "tamano_cocina_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "tamano_cocina_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_cocina",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconscocenchape",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroOrigen": {
+                                                "campo": "enchapes_cocina_cali",
+                                                "valor": "NOT NULL",
+                                                "operador": "IS"
+                                            },
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Enchape_Cocina_Sin_Cubrimiento",
+                                                    "Enchape_Cocina_Paniete_Baldosa_De_Cemento",
+                                                    "Enchape_Cocina_Baldosin_Unicolor_Papel_Comun",
+                                                    "Enchape_Cocina_Baldosin_Decorado_Papel_Fino",
+                                                    "Enchape_Cocina_Ceramica_Cristanac_Granito",
+                                                    "Enchape_Cocina_Marmol_Enchape_Lujoso"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "enchapes_cocina_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "enchapes_cocina_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_cocina",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconscocmobil",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Mobiliario_Cocina_Pobre",
+                                                    "Mobiliario_Cocina_Sencillo",
+                                                    "Mobiliario_Cocina_Regular",
+                                                    "Mobiliario_Cocina_Bueno",
+                                                    "Mobiliario_Cocina_Lujoso"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "mobiliario_cocina_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "mobiliario_cocina_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "idRelacionDestino": 37,
+                                    "origenHija": "grupo_calificacion_complemento",
+                                    "destinoHija": "Grupo Calificación",
+                                    "llaveRelacionOrigen": "globalid_lc_grupocalcompind",
+                                    "llaveRelacionDestino": "GLOBALID",
+                                    "tipoOperacion": "CU",
+                                    "llavePrimariaOrigen": "globalid",
+                                    "llaveForaneaOrigen": "parentglobalid",
+                                    "llavePrimariaDestino": "GLOBALID",
+                                    "esllaveForaneaOrigenGuid": "True",
+                                    "llaveEsGuid": "True",
+                                    "filtroDestino": {
+                                        "campo": "CLASE_CALIFICACION",
+                                        "valor": "Complemento Industria"
+                                    },
+                                    "detalleRelacion": {
+                                        "cardinalidad": "1-M",
+                                        "llaveForaneaHija": "LC_CALIFCONVENCIONAGUID"
+                                    },
+                                    "campos": [
+                                        {
+                                            "origen": "comp_ind_clasecalificacion",
+                                            "destino": "CLASE_CALIFICACION"
+                                        },
+                                        {
+                                            "origen": "subtotal_comp_ind",
+                                            "destino": "SUBTOTAL"
+                                        },
+                                        {
+                                            "origen": "ND",
+                                            "destino": "CONSERVACION",
+                                            "valor_predeterminado": "Malo"
+                                        }
+                                    ],
+                                    "relacionesDestino": [],
+                                    "relacionesOrigen": [
+                                        {
+                                            "idRelacionDestino": 51,
+                                            "origenHija": "obj_const_comp_ind",
+                                            "destinoHija": "Objeto Construcción",
+                                            "llaveRelacionOrigen": "globalid_lc_objconscicercha",
+                                            "llaveRelacionDestino": "GLOBALID",
+                                            "tipoOperacion": "CU",
+                                            "llavePrimariaOrigen": "globalid",
+                                            "llaveForaneaOrigen": "parentglobalid",
+                                            "llavePrimariaDestino": "GLOBALID",
+                                            "esllaveForaneaOrigenGuid": "True",
+                                            "llaveEsGuid": "True",
+                                            "filtroDestino": {
+                                                "campo": "TIPO_OBJETO_CONSTRUCCION",
+                                                "valor": [
+                                                    "Cerchas_Complemento_Industria_Madera",
+                                                    "Cerchas_Complemento_Industria_Metalica_Liviana",
+                                                    "Cerchas_Complemento_Industria_Metalica_Mediana",
+                                                    "Cerchas_Complemento_Industria_Metalica_Pesada",
+                                                    "Cerchas_Complemento_Industria_Altura"
+                                                ]
+                                            },
+                                            "detalleRelacion": {
+                                                "cardinalidad": "1-M",
+                                                "llaveForaneaHija": "LC_GRUPOCALIFICACIONGUID"
+                                            },
+                                            "campos": [
+                                                {
+                                                    "origen": "cerchas_cali",
+                                                    "destino": "TIPO_OBJETO_CONSTRUCCION"
+                                                },
+                                                {
+                                                    "origen": "cerchas_value",
+                                                    "destino": "PUNTOS"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "origenHija": "tipologia_sec_iv",
+                            "destinoHija": "Tipología de la construcción",
+                            "llaveRelacionOrigen": "globalid_lc_tipologiacons",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADCONSTRUCCIONGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipologia_tipo_sec_iv",
+                                    "destino": "TIPO_TIPOLOGÍA"
+                                }
+                            ]
+                        },
+                        {
+                            "origenHija": "grupo_calificacion_no_convencional",
+                            "destinoHija": "Calificación No Convencional",
+                            "llaveRelacionOrigen": "globalid_lc_califnoconv",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADCONSTRUCCIONGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "edif_no_conven_cali",
+                                    "destino": "TIPO_ANEXO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 24,
+                    "idRelacionOrigen": 11,
+                    "origenHija": "unidadespacial_sec_iv",
+                    "destinoHija": "(LC) Unidad Espacial",
+                    "llaveRelacionOrigen": "globalid_lc_unidadesp",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "usarGeometria": "False",
+                    "filtroOrigen": {
+                        "campo": "subtipoue_sec_iv",
+                        "valor": 1
+                    },
+                    "filtroDestino": {
+                        "campo": "SUBTIPOUNIDADESPACIAL",
+                        "valor": 1
+                    },
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcue_lcpredio",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_uespacial",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_uespacial",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "subtipoue_sec_iv",
+                            "destino": "SUBTIPOUNIDADESPACIAL"
+                        },
+                        {
+                            "origen": "dimension_terreno_sec_iv",
+                            "destino": "DIMENSION"
+                        },
+                        {
+                            "origen": "rel_superficie_terreno_sec_iv",
+                            "destino": "RELACION_SUPERFICIE"
+                        },
+                        {
+                            "origen": "area_terreno_sec_iv",
+                            "destino": "AREA_TERRENO"
+                        },
+                        {
+                            "origen": "avaluo_terreno_sec_iv",
+                            "destino": "AVALUO_TERRENO"
+                        },
+                        {
+                            "origen": "manzana_vereda_codigo_sec_iv",
+                            "destino": "MANZANA_VEREDA_CODIGO"
+                        },
+                        {
+                            "origen": "etiqueta_terreno_sec_iv",
+                            "destino": "ETIQUETA"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 15,
+                            "origenHija": "col_area_valor_sec_iv",
+                            "destinoHija": "Valores de área",
+                            "llaveRelacionOrigen": "globalid_lc_areavalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_area_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "area_valor_sec_iv",
+                                    "destino": "LEVANTAMIENTO.COL_AreaValor.AREA"
+                                },
+                                {
+                                    "origen": "datos_proyeccion_sec_iv",
+                                    "destino": "DATOS_PROYECCION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 19,
+                            "origenHija": "col_volumen_valor_sec_iv",
+                            "destinoHija": "Valores de volumen",
+                            "llaveRelacionOrigen": "globalid_lc_volvalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_volumen_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "volumen_medicion_sec_iv",
+                                    "destino": "VOLUMEN_MEDICION"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 24,
+                    "idRelacionOrigen": 11,
+                    "origenHija": "unidadespacial_sec_iv",
+                    "destinoHija": "(LC) Unidad Espacial",
+                    "llaveRelacionOrigen": "globalid_lc_unidadesp",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "usarGeometria": "False",
+                    "filtroOrigen": {
+                        "campo": "subtipoue_sec_iv",
+                        "valor": 2
+                    },
+                    "filtroDestino": {
+                        "campo": "SUBTIPOUNIDADESPACIAL",
+                        "valor": 2
+                    },
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcue_lcpredio",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_uespacial",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_uespacial",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "subtipoue_sec_iv",
+                            "destino": "SUBTIPOUNIDADESPACIAL"
+                        },
+                        {
+                            "origen": "dimension_terreno_sec_iv",
+                            "destino": "DIMENSION"
+                        },
+                        {
+                            "origen": "rel_superficie_terreno_sec_iv",
+                            "destino": "RELACION_SUPERFICIE"
+                        },
+                        {
+                            "origen": "ident_construccion_sec_iv",
+                            "destino": "IDENTIFICADOR"
+                        },
+                        {
+                            "origen": "tipo_construccion_1_sec_iv",
+                            "destino": "TIPO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "tipo_dominio_1_sec_iv",
+                            "destino": "TIPO_DOMINIO"
+                        },
+                        {
+                            "origen": "numero_de_pisos_sec_iv",
+                            "destino": "NUMERO_PISOS"
+                        },
+                        {
+                            "origen": "numero_de_sotanos_sec_iv",
+                            "destino": "NUMERO_SOTANOS"
+                        },
+                        {
+                            "origen": "numero_de_mezanines_sec_iv",
+                            "destino": "NUMERO_MEZANINES"
+                        },
+                        {
+                            "origen": "numero_de_semisotanos_sec_iv",
+                            "destino": "NUMERO_SEMISOTANOS"
+                        },
+                        {
+                            "origen": "anio_construccion_1_sec_iv",
+                            "destino": "ANIO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "avaluo_construccion_sec_iv",
+                            "destino": "AVALUO_CONSTRUCCION"
+                        },
+                        {
+                            "origen": "area_construida_1_sec_iv",
+                            "destino": "AREA_CONSTRUIDA"
+                        },
+                        {
+                            "origen": "altura_1_sec_iv",
+                            "destino": "ALTURA"
+                        },
+                        {
+                            "origen": "observaciones_1_sec_iv",
+                            "destino": "OBSERVACIONES"
+                        },
+                        {
+                            "origen": "etiqueta_terreno_sec_iv",
+                            "destino": "ETIQUETA"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 15,
+                            "origenHija": "col_area_valor_sec_iv",
+                            "destinoHija": "Valores de área",
+                            "llaveRelacionOrigen": "globalid_lc_areavalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_area_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "area_valor_sec_iv",
+                                    "destino": "LEVANTAMIENTO.COL_AreaValor.AREA"
+                                },
+                                {
+                                    "origen": "datos_proyeccion_sec_iv",
+                                    "destino": "DATOS_PROYECCION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 19,
+                            "origenHija": "col_volumen_valor_sec_iv",
+                            "destinoHija": "Valores de volumen",
+                            "llaveRelacionOrigen": "globalid_lc_volvalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_volumen_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "volumen_medicion_sec_iv",
+                                    "destino": "VOLUMEN_MEDICION"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 24,
+                    "idRelacionOrigen": 11,
+                    "origenHija": "unidadespacial_sec_iv",
+                    "destinoHija": "(LC) Unidad Espacial",
+                    "llaveRelacionOrigen": "globalid_lc_unidadesp",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "usarGeometria": "False",
+                    "filtroOrigen": {
+                        "campo": "subtipoue_sec_iv",
+                        "valor": 4
+                    },
+                    "filtroDestino": {
+                        "campo": "SUBTIPOUNIDADESPACIAL",
+                        "valor": 4
+                    },
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcue_lcpredio",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_uespacial",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_uespacial",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "subtipoue_sec_iv",
+                            "destino": "SUBTIPOUNIDADESPACIAL"
+                        },
+                        {
+                            "origen": "dimension_terreno_sec_iv",
+                            "destino": "DIMENSION"
+                        },
+                        {
+                            "origen": "rel_superficie_terreno_sec_iv",
+                            "destino": "RELACION_SUPERFICIE"
+                        },
+                        {
+                            "origen": "area_servidumbre_sec_iv",
+                            "destino": "AREA_SERVIDUMBRE"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 15,
+                            "origenHija": "col_area_valor_sec_iv",
+                            "destinoHija": "Valores de área",
+                            "llaveRelacionOrigen": "globalid_lc_areavalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_area_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "area_valor_sec_iv",
+                                    "destino": "LEVANTAMIENTO.COL_AreaValor.AREA"
+                                },
+                                {
+                                    "origen": "datos_proyeccion_sec_iv",
+                                    "destino": "DATOS_PROYECCION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 19,
+                            "origenHija": "col_volumen_valor_sec_iv",
+                            "destinoHija": "Valores de volumen",
+                            "llaveRelacionOrigen": "globalid_lc_volvalor",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "CU",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "parentglobalid",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_UNIDADESPACIALGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "tipo_volumen_valor_sec_iv",
+                                    "destino": "TIPO"
+                                },
+                                {
+                                    "origen": "volumen_medicion_sec_iv",
+                                    "destino": "VOLUMEN_MEDICION"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+<<<<<<< HEAD:ImportarSurvey_pyt/config.json
+                    "idRelacionDestino": 59,
+                    "idRelacionOrigen": 4,
+                    "origenHija": "copropiedad_sec_iv",
+                    "destinoHija": "Predio Copropiedad",
+                    "llaveRelacionOrigen": "globalid_lc_prediocopropiedad",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "ParentGlobalID",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_PREDIOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "coeficiente_copropiedad_sec_iv",
+                            "destino": "COEFICIENTE"
+                        },
+                        {
+                            "origen": "coefcoprop_lc_copropguid",
+                            "destino": "LC_CopropiedadGUID",
+                            "esGuid": "True"
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 8,
+                    "idRelacionOrigen": 5,
+=======
+                    "idRelacion": 8,
+>>>>>>> ad243011dc9a6a645073c47eb1ec62e3dfc7653e:src/ImportarSurvey/esri/toolboxes/_inyeccion.json
+                    "origenHija": "direccion_predio_sec_iv",
+                    "destinoHija": "Dirección",
+                    "llaveRelacionOrigen": "globalid_extdireccion",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "CU",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_PREDIOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "direccion_tipo_sec_iv",
+                            "destino": "TIPO_DIRECCION"
+                        },
+                        {
+                            "origen": "direccion_principal_sec_iv",
+                            "destino": "ES_DIRECCION_PRINCIPAL"
+                        },
+                        {
+                            "origen": "codigo_postal_sec_iv",
+                            "destino": "CODIGO_POSTAL"
+                        },
+                        {
+                            "origen": "clase_via_principal_sec_iv",
+                            "destino": "Clase_Via_Principal"
+                        },
+                        {
+                            "origen": "valor_via_principal_sec_iv",
+                            "destino": "Valor_Via_Principal"
+                        },
+                        {
+                            "origen": "letra_via_principal_sec_iv",
+                            "destino": "Letra_Via_Principal"
+                        },
+                        {
+                            "origen": "sector_ciudad_sec_iv",
+                            "destino": "SECTOR_CIUDAD"
+                        },
+                        {
+                            "origen": "valor_via_generadora_sec_iv",
+                            "destino": "VALOR_VIA_GENERADORA"
+                        },
+                        {
+                            "origen": "letra_via_generadora_sec_iv",
+                            "destino": "LETRA_VIA_GENERADORA"
+                        },
+                        {
+                            "origen": "sector_predio_sec_iv",
+                            "destino": "Sector_Predio"
+                        },
+                        {
+                            "origen": "numero_predio_dir_sec_iv",
+                            "destino": "Numero_Predio"
+                        },
+                        {
+                            "origen": "complemento_dir_sec_iv",
+                            "destino": "Complemento"
+<<<<<<< HEAD:ImportarSurvey_pyt/config.json
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 55,
+                    "idRelacionOrigen": 7,
+                    "origenHija": "interesado_sec_iv",
+                    "destinoHija": "Interesado",
+                    "llaveRelacionOrigen": "globalid_lc_interesado",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "ParentGlobalID",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcpredio_lcinteresado",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_INTERESADOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "tipo_de_persona_sec_iv",
+                            "destino": "Tipo"
+                        },
+                        {
+                            "origen": "tipo_documento_sec_iv",
+                            "destino": "Tipo_Documento"
+                        },
+                        {
+                            "origen": "numero_documento_sec_iv",
+                            "destino": "DOCUMENTO_IDENTIDAD"
+                        },
+                        {
+                            "origen": "primer_nombre_sec_iv",
+                            "destino": "Primer_Nombre"
+                        },
+                        {
+                            "origen": "segundo_nombre_sec_iv",
+                            "destino": "Segundo_Nombre"
+                        },
+                        {
+                            "origen": "primer_apellido_sec_iv",
+                            "destino": "Primer_Apellido"
+                        },
+                        {
+                            "origen": "segundo_apellido_sec_iv",
+                            "destino": "Segundo_Apellido"
+                        },
+                        {
+                            "origen": "sexo_sec_iv",
+                            "destino": "Sexo"
+                        },
+                        {
+                            "origen": "grupo_etnico_sec_iv",
+                            "destino": "Grupo_Etnico"
+                        },
+                        {
+                            "origen": "razon_social_sec_iv",
+                            "destino": "Razon_Social"
+                        }
+                    ],
+                    "relacionesOrigen": [
+                        {
+                            "idRelacionDestino": 54,
+                            "origenHija": "miembros_sec_iv",
+                            "destinoHija": "Miembors",
+                            "llaveRelacionOrigen": "globalid_lc_miembros",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "U",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "ParentGlobalID",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_INTERESADOGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "participacion_interesado_sec_iv",
+                                    "destino": "PARTICIPACION"
+                                }
+                            ]
+                        },
+                        {
+                            "idRelacionDestino": 53,
+                            "origenHija": "datos_contacto_interesado_sec_iv",
+                            "destinoHija": "Interesado Contacto",
+                            "llaveRelacionOrigen": "globalid_lc_interescontacto",
+                            "llaveRelacionDestino": "GLOBALID",
+                            "tipoOperacion": "U",
+                            "llavePrimariaOrigen": "globalid",
+                            "llaveForaneaOrigen": "ParentGlobalID",
+                            "llavePrimariaDestino": "GLOBALID",
+                            "esllaveForaneaOrigenGuid": "True",
+                            "llaveEsGuid": "True",
+                            "detalleRelacion": {
+                                "cardinalidad": "1-M",
+                                "llaveForaneaHija": "LC_INTERESADOGUID"
+                            },
+                            "campos": [
+                                {
+                                    "origen": "departamento_sec_iv",
+                                    "destino": "DEPARTAMENTO"
+                                },
+                                {
+                                    "origen": "municipio_sec_iv",
+                                    "destino": "MUNICIPIO"
+                                },
+                                {
+                                    "origen": "corregimiento_sec_iv",
+                                    "destino": "CORREGIMIENTO"
+                                },
+                                {
+                                    "origen": "vereda_sec_iv",
+                                    "destino": "VEREDA"
+                                },
+                                {
+                                    "origen": "direccion_residencia_sec_iv",
+                                    "destino": "DIRECCION_RESIDENCIA"
+                                },
+                                {
+                                    "origen": "domicilio_notificacion_sec_iv",
+                                    "destino": "DOMICILIO_NOTIFICACION"
+                                },
+                                {
+                                    "origen": "telefono1_sec_iv",
+                                    "destino": "TELEFONO1"
+                                },
+                                {
+                                    "origen": "telefono2_sec_iv",
+                                    "destino": "TELEFONO2"
+                                },
+                                {
+                                    "origen": "correo_electronico_sec_iv",
+                                    "destino": "CORREO_ELECTRONICO"
+                                },
+                                {
+                                    "origen": "autoriza_notificaciones_sec_iv",
+                                    "destino": "AUTORIZA_NOTIFICACION_CORREO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 44,
+                    "idRelacionOrigen": 8,
+                    "origenHija": "derecho_sec_iv",
+                    "destinoHija": "Derecho",
+                    "llaveRelacionOrigen": "globalid_lc_derecho",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "U",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "ParentGlobalID",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_PREDIOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "descripcion_derecho_sec_iv",
+                            "destino": "Descripcion"
+                        },
+                        {
+                            "origen": "derecho_tenencia_sec_iv",
+                            "destino": "Tipo"
+                        },
+                        {
+                            "origen": "fraccion_derecho_sec_iv",
+                            "destino": "Fraccion_Derecho"
+                        },
+                        {
+                            "origen": "fecha_ejerce_rela_ten_sec_iv",
+                            "destino": "Fecha_Inicio_Tenencia"
+=======
+                        },
+                        {
+                            "origen": "nombre_predio_dir_sec_iv",
+                            "destino": "NOMBRE_PREDIO"
+>>>>>>> ad243011dc9a6a645073c47eb1ec62e3dfc7653e:src/ImportarSurvey/esri/toolboxes/_inyeccion.json
+                        }
+                    ]
+                },
+                {
+                    "idRelacionDestino": 57,
+                    "origenHija": "restriccion_sec_iv",
+                    "destinoHija": "Restricción",
+                    "llaveRelacionOrigen": "globalid_lc_restriccion",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "CU",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "1-M",
+                        "llaveForaneaHija": "LC_PREDIOGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_restriccion",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_restriccion",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "restriccion_tenencia_sec_iv",
+                            "destino": "TIPO"
+                        },
+                        {
+                            "origen": "descripcion_restriccion_sec_iv",
+                            "destino": "DESCRIPCION"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": []
+                },
+                {
+                    "idRelacionDestino": 46,
+                    "idRelacionOrigen": 9,
+                    "origenHija": "fuente_administrativa_sec_iv",
+                    "destinoHija": "Fuente Administrativa",
+                    "llaveRelacionOrigen": "globalid_lc_fuenteadmin",
+                    "llaveRelacionDestino": "GLOBALID",
+                    "tipoOperacion": "CU",
+                    "llavePrimariaOrigen": "globalid",
+                    "llaveForaneaOrigen": "parentglobalid",
+                    "llavePrimariaDestino": "GLOBALID",
+                    "esllaveForaneaOrigenGuid": "True",
+                    "llaveEsGuid": "True",
+                    "detalleRelacion": {
+                        "cardinalidad": "M-M",
+                        "tipoOperacion": "CU",
+                        "relationshipClass": "lcpredio_lcfuenteadmin",
+                        "llaveForaneaPadre": "LC_PREDIOGUID",
+                        "llaveForaneaHija": "LC_FUENTEADMINISTRATIVAGUID"
+                    },
+                    "campos": [
+                        {
+                            "origen": "espacio_nombres_fadmin",
+                            "destino": "ESPACIO_DE_NOMBRES",
+                            "valor_predeterminado": "AMCO"
+                        },
+                        {
+                            "origen": "local_id_fadmin",
+                            "destino": "LOCAL_ID",
+                            "valor_predeterminado": "."
+                        },
+                        {
+                            "origen": "tipo_documento_fa_sec_iv",
+                            "destino": "COL_TIPO"
+                        },
+                        {
+                            "origen": "ente_emisor_sec_iv",
+                            "destino": "ENTE_EMISOR"
+                        },
+                        {
+                            "origen": "observacion_fa_sec_iv",
+                            "destino": "OBSERVACION"
+                        },
+                        {
+                            "origen": "cual_doc_soportan_rel_sec_iv",
+                            "destino": "TIPO"
+                        },
+                        {
+                            "origen": "numero_de_documento_sec_iv",
+                            "destino": "NUMERO_FUENTE"
+                        },
+                        {
+                            "origen": "estado_disponibilidad_sec_iv",
+                            "destino": "ESTADO_DISPONIBILIDAD"
+                        },
+                        {
+                            "origen": "tipo_principal_sec_iv",
+                            "destino": "TIPO_PRINCIPAL"
+                        },
+                        {
+                            "origen": "fecha_documento_sec_iv",
+                            "destino": "FECHA_DOCUMENTO_FUENTE"
+                        }
+                    ],
+                    "relacionesDestino": [],
+                    "relacionesOrigen": []
+                }
+            ]
+        }
+    ]
+}
