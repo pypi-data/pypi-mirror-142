@@ -1,0 +1,3 @@
+[console_scripts]
+logs_check_plugin = logs_check.__main__:main
+

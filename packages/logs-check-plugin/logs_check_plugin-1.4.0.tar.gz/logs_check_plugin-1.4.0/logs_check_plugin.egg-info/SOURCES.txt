@@ -1,0 +1,12 @@
+README.rst
+setup.py
+logs_check/VERSION
+logs_check/__init__.py
+logs_check/__main__.py
+logs_check/logs_check.py
+logs_check_plugin.egg-info/PKG-INFO
+logs_check_plugin.egg-info/SOURCES.txt
+logs_check_plugin.egg-info/dependency_links.txt
+logs_check_plugin.egg-info/entry_points.txt
+logs_check_plugin.egg-info/not-zip-safe
+logs_check_plugin.egg-info/top_level.txt
