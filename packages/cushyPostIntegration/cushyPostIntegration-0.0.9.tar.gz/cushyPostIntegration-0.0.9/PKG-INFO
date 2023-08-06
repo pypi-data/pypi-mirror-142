@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: cushyPostIntegration
+Version: 0.0.9
+Summary: Integration of the services of CushyPost
+Home-page: https://github.com/Amedeo91/cushypost_integration
+Author: Amedeo Bussi
+Author-email: amedeobussi@gmail.com
+License: MIT
+Download-URL: https://github.com/Amedeo91/cushypost_integration/archive/refs/tags/V_0.0.9.tar.gz
+Description: UNKNOWN
+Keywords: cushyPost,shipping,shipping costs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
