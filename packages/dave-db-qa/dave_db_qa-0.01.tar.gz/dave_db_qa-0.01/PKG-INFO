@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dave_db_qa
+Version: 0.01
+Summary: UNKNOWN
+Home-page: https://github.com/davidglevy/databricks-qa
+Author: David Levy
+Author-email: david.g.levy@gmail.com
+License: agpl-3.0
+Download-URL: https://github.com/davidglevy/databricks-qa/archive/v_0.01.tar.gz
+Description: UNKNOWN
+Keywords: UTILITY,DATABRICKS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
