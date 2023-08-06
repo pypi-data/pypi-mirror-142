@@ -1,0 +1,10 @@
+pandas
+xarray==0.17
+numpy
+klausen
+xlrd
+numexpr
+bw2io
+prettytable
+wurst
+pycountry
