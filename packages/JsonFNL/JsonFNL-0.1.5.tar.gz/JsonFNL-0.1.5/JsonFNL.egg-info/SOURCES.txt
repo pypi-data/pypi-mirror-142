@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+JsonFNL.egg-info/PKG-INFO
+JsonFNL.egg-info/SOURCES.txt
+JsonFNL.egg-info/dependency_links.txt
+JsonFNL.egg-info/top_level.txt
+json_fnl/__init__.py
+json_fnl/__main__.py
