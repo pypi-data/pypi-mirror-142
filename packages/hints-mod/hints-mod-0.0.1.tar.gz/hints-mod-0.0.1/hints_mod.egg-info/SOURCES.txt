@@ -1,0 +1,10 @@
+LICENSE
+README.md
+hints.py
+pyproject.toml
+setup.cfg
+setup.py
+hints_mod.egg-info/PKG-INFO
+hints_mod.egg-info/SOURCES.txt
+hints_mod.egg-info/dependency_links.txt
+hints_mod.egg-info/top_level.txt
