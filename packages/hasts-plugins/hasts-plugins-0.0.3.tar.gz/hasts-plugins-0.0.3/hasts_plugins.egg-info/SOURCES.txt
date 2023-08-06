@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./hasts/__init__.py
+./hasts/plugins/__init__.py
+./hasts/plugins/version.py
+./hasts/plugins/manager/__init__.py
+./hasts/plugins/plugin/__init__.py
+./hasts/plugins/services/__init__.py
+./hasts/plugins/services/flaskapp.py
+./tests/__init__.py
+hasts_plugins.egg-info/PKG-INFO
+hasts_plugins.egg-info/SOURCES.txt
+hasts_plugins.egg-info/dependency_links.txt
+hasts_plugins.egg-info/requires.txt
+hasts_plugins.egg-info/top_level.txt
