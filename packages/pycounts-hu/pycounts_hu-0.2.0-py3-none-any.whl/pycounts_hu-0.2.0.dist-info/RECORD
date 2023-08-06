@@ -1,0 +1,10 @@
+pycounts_hu/__init__.py,sha256=aiJja0KFKhRo2U3jgzMXL7s0msB_tmYiRLUa68vxoUE,232
+pycounts_hu/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycounts_hu/data/flatland.txt,sha256=7gsDuUlK0d1-A402WmChYvRNgSYts6wBIlAbwmhyoCk,213186
+pycounts_hu/datasets.py,sha256=A0U6sOoai4AOFP-mrAXBMx0zQ3lgrkpDoBrZRSFPCZ4,391
+pycounts_hu/plotting.py,sha256=U0UXBqLIMq-gYG6dgguiUGfF1IRRIrC_WXHpmrV93Lc,962
+pycounts_hu/pycounts.py,sha256=ZAa7cBFXEzz4ioPS1MH88QwaPE0SsLjXBfE6hNiX184,1418
+pycounts_hu-0.2.0.dist-info/LICENSE,sha256=i-UcadkNX31eJFzDjCEbKyF-F4Al7Tsm-BXEIe18Dzk,1066
+pycounts_hu-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pycounts_hu-0.2.0.dist-info/METADATA,sha256=P-A3gKhhKBonODmjhH9hWet8HCqW3GCEcv_vKNpjfNY,1415
+pycounts_hu-0.2.0.dist-info/RECORD,,
