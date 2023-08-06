@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ecoserver
+Version: 1.0.0
+Summary: Eco Game API
+Home-page: 
+Author-email: 
+License: UNKNOWN
+Keywords: Swagger,Eco Game API
+Platform: UNKNOWN
+Requires-Dist: certifi (>=2017.4.17)
+Requires-Dist: python-dateutil (>=2.1)
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.23)
+
+    First API draft for Eco. Heavy work in progress and subject to changes.  # noqa: E501
+    
+
