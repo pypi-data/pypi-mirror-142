@@ -1,0 +1,14 @@
+dracula/__init__.py,sha256=HQ-RTs_c5UkjCYJM9siJUkDpzNhk0KCnQ0SgQBTWoy4,208
+dracula/__main__.py,sha256=nQaNWb4dOxD4hsf7jJsg5WdW0igX5iyrSzFqwX8OHXo,130
+dracula/_cli.py,sha256=4FARZj2tdq-tqDot6TE9FeRyYh1tgJLc7yIeHi0AYyA,19381
+dracula/_colors.py,sha256=YgFlAlhzG9M5IOJvHGrGgprFnnTJJbcwms-IfvyxO-M,48667
+dracula/_downloader.py,sha256=jivwdoPg4WsFUBBI4Pw6rv8j0wkhBb567ffn0alVyrM,2575
+dracula/_tui.py,sha256=km3H0p2B4UBmeDL7ANjn03XxCDZXwBpOjoP5S2bZlVg,5847
+dracula/_typer.py,sha256=G0CRC_PdU7rynHshqo5lYzAtdXxcNk8AL4342zB2RKE,742
+dracula/_utils.py,sha256=Ezocb0xQJ_Hy1a1KHVGoIpUQQIHSJsDZCoN8EY3eT7A,2638
+dracula_cli-0.1.0.dist-info/LICENSE,sha256=lo9h0G21dCl2ALHCy8weS69lphkol4TyBB8PA_2Akt0,1088
+dracula_cli-0.1.0.dist-info/METADATA,sha256=x5G-FBBecQhJoE8WQVB5jEPT6yzvW9DC7md4ZS--1is,3200
+dracula_cli-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dracula_cli-0.1.0.dist-info/entry_points.txt,sha256=dyySbdir0J05I7hVzRrWcgxsEE5TlZr-0IiTNTEYPGA,97
+dracula_cli-0.1.0.dist-info/top_level.txt,sha256=19fg-Yba5bOwhgN7mUy5CbJr19EreXyGfqCKCqPDHQU,8
+dracula_cli-0.1.0.dist-info/RECORD,,
