@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/notch/__init__.py
+src/notch.egg-info/PKG-INFO
+src/notch.egg-info/SOURCES.txt
+src/notch.egg-info/dependency_links.txt
+src/notch.egg-info/top_level.txt
