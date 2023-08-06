@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/messi/__init__.py
+src/messi/ejemplo.py
+src/messirve.egg-info/PKG-INFO
+src/messirve.egg-info/SOURCES.txt
+src/messirve.egg-info/dependency_links.txt
+src/messirve.egg-info/top_level.txt
