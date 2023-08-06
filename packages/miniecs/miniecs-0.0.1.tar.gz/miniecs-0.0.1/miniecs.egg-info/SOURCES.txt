@@ -1,0 +1,7 @@
+setup.py
+miniecs/__init__.py
+miniecs/miniecs.py
+miniecs.egg-info/PKG-INFO
+miniecs.egg-info/SOURCES.txt
+miniecs.egg-info/dependency_links.txt
+miniecs.egg-info/top_level.txt
