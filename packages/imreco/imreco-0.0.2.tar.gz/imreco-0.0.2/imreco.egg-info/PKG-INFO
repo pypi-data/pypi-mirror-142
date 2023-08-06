@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: imreco
+Version: 0.0.2
+Summary: A cli program to resize images and convert between different formats.
+Home-page: https://github.com/tamton-aquib/imreco
+Author: aquib
+Author-email: aquibjavedt007@gmail.com
+License: MIT
+Keywords: image,resizer,converter
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+# Imreco
+
+Image-Resizer-Converter.
+A python cli program to perform basic operations on images using opencv. (WIP)
+
+This project was made possible by: @[shana](https://github.com/Shanayasmin).
+This project was done regarding [tinkerhub co-coder](https://tinkerhub.org/).
+
+### Installation:
+```python
+pip install imreco
+```
+
+### Usage:
+```sh
+# Syntax:
+imreco resize  -i <input_file> -o <output_file> -s 300x400
+imreco convert -i <input_file> -o <output_file> 
+```
+
+### TODOS:
+- [x] Resizer: To change diamension of the provided image, and save it to a new file.
+- [x] Converter: To change file formats from png to jpg, etc.
+- [x] Config: Add user config options. (maybe argparse or typer)
+- [ ] Checks multiple files or a directory.
+
+

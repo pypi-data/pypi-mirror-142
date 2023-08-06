@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+imreco/__init__.py
+imreco/imreco.py
+imreco.egg-info/PKG-INFO
+imreco.egg-info/SOURCES.txt
+imreco.egg-info/dependency_links.txt
+imreco.egg-info/entry_points.txt
+imreco.egg-info/requires.txt
+imreco.egg-info/top_level.txt
