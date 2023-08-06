@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+2022.03.0
+---------
+
+* Use new countries table, rather than the two previous tables. (#63)
