@@ -1,0 +1,8 @@
+setup.py
+Shmyaks.egg-info/PKG-INFO
+Shmyaks.egg-info/SOURCES.txt
+Shmyaks.egg-info/dependency_links.txt
+Shmyaks.egg-info/not-zip-safe
+Shmyaks.egg-info/top_level.txt
+module/__init__.py
+module/shmyaks.py
