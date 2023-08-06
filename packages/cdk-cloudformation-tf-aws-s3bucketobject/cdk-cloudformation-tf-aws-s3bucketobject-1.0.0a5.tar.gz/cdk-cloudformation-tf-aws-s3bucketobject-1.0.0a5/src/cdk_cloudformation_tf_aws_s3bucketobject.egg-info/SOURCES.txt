@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_tf_aws_s3bucketobject/__init__.py
+src/cdk_cloudformation_tf_aws_s3bucketobject/py.typed
+src/cdk_cloudformation_tf_aws_s3bucketobject.egg-info/PKG-INFO
+src/cdk_cloudformation_tf_aws_s3bucketobject.egg-info/SOURCES.txt
+src/cdk_cloudformation_tf_aws_s3bucketobject.egg-info/dependency_links.txt
+src/cdk_cloudformation_tf_aws_s3bucketobject.egg-info/requires.txt
+src/cdk_cloudformation_tf_aws_s3bucketobject.egg-info/top_level.txt
+src/cdk_cloudformation_tf_aws_s3bucketobject/_jsii/__init__.py
+src/cdk_cloudformation_tf_aws_s3bucketobject/_jsii/tf-aws-s3bucketobject@1.0.0-alpha.5.jsii.tgz
