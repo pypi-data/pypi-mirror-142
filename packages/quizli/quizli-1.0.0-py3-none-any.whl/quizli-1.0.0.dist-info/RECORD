@@ -1,0 +1,11 @@
+quizli/__init__.py,sha256=l6N8QfPTIOqt3CvC3vUgnenydN3y_TMv0m5yF2tQTVY,26
+quizli/examples.py,sha256=p0gO4YF3WsLtQAoxdmj9CrlyfmRERqLZ6pUAp-uyKXE,3633
+quizli/layout.py,sha256=MVtvPP0G-4eRAYopd5gBuxoO_unqfiZllZqAb76Qv6U,6999
+quizli/main.py,sha256=rxYBeBzwMzZgflw3irnbaSIoCtxR-g4R7u9Iz9mSGqY,3485
+quizli/quiz.py,sha256=6QRvQc1k6lZE73ZaWZs0Y458Z8TUhwhIDMEfz4SMf1Q,4623
+quizli/session.py,sha256=ta66euet0IqxLQVMu8BedVhtKua6l8GPWNTAvF8Syjs,2267
+quizli/utils.py,sha256=HvWGOSUQjf-1ncK90N6Dp2N0C-KGDq5Xp295-QFEc3c,1633
+quizli-1.0.0.dist-info/entry_points.txt,sha256=iNlHU2VzWZrskmuW2s26fas3NjOLrvu1unAGDuWANdw,42
+quizli-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+quizli-1.0.0.dist-info/METADATA,sha256=GzI6Be0waZczdKUaN9L3jVtNk9fQMy5QFzQM-Ywnbzo,4840
+quizli-1.0.0.dist-info/RECORD,,
