@@ -1,0 +1,12 @@
+include tssenrich/hg38.refFlat.txt.gz
+include tssenrich/hg38.refFlat.sql
+include tssenrich/hg19.refFlat.txt.gz
+include tssenrich/hg19.refFlat.sql
+include tssenrich/mm10.refFlat.txt.gz
+include tssenrich/mm10.refFlat.sql
+include tssenrich/hg38.bed12.bed.gz
+include tssenrich/hg19.bed12.bed.gz
+include tssenrich/mm10.bed12.bed.gz
+include tssenrich/hg38.full.bed12.bed.gz
+include tssenrich/hg19.full.bed12.bed.gz
+include tssenrich/mm10.full.bed12.bed.gz
