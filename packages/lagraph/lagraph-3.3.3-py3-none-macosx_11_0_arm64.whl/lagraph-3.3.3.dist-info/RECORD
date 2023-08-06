@@ -1,0 +1,10 @@
+lagraph-3.3.3.data/purelib/lagraph/__init__.py,sha256=03YcIgtA3uCayecpzD7m7NXpNR-76QzAFzSCJxWQm2U,867
+lagraph.include/GraphBLAS.h,sha256=e9-52iz1p8BEtWS5KXQT7UD1OotWQ9nFjAf9DMe1my4,423352
+lagraph.include/LAGraph.h,sha256=gbAmkDMGSIUy_JdozIywKLPE-Hne60RRzvcgLe14T04,56127
+lagraph.libs/libgraphblas.3.3.3.dylib,sha256=9j0ZT7Eu40OAP6Kb_ptkxSVJ2M0p2UpOsYSZ5iPZ4GE,46252592
+lagraph.libs/liblagraph.0.1.0.dylib,sha256=IZ1wnWfQf5nJTLFrpWdv3eJAKFmB_I48awb-oocJmnY,321168
+lagraph-3.3.3.dist-info/LICENSE,sha256=eRrtsZymhnjMN7a8lKWoJdXxs57xtAu9QS3mIEQq8pc,1073
+lagraph-3.3.3.dist-info/METADATA,sha256=x6KpS5dzdG2FlELBjyL9hL3mmeaBf_p15vKIvxLzK8M,391
+lagraph-3.3.3.dist-info/WHEEL,sha256=xnYoopvhNaH6LJQ4T3V2mVuVzMEZkkd5v6h_Wq9PtK4,107
+lagraph-3.3.3.dist-info/top_level.txt,sha256=Gt8Qm-fEY_dEerdRlntG775eFlFp6jix6a_7zc3YZ4U,8
+lagraph-3.3.3.dist-info/RECORD,,
