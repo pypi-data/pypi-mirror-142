@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: genbit
+Version: 2.1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/microsoft/responsibleaitoolbox-genbit
+Author: Microsoft
+Author-email: raiwidgets-maintain@microsoft.com
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+
+Main goal of the Gender Bias Tool (GenBiT) is to analyze corpora and compute metrics that give insights into the gender bias present in a corpus.
+ 
+For more information please visithttps://github.com/microsoft/responsibleaitoolbox-genbit. 
+
