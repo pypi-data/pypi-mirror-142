@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: TKEanalyst
+Version: 1.0.3
+Summary: Analyze turbulent kinetic energy from ADV measurements
+Home-page: https://TKEanalyst.readthedocs.io/
+Author: sschwindt
+Author-email: schwindt.water@gmail.com
+License: BSD License
+Project-URL: Documentation, https://TKEanalyst.readthedocs.io/
+Project-URL: Funding, https://hydro-informatics.com/
+Project-URL: Source, https://github.com/sschwindt/TKEanalyst
+Project-URL: Tracker, https://github.com/sschwindt/TKEanalyst/issues
+Description: 
+        # TKEanalyst
+        
+        Read the detailed Python code docs at https://tke-calculator.readthedocs.io/
+        
+        
+        ## Requirements
+        
+        Python `>=3.6`
+        NumPy `>=1.20`
+        Pandas `>=1.4.1`
+        
+        ## Usage
+        
+        * Adapt the input parameters in `input.xlsx`
+        * Run the main script `python profile_analyst.py`
+        
+        ## Comparison of Matlab and Python scripts
+        
+        The Matlab codes correspond to the following Python files.
+        
+        | Matlab file | Python file                |
+        |-------------|----------------------------|
+        | main_LP.m   | profile_analyst.py         |
+        | flowstat.m  | flowstat.py                |
+        | rmspike.m   | rmspike.py                 |
+        
+        In addition, the following Python files were added:
+        
+        * `config.py` contains global variables
+        * `profile_plotter.py` contains plot functions that were originally in `main_LP.m`
+        
+Keywords: acoustic doppler velocimetry,ADV,Vectrino,turbulent kinetic energy,spikes,despiking
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
