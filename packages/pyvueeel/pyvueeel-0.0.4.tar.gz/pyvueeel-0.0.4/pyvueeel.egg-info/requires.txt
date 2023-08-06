@@ -1,0 +1,6 @@
+mydatapreprocessing>=2.0.9
+mylogging>=4.0.2
+mypythontools>=1.0.0
+EelForkExcludeFiles
+numpy
+pandas
