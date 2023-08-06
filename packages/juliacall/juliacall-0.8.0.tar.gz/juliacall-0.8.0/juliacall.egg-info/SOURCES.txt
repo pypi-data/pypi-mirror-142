@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+juliacall/__init__.py
+juliacall/juliapkg.json
+juliacall/matplotlib.py
+juliacall.egg-info/PKG-INFO
+juliacall.egg-info/SOURCES.txt
+juliacall.egg-info/dependency_links.txt
+juliacall.egg-info/not-zip-safe
+juliacall.egg-info/requires.txt
+juliacall.egg-info/top_level.txt
