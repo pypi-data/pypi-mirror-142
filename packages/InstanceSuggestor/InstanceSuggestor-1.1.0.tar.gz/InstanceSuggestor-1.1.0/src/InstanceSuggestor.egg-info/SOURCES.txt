@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/InstanceSuggestor/InstanceSuggestor.py
+src/InstanceSuggestor/__init__.py
+src/InstanceSuggestor/suggest.py
+src/InstanceSuggestor.egg-info/PKG-INFO
+src/InstanceSuggestor.egg-info/SOURCES.txt
+src/InstanceSuggestor.egg-info/dependency_links.txt
+src/InstanceSuggestor.egg-info/not-zip-safe
+src/InstanceSuggestor.egg-info/requires.txt
+src/InstanceSuggestor.egg-info/top_level.txt
