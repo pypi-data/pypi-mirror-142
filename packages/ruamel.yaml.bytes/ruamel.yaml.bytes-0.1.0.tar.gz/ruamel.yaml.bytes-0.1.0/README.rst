@@ -1,0 +1,56 @@
+
+ruamel.yaml.bytes
+=================
+
+This plug-in adds a method ``dump_to_bytes`` to the ``ruamel.yaml.YAML`` instance
+that returns a (UTF-8) bytes array
+
+Installation
+============
+
+The module can be installed from PyPI using::
+
+    pip install ruamel.yaml.bytes
+
+This module is dependent on ``ruamel.yaml``, so you do not have to explicitly
+make your module depending on both.
+
+Usage
+=====
+
+::
+
+  import ruamel.yaml
+
+  yaml = ruamel.yaml.YAML(typ=['rt', 'bytes'])
+  data  = dict(abc=42, help=['on', 'its', 'way'])
+  print('retval', yaml.dump_to_bytes(data).decode('utf-8'))
+  print('>>>> done')
+
+which gives::
+
+  retval abc: 42
+  help:
+  - on
+  - its
+  - way
+  >>>> done
+
+
+Please note that there is no final newline added to the bytes
+array returned, and that the ``>>>> done`` is on the next line is caused by
+the `print()` function adding a newline by default. Alternatively the
+first call to ``print`` could be::
+
+  print('retval', yaml.dump_to_bytes(data, add_final_eol=True).decode('utf-8'), end='')
+
+with the same effect.
+
+`.dump_to_bytes()` can be shortened to `.dumpb()`
+
+
+ChangeLog
+=========
+
+NEXT:
+  - initial plug-in version

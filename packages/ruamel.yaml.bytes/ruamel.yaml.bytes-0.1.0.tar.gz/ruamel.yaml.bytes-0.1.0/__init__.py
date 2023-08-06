@@ -1,0 +1,23 @@
+# coding: utf-8
+
+_package_data = dict(
+    full_package_name='ruamel.yaml.bytes',
+    version_info=(0, 1, 0),
+    __version__='0.1.0',
+    author='Anthon van der Neut',
+    author_email='a.van.der.neut@ruamel.eu',
+    description='add dump_to_bytes method that returns UTF-8 encoded bytes array',
+    entry_points=None,
+    license='MIT',
+    since=2021,
+    universal=True,
+    keywords='yaml 1.2 dump python bytes',
+    nested=True,
+    install_requires=['ruamel.yaml>=0.17.17'],
+    python_requires='>=3',
+    tox=dict(env='3'),
+)
+
+
+version_info = _package_data['version_info']
+__version__ = _package_data['__version__']
