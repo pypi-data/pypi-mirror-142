@@ -1,0 +1,3 @@
+[console_scripts]
+flashyfly = scripts.flashyfly:__main__
+
