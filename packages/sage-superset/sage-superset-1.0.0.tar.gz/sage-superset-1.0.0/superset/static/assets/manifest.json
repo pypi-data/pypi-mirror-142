@@ -1,0 +1,97 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/preamble.6cbb5aff.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/theme.9163f21b.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-e932c6.5bf40ecd.entry.js",
+        "/static/assets/src_dashboard_actions_hydrate_js.64718144.entry.js",
+        "/static/assets/menu.0c654947.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-e932c6.5bf40ecd.entry.js",
+        "/static/assets/src_dashboard_actions_hydrate_js.64718144.entry.js",
+        "/static/assets/src_modules_utils_js-node_modules_moment_locale_sync_recursive_-node_modules_react-router-dom-fd68f1.46392ffe.entry.js",
+        "/static/assets/spa.77bef6da.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-e932c6.5bf40ecd.entry.js",
+        "/static/assets/src_dashboard_actions_hydrate_js.64718144.entry.js",
+        "/static/assets/src_modules_utils_js-node_modules_moment_locale_sync_recursive_-node_modules_react-router-dom-fd68f1.46392ffe.entry.js",
+        "/static/assets/embedded.40d7225f.entry.js"
+      ]
+    },
+    "addSlice": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/thumbnail.f7bfae86.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/vendors-node_modules_d3-tip_index_js-node_modules_dompurify_dist_purify_js-node_modules_echar-a756c7.72f0e548.entry.js",
+        "/static/assets/src_setup_setupPlugins_ts.444684fd.entry.js",
+        "/static/assets/addSlice.2d54ef77.entry.js"
+      ]
+    },
+    "explore": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/thumbnail.f7bfae86.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/vendors-node_modules_d3-tip_index_js-node_modules_dompurify_dist_purify_js-node_modules_echar-a756c7.72f0e548.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-e932c6.5bf40ecd.entry.js",
+        "/static/assets/src_dashboard_actions_hydrate_js.64718144.entry.js",
+        "/static/assets/src_setup_setupPlugins_ts.444684fd.entry.js",
+        "/static/assets/explore.a28fc01c.entry.js"
+      ]
+    },
+    "sqllab": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/sqllab.d4da9f40.entry.js"
+      ]
+    },
+    "profile": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ansi-html-community_ind-be20b6.535cf56d.entry.js",
+        "/static/assets/profile.c9384f9f.entry.js"
+      ]
+    },
+    "showSavedQuery": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.b594835b.entry.js",
+        "/static/assets/showSavedQuery.60026ecd.entry.js"
+      ]
+    }
+  }
+}
