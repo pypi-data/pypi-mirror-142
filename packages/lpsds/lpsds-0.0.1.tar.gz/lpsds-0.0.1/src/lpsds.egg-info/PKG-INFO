@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lpsds
+Version: 0.0.1
+Summary: Helper functions for data science projects.
+Home-page: https://github.com/rctorres/fast-ds
+Author: Rodrigo Coura Torres
+Author-email: torres.rc@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rctorres/fast-ds/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fast-ds
+
+## Helper functions for data science projects
+
+Common tools for data science projects.
+
+
