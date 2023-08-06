@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bayesian_bootstrap/__init__.py
+bayesian_bootstrap.egg-info/PKG-INFO
+bayesian_bootstrap.egg-info/SOURCES.txt
+bayesian_bootstrap.egg-info/dependency_links.txt
+bayesian_bootstrap.egg-info/requires.txt
+bayesian_bootstrap.egg-info/top_level.txt
