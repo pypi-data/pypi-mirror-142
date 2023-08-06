@@ -1,0 +1,5 @@
+Django
+ijson
+jsonschema
+psutil
+requests
