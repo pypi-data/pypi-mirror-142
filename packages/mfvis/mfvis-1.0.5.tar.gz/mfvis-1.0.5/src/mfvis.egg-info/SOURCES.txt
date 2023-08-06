@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mfvis.egg-info/PKG-INFO
+src/mfvis.egg-info/SOURCES.txt
+src/mfvis.egg-info/dependency_links.txt
+src/mfvis.egg-info/entry_points.txt
+src/mfvis.egg-info/requires.txt
+src/mfvis.egg-info/top_level.txt
