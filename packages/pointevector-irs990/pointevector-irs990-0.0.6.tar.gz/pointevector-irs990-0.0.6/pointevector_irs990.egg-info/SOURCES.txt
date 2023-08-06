@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pointevector/irs990/__init__.py
+pointevector/irs990/__main__.py
+pointevector/irs990/_build_cache.py
+pointevector/irs990/_build_index.py
+pointevector/irs990/_validate_config.py
+pointevector_irs990.egg-info/PKG-INFO
+pointevector_irs990.egg-info/SOURCES.txt
+pointevector_irs990.egg-info/dependency_links.txt
+pointevector_irs990.egg-info/requires.txt
+pointevector_irs990.egg-info/top_level.txt
