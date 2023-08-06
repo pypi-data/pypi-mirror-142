@@ -1,0 +1,17 @@
+dokklib_db/__init__.py,sha256=UJ_iuG6f_QOfkbsNtGsFds-o-8-kZROiRMLj2EnxVvs,604
+dokklib_db/index.py,sha256=wwkab1Y18N13xZOlijGP4yk-1MbbabhXE1GZyQ1WjF8,1559
+dokklib_db/keys.py,sha256=bAIiOREoZvcATjJtFOiErb3pjJnDFaJ9nhG4mtpc2xc,5269
+dokklib_db/op_args.py,sha256=PWYxOIMppourKFAjzhV8xby5s3c1sAw9P6PBLagUJXo,14535
+dokklib_db/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dokklib_db/serializer.py,sha256=9Vt0zXqnwQ03ghfdmJk_cGN8DbdS4YdT4OKS8i-RraA,2509
+dokklib_db/table.py,sha256=VAWR-emLchow86wsbMNt8waZR8xLgrpWFeXlEyamzZc,16925
+dokklib_db/errors/__init__.py,sha256=SU3P6mn5IYok6bdz1PXiqMi9U04Oauoxc96Mt5YSnbs,284
+dokklib_db/errors/client.py,sha256=UpXaB3aZ04msnqxYgpNat1spu8S9jKXpyXevFQsjPvM,610
+dokklib_db/errors/exceptions.py,sha256=30bMA4nLU0bc0iS2vLqM22HwXkoY5ypcb1GXUUTpsJg,2926
+dokklib_db/errors/transaction.py,sha256=xZMWkUabuyAH4HsNAGwiTJbSH_mSKpsf_X-OWhrUEs4,3499
+dokklib_db-0.0.15.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dokklib_db-0.0.15.dist-info/METADATA,sha256=2IRmag5Afz89spAwLKo83yUdfbRCEKl74xmND-FbJbA,3626
+dokklib_db-0.0.15.dist-info/NOTICE,sha256=3J31SpCp1jwqJ0BkqZynQqAlIoLJCdRdd4iym63eEl4,59
+dokklib_db-0.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dokklib_db-0.0.15.dist-info/top_level.txt,sha256=B4rlO076tLz7rqGkkhM9IUDSIHpgAsUgKwMAq8v9n70,11
+dokklib_db-0.0.15.dist-info/RECORD,,
