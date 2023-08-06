@@ -1,0 +1,5 @@
+pybuild-0.0.1.dist-info/METADATA,sha256=lIk8mw00C8xSOzh_Zoz6pPuRJlyrcBlb7wNp45uGEeY,13049
+pybuild-0.0.1.dist-info/WHEEL,sha256=Vt48aqjY9B2Y1k64hSo7st-QhdUBs_3_NyETGCcvCv8,104
+pybuild/__init__.py,sha256=Sif-Egt0kNRicNqx0-oI_e8dfccrd1l_CH8pv7A65P8,50
+pybuild/pybuild.abi3.so,sha256=aI7_YXjoiaoivaau_6B22BKF6nN5AD30P_75rDw-ZqQ,318584
+pybuild-0.0.1.dist-info/RECORD,,
