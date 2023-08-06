@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_tf_cloudflare_record/__init__.py
+src/cdk_cloudformation_tf_cloudflare_record/py.typed
+src/cdk_cloudformation_tf_cloudflare_record.egg-info/PKG-INFO
+src/cdk_cloudformation_tf_cloudflare_record.egg-info/SOURCES.txt
+src/cdk_cloudformation_tf_cloudflare_record.egg-info/dependency_links.txt
+src/cdk_cloudformation_tf_cloudflare_record.egg-info/requires.txt
+src/cdk_cloudformation_tf_cloudflare_record.egg-info/top_level.txt
+src/cdk_cloudformation_tf_cloudflare_record/_jsii/__init__.py
+src/cdk_cloudformation_tf_cloudflare_record/_jsii/tf-cloudflare-record@1.0.0-alpha.5.jsii.tgz
