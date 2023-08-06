@@ -1,0 +1,13 @@
+README.rst
+setup.py
+Seneca/__init__.py
+Seneca/Modules/__init__.py
+Seneca/Modules/answers.py
+Seneca/Modules/info.py
+Seneca/Modules/locations.py
+Seneca/Modules/token.py
+SenecaPy.egg-info/PKG-INFO
+SenecaPy.egg-info/SOURCES.txt
+SenecaPy.egg-info/dependency_links.txt
+SenecaPy.egg-info/requires.txt
+SenecaPy.egg-info/top_level.txt
