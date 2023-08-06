@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+simple_pypackage/__init__.py
+simple_pypackage.egg-info/PKG-INFO
+simple_pypackage.egg-info/SOURCES.txt
+simple_pypackage.egg-info/dependency_links.txt
+simple_pypackage.egg-info/not-zip-safe
+simple_pypackage.egg-info/top_level.txt
