@@ -1,0 +1,8 @@
+falcon_api_browse/__init__.py,sha256=qZkFcurpJulyH67bE8hvysA9H1uqJxxvYgUh28gTugU,110
+falcon_api_browse/middleware.py,sha256=v8BFg0EfCGLsbx3XTcruflbsYU6n8rTHRSEevSZUGfg,821
+falcon_api_browse/templates/base.html,sha256=RQ5PbGlOQBJ52euuq0JKaZNupJe87T0zx9YWz-SEdFM,924
+falcon_api_browse/views.py,sha256=OERz8PgCXZZeRf01QLoayaJ2xj9gZrUEJR8d4wXzfcg,1648
+falcon_api_browse-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+falcon_api_browse-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+falcon_api_browse-0.1.0.dist-info/METADATA,sha256=WtMu41qd7Xko3r1IhyCYBoeiKJaJBDo2EFCNaMu8sok,611
+falcon_api_browse-0.1.0.dist-info/RECORD,,
