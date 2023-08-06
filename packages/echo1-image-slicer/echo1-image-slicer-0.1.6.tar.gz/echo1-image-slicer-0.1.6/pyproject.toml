@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "echo1-image-slicer"
+version = "0.1.6"
+description = ""
+authors = ["Michael Mohamed <michael.mohamed@echo1.io>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/e1-io/echo1-image-slicer"
+repository = "https://github.com/e1-io/echo1-image-slicerr"
+
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.scripts]
+image-slicer = 'echo1_image_slicer.echo1_image_slicer:app'
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+loguru = "^0.6.0"
+numpy = "^1.22.2"
+Pillow = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pytest = ">=5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+'''
