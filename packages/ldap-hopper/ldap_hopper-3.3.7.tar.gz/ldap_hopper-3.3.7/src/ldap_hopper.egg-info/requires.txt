@@ -1,0 +1,8 @@
+python-ldap
+
+[dev]
+build
+ipython
+prompt-toolkit
+pylint
+twine
