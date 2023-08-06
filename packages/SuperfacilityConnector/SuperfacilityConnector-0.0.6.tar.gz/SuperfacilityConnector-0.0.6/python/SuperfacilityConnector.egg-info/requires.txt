@@ -1,0 +1,6 @@
+authlib
+requests
+click
+tabulate
+pandas
+numpy
