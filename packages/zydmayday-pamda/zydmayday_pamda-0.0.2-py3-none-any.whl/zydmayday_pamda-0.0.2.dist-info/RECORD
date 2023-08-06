@@ -1,0 +1,12 @@
+pamda/__init__.py,sha256=Bllril-_SSMmBwxeIZI9zwWpzg3qRMkUymSM8qHbL7o,52
+pamda/curry.py,sha256=xFgjma14hO8p5J7loisXFQtPtgjWg_y6Hmhj55aCmIg,431
+pamda/curryN.py,sha256=PzvoiBpXr9fieQ27ztF-kT5JmBFmavkCIdx3o3cYuUc,2195
+pamda/private/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_curry.py,sha256=gK6401w_V-SDmCDfR08WgftjH94y0euz2CHPztkgR_4,1612
+test/test_curryN.py,sha256=kH3dr5czHMcUkmc0sLX5QApy_3ptDc5_0fgkefKegnY,1128
+zydmayday_pamda-0.0.2.dist-info/LICENSE,sha256=WkON_8eNi0nxt_VysCxi_H6BU-kghVvVz9iavm0M5vc,1061
+zydmayday_pamda-0.0.2.dist-info/METADATA,sha256=fMLO_qWWPYEs2f0GcNqWw81izIJbU_G_gxBUSrjmJjU,539
+zydmayday_pamda-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zydmayday_pamda-0.0.2.dist-info/top_level.txt,sha256=yzATnYmGF92k0YyeEo2pSYWu96299zt7-t6zwYq6iQ4,11
+zydmayday_pamda-0.0.2.dist-info/RECORD,,
