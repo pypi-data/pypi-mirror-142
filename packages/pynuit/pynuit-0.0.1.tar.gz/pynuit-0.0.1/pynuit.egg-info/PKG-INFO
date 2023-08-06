@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynuit
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/louisdevie/minuitpy
+Author: Louis DEVIE
+Author-email: louisdevie.contact@gmail.com
+License: MIT
+Description: # minuit.py
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

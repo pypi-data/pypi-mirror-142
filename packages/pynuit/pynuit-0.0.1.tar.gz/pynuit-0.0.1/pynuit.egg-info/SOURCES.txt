@@ -1,0 +1,8 @@
+README.md
+setup.py
+pynuit/__init__.py
+pynuit.egg-info/PKG-INFO
+pynuit.egg-info/SOURCES.txt
+pynuit.egg-info/dependency_links.txt
+pynuit.egg-info/requires.txt
+pynuit.egg-info/top_level.txt
