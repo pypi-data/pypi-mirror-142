@@ -1,0 +1,1 @@
+cdk_cloudformation_jfrog_artifactory_ec2instance_module
