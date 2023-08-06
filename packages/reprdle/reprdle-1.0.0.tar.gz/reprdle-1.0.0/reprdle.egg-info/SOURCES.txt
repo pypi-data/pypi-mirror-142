@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+reprdle.egg-info/PKG-INFO
+reprdle.egg-info/SOURCES.txt
+reprdle.egg-info/dependency_links.txt
+reprdle.egg-info/requires.txt
+reprdle.egg-info/top_level.txt
