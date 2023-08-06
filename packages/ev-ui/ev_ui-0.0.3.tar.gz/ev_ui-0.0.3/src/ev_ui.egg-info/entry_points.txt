@@ -1,0 +1,2 @@
+[console_scripts]
+ev = ev_ui.ev:main
