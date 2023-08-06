@@ -1,0 +1,12 @@
+version: 2
+
+models:
+{%- for table in tables %}
+  - name: {{ table["name"] }}
+    description: "{{ table.get('description', '') }}"
+    columns:
+      {%- if table.get("pkeys") %}
+      - name: {{ table["pkeys"] }}
+        tests: ["unique", "not_null"]
+      {%- endif %}
+{% endfor %}
