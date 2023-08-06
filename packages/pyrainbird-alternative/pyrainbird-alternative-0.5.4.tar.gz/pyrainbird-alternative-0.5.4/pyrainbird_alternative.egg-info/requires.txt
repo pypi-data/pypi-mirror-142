@@ -1,0 +1,4 @@
+pycryptodome
+requests~=2.22
+datetime~=4.3
+PyYAML~=6.0
