@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbl-waterbear
+Version: 0.1
+Summary: Automated provisioning of an industry Lakehouse with enterprise data model
+Home-page: https://github.com/databrickslabs/waterbear
+Author: Antoine Amend
+Author-email: antoine.amend@databricks.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Other/Proprietary License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
