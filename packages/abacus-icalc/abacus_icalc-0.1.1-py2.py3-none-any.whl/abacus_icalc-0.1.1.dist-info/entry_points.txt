@@ -1,0 +1,6 @@
+[console_scripts]
+abacus=abacus:main
+
+[gui_scripts]
+abacus-gui=abacus:main_gui
+
