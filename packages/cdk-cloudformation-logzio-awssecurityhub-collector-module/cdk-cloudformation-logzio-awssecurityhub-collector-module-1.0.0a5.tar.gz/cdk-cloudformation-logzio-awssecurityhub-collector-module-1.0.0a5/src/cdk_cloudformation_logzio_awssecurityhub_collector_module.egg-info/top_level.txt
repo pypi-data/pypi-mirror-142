@@ -1,0 +1,1 @@
+cdk_cloudformation_logzio_awssecurityhub_collector_module
