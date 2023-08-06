@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "typer_demo"
+version = "0.2.2"
+description = "typer cli demo"
+authors = ["Alex Pineda <alehpineda@google.com>"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.scripts]
+rick-portal-gun = "typer_demo.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = "^22.1.0"
+flake8 = "^4.0.1"
+pylint = "^2.12.2"
+pytest-cov = "^3.0.0"
+pytest-html = "^3.1.1"
+pytest-sugar = "^0.9.4"
+pytest-json-report = "^1.4.1"
+flake8-html = "^0.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
