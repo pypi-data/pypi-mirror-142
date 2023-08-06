@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: twoaxistracking
+Version: 0.2.1
+Summary: twoaxistracking is a python package for simulating two-axis tracking solar collectors, particularly self-shading.
+Home-page: https://github.com/pvlib/twoaxistracking
+Author: 'Adam R. Jensen, Kevin Anderson'
+Author-email: adam-r-j@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pvlib/twoaxistracking/issues
+Project-URL: Documentation, https://twoaxistracking.readthedocs.io
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: doc
+License-File: LICENSE
+
+# Open source code for calculating self-shading of two-axis tracking solar collectors
+twoaxistracking is a python package for simulating two-axis tracking solar collectors, particularly self-shading.
+
+## Documentation
+The documentation can be found at [readthedocs](https://twoaxistracking.readthedocs.io/).
+
+## Installation and dependencies
+The package can be installed using pip:
+
+    pip install twoaxistracking
+
+## Citing
+If you use the package in published work, please cite:
+> Adam R. Jensen, Ioannis Sifnaios, Simon Furbo, and Janne Dragsted. "Self-shading of two-axis
+> tracking solar collectors: Impact of field layout, latitude, and aperture shape." Solar
+> Energy, 236, 215–224, (2022). [https://doi.org/10.1016/j.solener.2022.02.023](https://doi.org/10.1016/j.solener.2022.02.023)
+
+## Contributing
+Contributions to the repository, e.g., bug fixes and improvements to speed up the code are more than welcome.
+
+## License
+BSD 3-clause.
+
+
