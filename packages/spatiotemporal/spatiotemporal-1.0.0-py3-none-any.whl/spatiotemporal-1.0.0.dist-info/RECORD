@@ -1,0 +1,11 @@
+spatiotemporal/__init__.py,sha256=AMPLOP_gNFFwJgKjZVwJQSaWDEwtxcvX4QpfAAQ6Rzw,451
+spatiotemporal/_version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+spatiotemporal/extras.py,sha256=ki4Fz21dj4zph-50MVMgC_SCspIJP5wZoy6KQJ2s4JQ,2152
+spatiotemporal/models.py,sha256=EKXg5ohxYbJ-awr39NiLhQY7_odpLmQXFaeiUqjG65U,10537
+spatiotemporal/stats.py,sha256=qQy3h_c_VgSPlqsgTyomCFbgq8UsahkHfJ0l9XUswAI,5176
+spatiotemporal/surrogates.py,sha256=982QQRkfRjwZzxHetf0fGsVc2izH0rzRRES0_0LUl7o,5242
+spatiotemporal/tools.py,sha256=iLB5CCW6M8NK6NbvOLRF96neS3gJzV4dt9FfXrINHyg,988
+spatiotemporal-1.0.0.dist-info/METADATA,sha256=a2DzPiZOo7hgEYucs0g7znxnd0onbTfE5M4O_a8XmBQ,3015
+spatiotemporal-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spatiotemporal-1.0.0.dist-info/top_level.txt,sha256=C-t-hfX7YP_szWPf33CRH0DXGjydvh44jiF3lDORYqY,15
+spatiotemporal-1.0.0.dist-info/RECORD,,
