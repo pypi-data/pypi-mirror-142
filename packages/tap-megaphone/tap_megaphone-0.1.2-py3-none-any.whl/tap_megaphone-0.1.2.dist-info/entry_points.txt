@@ -1,0 +1,3 @@
+[console_scripts]
+tap-megaphone=tap_megaphone.tap:TapMegaphone.cli
+

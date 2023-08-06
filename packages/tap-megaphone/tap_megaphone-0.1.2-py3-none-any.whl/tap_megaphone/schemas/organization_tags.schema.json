@@ -1,0 +1,34 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "items": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

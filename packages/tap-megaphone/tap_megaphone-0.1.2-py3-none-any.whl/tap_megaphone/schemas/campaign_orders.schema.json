@@ -1,0 +1,268 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scheduledAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "impressionsCap": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "organizationId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "startAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "endAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "adhash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "priority": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "position": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "campaignId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "impressionsGoal": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "revenueCents": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "revenueCurrency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "flightTimeZone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geotargets": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "geoexclusion": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "audioStatus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "copyNeeded": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "promoCode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vanityUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "targets": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+            "type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+      }
+    },
+    "priceType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "promo": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "deviceTargets": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "frequencyCaps": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+            "days": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "impressions": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+      }
+    },
+    "targetedSegments": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pacingType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
