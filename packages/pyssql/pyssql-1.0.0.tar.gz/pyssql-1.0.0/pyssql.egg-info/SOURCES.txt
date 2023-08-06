@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyssql/__class.py
+pyssql/__database.py
+pyssql/__init__.py
+pyssql/__types.py
+pyssql.egg-info/PKG-INFO
+pyssql.egg-info/SOURCES.txt
+pyssql.egg-info/dependency_links.txt
+pyssql.egg-info/top_level.txt

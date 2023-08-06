@@ -1,0 +1,69 @@
+# SimpleSql
+An sql module that requires no knowledge of sql syntax.
+
+# Installation
+The simple sql module can be installed with pip
+```
+pip install pyssql
+```
+
+# Demo
+```py
+import pyssql
+
+
+class User(
+    pyssql.Class
+):  # To create a class that can be stored in the database it must inherit simplesql.Class
+    user_count: int = 0  # Will not be restored when loading from database
+
+    # Sql types (these will be stored and loaded when storing to or loading from a database)
+    id: pyssql.Types.Integer(key=pyssql.Key.PRIMARY)
+    username: pyssql.Types.String(max_length=50, not_null=True)
+
+    def __init__(self, username: str) -> None:
+        self.id = User.user_count
+        self.username = username
+
+        User.user_count += 1
+
+    def on_load(
+        self,
+    ) -> None:  # Called when loading from database, this method is optional
+        print("Loading user", self.username, "with id", self.id)
+
+    def show(self) -> None:
+        print("ID:", self.id)
+        print("Username:", self.username)
+
+
+# We'll create a database located in memory (by setting the path to ":memory:"), if you want to save it in a file and edit it later use a file path instead
+database = pyssql.Database(":memory:", classes=[User])
+
+# Populating the database
+database.insert(User("John"))
+database.insert(User("Mike"))
+database.insert(User("Steve"))
+database.insert(User("Jane"))
+database.insert(User("Lisa"))
+
+# Using the & operator is not recommended as it is very error prone
+# users = database.select(User).where((User.id < 4) & (User.id > 2)).all()
+
+# Instead chain the where(condition) method
+users = (
+    database.select(User).where(User.id < 4).where(User.id > 2).all()
+)  # Same as User.id == 3
+
+for user in users:
+    user.show()
+
+john = database.select(User).where(User.username == "John").first()
+john.show()
+
+# When loading objects from the database, all their values will be converted to python types
+print(type(john.id))  # <class 'int'>
+```
+
+# Downloads
+[![Downloads](https://pepy.tech/badge/pyssql)](https://pepy.tech/project/pyssql) [![Downloads](https://pepy.tech/badge/pyssql/month)](https://pepy.tech/project/pyssql) [![Downloads](https://pepy.tech/badge/pyssql/week)](https://pepy.tech/project/pyssql)
