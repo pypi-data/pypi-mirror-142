@@ -1,0 +1,1 @@
+cdk_cloudformation_logzio_kinesisshipper_kinesisshipper_module
