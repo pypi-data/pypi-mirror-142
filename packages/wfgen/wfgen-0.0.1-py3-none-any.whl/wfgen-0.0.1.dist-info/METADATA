@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wfgen
+Version: 0.0.1
+Summary: Python package to work with WorkflowGen Graph API
+Home-page: https://github.com/agri-marche/wfgen-extract
+Author: Régis Tremblay Lefrançois
+Author-email: rtlefrancois@agri-marche.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/agri-marche/wfgen-extract/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: sqlmodel (==0.0.6)
+Requires-Dist: psycopg2-binary (==2.9.3)
+
+# wfgen-extract
+
+
