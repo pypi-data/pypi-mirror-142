@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Wxve.egg-info/PKG-INFO
+src/Wxve.egg-info/SOURCES.txt
+src/Wxve.egg-info/dependency_links.txt
+src/Wxve.egg-info/requires.txt
+src/Wxve.egg-info/top_level.txt
+src/wxve/__init__.py
+src/wxve/stock.py
+src/wxve/stockset.py
+src/wxve.egg-info/PKG-INFO
+src/wxve.egg-info/SOURCES.txt
+src/wxve.egg-info/dependency_links.txt
+src/wxve.egg-info/requires.txt
+src/wxve.egg-info/top_level.txt
