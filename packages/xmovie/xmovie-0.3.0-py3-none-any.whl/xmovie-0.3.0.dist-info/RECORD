@@ -1,0 +1,11 @@
+xmovie/__init__.py,sha256=32yxdlvRc_hynNm_7QadhHa84_6uuJsllgDUSf5yJ9I,202
+xmovie/_version.py,sha256=5mDtfU2t04ATmg92S5B-scUcdjCy1ZBq620y3GmpdtQ,21
+xmovie/core.py,sha256=DfQaVX0-U4BbADRar5EUC3BTn_vt0w6bYpMxyMq5M1k,18641
+xmovie/presets.py,sha256=iMJKKtcFDnmORREiEcjsvBLLnirOkCc1dnU3Usenexo,10901
+xmovie/test/test_core.py,sha256=_pCSM81_iNUf9lQ6dpoTqpnQqFW5C1GiAfbanKMEK14,13026
+xmovie/test/test_presets.py,sha256=dACmynigkHpXULtdFPVXbR81wtKc5COITYalycF04Ik,1900
+xmovie-0.3.0.dist-info/LICENSE,sha256=kPboUueXQJicz-mTYxyQGqihahHCZQFfEUdBbTPh8Bc,1071
+xmovie-0.3.0.dist-info/METADATA,sha256=FQIYIWiCtcJ7e5egOEmjNvvoVUA9gkHts2KWNdIdkHs,867
+xmovie-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xmovie-0.3.0.dist-info/top_level.txt,sha256=0TojazYAr0kBaO16RyjXlq7kOZc4pq39slkMhRQ_Mh4,7
+xmovie-0.3.0.dist-info/RECORD,,

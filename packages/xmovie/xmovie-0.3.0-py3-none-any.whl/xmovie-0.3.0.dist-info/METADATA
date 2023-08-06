@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xmovie
+Version: 0.3.0
+Summary: Simply create beautiful movies from xarray objects
+Home-page: https://github.com/jbusecke/xmovie
+Author: xmovie developers
+Author-email: jbusecke@princeton.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: dask
+Requires-Dist: cartopy
+
+UNKNOWN
+
