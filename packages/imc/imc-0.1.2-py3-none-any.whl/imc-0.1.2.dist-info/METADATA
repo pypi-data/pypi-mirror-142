@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: imc
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: setuptools-scm
+Requires-Dist: ordered-set
+Requires-Dist: urlpath
+Requires-Dist: PyYAML
+Requires-Dist: parmap
+Requires-Dist: tqdm
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: numpy-groupies
+Requires-Dist: scipy (>=1.7)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: matplotlib (>=3.5.0)
+Requires-Dist: imctools (>=2.1.0)
+Requires-Dist: tifffile (>=2020.6.3)
+Requires-Dist: scikit-image (>=0.17.2)
+Requires-Dist: leidenalg
+Requires-Dist: python-louvain
+Requires-Dist: networkx
+Requires-Dist: scanpy
+Requires-Dist: bbknn
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: seaborn-extensions (>=0.0.11)
+Provides-Extra: astir
+Requires-Dist: astir (<1.0.0,>=0.1.4) ; extra == 'astir'
+Provides-Extra: cellpose
+Requires-Dist: cellpose (<1.0.0,>=0.1.0.1) ; extra == 'cellpose'
+Provides-Extra: deepcell
+Requires-Dist: DeepCell (<1.0.0,>=0.8.3) ; extra == 'deepcell'
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: black[d] ; extra == 'dev'
+Requires-Dist: mypy (>=0.900) ; extra == 'dev'
+Requires-Dist: pandas-stubs ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: git-lint ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: rich ; extra == 'dev'
+Requires-Dist: data-science-types ; extra == 'dev'
+Requires-Dist: PyQt5 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: Sphinx ; extra == 'doc'
+Requires-Dist: sphinx-issues ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-argparse ; extra == 'doc'
+Requires-Dist: myst-parser ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Provides-Extra: extra
+Requires-Dist: DeepCell (<1.0.0,>=0.8.3) ; extra == 'extra'
+Requires-Dist: cellpose (<1.0.0,>=0.1.0.1) ; extra == 'extra'
+Requires-Dist: astir (<1.0.0,>=0.1.4) ; extra == 'extra'
+Requires-Dist: napari ; extra == 'extra'
+Requires-Dist: napari-imc ; extra == 'extra'
+Provides-Extra: napari
+Requires-Dist: napari ; extra == 'napari'
+Requires-Dist: napari-imc ; extra == 'napari'
+Provides-Extra: test
+Requires-Dist: pytest (>=6) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+UNKNOWN
+
