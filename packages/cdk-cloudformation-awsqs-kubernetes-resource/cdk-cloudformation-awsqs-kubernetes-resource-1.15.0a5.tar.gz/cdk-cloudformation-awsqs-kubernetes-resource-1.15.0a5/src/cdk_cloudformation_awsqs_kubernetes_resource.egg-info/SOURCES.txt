@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_awsqs_kubernetes_resource/__init__.py
+src/cdk_cloudformation_awsqs_kubernetes_resource/py.typed
+src/cdk_cloudformation_awsqs_kubernetes_resource.egg-info/PKG-INFO
+src/cdk_cloudformation_awsqs_kubernetes_resource.egg-info/SOURCES.txt
+src/cdk_cloudformation_awsqs_kubernetes_resource.egg-info/dependency_links.txt
+src/cdk_cloudformation_awsqs_kubernetes_resource.egg-info/requires.txt
+src/cdk_cloudformation_awsqs_kubernetes_resource.egg-info/top_level.txt
+src/cdk_cloudformation_awsqs_kubernetes_resource/_jsii/__init__.py
+src/cdk_cloudformation_awsqs_kubernetes_resource/_jsii/awsqs-kubernetes-resource@1.15.0-alpha.5.jsii.tgz
