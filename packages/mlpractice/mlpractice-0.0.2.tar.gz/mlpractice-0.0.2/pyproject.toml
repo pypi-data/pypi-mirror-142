@@ -1,0 +1,50 @@
+[tool.poetry]
+
+name = "mlpractice"
+
+version = "0.0.2"
+
+description = "MLpractice is a course, in which you will learn about the most effective machine learning techniques,and gain practice implementing them."
+
+authors = [
+    "Vladislav Ushakov <uvd2001@mail.ru>",
+    "Alexander Avdyushenko <ovalur@gmail.com>",
+]
+
+license = "MIT"
+
+packages = [
+    { include = "mlpractice" },
+]
+
+readme = "README.md"
+
+homepage = "https://github.com/avalur/mlpractice"
+
+keywords = ["machinelearning", "deeplearning", "ml", "dl", "practice", "mlpractice", "machine", "deep"]
+
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<=3.9"
+numpy = "^1.21.4"
+torch = "^1.10.0"
+scipy = "^1.7.2"
+ipython = "^7.30.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+safety = "^1.10.3"
+pytest-cov = "^3.0.0"
+numpydoc = "^1.1.0"
+Sphinx = "^4.3.0"
+sphinx-bootstrap-theme = "^0.8.0"
+
+[tool.poetry.scripts]
+mlpractice = "mlpractice.cli:command_line"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
