@@ -1,0 +1,9 @@
+threado/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+threado/simple_thread_runner.py,sha256=SXI-9Kb6JAWtx5cEilZHqSPBZN7tBWtBLe8Xfze5BN4,3398
+threado/temp.py,sha256=jO18xKuSHOZEfRwzefStNaFqPYQ2gW2wlZWG-8LTTBA,244
+threado/test_simple_thread_runner.py,sha256=Tlo5BGLbexi2o6wzL0VTaLw2HgbVTBMBsvkCNoLXluA,632
+threado-1.5.dist-info/LICENSE,sha256=PrPHyrMLjB2tOWSnHOcA_nm8levfxjSr9iuzAGExY8I,1064
+threado-1.5.dist-info/METADATA,sha256=9M7ovHWkt03-P5T_XWaGXD32RGDRE5_y2x8lDS23-KM,1979
+threado-1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+threado-1.5.dist-info/top_level.txt,sha256=eieIfbT8WhLIucLMzvIYKP94yn1QzSddLF143oTAszc,8
+threado-1.5.dist-info/RECORD,,
