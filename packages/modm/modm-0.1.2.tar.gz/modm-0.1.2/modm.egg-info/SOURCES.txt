@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+modm.egg-info/PKG-INFO
+modm.egg-info/SOURCES.txt
+modm.egg-info/dependency_links.txt
+modm.egg-info/requires.txt
+modm.egg-info/top_level.txt
