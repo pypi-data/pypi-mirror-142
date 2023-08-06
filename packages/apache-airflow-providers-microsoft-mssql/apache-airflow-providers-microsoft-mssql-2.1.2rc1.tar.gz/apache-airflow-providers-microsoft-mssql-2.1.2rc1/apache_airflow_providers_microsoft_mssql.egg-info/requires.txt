@@ -1,0 +1,6 @@
+apache-airflow>=2.1.0rc1
+gitpython
+wheel
+
+[:platform_machine != "aarch64"]
+pymssql>=2.1.5
