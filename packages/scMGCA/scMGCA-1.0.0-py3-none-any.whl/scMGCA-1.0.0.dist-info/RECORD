@@ -1,0 +1,13 @@
+scMGCA/_init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scMGCA/graph_function.py,sha256=9diEtLOjX1p9GPVD5PTtqtaL35rKD0UZRxrqwG0GVGg,1985
+scMGCA/layers.py,sha256=NmtmH6gYKV7uvOus6TTtVqrsJU2jMpO6DnSwui4Zrs4,3915
+scMGCA/losses.py,sha256=FMKVueefUUD7jR9IXu5Y7ZNZjin2-EuaX55ZwqhcS7Y,443
+scMGCA/preprocess.py,sha256=OdWrQJq_PmJ8qMToqfvpkJhnQdsq7qBgCkFmTe3P-Bk,3536
+scMGCA/run.py,sha256=AMPXfLJZr9n7EXMb4z-UTpJR_eV8gamx0Ni70kTQ31E,2975
+scMGCA/scmgca.py,sha256=eBF3hv-5HB7vWRD3mj51VHBSF5qcdHV8lM5SGQHY8lo,6205
+scMGCA/utils.py,sha256=QErv3VdzOngL4BbpXTHGbNaXDZaffSKEm1PAsNr4rSE,10522
+scMGCA-1.0.0.dist-info/LICENSE.txt,sha256=P7Ygt8NYC34WBIkw0sWW4fYL7Eowq4AU1tAxoWAdyuA,11343
+scMGCA-1.0.0.dist-info/METADATA,sha256=4KfCh1AbVFUkDEWyJWKP84kndBdubxIBgd1XjEz6bHw,551
+scMGCA-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scMGCA-1.0.0.dist-info/top_level.txt,sha256=5Z-gYEPaLBd3q0XxcuCm0Cj8UkhqHhEfwv6dz2ycGYg,7
+scMGCA-1.0.0.dist-info/RECORD,,
