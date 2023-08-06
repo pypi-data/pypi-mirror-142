@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>38.6", "wheel", "cmake>=3.11.0,<4.0.0",
+    'matplotlib>=3.3.4',
+    'numpy>=1.20.3',
+    'pandas>=1.2.4',
+    'matplotlib>=3.3.4',
+    'cmocean>=2.0',
+    'japanize_matplotlib>=1.1.3'
+
+]
