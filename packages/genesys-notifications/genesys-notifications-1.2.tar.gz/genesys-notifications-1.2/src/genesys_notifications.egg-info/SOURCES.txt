@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/genesys_notifications/__init__.py
+src/genesys_notifications/channel.py
+src/genesys_notifications/exceptions.py
+src/genesys_notifications/states.py
+src/genesys_notifications.egg-info/PKG-INFO
+src/genesys_notifications.egg-info/SOURCES.txt
+src/genesys_notifications.egg-info/dependency_links.txt
+src/genesys_notifications.egg-info/requires.txt
+src/genesys_notifications.egg-info/top_level.txt
+src/genesys_notifications.egg-info/zip-safe
