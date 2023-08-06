@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+easydownload/__init__.py
+easydownload.egg-info/PKG-INFO
+easydownload.egg-info/SOURCES.txt
+easydownload.egg-info/dependency_links.txt
+easydownload.egg-info/requires.txt
+easydownload.egg-info/top_level.txt
