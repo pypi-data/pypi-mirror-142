@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gitflic
+Version: 0.0.1
+Summary: GitflicApi wrapper
+Home-page: https://github.com/SantaSpeen/gitflic
+Author: SantaSpeen
+Author-email: dir@sssr.dev
+License: Apache License 2.0 
+Project-URL: Documentation, https://anixart.readthedocs.io/
+Project-URL: Source, https://github.com/SantaSpeen/anixart
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# gitflic
+gitflic api wrapper
+
+
