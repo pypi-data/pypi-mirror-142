@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/fuckoff_denis/__init__.py
+src/fuckoff_denis/fuckdenis.py
+src/fuckoff_denis/fuckdenis2.py
+src/fuckoff_denis.egg-info/PKG-INFO
+src/fuckoff_denis.egg-info/SOURCES.txt
+src/fuckoff_denis.egg-info/dependency_links.txt
+src/fuckoff_denis.egg-info/not-zip-safe
+src/fuckoff_denis.egg-info/requires.txt
+src/fuckoff_denis.egg-info/top_level.txt
