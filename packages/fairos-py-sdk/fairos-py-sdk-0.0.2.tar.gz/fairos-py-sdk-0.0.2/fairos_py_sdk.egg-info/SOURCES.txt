@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fairos_py_sdk.egg-info/PKG-INFO
+fairos_py_sdk.egg-info/SOURCES.txt
+fairos_py_sdk.egg-info/dependency_links.txt
+fairos_py_sdk.egg-info/requires.txt
+fairos_py_sdk.egg-info/top_level.txt
+fairospy/__init__.py
+fairospy/fair_doc_db.py
+fairospy/fair_fs.py
+fairospy/fair_kv.py
+fairospy/core/__init__.py
+fairospy/core/base_obj.py
+fairospy/core/fair_os.py
+fairospy/core/fair_pod.py
+fairospy/core/fair_user.py
