@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+rsilk/__init__.py
+rsilk.egg-info/PKG-INFO
+rsilk.egg-info/SOURCES.txt
+rsilk.egg-info/dependency_links.txt
+rsilk.egg-info/not-zip-safe
+rsilk.egg-info/top_level.txt
