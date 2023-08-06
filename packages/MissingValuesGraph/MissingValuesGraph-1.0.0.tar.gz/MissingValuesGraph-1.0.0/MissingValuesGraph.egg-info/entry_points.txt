@@ -1,0 +1,2 @@
+[console_scripts]
+MissingValuesGraph = MissingValuesGraph.__main__:main
