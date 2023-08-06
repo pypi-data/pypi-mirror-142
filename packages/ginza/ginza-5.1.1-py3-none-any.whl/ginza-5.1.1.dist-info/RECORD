@@ -1,0 +1,14 @@
+ginza/__init__.py,sha256=SYRzG3X05vpHlbtJ-I65kb0iev1Y7xVm2AtKuBIbSmA,11923
+ginza/__main__.py,sha256=qlBUT5_uEdPx56LUqJHIw3KJ-iIu3M4BgiZyGCPzIEc,210
+ginza/analyzer.py,sha256=k2ZOmN-xMh9vPgItyllP_jqhyqm4GG9FPjn7o5vOrCE,11627
+ginza/bunsetu_recognizer.py,sha256=jTVTxAwa64LPzW3lPk03WPoPRwRMj_cRZVlu_d-TutA,8441
+ginza/command_line.py,sha256=spLleGBBVsTxkeEBt9oZnZ8e_oP6WJKZKfKqS-phU-U,11594
+ginza/compound_splitter.py,sha256=BTC0Z_TUcxpZv4_3rd_RYVZz1FU2HW8ZGAusEBQYEwY,6370
+ginza/disable_sentencizer.py,sha256=UHGd-YiWYmH79jGD03xjIGFsUn2ftmpAtpLkSpToMBQ,1465
+ginza/ene_ontonotes_mapper.py,sha256=ILzH_JJvMvTNDwL-LOBDUBMFyOQZdOMIza-9wIX_Yqg,16316
+ginza-5.1.1.dist-info/LICENSE,sha256=GzYP33VQxgwsVVBPR44Jwq_Aad57qwdF5PuAgJPLbyY,1069
+ginza-5.1.1.dist-info/METADATA,sha256=uTwNcWwimWfRJo1xYIFOyjTpuQiNkzre5y5uf5qWNgQ,460
+ginza-5.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ginza-5.1.1.dist-info/entry_points.txt,sha256=-kctkRF608rQc9Uiq3boRzLvYAz9mWcAPveX1o4dkgI,265
+ginza-5.1.1.dist-info/top_level.txt,sha256=7rQaXeH2ALuqRZnyiLJon0FCljCdvvf8WtQ6wOfEyag,6
+ginza-5.1.1.dist-info/RECORD,,
