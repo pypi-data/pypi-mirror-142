@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yaribak/__init__.py
+src/yaribak/yaribak.py
+src/yaribak.egg-info/PKG-INFO
+src/yaribak.egg-info/SOURCES.txt
+src/yaribak.egg-info/dependency_links.txt
+src/yaribak.egg-info/entry_points.txt
+src/yaribak.egg-info/top_level.txt
