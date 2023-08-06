@@ -1,0 +1,4 @@
+django-allauth
+
+[saml]
+python3-saml-django
