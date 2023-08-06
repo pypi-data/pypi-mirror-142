@@ -1,0 +1,9 @@
+cdk_cloudformation_tf_aws_keypair/__init__.py,sha256=4NgbyM7CClTTrjzhpanzuwPBT8ZIYl6TGTFKepGm1Yw,14819
+cdk_cloudformation_tf_aws_keypair/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_tf_aws_keypair/_jsii/__init__.py,sha256=GvjdXCxJ2v1ck9jQdmh-I7WkKpPS7kSTqcHhYdCj3WY,410
+cdk_cloudformation_tf_aws_keypair/_jsii/tf-aws-keypair@1.0.0-alpha.5.jsii.tgz,sha256=1JLyw7zHjqZ0nzA8m53RDqhkWlk4vkEth9R3WvFFEQQ,111233
+cdk_cloudformation_tf_aws_keypair-1.0.0a5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_tf_aws_keypair-1.0.0a5.dist-info/METADATA,sha256=HLgFnm3L1TyNTwDbvHgNKTcxZsd8PzrXU6IPw7e7aCQ,3990
+cdk_cloudformation_tf_aws_keypair-1.0.0a5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_cloudformation_tf_aws_keypair-1.0.0a5.dist-info/top_level.txt,sha256=CtqlGAWHzkv0tdH9WzBeXwzuhZMItAj3PkUv8y9JMaI,34
+cdk_cloudformation_tf_aws_keypair-1.0.0a5.dist-info/RECORD,,
