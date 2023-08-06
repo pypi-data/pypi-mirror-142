@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bruttle
+Version: 0.0.1
+Summary: A cli app to bruteforce pdf, zip, and some popular hashes
+Home-page: https://github.com/tamton-aquib/bruttle
+Author: aquib
+Author-email: aquibjavedt007@gmail.com
+License: MIT
+Keywords: bruteforce,pdf,zip,hash,cracking
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Read docs at https://github.com/tamton-aquib/bruttle
+

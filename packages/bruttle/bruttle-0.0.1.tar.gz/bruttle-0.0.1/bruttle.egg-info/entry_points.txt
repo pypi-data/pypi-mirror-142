@@ -1,0 +1,2 @@
+[console_scripts]
+bruttle = bruttle.bruttle:main

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bruttle/__init__.py
+bruttle/bruttle.py
+bruttle.egg-info/PKG-INFO
+bruttle.egg-info/SOURCES.txt
+bruttle.egg-info/dependency_links.txt
+bruttle.egg-info/entry_points.txt
+bruttle.egg-info/requires.txt
+bruttle.egg-info/top_level.txt
