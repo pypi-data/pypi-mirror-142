@@ -1,0 +1,9 @@
+auto_markdown_badges/__init__.py,sha256=up8rmgb1rlM8otQbTzScPSjgo8Rcq3cqE7GqQ8I8-Fw,285
+auto_markdown_badges/__main__.py,sha256=EUMHXu4eHcwJUrLoQ52HF8skd0sjo4_jcO_wvHSkBXk,141
+auto_markdown_badges/cli.py,sha256=e_bWJLosmPOQ1ETwxTLhhSerMg72eWFPSChbE5eUa1c,2391
+auto_markdown_badges/custom_typer.py,sha256=9jNALTVTpYrUujfRCnjfjYY02KwxtSwfc4IaEEGm5wo,1299
+auto_markdown_badges-0.1.0.dist-info/entry_points.txt,sha256=vrDnmFPOGJMmmmkaX72fpRK4K9UV6X8B2Z1VAW8Yzew,69
+auto_markdown_badges-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+auto_markdown_badges-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+auto_markdown_badges-0.1.0.dist-info/METADATA,sha256=nZZL3vLtvnv7N06VPBG48N-zs9dzsH7BGXpgIIt_hTc,2825
+auto_markdown_badges-0.1.0.dist-info/RECORD,,
