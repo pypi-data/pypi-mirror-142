@@ -1,0 +1,8 @@
+README.md
+setup.py
+randSelector/__init__.py
+randSelector/rand_selector.py
+randSelector.egg-info/PKG-INFO
+randSelector.egg-info/SOURCES.txt
+randSelector.egg-info/dependency_links.txt
+randSelector.egg-info/top_level.txt
