@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+rwpk/__init__.py
+rwpk/languages.py
+rwpk/rwpk.py
+rwpk.egg-info/PKG-INFO
+rwpk.egg-info/SOURCES.txt
+rwpk.egg-info/dependency_links.txt
+rwpk.egg-info/top_level.txt
+rwpk/languages/sindhi.txt
+rwpk/languages/urdu.txt
