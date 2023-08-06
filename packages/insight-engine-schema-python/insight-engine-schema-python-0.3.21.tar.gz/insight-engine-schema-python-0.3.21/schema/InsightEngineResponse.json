@@ -1,0 +1,10 @@
+{
+    "resourceType": "InsightEngineResponse",
+    "insights": [
+        {
+          "resourceType": "Insight",
+          "type": "Not Applicable",
+          "description": "No"
+        }
+      ]
+}
