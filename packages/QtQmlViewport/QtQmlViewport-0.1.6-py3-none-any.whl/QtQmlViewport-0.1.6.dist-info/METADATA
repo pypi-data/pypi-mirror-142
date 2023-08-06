@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: QtQmlViewport
+Version: 0.1.6
+Summary: Python QtQml 3D viewer toolkit
+Home-page: https://github.com/maxlem/QtQmlViewport
+Download-URL: https://github.com/maxlem/QtQmlViewport/archive/refs/tags/0.1.0.tar.gz
+Author: Maxime Lemonnier
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: future
+Requires-Dist: transforms3d
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: PyOpenGL
+Requires-Dist: PyQt5 (==5.14)
+Requires-Dist: PyQtChart (==5.14)
+Requires-Dist: pycollada
+Requires-Dist: trimesh
+Requires-Dist: utm
+Requires-Dist: Shapely
+Requires-Dist: tqdm
+
+UNKNOWN
+
