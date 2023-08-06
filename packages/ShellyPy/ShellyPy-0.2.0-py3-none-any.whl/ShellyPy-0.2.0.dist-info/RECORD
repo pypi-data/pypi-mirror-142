@@ -1,0 +1,11 @@
+ShellyPy/__init__.py,sha256=tUBD_iVIqOYvAhYmG_1NMH9WdL7nuI0ORDgdNUGNUw8,109
+ShellyPy/base.py,sha256=SbJUqHpvOYYZYFbz76ZjmouWhgbZJKVGv92kXXKIIAA,2976
+ShellyPy/error.py,sha256=s3QV_7c82OAB5i3jrmitqrylMNkrc4sL0KVxmqu5ZUE,278
+ShellyPy/gen1.py,sha256=Y1hEt5iXo_jUCV5P2IN4LAB3nOy2i25-GS1HYN3ZO_E,7433
+ShellyPy/gen2.py,sha256=Kt801YZolTBQEoLyX2pB2zfWq5LjV2vJeGGQw0K-Zsw,4018
+ShellyPy/wrapper.py,sha256=dzRU6EOSTAh5GA55oY_FAw884Az7ugLiUOmCnjucW4E,1858
+ShellyPy-0.2.0.dist-info/LICENSE,sha256=SVibnhb88pRUryVEeUR-d7aVmL4YY6V44YznqD_11Kc,1072
+ShellyPy-0.2.0.dist-info/METADATA,sha256=D9x98L7qfzkYTzo9wQAH4KjPQWmQK6Yab_JrCTjCuGM,1790
+ShellyPy-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ShellyPy-0.2.0.dist-info/top_level.txt,sha256=TTtEV2N0rm2VREYHkoN60dapVrvU01P2qQP5D6owJI0,9
+ShellyPy-0.2.0.dist-info/RECORD,,
