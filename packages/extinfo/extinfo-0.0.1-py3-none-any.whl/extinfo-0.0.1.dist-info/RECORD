@@ -1,0 +1,8 @@
+extinfo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extinfo/cli.py,sha256=tu4ulITYJqbiDnxIw7g-PkB7zS1nkDDDan36H7tAsaU,336
+extinfo/scraper.py,sha256=YEzGVoLWcvsII4Cr8FC0huzKU3VLh4ogXzZplYfXeic,844
+extinfo-0.0.1.dist-info/entry_points.txt,sha256=OIvUCf_HXO_G7XaFi_Ucaq8yJd-WEgpGn3Oxe4r3780,43
+extinfo-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+extinfo-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+extinfo-0.0.1.dist-info/METADATA,sha256=_7fTUgEx6NZ68vJGwSEwPFgU36n5zFu03e3ts5t0isc,3972
+extinfo-0.0.1.dist-info/RECORD,,
