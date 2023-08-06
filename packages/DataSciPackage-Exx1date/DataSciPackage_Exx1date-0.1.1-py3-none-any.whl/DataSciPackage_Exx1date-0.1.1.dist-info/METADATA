@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: DataSciPackage-Exx1date
+Version: 0.1.1
+Summary: Python package for data sciencers
+Home-page: https://github.com/CfireQuants/DataSciPackage
+Author: Exx1date
+Author-email: cfire.quants@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CfireQuants/DataSciPackage/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DataSciPackage
+Python package for data sciencers
+
+
