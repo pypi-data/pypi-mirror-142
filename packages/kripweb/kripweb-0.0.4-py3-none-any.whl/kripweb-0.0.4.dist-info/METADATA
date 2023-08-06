@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kripweb
+Version: 0.0.4
+Summary: A web framework module made by vinkami
+Home-page: https://github.com/vinkami/kripweb
+Author: vinkami
+Author-email: vinkami.krip@gmail.com
+License: UNKNOWN
+Project-URL: Docs, https://kripweb.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/vinkami/kripweb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2 (>=3.0.1)
+
+UNKNOWN
+
