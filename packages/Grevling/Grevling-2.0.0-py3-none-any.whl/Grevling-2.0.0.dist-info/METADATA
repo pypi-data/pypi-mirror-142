@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Grevling
+Version: 2.0.0
+Summary: A batch runner tool
+Home-page: https://github.com/TheBB/Grevling
+Author: Eivind Fonn
+Author-email: eivind.fonn@sintef.no
+License: AGPL3
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: asteval
+Requires-Dist: bidict
+Requires-Dist: click
+Requires-Dist: fasteners
+Requires-Dist: goldpy (>=0.4.2)
+Requires-Dist: mako
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: rich
+Requires-Dist: ruamel.yaml
+Requires-Dist: strictyaml (>=1.4)
+Requires-Dist: typing-inspect
+Provides-Extra: deploy
+Requires-Dist: twine ; extra == 'deploy'
+Requires-Dist: cibuildwheel (==2.0.0) ; extra == 'deploy'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib ; extra == 'matplotlib'
+Provides-Extra: plotly
+Requires-Dist: plotly (>=4) ; extra == 'plotly'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+UNKNOWN
+
