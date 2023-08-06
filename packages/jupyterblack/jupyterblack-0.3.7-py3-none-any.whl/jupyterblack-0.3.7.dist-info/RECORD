@@ -1,0 +1,15 @@
+jupyterblack/__init__.py,sha256=QRbWkRf29PtaKLl-zS9xoXdqu7wmo5xfiLS98jucspQ,60
+jupyterblack/__main__.py,sha256=vvYXZm4K0FH95ktHuqlLgnBpW9zN22RuGlGCZvUIBJY,4118
+jupyterblack/arguments.py,sha256=wtGWKUPu39aHMHc5cafoV4p4XVtw4BBzDxiCB4m1vjc,1446
+jupyterblack/parser.py,sha256=1fPA2n_LyFqXx6jPC7sjT_falpeBDY7mqpEZHaydMZs,6925
+jupyterblack/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterblack/util/error_messages.py,sha256=nOPTKK8CPGKzDRPlTsAaBGF_HWYMIz6_rq7cMaGWue4,894
+jupyterblack/util/files.py,sha256=MoSJP5OsRzXSaKUsrhsLNiYj4f67NAUoCM46sQbGqYo,1903
+jupyterblack/util/processing.py,sha256=8suSpxcMoM3bfZCHu_O69vLx7U66pYPORNrV4lDnLlw,92
+jupyterblack/util/targets.py,sha256=2_GfN9TRz2PtiMoKBgvkpL5l31XeF_3MOY6RrCnULIw,280
+jupyterblack-0.3.7.dist-info/LICENSE,sha256=Axk37SFyHtIJavcPhvr3EHud_enzJg1KTW982wFlCG4,1068
+jupyterblack-0.3.7.dist-info/METADATA,sha256=Z4ddfOvwxXJP_SBjzJtXa0xVHS57j4QFjy6VpVxUQaE,3669
+jupyterblack-0.3.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyterblack-0.3.7.dist-info/entry_points.txt,sha256=h2GjtQbZrrZp4cVSUhoyiMX1a633CBzTAGHoIU2_Zkg,55
+jupyterblack-0.3.7.dist-info/top_level.txt,sha256=Gr2-1q6QcQx-mDjLjutJHgDMt4JPD1dQ6SvThxkbu8w,31
+jupyterblack-0.3.7.dist-info/RECORD,,
