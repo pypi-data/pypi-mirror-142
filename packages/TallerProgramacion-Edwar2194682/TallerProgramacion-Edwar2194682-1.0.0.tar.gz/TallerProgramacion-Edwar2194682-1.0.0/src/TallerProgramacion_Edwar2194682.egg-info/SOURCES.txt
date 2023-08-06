@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/TallerDeProgramacion/Ejercicio.py
+src/TallerDeProgramacion/__init__.py
+src/TallerProgramacion_Edwar2194682.egg-info/PKG-INFO
+src/TallerProgramacion_Edwar2194682.egg-info/SOURCES.txt
+src/TallerProgramacion_Edwar2194682.egg-info/dependency_links.txt
+src/TallerProgramacion_Edwar2194682.egg-info/requires.txt
+src/TallerProgramacion_Edwar2194682.egg-info/top_level.txt
