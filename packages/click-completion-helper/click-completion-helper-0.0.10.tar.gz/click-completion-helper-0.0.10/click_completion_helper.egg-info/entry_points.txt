@@ -1,0 +1,3 @@
+[console_scripts]
+click-completion-helper = click_completion_helper:cli
+
