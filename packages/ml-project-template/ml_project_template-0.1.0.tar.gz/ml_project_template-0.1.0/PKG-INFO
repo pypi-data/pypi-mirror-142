@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ml_project_template
+Version: 0.1.0
+Summary: Description
+Home-page: UNKNOWN
+Author: Chinmay Kurade
+Author-email: chinmay.v.kurade@gmail.com
+License: BSD 3
+Description: 
+        # ML Project Template
+        
+        ## Usage:
+        
+        1. Change to project directory
+        2. `mlproject startproject .`
+        3. `cd packages`
+        4. `mlproject startml <ml_package_name>`
+        5. `mlproject startapi <ml_api_name>`
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
