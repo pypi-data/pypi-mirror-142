@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "linefreq"
+version = "0.1.0"
+description = "a real time line frequency utility"
+authors = ["redraw <redraw@sdf.org>"]
+license = "MIT"
+repository = "https://github.com/redraw/fq"
+packages = [
+    {include = "fq"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+rich = "^12.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+fq = "fq.cli:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
