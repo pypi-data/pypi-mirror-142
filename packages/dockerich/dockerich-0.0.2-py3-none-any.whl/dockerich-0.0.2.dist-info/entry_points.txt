@@ -1,0 +1,3 @@
+[console_scripts]
+dockerich = dockerich:__main__
+
