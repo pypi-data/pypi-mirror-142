@@ -1,0 +1,11 @@
+workshop_schedules/__init__.py,sha256=rDiisC-HnQXFpU6p4M3_XWKqTrhrzaAXkDhqGKXLu3I,211
+workshop_schedules/_version.py,sha256=M5FYdABhc84qThITySWUZKONKxhou7auXxAU3v2Xdg8,504
+workshop_schedules/cli.py,sha256=6GFXNAFHEu3PY4tQZbZLMI7k1GzuC6JkWUAVC9fcRaM,399
+workshop_schedules/tools.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workshop_schedules-0.post1.dev11.dist-info/AUTHORS.md,sha256=8kLn1PI2fXpaqGMhXHAug2LaB9RXjCUFKnlJ8qPc3oo,54
+workshop_schedules-0.post1.dev11.dist-info/LICENSE,sha256=jFSsXqc4vz_Rgz9-V_pJdki4DdzfL_XopWLTX85bSZ8,1499
+workshop_schedules-0.post1.dev11.dist-info/METADATA,sha256=CrvZDKsZnCvmkvFTNiLG_LY8-GMkLRP1v0U2P8fdgdY,4235
+workshop_schedules-0.post1.dev11.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+workshop_schedules-0.post1.dev11.dist-info/entry_points.txt,sha256=x9wPzm-ZWOWsS5WqxJSJbpyqt_VtsKJUcfxTkA_u4eM,67
+workshop_schedules-0.post1.dev11.dist-info/top_level.txt,sha256=XSZq3Vodqz8AUisd0ahCgYpe-JzIW0tedcYx5FcutqY,19
+workshop_schedules-0.post1.dev11.dist-info/RECORD,,
