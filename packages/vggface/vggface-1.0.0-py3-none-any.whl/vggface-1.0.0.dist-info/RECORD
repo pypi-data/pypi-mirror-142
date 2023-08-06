@@ -1,0 +1,11 @@
+vggface/__init__.py,sha256=yjH-iW67FDt9-z-twYwbrKZcqVGsznPCjNmP5fk5iig,28
+vggface/utils.py,sha256=HCfZ2hXdwEM7jwmzX7hWLHxIs4KbxPwvfImM2XtgVtI,297
+vggface/vggface.py,sha256=rteUd9fqsQ6TWaeMlArPc5GAbD5GrE0i5XViru5HQ9A,1512
+vggface/resnet50/__init__.py,sha256=yXt2SJJ7uWVsYUP_NyM0DxOQUYxyv3DGFdRZ5shNlc0,30
+vggface/resnet50/layers.py,sha256=0azx7qQVXtXI4g7cQg-BDM-yw_xAhKQzN_2sg9p493w,2768
+vggface/resnet50/resnet50.py,sha256=7faa3XHm2ZYkKKREpqEIEVZwvpjx-wOwfP8R9M-5xzI,8208
+vggface-1.0.0.dist-info/LICENSE,sha256=s6z38EIfpUE7LJ3_hvVChD1kEgE_jjzt0GcGLaHNviM,1091
+vggface-1.0.0.dist-info/METADATA,sha256=BuG3wKPPD3dHLdSquCuFWWSIsw3qi18Q4g41hXeimCM,438
+vggface-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vggface-1.0.0.dist-info/top_level.txt,sha256=y3S72P67WypAlFus15ab2TqARYWNudfVJtRhIMHgdfA,8
+vggface-1.0.0.dist-info/RECORD,,

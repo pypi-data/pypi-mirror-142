@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vggface
+Version: 1.0.0
+Summary: VGGFace for TFv2
+Home-page: https://github.com/claudiourbina/VGGFace
+Author: Claudio Urbina
+Author-email: claudiourbina.vc@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pillow (==9.0.1)
+Provides-Extra: cpu
+Requires-Dist: tensorflow (==2.4.4) ; extra == 'cpu'
+Provides-Extra: gpu
+Requires-Dist: tensorflow-gpu (==2.4.4) ; extra == 'gpu'
+
+UNKNOWN
+
