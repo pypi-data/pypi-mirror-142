@@ -1,0 +1,17 @@
+[project]
+name = "fiberoripy"
+version = "1.0.8"
+description = "Fiber orientation models and closures"
+authors = ["Nils Meyer <nils.meyer@kit.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 79
