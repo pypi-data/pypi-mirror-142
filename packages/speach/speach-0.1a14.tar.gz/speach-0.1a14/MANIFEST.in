@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements*.txt
+recursive-include speach/data *.sql
+recursive-include speach/data *.eaf
