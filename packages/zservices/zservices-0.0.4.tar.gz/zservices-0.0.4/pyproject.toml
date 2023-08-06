@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zfunds-services"
+version = "0.0.1"
+description = "zfunds.in services for common tasks"
+authors = ["Yogesh <yogesh@zfunds.in>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^0.19.2"
+boto3 = "^1.21.17"
+twine = "^3.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
