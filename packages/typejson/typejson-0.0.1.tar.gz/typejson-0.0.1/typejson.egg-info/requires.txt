@@ -1,0 +1,6 @@
+
+[mongo]
+pymongo>=4.0.2
+
+[mysql]
+pymysql>=1.0.2
