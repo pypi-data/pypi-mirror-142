@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: make_vcard
+Version: 0.1.6
+Summary: 用于以excel文件生成.vcf通讯录导入文件
+Home-page: https://gitee.com/antianshi/make_vcard
+Author: antianshi
+Author-email: 948258209@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# make_vcard
+
+这是一个将xlsx文件转化为通讯录导入(.vcf)文件的py程序。
+
+## 安装
+```
+pip install make_vcard
+```
+
+## 基本使用方法
+```
+python -m make_vcard inputFileName.xlsx outputFileName
+```
+
+
