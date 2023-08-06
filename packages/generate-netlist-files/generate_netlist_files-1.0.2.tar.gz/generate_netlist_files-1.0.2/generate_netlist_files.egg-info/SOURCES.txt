@@ -1,0 +1,5 @@
+setup.py
+generate_netlist_files.egg-info/PKG-INFO
+generate_netlist_files.egg-info/SOURCES.txt
+generate_netlist_files.egg-info/dependency_links.txt
+generate_netlist_files.egg-info/top_level.txt

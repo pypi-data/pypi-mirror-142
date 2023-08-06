@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: generate_netlist_files
+Version: 1.0.2
+Summary: Netlist file generation
+Home-page: UNKNOWN
+Author: Phillip Hagen
+Author-email: <phillip.hagen@outlook.com>
+License: UNKNOWN
+Keywords: python,netlist,ADS
+Platform: UNKNOWN
+
+Functions that will automatically generate ADS netlist files using three differenct topologies
+
