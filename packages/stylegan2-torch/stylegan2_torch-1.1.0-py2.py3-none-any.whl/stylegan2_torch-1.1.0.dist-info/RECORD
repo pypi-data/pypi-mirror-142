@@ -1,0 +1,14 @@
+stylegan2_torch/__init__.py,sha256=evMISXcuU2bxrT3HO84BRJnVdzhjhq-jgECKzahaouE,696
+stylegan2_torch/equalized_lr.py,sha256=99ypG-UygSrfeYTEBu-cuwnZxQ7z9NwHW0XTMa_hoqc,4921
+stylegan2_torch/utils.py,sha256=93xtAkYyWFKFKxfiefoTQSguxQRgGfRDAiub3oOx_Ts,3207
+stylegan2_torch/discriminator/__init__.py,sha256=r0t2p8BDJXT5Zc-xTIaxOCGbIiuMDwbiiD5S6xjZQp0,3053
+stylegan2_torch/discriminator/blocks.py,sha256=8ew3qTAi2ejc9jpSH3R77NjugM0KFu0hGjdJtMtfJrA,3565
+stylegan2_torch/generator/__init__.py,sha256=nW080vSe0HCp7Egpd9h1UCcwvn4FYpXQDWf7azbGMMY,7173
+stylegan2_torch/generator/conv_block.py,sha256=Pydmzlw3P-i0TLi-K8CSolFPh8rCjr-Zuf29TMLkC_I,7159
+stylegan2_torch/generator/mapping.py,sha256=wjJPbpARZsX7fY88hEuL9LXD8NeBXYy2B7zRBCfikFM,920
+stylegan2_torch/generator/rgb.py,sha256=qr61UUl7aM9uWWxkyV5G6iFPLKrHyntPkdd-4aHB3dA,3292
+stylegan2_torch-1.1.0.dist-info/LICENSE,sha256=7JF8izbXRn8QZcPPAM7fHA0IPaOhREWRhl_nl_v_nak,1069
+stylegan2_torch-1.1.0.dist-info/METADATA,sha256=tuv5xKJwn07RrZk-d1sU3hv9SBN9_SS96jkOwCPjIWA,2884
+stylegan2_torch-1.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+stylegan2_torch-1.1.0.dist-info/top_level.txt,sha256=vgb43ABqKPBQB0Wz1bAqOz7-oJetk9VskliU-1rAni4,16
+stylegan2_torch-1.1.0.dist-info/RECORD,,
