@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+mwtools/MediaWiki_Tools.egg-info/PKG-INFO
+mwtools/MediaWiki_Tools.egg-info/SOURCES.txt
+mwtools/MediaWiki_Tools.egg-info/dependency_links.txt
+mwtools/MediaWiki_Tools.egg-info/top_level.txt
