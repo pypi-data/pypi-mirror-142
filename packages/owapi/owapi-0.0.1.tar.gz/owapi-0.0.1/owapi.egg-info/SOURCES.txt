@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+owapi/__init__.py
+owapi/owapi.py
+owapi.egg-info/PKG-INFO
+owapi.egg-info/SOURCES.txt
+owapi.egg-info/dependency_links.txt
+owapi.egg-info/top_level.txt
+owapi.egg-info/zip-safe
