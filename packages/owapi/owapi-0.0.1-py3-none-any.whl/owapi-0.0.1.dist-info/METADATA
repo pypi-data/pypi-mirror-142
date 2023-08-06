@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: owapi
+Version: 0.0.1
+Summary: An Overwatch API coded in Python. Returns json styled data.
+Home-page: https://github.com/kokonut27/owapi.py
+Author: kokonut27
+Author-email: beol0127@gmail.com
+License: MIT License
+Project-URL: Issues, https://github.com/kokonut27/owapi.py/issues
+Project-URL: Pull Requests, https://github.com/kokonut27/owapi.py/pulls
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# owapi.py
+> An Overwatch API coded in Python. Returns json styled data.
+
