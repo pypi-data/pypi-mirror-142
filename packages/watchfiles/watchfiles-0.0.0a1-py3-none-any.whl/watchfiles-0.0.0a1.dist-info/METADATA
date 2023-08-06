@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: watchfiles
+Version: 0.0.0a1
+Summary: Placeholder until I rename watchgod to use this name.
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# watchfiles
+
+Placeholder until I rename [watchgod](https://pypi.org/project/watchgod/) to use this name.
+
