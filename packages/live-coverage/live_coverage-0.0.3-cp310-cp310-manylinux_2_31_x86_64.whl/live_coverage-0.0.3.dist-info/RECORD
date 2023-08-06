@@ -1,0 +1,10 @@
+live_coverage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+live_coverage/__main__.py,sha256=3RcOUtzFcRKeXJLhe89OrTNYwsABqbIGcb_qRLHpYxU,40
+live_coverage/live_coverage.py,sha256=6KLEh04eGC7oz_kGixLxmoT6I8rQ6Utj1Ik1akwuH2A,4000
+live_coverage/live_coverage.cpython-310-x86_64-linux-gnu.so,sha256=WHoclxyoCtuoMKxnNZqnR7uhMqqbo8qi_ubo3CpgJHo,17576
+live_coverage/live_coverage__mypyc.cpython-310-x86_64-linux-gnu.so,sha256=WFdbeX212c-yTtksAe145TdYqnb_voWQBbk-RJFTaZA,268408
+live_coverage-0.0.3.dist-info/entry_points.txt,sha256=owulCJkeSUdT-O0BveOq1_8tG-aG8zy-my9Uuraikb4,66
+live_coverage-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+live_coverage-0.0.3.dist-info/WHEEL,sha256=yNRFPauz619u2WdlfdUVXmyyas8iwTAMlQ-INAirOmk,105
+live_coverage-0.0.3.dist-info/METADATA,sha256=Dmg4SvRWgDT805Iw5n_ezr7-bypJfz7cVF-nttBSG8w,616
+live_coverage-0.0.3.dist-info/RECORD,,
