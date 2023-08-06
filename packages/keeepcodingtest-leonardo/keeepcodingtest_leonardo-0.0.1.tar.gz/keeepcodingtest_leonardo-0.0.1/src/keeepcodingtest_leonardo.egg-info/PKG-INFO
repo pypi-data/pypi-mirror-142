@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: keeepcodingtest-leonardo
+Version: 0.0.1
+Summary: Ejemplo de artefacto
+Author: keepcoder
+Author-email: kcpypitest@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Un ejemplo de CICD
+
