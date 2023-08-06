@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fastarg/__init__.py
+src/fastarg/main.py
+src/fastarg.egg-info/PKG-INFO
+src/fastarg.egg-info/SOURCES.txt
+src/fastarg.egg-info/dependency_links.txt
+src/fastarg.egg-info/top_level.txt
