@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pyzytemp
+Version: 0.0.1
+Summary: A library to interface with ZyTemp devices
+Home-page: https://github.com/goakley/pyzytemp
+Author: Glen Oakley
+Author-email: goakley123@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/goakley/pyzytemp/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware :: Universal Serial Bus (USB) :: Human Interface Device (HID)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hid (>=1.0)
+Requires-Dist: pyusb (>=1.0)
+
+# pyzytemp
+
+ZyTemp devices are simple serial communication devices that can measure basic properties about the world around them.
+This library provides a method for interfacing with these devices and retrieving measurements from them.
+
+Devices powered by ZyTemp include:
+
+* https://www.co2meter.com/
+
+Different devices have different capabilities, but in theory ZyTemp devices can report:
+
+* Temperature
+* CO2 concentration
+* Relative humidity
+
+## Installation
+
+```
+pip install pyzytemp
+```
+
+## Examples
+
+Streaming value from a device:
+
+```python
+import pyzytemp
+device = pyzytemp.find()[0]
+for measurement, value in device.stream():
+    if measurement == pyzytemp.Measurement.CO2:
+        print(f"Current CO2 level: {value:.0f} PPM")
+```
+
+Polling for recent values from a device:
+
+```python
+import time
+import pyzytemp
+device = pyzytemp.find()[0]
+for _ in range(32):
+    time.sleep(1)
+    temp = device.get_last_temperature_c()
+    if temp is not None:
+        print(f"Last recorded temperature: {temp:.2f}C")
+```
+
+
