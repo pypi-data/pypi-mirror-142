@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "allure-pytest-logger"
+version = "1.0.1"
+description = "PyTest Allure Logging Plugin"
+license = "MIT"
+authors = ["Sergey Demenok <sergey.demenok@gmail.com>"]
+maintainers = ["Sergey Demenok <sergey.demenok@gmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/efpato/allure-pytest-logger"
+keywords = ["pytest", "py.test", "allure"]
+packages = [{ include = "allure_pytest_logger" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^6.2.5"
+allure-pytest = "^2.9.45"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.12.2"
+mypy = "^0.931"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins]
+pytest11 = { allure_pytest_logger = "allure_pytest_logger.plugin" }
+
+[tool.black]
+line-length = 120
+target-version = ["py39"]
+
+[tool.isort]
+default_section = "THIRDPARTY"
+known_application_apps = ["allure_pytest_logger", "tests"]
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "APPLICATION_APPS", "LOCALFOLDER"]
+line_length = 120
+use_parentheses = true
+include_trailing_comma = true
+multi_line_output = 3
+
+[tool.mypy]
+python_version = 3.9
+ignore_errors = false
+ignore_missing_imports = false
+warn_unused_ignores = true
+warn_redundant_casts = true
+show_error_codes = true
+disallow_untyped_calls = true
+namespace_packages = true
+explicit_package_bases = true
+
+[[tool.mypy.overrides]]
+module = ["allure", "pytest", "_pytest.*"]
+ignore_missing_imports = true
+
+[tool.pylint.messages_control]
+max-line-length = 120
+disable = ["missing-docstring"]
