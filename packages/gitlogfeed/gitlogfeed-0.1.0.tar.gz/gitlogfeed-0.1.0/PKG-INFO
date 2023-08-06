@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gitlogfeed
+Version: 0.1.0
+Summary: Create an atom feed from git log
+Home-page: https://github.com/nyirog/gitlogfeed
+License: Apache 2
+Project-URL: Source, https://github.com/nyirog/gitlogfeed
+Project-URL: Tracker, https://github.com/nyirog/gitlogfeed/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gitlogfeed
+Create an atom feed from git log
+
+
