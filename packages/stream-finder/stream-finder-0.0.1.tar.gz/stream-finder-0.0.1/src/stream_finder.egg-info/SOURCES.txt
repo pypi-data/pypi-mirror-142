@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/stream-finder/__init__.py
+src/stream-finder/streamfinder.py
+src/stream_finder.egg-info/PKG-INFO
+src/stream_finder.egg-info/SOURCES.txt
+src/stream_finder.egg-info/dependency_links.txt
+src/stream_finder.egg-info/top_level.txt
