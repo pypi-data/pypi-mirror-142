@@ -1,0 +1,11 @@
+odoo/addons/pos_name_to_sale_order/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/pos_name_to_sale_order/__manifest__.py,sha256=szSNGrao9_filQehhkS3dRSQM_oRuWHrOGzvaM_r9tY,547
+odoo/addons/pos_name_to_sale_order/i18n/ca_ES.po,sha256=v0H9eFxT0jvN2cbI2oXehwKUKU-eGMW29X3w3wVfJsQ,1170
+odoo/addons/pos_name_to_sale_order/i18n/es.po,sha256=dMmX8VydnzmcXw1wkkad7Z5mUOQzJwMsiqQZ51JFdew,1170
+odoo/addons/pos_name_to_sale_order/models/__init__.py,sha256=LsPoCIAYodIFzh85VEjY5GiuzDQDQpiF38txDw10qT0,25
+odoo/addons/pos_name_to_sale_order/models/sale_order.py,sha256=IcObAfjTLhTowWiJ5wcoUr2SSilCwSgK5ipgFxbBTe4,440
+odoo/addons/pos_name_to_sale_order/views/sale_order.xml,sha256=AvafESpzhjDpKb7Etn5iTRRYWn8ogKAWzx9ysuRjmD8,1038
+odoo12_addon_pos_name_to_sale_order-12.0.0.0.1.99.dev1.dist-info/METADATA,sha256=xih3Qw94GHFNPQW-ryToSd-GD4dDEiBrdaqFi2jucjU,493
+odoo12_addon_pos_name_to_sale_order-12.0.0.0.1.99.dev1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo12_addon_pos_name_to_sale_order-12.0.0.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_pos_name_to_sale_order-12.0.0.0.1.99.dev1.dist-info/RECORD,,
