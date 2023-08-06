@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: DeepRegressionEnsembles
+Version: 0.2
+Summary: Tensorflow implementation of the paper Deep Regression Ensemble (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4049493)
+Home-page: https://github.com/AntoineDidisheim
+Author: Antoine Didisheim
+Author-email: antoinedidisheim@gmail.com
+License: MIT
+Keywords: Machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
