@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nonebot_pulgin_autoagree.egg-info/PKG-INFO
+nonebot_pulgin_autoagree.egg-info/SOURCES.txt
+nonebot_pulgin_autoagree.egg-info/dependency_links.txt
+nonebot_pulgin_autoagree.egg-info/top_level.txt

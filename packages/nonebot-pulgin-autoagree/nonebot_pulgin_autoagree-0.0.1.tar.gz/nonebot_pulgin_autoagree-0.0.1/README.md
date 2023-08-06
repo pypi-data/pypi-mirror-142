@@ -1,0 +1,2 @@
+#Nonebot Pulgin AutoAgree
+
