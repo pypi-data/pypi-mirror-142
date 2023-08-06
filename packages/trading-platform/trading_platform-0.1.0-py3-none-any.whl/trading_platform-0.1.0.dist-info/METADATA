@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: trading-platform
+Version: 0.1.0
+Summary: Trading platform SDK library
+Home-page: UNKNOWN
+Author: Mihai Blebea <mihaiserban.blebea@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
