@@ -1,0 +1,11 @@
+numpy>=1.22.2
+pandas
+fire
+
+[dev]
+bump2version
+pytest
+flake8
+black
+mypy
+pre-commit
