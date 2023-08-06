@@ -1,0 +1,80 @@
+<!-- General Profiler for field:{{ field_name }} -->
+<div class="container border border-4 border-light report-section">
+    <p class="general_filed_name">{{ field_name }}</p>
+    <p class="general_filed_tag">Data type: {{ data_type }}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col border border-2 ">
+                <table class="table table-hover " id="{{ field_name }}_field_general_profiles ">
+                    <tbody>
+                    <tr>
+                        <td>Distinct Values Count#</td>
+                        <td>{{ distinct_values_count }}</td>
+                        <td>Minimum Value</td>
+                        <td>{{ min_value }}</td>
+                    </tr>
+                    <tr>
+                        <td>Null Row Count # / %</td>
+                        <td>{{ null_row_count }} / {{ null_row_count_percent | fmt_percent }}</td>
+                        <td>Maximum Value</td>
+                        <td>{{ max_value }}</td>
+                    </tr>
+                    <tr>
+                        <td>Empty Value Row Count # / %</td>
+                        <td>{{ empty_value_row_count }} / {{ empty_value_row_count_percent | fmt_percent }}</td>
+                        <td>Mean Value</td>
+                        <td>{{ mean_value }}</td>
+                    </tr>
+                    <tr>
+                        <td>Zero Row Count # / %</td>
+                        <td>{{ zero_value_row_count }} / {{ zero_value_row_count_percent | fmt_percent }}</td>
+                        <td>Standard Deviation Value</td>
+                        <td>{{ stddev_value }}</td>
+                    </tr>
+                    <tr>
+                        <td>Valued Row Count # / %</td>
+                        <td>{{ valued_row_count }} / {{ valued_row_count_percent | fmt_percent }}</td>
+                        <td>Values Count</td>
+                        <td>{{ values_count }}</td>
+                    </tr>
+                    <tr>
+                        <td>Total Row Count#</td>
+                        <td>{{ total_row_count }}</td>
+
+                    </tr>
+                    <tr>
+                        <td>Unique Row Count # / %</td>
+                        <td>{{ unique_row_count }} / {{ unique_row_count_percent | fmt_percent }}</td>
+                    </tr>
+                    <tr>
+                        <td>Duplicated Valued Row Count#</td>
+                        <td>{{ duplicated_valued_row_count }} / {{ duplicated_valued_row_count_percent | fmt_percent
+                            }}
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-6 border border-2 ">
+                <table class="table table-hover " id="{{ field_name }}_field_top_freq_value_counts " width="50% ">
+                    <tbody>
+                    <tr>
+                        <td colspan="2">Top Freq Values & Counts</td>
+                    </tr>
+                    {% for element in top_freq_values_counts['top_values'] %}
+                    <tr>
+                        <td>{{ element }}</td>
+                        <td>{{ top_freq_values_counts.get('top_values_ct')[loop.index-1] }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
