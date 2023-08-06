@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ndslib
+Version: 0.3
+Summary: Utility functions for Neuroimaging and Data Science
+Home-page: https://github.com/neuroimaging-data-science/ndslib
+Download-URL: https://github.com/neuroimaging-data-science/ndslib
+Author: Ariel Rokem and Tal Yarkoni
+Author-email: arokem@gmail.com
+Maintainer: Ariel Rokem
+Maintainer-email: arokem@gmail.com
+License: MIT License
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: nibabel
+Requires-Dist: ipython
+Requires-Dist: jupyter
+Requires-Dist: pandas
+Requires-Dist: seaborn
+
+# Data science for neuroimaging
+
+This library of software accompanies the book "Data science for neuroimaging". It contains utility functions for loading example datasets and some functions to simplify operations that are otherwise long and cumbersome.
+
+
