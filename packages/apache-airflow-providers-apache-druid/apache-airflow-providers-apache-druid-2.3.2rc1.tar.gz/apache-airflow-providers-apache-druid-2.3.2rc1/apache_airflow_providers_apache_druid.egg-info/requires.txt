@@ -1,0 +1,7 @@
+apache-airflow>=2.1.0rc1
+pydruid>=0.4.1
+gitpython
+wheel
+
+[apache.hive]
+apache-airflow-providers-apache-hive
