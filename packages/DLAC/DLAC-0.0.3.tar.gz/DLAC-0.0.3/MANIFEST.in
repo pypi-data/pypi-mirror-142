@@ -1,0 +1,5 @@
+include DLAC/models/small.onnx
+include DLAC/models/bigger.onnx
+include DLAC/parser.so
+include DLAC/scaler.gz
+include data/data.csv
