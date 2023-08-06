@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fid-helper-pytorch
+Version: 0.1.2
+Summary: An easy-to-use pytorch fid toolkit.
+Home-page: https://github.com/One-sixth/fid-helper-pytorch
+Author: onesixth
+Author-email: noexist@noexist.noexist
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: pillow
+Requires-Dist: scipy
+Requires-Dist: filetype
+Requires-Dist: opencv-python
+Requires-Dist: loguru
+Requires-Dist: torch (>=1.10)
+
+UNKNOWN
+
