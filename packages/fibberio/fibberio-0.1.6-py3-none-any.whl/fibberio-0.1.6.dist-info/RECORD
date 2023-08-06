@@ -1,0 +1,10 @@
+fibberio/__init__.py,sha256=AVbeLZ3Vw8UrOYSVs7HvZ3QLmBIDOW8Yd_pM7HWwgas,342
+fibberio/cli.py,sha256=F2QRYXkxANTbOu59Y8V-hcKT-Zg_Dtx8IJ--QwNmg1g,1462
+fibberio/distribution.py,sha256=Y17AEKM6Mp66l51DnJR8qGvspTe4HqxJqo_eb-R1vSo,5930
+fibberio/range.py,sha256=WNmvswYjxvGsmLVZzeVYSnT4NHUEijD22bt5XYeCwqw,5273
+fibberio/source.py,sha256=DwL_vaVpdKIlQs5oTmd4yssSHteknY6ipiwGG7Ax_VE,419
+fibberio/task.py,sha256=a9NiKzrILQBRHpaWCJq1uxv5hQ13rpGvOrmnMY_rJI0,1990
+fibberio-0.1.6.dist-info/entry_points.txt,sha256=GRmyh8bqrzGhYjxIWZtqjJ_iqvau17Ciu2yo2bBD_Hg,43
+fibberio-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fibberio-0.1.6.dist-info/METADATA,sha256=1lTap_6EQ_5dys9FZo2S7JxLmLGDwU8Wys4MvMJuWrw,9559
+fibberio-0.1.6.dist-info/RECORD,,
