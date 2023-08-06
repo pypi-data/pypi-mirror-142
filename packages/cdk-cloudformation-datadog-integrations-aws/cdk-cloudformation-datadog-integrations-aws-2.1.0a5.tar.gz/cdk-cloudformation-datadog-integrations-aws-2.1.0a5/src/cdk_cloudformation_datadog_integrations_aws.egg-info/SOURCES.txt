@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_datadog_integrations_aws/__init__.py
+src/cdk_cloudformation_datadog_integrations_aws/py.typed
+src/cdk_cloudformation_datadog_integrations_aws.egg-info/PKG-INFO
+src/cdk_cloudformation_datadog_integrations_aws.egg-info/SOURCES.txt
+src/cdk_cloudformation_datadog_integrations_aws.egg-info/dependency_links.txt
+src/cdk_cloudformation_datadog_integrations_aws.egg-info/requires.txt
+src/cdk_cloudformation_datadog_integrations_aws.egg-info/top_level.txt
+src/cdk_cloudformation_datadog_integrations_aws/_jsii/__init__.py
+src/cdk_cloudformation_datadog_integrations_aws/_jsii/datadog-integrations-aws@2.1.0-alpha.5.jsii.tgz
