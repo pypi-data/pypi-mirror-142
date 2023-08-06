@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+parallelworkloads/__init__.py
+parallelworkloads.egg-info/PKG-INFO
+parallelworkloads.egg-info/SOURCES.txt
+parallelworkloads.egg-info/dependency_links.txt
+parallelworkloads.egg-info/requires.txt
+parallelworkloads.egg-info/top_level.txt
