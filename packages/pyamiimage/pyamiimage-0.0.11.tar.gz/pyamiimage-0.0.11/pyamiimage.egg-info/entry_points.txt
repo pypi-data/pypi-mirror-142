@@ -1,0 +1,2 @@
+[console_scripts]
+pyamiimage = pyamiimage.commandline:main
