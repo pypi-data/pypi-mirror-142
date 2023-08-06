@@ -1,0 +1,12 @@
+sc_retail_post_rpa/__init__.py,sha256=_wuKNl-9lPOm9-Yru_aDuL43wv10OKYVfMHAX3AW14s,1174
+sc_retail_post_rpa/main.py,sha256=ET6GJRzCUOZfezbnOecpr_9jegRGApHyLE3PuiGRzj8,2050
+sc_retail_post_rpa/rpa/__init__.py,sha256=geiVmsc9iPhOzHUHdCPrdVcoT42GBjMoafy2eT_JloI,1133
+sc_retail_post_rpa/rpa/analyzer.py,sha256=mxC4S3-qIgzf1aXGyTfVSuLAbFFjKhdg2KjJjvx9y_U,13171
+sc_retail_post_rpa/tests/__init__.py,sha256=rg-0D5uJamNQhAE7bZod5fptToqSlX-d16SAwuiBhKA,1114
+sc_retail_post_rpa/tests/sample_config/production.yml,sha256=rtm9LbyrdUh5FezbzJsoPcLDENScHGWXGEgcPxEBDPc,2169
+sc_retail_post_rpa-0.0.7.dist-info/LICENSE,sha256=qE1ONTqO-JURigwx0cciswGHX9-E7RkwoDtJCqnqBT4,1076
+sc_retail_post_rpa-0.0.7.dist-info/METADATA,sha256=35f8cc4DZPQmgyZA1TwZiCQF2jUAcYjwHyJvCNBLKsA,2052
+sc_retail_post_rpa-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sc_retail_post_rpa-0.0.7.dist-info/entry_points.txt,sha256=AeE3UqHTwR61k1o-wDLljkVv0RLVpeVDDBLpRejtaD4,68
+sc_retail_post_rpa-0.0.7.dist-info/top_level.txt,sha256=mJNHrlTOBW6gB1JmEiwb7_i45XAupk-Fut3nCkfpewo,19
+sc_retail_post_rpa-0.0.7.dist-info/RECORD,,

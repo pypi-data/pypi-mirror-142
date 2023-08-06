@@ -1,0 +1,52 @@
+# 零售RPA相关的配置
+retail_rpa:
+  # 下载使用的工号
+  username: '5226'
+  # 是否等待其他文件到齐
+  wait_for_other_files: False
+  # 是否执行分析程序
+  do_analysis: False
+  # 数据分析文件存放根路径
+  analysis_root_directory: "./analysis-root"
+  # 日期文件夹格式。%Y代表4位年份，%m代表两位月份，%d代表两位日期
+  date_directory_format: '%Y%m%d'
+  # 文件下载路径
+  download_directory: "./download"
+  # 需要下载的文件列表
+  download_file_list:
+    - 代理保险业务明细表.xlsx
+    - 代理信托业务明细表.xlsx
+    - 贷款明细报表查询_下载.xlsx
+    - 分支行快乐分期业绩明细表.xlsx
+    - 个人理财业务客户余额明细表.csv
+    - 基金认申购明细表.csv
+    - 融卡发卡及相关数据明细表.xlsx
+    - 转卡发卡及相关数据明细表.xlsx
+    - 心卡发卡及相关数据明细表.xlsx
+    - 湘籍客户交叉销售明细表.csv
+    - 信用卡大额分期（非循环）时点日报（含个人明细）.xlsx
+    - 信用卡大额分期（非循环）投放额日报（含个人明细）.xlsx
+    - 信用卡发卡量（含个人明细）.xlsx
+    - 信用卡批核率统计报表.xlsx
+    - 信用卡收入（含个人明细）.xlsx
+    - 信用卡网申PAD申请明细报表.xlsx
+    - 易得贷客户经理业绩查询报表.xlsx
+    - 贵金属业务明细表.xlsx
+  # 除了上述下载文件列表外，数据分析依赖的其他文件列表
+  other_analysis_file_list:
+    - 2021年上门开户统计清单汇总.xlsx
+    - 广州分行各团队、部室成员名单.xlsx
+    - production.yml
+    - 湘籍客户-手工统计.xlsx
+    - 个人业绩统计汇总表.xlsx
+    - 经理存款统计.xlsx
+  # 检查文件清单的时间间隔（单位：秒）
+  checking_time_interval: 60
+  # 检查文件清单的时间最大值（单位：秒）
+  checking_time_threshold: 7200
+  # 分析的配置文件模板路径
+  template_analysis_config_filepath: "./template/production.yml"
+  # 花名册文件模板路径
+  template_manifest_filepath: "./template/广州分行各团队、部室成员名单.xlsx"
+
+environment: production
