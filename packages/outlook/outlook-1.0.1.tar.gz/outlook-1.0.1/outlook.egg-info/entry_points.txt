@@ -1,0 +1,4 @@
+[console_scripts]
+sendEmail = outlook:sendEmail
+setAccount = outlook:setAccount
+
