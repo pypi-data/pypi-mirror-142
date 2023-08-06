@@ -1,0 +1,7 @@
+cryptography
+loguru
+paramiko
+requests-toolbelt
+requests>=2.20.0
+scp
+tqdm
