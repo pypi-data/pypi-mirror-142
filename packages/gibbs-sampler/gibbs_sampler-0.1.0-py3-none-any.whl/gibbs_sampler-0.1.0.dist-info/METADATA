@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: gibbs-sampler
+Version: 0.1.0
+Summary: Gibbs Sampler for motif discovery
+License: CC0 v1.0 Universal
+Author: Monty Python
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bio (>=1.3.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# gibbs_sampler
+
+Gibbs Sampler for motif discovery
+
+## Installation
+
+```bash
+$ pip install gibbs_sampler
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`gibbs_sampler` was created by Monty Python. It is licensed under the terms of the CC0 v1.0 Universal license.
+
+## Credits
+
+`gibbs_sampler` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
