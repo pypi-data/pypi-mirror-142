@@ -1,0 +1,2 @@
+[console_scripts]
+AllInOneInstagramBot = AllInOneInstagramBot.__main__:main
