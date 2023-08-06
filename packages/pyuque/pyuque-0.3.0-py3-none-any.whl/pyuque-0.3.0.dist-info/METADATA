@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyuque
+Version: 0.3.0
+Summary: A Python client/toolkit for yuque.
+Home-page: https://github.com/socrateslee/pyuque
+License: MIT
+Author: lichun
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Markdown (>=3.2.2,<4.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
