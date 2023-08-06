@@ -1,0 +1,15 @@
+erddapy/__init__.py,sha256=PFhzMsNxNj6y1qgKERs6ah1fhpyaJ7Tr1koGdH37FxM,237
+erddapy/_version.py,sha256=aFv1WGaOhOg9bRuL25OuA7ozD3PSckRRpjaC84FZ7uo,21
+erddapy/doc_helpers.py,sha256=VTEkYDwpfd2QaeEVQPiZXlWa6zEM2Rc3SP9Cve6M9UE,194
+erddapy/erddaps.json,sha256=juG3O98qJx5ZdhNT1hUhCRswFxQAAeTOOHCL-Av12P4,8023
+erddapy/erddapy.py,sha256=LwplPTgye2J4FV_JO5UD_j6nX5KMk-W0BS3cSuXBbv4,25209
+erddapy/multiple_server_search.py,sha256=YRPdn_3RzTYBoxw2MR5J9nTu7n2cYRmpI0c1X3QOXJg,4732
+erddapy/netcdf_handling.py,sha256=WA_9vQLkSIchYuo9N5WlTmOephoJq38J5D5If3VgKgY,1129
+erddapy/servers.py,sha256=HrcAzgUByiXmuPQg-Zm1CKrQwTbU32E-wrMWmMAaBRM,950
+erddapy/url_handling.py,sha256=fzxfV5bSDpC-mcw8VwYzrCjUW3TMHM0WVAGteXgVqnU,2007
+erddapy-1.2.1.dist-info/LICENSE.txt,sha256=dx5v6lpBE0oubv-tUkqDtt1ftCUigXwJV1o8hinjuCI,1477
+erddapy-1.2.1.dist-info/METADATA,sha256=hOf9eNH0lcVDsGs1OtQhMabWLJ_U2W8q8J6dotTcF4k,5155
+erddapy-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+erddapy-1.2.1.dist-info/top_level.txt,sha256=rTvGlTha0JR6peBrTFl6FBEictBx1Trq7fT1rBEjr5Q,8
+erddapy-1.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+erddapy-1.2.1.dist-info/RECORD,,
