@@ -1,0 +1,9 @@
+README.txt
+setup.cfg
+setup.py
+vk-msg/__init__.py
+vk-msg/vk_msg_api.py
+vk_msg.egg-info/PKG-INFO
+vk_msg.egg-info/SOURCES.txt
+vk_msg.egg-info/dependency_links.txt
+vk_msg.egg-info/top_level.txt
