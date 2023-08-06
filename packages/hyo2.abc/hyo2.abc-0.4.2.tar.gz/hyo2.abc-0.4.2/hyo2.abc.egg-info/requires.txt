@@ -1,0 +1,14 @@
+appdirs
+gdal
+pyproj
+numpy
+requests
+
+[extended]
+bidict
+matplotlib
+psutil
+PySide2
+
+[extended:platform_system == "Windows"]
+pywin32
