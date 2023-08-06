@@ -1,0 +1,2 @@
+[console_scripts]
+manga-py = manga_py.util:main
