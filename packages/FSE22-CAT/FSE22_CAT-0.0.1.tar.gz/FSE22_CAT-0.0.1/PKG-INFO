@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: FSE22_CAT
+Version: 0.0.1
+Summary: an automated data cleaning tool for code summarization datasets
+Home-page: https://github.com/BuiltOntheRock/FSE22_BuiltOntheRock
+Author: FSE22_built_on_the_rock
+Author-email: FSE22_built_on_the_rock@outlook.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+
+# CAT: an automated data cleaning tool for code summarization datasets
+
+This is a package for  `Are We Built on the Rock? On the Importance of Data Preprocessing for Code Summarization`.
+
+Our project is public at: `<https://github.com/BuiltOntheRock/FSE22_BuiltOntheRock>`_
+
+
