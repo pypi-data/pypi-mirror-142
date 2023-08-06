@@ -1,0 +1,2 @@
+cc-agent-helper>=0.0.4
+beautifulsoup4
