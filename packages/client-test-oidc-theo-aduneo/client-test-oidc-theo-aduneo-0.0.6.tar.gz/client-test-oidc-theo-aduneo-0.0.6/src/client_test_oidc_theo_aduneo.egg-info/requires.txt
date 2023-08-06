@@ -1,0 +1,6 @@
+requests
+wheel
+pyopenssl
+jwcrypto
+lxml
+xmlsec

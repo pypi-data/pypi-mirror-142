@@ -1,0 +1,6 @@
+graft clientOIDCAduneo/templates
+graft clientOIDCAduneo/static/css
+graft clientOIDCAduneo/static/images
+graft clientOIDCAduneo/static/javascript
+graft clientOIDCAduneo/tests
+graft clientOIDCAduneo/conf
