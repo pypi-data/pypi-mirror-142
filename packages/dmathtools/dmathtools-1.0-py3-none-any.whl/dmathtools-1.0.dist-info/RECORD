@@ -1,0 +1,16 @@
+dmathtools/__init__.py,sha256=d7BFKcw7nknJmLlFKd1PoXx8dg2tbCEgTIODyPFJR7U,135
+dmathtools/LogicCalculator/LogicCalculator.py,sha256=EkQlDQO_42-Cq82KnggNZ0ZeJXhE6R--RsH4aG-UKOc,11596
+dmathtools/LogicCalculator/__init__.py,sha256=K_WpCo4GNKi5jdd86WbhsHRIEQPK6Ym8NbcXu0-Kn_I,61
+dmathtools/LogicCalculator/compileUi.py,sha256=FiEybX57iRtCwzucCrp1KW1jC8RlRgGALwj1diGQgWk,215
+dmathtools/LogicCalculator/gui.py,sha256=E7Q9kIan_rbrSEM5EhZtnySYs4ROfSOEuNvqe79AKFw,10282
+dmathtools/LogicCalculator/gui.ui,sha256=7ZNR3ulKfSWaTfOBwGj47qrvHMHKrOWqIDMRL_Mje6s,10250
+dmathtools/LogicCalculator/plugins/example.py,sha256=UZX70HfP3lMlwkScb-dMfICvWns3Fwc-cuq1AZFvwFY,961
+dmathtools/LogicCalculator/plugins/主合取范式.py,sha256=veKMt2ko84nnLDP9EF5OI-MHDWmAr5SJ626U8Upp3QI,2223
+dmathtools/LogicCalculator/plugins/主析取范式.py,sha256=jgtyfO5jh-TTBnZh9LWd0lY0Q4lGFrn8cB1PD_Oxl44,2219
+dmathtools/LogicCalculator/plugins/化简.py,sha256=4d2ysCsqcmSbehPgpkj186_gm_e-oeE7BJfXvmy41eI,2248
+dmathtools/LogicCalculator/plugins/真值表.py,sha256=R8npY2Iv6ZyJTGf5Tqnrb1jUIvRc7mpf0vHDhxyWiwA,2335
+dmathtools-1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dmathtools-1.0.dist-info/METADATA,sha256=V0_6XBMqY9PThnRzb_ZXAlQqt7J8Ky_TXw-Wb96u5Is,155
+dmathtools-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dmathtools-1.0.dist-info/top_level.txt,sha256=MQpO-Iu3zovNQKpljBb4gghJEYyYtcxGtuUmYEq6YKE,11
+dmathtools-1.0.dist-info/RECORD,,
