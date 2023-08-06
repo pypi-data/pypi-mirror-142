@@ -1,0 +1,17 @@
+df2onehot/__init__.py,sha256=GMYwjHE_kXU0Ld8dCRFSjJqsnKkLNCZ4W3kZfbltPs0,692
+df2onehot/df2onehot.py,sha256=MWo1L-HzVKfmGiXdt_5Mo2uyUQ4AlEchs9xfUCn9fMw,20591
+df2onehot/examples.py,sha256=rzCzh5qAt6EDfZ8M2JLmV9Nv1RZQ_49OTSvAkN5HuTM,968
+df2onehot/utils.py,sha256=dTARBYRnYdqXP5hhGATlWFz1XRRJBrwxwTX6xWP4i_8,10215
+df2onehot/data/FIFA_2018.zip,sha256=pQFgZ4gTj457tJXEV0Jm4nmWF_Lg1SME-oRpzIM63Yw,3928
+df2onehot/data/cancer_dataset.zip,sha256=4E1COS-GGFotQGip3pvO0VdX1j44BNPA0065JWEHx0w,147068
+df2onehot/data/marketing_data_online_retail_small.zip,sha256=HO3pN8NGNBNyfgaO-k6HgRKoxkhmDxddpdLnNBC1Feg,14904
+df2onehot/data/sprinkler.zip,sha256=3imXB3ueA-HzKWV1mj3jkpYBDL5J325_Hjr2JW2EJIQ,1049
+df2onehot/data/student_train.zip,sha256=sT30qC6MYw9iwTnYH6Ut7xI3LvHsDKQWzag_wdf9ReQ,11296
+df2onehot/data/titanic_train.zip,sha256=zjpUxa_wLpJ0glQOT1J2Bv5d9jkEmj3ZUcecy575BkU,22510
+df2onehot/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+df2onehot/tests/test_df2onehot.py,sha256=YcP10N_BmDTbBALC73ZL0tlx2jZ9yROyc3hl9VmaWxw,3813
+df2onehot-1.0.1.dist-info/LICENSE,sha256=KW_XcSMLyM3kAI-THNF-taYs9Lf-O7B19CAW_ueHw-w,1122
+df2onehot-1.0.1.dist-info/METADATA,sha256=9bHAZQDzlce0Uc9A63slkRFELmcXKvoXojCPeZOao1k,3242
+df2onehot-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+df2onehot-1.0.1.dist-info/top_level.txt,sha256=khOnqYIvoVEm6bUw7dB9MRv0RZAN_ymHnr1Alz6KFu8,10
+df2onehot-1.0.1.dist-info/RECORD,,
