@@ -1,0 +1,9 @@
+gatered/__init__.py,sha256=3XXa8rE1BAY4y5a14lB1aXI781ZyJ_q-TnH0Vv1bVkA,366
+gatered/client.py,sha256=-KsuQDn1N-j92r_1LmTEKWcL-kZfXDz2K2lPdEIXib4,11076
+gatered/func.py,sha256=iEfec-yv7_IF2d3Wd5JGTSHyvuRB5O8itZQcDHMYO3k,4315
+gatered/pushshift.py,sha256=P0niwez0AEmdlQc-m4Il7-RSAZH72aaEHZ28VFqlhKM,3920
+gatered/utils.py,sha256=RrnzQzVFi3WkCSGVNZQxcfLC_tg-joz5YKdKSYO2baw,119
+gatered-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gatered-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gatered-1.0.0.dist-info/METADATA,sha256=cwLU1oAicDl0l2mzUousgODdc68IPQAw1CSQcAxPiCk,9933
+gatered-1.0.0.dist-info/RECORD,,
