@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hbsc-utils
+Version: 0.2.1
+Summary: HBSC Python utils
+Author: Hairy Bear Social Club
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: chia-blockchain (==1.3.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
