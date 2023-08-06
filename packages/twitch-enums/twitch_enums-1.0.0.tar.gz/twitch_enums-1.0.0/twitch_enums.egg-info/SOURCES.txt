@@ -1,0 +1,7 @@
+setup.py
+twitch_enums.py
+twitch_enums_extensions.py
+twitch_enums.egg-info/PKG-INFO
+twitch_enums.egg-info/SOURCES.txt
+twitch_enums.egg-info/dependency_links.txt
+twitch_enums.egg-info/top_level.txt
