@@ -1,0 +1,8 @@
+setup.py
+clygon/__init__.py
+clygon/clygon.py
+clygon.egg-info/PKG-INFO
+clygon.egg-info/SOURCES.txt
+clygon.egg-info/dependency_links.txt
+clygon.egg-info/requires.txt
+clygon.egg-info/top_level.txt
