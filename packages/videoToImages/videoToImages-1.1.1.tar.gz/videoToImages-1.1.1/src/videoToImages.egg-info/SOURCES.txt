@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/videoToImages/__init__.py
+src/videoToImages/videoToImages.py
+src/videoToImages.egg-info/PKG-INFO
+src/videoToImages.egg-info/SOURCES.txt
+src/videoToImages.egg-info/dependency_links.txt
+src/videoToImages.egg-info/entry_points.txt
+src/videoToImages.egg-info/top_level.txt
