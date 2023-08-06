@@ -1,0 +1,3 @@
+[console_scripts]
+mediater=mediater.console:run
+
