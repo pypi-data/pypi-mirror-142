@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: clickup-python
+Version: 1.0.1
+Summary: Python developed library for ClickUp API
+Home-page: https://github.com/GearPlug/clickup-python
+Author: Johan Cardenas
+Author-email: jcardenas@gearplug.io
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clickup-python
+ClickUp API wrapper written in python
+
+## Installing
+```
+pip install git+https://github.com/GearPlug/clickup-python.git
+```
+
+## Requirements
+- requests
+
+## Contributing
+We are always grateful for any kind of contribution including but not limited to bug reports, code enhancements, bug fixes, and even functionality suggestions.
+
+#### You can report any bug you find or suggest new functionality with a new [issue](https://github.com/GearPlug/clickup-python/issues).
+
+#### If you want to add yourself some functionality to the wrapper:
+1. Fork it ( https://github.com/GearPlug/clickup-python )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Adds my new feature')   
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
+
+

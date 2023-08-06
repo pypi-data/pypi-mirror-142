@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+clickup/__init__.py
+clickup/client.py
+clickup/exceptions.py
+clickup/response.py
+clickup_python.egg-info/PKG-INFO
+clickup_python.egg-info/SOURCES.txt
+clickup_python.egg-info/dependency_links.txt
+clickup_python.egg-info/not-zip-safe
+clickup_python.egg-info/requires.txt
+clickup_python.egg-info/top_level.txt
