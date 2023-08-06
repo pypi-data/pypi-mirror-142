@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+PyAmazonWebScraper/__init__.py
+PyAmazonWebScraper.egg-info/PKG-INFO
+PyAmazonWebScraper.egg-info/SOURCES.txt
+PyAmazonWebScraper.egg-info/dependency_links.txt
+PyAmazonWebScraper.egg-info/requires.txt
+PyAmazonWebScraper.egg-info/top_level.txt
