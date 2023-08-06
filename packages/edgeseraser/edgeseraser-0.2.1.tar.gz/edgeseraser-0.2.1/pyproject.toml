@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "edgeseraser"
+version = "0.2.1"
+description = "A short description of the project"
+authors = [
+    "Bruno Messias <devmessias@gmail.com>",
+]
+license = "MIT"
+readme = "README.md"
+
+documentation = "https://devmessias.github.io/edgeseraser"
+homepage = "https://devmessias.github.io/edgeseraser"
+repository = "https://github.com/devmessias/edgeseraser"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+
+packages = [
+    { include = "edgeseraser", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1, <4.0"
+numpy = "*"
+networkx = "*"
+scipy = "*"
+typing_extensions = "*"
+
+[tool.poetry.dev-dependencies]
+autoflake = "*"
+black = "*"
+flake8 = "*"
+flake8-bugbear = "*"
+flake8-builtins = "*"
+flake8-comprehensions = "*"
+flake8-debugger = "*"
+flake8-eradicate = "*"
+flake8-logging-format = "*"
+isort = "*"
+mkdocstrings = "*"
+mkdocs-material = "*"
+mypy = "*"
+pep8-naming = "*"
+pre-commit = "*"
+pymdown-extensions = "*"
+pytest = "*"
+pytest-cov = "*"
+python-kacl = "*"
+pyupgrade = "*"
+tryceratops = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "tests"]
+
+[tool.black]
+target-version = ["py37", "py38", "py39"]
+include = '\.pyi?$'
+
+
+[tool.mypy]
+disallow_untyped_defs = false
+no_implicit_optional = true
+ignore_missing_imports = true
