@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cppyythonizations
+Version: 1.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/flatsurf/cppyythonizations
+Author: Julian Rüth
+Author-email: julian.rueth@fsfe.org
+License: MIT
+Platform: UNKNOWN
+License-File: COPYING
+License-File: AUTHORS
+Requires-Dist: cppyy
+
+A collection of Pythonizations for cppyy
+
