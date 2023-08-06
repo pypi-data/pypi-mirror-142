@@ -1,0 +1,5 @@
+firstlanguage-python>=2.5.0
+jsonpickle
+pandas>=1.4.1
+st-annotated-text>=3.0.0
+streamlit>=0.63
