@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "nasminer"
+author = "Jona JOACHIM"
+author-email = "jona@joachim.cc"
+home-page = "https://framagit.org/jaj/nasminer"
+classifiers = [ "License :: OSI Approved :: ISC License (ISCL)",]
+description-file = "README.md"
+requires-python=">=3.6"
+requires=[
+    "numpy>=1.21.4",
+    "pandas>=1.3.4",
+    "SQLAlchemy>=1.4.26",
+    "psycopg2>=2.9.1",
+    "puremagic>=1.11",
+    "pydicom>=2.2.2",
+    "pyEDFlib>=0.1.22",
+    "python-dateutil>=2.8.2",
+    "Levenshtein>=0.16.0",
+    "openpyxl>=3.0.9",
+]
+
+#[tool.flit.scripts]
+#graphysio = "graphysio.main:main"
+
+[tool.black]
+line-length = 88
+target-version = ['py36', 'py37', 'py38', 'py39']
+extend-exclude = 'ui'
+skip-string-normalization = true
