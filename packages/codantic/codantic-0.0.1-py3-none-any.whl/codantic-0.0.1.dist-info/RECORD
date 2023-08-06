@@ -1,0 +1,10 @@
+codantic/__init__.py,sha256=ERmmOxz_9mUkIuccNbzUa5Y6gVLLVDdyc4cCxbCCUbY,20
+codantic/base.py,sha256=_GWd1ZBfqzFWevKEWC3fcja3AHQb-NSy0v_Zyr31ka8,2737
+codantic/face_detection.py,sha256=vrwapN6Pc4exzm_Q_Id4yje7sU1edsfsoBkYxgGDUSo,337
+codantic/image_captioning.py,sha256=ErsuD7ITK6WYQbEx3I-0eiDIk0bDfHjv2BhsQost3yY,262
+codantic/object_detection.py,sha256=sLRuk97xhDNz9o-sfoj_k2fIv10cCm94Qjc7rXpYnXs,2667
+codantic-0.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codantic-0.0.1.dist-info/METADATA,sha256=8x0a9FV_MDBJKQ6Md3WUKZyuJjqK6oHCZk_02jAYqcI,625
+codantic-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+codantic-0.0.1.dist-info/top_level.txt,sha256=gbrpzSqpf8Wdx2exY1veg12-h6Il5DMHwjLgnfIm9dQ,9
+codantic-0.0.1.dist-info/RECORD,,
