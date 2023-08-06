@@ -1,0 +1,274 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "link": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "copyright": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "imageFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "explicit": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "ownerName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ownerEmail": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "itunesCategories": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "uid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redirectUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "itunesActive": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "slug": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "networkId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redirectedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recurringImport": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "itunesRating": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "originalRssUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "itunesIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stitcherIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "episodesCount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "podtracEnabled": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "spotifyIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "googlePlayIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "googlePodcastsIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "iheartIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "episodeLimit": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "feedUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "externalId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "defaultPreCount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "defaultPostCount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "podcastType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "advertisingTags": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "mainFeed": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "adFree": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  }
+
+}

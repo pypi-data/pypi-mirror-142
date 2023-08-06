@@ -1,0 +1,103 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "advertisedId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organizationId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "totalRevenueCents": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "totalRevenueCurrency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "durationInSeconds": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "advertiser": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "agency": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
