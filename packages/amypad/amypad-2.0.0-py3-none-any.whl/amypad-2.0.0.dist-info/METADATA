@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: amypad
+Version: 2.0.0
+Summary: Alias for amypet
+Home-page: https://github.com/AMYPAD/AmyPET
+Maintainer: Casper da Costa-Luis
+Maintainer-email: casper.dcl@physics.org
+License: MPL 2.0
+Keywords: pet alzheimers
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/x-rst
+Requires-Dist: amypet
+
+Alias for `amypet <https://github.com/AMYPAD/AmyPET>`_.
+
+
