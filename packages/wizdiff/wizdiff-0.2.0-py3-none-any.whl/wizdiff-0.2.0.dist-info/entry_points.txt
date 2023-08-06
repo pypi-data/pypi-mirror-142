@@ -1,0 +1,3 @@
+[console_scripts]
+wizdiff=wizdiff.__main__:main
+
