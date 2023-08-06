@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+data/123456.json
+data/configurations.json
+src/pyskytapapi.egg-info/PKG-INFO
+src/pyskytapapi.egg-info/SOURCES.txt
+src/pyskytapapi.egg-info/dependency_links.txt
+src/pyskytapapi.egg-info/requires.txt
+src/pyskytapapi.egg-info/top_level.txt
