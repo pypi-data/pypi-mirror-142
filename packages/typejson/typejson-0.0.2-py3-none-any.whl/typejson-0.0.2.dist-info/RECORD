@@ -1,0 +1,10 @@
+typejson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typejson/mongo.py,sha256=HyNVVYUt531YgvqsZyoyAfLakcTqCsnXPWzo7-b8MhY,332
+typejson/mysql.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typejson/serialization.py,sha256=v3aES6LnXn41MDwSAGDKIjZHSKIxeb38DyGVgh7r1Kc,858
+typejson/typing.py,sha256=4LExviQ9EYAVKBnclh_5IBVGuRf-7bsT-lwaOEjT6L8,2547
+typejson-0.0.2.dist-info/METADATA,sha256=XEeZ2qBzqjiITENdvV_SXp09Q7kcMnfhyV5SSsK5hSw,1067
+typejson-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+typejson-0.0.2.dist-info/license,sha256=R5Gvqk6IZX9BotBuvr1rdfXA8FQSZTCWkgx91PUaA7M,1062
+typejson-0.0.2.dist-info/top_level.txt,sha256=1EOPSnZl18Bgv6jVycxkOjUCmjbl5kCTziPW50vaJp8,9
+typejson-0.0.2.dist-info/RECORD,,
