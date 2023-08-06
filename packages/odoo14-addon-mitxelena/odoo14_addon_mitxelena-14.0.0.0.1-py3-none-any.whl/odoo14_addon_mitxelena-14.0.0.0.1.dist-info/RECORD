@@ -1,0 +1,13 @@
+odoo/addons/mitxelena/__init__.py,sha256=m9EwjQid0_uoD8cYfvb5nXUcNfwuHpJwwB2c3aAvtLo,44
+odoo/addons/mitxelena/__manifest__.py,sha256=cHyEeMJx28xuGNQRFZV6e20bnRW5QcuoSUqhzP3fYKM,736
+odoo/addons/mitxelena/models/__init__.py,sha256=bE5rM6BrpuXOMVfSmav6LCcr5BitrqcDBSYKGNnsOP8,110
+odoo/addons/mitxelena/models/product_template.py,sha256=M_FZuZKdRM3JBWiKXAfWW70YmAWL1dss9CnKvyR0lNM,2404
+odoo/addons/mitxelena/models/res_partner.py,sha256=VkUPaNgmVguX8S-TktINirLfZcMSOusvcveRmbkj6aY,1743
+odoo/addons/mitxelena/models/sale_order_line.py,sha256=9X9SlSYcXjdWGx_kziTdg5piEUs4qhwSQNIwgfjK6FQ,1006
+odoo/addons/mitxelena/views/product_template.xml,sha256=dAu9tVhvHL63n29dw_XZ8tC0gfCnVob6sIppdCxL4mc,5241
+odoo/addons/mitxelena/views/res_partner.xml,sha256=C-JqkdtNr2GlDzchY_TcnqWBpAQo5plHu_ut6DuQXhY,1094
+odoo/addons/mitxelena/views/sale_order_line.xml,sha256=m2aU1EJzmoR2RNvnFb8vnPAO4jsUIlSEX1upBhESPLg,617
+odoo14_addon_mitxelena-14.0.0.0.1.dist-info/METADATA,sha256=MpAIET2zlgSLW02iWQ2jc7fmYgevpAo-xcRaI-6e82c,522
+odoo14_addon_mitxelena-14.0.0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_mitxelena-14.0.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_mitxelena-14.0.0.0.1.dist-info/RECORD,,
