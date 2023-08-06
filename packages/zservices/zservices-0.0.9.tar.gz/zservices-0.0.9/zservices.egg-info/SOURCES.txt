@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+test/test.py
+zdynamodb/__init__.py
+zdynamodb/config.py
+zdynamodb/dynamo.py
+zdynamodb/queries.py
+zdynamodb/setting.py
+zmongodb/__init__.py
+zs3/__init__.py
+zservices.egg-info/PKG-INFO
+zservices.egg-info/SOURCES.txt
+zservices.egg-info/dependency_links.txt
+zservices.egg-info/requires.txt
+zservices.egg-info/top_level.txt
