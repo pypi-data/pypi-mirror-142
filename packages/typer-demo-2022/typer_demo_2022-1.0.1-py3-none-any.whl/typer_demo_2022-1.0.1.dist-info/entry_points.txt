@@ -1,0 +1,3 @@
+[console_scripts]
+hola-mundo=typer_demo_2022.main:app
+
