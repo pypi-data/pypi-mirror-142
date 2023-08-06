@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sbiqer
+Version: 0.3
+Summary: a lightweight spider tool
+Home-page: https://github.com/srx-2000/sbiqer
+Author: beier
+Author-email: 1601684622@qq.com
+License: MIT Licence
+Keywords: pip,spider,python,crawler
+Platform: any
+Requires-Python: >=3.7
+
+UNKNOWN
+
