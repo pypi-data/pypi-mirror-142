@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yh-finance
+Version: 0.0.3
+Summary: A Python package that wraps YH Finance API endpoints and returns financial data in JSON format.
+Home-page: https://github.com/AG3NTZ3R0/yh_finance
+Author: Brandon J. Lacy
+Author-email: Z3R0@duck.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AG3NTZ3R0/yh_finance/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# YH Finance
+
+A Python package that wraps YH Finance API endpoints and returns financial data in JSON format. The API queries markets, stocks, news and conversations on Yahoo! Finance in real time to streamline the development of financial applications.
+
