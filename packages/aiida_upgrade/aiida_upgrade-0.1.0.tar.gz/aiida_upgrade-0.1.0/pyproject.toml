@@ -1,0 +1,34 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "aiida_upgrade"
+authors = [{name = "The AiiDA team", email = "developers@aiida.net"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "click",
+    "libcst"
+]
+
+[project.urls]
+Home = "https://github.com/aiidateam/aiida-upgrade"
+
+[project.scripts]
+aiida-upgrade = "aiida_upgrade.__main__:main"
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+]
+
+[tool.flit.sdist]
+exclude = [
+    "tests/",
+]
+
+[tool.isort]
+profile = "black"
