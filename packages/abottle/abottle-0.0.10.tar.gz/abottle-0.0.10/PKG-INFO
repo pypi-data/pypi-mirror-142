@@ -1,0 +1,259 @@
+Metadata-Version: 2.1
+Name: abottle
+Version: 0.0.10
+Summary: put your model into **a bottle** then you get a working server and more.
+Home-page: UNKNOWN
+Author: taylorhere
+Author-email: taylorherelee@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: <3.10
+Description-Content-Type: text/markdown
+
+# abottle
+
+trition/tensorrt/onnxruntim/pytorch python server wrapper
+
+put your model into **a bottle** then you get a working server and more.
+
+```shell
+usage: abottle [-h] [--wrapper WRAPPER] [--as AS_] [--config CONFIG] [--host HOST] [--port PORT] usermodel_name
+
+Warp you python object with a bottle
+
+positional arguments:
+  usermodel_name     your python object moudle
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --wrapper WRAPPER  which model wrapper you want to use? abottle.TritonModel? abottle.ONNXModel, abottle.TensorRTModel?,
+                     abottle.PytrochModel? or any wrapper class that implemented abottle.BaseModel!
+  --as AS_           server? tester?
+  --config CONFIG    config yaml file path or content in string
+  --host HOST
+  --port PORT
+
+```
+
+# Demo
+write any class which contain a function named predict and receive a list as input, like below:
+```python
+
+import numpy as np
+from transformers import AutoTokenizer
+
+
+class MiniLM:
+    def __init__(self):
+        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+
+    def predict(self, X):
+        encode_dict = self.tokenizer(
+            X, padding="max_length", max_length=128, truncation=True
+        )
+        input_ids = np.array(encode_dict["input_ids"], dtype=np.int32)
+        attention_mask = np.array(encode_dict["attention_mask"], dtype=np.int32)
+
+        outputs = self.model.infer(
+            {"input_ids": input_ids, "attention_mask": attention_mask}, ["y"]
+        )
+
+        return outputs['y']
+
+
+    #you can write config in class or provide it as a yaml file or yaml string
+    class Config:
+        class TritionModel:
+            trt_url = "triton.triton-system"
+            name = "minilm"
+            version = "2"
+```
+start with abottle, pass your path file and class with format 'a.b.c', like below:
+```shell
+abottle main.MiniLM
+```
+in default abottle will start a HTTP server and use abottle.TritonModel to wrap your class, which will help you to talk with triton serve, you can config Triton server information and model information in a class name Config.TritonModel.
+
+
+also you can config with shell string input, and don't write Config class in your code
+```shell
+abottle main.MiniLM --config """TritonModel:
+        triton_url: localhost
+        name: minilm
+        version: 2
+    """
+```
+
+and you can also config with a yaml file
+
+```shell
+abottle main.MiniLM --config <config yaml file path>
+```
+if you choice another model wrapper like abottle.ONNXModel, your config key shuold be ONNXModel, etc.
+
+# Class Template
+```python
+class YourClass:
+    def predict(self, X):
+        return
+    def evaluate(self, **kwargs):
+        return
+```
+# Type Hint your Code
+```python
+import typing
+class YourClass:
+    def predict(self, X:typing.List[str]) -> typing.String
+        pass
+```
+if you add type hint in your code, the server start with abottle can generate a `OpenSchema`  metadata
+
+and you can do more things with abottle
+```python
+import numpy as np
+import pandas as pd
+from transformers import AutoTokenizer
+from typing import List
+
+
+class MiniLM:
+    def __init__(self):
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+        )
+
+    def cosine(self, a: List[List[float]], b: List[List[float]]) -> float:
+        a, b = np.array(a), np.array(b)
+        # |A|
+        sqrt_sqare_A = np.tile(
+            np.sqrt(np.sum(np.square(a), axis=1)).reshape((a.shape[0], 1)),
+            (1, a.shape[0]),
+        )
+        # |B|
+        sqrt_sqare_B = np.tile(
+            np.sqrt(np.sum(np.square(b.T), axis=0)).reshape((1, b.shape[0])),
+            (b.shape[0], 1),
+        )
+        # cosine similarity
+        score_matrix = np.divide(np.dot(a, b.T), sqrt_sqare_A * sqrt_sqare_B)
+        return score_matrix
+
+    def predict(self, X: List[str]) -> List[List[float]]:
+        encode_dict = self.tokenizer(
+            X, padding="max_length", max_length=128, truncation=True
+        )
+        input_ids = np.array(encode_dict["input_ids"], dtype=np.int32)
+        attention_mask = np.array(encode_dict["attention_mask"], dtype=np.int32)
+
+        outputs = self.model.infer(
+            {"input_ids": input_ids, "attention_mask": attention_mask}, ["y"]
+        )
+
+        return outputs['y']
+
+    def evaluate(self, file_path: str) -> float:
+        test_data = pd.read_csv(file_path, sep=", ", names=["query", "label"])
+        query, label = test_data["query"].tolist(), test_data["label"].tolist()
+        assert len(query) == len(label)
+
+        query_embedding, label_embedding = [], []
+        for i in range(len(query)):
+            query_embedding.append(self.predict(query[i]))
+            label_embedding.append(self.predict(label[i]))
+        assert len(query_embedding) == len(label_embedding)
+
+        # 分数矩阵
+        score_matrix = self.cosine(query_embedding, label_embedding)
+        # 算法性能
+        raw_result = np.argmax(score_matrix, axis=0) == np.array(
+            [i for i in range(score_matrix.shape[0])]
+        )
+        unique, counts = np.unique(raw_result, return_counts=True)
+        top_1_accuracy = counts[unique.tolist().index(True)] / np.sum(counts)
+
+        return top_1_accuracy
+
+```
+
+def evaluate can be used as a tester like below, tester means to test your model's accuracy
+
+```shell
+abottle main.MiniLM --as tester file_path='test.csv'
+```
+the arguments you defined in the `evaluate` function can be set in CLI args with format xxx=xxx
+
+you can use different wrapper for your model, including:
+
+- abottle.ONNXModel
+- abottle.TensorRTModel
+- abottle.TritonModel
+- abottle.PytorchModel
+
+if you want to add more wrappers you can just implement abottle.BaseModel
+
+```shell
+abottle main.MiniLM --as server --wrapper abottle.TritonModel
+abottle main.MiniLM --as server --wrapper anything.you.write.which.implemented.abottle.BaseModel
+
+```
+
+# Configs, Model Creator don't need to read this.
+every wrapper has it's own config fileds, but in general
+
+**config with class**
+
+shuold follow, notice the `WrapperNameHere` means replace it as your Wrapper's name, it's means the class name, like abottle.ONNXModel' wrapper name is ONNXModel
+```python
+class YourClass:
+    def predict(self, X):
+        return
+    def evaluate(self, **kwargs):
+        return
+    class Config:
+        class WrapperNameHere:
+            pass
+```
+and if you want to use outside configs like yaml strings or yaml file, remove the Config class in your code, otherwise, the outside config will be ignored
+
+**config with yaml**
+shuold follow notice the `WrapperNameHere` means replace it as your Wrapper's name, it's means the class name, like abottle.ONNXModel' wrapper name is ONNXModel
+
+```yaml
+WrapperNameHere:
+    wrappers_fileds: here
+```
+
+## abottle's wrapper configs
+
+### abottle.ONNXModel
+```yaml
+ONNXModel:
+    ort_file: "the file where .onnx file path"
+```
+
+### abottle.PytorchModel
+```yaml
+PytorchModel:
+    model: "should be a importable string(in fact it's not implemented while this doc write"
+```
+
+### abottle.TersorRTModel
+```yaml
+TensorRTModel:
+    trt_file: "the .plan or .trt file path"
+```
+
+### abottle.TritonModel
+```yaml
+TritonModel:
+    name: "your model name in your Triton server, you can found it out from server's log"
+    version: "your model version in your Triton server, you can found it out from server's log"
+    triton_url: "your triton server's url `should not` contain schema like `http://`"
+```
+
+# Motivation
+as a DL model creator, you don't need to focus on how to serve or test the performance of a model on a target platform or how to optimize your model and don't lose accuracy, just find a bottle and put your logic code into it, the DL engineer people can do those things for you, all you need to do is export your model to a onnx file, and write logic code like above examples.
+
+# Feature
+we will build this bottle as strong as possible, make this bottle become a standardization interface of the MLOps cycles, you can see more and more scenarios like optimization, graph fusing, performance test, deployment, data gathering, etc using this bottle.
+
