@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/autotor/__init__.py
+src/autotor/_metadata.py
+src/autotor/autotor_base.py
+src/autotor/autotor_ip.py
+src/autotor.egg-info/PKG-INFO
+src/autotor.egg-info/SOURCES.txt
+src/autotor.egg-info/dependency_links.txt
+src/autotor.egg-info/requires.txt
+src/autotor.egg-info/top_level.txt
