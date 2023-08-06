@@ -1,0 +1,5 @@
+semver
+typed-argument-parser
+numpy
+dataclasses-json
+paddlenlp
