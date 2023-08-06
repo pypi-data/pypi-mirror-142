@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: useless-lavalink
+Version: 1.4
+Summary: A fork of Red-Lavalink for useless_bot
+License: GPL-3.0-or-later
+Author: MRvillager
+Author-email: mrvillager.dev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: aiohttp
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Dist: aiohttp (>=3.8,<4.0)
+Requires-Dist: discord.py
