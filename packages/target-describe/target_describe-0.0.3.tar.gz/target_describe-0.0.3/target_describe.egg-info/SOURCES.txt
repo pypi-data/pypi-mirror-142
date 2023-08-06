@@ -1,0 +1,12 @@
+LICENSE
+README.md
+README.rst
+setup.py
+target_describe/__init__.py
+target_describe/target_describe.py
+target_describe/utils.py
+target_describe.egg-info/PKG-INFO
+target_describe.egg-info/SOURCES.txt
+target_describe.egg-info/dependency_links.txt
+target_describe.egg-info/requires.txt
+target_describe.egg-info/top_level.txt
