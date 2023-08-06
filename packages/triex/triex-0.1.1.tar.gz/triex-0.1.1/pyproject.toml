@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "triex"
+version = "0.1.1"
+description = "An Interactive Trie CLI"
+authors = ["Ashwin Sriram"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.4"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+triex = "triex.triex:triex"
