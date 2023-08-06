@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+Example_Package_LE.egg-info/PKG-INFO
+Example_Package_LE.egg-info/SOURCES.txt
+Example_Package_LE.egg-info/dependency_links.txt
+Example_Package_LE.egg-info/requires.txt
+Example_Package_LE.egg-info/top_level.txt
+example_package_le/__init__.py
+example_package_le/main.py
