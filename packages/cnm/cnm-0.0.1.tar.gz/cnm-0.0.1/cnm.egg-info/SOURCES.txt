@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cnm/__init__.py
+cnm.egg-info/PKG-INFO
+cnm.egg-info/SOURCES.txt
+cnm.egg-info/dependency_links.txt
+cnm.egg-info/entry_points.txt
+cnm.egg-info/top_level.txt
+cnm.egg-info/zip-safe
+cnm/shell/__init__.py
+cnm/shell/usage.py
+cnm/src/temp.txt
