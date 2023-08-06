@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: prabir
+Version: 0.0.1
+Summary: This is a data science related question asnwering model for the beginners
+Home-page: UNKNOWN
+Author: Prabir Debnath
+Author-email: prabirdeb@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: re
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: gensim
+
+UNKNOWN
+
+
