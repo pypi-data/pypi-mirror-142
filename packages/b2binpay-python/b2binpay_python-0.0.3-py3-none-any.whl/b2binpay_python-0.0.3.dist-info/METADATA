@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: b2binpay-python
+Version: 0.0.3
+Summary: Library for working with b2binpay api
+Home-page: https://github.com/allkap/b2binpay-py
+Author: allkap
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: aiosignal (==1.2.0)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: frozenlist (==1.3.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: loguru (==0.6.0)
+Requires-Dist: multidict (==6.0.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: yarl (==1.7.2)
+Requires-Dist: python-dotenv (~=0.19.2)
+Requires-Dist: setuptools (~=60.9.3)
+
+# b2binpay-py
+> Library for work with [B2binPay](https://docs.b2binpay.com/v2/en/api-reference.html?roistat_visit=584687)
+# Install
+`pip install b2binpay-py`
+
