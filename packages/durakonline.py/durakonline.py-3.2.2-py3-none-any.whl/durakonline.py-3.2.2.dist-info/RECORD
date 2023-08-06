@@ -1,0 +1,12 @@
+durakonline/__init__.py,sha256=pH-0ACsX4on7q2l5sM8DEe2QzBet2cbjCrVClMIE-2U,580
+durakonline/authorization.py,sha256=cwbKS6eUYyOMaW1Kf1cBUOjA2zdctqDuxCQez86E-hA,2550
+durakonline/durakonline.py,sha256=8Vst0RCumg7YAEgYXhuv42dEe0cOF4v3x1rJeLGffnA,8143
+durakonline/game.py,sha256=5mFiE7cH7v09w4ijPhcJx0hqRv7CmBT6K98CggnMYJw,2898
+durakonline/socket_listener.py,sha256=zqv3kv7kMEJkzCdt6qte1pBi8x_AQbov9kIu7JLs7R0,3818
+durakonline/utils/__init__.py,sha256=4aaBLy_klFILghmoRKneDDzgq3rLFjDpRphRBQpphyU,23
+durakonline/utils/objects.py,sha256=hU-V3AfqTXfoJiMtzZ2E0N07TqopIwkf4wnhpK6NcuY,6013
+durakonline.py-3.2.2.dist-info/LICENSE,sha256=xdCMeldc7Mr-xk2T4-zbRqDkvjAuv7-mjFKxK2TQObk,1071
+durakonline.py-3.2.2.dist-info/METADATA,sha256=NnjG1JzDHTfgT9trEub-6WePfMPbyeh8QuJaI8KuTRc,1205
+durakonline.py-3.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+durakonline.py-3.2.2.dist-info/top_level.txt,sha256=MEpcArfJEeL52Z8gSpMkkA2jy0UYGdf7QIQ_SCbmn50,12
+durakonline.py-3.2.2.dist-info/RECORD,,
