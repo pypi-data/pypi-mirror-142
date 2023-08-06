@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+DLAC/__init__.py
+DLAC/anticheat.py
+DLAC/parser.so
+DLAC/scaler.gz
+DLAC.egg-info/PKG-INFO
+DLAC.egg-info/SOURCES.txt
+DLAC.egg-info/dependency_links.txt
+DLAC.egg-info/requires.txt
+DLAC.egg-info/top_level.txt
+DLAC/models/bigger.onnx
+DLAC/models/small.onnx
