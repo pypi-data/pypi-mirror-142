@@ -1,0 +1,11 @@
+bmlab>=0.1.2
+h5py>=2.10.0
+matplotlib
+numpy>=1.17.0
+pyqt6
+pyqtgraph
+pytest
+pytest-qt
+pytest_mock
+scikit-image
+scipy>=0.14.0
