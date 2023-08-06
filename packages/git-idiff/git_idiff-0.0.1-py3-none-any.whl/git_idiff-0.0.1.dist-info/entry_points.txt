@@ -1,0 +1,2 @@
+[console_scripts]
+git-idiff = git_idiff.__main__:main_args
