@@ -1,0 +1,1 @@
+this package allows you to perform simple operations with the percentage without having to resort to writing all the mathematical formulas in the code, this makes the code shorter, cleaner and does not make it necessary to remember or search for the formulas.

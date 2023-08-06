@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+simplepercent.py
+simplepercent.egg-info/PKG-INFO
+simplepercent.egg-info/SOURCES.txt
+simplepercent.egg-info/dependency_links.txt
+simplepercent.egg-info/top_level.txt

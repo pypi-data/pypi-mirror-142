@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: simplepercent
+Version: 0.1
+Summary: a simplification to carry out operations with the percentage
+Home-page: UNKNOWN
+Author: Messana Benedetto
+Author-email: benedettomessana@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
