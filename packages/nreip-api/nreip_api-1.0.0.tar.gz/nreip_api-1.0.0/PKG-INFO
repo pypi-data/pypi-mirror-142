@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: nreip_api
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/Native-Robotics/EthernetIP
+Author: Wasyan
+Author-email: vasyan93@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Native-Robotics/EthernetIPethernetip/linux/nreip_api.zip
+Description: Description
+        ===========
+        
+        Implementation Ethernet/IP protocol driver api for python.
+        
+Platform: UNKNOWN
