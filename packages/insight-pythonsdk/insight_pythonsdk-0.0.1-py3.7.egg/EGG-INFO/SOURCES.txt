@@ -1,0 +1,7 @@
+setup.py
+pythonProject/exe/HTSC_FileSync.exe
+pythonProject/insight_pythonsdk.egg-info/PKG-INFO
+pythonProject/insight_pythonsdk.egg-info/SOURCES.txt
+pythonProject/insight_pythonsdk.egg-info/dependency_links.txt
+pythonProject/insight_pythonsdk.egg-info/requires.txt
+pythonProject/insight_pythonsdk.egg-info/top_level.txt
