@@ -1,0 +1,3 @@
+[console_scripts]
+aws-org-inventory=aws_org_inventory:main
+
