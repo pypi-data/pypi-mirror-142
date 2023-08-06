@@ -1,0 +1,13 @@
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/apiclient.py,sha256=mA1R13fcmN4OBMBw8-l-VVmIki4zkiPebrpI0M6ljAQ,1918
+api/card.py,sha256=z9TS6U4FnP1Ik5nAXwMenVndGNTZRVi-UFf01vwz934,194
+api/deck.py,sha256=o6L4-_tFU9AykmdqPgmdyAeSROGg3vXFPLshWRWQwY8,189
+api/drawncards.py,sha256=3qxuaEVnfm4p5Mo7hasyAiBqhms_9ysfuVLcsJKdi7A,224
+api/fetchcache.py,sha256=GXjPvqvQIaT1SaRgkPRO3SwtzHw7pQtHIWafx1T83HY,1563
+example_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_project/example.py,sha256=X8MPB275LbdlIVf8Mawtah11TDi5cPI8aDrkduPD7y8,42
+example_package_jcincotta-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+example_package_jcincotta-0.0.3.dist-info/METADATA,sha256=H8f2qh8u45W0fN3hm5Pnti4l03yjjOBTHmR3wN40ewU,579
+example_package_jcincotta-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+example_package_jcincotta-0.0.3.dist-info/top_level.txt,sha256=G6PkvVqx9li7BVGzvNKJMR3MMzE8m5UlOXLTf0XlYCo,20
+example_package_jcincotta-0.0.3.dist-info/RECORD,,
