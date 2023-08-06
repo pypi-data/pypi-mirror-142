@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "marketa"
+version = "0.1.7"
+description = ""
+authors = ["illiak <ilichpost@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.4"
+numpy = "^1.20.2"
+purl = "^1.5"
+docopt = "^0.6.2"
+yfinance = "^0.1.63"
+diskcache = "^5.2.1"
+financedatabase = "^1.0.0"
+PyYAML = "^6.0"
+exitstatus = "^2.2.0"
+tqdm = "^4.62.3"
+humanize = "^3.13.1"
+matplotlib = "^3.5.1"
+mplfinance = "^0.12.8-beta.9"
+PyQt5 = "^5.15.6"
+SQLAlchemy = "^1.4.31"
+sequential-uuids = "^1.0.0"
+lagom = "^1.7.0"
+SQLAlchemy-Utils = "^0.38.2"
+daemonize = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pylint = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+linter = "poetry:lint"
