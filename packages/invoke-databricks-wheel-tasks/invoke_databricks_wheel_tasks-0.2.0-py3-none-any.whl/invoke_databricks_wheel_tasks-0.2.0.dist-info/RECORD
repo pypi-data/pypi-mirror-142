@@ -1,0 +1,7 @@
+invoke_databricks_wheel_tasks/__init__.py,sha256=wK2u88oeMddx1WMMY6uHu_yCZYmcOQc-9Z0hxV4IXgY,80
+invoke_databricks_wheel_tasks/tasks.py,sha256=tlkoFQf85EcRyGD-YyTHsGaI50k4eHyFqgbII0AF7oE,1770
+invoke_databricks_wheel_tasks/utils.py,sha256=jlHB94OSXjgPygR1k5TXWetzosx0sN_ojT4UTFb8zgo,3312
+invoke_databricks_wheel_tasks-0.2.0.dist-info/LICENSE,sha256=YTbalcAWG0LKuXA22O0kA5KglTraTtClzGZMAqFsn4s,1066
+invoke_databricks_wheel_tasks-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+invoke_databricks_wheel_tasks-0.2.0.dist-info/METADATA,sha256=AHY9wEPc1AgmuqQW9h5XJjv3xQ3YD35mvLUZCJ7O4lQ,5494
+invoke_databricks_wheel_tasks-0.2.0.dist-info/RECORD,,
