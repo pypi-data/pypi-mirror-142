@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: netbox-exporter
+Version: 0.1.2
+Summary: 'Fetch and export your Netbox inventory to a local directory.'
+Home-page: https://github.com/baccenfutter/netbox_exporter
+Author: Brian Wiborg
+Author-email: wiborg@team.snafu.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/baccenfutter/netbox_exporter/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: netbox-client
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: prompt-toolkit ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Netbox-Exporter
+
+*Netbox-Exporter* is a Python package and CLI utility for fetching a Netbox inventory and dumping it to a local directory in YAML format for human consumption.
+
+## Getting started
+
+## Installation
+
+```
+pip install netbox_exporter
+```
+
+## Usage
+
+```
+# netbox_exporter --help
+
+# netbox_export \
+    --dir ./netbox \
+    --url https://netbox \
+    --apikey 0123456789abcdef
+```
+
+## Development
+
+```
+pipenv install --dev
+```
+
