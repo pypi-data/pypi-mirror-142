@@ -1,0 +1,3 @@
+uvicorn
+fastapi>=0.74
+trytond>=6.0
