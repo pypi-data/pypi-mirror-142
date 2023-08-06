@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyspoke-web
+Version: 0.1.2
+Summary: websocket extensions for pyspoke
+Home-page: https://gitlab.com/samflam/pyspoke-web
+Author-email: pyspoke-web@samflam.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is an extension to pyspoke adding support for websocket connections. It also comes with a spoke-webproxy command line program which is the websocket equivalent of spoke-proxy.
+
+

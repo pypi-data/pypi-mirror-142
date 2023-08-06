@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyspoke_web.egg-info/PKG-INFO
+src/pyspoke_web.egg-info/SOURCES.txt
+src/pyspoke_web.egg-info/dependency_links.txt
+src/pyspoke_web.egg-info/entry_points.txt
+src/pyspoke_web.egg-info/requires.txt
+src/pyspoke_web.egg-info/top_level.txt
+src/spoke_web/__init__.py
+src/spoke_web/cli.py
+src/spoke_web/conn.py
