@@ -1,0 +1,6 @@
+[tool.poetry]
+    name = "mypackage"
+    version="1.2.3dev"
+
+[tool.towncrier]
+    package_dir = "src"

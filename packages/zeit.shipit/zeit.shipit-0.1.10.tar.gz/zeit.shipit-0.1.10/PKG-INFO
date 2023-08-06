@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zeit.shipit
+Version: 0.1.10
+Summary: Python API for releasing and deploying software to containers
+Home-page: https://github.com/ZeitOnline/zeit.shipit
+Author: ZEIT Online
+Author-email: zon-backend@zeit.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click
+Requires-Dist: tomli (>=1.2.2,<2.0.0)
+Requires-Dist: towncrier
+Project-URL: Repository, https://github.com/ZeitOnline/zeit.shipit

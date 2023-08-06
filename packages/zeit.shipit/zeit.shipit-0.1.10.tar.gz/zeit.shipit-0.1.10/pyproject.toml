@@ -1,0 +1,37 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "zeit.shipit"
+version = "0.1.10"
+repository = "https://github.com/ZeitOnline/zeit.shipit"
+description = "Python API for releasing and deploying software to containers"
+authors = ["ZEIT Online <zon-backend@zeit.de>"]
+packages = [ {include = "zeit", from="src" } ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "*"
+towncrier = "*"
+tomli = "^1.2.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pdbpp = "*"
+"pytest-dotenv" = "*"
+pytest-cov = "^3.0.0"
+pytest-sugar = "^0.9.4"
+pytest-flake8 = "^1.0.7"
+
+[tool.towncrier]
+package = "zeit.shipit"
+package_dir = "src"
+filename = "CHANGES.rst"
+directory = "changes"
+
+[[tool.poetry.source]]
+name = "zeit"
+url = "https://devpi.zeit.de/zeit/default/+simple"
+secondary = true
