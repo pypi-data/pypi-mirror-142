@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+
+name = "canbiao"
+version = "0.1"  # 同步修改 README.md 文件  # flit publish
+dependencies = ["pycryptodome", "pymongo", "pymysql", "aiomysql"]
+
+readme = "README.md"
+description = "Toolbox for Python"
+authors = [{name = "jutooy", email = "jutooy@qq.com"}]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = []
+
+[project.urls]
