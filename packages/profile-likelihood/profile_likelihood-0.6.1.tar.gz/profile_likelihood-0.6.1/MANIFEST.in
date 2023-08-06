@@ -1,0 +1,4 @@
+recursive-include profile_likelihood/default README.md *py
+recursive-include examples README.md *py
+recursive-include tests *.py
+include profile_likelihood/misc.py
