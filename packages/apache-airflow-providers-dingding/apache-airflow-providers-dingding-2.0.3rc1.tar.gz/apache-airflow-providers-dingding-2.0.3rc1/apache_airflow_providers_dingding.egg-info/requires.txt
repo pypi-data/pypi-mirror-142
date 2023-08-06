@@ -1,0 +1,6 @@
+apache-airflow>=2.1.0rc1
+gitpython
+wheel
+
+[http]
+apache-airflow-providers-http
