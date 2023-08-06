@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyroll-wusatowski-spreading
+Version: 0.2.0
+Summary: Plugin for PyRoll providing the Wusatowski spreading model.
+Home-page: https://pyroll-project.github.io/
+License: BSD-3-Clause
+Author: Max Weiner
+Author-email: max.weiner@imf.tu-freiberg.de
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyroll (>=0.5.0,<0.6.0)
+Project-URL: Documentation, https://github.com/pyroll-project/pyroll-wusatowski-spreading/blob/main/docs/docs.pdf
+Project-URL: Repository, https://github.com/pyroll-project/pyroll-wusatowski-spreading
