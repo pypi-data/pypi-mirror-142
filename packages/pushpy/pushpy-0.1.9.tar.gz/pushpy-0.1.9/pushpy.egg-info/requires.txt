@@ -1,0 +1,9 @@
+GPUtil~=1.4.0
+PyYaml~=6.0
+dill~=0.3.4
+psutil~=5.8.0
+pysyncobj~=0.3.10
+requests~=2.26.0
+setuptools
+tornado~=6.1
+wheel
