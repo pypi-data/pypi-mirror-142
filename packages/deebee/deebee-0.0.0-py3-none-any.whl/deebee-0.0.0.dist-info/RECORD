@@ -1,0 +1,7 @@
+deebee/__init__.py,sha256=UU7M3LKbglpQSW6EVe7ML9AVjUY4l3DKJHO0xm-ojpg,38
+deebee/db.py,sha256=X5MSaH1kjpgEwfcK6HqFXueX_X3bthBU1w3UIQSekto,4665
+deebee/postgresql.py,sha256=y5xMcZPvjX6c4WiYuiqsXAqg9X-iFeSxt2777XF5fiI,621
+deebee-0.0.0.dist-info/LICENSE,sha256=y0ir5HF6gHsGSBhRGkILJ-G14DURazFuPKXQVQjIyDE,1070
+deebee-0.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deebee-0.0.0.dist-info/METADATA,sha256=t8YeoPc0HyDTfIUjauddYPr_6S1IoQ3munJBnFiLhOI,474
+deebee-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deebee
+Version: 0.0.0
+Summary: A database funcions helper.
+License: MIT
+Author: Manasses Lima
+Author-email: manasseslima@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# deebee
+A asynchronous database helper lib.
+
