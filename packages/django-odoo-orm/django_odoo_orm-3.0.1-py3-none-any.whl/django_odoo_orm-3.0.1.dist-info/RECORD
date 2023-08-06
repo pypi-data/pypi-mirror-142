@@ -1,0 +1,9 @@
+django_odoo_orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_odoo_orm/apps.py,sha256=ugfln3mIUyZR4BNEun8o-FeV3pyG75FNxu0-aX3Cse8,409
+django_odoo_orm/context_processors.py,sha256=J6GvazzhONJ5J08RCDxuHUGVZ4EDN9yWG4tZ5UWtPh0,158
+django_odoo_orm/settings.py,sha256=Ipv-wab6WnASGszy8Q2yI8bK2egvv0VU2HgaD-SbTbs,245
+django_odoo_orm/views.py,sha256=drlt-Lf1GhgBkF7rEQHO3PKeAi4_TJuoHFx4E6c01UI,638
+django_odoo_orm-3.0.1.dist-info/LICENSE,sha256=cwdV5UFmxibTg3x8i0E87odVmMq2qnZzYDmbWicJH1Q,1064
+django_odoo_orm-3.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_odoo_orm-3.0.1.dist-info/METADATA,sha256=XQJ5-ZFa40nRoiOJXpxzrDoaviQsw5c5HsSU3F5w478,1286
+django_odoo_orm-3.0.1.dist-info/RECORD,,
