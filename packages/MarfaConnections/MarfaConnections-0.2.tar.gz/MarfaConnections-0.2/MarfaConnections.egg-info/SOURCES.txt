@@ -1,0 +1,7 @@
+setup.py
+MarfaConnections.egg-info/PKG-INFO
+MarfaConnections.egg-info/SOURCES.txt
+MarfaConnections.egg-info/dependency_links.txt
+MarfaConnections.egg-info/not-zip-safe
+MarfaConnections.egg-info/requires.txt
+MarfaConnections.egg-info/top_level.txt
