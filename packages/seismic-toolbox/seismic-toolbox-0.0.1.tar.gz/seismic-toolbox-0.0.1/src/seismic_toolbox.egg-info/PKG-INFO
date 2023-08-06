@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: seismic-toolbox
+Version: 0.0.1
+Summary: Seismic toolbox for numpy
+Home-page: https://github.com/oliche/seismic-toolbox
+Author: Olivier Winter
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/oliche/seismic-toolbox/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# seismic-toolbox
+
+The purpose of this repository is to be used as 
+an open-source library as a base others projects, sometimes
+closed source.
+
+A goal is also to have as few requirements as possible, namely numpy (and possibly pandas in the future).
+
+Packages include:
+-   reader: a seg reader interface and a seg-y implementation.
+
+## Installation
+Here is one way to create an environment using conda.
+```
+conda create --name seismic python=3.10
+conda activate seismic
+```
+
+### User mode
+`pip install seismic-toolbox`
+
+### Dev mode
+Clone the repository, activate your environment, cd to 
+the `seismic-toolbox` directory and install using:
+
+`pip install -e .`
+
+
+## Release
+```shell
+flake8
+rm -fR dist
+rm -fR build
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
+

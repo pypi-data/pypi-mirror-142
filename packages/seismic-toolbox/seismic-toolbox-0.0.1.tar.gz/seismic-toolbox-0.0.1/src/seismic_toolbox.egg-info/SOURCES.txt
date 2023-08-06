@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+./src/seistools/sampleconversion.c
+src/seismic_toolbox.egg-info/PKG-INFO
+src/seismic_toolbox.egg-info/SOURCES.txt
+src/seismic_toolbox.egg-info/dependency_links.txt
+src/seismic_toolbox.egg-info/requires.txt
+src/seismic_toolbox.egg-info/top_level.txt
+src/seistools/__init__.py
+src/seistools/reader.py
