@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Collimator
+Version: 0.1.2
+Summary: Electronic collimator for your telescope
+Home-page: http://github.com/wlatanowicz/collimator
+Author: Wiktor Latanowicz
+Author-email: collimator@wiktor.latanowicz.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Collimator
+==========
+
+Electronic collimator for your telescope.
+
+

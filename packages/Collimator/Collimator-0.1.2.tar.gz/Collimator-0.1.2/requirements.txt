@@ -1,0 +1,6 @@
+pip>=22.0.4
+Pillow>=9.0.1
+indipy>=0.2.2
+astropy>=5.0.1
+appdirs>=1.4.4
+PyQt6>=6.2.3
