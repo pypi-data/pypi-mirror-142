@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "numato-cli"
+version = "0.1.0"
+description = "Command-line interface for Numato GPIO expanders"
+authors = ["Henning Claßen <code@clssn.de>"]
+readme = "README.rst"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.4.0"}
+numato-gpio = "^0.10.0"
+colorama = "^0.4.4"
+shellingham = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+numato = "numato_cli.__main__:app"
+
+[tool.pytest.ini_options]
+addopts = "--cov=cookiecutter-pypackage --cov-branch --cov-report term-missing  -vv --color=yes --cov-fail-under 100"
