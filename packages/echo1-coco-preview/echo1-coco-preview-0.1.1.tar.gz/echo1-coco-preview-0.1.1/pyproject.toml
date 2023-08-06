@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "echo1-coco-preview"
+version = "0.1.1"
+description = ""
+authors = ["Michael Mohamed <michael.mohamed@echo1.io>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/e1-io/echo1-coco-preview"
+repository = "https://github.com/e1-io/echo1-coco-preview"
+
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.scripts]
+coco-preview = 'echo1_coco_preview.echo1_coco_preview:app'
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pydash = "^5.1.0"
+bbox-visualizer = "^0.1.0"
+opencv-python = "^4.5.5"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pytest = ">=5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+'''
