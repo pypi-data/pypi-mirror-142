@@ -1,0 +1,5 @@
+gspread-pandas>=2.2
+numpy>=1.19
+pandas>=1.3
+python-slugify>=5.0
+requests>=2.25
