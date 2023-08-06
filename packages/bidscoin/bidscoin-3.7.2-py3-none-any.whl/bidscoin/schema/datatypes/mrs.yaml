@@ -1,0 +1,35 @@
+---
+# MRS
+- suffixes:
+    - press
+    - steam
+    - laser
+    - slaser
+    - special
+    - megapress
+    - megasteam
+    - megalaser
+    - megaslaser
+    - megaspecial
+    - hermes
+    - hercules
+    - dqc
+    - mqc
+    - lcosy
+    - epsi
+    - spice
+    - fidmrsi
+  extensions:
+    - .nii.gz
+    - .nii
+    - .json
+  entities:
+    subject: required
+    session: optional
+    acquisition: optional
+    task: optional
+    run: optional
+    inversion: optional
+    nucleus: optional
+    voxel: optional
+    type: optional
