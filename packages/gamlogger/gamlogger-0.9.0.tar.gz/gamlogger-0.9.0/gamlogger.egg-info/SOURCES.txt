@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+gamlogger/__init__.py
+gamlogger.egg-info/PKG-INFO
+gamlogger.egg-info/SOURCES.txt
+gamlogger.egg-info/dependency_links.txt
+gamlogger.egg-info/top_level.txt

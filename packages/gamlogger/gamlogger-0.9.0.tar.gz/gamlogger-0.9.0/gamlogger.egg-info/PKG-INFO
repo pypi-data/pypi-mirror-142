@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gamlogger
+Version: 0.9.0
+Summary: No description found.
+Home-page: https://gamma2653@github.io
+Author: Christopher De Jesus
+Author-email: christopher2653@gmail.com
+License: UNLICENSE
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+glogger
+=======
+A utility package for logger boilerplate code.
+
