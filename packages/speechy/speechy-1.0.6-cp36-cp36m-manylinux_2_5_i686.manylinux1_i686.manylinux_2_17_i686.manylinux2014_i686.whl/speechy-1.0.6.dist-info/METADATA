@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: speechy
+Version: 1.0.6
+Summary: Speechy Python SDK
+Home-page: UNKNOWN
+Author: Speechy
+Author-email: support@oxycom.co.uk
+License: License :: Other/Proprietary License
+Platform: UNKNOWN
+Requires-Dist: pyaudio
+Requires-Dist: numpy
+
+Python SDK enables the user to send and receive data using the device’s microphone and speaker.
+
