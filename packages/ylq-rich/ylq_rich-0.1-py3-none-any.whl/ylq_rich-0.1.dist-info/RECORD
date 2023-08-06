@@ -1,0 +1,9 @@
+ylq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ylq/rich/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ylq/rich/man/__init__.py,sha256=ngwX_VavhdPXPFzK6sE4_7nhlp9LoSAEAV2RAj23mPM,21
+ylq/rich/man/information.py,sha256=ASzlhCzud8qsy_RxzzwTSOt7X7TxnRYakl060lt_xFY,50
+ylq/rich/man/message.py,sha256=cA5eY5wADR0LBjQI9xRO7AwLUgsRf7UgRQt5G3JNpjQ,264
+ylq_rich-0.1.dist-info/METADATA,sha256=2FhcfV7RoWgGNx6yOwQYy8ITTp5K_O_nw3KT4MVnEbg,124
+ylq_rich-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ylq_rich-0.1.dist-info/top_level.txt,sha256=rVwgvO0mV7buf-o9D3uBJEh9GeLxZat4X6yE1UOG6-U,4
+ylq_rich-0.1.dist-info/RECORD,,
