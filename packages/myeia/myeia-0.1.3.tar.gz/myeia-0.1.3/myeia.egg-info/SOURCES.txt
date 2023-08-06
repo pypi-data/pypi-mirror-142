@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+__init__.py
+examples.ipynb
+myeia.py
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/pre-commit.yml
+.github/workflows/publish.yml
+myeia.egg-info/PKG-INFO
+myeia.egg-info/SOURCES.txt
+myeia.egg-info/dependency_links.txt
+myeia.egg-info/requires.txt
+myeia.egg-info/top_level.txt
