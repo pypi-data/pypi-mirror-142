@@ -1,0 +1,17 @@
+datafusion-0.5.1.dist-info/METADATA,sha256=vqMPhBrSacEixRzrfDXcJf773F6zP1AYzga8ApR6kmg,17967
+datafusion-0.5.1.dist-info/WHEEL,sha256=_TCHoPuBNXpCO9bEU0TyCtPZh5uRosjMljf4ANRVung,104
+datafusion/functions.py,sha256=Qkm3DgwF8-EyNCyNzjYqwBNJGSsWEU7QQJyeQUYtLbA,881
+datafusion/tests/test_catalog.py,sha256=DYrYBBIXort_oQBd-_n_BOdy1Hw1pMgac_8mBpfA-sw,2062
+datafusion/tests/test_udaf.py,sha256=J7Yud0r0LMUXC0NoneL66krkEbhpOTz9i-6C9a3Ya8o,3546
+datafusion/tests/test_imports.py,sha256=m5ivMlzotekqGUi650OKPCz9q94aIQGEr9yFrjWcjMc,1863
+datafusion/tests/generic.py,sha256=MMofeav0MEUHEUQlN_M3omsCI6B0EhdY_bCGmq4CSG0,2319
+datafusion/tests/test_aggregation.py,sha256=GyWuYw-DrBhjfTF0HSGYJB-_yfoDlg2AAGMHFkpa1uQ,1639
+datafusion/tests/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+datafusion/tests/test_indexing.py,sha256=VhlzFlQ_NBW1LSj7kcg497pf-sZRZl6POy75IkqdU1U,1634
+datafusion/tests/test_sql.py,sha256=E6aPJ8xymPELEuPDj3GqSTOybl0ISHN_qQVj1PvMUqc,7603
+datafusion/tests/test_functions.py,sha256=QI9vtYxC3CFmvJ8GQlJQyO4zErHHNQo-5f28Y2AtJ38,6974
+datafusion/tests/test_context.py,sha256=b3h3yCpCIxECiosyiwJ_yRAbeey6RCfzIU8bmvt5HI4,1973
+datafusion/tests/test_dataframe.py,sha256=-tOXs73UkHZ33y68O5W-5SOBSiz_YoiVzX_VJ1_1h_E,5074
+datafusion/__init__.py,sha256=zghTwQIHPkB8Qj9YS97huL92PSgV_1H6sK98sZYlr24,2835
+datafusion/_internal.abi3.so,sha256=U7zKHoek92U_q3YkMtpeg_jsIbtw11bn1r75RcTVxb0,13197519
+datafusion-0.5.1.dist-info/RECORD,,
