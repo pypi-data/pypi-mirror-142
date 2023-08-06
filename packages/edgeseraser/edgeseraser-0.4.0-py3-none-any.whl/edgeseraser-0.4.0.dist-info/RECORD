@@ -1,0 +1,11 @@
+edgeseraser/__init__.py,sha256=EaMale5Csu9ZN0w1phZnTSBDNJCae5RB-OkbiXjHYsQ,1548
+edgeseraser/disparity.py,sha256=p1LAclazUFt9NEH0_kOsZfZESeqO1gwl1hyru4mibxo,4923
+edgeseraser/misc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgeseraser/misc/backend.py,sha256=TZuOSmXZfeLHfGtJ6eg0ok1Mwd2vQBUCNcOe8McBn4g,2132
+edgeseraser/misc/matrix.py,sha256=uuqXfHi2iVnXcfzRz4RXvw9nIZRMKWTNCaD6fRPHP-Y,607
+edgeseraser/noise_score.py,sha256=Fw0WIOFeTNQWjAfJKndiZ_qlnpg7sUta5JA4xrJI778,6638
+edgeseraser/polya.py,sha256=OpGZRrwpMIMkKHmIPd0J5KvfXK2ekwpGhUvqMRZu0_8,5738
+edgeseraser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgeseraser-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+edgeseraser-0.4.0.dist-info/METADATA,sha256=a2sKb5MD3BGqMcrEnQAOeSZkEkOaBcei08mlLP1AAEQ,4761
+edgeseraser-0.4.0.dist-info/RECORD,,
