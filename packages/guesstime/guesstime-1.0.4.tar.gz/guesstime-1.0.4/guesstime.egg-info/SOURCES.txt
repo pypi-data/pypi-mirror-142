@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+guesstime/__init__.py
+guesstime/filters.py
+guesstime/time_decode.py
+guesstime.egg-info/PKG-INFO
+guesstime.egg-info/SOURCES.txt
+guesstime.egg-info/dependency_links.txt
+guesstime.egg-info/requires.txt
+guesstime.egg-info/top_level.txt
