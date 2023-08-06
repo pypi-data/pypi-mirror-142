@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug - Current file",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "python":"${workspaceFolder}/.venv/bin/python",
+            "envFile": "${workspaceFolder}/.vscode/test.env",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "windows": {
+                "python": "${workspaceFolder}\\.env\\Scripts\\python.exe",
+                "envFile": "${workspaceFolder}\\.vscode\\test.env",
+                "program": ".\\src\\git_search\\__init__.py",
+                "args": [
+                    "${config:project.debug.args_keyword}",
+                    "-g",
+                    "${config:project.debug.args_group_name}"
+                ]
+            }
+        }
+    ]
+}
