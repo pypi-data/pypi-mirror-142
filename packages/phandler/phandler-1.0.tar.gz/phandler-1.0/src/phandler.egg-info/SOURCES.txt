@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/phandler/__init__.py
+src/phandler.egg-info/PKG-INFO
+src/phandler.egg-info/SOURCES.txt
+src/phandler.egg-info/dependency_links.txt
+src/phandler.egg-info/top_level.txt
