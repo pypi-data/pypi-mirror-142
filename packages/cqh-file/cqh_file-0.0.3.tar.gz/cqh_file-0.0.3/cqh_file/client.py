@@ -1,0 +1,84 @@
+import base64
+import datetime
+import time
+import json
+import os
+import requests
+import click
+
+from cqh_file.utils import get_md5
+
+
+class ClientLoop(object):
+    def __init__(self, url, dir, sleep):
+        self.url = url
+        self.dir = dir
+        self.sleep = sleep
+        self.session = requests.Session()
+
+    def path_url(self, url_path):
+        return "{}/{}".format(self.url, url_path.lstrip("/"))
+
+    def request_url(self, url, **kwargs):
+        res = self.session.post(url, **kwargs)
+        return res
+
+    def read_serve_list(self):
+        url = self.path_url("/list")
+        res = self.request_url(url, json={})
+        click.echo("serve, status_code:{} text:{}".format(res.status_code, res.text))
+        j = res.json()
+        with open(os.path.join(self.dir, ".serve.json"), 'w', encoding='utf-8') as f:
+            f.write(json.dumps(j, ensure_ascii=False))
+        return j
+    
+    def check_res(self, res, prefix=""):
+        status_code = res.status_code
+        if status_code != 200:
+            raise ValueError("{} status code error {}".format(prefix, status_code))
+        
+
+    def read_client_md5_value(self):
+        d = {}
+        for name in os.listdir(self.dir):
+            file_path = os.path.join(self.dir, name)
+            if os.path.exists(file_path) and os.path.isfile(file_path) and name[0] != ".":
+                d[name] = get_md5(file_path)
+        with open(os.path.join(self.dir, ".client.json"), 'w', encoding='utf-8') as f:
+            f.write(json.dumps(d, ensure_ascii=False, indent=2))
+        return d
+
+    def loop(self):
+        while 1:
+            self.run_once()
+            click.echo("="*80)
+            click.echo("download once complete".center(80, " "))
+            click.echo("="*80)
+            click.echo("sleep {}, {}".format(self.sleep, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+            time.sleep(self.sleep)
+
+    def run_once(self):
+        j = self.read_serve_list()
+        client_d = self.read_client_md5_value()
+        # 遍历所有的名字,检查需不需要下载,然后下载就好了
+        for name, md5_value in j.items():
+            if name not in client_d:
+                self.download(name, client_d)
+                continue
+            if client_d[name] != md5_value:
+                self.download(name, client_d)
+        self.read_client_md5_value()
+    
+    def download(self, name,d):
+        url = self.path_url("/download")
+        res = self.request_url(url, json={"name": name})
+        click.echo("download name:{}, cost:{}".format(name, res.elapsed.total_seconds()))
+        j = res.json()
+        if res.status_code != 200 or j['code']!=0:
+            click.echo("download error {}".format(res.status_code, res.text))
+            return
+        base64_str = j['data']
+        raw_data = base64.b64decode(base64_str)
+        with open(os.path.join(self.dir, name), 'wb') as f:
+            f.write(raw_data)
+
