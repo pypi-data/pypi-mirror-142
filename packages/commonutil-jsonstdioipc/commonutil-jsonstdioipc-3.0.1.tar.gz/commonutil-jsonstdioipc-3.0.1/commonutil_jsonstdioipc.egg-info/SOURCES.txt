@@ -1,0 +1,6 @@
+commonutil_jsonstdioipc.py
+setup.py
+commonutil_jsonstdioipc.egg-info/PKG-INFO
+commonutil_jsonstdioipc.egg-info/SOURCES.txt
+commonutil_jsonstdioipc.egg-info/dependency_links.txt
+commonutil_jsonstdioipc.egg-info/top_level.txt
