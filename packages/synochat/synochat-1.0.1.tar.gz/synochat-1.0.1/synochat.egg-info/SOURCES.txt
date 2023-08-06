@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+synochat/__init__.py
+synochat/exceptions.py
+synochat/webhooks.py
+synochat.egg-info/PKG-INFO
+synochat.egg-info/SOURCES.txt
+synochat.egg-info/dependency_links.txt
+synochat.egg-info/requires.txt
+synochat.egg-info/top_level.txt
