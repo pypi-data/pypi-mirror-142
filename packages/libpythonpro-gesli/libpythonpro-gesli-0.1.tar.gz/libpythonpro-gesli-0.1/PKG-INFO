@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: libpythonpro-gesli
+Version: 0.1
+Summary: Este é apenas um teste com o Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/Gesli/libpythonpro
+Author: Gesli Medina de Avelar
+Author-email: gesli.medina@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # libpythonpro
+        
+        MÃ³dulo para exemplificar construÃ§Ã£o de projetos Python no curso PyTools
+        
+        Nesse curso Ã© ensinado como contribuir com projetos de cÃ³digo aberto
+        
+        Link para o curso [Python Pro](https://www.python.pro.br/)
+        
+        [![Updates](https://pyup.io/repos/github/Gesli/libpythonpro/shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
+        [![Python 3](https://pyup.io/repos/github/Gesli/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
+        
+        Suportada versÃ£o 3 de Python
+        
+        Para instalar:
+        
+        ```console
+        pip install pipenv
+        pipenv install --dev
+        ```
+        
+        Para conferir qualidade de cÃ³digo:
+        
+        ```console
+        pipenv run flake8
+        ```
+        
+        TÃ³picos a serem abordados:
+         1. Git
+         2. Virtualenv
+         3. Pip
+         4. Mock
+         5. Pipenv
+         
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Pytest

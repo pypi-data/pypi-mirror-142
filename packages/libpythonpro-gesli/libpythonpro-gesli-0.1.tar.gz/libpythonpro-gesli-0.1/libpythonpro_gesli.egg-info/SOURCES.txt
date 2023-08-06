@@ -1,0 +1,9 @@
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonpro_gesli.egg-info/PKG-INFO
+libpythonpro_gesli.egg-info/SOURCES.txt
+libpythonpro_gesli.egg-info/dependency_links.txt
+libpythonpro_gesli.egg-info/not-zip-safe
+libpythonpro_gesli.egg-info/requires.txt
+libpythonpro_gesli.egg-info/top_level.txt
