@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zydmayday-pamda
+Version: 0.0.1
+Summary: A small clone of ramda
+Home-page: https://github.com/zydmayday/pamda
+Author-email: zydmayday@gmail.com
+License: UNKNOWN
+Keywords: functional programming,ramda
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pamda
+
+This is a repo try to copy https://github.com/ramda/ramda in python.
+
+

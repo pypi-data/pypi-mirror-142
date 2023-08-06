@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+test/__init__.py
+test/test_curry.py
+test/test_curryN.py
+zydmayday_pamda.egg-info/PKG-INFO
+zydmayday_pamda.egg-info/SOURCES.txt
+zydmayday_pamda.egg-info/dependency_links.txt
+zydmayday_pamda.egg-info/top_level.txt
