@@ -1,0 +1,7 @@
+setup.py
+mac_alerts/__init__.py
+mac_alerts/alerts.py
+mac_alerts.egg-info/PKG-INFO
+mac_alerts.egg-info/SOURCES.txt
+mac_alerts.egg-info/dependency_links.txt
+mac_alerts.egg-info/top_level.txt
