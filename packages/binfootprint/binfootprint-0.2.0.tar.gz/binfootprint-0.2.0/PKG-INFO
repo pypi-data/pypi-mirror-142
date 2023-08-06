@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: binfootprint
+Version: 0.2.0
+Summary: serielize python objetcs in a deterministic way
+Author: Richard Hartmann
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.0,<2.0.0)
+Requires-Dist: pytest (>=7.0.0,<8.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
