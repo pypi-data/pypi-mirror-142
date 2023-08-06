@@ -1,0 +1,3 @@
+[console_scripts]
+abottle = abottle.main:main
+
