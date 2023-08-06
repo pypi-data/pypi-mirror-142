@@ -1,0 +1,3 @@
+pyyaml
+mail-parser
+html2text
