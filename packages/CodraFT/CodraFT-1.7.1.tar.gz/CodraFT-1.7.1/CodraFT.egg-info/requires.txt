@@ -1,0 +1,5 @@
+NumPy>=1.21
+SciPy>=1.7
+guidata>=2.0.4
+guiqwt>=4.0.2
+QtPy>=1.9
