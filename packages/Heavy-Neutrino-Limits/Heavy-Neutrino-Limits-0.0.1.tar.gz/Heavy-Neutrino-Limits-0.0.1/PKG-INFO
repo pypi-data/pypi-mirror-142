@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Heavy-Neutrino-Limits
+Version: 0.0.1
+Summary: A package with a compilation of all publicly available experimental limits on heavy neutrinos.
+Home-page: https://github.com/mhostert/Heavy-Neutrino-Limits
+Author: Matheus Hostert
+Author-email: mhostert@perimeterinstitute.ca
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
