@@ -1,0 +1,4 @@
+typing-extensions>=3.10.0
+
+[recommended]
+python-dateutil
