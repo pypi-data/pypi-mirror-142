@@ -1,0 +1,25 @@
+dramatiq[redis]<2.0,>=1.6
+jinja2>=2
+redis<5.0,>=2.0
+
+[:python_version < "3.7"]
+dataclasses
+
+[all]
+
+[dev]
+alabaster
+sphinx<1.8
+sphinxcontrib-napoleon
+flake8
+flake8-bugbear
+flake8-quotes
+isort
+bumpversion
+hiredis
+twine
+wheel
+pytest
+pytest-benchmark[histogram]
+pytest-cov
+tox
