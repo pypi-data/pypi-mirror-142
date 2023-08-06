@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bgm/__init__.py
+bgm.egg-info/PKG-INFO
+bgm.egg-info/SOURCES.txt
+bgm.egg-info/dependency_links.txt
+bgm.egg-info/entry_points.txt
+bgm.egg-info/top_level.txt
+bgm.egg-info/zip-safe
+bgm/shell/__init__.py
+bgm/shell/usage.py
+bgm/src/temp.txt
