@@ -1,0 +1,11 @@
+channels: !!python/tuple
+- conda-forge
+- defaults
+dependencies:
+- conda-forge::cartopy
+- conda-forge::docopt
+- conda-forge::matplotlib
+- conda-forge::netcdf4
+- conda-forge::path.py
+- conda-forge::pytest
+- conda-forge::numpy

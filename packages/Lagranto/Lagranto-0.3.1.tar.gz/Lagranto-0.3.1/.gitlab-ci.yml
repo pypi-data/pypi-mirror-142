@@ -1,0 +1,32 @@
+image: continuumio/miniconda3:latest
+
+test_3.5:
+  stage: test
+  script:
+    - apt-get update &&  apt-get install -y libgl1-mesa-dev
+    - conda update conda
+    - conda create -y -q -n lagranto_35 python=3.5.4 pytest
+    - conda env update -q -f lagranto.yml -n lagranto_35
+    - source activate lagranto_35
+    - pip install -e .
+    - python -m pytest -s
+
+test_2.7:
+  stage: test
+  script:
+    - apt-get update &&  apt-get install -y libgl1-mesa-dev
+    - conda create -y -q -n lagranto_27 python=2.7
+    - conda env update -q -f lagranto.yml -n lagranto_27
+    - source activate lagranto_27
+    - pip install -e .
+    - py.test -s
+
+test_3.6:
+  stage: test
+  script:
+    - apt-get update && apt-get install -y libgl1-mesa-dev
+    - conda create -y -q -n lagranto_36 python=3.6
+    - conda env update -q -f lagranto.yml -n lagranto_36
+    - source activate lagranto_36
+    - pip install -e .
+    - py.test -s
