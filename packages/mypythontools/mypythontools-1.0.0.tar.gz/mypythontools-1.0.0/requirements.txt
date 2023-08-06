@@ -1,0 +1,7 @@
+mylogging>=4.0.2
+mydatapreprocessing>=2.0.9
+pandas
+plotly
+setuptools
+tabulate
+typeguard
