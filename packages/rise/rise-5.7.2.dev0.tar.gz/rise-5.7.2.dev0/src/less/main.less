@@ -1,0 +1,331 @@
+@some-grey: #727272;
+@some-other-grey: #dfdfdf;
+@some-blue: #2980B9;
+@some-other-blue: #50a0ff;
+
+.transition-all {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+/* do not apply this on the <body> tag */
+:not(body).rise-enabled {
+  background-color: #fff;
+}
+
+
+.rise-enabled {
+  .transition-all;
+
+  /* Reveal-specific */
+  .reveal {
+    &.fade {
+      .transition-all;
+      opacity: 1;
+    }
+
+    /* element-overrides */
+    pre {
+      .transition-all;
+      font-size: 90%;
+      width: 100%;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+      overflow: hidden;
+    }
+
+    section img {
+      .transition-all;
+      border: 0px solid black;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+      transition: none;
+    }
+
+    blockquote {
+      p:first-child, p:last-child { display: inherit; }
+    }
+
+    a { color: @some-blue; } a:hover { color: @some-other-blue; }
+
+    .slides {
+      .transition-all;
+      text-align: left;
+      font-size: 160%;
+    }
+
+    .slide-number {
+      .transition-all;
+      right: 3.3em;
+      bottom: 3.9em;
+    /* more harmful than helpful with reveal 3.8.0
+      font-size: 100%;
+    */
+      color: @some-grey;
+      background-color: transparent;
+    }
+
+    .controls {
+      .navigate-left, .navigate-left.enabled{
+        border-right-color: @some-grey;
+        &.enabled:hover{ border-right-color: @some-other-grey; }
+      }
+      .navigate-right, .navigate-right.enabled{
+        border-left-color: @some-grey;
+        &.enabled:hover{ border-left-color: @some-other-grey; }
+      }
+      .navigate-up, .navigate-up.enabled{
+        border-bottom-color: @some-grey;
+        &.enabled:hover{ border-bottom-color: @some-other-grey; }
+      }
+      .navigate-down, .navigate-down.enabled{
+        border-top-color: @some-grey;
+        &.enabled:hover{ border-top-color: @some-other-grey; }
+      }
+    }
+
+    .progress {
+      margin-bottom: 0;
+      span { background: @some-grey; }
+    }
+
+    .reveal-skip, .reveal-notes { display: none; }
+
+  } // .reveal
+
+  /* Notebook-specific */
+  #notebook { overflow: hidden; }
+
+  #notebook.reveal {
+    padding-top: 0px;
+  }
+
+  #notebook-container {
+    .transition-all;
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+    height: 100% !important;
+  }
+
+  &.ctb_global_show {
+    .ctb_hideshow.ctb_show { display: none; }
+    .ctb_show ~ .text_cell_render { border-style: none; }
+  }
+
+  .celltoolbar {
+    height: inherit;
+    select, .btn {
+      height: inherit;
+      font-size: inherit;
+    }
+  }
+
+  .widget-area {
+    .form-control, .dropdown-menu, .btn { font-size: inherit; }
+    .dropdown-menu { margin: 0px; /* cancel the settings from reveal */ }
+  }
+
+  .cell li {
+    line-height: 160%;
+  }
+
+  .text_cell {
+    font-size: 160%;
+
+    .prompt { display: none; }
+
+    &.rendered .rendered_html {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  }
+
+  .prompt {
+    .transition-all;
+    font-size: 90%;
+  }
+
+  .output_prompt {
+    .transition-all;
+    margin-top: 2px;
+  }
+
+  .output_subarea {
+    .transition-all;
+    margin-top: 0.05em;
+  }
+
+  .CodeMirror {
+    .transition-all;
+    font-size: 100%;
+    margin-bottom: 1ex;
+    //max-width: 960px !important;  /* fix for firefox issue in IPython, 1240px */
+  }
+
+  a.anchor-link { display: none; }
+
+  html { overflow-y: auto; }
+
+  .dialog kbd {
+    padding: .1em .6em;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    background-color: #f7f7f7;
+    color: #333;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 .1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  #header {
+    .transition-all;
+    top: -200px;
+    opacity: 0;
+  }
+
+  #site {
+    .transition-all;
+    height: 100% !important;
+  }
+  #ipython-main-app { position: static; }
+
+  ::-webkit-scrollbar
+  {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar *
+  {
+    background:transparent;
+  }
+
+  ::-webkit-scrollbar-thumb
+  {
+    background: #727272 !important;
+  }
+
+  /* chalkboard plugin and RISE buttons */
+  #notescanvas { position: absolute; top: 0; }
+
+  /* button toolbar */
+  #help_b,
+  #exit_b,
+  .chalkboard-button {
+    color: @some-grey;
+    position: fixed !important;
+    z-index: 30;
+    cursor: pointer;
+  }
+
+  #exit_b {
+    top: 0.55em;
+    left: 0.5em;
+  }
+
+  #help_b {
+    left: 0.6em ;
+    bottom: 0.55em;
+  }
+
+  /* use !important to override stuff that
+    would normally be configured through
+    chalkboard options */
+  .chalkboard-button i {
+    display: block !important;
+    bottom: 1em !important;
+    font-size: 1.8em !important;
+    color: @some-grey !important;
+  }
+
+  #toggle-chalkboard.chalkboard-button {
+    left: 4em !important;
+  }
+  #toggle-notes {
+    left: 7em !important;
+  }
+
+  #notescanvas {
+    display: block !important;
+  }
+
+  #chalkboard {
+    display: block !important;
+  }
+
+} //.reveal-enabled
+
+#header {
+  .transition-all;
+  opacity: 1;
+  top: 0px;
+}
+
+#notebook-container {
+  .transition-all;
+}
+
+#notebook {
+  .transition-all;
+}
+
+.chalkboard-button i {
+  display: none;
+}
+
+#notescanvas {
+  display: none;
+}
+
+#chalkboard {
+  display: none;
+}
+
+/* fix for issue #425 */
+.rise-enabled .rendered_html table {
+  font-size: 75%;
+}
+
+/* fix for reveal dark themes */
+body.rise-enabled.theme-black div.rendered_html tbody tr:nth-child(even),
+body.rise-enabled.theme-black div.rendered_html thead th,
+body.rise-enabled.theme-black div.input_prompt,
+body.rise-enabled.theme-black div.output_text>pre,
+body.rise-enabled.theme-black div.rendered_html,
+body.rise-enabled.theme-black div.text_cell_render { color: white; }
+
+body.rise-enabled.theme-blood div.rendered_html tbody tr:nth-child(even),
+body.rise-enabled.theme-blood div.rendered_html thead th,
+body.rise-enabled.theme-blood div.input_prompt,
+body.rise-enabled.theme-blood div.output_text>pre,
+body.rise-enabled.theme-blood div.rendered_html,
+body.rise-enabled.theme-blood div.text_cell_render,
+body.rise-enabled.theme-league div.rendered_html tbody tr:nth-child(even),
+body.rise-enabled.theme-league div.rendered_html thead th,
+body.rise-enabled.theme-league div.input_prompt,
+body.rise-enabled.theme-league div.output_text>pre,
+body.rise-enabled.theme-league div.rendered_html,
+body.rise-enabled.theme-league div.text_cell_render,
+body.rise-enabled.theme-night div.rendered_html tbody tr:nth-child(even),
+body.rise-enabled.theme-night div.rendered_html thead th,
+body.rise-enabled.theme-night div.input_prompt,
+body.rise-enabled.theme-night div.output_text>pre,
+body.rise-enabled.theme-night div.rendered_html,
+body.rise-enabled.theme-night div.text_cell_render { color: rgb(238, 238, 238); }
+
+body.rise-enabled.theme-moon div.rendered_html tbody tr:nth-child(even),
+body.rise-enabled.theme-moon div.rendered_html thead th,
+body.rise-enabled.theme-moon div.input_prompt,
+body.rise-enabled.theme-moon div.output_text>pre,
+body.rise-enabled.theme-moon div.rendered_html,
+body.rise-enabled.theme-moon div.text_cell_render  { color: rgb(238, 232, 213); }
+
+/*  for issue #610 */
+.rise-scroll {
+  height: 95vh;
+  margin-top: 20px;
+}
