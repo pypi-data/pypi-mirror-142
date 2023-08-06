@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: read-counts
+Version: 0.0.2
+Summary: Example of how to package Python code for release
+Home-page: https://github.com/prithikasritharan/read-counts
+Author: Prithika Sritharan
+Author-email: prithika.sritharan@quadram.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+###read-counts
+
+python code packaging demo
+
+
