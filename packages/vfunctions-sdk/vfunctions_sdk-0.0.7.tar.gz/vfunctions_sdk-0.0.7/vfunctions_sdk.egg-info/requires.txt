@@ -1,0 +1,6 @@
+aws_nsm_interface_verifiably
+boto3
+cbor2==5.2.0
+cryptography==3.2.1
+pycryptodome==3.9.9
+websocket-client
