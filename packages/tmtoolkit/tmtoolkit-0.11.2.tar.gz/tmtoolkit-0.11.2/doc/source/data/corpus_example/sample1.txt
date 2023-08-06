@@ -1,0 +1,1 @@
+This is the first example file. ☺ We showcase NER by just randomly listing famous people like Missy Elliott or George Harrison.
