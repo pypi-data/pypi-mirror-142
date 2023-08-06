@@ -1,0 +1,3 @@
+[console_scripts]
+dbt-gen = dbt_gen.cli:main
+
