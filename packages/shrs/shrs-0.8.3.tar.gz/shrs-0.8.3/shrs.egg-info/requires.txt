@@ -1,0 +1,10 @@
+psutil
+numpy
+pandas
+scipy
+tqdm
+chardet
+biopython
+
+[GPU]
+cupy
