@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/test_pyx_dep.egg-info/PKG-INFO
+src/test_pyx_dep.egg-info/SOURCES.txt
+src/test_pyx_dep.egg-info/dependency_links.txt
+src/test_pyx_dep.egg-info/requires.txt
+src/test_pyx_dep.egg-info/top_level.txt
