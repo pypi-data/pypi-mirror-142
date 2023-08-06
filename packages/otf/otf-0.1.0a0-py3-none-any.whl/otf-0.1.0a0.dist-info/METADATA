@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: otf
+Version: 0.1.0a0
+Summary: A python framework for on-the-fly distributed workflows
+Home-page: https://github.com/till-varoquaux/otf
+License: CC0-1.0
+Author: Till Varoquaux
+Author-email: till.varoquaux@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Provides-Extra: dev-tools
+Requires-Dist: pytest-watch (>=4.2.0,<5.0.0); extra == "dev-tools"
+Project-URL: Repository, https://github.com/till-varoquaux/otf
+Description-Content-Type: text/markdown
+
+# On-the-fly distributed python workflows
+
+[![Tests](https://github.com/till-varoquaux/otf/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/till-varoquaux/otf/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/till-varoquaux/otf/branch/main/graph/badge.svg?token=ahhI117oFg)](https://codecov.io/gh/till-varoquaux/otf)
+[![PyPI](https://img.shields.io/pypi/v/otf.svg)](https://pypi.org/project/otf/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+OTF is a framework to programatically write, run and debug workflows.
+
