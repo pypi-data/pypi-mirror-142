@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zdppy-redis
+Version: 0.1.0
+Summary: 
+Author: zhangdapeng
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aioredis[hiredis] (>=2.0.1,<3.0.0)
+Requires-Dist: redis (>=4.1.4,<5.0.0)
+Requires-Dist: zdppy-log (>=0.1.5,<0.2.0)

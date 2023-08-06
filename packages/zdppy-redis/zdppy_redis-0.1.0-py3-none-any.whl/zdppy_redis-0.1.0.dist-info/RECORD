@@ -1,0 +1,7 @@
+zdppy_redis/__init__.py,sha256=TAST6opDGyWxrJ8t233Pg5zsCB3IpqHC1smmEmrpT_M,69
+zdppy_redis/async_redis.py,sha256=fot25YV2tfLTCCP04MfnVIwazYxah38elvlim3jomEQ,3808
+zdppy_redis/zdppy_redis.py,sha256=CxbZYAv6Kpsn7zoZyZ9wfjHgAROcB8hOlVWZCsoe6hU,5547
+zdppy_redis-0.1.0.dist-info/LICENSE,sha256=nxPT6MxxQBPHF50T4QMhpqG_MqqIRS5jKw0gwa8YqCA,1087
+zdppy_redis-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zdppy_redis-0.1.0.dist-info/METADATA,sha256=Ohw-DZFsmOXyKYRJ55ErXaupTMj0asrrYRpwQRIpOm4,431
+zdppy_redis-0.1.0.dist-info/RECORD,,
