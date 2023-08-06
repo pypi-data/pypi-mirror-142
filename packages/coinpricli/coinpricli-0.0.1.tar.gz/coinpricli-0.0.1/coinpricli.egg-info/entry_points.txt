@@ -1,0 +1,2 @@
+[console_scripts]
+coinpricli = coinpricli.coinpricli:main
