@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: commons-app-base
+Version: 0.3
+Summary: Base app for new Django projects
+Home-page: https://github.com/jarnunes
+Author: Jardel Nunes
+Author-email: jarnunesc@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: Django (>=4.0)
+
+=================
+Commons app base
+=================
+
+Commons App Base is a django project that will serve as a base for new projects in order to reduce development time.
+
+Quick start
+-----------
+
+1. Add "commons" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'commons',
+    ]
+
+
+
