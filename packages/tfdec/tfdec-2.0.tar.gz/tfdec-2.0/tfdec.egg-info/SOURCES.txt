@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+tfdec/__init__.py
+tfdec/tfdec.py
+tfdec.egg-info/PKG-INFO
+tfdec.egg-info/SOURCES.txt
+tfdec.egg-info/dependency_links.txt
+tfdec.egg-info/not-zip-safe
+tfdec.egg-info/top_level.txt
