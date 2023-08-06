@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.PacketDecoder</name>
+    </assembly>
+    <members>
+        <member name="M:Technica.PacketDecoder.Decoders.IDecoder.DecodeLayer(Technica.PacketDecoder.Model.IPacketTree,System.ReadOnlySpan{System.Byte},System.Int32,System.Int32,Technica.PacketDecoder.Model.FieldValue)">
+            <summary>
+            decodes layer and returns the number of bytes consumed
+            </summary>
+            <param name="tree">the decoding tree</param>
+            <param name="buffer">packet bytes</param>
+            <param name="offset">layer offset</param>
+            <param name="size">layer maximum size</param>
+            <param name="parent">layer parent</param>
+            <returns>number of consumed bytes</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Decoders.Network.BRSpy.BrSpyUtils.AppendBrSpyTimestamp(Technica.PacketDecoder.Model.IPacketTree,System.ReadOnlySpan{System.Byte},Technica.PacketDecoder.Model.FieldValue,System.UInt64,System.Int32)">
+            <summary>
+            Formats Timestamp from brspy header to readable format
+            </summary>
+            <param name="tree">the packet tree</param>
+            <param name="buffer">the packet bytes</param>
+            <param name="parent">timestamp parent node</param>
+            <param name="timestamp">timestamp from brspy device in nanoseconds</param>
+            <param name="offset">the offset from which the timestamp node will be attached</param>
+            <returns>formatted datetime value</returns>
+        </member>
+        <member name="F:Technica.PacketDecoder.Decoders.Network.IEEE1722Subtypes.IEEE17221Decoder.AECP_OFFSET_NAME_DESCRIPTOR_TYPE">
+            private const uint AECP_OFFSET_STREAM_INFO_STREAM_VLAN_ID           68 *
+        </member>
+        <member name="T:Technica.PacketDecoder.Decoders.Network.TECMPDecoder.TECMPTypes">
+            <summary>
+            the Different TECMP packet types
+            </summary>
+        </member>
+        <member name="T:Technica.PacketDecoder.Decoders.Network.TECMPDecoder.MsgTypes">
+            <summary>
+            The different Msg types
+            </summary>
+        </member>
+        <member name="T:Technica.PacketDecoder.Decoders.Network.TECMPDecoder.VendorIds">
+            <summary>
+            different possible Vendor Ids
+            </summary>
+        </member>
+        <member name="M:Technica.PacketDecoder.Model.PortRangesFilter.ParseValue(System.String,System.UInt32@)">
+            <summary>
+            Parse uint value from possible port string value, returns false if port is malformed or too big for uint
+            </summary>
+            <param name="port">port string value</param>
+            <param name="portValue">port uint value if possible</param>
+            <returns>false if port if malformed</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Model.PortRangesFilter.Parse(System.String)">
+            <summary>
+            parse a brspy port syntax into port ranges object.
+            </summary>
+            <param name="value">brspy port syntax value.</param>
+            <returns>if the parsing was successfull or not.</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Resolvers.ProtocolDecodersResolver.TryDecodersFamily(System.String,Technica.PacketDecoder.Model.IPacketTree,System.ReadOnlySpan{System.Byte},System.Int32,System.Int32,Technica.PacketDecoder.Model.FieldValue)">
+            <summary>
+            Used when there is no exact way to tell which decoder to use, tries all decoders and returns the first that works.
+            </summary>
+            <param name="familykey"></param>
+            <param name="tree"></param>
+            <param name="buffer"></param>
+            <param name="offset"></param>
+            <param name="size"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Utils.FormatterUtils.GetBitInterpretation(System.Byte[],System.UInt32)">
+            <summary>
+            returns Bit interpretation of mask applied to flags
+            </summary>
+            <param name="Flags">Data Flags</param>
+            <param name="mask">Mask to be applied</param>
+            <returns>Bit interpretation of mask applied to flags</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Utils.FormatterUtils.GetBitInterpretation(System.Byte[],System.UInt32,System.String)">
+            <summary>
+            returns Bit interpretation of mask applied to flags, appends a label and boolean value of flags and mask operation to the result
+            </summary>
+            <param name="Flags">Data Flags</param>
+            <param name="mask">Mask to be applied</param>
+            <param name="label">Label to append</param>
+            <returns>Bit interpretation of mask applied to flags</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Utils.FormatterUtils.GetBitInterpretation(System.Byte[],System.UInt32,System.String,System.String)">
+            <summary>
+            returns Bit interpretation of mask applied to flags, appends a label and string value to the result
+            </summary>
+            <param name="Flags">Data Flags</param>
+            <param name="mask">Mask to be applied</param>
+            <param name="label">Label to append</param>
+            <param name="value">string value to append</param>
+            <returns>Bit interpretation of mask applied to flags</returns>
+        </member>
+        <member name="M:Technica.PacketDecoder.Utils.FormatterUtils.LastSubstringFromChar(System.String,System.Char)">
+            <summary>
+            returns remaining string from last occurence of char
+            </summary>
+            <param name="origin">string</param>
+            <param name="c">delimiter char</param>
+            <returns>remaining string from last occurence of char</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Databases.Avb</name>
+    </assembly>
+    <members>
+        <member name="T:AVB">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:AVB.STREAM_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (STREAM*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:AVB.STREAM_LISTLocalType.STREAMLocalType">
+            <summary>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="T:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (DESTINATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_LISTLocalType.DESTINATIONLocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (DESTINATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_LISTLocalType.DESTINATION">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (DESTINATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.STREAM_LISTLocalType.STREAMLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.STREAM_DESCRIPTION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.MEDIA_TYPE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY1">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY2">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY3">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY4">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY5">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY6">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY7">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY8">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY9">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY10">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY11">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY12">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY13">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY14">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY15">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.MAXFRAME_SIZE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.MAXINTERVAL_FRAMES">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.MAX_TRANSIT_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.BANDWIDTH">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.DESTINATION_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.VLAN_ID">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PRIORITY">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, DESTINATION_MAC_ADDRESS, NAME, STREAM_DESCRIPTION, MEDIA_TYPE, PROPERTY1, PROPERTY2, PROPERTY3, PROPERTY4, PROPERTY5?, PROPERTY6?, PROPERTY7?, PROPERTY8?, PROPERTY9?, PROPERTY10?, PROPERTY11?, PROPERTY12?, PROPERTY13?, PROPERTY14?, PROPERTY15?, MAXFRAME_SIZE, MAXINTERVAL_FRAMES, MAX_TRANSIT_TIME, BANDWIDTH, DESTINATION_LIST, VLAN_ID?, PRIORITY, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.MEDIA_TYPELocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY1LocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY2LocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY3LocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAMLocalType.PROPERTY4LocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.STREAM_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (STREAM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LISTLocalType.STREAM">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (STREAM*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:AVB.ECU_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:AVB.ECU_LISTLocalType.ECULocalType">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.ECU_LISTLocalType.ECULocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LISTLocalType.ECULocalType.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LISTLocalType.ECULocalType.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LISTLocalType.ECULocalType.MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LISTLocalType.ECULocalType.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.ECU_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LISTLocalType.ECU">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:AVB.#ctor">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.CONFIGURATIONS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.ECU_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:AVB.STREAM_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, STREAM_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.ITEM">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.name">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ITEM.value">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDER.target">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION_LIST">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION_LIST.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION_LIST.ENUMERATION">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:CONFIGURATIONS">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="M:CONFIGURATIONS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.DATA_TYPES">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.BYTE_ORDERS">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="T:DATA_TYPES">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="M:DATA_TYPES.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:DATA_TYPES.ENUMERATION_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:BYTE_ORDERS">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:BYTE_ORDERS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.BYTE_ORDER">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.enum_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+    </members>
+</doc>

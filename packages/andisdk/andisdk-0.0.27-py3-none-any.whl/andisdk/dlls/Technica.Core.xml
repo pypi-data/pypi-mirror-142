@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Technica.Core.Licensing.LicenseManager.GetEnvironmentVariables">
+            <summary>
+            method for getting all available environment variables
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Technica.Core.Mailto">
+            <summary>
+            https://codereview.stackexchange.com/a/129600
+            </summary>
+        </member>
+        <member name="M:Technica.Core.Mailto.ToUrl(System.Net.Mail.MailMessage)">
+            <summary>
+            Converts a <see>MailMessage</see> to a mailto URL
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Technica.Core.Utils.PortRangesFilter.IsInRange(System.UInt32)">
+            <summary>
+            Check if port Number is in range or not
+            </summary>
+            <param name="portNumber">Port number to check</param>
+            <returns>true if port number is in range, false otherwise</returns>
+        </member>
+        <member name="M:Technica.Core.Utils.PortRangesFilter.ParseValue(System.String,System.UInt32@)">
+            <summary>
+            Parse uint value from possible port string value, returns false if port is malformed or too big for uint
+            </summary>
+            <param name="port">port string value</param>
+            <param name="portValue">port uint value if possible</param>
+            <returns>false if port if malformed</returns>
+        </member>
+        <member name="M:Technica.Core.Utils.PortRangesFilter.Parse(System.String,System.UInt64)">
+            <summary>
+            parse a brspy port syntax into port ranges object.
+            </summary>
+            <param name="value">brspy port syntax value.</param>
+            <param name="max">max port value</param>
+            <returns>if the parsing was successfull or not.</returns>
+        </member>
+        <member name="T:Technica.Core.Watchdog">
+            <summary>
+            A class to monitor the application and show a crash report if the application goes boom
+            </summary>
+        </member>
+        <member name="M:Technica.Core.Watchdog.Init">
+            <summary>
+            Wake up the Watchdog, and make it wait for application crash
+            </summary>
+        </member>
+        <member name="M:Technica.Core.Watchdog.WatchCurrentThread">
+            <summary>
+            Wake up the Watchdog for the current thread, and make it wait for application crash
+            </summary>
+            Referennce link https://referencesource.microsoft.com/#System.Windows.Forms/winforms/Managed/System/WinForms/Application.cs,973 
+        </member>
+        <member name="M:Technica.Core.Watchdog.CaptureException(System.Exception)">
+            <summary>
+            Sends a crash report
+            </summary>
+            <param name="ex"></param>
+        </member>
+    </members>
+</doc>

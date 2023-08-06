@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrimaTestCaseLibrary</name>
+    </assembly>
+    <members>
+        <member name="E:PrimaTestCaseLibrary.BusinessTestCaseLibrary.AttributeImpl`1.on_value_changed">
+            <summary>
+            Event triggered every time the variable value has been changed.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageBase`1.start_capture(PrimaITestCaseLibrary.Filters.IFilter)">
+            <summary>
+            Used for online capture(capturing network traffic from an adapter).
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageBase`1.close_writer">
+            <summary>
+            A method intended to close a pcap file that was used to write the received packets.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageBase`1.stopCapture">
+            <summary>
+            Used for offline capturing (capturing netweork traffic from an adapter) to stop the capturing of packets.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageBase`1.store">
+            <summary>
+            Used to store the current state
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageBase`1.open_writer(System.String,System.Nullable{PrimaITestCaseLibrary.Utilities.FILEFORMAT})">
+            <inheritdoc/>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageCAN_LINAbstractClass`1.send">
+            \brief    Send current frame
+            \return   status      bool
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.TYLE_MASK">
+            <summary>
+            //Length of standard data: 1 = 8bit, 2 = 16bit, 3 = 32 bit, 4 = 64 bit, 5 = 128 bit
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.BOOL">
+            <summary>
+            Boolean data
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.SINT">
+            <summary>
+            Signed integer data
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.UINT">
+            <summary>
+            Unsigned integer data
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.FLOA">
+            <summary>
+            Float data
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.ARAY">
+            <summary>
+            Array of standard types
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.STRG">
+            <summary>
+            String
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.RAWD">
+            <summary>
+            Raw data
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.VARI">
+            <summary>
+            Set, if additional information to a variable is available
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.FIXP">
+            <summary>
+            Set, if quantization and offset are added
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.TRAI">
+            <summary>
+            Set, if additional trace information is added
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.STRU">
+            <summary>
+            Struct
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageDltImpl.DltTypeInfos.SCOD_MASK">
+            <summary>
+            coding of the type string: 0 = ASCII, 1 = UTF-8
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageEtherImpl.get_layer(PrimaITestCaseLibrary.PROTOCOL_TYPE)">
+            <summary>
+            Extracts a specific protocol layer from the message, if present.
+            </summary>
+            <param name="type">, Desired protocol layer. See Protocol type enum for a list of valid values.</param>
+            <returns> Packet of the selected protocol layer, including both header and data. If no layer found, Null is returned.</returns>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageLINImpl.type_pt">
+            <summary>
+            PropertyProtocolType property
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageLINImpl.#ctor">
+            <summary>
+            brief    Constructor of the LIN Message
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MSRPVectorAttribute.declaration_type">
+            <summary>
+            The Declaration Type field
+            derived from the MSRP AttributeType definitions (35.2.2.4) and the MSRP FourPackedEvents(35.2.2.7.2).
+            The Declaration Type indicates the specific type of the Talker or Listener MSRP Declaration.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessagePTPImpl.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Make sure we only write fields that have explicit values
+            fields with auto calculated values should not be written
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.BusinessTestCaseLibrary.SDHeaderImpl.reboot_flag">
+            new part
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.SenderReceiver.LoopTcpCaptureFromFile(PrimaITestCaseLibrary.NetWorksConfig.IMessageConnected,PrimaITestCaseLibrary.Filters.IFilter,Technica.Traces.ITraceReader,System.Threading.CancellationToken)">
+             <summary>
+            
+             </summary>
+             <param name="message"></param>
+             <param name="filter"></param>
+             <param name="reader"></param>
+             <param name="token"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.SenderReceiver.ThrowIfNotFound(PrimaITestCaseLibrary.NetWorksConfig.INetworkDevice,PrimaITestCaseLibrary.NetWorksConfig.INetworkHardwareDevice,System.String)">
+            <summary>
+            Throw an exception when Network device does not exist physically
+            </summary>
+            <param name="networkDevice"></param>
+            <param name="hardwareDevice">Network device</param>
+            <param name="channel">Channel name</param>
+            <returns>The message of exception detect</returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.TestProjectImpl.IsZombie(System.Delegate)">
+            <summary>
+            Return true if the current Delegate belong to a dead script
+            </summary>
+            <param name="function"></param>
+            <returns></returns>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.BusinessTestCaseLibrary.VlanImpl.inner_vlanValue">
+             <summary>
+             Score db record
+             </summary>
+            
+        </member>
+        <member name="P:PrimaTestCaseLibrary.BusinessTestCaseLibrary.VlanImpl.outer_vlanValue">
+             <summary>
+             Score db record
+             </summary>
+            
+        </member>
+        <member name="M:PrimaTestCaseLibrary.BusinessTestCaseLibrary.MessageFlexRayDecoderImpl.EncodeMessage(PrimaITestCaseLibrary.MessageManagment.IMessageBase)">
+            \brief    Encode FlexRay Message
+            \param    message           IMessage.
+            \return   EncodedMessage    byte[]
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor">
+            <summary>
+            This class represents an enumeration field in the property grid.
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.fContext">
+            <summary>
+            Stores the context which the enumeration field descriptor was created in.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.#ctor(System.Type,System.String,System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Creates an instance of the enumeration field descriptor class.
+            </summary>
+            <param name="componentType">The type of the enumeration.</param>
+            <param name="name">The name of the enumeration field.</param>
+            <param name="context">The current context.</param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.GetValue(System.Object)">
+            <summary>
+            Retrieves the value of the enumeration field.
+            </summary>
+            <param name="component">
+            The instance of the enumeration type which to retrieve the field value for.
+            </param>
+            <returns>
+            True if the enumeration field is included to the enumeration; 
+            otherwise, False.
+            </returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.SetValue(System.Object,System.Object)">
+            <summary>
+            Sets the value of the enumeration field.
+            </summary>
+            <param name="component">
+            The instance of the enumeration type which to set the field value to.
+            </param>
+            <param name="value">
+            True if the enumeration field should included to the enumeration; 
+            otherwise, False.
+            </param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.ShouldSerializeValue(System.Object)">
+            <summary>
+            Retrieves a value indicating whether the enumeration 
+            field is set to a non-default value.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.ResetValue(System.Object)">
+            <summary>
+            Resets the enumeration field to its default value.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.CanResetValue(System.Object)">
+            <summary>
+            Retrieves a value indicating whether the enumeration 
+            field can be reset to the default value.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.EnumFieldDescriptor.GetDefaultValue">
+            <summary>
+            Retrieves the enumerations field’s default value.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.#ctor(System.Type)">
+            <summary>
+            Creates an instance of the FlagsEnumConverter class.
+            </summary>
+            <param name="type">The type of the enumeration.</param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.FlagsEnumConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[])">
+            <summary>
+            Retrieves the property descriptors for the enumeration fields. 
+            These property descriptors will be used by the property grid 
+            to show separate enumeration fields.
+            </summary>
+            <param name="context">The current context.</param>
+            <param name="value">A value of an enumeration type.</param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Converters.IpMacCollection.GetClassName">
+            <summary>
+            Returns an employee object at index position.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.DataBases.ServiceCache`1">
+            <summary>
+            Lookup table to cache and speed up finding Parameters
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.DecoderImpl.MessageCANDecoderImpl.EncodeMessage(PrimaITestCaseLibrary.MessageManagment.IMessageBase)">
+            \brief    Encode CAN Message
+            \param    message           IMessage.
+            \return   EncodedMessage    byte[]
+        </member>
+        <member name="M:PrimaTestCaseLibrary.DecoderImpl.MessageCANDecoderImpl.DecodeMessage(PrimaITestCaseLibrary.MessageManagment.ICapturedData)">
+            \brief    Decode captured data
+            \param    CapturedData      ICapturedData.
+            \return   DecodedMessage    IMessage
+        </member>
+        <member name="M:PrimaTestCaseLibrary.DecoderImpl.MessageCANDecoderImpl.DecodeMessage(System.Byte[],System.Int32,System.Int32)">
+            \brief    Decode captured data
+            \param    Data      byte[].
+            \param    offset    int.
+            \return   DecodedMessage    IMessage
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Include">
+            <summary>
+            Force Include Dlls
+            http://stackoverflow.com/questions/15816769
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Networking.SomeIp.PayloadFlattener.Flatten(System.Collections.IDictionary)">
+            <summary>
+            Return the name and the value of a parameter.
+            If a parameter is complex, the name will be the name of a parameter +"."+ name of member.
+            </summary>
+            <param name="value"> A dictionary contains the name and the value of members</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Networking.SomeIp.PayloadPatcher.Patch(System.Object,System.String,System.Object)">
+            <summary>
+            Return a dictionary contains the name and the value of a parameter. 
+            </summary>
+            <param name="target">A dictionary contains the name  and values of a member</param>
+            <param name="path">the name of a parameter. If a parameter is complex, the path will be the name of a parameter +"."+ name of member.</param>
+            <param name="value"> the value of a parameter. If a parameter is complex, the value can be a list or a dictionary</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Networking.SomeIp.PayloadReader.Read(System.Object,System.String)">
+            <summary>
+             Return the value of a member
+            </summary>
+            <param name="target">A dictionary contains the name  and values of a member </param>
+            <param name="path">the name of a parameter. If a parameter is complex, the path will be the name of a parameter +"."+ name of member.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.BrspyCANChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ICanChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)" />
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.BTSCANChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ICanChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)" />
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.BTSLINChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageLIN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ILinChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageLIN,System.Int64)" />
+        </member>
+        <member name="T:PrimaTestCaseLibrary.NetworksConfig.BtsDriverLoader">
+            <summary>
+            Needed to load platform dependend BTS Driver
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.CANChannelAdapterImpl.create_transmit(System.Collections.IList,System.Nullable{System.UInt32})">
+            <inheritdoc/>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.NetworksConfig.CaptureModuleHardwareUtils">
+            <summary>
+            Class imported from CMConfigurator, used to esablish connection with the capture module (import, export, restart)
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.ChannelAdapterImpl.create_transmit(System.Collections.IList,System.Nullable{System.UInt32},System.Nullable{System.Double},System.Boolean,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Int32)">
+            <inheritdoc/> 
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.MGCANChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ICanChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)" />
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceImpl.AdapterName">
+            <summary>
+            Adapter Name property for Binding
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceImpl.AdapterDesc">
+            <summary>
+            Adapter Description property for Binding
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceBase.GetSenderNetworkDevice">
+            <summary>
+            this is a faster to create SharpPcapDevice (singloton)
+            however you are not supposed to put a filter on it
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceBase.AdapterName">
+            <summary>
+            Adapter Description property for Binding
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceBase.AdapterDesc">
+            <summary>
+            Adapter Description property for Binding
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.NetworkHardwareDeviceBase.BusName">
+            <summary>
+            Bus Name Hardware Device
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.NetworksConfig.PlayerNetworkDevice.isPlay">
+            <summary>
+            Play status of the device, <c>true</c> if the device is playing, <c>false</c> otherwise.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.PlpCanChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ICanChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageCAN,System.Int64)" />
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.PlpFlexRayChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageFlexRay,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.IFlexRayChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageFlexRay,System.Int64)" />
+        </member>
+        <member name="M:PrimaTestCaseLibrary.NetworksConfig.PlpLinChannelAdapterImpl.encode(PrimaITestCaseLibrary.MessageManagment.IMessageLIN,System.Int64)">
+            <inheritdoc cref="M:PrimaITestCaseLibrary.NetWorksConfig.ILinChannelAdapterBase.encode(PrimaITestCaseLibrary.MessageManagment.IMessageLIN,System.Int64)" />
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Reporting.JUnitExecutionReport">
+            <summary>
+            See http://llg.cubic.org/docs/junit/ for format
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.RestBusSimulation.RestBusSimulationBase.MessageManager.IcmpManagerImpl.ip_mac_map_prop">
+            <summary>
+            mapping of IPs and Macs for the current ECU.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.RestBusSimulation.NMManager.NMMessageManagerImpl.wakeup_server(PrimaITestCaseLibrary.RestBusSimulation.RestBusSimulationSOMEIP.NMManager.BasePartialNet,PrimaITestCaseLibrary.RestBusSimulation.RestBusSimulationSOMEIP.NMManager.FunctionalPartialNet)">
+            Send request to wake up another ECU.
+            @param basePartialNetworkID is the ECU ID in base partial network.
+            @param functionPartialNetworkID is the ECU ID mask in function partial network.
+            @return 1 if target ECUs are wakeup, 0 if fail.
+        </member>
+        <member name="M:PrimaTestCaseLibrary.RestBusSimulation.SDManager.SDPacketizedElementImpl.send_msg_sd(System.Boolean,System.Boolean)">
+            <summary>
+            size of message is very big so it will be regrouped by entriesPerMessage
+            entriesPerMessage = ((1500 - 200) - 12 * msg.options.Count) / 16;
+            16:size of entries:1500: size of message; 200 size of header
+            </summary>
+            <param name="offer"></param>
+            <param name="find"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.SignalGenerator.CyclicSigalGenerator.GetY(System.Decimal)">
+            <summary>
+            Calculates y value from x
+            </summary>
+            <param name="x">x values</param>
+            <returns>cyclic y value (between 0 and 1)</returns>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.TcpIp.Managed.ReceivingTcpEventArgs">
+            <summary>
+            Represents the event arguments that gets passed to the OnTcpReceive event handler.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.TcpIp.Managed.ReceivingTcpEventArgs.message">
+            <summary>
+            The Tcp message being observed when sent.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.TcpIp.Managed.TcpConnection">
+            <summary>
+            This implimentation does not honer the RFCs 100%
+            But it's good enough for testing
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.TcpIp.Managed.TcpConnection.rcv_nxt">
+            <summary>
+            Receive Next
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.TcpIp.Managed.TcpConnection.rcv_wnd">
+            <summary>
+            Receive Window
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.TcpIp.Managed.TcpConnection.TcpProcess(PrimaTestCaseLibrary.TcpIp.Managed.TcpChunk)">
+            <summary>
+            Implements the TCP state machine
+            </summary>
+            <param name="chunk"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.TcpIp.Native.SocketController.Connect(System.Net.Sockets.Socket,System.Net.IPEndPoint,System.TimeSpan)">
+            <summary>
+            See https://stackoverflow.com/a/4708790
+            </summary>
+            <param name="socket"></param>
+            <param name="dst"></param>
+            <param name="timeout"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.TcpIp.Resolver.AddressResolver.Resolve(PrimaITestCaseLibrary.MessageManagment.IMessageInternet)">
+            <summary>
+            Resolve IP addresses in the message into MAC addresses and VLAN
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.TcpIp.Resolver.AddressResolver.Reply(PrimaITestCaseLibrary.MessageManagment.IMessageICMPv6)">
+            <summary>
+            Reply to an icmpv6 request
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.TcpIp.Resolver.AddressResolver.Reply(PrimaITestCaseLibrary.MessageManagment.IMessageARP)">
+            <summary>
+            Reply to an ARP request
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.BusData">
+            <summary>
+            Represents vendor data field in a tecmp bus status message.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusData.channel_id">
+            <summary>
+            
+            ID that uniquely identifies the log data / bus / link of the IVN
+            on which the Messages/frames were received or sent.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusData.total_messages">
+            <summary>
+            
+            Messages received on the bus/IVN (Channel ID) since the
+            startup of the CM.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusData.total_errors">
+            <summary>
+            
+            Erroneous messages received on the bus/IVN (Channel ID)
+            since the start of the Capture Module.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusData.vendor_data">
+            <summary>
+            Vendor data.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.BusStatus">
+            <summary>
+            Represents bus status in tecmp message.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusStatus.bus_data">
+            <summary>
+             Bus entries list.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.BusVendorData">
+            <summary>
+            Represents vendor data in tecmp bus status message.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusVendorData.link_status">
+            <summary>
+            
+            Flag to indicate whether there is link Up or not in the
+            corresponding channel:
+            :code:`x00`: No.
+            :code:`x01`: Yes.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusVendorData.link_quality">
+            <summary>
+            
+            Quality of the link of the corresponding channel, from :code:`0`
+            to :code:`5`:
+            :code:`0x00`: LinkDown.
+            :code:`0x01`: Lowest Link quality.
+            …
+            :code:`0x05`: Highest Link quality.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.BusVendorData.linkup_time">
+             <summary>
+             
+             Time (ms) measured between power up of the board and link up on this port. Done once at startup. Two default reference values are defined based on an internal reference timeout elapsing :code:`500` ms after power up.
+            • :code:`0x0000`: No link up detected and the reference timeout did not elapse yet.
+            • :code:`0xFFFF`: No link up detected and the reference timeout already elapsed.
+            For instance: :code:`x153` means :code:`3` ms.
+             </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.CmStatus">
+            <summary>
+            Represents capture module status in tecmp message.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmStatus.vendor_data">
+            <summary>
+            Vendor data.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.CmVendorData">
+            <summary>
+            Represents vendor data in tecmp capture module status message.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.sw_version">
+            <summary>
+            
+            Version X.Y.Z, one byte for each part.
+            E.g. :code:`v8.6.40` → :code:`[8, 6, 40]`.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.hw_version">
+            <summary>
+            
+            Version X.Y, one byte for each part.
+            E.g. :code:`v3.1` → :code:`[3, 1]`.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.buffer_fill_level">
+            <summary>
+            
+            Percentage of internal memory currently used.
+            Possible values: :code:`0`, :code:`10`, :code:`20`, :code:`30`, :code:`40`, :code:`50`, :code:`60`, :code:`70`, :code:`80`, :code:`85`, :code:`90`, :code:`95` .
+            :code:`100%` is never possible because the memory is emptied
+            before it reaches that level.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.buffer_overflow">
+            <summary>
+            
+            Flag to indicate whether there is a memory overflow or not.
+            :code:`x00`: No, :code:`x01`: Yes.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.buffer_size">
+            <summary>
+            Size of the internal memory in gigabits.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.lifecycle">
+            <summary>
+            Time since startup, in ns.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.voltage_integer_part">
+            <summary>
+            
+            Voltage value, the part before the comma.
+            E.g: :code:`12.30 V` → :code:`12` = :code:`0x0C` .
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.voltage_fractional_part">
+            <summary>
+            
+            Voltage value, the part after the comma.
+            E.g: :code:`12.30 V` → :code:`30` = :code:`0x1E` .
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.chassis_temperature">
+             <summary>
+             
+             Temperature of the CM chassis in °C.
+            • :code:`x00` up to :code:`0x7E` → :code:`0` °C up to :code:`126` °C.
+            • :code:`0x7F` → temp ≥ :code:`127` °C.
+            • :code:`0x80` → Not Available.
+            • :code:`0xFF` down to :code:`0x81` → -:code:`1` °C down to -:code:`127` °C.
+             </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.silicon_temperature">
+             <summary>
+             
+             Internal temperature (junction temperature) of the CM processing unit in °C.
+            • :code:`x00` up to :code:`0x7E` → :code:`0` °C up to :code:`126` °C.
+            • :code:`0x7F` → temp ≥ :code:`127` °C.
+            • :code:`0x80` → Not Available.
+            • :code:`0xFF` down to :code:`0x81` → -:code:`1` °C down to -:code:`127` °C.
+             </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.CmVendorData.temperature">
+            <summary>
+            Overall temperature.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.DecodeTools.ReplaceBytes``1(PrimaITestCaseLibrary.MessageManagment.IMessage,PrimaTestCaseLibrary.Utils.DecodeResult{``0})">
+            <summary>
+            Special Method used for patching UDP, TCP and IP messages
+            </summary>
+            <param name="message"></param>
+            <param name="decoded"></param>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.Encoders.HsmSecurity">
+            <summary>
+            Methods for calculating certification fields, for EthCC
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.Encoders.HsmSecurity.AesCmac(System.Byte[],System.Byte[])">
+            <summary>
+            CMAC calculator, for EthCC protocol
+            </summary>
+            <param name="key"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.Encoders.HsmSecurity.NewRandom">
+            <summary>
+            True Random Number Generator, for EthCC protocol
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.IP">
+            <summary>
+            Class responsible for IP operations
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.is_multicast(System.String)">
+            <summary>
+            Check if the address provided is a multicast address.
+            </summary>
+            <param name="addr">Address to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.is_private(System.String)">
+            <summary>
+            Check if an address is a private address.
+            </summary>
+            <param name="addr">Address to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.is_ipv6(System.String)">
+            <summary>
+            Check if an address is a valid IPv6 address
+            </summary>
+            <param name="addr">Address to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.is_ipv4(System.String)">
+            <summary>
+            Check if an address is a valid IPv4 address
+            </summary>
+            <param name="addr">Address to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.get_protocol(System.String)">
+            <summary>
+            Check the network protocol of an address
+            </summary>
+            <param name="addr">Address to check</param>
+            <returns>The network protocol of the address</returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IP.get_solicited_multicast_address(System.String)">
+            <summary>
+            The multicast address is calculated using this formula: https://en.wikipedia.org/wiki/Solicited-node_multicast_address
+            </summary>
+            <param name="ip">Address used to calculate multicast address</param>
+            <returns>The solicited multicast address</returns>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpConnection">
+            <summary>
+            Base class for ISO-TP logic
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpConnection.max_data_length">
+            <summary>
+            Maximum data transmitted per frame.
+            8 for CAN, 64 for CAN-FD
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpConnection.send_frame(System.UInt32,System.ReadOnlyMemory{System.Byte})">
+            <summary>
+            You will need to override this in your implimenation
+            </summary>
+            <param name="id"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpConnection.recv_frame(System.UInt32,System.ReadOnlyMemory{System.Byte})">
+            <summary>
+            Your implimentation of ISO-TP needs to call this method with received frames
+            </summary>
+            <param name="id"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpConnection.send(System.Byte[])">
+            <summary>
+            This method will block until all data is sent, or timeout happens
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpControl">
+            <summary>
+            Enumeration for the different types a CAN-TP message can have
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpControl.SignleFrame">
+            <summary>
+            Single Frame type (only one message sent)
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpControl.FirstFrame">
+            <summary>
+            First frame in a sequence
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpControl.ConsecutiveFrame">
+            <summary>
+            Consecutive frames in a sequence (sent after the first frame)
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpControl.FlowControlFrame">
+            <summary>
+            Flow control frames, sent from the receiver to control the flow of the messages (acknowldgment for the first message and configuring the transmission of further consecutive frames)
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpEndpoint.id">
+            <summary>
+            Frame Id
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpEndpoint.address">
+            <summary>
+            Address for ISO-TO Extended Addressing
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpEndpoint.block_size">
+            <summary>
+            Block Size for Flow Control
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpEndpoint.separation_time">
+            <summary>
+            Separation Time for Flow Control
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpEndpoint.padding_byte">
+            <summary>
+            Value of Padding Byte.
+            </summary>
+        </member>
+        <member name="E:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpSocket.on_message_received">
+            <summary>
+            Event is triggered every time a message is received
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpSocket.connect">
+            <summary>
+            Start the stack
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpSocket.disconnect">
+            <summary>
+            Stop the stack
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpSocket.create_messages(System.Byte[])">
+            <summary>
+            Create multiple messages based on the config and channel and return them
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.IsoTp.IsoTpSocket.consume(PrimaITestCaseLibrary.MessageManagment.IMessageBase)">
+            <summary>
+            Allow user to feed frames from external sources to the socket
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.MessageEncoderUtilImpl.extract(System.Byte[],System.Int32,System.Int64)">
+            unused functions
+            
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedFileReaderDevice.Filter">
+            <summary>
+            Kernel level filtering expression associated with this device.
+            This is different that Filter, in the sense that it detects 
+            For more info on filter expression syntax, see:
+            http://www.winpcap.org/docs/docs31/html/group__language.html
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedPcapDevices.IsMatch(PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedFilter,Technica.Core.Utils.PortRangesFilter,PrimaTestCaseLibrary.Utils.PcapDevices.PlpChannelFilter,SharpPcap.PacketCapture,PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedPcapDevices.SubCapture@)">
+            <summary>
+            </summary>
+            <param name="filter"></param>
+            <param name="capture"></param>
+            <param name="gateway"></param>
+            <param name="BRPortFilter"></param>
+            <param name="PlpFilter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedPcapDevices.SubCapture">
+            <summary>
+            Struct with Offset and port of gateway header
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedWinPcapDevice">
+            <summary>
+            A slower version of PcapDevice that supports Techinca hardware
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.PcapDevices.EnhancedWinPcapDevice.Filter">
+            <summary>
+            Kernel level filtering expression associated with this device.
+            This is different that Filter, in the sense that it detects 
+            For more info on filter expression syntax, see:
+            http://www.winpcap.org/docs/docs31/html/group__language.html
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.BandwidthUnit.Bits">
+            <summary>
+            Bandwidth is calculated as bits/second
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.BandwidthUnit.Bytes">
+            <summary>
+            Bandwidth is calculated as bytes/second
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.DropMode.NewChart">
+            <summary>
+            drop the signal(s) into a new chart
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.DropMode.ExistingChart">
+            <summary>
+            drop the signal(s) into an existing chart (mouse dropped on)
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.DropMode.SeperateCharts">
+            <summary>
+            drop the signal(s) into seperate charts
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.SignalModeFlags.Raw">
+            <summary>
+            the raw value of the signal
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.SignalModeFlags.Physical">
+            <summary>
+            The physical value of the signal
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.SignalModeFlags.Delta">
+            <summary>
+            The difference in values of the signal (signal(n) -  signal(n-1))
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.SignalMode.Raw">
+            <summary>
+            the raw value of the signal
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.Utils.Series.SignalMode.Physical">
+            <summary>
+            The physical value of the signal
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.SharpPcapExtensions">
+            <summary>
+            For some reason the Opened property remains true, even if the adapter is physically disconnected
+            simply calling Close() on the faulty instance fixes the problem
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.SSH.SshClient.ip_address">
+            <summary>
+            Client Ip Address.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.SSH.SshClient.port">
+            <summary>
+            Client Port.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.SSH.SshClient.username">
+            <summary>
+            Client Username.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.SSH.SshClient.password">
+            <summary>
+            Client Password.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.SSH.SshClient.connect">
+            <summary>
+            Stars SSH Connection to server.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.SSH.SshClient.disconnect">
+            <summary>
+            Disconnect from SSH Server.
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.SSH.SshClient.start_command(System.String)">
+            <summary>
+            Starts executing a command asynchronously.
+            </summary>
+            <param name="command">The command to be created</param>
+            <returns>The created command</returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.SSH.SshClient.execute_command(System.String)">
+            <summary>
+            Executes a command and waits for its result.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.TecmpStatus.vendor_id">
+            <summary>
+            Vendor ID.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.TecmpStatus.cm_version">
+            <summary>
+            Versioning of the CM.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.TecmpStatus.cm_type">
+            <summary>
+            Type of CM (e.g.: CAN,FR,Ethernet,LIN).
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.TecmpStatus.cm_id">
+            <summary>
+            Configured Capture Module ID.
+            </summary>
+        </member>
+        <member name="P:PrimaTestCaseLibrary.Utils.TecmpStatus.serial_number">
+            <summary>
+            Serial number of the CM.
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.TecmpUtils.TecmpTypes">
+            <summary>
+            the Different PLP packet types
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.TecmpUtils.MsgTypes">
+            <summary>
+            The different Msg types
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.Utils.TecmpUtils.VendorIds">
+            <summary>
+            different possible Vendor Ids
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.TecmpUtils.TecmpStatusDecoder.GetBusStatus(PrimaITestCaseLibrary.MessageManagment.IEthernetProtocol)">
+            <summary>
+            get bus status from tecmp message.
+            </summary>
+            <param name="message">ethernet message</param>
+            <returns>BusStatus object, otherwise null</returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.TecmpUtils.TecmpStatusDecoder.GetCmStatus(PrimaITestCaseLibrary.MessageManagment.IEthernetProtocol)">
+            <summary>
+            get capture module status from tecmp message.
+            </summary>
+            <param name="message">ethernet message</param>
+            <returns>CmStatus object, otherwise null</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:PrimaTestCaseLibrary.Utils.Transmissions.BaseTransmission.is_running" -->
+        <!-- Badly formed XML comment ignored for member "M:PrimaTestCaseLibrary.Utils.Transmissions.BaseTransmission.stop(System.Double)" -->
+        <member name="M:PrimaTestCaseLibrary.Utils.Transmissions.BaseTransmission.start">
+            <inheritdoc/>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PrimaTestCaseLibrary.Utils.Transmissions.BaseTransmission.wait(System.Nullable{System.Double})" -->
+        <!-- Badly formed XML comment ignored for member "M:PrimaTestCaseLibrary.Utils.Transmissions.BaseTransmission.Dispose" -->
+        <member name="F:PrimaTestCaseLibrary.Utils.Transmissions.TransmissionBuilder.MaxPacketsPerQueue">
+            <summary>
+            If memory was unlimited, we could create a queue of the total transmission
+            however it's not, so we create a 100MB queue, and see how many times we need to repeat it
+            This is about 100MB for a packet of 1KB, should conver most cases just fine
+            </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.Utils.Transmissions.TransmissionBuilder.GetOptimalQueueDuplication(System.Int64,System.Int32)">
+            <summary>
+            Basically we are looking for the biggest number that divides <c>repeat</c>
+            while still being smaller than <c>MaxPacketsPerQueue / packets.Count</c>
+            </summary>
+            <param name="repeat"></param>
+            <param name="packetsCount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.VXLHardware.WaitResults">
+            <summary>
+            return values of WaitForSingleObject
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.VXLHardware.VXLDriver">
+            <summary>
+             The XL Driver dead locks when accessed by multiple threads
+             This class, garanteens that all access to the driver takes place on the same thread
+            </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.WaitResults">
+            <summary>
+            return values of WaitForSingleObject
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.CAN">
+            <summary>
+            CAN const
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.LIN">
+            <summary>
+            LIN const
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.DEFAULT_LIN_DLC">
+            <summary>
+            DEFAULT_LIN_DLC
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.FREQ">
+            <summary>
+            Clock Frequency of the Vector Device
+            </summary>
+        </member>
+        <member name="F:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.driverConfig">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.Refresh">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.OpenVXLPort">
+            <summary>
+            A channel allows only one port to have access
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.GetDevices">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.StartCapture(PrimaITestCaseLibrary.MessageManagment.IMessageBase,PrimaITestCaseLibrary.Filters.IFilter,System.Action{Technica.Traces.ITraceRecord})">
+            <summary>
+            start capturing
+            </summary>
+            <param name="message"></param>
+            <param name="filter"></param>
+            <param name="action"></param>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.Send(PrimaITestCaseLibrary.MessageManagment.IMessageBase)">
+            <summary>
+            brief    Send CAN Frame
+            </summary>
+            <param name="message"> Frame   ICAN_LIN_Frame</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.Deactivate">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.ConfigureLinCluster(PrimaITestCaseLibrary.DataBases.IDataBase,System.Collections.Generic.List{System.String})">
+            <summary>
+            LIN Configuration logic
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.SilenceBus">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:PrimaTestCaseLibrary.VXLHardware.VXLHardwareBase.WakeupBus">
+             <summary>
+            
+             </summary>
+        </member>
+    </members>
+</doc>

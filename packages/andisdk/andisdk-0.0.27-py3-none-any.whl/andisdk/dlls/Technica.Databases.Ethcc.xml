@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Databases.Ethcc</name>
+    </assembly>
+    <members>
+        <member name="T:ETHCC">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.ECU_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.ECU_LISTLocalType.ECULocalType">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.ECU_LISTLocalType.ECULocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECULocalType.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECULocalType.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECULocalType.SOURCE_IP_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECULocalType.SOURCE_MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, SOURCE_IP_ADDRESS, SOURCE_MAC_ADDRESS)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECULocalType.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.ECU_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LISTLocalType.ECU">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ECU*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.MESSAGE_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.PROTOCOL">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.SOURCE_PORT_NUMBER">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DESTINATION_PORT_NUMBER">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DESTINATION_IP_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DESTINATION_MAC_ADDRESS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.VLAN_ID">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.PRIORITY">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.LENGTH">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.E2E_PROTECTION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.MESSAGE_AUTHENTICATION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DIRECTION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.PAYLOAD_TYPE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.SEND_TYPE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DYNAMIC_LENGTH">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.START_DELAY_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.CYCLE_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, PROTOCOL, SOURCE_PORT_NUMBER, DESTINATION_PORT_NUMBER, DESTINATION_IP_ADDRESS, DESTINATION_MAC_ADDRESS, VLAN_ID?, PRIORITY, LENGTH, E2E_PROTECTION, MESSAGE_AUTHENTICATION, DIRECTION, PAYLOAD_TYPE, SEND_TYPE, DYNAMIC_LENGTH, START_DELAY_TIME, CYCLE_TIME)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.PROTOCOLLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.E2E_PROTECTIONLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.MESSAGE_AUTHENTICATIONLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DIRECTIONLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.PAYLOAD_TYPELocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.SEND_TYPELocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGELocalType.DYNAMIC_LENGTHLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.MESSAGE_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LISTLocalType.MESSAGE">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (MESSAGE*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.SIGNAL_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (SIGNAL*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.ID">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.NAME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.FUNCTION_DES">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.START_BIT">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.BIT_SIZE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.MIN_VALUE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.MAX_VALUE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.FACTOR">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.OFFSET">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.UNIT">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_TYPE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.AT_START_VALUE">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALIDITY">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.NETWORK_REQUEST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.NETWORK_REQUEST_HOLDING_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.MINIMUM_DELAY_TIME">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.RECEIVER_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ID, NAME, FUNCTION_DES, START_BIT, BIT_SIZE, MIN_VALUE, MAX_VALUE, FACTOR, OFFSET, UNIT, VALUE_TYPE, AT_START_VALUE, VALIDITY, NETWORK_REQUEST, NETWORK_REQUEST_HOLDING_TIME, MINIMUM_DELAY_TIME, RECEIVER_LIST, VALUE_DESCRIPTION, VERSION)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_TYPELocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALIDITYLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.NETWORK_REQUESTLocalType.enum_oid">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.RECEIVER_LISTLocalType">
+            <summary>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.RECEIVER_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.RECEIVER_LISTLocalType.RECEIVER">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (RECEIVER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.RECEIVER_LISTLocalType.RECEIVERLocalType.link_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTIONLocalType">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTIONLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTIONLocalType.ITEM">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTIONLocalType.ITEMLocalType.min">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNALLocalType.VALUE_DESCRIPTIONLocalType.ITEMLocalType.max">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.SIGNAL_LISTLocalType.#ctor">
+            <summary>
+            <para>
+            Regular expression: (SIGNAL*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LISTLocalType.SIGNAL">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (SIGNAL*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ETHCC.#ctor">
+            <summary>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.VERSION">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.CONFIGURATIONS">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.ECU_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.MESSAGE_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ETHCC.SIGNAL_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (VERSION, CONFIGURATIONS, ECU_LIST, MESSAGE_LIST, SIGNAL_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.ITEM">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ITEM*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION.name">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:ITEM.value">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDER.target">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+        <member name="T:ENUMERATION_LIST">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:ENUMERATION_LIST.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:ENUMERATION_LIST.ENUMERATION">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (ENUMERATION*)
+            </para>
+            </summary>
+        </member>
+        <member name="T:CONFIGURATIONS">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="M:CONFIGURATIONS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.DATA_TYPES">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="P:CONFIGURATIONS.BYTE_ORDERS">
+            <summary>
+            <para>
+            Occurrence: optional
+            </para>
+            <para>
+            Regular expression: (DATA_TYPES, BYTE_ORDERS?)
+            </para>
+            </summary>
+        </member>
+        <member name="T:DATA_TYPES">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="M:DATA_TYPES.#ctor">
+            <summary>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="P:DATA_TYPES.ENUMERATION_LIST">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            <para>
+            Regular expression: (ENUMERATION_LIST)
+            </para>
+            </summary>
+        </member>
+        <member name="T:BYTE_ORDERS">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="M:BYTE_ORDERS.#ctor">
+            <summary>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.BYTE_ORDER">
+            <summary>
+            <para>
+            Occurrence: optional, repeating
+            </para>
+            <para>
+            Regular expression: (BYTE_ORDER*)
+            </para>
+            </summary>
+        </member>
+        <member name="P:BYTE_ORDERS.enum_oid">
+            <summary>
+            <para>
+            Occurrence: required
+            </para>
+            </summary>
+        </member>
+    </members>
+</doc>
