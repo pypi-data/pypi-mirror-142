@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo-orm
+Version: 2.3.1
+Summary: A kind of Python ORM for Odoo XML-RPC API inspired by Django ORM.
+Home-page: https://github.com/mistiru/odoo-orm
+License: MIT
+Author: mistiru
+Author-email: dev@mistiru.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# odoo-orm
+A kind of Python ORM for Odoo XML-RPC API inspired by Django ORM.
+

@@ -1,0 +1,8 @@
+odoo_orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo_orm/connection.py,sha256=ZzI1r1Z7pg6uLMSxIgQ6D-cQpl3YNxNJHBoX5aWaiCo,2948
+odoo_orm/errors.py,sha256=215Pqcvw-3ZeYuTKOpXkCqGztvkOfG7Y4gYzspRxftg,537
+odoo_orm/orm.py,sha256=LyrW5b5oETZLE674TpWyQRRV3lrfFtSuTKrZXiNGLWU,23812
+odoo_orm-2.3.1.dist-info/LICENSE,sha256=cwdV5UFmxibTg3x8i0E87odVmMq2qnZzYDmbWicJH1Q,1064
+odoo_orm-2.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+odoo_orm-2.3.1.dist-info/METADATA,sha256=gQB7n2sEU8rqs31m62b4iF9HvREA_fx4nlJvwCnpymQ,579
+odoo_orm-2.3.1.dist-info/RECORD,,
