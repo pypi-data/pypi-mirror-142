@@ -1,0 +1,3 @@
+[console_scripts]
+dna = dna.shell:run
+

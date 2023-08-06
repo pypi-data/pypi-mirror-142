@@ -1,0 +1,15 @@
+dna/__init__.py,sha256=9OLTtBaAyLIHwsrmdwKaElfGkNxH7H6oS2rg83x8JEA,92
+dna/shell/__init__.py,sha256=RxuTEhpneWKjcqJbN9u8297688nuJ6P4pECHUsCmXfQ,57
+dna/shell/usage.py,sha256=Su7c-LtM-nhMlMShmbJGipkpRzs-DmFLfDET9NMezrM,188
+dna/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dna-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+dna-0.0.1.dist-info/METADATA,sha256=DdIR_WX-d5lY-RX4_crUMX_GTcEokQwmUkaIjb4Bths,3102
+dna-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dna-0.0.1.dist-info/entry_points.txt,sha256=TvnF4uzQTuNBUM9awAqIe-b4DVKMhJYHJ2Yn1rJClFw,39
+dna-0.0.1.dist-info/top_level.txt,sha256=SPZyBgh1lVCyVvj1-o3R07sj5enaiyleCu2M3x0fgpk,4
+dna-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dna-0.0.1.dist-info/RECORD,,
