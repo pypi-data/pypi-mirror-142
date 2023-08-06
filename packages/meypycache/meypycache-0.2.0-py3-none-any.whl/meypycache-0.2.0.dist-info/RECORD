@@ -1,0 +1,11 @@
+meypycache/__init__.py,sha256=XUcttxldvFSyJVXbLKlo8aFKrrmEOU_MmYIJu4ZKGZM,36
+meypycache/caches/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meypycache/caches/fscache.py,sha256=ayRu23G2Nmx5s3RXIVlgdTPz8fYnMD4xVKmSXwQJa2s,1315
+meypycache/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meypycache/core/files.py,sha256=oOeBIgIAj5KVeFM-_v03ECiseDCooD0scBtFpAisoVs,719
+meypycache/core/paramconverter.py,sha256=bui82uLgEOC_h-Q6HANj22LZKwtab9EpbsSAYL5r5qs,1423
+meypycache/core/uuid.py,sha256=GVI8SmoSCaE1EjYq8PtUc_62lOOKYVOSwha7R841-T4,968
+meypycache-0.2.0.dist-info/LICENSE,sha256=_Rg1v_8UYToQUDrCou9Y0zAL4ty97T4ym5eaL_7WmMo,1066
+meypycache-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+meypycache-0.2.0.dist-info/METADATA,sha256=dOkny3D-FFh3b0qbBZIgsfaQq1QzYTwgXWSb6XJvS6Y,504
+meypycache-0.2.0.dist-info/RECORD,,
