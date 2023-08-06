@@ -1,0 +1,2 @@
+[pygments.lexers]
+clips = iclips.clips_pygments:CLIPSLexer
