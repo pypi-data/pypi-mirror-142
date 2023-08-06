@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyfrx
+Version: 0.0.4
+Summary: Forex conversion and rates.
+Author: siphr
+Author-email: pypi@techtum.dev
+License: UNKNOWN
+Project-URL: Homepage, https://www.techtum.dev/work-pyfrx-220105.html
+Project-URL: Source, https://github.com/siphr/pyfrx
+Project-URL: Tracker, https://github.com/siphr/pyfrx/issues
+Keywords: forex,finance,conversion,rates
+Platform: any
+
+PyFrx
+=====
+
+A package to help convert currencies.
+
+
+Details
+-------
+
+Simply, this package relies on current forex market rate to check conversion.
+
+
+Package Usage
+-------------
+
+import pyfrx
+
+\# show supported currencies
+
+pyfrx.supported_currencies()
+
+\# to just get the rate 
+
+pyfrx.rate('gbp','pkr')
+
+\# to get amount conversion
+
+pyfrx.convert('gbp', 'pkr', 10)
+
+
