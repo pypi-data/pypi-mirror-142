@@ -1,0 +1,13 @@
+cfgcaddy/__init__.py,sha256=LuJ_gsfQfwO-e45EZLh9jr4za2qGfzW5PuCW548CrH4,417
+cfgcaddy/__main__.py,sha256=iPSYsQX7wnE6A5rhQQmPSpHYmY3-UzSuefc8CJKchEo,4590
+cfgcaddy/config.py,sha256=bpe5kl1V7uMsDbFDunCdRIagYezfklSGvkBswXq3stc,5104
+cfgcaddy/file_state.py,sha256=DVgTjph45DGnvJZ-DJlljuANMnHRSBcUICJsbwbRyjY,1041
+cfgcaddy/link.py,sha256=RujOmxn91toig8uWIwkb4pNjbiChxPlwkh4NywKr3Fo,11104
+cfgcaddy/link_spec.py,sha256=2vshxg5qvaC7ifNaW8QnLdlB3SPNeba2JUay9wbcMF8,432
+cfgcaddy/linker.py,sha256=nXKiNIFrOgNC3czm_eIIdV9u1EbsBSwyQ41gpDLCrxU,1875
+cfgcaddy/publish.py,sha256=I5hm1UN0KX8u17EWMqR0pu9DSb3VCrFLJgPa0npb9bs,279
+cfgcaddy/utils.py,sha256=TcFqzWV3dfeAV9C0UfPZUbSKG9tMcn45ZceVouwPPMo,1603
+cfgcaddy-0.1.7.dist-info/entry_points.txt,sha256=ABwcygQyExs2okh0Ox1MoOX4xp_-oJq_Q8h2ZcVMEhY,84
+cfgcaddy-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cfgcaddy-0.1.7.dist-info/METADATA,sha256=b3eoe-h6CIxOvaCZ_3hcqJ88ES_jRqNqvBAkxzNw3Qo,3597
+cfgcaddy-0.1.7.dist-info/RECORD,,
