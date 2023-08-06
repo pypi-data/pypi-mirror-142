@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: df_magic_openSARlab
+Version: 0.0.1.dev2
+Summary: Magic commands to get file usage from python function shutil.disk_usage().
+Home-page: https://github.com/ASFOpenSARlab/opensarlab-cluster/blob/main/opensarlab/jupyterhub/singleuser/custom_magics/00-df.py
+Author: ASF OpenSARlab
+Author-email: "OpenSAR Team" <uaf-jupyterhub-asf@alaska.edu>
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# df_magic_openSARlab
+
+`%df` magic commands to get file usage within OpenSARlab. This package utilizes python function `shutil.disk_usage()`.
+
+## Requirements
+
+- JupyterLab >= 3.0
+- Python >= 3.6
+
+## Install
+
+To install this package, execute:
+```
+pip install df_magic_openSARlab
+```
+
+## Uninstall
+To remove the package, execute:
+```
+pip uninstall df_magic_openSARlab
+```
+
+## How to Use
+You must first import the package by running following command:
+```python
+import df_magic_openSARlab
+```
+
+Then, you may use one of the following commands:
+
+- `%df` returns a human readable string in GB. Input is the path to the disk/partition. Default is '/home/jovyan'.
+- `%df --raw` returns a raw data object.
+- `%df --on` returns rsults in a string in GB after every subsequent cell run.
+- `%df --off` turns off `on`.
+- `%df -p /` sets the path to the partition to check.
+- `%df -v` prints off additional text for debugging.
+
+
