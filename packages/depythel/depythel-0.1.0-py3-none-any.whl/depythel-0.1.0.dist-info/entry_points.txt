@@ -1,0 +1,3 @@
+[console_scripts]
+depythel=depythel_clt.main:depythel
+
