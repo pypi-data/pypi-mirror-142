@@ -1,0 +1,3 @@
+[console_scripts]
+fhs-wireguard-namespace = fhs_wireguard_namespace.cli:app
+
