@@ -1,0 +1,6 @@
+Pillow==9.0.1
+requests==2.27.1
+beartype==0.9.1
+tqdm==4.62.2
+rich==11.2.0
+picsellia-connexion-services==0.0.9
