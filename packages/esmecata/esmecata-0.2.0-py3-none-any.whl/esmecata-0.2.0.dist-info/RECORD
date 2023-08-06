@@ -1,0 +1,13 @@
+esmecata/__init__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+esmecata/__main__.py,sha256=CdpxnCuWhr2quLylsp6ZROomS3IYD_0ryTNWmngyCcQ,13185
+esmecata/annotation.py,sha256=5C9gOQKfC4WW5NvG6WZrHdjxLhPVq5VD4mWpfzzWA-0,49447
+esmecata/clustering.py,sha256=G1hs_v3g-3twuyhT1xZYBe5pP6RAtiSDKzqeVqGQkZQ,19751
+esmecata/proteomes.py,sha256=aRui4rKzpozeqvtlBsifCiNvXKPGABUX11c5XtFLclE,47835
+esmecata/utils.py,sha256=FcSIY_Le2I2AIN9pDBUdUnBfI5yjO84UAy20hLg3X2s,6928
+esmecata/workflow.py,sha256=b_Whdh-fgono5LRGvy2zfbuOT6YuLTwXJ6PIjJgFrVw,7577
+esmecata-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+esmecata-0.2.0.dist-info/METADATA,sha256=ORKlkKrhBjQSX4HeR2XMX0Sz5-p9FbCWp4kPX0G8Qi8,40489
+esmecata-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+esmecata-0.2.0.dist-info/entry_points.txt,sha256=f8ycaNDc_qSYX0LJDTkLjOSp9PQI7tw54-_GI4v0I0Y,53
+esmecata-0.2.0.dist-info/top_level.txt,sha256=szdC1QgzeeFUwUsj2VA3fiTJECKWrmBtm-YVbwSIKec,9
+esmecata-0.2.0.dist-info/RECORD,,
