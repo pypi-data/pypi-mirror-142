@@ -1,0 +1,12 @@
+depythel/__init__.py,sha256=N0Ha7nJtW7Dp-vF7u9vgRbuHCmSAo-Au1iLiAR2SITU,1640
+depythel/_utility_imports.py,sha256=j2qQU9HTq7MsLqfUteEgvahnyXdt-Vuzv4r7cV8BzYY,3027
+depythel/main.py,sha256=cK6qmrVvBPUQAYTeTAQg0ObJeV651M7TnoPJFYbTPxo,19120
+depythel/py.typed,sha256=_JPZZm8UfW1axtCrKfq03Yn7XCh1ABQl6l4Zqi5t7Es,55
+depythel/repository/.DS_Store,sha256=FK960zRuqSd58ctBKqEQ3-jKx6x_UTE9Dg-mh828Vrs,6148
+depythel/repository/__init__.py,sha256=RdeKyni2tpRJeUoBsdcYWORO_DX0iUsI_JYJuFGc7P4,1662
+depythel/repository/aur.py,sha256=EMoRVtqF0JfrlT9fmbE8-CoxmLVu1DrnZ5wJFY4btok,3407
+depythel/repository/homebrew.py,sha256=x8MbTO6MZnC1_uGrk_QkAQRfl1fl2ifSp-R5YZu-Nws,3213
+depythel/repository/macports.py,sha256=Al2KbpErsfKL_0iUpCwtNGKaTYkXKu9_Mrw88y0eYEk,3684
+depythel_api-0.1.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+depythel_api-0.1.0.dist-info/METADATA,sha256=ExUlsWNMc5Pnnmaeky3ABNBdV4WBbpFMcE6DpiWxh3c,2199
+depythel_api-0.1.0.dist-info/RECORD,,
