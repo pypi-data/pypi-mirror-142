@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lhub-cli
+Version: 0.0.3
+Summary: LogicHub CLI
+Home-page: UNKNOWN
+Author: Chad Roberts
+Author-email: chad@logichub.com
+License: UNKNOWN
+Keywords: python,lhub,LogicHub
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Requires-Dist: requests
+
+A Python package for interacting with LogicHub via shell commands
+
+
