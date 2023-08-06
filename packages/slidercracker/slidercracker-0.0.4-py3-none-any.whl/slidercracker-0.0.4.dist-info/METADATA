@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: slidercracker
+Version: 0.0.4
+Summary: make it easy to crack slider
+Home-page: https://gitee.com/ZeroSeeker/slidercracker
+Author: ZeroSeeker
+Author-email: zeroseeker@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: easydownload (==0.0.1)
+Requires-Dist: numpy (==1.22.0)
+Requires-Dist: opencv-python (==4.5.5.64)
+Requires-Dist: requests (==2.27.1)
+
+# slidercracker
+
+#### 介绍
+滑块验证码识别
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  pip安装
+```shell script
+pip install slidercracker
+```
+2.  pip安装（使用阿里镜像加速）
+```shell script
+pip install slidercracker -i https://mirrors.aliyun.com/pypi/simple
+```
+
+#### 使用说明
+
+1.  demo
+```python
+import slidercracker
+test_res = slidercracker.identify_gap_locations(
+            background_img_url='background_img_url',
+            slider_img_url='slider_img_url',
+            retain=True
+        )
+```
+
+
