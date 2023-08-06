@@ -1,0 +1,11 @@
+pylearner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylearner/exception.py,sha256=kvMVVh4LiFGaR6YcsMkVXHPXdPcyd-dHC4FhsAdwDkg,151
+pylearner/help.py,sha256=9Xh7EJfPyOBD1pQkLIj0zl94EzT65t1yMvrIcW6k4uU,178
+pylearner/introduction.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylearner/loader.py,sha256=eYeslyf5QFBnik1q_9aXAIRoJosr_n800LUg3IshzBk,796
+pylearner/test.py,sha256=MkBr8a-avyOnimG3KyMrGXMFqqMyuSH0NSQ8XOp1AxQ,330
+pylearner-0.0.1.dist-info/LICENSE,sha256=4fkrHnE57dUI8Wm6Q0vPd_BNWUyhASJzoE93sQrnKRE,7800
+pylearner-0.0.1.dist-info/METADATA,sha256=0ndEtrI1UqEtF5UZvMhpBWZwLmZRAznDJ0D2LHa9SiA,791
+pylearner-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pylearner-0.0.1.dist-info/top_level.txt,sha256=7R90IXjiaDzAeeKRdRnijirNKIgOOUo5irHWy0rUPTc,10
+pylearner-0.0.1.dist-info/RECORD,,
