@@ -1,0 +1,8 @@
+awswrangler
+botocore
+boto3
+jinja2
+numpy
+pandas
+sagemaker
+tqdm
