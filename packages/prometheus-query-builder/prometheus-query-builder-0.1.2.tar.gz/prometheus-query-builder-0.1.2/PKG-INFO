@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: prometheus-query-builder
+Version: 0.1.2
+Summary: Package for generation Prometheus Query Language queries.
+Home-page: https://github.com/m-chrome/prometheus-query-builder
+Author: Michail Tsyganov
+Author-email: tsyganov.michail@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/m-chrome/prometheus-query-builder
+Description-Content-Type: text/x-rst
+
+prometheus-query-builder
+########################
+
+Package for generation Prometheus Query Language queries.
+
+Installation
+************
+
+Use pip for to install from Pypi: ::
+
+    pip install prometheus-query-builder
+
+The package is still in alpha development, so better pin version in your requirements: ::
+
+    prometheus-query-builder==0.1.0
+
+Usage
+*****
+
+See usage examples in tests directory.
+
+TODO
+****
+
+Support PromQL:
+
+- Subqueries - https://prometheus.io/docs/prometheus/latest/querying/basics/#subquery
+- Functions - https://prometheus.io/docs/prometheus/latest/querying/basics/#functions
+
