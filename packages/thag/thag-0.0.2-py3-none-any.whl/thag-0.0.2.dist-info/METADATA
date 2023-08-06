@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: thag
+Version: 0.0.2
+Summary: GUI toolkit for building GUI toolkits (and create beautiful applications for mobile, web, and desktop from a single python3 codebase)
+Home-page: https://github.com/manatlan/thag
+License: MIT
+Keywords: gui,electron,cef,pywebview,starlette,asyncio,guy,desktop,web,mobile,http,websocket,html
+Author: manatlan
+Author-email: manatlan@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://github.com/manatlan/thag
+Project-URL: Repository, https://github.com/manatlan/thag
+Description-Content-Type: text/markdown
+
+# THAG : "[T]he [H]TML [A]ttributs [G]UI"
+
+The descendant of [gtag](https://github.com/manatlan/gtag) ... but :
+
+ * Not tied to [guy](https://github.com/manatlan/guy)
+ * Able to be used in anything which can display html/js/css (pywebview, cefpython3, a browser, ....)
+ * A lot lot lot better and simpler (better abstractions/code/concepts)
+ * "intelligent rendering" (redraw only component with states changes)
+
+It's a GUI toolkit for building GUI toolkits ;-)
+
+[Changelog](changelog.md)
+
+**Thag** provides somes [`runners`](thag/runners) ootb. But they are here just for the show. IRL, you should build your own, for your needs.
+
+## In French
+Sorte de FWK (orienté composants), où on code (coté backend) des objets python (en fait des objets "Tag"), qui ont une representation HTML avec des interactions, qui peuvent s'executer dans tout ce qui est capable d'afficher du html/js/css (pywebview, cefpython3, a browser, ....)
+
+Les "interactions" sont des actions émanants de la partie front vers le back, pour synchroniser l'état de l'objet (côté back), et retourner sa nouvelle représentation front.
+La nature de ces interactions dépendent du `runner` utilisé (browser>ajax|websocket, guy>Websocket, pywebview>inproc)
+
+Le fwk permet surtout de fabriquer ses composants ... et il faudrait utiliser ces composants dans une appli.
+
+Autant le fwk permet des interactions avec js/front ... autant, il ne faudrait pas en faire dans les composants finaux : l'idée, c'est d'abstraire toutes interactions js : de manière à ce que ça soit totallement transparent dans les composants finaux.
+
+
