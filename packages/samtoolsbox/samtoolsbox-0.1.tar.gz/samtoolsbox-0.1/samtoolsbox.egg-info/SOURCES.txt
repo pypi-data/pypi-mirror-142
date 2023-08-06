@@ -1,0 +1,6 @@
+setup.py
+samtoolsbox/__init__.py
+samtoolsbox.egg-info/PKG-INFO
+samtoolsbox.egg-info/SOURCES.txt
+samtoolsbox.egg-info/dependency_links.txt
+samtoolsbox.egg-info/top_level.txt
