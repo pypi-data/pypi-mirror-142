@@ -1,0 +1,51 @@
+{% load i18n %}
+{% load humanize %}
+<div class=col-md-1>
+    {% if eve_type is not None %} <img src={{ eve_type.icon_url }} alt={{ eve_type.name }}> {% endif %}
+</div>
+<div class=col-md-3>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p>
+                {%if eve_type.eve_market_group.parent_market_group.parent_market_group.parent_market_group.parent_market_group is not null %} {{ eve_type.eve_market_group.parent_market_group.parent_market_group.parent_market_group.parent_market_group }} / {% endif %}
+                {%if eve_type.eve_market_group.parent_market_group.parent_market_group.parent_market_group is not null %} {{ eve_type.eve_market_group.parent_market_group.parent_market_group.parent_market_group }} / {% endif %}
+                {%if eve_type.eve_market_group.parent_market_group.parent_market_group is not null %} {{ eve_type.eve_market_group.parent_market_group.parent_market_group }} / {% endif %}
+                {%if eve_type.eve_market_group.parent_market_group is not null %} {{ eve_type.eve_market_group.parent_market_group }} / {% endif %}
+                {{ eve_type.eve_market_group }}
+            </p>
+            <h1>{{ eve_type.name }}</h1>
+            <small>{{ eve_type.volume }}m3</small>
+        </div>
+    </div>
+</div>
+<div class=col-md-8>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class=table>
+                <tbody>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><small>5%</small></td>
+                        <td><small>Weighted Average</small></td>
+                        <td><small>Median</small></td>
+                        <td><small>Volume</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Selling</small></td>
+                        <td>{{ sell_order_stats.fifth_percentile|intcomma }}</td>
+                        <td>{{ sell_order_stats.weighted_average|intcomma }}</td>
+                        <td>{{ sell_order_stats.median|intcomma }}</td>
+                        <td>{{ sell_order_stats.volume|intcomma }}</td>
+                    </tr>
+                    <tr>
+                        <td><small>Buying</small></td>
+                        <td>{{ buy_order_stats.fifth_percentile|intcomma }}</td>
+                        <td>{{ buy_order_stats.weighted_average|intcomma }}</td>
+                        <td>{{ buy_order_stats.median|intcomma }}</td>
+                        <td>{{ buy_order_stats.volume|intcomma }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
