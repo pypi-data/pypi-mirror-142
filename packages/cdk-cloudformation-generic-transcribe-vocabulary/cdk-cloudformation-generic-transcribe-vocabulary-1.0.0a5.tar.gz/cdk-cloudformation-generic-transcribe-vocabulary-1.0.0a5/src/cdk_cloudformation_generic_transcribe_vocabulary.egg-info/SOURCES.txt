@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_generic_transcribe_vocabulary/__init__.py
+src/cdk_cloudformation_generic_transcribe_vocabulary/py.typed
+src/cdk_cloudformation_generic_transcribe_vocabulary.egg-info/PKG-INFO
+src/cdk_cloudformation_generic_transcribe_vocabulary.egg-info/SOURCES.txt
+src/cdk_cloudformation_generic_transcribe_vocabulary.egg-info/dependency_links.txt
+src/cdk_cloudformation_generic_transcribe_vocabulary.egg-info/requires.txt
+src/cdk_cloudformation_generic_transcribe_vocabulary.egg-info/top_level.txt
+src/cdk_cloudformation_generic_transcribe_vocabulary/_jsii/__init__.py
+src/cdk_cloudformation_generic_transcribe_vocabulary/_jsii/generic-transcribe-vocabulary@1.0.0-alpha.5.jsii.tgz
