@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: datasphere-python
+Version: 0.0.1
+Summary: Python client for Yandex DataSphere
+Home-page: UNKNOWN
+Author: Yandex
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
