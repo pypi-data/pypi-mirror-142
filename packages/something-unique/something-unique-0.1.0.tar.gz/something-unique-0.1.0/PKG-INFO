@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: something-unique
+Version: 0.1.0
+Summary: Example of how to package Python code for release
+Home-page: https://github.com/danchubb/something-unique
+Author: Daniel Chubb
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
