@@ -1,0 +1,7 @@
+README.md
+setup.py
+pltplus/__init__.py
+pltplus.egg-info/PKG-INFO
+pltplus.egg-info/SOURCES.txt
+pltplus.egg-info/dependency_links.txt
+pltplus.egg-info/top_level.txt
