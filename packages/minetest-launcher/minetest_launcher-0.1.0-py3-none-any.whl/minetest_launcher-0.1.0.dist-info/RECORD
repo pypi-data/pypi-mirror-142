@@ -1,0 +1,11 @@
+minetest_launcher/LauncherWindow.ui,sha256=cnFKqQwtrP3SJOAT-CXlZY2lgsvzUmF5mVRMbTsbX6Y,443
+minetest_launcher/PasswordEditor.ui,sha256=gv7f0Uq965TQg8NouD38Rq5K8KC0IeUjNo6YPQhpTiY,514
+minetest_launcher/ServerList.ui,sha256=EYr3DRwb5vQQuC1TRzVLx04Rvwd2RxHEetQcbHMgSys,164
+minetest_launcher/ServerWidget.ui,sha256=qKYnMrATVRkbpi218S9WFSljG3ufMk5ps4whnSnD9No,942
+minetest_launcher/__init__.py,sha256=cRW96mIuzqOjUG510QzBtu12qnw6CkyKlir7jf8o-7E,64
+minetest_launcher/__main__.py,sha256=8uzYAXtJT6gP_8e8pz7mAvpRYgIoGDns8rkpIrpKUd0,4722
+minetest_launcher-0.1.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+minetest_launcher-0.1.0.dist-info/METADATA,sha256=cIHHV7bQMEjXeNHOqZkKWlrC-bypy1uWMG6KxdgfkK4,1223
+minetest_launcher-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minetest_launcher-0.1.0.dist-info/top_level.txt,sha256=5X-Hyqlpp9uPW60BIpft6pTttZT6t5R9dp5HUALGQTk,18
+minetest_launcher-0.1.0.dist-info/RECORD,,
