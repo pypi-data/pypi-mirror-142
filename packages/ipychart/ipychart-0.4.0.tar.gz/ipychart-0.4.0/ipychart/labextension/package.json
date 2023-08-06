@@ -1,0 +1,65 @@
+{
+  "name": "ipychart",
+  "version": "0.4.0",
+  "description": "A Jupyter - Chart.js bridge enabling interactive data visualization in the Jupyter notebook.",
+  "author": "Nicolas Houlier",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicohlr/ipychart.git"
+  },
+  "keywords": [
+    "jupyter",
+    "widgets",
+    "ipython",
+    "ipywidgets",
+    "jupyterlab-extension"
+  ],
+  "files": [
+    "src/**/*.js",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "clean": "rimraf dist/ && rimraf ../ipychart/labextension/ && rimraf ../ipychart/nbextension",
+    "prepublish": "yarn run clean && yarn run build:prod",
+    "build": "webpack --mode=development && yarn run build:labextension:dev",
+    "build:prod": "webpack --mode=production && yarn run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "watch": "webpack --watch --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.1",
+    "webpack": "^5"
+  },
+  "dependencies": {
+    "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4",
+    "chart.js": "^3.7.0",
+    "chartjs-adapter-moment": "^1.0.0",
+    "chartjs-plugin-datalabels": "^2.0.0",
+    "chartjs-plugin-zoom": "^1.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.29.1"
+  },
+  "jupyterlab": {
+    "extension": "src/labplugin",
+    "outputDir": "../ipychart/labextension",
+    "sharedPackages": {
+      "@jupyter-widgets/base": {
+        "bundled": false,
+        "singleton": true
+      }
+    },
+    "_build": {
+      "load": "static/remoteEntry.c12caf3c7ee8be4719c2.js",
+      "extension": "./extension"
+    }
+  }
+}
