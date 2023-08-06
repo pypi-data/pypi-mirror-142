@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bin/pyroe
+src/pyroe/__init__.py
+src/pyroe/make_splici_txome.py
+src/pyroe.egg-info/PKG-INFO
+src/pyroe.egg-info/SOURCES.txt
+src/pyroe.egg-info/dependency_links.txt
+src/pyroe.egg-info/requires.txt
+src/pyroe.egg-info/top_level.txt
