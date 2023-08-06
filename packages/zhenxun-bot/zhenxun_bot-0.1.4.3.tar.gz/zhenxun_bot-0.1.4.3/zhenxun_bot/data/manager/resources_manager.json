@@ -1,0 +1,11 @@
+{
+    "open_cases": {
+        "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\plugins\\open_cases\\cases": "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\resources\\image"
+    },
+    "gold_redbag": {
+        "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\plugins\\gold_redbag\\prts": "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\resources\\image"
+    },
+    "send_image": {
+        "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\plugins\\image_management\\send_image\\pa": "D:\\Dimension\\Python\\Python_work\\nb2b2\\hibiki\\resources\\image"
+    }
+}

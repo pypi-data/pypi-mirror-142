@@ -1,0 +1,66 @@
+{
+    "char": {
+        "title": "北部玄驹&支援卡卡池 20220224",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/umamusume\/e\/e8\/5adkcwrzondxl7g0zw34cl0em2ycu8y.png",
+        "start_time": "2022-02-24T12:00:00",
+        "end_time": "2022-03-07T11:59:00",
+        "up_char": [
+            {
+                "name": "【錦上・大判御輿】北部玄驹",
+                "star": 3,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "【panpaka跌落】待兼诗歌剧",
+                "star": 2,
+                "limited": false,
+                "zoom": 70.0
+            }
+        ]
+    },
+    "card": {
+        "title": "北部玄驹&支援卡卡池 20220224",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/umamusume\/0\/05\/bazmeikpolx5h0a3k1tv2dfvwzy8izm.png",
+        "start_time": "2022-02-24T12:00:00",
+        "end_time": "2022-03-07T11:59:00",
+        "up_char": [
+            {
+                "name": "【桃色霰弹】成田路",
+                "star": 3,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "目白莱恩",
+                "star": 2,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "爱慕织姬",
+                "star": 2,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "樱花进王",
+                "star": 2,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "目白光明",
+                "star": 1,
+                "limited": false,
+                "zoom": 70.0
+            },
+            {
+                "name": "成田路",
+                "star": 1,
+                "limited": false,
+                "zoom": 70.0
+            }
+        ]
+    }
+}
