@@ -1,0 +1,2 @@
+recursive-include assets/drugsCom.zip
+recursive-include assets/tokenizer.pkl
