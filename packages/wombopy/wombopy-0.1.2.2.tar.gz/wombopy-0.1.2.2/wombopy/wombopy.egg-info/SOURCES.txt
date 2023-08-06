@@ -1,0 +1,10 @@
+README.md
+setup.py
+wombopy/core/__init__.py
+wombopy/core/generation.py
+wombopy/core/identify.py
+wombopy/wombopy.egg-info/PKG-INFO
+wombopy/wombopy.egg-info/SOURCES.txt
+wombopy/wombopy.egg-info/dependency_links.txt
+wombopy/wombopy.egg-info/requires.txt
+wombopy/wombopy.egg-info/top_level.txt
