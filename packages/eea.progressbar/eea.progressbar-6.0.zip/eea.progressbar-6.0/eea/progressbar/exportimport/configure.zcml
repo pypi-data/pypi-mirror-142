@@ -1,0 +1,27 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  i18n_domain="eea">
+
+  <!-- Progress Tool / Editing Progress -->
+  <adapter
+    factory=".tool.ProgressToolXMLAdapter"
+    provides="Products.GenericSetup.interfaces.IBody"
+    for="eea.progressbar.interfaces.IProgressTool
+         Products.GenericSetup.interfaces.ISetupEnviron"
+   />
+
+  <adapter
+    factory=".contenttype.ContentTypeXMLAdapter"
+    provides="Products.GenericSetup.interfaces.IBody"
+    for="eea.progressbar.interfaces.IContentType
+         Products.GenericSetup.interfaces.ISetupEnviron"
+   />
+
+  <adapter name="metadata.progress.xml"
+    factory=".metadata.MetadataXMLAdapter"
+    provides="Products.GenericSetup.interfaces.IBody"
+    for="eea.progressbar.interfaces.IContentType
+         Products.GenericSetup.interfaces.ISetupEnviron"
+   />
+
+</configure>

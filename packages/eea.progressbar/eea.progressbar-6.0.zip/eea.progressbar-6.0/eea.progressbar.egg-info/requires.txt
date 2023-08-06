@@ -1,0 +1,5 @@
+setuptools
+eea.icons
+eea.jquery>7.6
+eea.progress.workflow
+eea.progress.editing
