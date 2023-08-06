@@ -1,0 +1,2 @@
+[pytest11]
+image_diff = pytest_image_diff.plugin

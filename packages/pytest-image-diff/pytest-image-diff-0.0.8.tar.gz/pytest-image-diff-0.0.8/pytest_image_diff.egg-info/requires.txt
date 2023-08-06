@@ -1,0 +1,7 @@
+pytest
+typing_extensions
+diffimg
+imgdiff
+
+[splinter]
+pytest-splinter>=2.1.0
