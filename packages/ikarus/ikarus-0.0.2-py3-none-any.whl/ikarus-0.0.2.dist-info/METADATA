@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ikarus
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scanpy
+Requires-Dist: anndata
+Requires-Dist: pyscenic
+
+UNKNOWN
+
