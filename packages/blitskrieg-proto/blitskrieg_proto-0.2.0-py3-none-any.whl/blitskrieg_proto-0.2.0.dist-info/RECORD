@@ -1,0 +1,6 @@
+blitskrieg_proto/__init__.py,sha256=s-uP7x6YjOEcBN-rn3rTBI_TYKT1Ztvmn58bXi3DSaE,32
+blitskrieg_proto/blitskrieg_pb2.py,sha256=6FiHUng8YOk8TfoT6d6moeCmMb-6U2Pt7dWlG6r2KZ0,44634
+blitskrieg_proto/blitskrieg_pb2_grpc.py,sha256=J67B0DK4rdCHka_S-0iRYfFbpdGwdaI9PBbNw9cr6z0,20396
+blitskrieg_proto-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+blitskrieg_proto-0.2.0.dist-info/METADATA,sha256=w9buLEI97QrddXabMbDqbEOcdI0I7PZzNGrG9wz1hWM,1050
+blitskrieg_proto-0.2.0.dist-info/RECORD,,
