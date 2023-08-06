@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: compushady
+Version: 0.17
+Summary: The compushady GPU Compute module
+Home-page: https://github.com/rdeioris/compushady
+Author: Roberto De Ioris
+Author-email: roberto.deioris@gmail.com
+License: UNKNOWN
+Description: 
+        Run GPU Compute Shaders from Python.
+        
+Platform: UNKNOWN
