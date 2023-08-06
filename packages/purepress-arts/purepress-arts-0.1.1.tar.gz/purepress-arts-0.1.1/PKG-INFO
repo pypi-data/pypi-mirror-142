@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: purepress-arts
+Version: 0.1.1
+Summary: PurePress for Arts.
+Home-page: https://github.com/richardchien/purepress-arts
+License: MIT
+Keywords: Static Blog Generator,Static Blog,Blog,Blog Engine
+Author: Richard Chien
+Author-email: stdrc@outlook.com
+Requires-Python: >=3.6,<3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=1.1.2,<1.2.0)
+Requires-Dist: Markdown (>=3.2.2,<3.3.0)
+Requires-Dist: MarkupSafe (>=2.0.1,<2.1.0)
+Requires-Dist: PyYAML (>=5.4.1,<5.5.0)
+Requires-Dist: Werkzeug (>=1.0.1,<1.1.0)
+Requires-Dist: click (>=7.1.2,<7.2.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: py-gfm (>=1.0.0,<1.1.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/richardchien/purepress-arts
+Description-Content-Type: text/markdown
+
+# PurePress Arts
+
