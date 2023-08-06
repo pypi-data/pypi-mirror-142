@@ -1,0 +1,11 @@
+karrio/mappers/yanwen/__init__.py,sha256=E9XohMWP7kTQjbL-KfbuChC-T6n9c_f5E9PKX4_BTkI,545
+karrio/mappers/yanwen/mapper.py,sha256=jLzqjKewTZGO_c6SocjCpPI3EZyKd7ZPZV-taa-Pv-4,4250
+karrio/mappers/yanwen/proxy.py,sha256=Fv6PwlikM3gVdzKEd4uAEIoLdiwpmhofNjgVJVZTXH8,795
+karrio/mappers/yanwen/settings.py,sha256=FnHjghN_mzEjfU7M3jvh12aWQtZ1_IFqg-vzQFvwasU,421
+karrio/providers/yanwen/__init__.py,sha256=dFmeS3qxGanTcbbWutZ00A4z5lnggwZnV_PUIeER-zY,763
+karrio/providers/yanwen/tracking.py,sha256=LZN90O9AQmdHJsJU1lDrte45dnbZPqRKaqoo5x6e3zY,1940
+karrio/providers/yanwen/units.py,sha256=_7La-8t9z406UuvM4S7JqtWdQz1fFfzJMPjf-WqNRKk,1332
+karrio/providers/yanwen/utils.py,sha256=oaghPk5WKPm_SyHymrXWkIlb0zAYBFUvzgW5GNASCe8,383
+karrio.yanwen-2022.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.yanwen-2022.3.dist-info/METADATA,sha256=CsFF0L1l_60oIv0cQ0TOXUTdPMnVh0Yawx9C6lxeV30,1312
+karrio.yanwen-2022.3.dist-info/RECORD,,
