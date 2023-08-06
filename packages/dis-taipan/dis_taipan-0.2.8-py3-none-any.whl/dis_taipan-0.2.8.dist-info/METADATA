@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dis-taipan
+Version: 0.2.8
+Summary: A handful of dis-snek scales that I want to use in most of my bots.
+Home-page: https://github.com/silasary/dis-taipan
+Author: Silasary
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: dis-snek (>=6.0)
+Requires-Dist: sentry-sdk
+
+# dis-taipan  ![PyPI](https://img.shields.io/pypi/v/dis-taipan)
+
+50% Sis-snek features that are either too undercooked for merging into the library proper
+50%  "application specific" common code I want to use in most of my bots, but don't fit the philosophy of dis-snek itself.
+
+A taipan is a dangerous australian snake.  I thought it was mildly amusing.
+
+```
+pip install dis-taipan
+```
+
+
