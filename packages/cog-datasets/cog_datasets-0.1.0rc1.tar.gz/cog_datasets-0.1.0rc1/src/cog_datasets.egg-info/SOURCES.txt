@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+src/cog_datasets/__init__.py
+src/cog_datasets/_version.py
+src/cog_datasets/download_utils.py
+src/cog_datasets/toydata.py
+src/cog_datasets.egg-info/PKG-INFO
+src/cog_datasets.egg-info/SOURCES.txt
+src/cog_datasets.egg-info/dependency_links.txt
+src/cog_datasets.egg-info/requires.txt
+src/cog_datasets.egg-info/top_level.txt

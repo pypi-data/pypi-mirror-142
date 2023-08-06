@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cog_datasets
+Version: 0.1.0rc1
+Summary: Save machine learning data sets to a common location.
+Home-page: https://github.com/rsokl/cog_datasets
+Author: Ryan Soklaski
+Author-email: rsoklaski@gmail.com
+License: MIT
+Download-URL: https://github.com/rsokl/cog_datasets/tarball/v0.1.0rc1
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+
+Save machine learning data sets to a common location, and load them without
+having to specify a path.
+
+All datasets will be saved to `datasets.path`. By default, this will be point to
+~/datasets. You can update this path via `datasets.set_path`.
+
+
