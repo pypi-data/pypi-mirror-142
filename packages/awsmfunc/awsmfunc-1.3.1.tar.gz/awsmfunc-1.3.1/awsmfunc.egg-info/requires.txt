@@ -1,0 +1,3 @@
+VapourSynth>=57
+rekt@ git+https://github.com/OpusGang/rekt.git
+vsutil@ git+https://github.com/Irrational-Encoding-Wizardry/vsutil.git@956fa579406ca9edf6e0b6a834defae28efb51ce
