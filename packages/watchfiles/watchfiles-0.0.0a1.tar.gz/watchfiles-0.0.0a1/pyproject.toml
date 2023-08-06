@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "watchfiles"
+version = "0.0.0a1"
+description = "Placeholder until I rename watchgod to use this name."
+readme = "README.md"
+authors = ["Samuel Colvin <s@muelcolvin.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
