@@ -1,0 +1,11 @@
+pedalboard_native.cpython-37m-darwin.so,sha256=NOvIl5AEAnUwFv0hS9yR9rY7pEuyVWgsxZxHgeI8Hoo,10893016
+pedalboard/__init__.py,sha256=Ao6Jo4NQRJwF0pNsihfQKGzquFTKn_YZP1APgZelFYA,923
+pedalboard/pedalboard.py,sha256=viKzlqNRh-T8whVIXLZGJBVy_l2FOd8A907Uin0IITU,23923
+pedalboard/version.py,sha256=8-81tL9H6il3JeEd4HLFKnUvPBIuv95xQUJc0MvDA9A,683
+pedalboard/io/__init__.py,sha256=KGXFtQKrUnE8NLQCXRy-C0CnZ00ylsLBFivHheyi_cQ,55
+pedalboard-0.5.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pedalboard-0.5.1.dist-info/METADATA,sha256=RXZwZ30UX6NWEOvm4A6gAeZNWkNIAT_8sVXdySRxRtI,15439
+pedalboard-0.5.1.dist-info/NOTICE,sha256=0f9GCXYbfqFLpqAZPM5Zk_TdQx7s6EMTittG6GS5Rg0,573
+pedalboard-0.5.1.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+pedalboard-0.5.1.dist-info/top_level.txt,sha256=jXwDvqMjquuPLra-PGmmayt3AFe5_l7hpSqbUgOvP9g,29
+pedalboard-0.5.1.dist-info/RECORD,,
