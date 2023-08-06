@@ -1,0 +1,16 @@
+ppass/__init__.py,sha256=yilBjTGYPubvANAcG1ALgLjjnkHfTkWH8ktwTRB78fc,822
+ppass/app.py,sha256=vhmJTO1EWhCrEwXoYBtb5cSU1bAgBBA3P_Q4pzncFGM,28110
+ppass/appConfig.py,sha256=0sVzjqqU-2XNbFU_s2lE9Z6iAzFWrXiHJjnK9nAc4_g,6124
+ppass/modules/folders.py,sha256=HrwdUVWwkUjvmGHvq1jI1MGbt6UEpcmu3Cnc78qwKv4,2815
+ppass/modules/git.py,sha256=JmqXyfgmBmg2xtAxu45yHiLrbHVTdvnP-hDt6bebMYo,3447
+ppass/modules/gpg.py,sha256=eJabODujmMqAEKJYy2HIc96IaQzhX2iD-2yxUmB5rDc,5088
+ppass/modules/params.py,sha256=kGhek8fkKhNcdJyjPXrkC-3uRwBUIfNvDtFDucFLx0s,6786
+ppass/modules/passwords.py,sha256=B57ji8st4ibgT6CKZKkjE8lSDrAv6j4MdqL-ynZT71c,2874
+ppass/modules/rjson.py,sha256=RTjWSoB8F3skDS0dK1iIlyV5eCRWzQNtAxr_XsRMXIc,1747
+ppass/modules/ui.py,sha256=VIZC3Y84PiFv8aH3AyrABrXYdgmMOk5pv4PuwKWItKk,7089
+ppass/modules/utils.py,sha256=-UlHJXlEVDhCLTWwqFJLE3n_uu9ilOtsCxTX1HnflEc,1310
+ppass/modules/xdotool.py,sha256=M3a5--75mZOMD_z863Pww1AnXvXjwr-e_HgXux0eJWA,2137
+ppass-1.1.3.dist-info/entry_points.txt,sha256=3GCyaQ-V-Pikn66Z8bXaLsN1sJpY_6M5Zp8HzK8WA88,35
+ppass-1.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ppass-1.1.3.dist-info/METADATA,sha256=1EhsFTEQLyIbCN2Wz-kXq7fCvbrg24Y-EDsB9mWAEEc,10780
+ppass-1.1.3.dist-info/RECORD,,
