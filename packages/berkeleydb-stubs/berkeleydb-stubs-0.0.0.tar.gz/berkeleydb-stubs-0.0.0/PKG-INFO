@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: berkeleydb-stubs
+Version: 0.0.0
+Summary: Typing stubs for Python Bindings for Oracle Berkeley DB
+Home-page: https://github.com/eggplants/berkeleydb-stubs
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# berkeleydb-stubs
+
+Typing stubs for Python Bindings for Oracle Berkeley DB
+
+
