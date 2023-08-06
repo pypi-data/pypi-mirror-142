@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/WebScraper_yoda.egg-info/PKG-INFO
+src/WebScraper_yoda.egg-info/SOURCES.txt
+src/WebScraper_yoda.egg-info/dependency_links.txt
+src/WebScraper_yoda.egg-info/top_level.txt
