@@ -1,0 +1,3 @@
+include fonts/*
+include fonts/*.ttf
+include README.md

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+FireCaptcha/__init__.py
+FireCaptcha/captcha.py
+FireCaptcha.egg-info/PKG-INFO
+FireCaptcha.egg-info/SOURCES.txt
+FireCaptcha.egg-info/dependency_links.txt
+FireCaptcha.egg-info/requires.txt
+FireCaptcha.egg-info/top_level.txt
+fonts/Monaco.ttf
