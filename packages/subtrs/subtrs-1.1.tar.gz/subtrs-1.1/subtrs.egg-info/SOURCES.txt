@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.py
+bin/subtrs
+subtrs/__init__.py
+subtrs/main.py
+subtrs.egg-info/PKG-INFO
+subtrs.egg-info/SOURCES.txt
+subtrs.egg-info/dependency_links.txt
+subtrs.egg-info/requires.txt
+subtrs.egg-info/top_level.txt
