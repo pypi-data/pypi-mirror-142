@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyvueeel
+Version: 0.0.2
+Summary: Some tools/functions/snippets used across projects.
+Home-page: https://github.com/Malachov/pyvueeel
+Author: Daniel Malachov
+Author-email: malachovd@seznam.cz
+License: mit
+Project-URL: Documentation, https://pyvueeel.readthedocs.io/
+Project-URL: Homepage, https://github.com/Malachov/pyvueeel
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mylogging (>=4.0.2)
+Requires-Dist: mydatapreprocessing (>=2.0.9)
+Requires-Dist: EelForkExcludeFiles
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+UNKNOWN
+
