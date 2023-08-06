@@ -1,0 +1,19 @@
+name: pytsql
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - flit-core
+  - flit
+  - pre-commit
+  - pytest
+  - pytest-mock
+  - pytest-cov
+  - make
+  - numpydoc
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinxcontrib-apidoc
+  - sqlalchemy
+  - antlr4-python3-runtime =4.9.2
+  - pyodbc
