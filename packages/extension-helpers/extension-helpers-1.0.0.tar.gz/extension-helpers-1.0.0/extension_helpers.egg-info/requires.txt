@@ -1,0 +1,11 @@
+setuptools>=40.2
+
+[docs]
+sphinx
+sphinx-automodapi
+
+[test]
+wheel
+pytest
+pytest-cov
+coverage>=4
