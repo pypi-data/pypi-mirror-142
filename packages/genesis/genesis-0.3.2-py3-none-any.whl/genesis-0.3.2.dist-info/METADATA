@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: genesis
+Version: 0.3.2
+Summary: Implementation of FreeSWITCH Event Socket protocol with asyncio
+Home-page: https://github.com/Otoru/Genesis
+License: MIT
+Author: Vitor Hugo
+Author-email: vitor.hov@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Telephony
+Classifier: Topic :: Software Development
+Project-URL: Bug Tracker, https://github.com/Otoru/Genesis/issues
+Project-URL: Repository, https://github.com/Otoru/Genesis
