@@ -1,0 +1,9 @@
+pyppmd-0.18.0.dist-info/METADATA,sha256=Qe6JDLfwmJ4gpIhxndWit6eNiwXyGO0CnPA89s1CWkk,5204
+pyppmd-0.18.0.dist-info/top_level.txt,sha256=oI9A6TS272sAHjryEKAiyFJkIMwC7DxWsfF7zlFviFw,7
+pyppmd-0.18.0.dist-info/RECORD,,
+pyppmd-0.18.0.dist-info/WHEEL,sha256=Cz3bSTJ2wQTkCasIgodFHSTMKrNbZaUwzQBBd3MOJWI,152
+pyppmd-0.18.0.dist-info/LICENSE.rst,sha256=YSzNtRsW8yTOyx24LZ5fd9Nfcpx31S9h8zqAeFNZ8Rc,3992
+pyppmd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyppmd/__init__.py,sha256=A6plDYp4uBKF-lsAZLZYxF3BAFK6Z91-ZPIaeiiDKNY,7186
+pyppmd/c/_ppmd.cpython-37m-aarch64-linux-gnu.so,sha256=vTGYkyaF1maZWNQjtLuid7YxLarXSMuepbcIQj5OSbU,337424
+pyppmd/c/c_ppmd.py,sha256=rLgTBHDeaI-e9_O8Y8ThXGheZv5jUWCmvom4ZgRzuqw,436
