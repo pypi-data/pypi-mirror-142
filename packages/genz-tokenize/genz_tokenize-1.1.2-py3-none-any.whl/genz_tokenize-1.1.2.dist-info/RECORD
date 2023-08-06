@@ -1,0 +1,13 @@
+genz_tokenize/__init__.py,sha256=QqnGq6maBADZwST_ONMBQ86KO1hBPcKtO6SFYUWtFno,153
+genz_tokenize/requires.txt,sha256=QLMciYyosRU4FRimL4pFs1KeYqsi5MAygfEQqMMunmo,26
+genz_tokenize/tokenize.py,sha256=fzs7Fd0JHKSjHZ3i4g_gRw3Z4XUDaxs0iT97geM6Ph8,13756
+genz_tokenize/data/bpe.codes,sha256=QSHk-YsgVr00z-5ym9mQ8-wzTMJl7R7bqUS6NqTvm3A,676237
+genz_tokenize/data/emb_1.pkl,sha256=glG6cvPNp40IRGxu2Jbh9vPYjSbIV1BWeOgs7XacPzY,38539360
+genz_tokenize/data/emb_2.pkl,sha256=zubcy3dareNF9-my_VD-BeeUkN_Y0YbY4LgmX57zImI,38539360
+genz_tokenize/data/emb_3.pkl,sha256=eLlHaFUXUI3Sf90_WuOH2U2ItIUE0_jXExgxnUfLFM4,38541760
+genz_tokenize/data/vocab.txt,sha256=i964BOP9y3qY9sE8OkRLAY6PNnJoNAW3K1TV3y_0SUY,668017
+genz_tokenize-1.1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+genz_tokenize-1.1.2.dist-info/METADATA,sha256=zPTwzG6ZpSfKZXhJNxuBjZrKx2vX4Gj_mQE6qWvfKuY,2143
+genz_tokenize-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genz_tokenize-1.1.2.dist-info/top_level.txt,sha256=chAzXE60orUaGfG10gbetmpaxLnsT-FBN_EIDq97u94,14
+genz_tokenize-1.1.2.dist-info/RECORD,,
