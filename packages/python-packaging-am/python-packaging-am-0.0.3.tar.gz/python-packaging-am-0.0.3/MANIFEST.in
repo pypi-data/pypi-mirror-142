@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+
+#all Python files included automatically, can be any file type
