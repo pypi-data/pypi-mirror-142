@@ -1,0 +1,8 @@
+setup.py
+cxj/cxj_handsome.egg-info/PKG-INFO
+cxj/cxj_handsome.egg-info/SOURCES.txt
+cxj/cxj_handsome.egg-info/dependency_links.txt
+cxj/cxj_handsome.egg-info/top_level.txt
+cxj/handsome/__init__.py
+cxj/handsome/boy/__init__.py
+cxj/handsome/boy/message.py
