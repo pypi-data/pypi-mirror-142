@@ -1,0 +1,2 @@
+[console_scripts]
+playlist-sync = playlist_sync.__main__:cli

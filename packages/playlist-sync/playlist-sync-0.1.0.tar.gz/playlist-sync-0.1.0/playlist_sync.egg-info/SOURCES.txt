@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+playlist_sync/__init__.py
+playlist_sync/__main__.py
+playlist_sync/config.py
+playlist_sync/deemix_config.py
+playlist_sync/playlist.py
+playlist_sync.egg-info/PKG-INFO
+playlist_sync.egg-info/SOURCES.txt
+playlist_sync.egg-info/dependency_links.txt
+playlist_sync.egg-info/entry_points.txt
+playlist_sync.egg-info/requires.txt
+playlist_sync.egg-info/top_level.txt
