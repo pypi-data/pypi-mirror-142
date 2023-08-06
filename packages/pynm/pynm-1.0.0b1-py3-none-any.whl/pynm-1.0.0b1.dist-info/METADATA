@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pynm
+Version: 1.0.0b1
+Summary: ('Python implementation of Normative Modelling', 'with GAMLSS, Gaussian Processes, LOESS & Centiles approaches.')
+Home-page: https://github.com/ppsp-team/PyNM
+Author: Annabelle HARVEY, Guillaume DUMAS
+Author-email: annabelle.harvey@umontreal.ca, guillaume.dumas@ppsp.team
+License: BSD
+Keywords: gaussian processes statistics modeling
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: scikit-learn (>=0.24.1)
+Requires-Dist: scipy (>=1.5.3)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: statsmodels (>=0.12.2)
+Requires-Dist: tqdm (==4.59.0)
+
+UNKNOWN
+
