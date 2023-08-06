@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: wordle-buddy
+Version: 0.0.1
+Summary: A game of wordle with suggested words!
+Home-page: https://github.com/ericoden/wordle-buddy
+Author: Eric Oden
+Author-email: ericjoden94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+# A Python package to play Wordle
+
+My reproduction of the popular game (the real one [here](https://www.nytimes.com/games/wordle/index.html)), along with suggested words (based on entropy).
+
+## Installation
+
+```bash
+pip install wordle-buddy
+```
+
+## Play a game
+
+To play via the command line, simply run the `wordle_oden` command. To play in "manual mode", where you enter in the resulting colors, run `wordle_oden_manual`.
+
+To play a game in a python terminal, instantiate a `WordleGame` object and use the `run()` method.
+
+```python
+from wordle_oden import WordleGame
+game = WordleGame()
+game.run()
+```
+
+To exit, press Esc.
+
+

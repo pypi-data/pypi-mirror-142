@@ -1,0 +1,15 @@
+LICENSE.rst
+README.md
+pyproject.toml
+setup.cfg
+bin/wordle_buddy
+bin/wordle_buddy_manual
+src/wordle_buddy/__init__.py
+src/wordle_buddy/solver.py
+src/wordle_buddy/utilities.py
+src/wordle_buddy/wordle.py
+src/wordle_buddy.egg-info/PKG-INFO
+src/wordle_buddy.egg-info/SOURCES.txt
+src/wordle_buddy.egg-info/dependency_links.txt
+src/wordle_buddy.egg-info/requires.txt
+src/wordle_buddy.egg-info/top_level.txt
