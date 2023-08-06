@@ -1,0 +1,12 @@
+LICENCE.txt
+LICENSE
+README.md
+setup.py
+exotic_ld/__init__.py
+exotic_ld/limb_darkening.py
+exotic_ld.egg-info/PKG-INFO
+exotic_ld.egg-info/SOURCES.txt
+exotic_ld.egg-info/dependency_links.txt
+exotic_ld.egg-info/requires.txt
+exotic_ld.egg-info/top_level.txt
+exotic_ld.egg-info/zip-safe
