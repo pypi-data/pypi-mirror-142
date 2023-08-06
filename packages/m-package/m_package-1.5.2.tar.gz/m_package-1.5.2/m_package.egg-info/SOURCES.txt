@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+m_package/__init__.py
+m_package/hello.py
+m_package/slovo_chisla.py
+m_package.egg-info/PKG-INFO
+m_package.egg-info/SOURCES.txt
+m_package.egg-info/dependency_links.txt
+m_package.egg-info/top_level.txt
