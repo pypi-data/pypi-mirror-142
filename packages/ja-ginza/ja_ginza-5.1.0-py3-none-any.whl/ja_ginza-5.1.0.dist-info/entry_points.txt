@@ -1,0 +1,3 @@
+[spacy_models]
+ja_ginza = ja_ginza
+
