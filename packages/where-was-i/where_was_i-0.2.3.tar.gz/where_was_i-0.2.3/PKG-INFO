@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: where_was_i
+Version: 0.2.3
+Summary: UNKNOWN
+Home-page: http://github.com/lhh/where_was_i
+Author: Lon Hohberger
+Author-email: lon@metamorphism.com
+Maintainer: Lon Hohberger
+Maintainer-email: lon@metamorphism.com
+License: ASL 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+Parse Google's Semantic location into human-readable form
+
+Getting Started:
+----------------
+To use where-was-i, install it in one of several ways.
+
+  $ git clone https://github.com/lhh/where_was_i
+  $ cd where_was_i
+  $ pip install .
+  $ where-was-i <args> *
+
+or by using pip:
+
+  $ pip install where_was_i
+  $ where-was-i <args>
+
+or by using the container build (does not support wildcards):
+
+  $ git clone https://github.com/lhh/where_was_i
+  $ cd where_was_i
+  $ make
+  $ ./where-was-i <args> < <filename>
+
+Examples:
+ - where-was-i ~/2017/*
+ - where-was-i -s -p ~/2017/2017_JANUARY.json
+ - where-was-i < ~/2017/2017_JANUARY.json
+
+

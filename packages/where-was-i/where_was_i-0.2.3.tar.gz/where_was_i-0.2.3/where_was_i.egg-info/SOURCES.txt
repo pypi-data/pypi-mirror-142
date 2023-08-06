@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+where_was_i/__init__.py
+where_was_i/cli.py
+where_was_i/known_locations.py
+where_was_i.egg-info/PKG-INFO
+where_was_i.egg-info/SOURCES.txt
+where_was_i.egg-info/dependency_links.txt
+where_was_i.egg-info/entry_points.txt
+where_was_i.egg-info/top_level.txt

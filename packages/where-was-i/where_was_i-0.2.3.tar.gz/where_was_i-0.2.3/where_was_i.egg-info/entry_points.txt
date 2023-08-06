@@ -1,0 +1,3 @@
+[console_scripts]
+where-was-i = where_was_i.cli:main
+
