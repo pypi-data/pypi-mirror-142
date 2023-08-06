@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+pypistats
+d3heatmap
+fsspec
+calplot
