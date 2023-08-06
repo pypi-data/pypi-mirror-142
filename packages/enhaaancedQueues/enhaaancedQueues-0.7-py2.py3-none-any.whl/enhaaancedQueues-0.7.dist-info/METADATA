@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: enhaaancedQueues
+Version: 0.7
+Summary: Multiprocessing queue for cross-platform development.
+Home-page: https://www.blackward.de
+Author: Dominik Niedenzu
+Author-email: pyadaaah@blackward.de
+Maintainer: Dominik Niedenzu
+License: Proprietary License
+Platform: any platform which provides python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: >= 2.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The '**EnhaaancedQueues**' library contains the '**EnhQueue**' class -
+coming with **extended / enhanced (in particular portability) capabilities**.
+
+The '**EnhQueue**' class is inherited from '**multiprocessing.queues.JoinableQueue**' -
+which after that is enhanced **to work properly on all main desktop platforms**
+('**Windows**', '**macOS**' and '**Linux**').
+
+
+<u>**Windows:**</u>
+
+Windows processes do not share memory, which means, shared objects
+have to be 'pickled' and transmitted to the respective subprocess 
+via pipe - when given as parameters to (multiprocessing) process calls.
+The 'EnhQueue' class has been made pickable (have a look at it's 
+'__ reduce __' method).
+
+
+<u>**macOS:**</u>
+
+The 'qsize' method of the 'multiprocessing.queues.JoinableQueue' does not
+work under some 'macOS'es (and maybe other *nixes); it might lead to a 
+'NotImplementedError'.
+
+The 'EnhQueue' class wraps 'multiprocessing.queues.JoinableQueue' to correct
+this aspect. The additional lock used for that might also have a positive
+effect to the reliability of the methods 'empty' and 'full'.
+
+
+<u>**Miscellaneous:**</u>
+
+Shutting down an application with several processes properly is a delicate
+thing, if some of said processes crashed / got stuck. The 'EnhQueue' class
+has been equipped with a semi-blocking 'join' method - a 'join' with a timeout.
+
+Due to the parallel nature of multiprocessing, emptying a queue reliable in
+a setup, where several processes could put another element in said queue during
+or after said emptying is a delicate thing too.
+
+The 'EnhQueue' has been equipped with a 'clear' method emptying the queue in 
+the most reliable and least blocking way possible - as known to the author yet.
+It in particular is designed to be useful during cleaning up when shutting down 
+an application properly.
+
+<br>
+
+Further infomations and links can be found on my homepage
+[https://www.blackward.de](https://www.blackward.de)  
+
+Have Fun!
+
+
+
