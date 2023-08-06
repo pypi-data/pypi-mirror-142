@@ -1,0 +1,11 @@
+playlist_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playlist_sync/__main__.py,sha256=is83qb0ip76GTuw1LIihz2o6EnJWkFCXbIKHtiHLXIc,2058
+playlist_sync/config.py,sha256=yx0rDN701jLIiZv8Rwum7WoIKvGoiaKr6ZeE06R-z3M,886
+playlist_sync/deemix_config.py,sha256=VJfcpO15OKS-WQs2cFU_s0CD92bnjvlO91OFiJ0acps,4410
+playlist_sync/playlist.py,sha256=XwvHNBs7U45e5JBDuoEcGv-p8GeCyh97OKCIo7-aDJE,616
+playlist_sync-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+playlist_sync-0.1.0.dist-info/METADATA,sha256=lefxjkNvVVOePNLB8kjT3Gj-D13NSBqFU6UXemE3SO0,4213
+playlist_sync-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+playlist_sync-0.1.0.dist-info/entry_points.txt,sha256=tGcF2BgIsGTtZ-jxrOWF8SZAPUuuXlemOkuPB7cMJRE,61
+playlist_sync-0.1.0.dist-info/top_level.txt,sha256=TTDEWAmR18yzIletlew0OWo8-wOe-KO27WyiUxIugyY,14
+playlist_sync-0.1.0.dist-info/RECORD,,
