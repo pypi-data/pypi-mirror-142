@@ -1,0 +1,10 @@
+FCSAppAccess/__init__.py,sha256=WioMu49HD15v_uOK0CeqlTMdDm-QBlFeV8smP3IqZJA,145
+FCSAppAccess/app_access.py,sha256=JSAhNboav5CbIGsiSzjqOVIQ8VV6tgGmeIReVLjlOow,4481
+FCSAppAccess/exceptions.py,sha256=slC1qu4qctMTZKjXr96dSHJfBDzHWGJqPxIvbV8Opu0,161
+FCSAppAccess/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FCSAppAccess/models/device_code.py,sha256=YNk5ws7Ggw2BRLD1F_DsQqdQa-buAiww73uFdfOy-S4,729
+FCSAppAccessSDK-1.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+FCSAppAccessSDK-1.0.1.dist-info/METADATA,sha256=MBo9F0iCvDwCqpVzoqI2OYoUbOGF7-fD_GIl_Lubbz4,1719
+FCSAppAccessSDK-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+FCSAppAccessSDK-1.0.1.dist-info/top_level.txt,sha256=WEf3aUychGQLNuBQo5gdkHNyuTPgwBqy9pqRQzooxbk,13
+FCSAppAccessSDK-1.0.1.dist-info/RECORD,,
