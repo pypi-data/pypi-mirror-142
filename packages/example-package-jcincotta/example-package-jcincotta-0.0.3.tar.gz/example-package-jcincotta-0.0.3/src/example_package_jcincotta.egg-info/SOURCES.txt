@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/api/__init__.py
+src/api/apiclient.py
+src/api/card.py
+src/api/deck.py
+src/api/drawncards.py
+src/api/fetchcache.py
+src/example_package_jcincotta.egg-info/PKG-INFO
+src/example_package_jcincotta.egg-info/SOURCES.txt
+src/example_package_jcincotta.egg-info/dependency_links.txt
+src/example_package_jcincotta.egg-info/top_level.txt
+src/example_project/__init__.py
+src/example_project/example.py
