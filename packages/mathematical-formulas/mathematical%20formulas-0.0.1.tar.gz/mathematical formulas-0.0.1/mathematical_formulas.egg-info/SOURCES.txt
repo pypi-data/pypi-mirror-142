@@ -1,0 +1,5 @@
+setup.py
+mathematical_formulas.egg-info/PKG-INFO
+mathematical_formulas.egg-info/SOURCES.txt
+mathematical_formulas.egg-info/dependency_links.txt
+mathematical_formulas.egg-info/top_level.txt
