@@ -1,0 +1,7 @@
+README.rst
+setup.py
+amypad.egg-info/PKG-INFO
+amypad.egg-info/SOURCES.txt
+amypad.egg-info/dependency_links.txt
+amypad.egg-info/requires.txt
+amypad.egg-info/top_level.txt
