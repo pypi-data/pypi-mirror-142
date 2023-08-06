@@ -1,0 +1,10 @@
+slackarchiver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackarchiver/cli.py,sha256=mII4ODXMJPVlbbE0OZi_nzoFrFu9t2U1HOlFvozAaWQ,219
+slackarchiver/manage_channel.py,sha256=JHJW-LHh87rm6-Mq2L0_pl0ljZnV6fB2VG8Du_Kj_5w,3619
+slackarchiver/settings.py,sha256=haKRpwMu5MpaF4tvq_xrXiHrfS4h9k5TAbZDc6VlvrM,161
+slackarchiver/utils.py,sha256=8pcLoC8Uj5q-KzG_x1KSLWHNgv7kItnBYk5RbkLth3s,1164
+slack_archiver_cli-1.1.1.dist-info/entry_points.txt,sha256=6ytINYWoBDNIDHiP8gaLqApXdsyI7tlSrkSfCcXulsA,125
+slack_archiver_cli-1.1.1.dist-info/LICENSE,sha256=lfurH-Yaa9NCOyaWS2U59VUDbaAAU5rdhARyqJ-9izg,1070
+slack_archiver_cli-1.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slack_archiver_cli-1.1.1.dist-info/METADATA,sha256=m_C1X9OUUI7unQlhOgA_F6-t1D-f7sv0Bb015rbZ_WI,2413
+slack_archiver_cli-1.1.1.dist-info/RECORD,,
