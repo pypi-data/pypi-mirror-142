@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+small_ai/__init__.py
+small_ai/core.py
+small_ai/exceptions.py
+small_ai/helpers.py
+small_ai/io.py
+small_ai.egg-info/PKG-INFO
+small_ai.egg-info/SOURCES.txt
+small_ai.egg-info/dependency_links.txt
+small_ai.egg-info/requires.txt
+small_ai.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+numpy
+scipy
+
+[dev]
+pytest
+pytest-cov
+pytest-watch
+flake8
+black
+mypy
