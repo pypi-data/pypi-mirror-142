@@ -1,0 +1,11 @@
+hasts/plugins/__init__.py,sha256=-_-t9ZrPdzsUw2dvdRYqNrXCSeFlnvCpmuKA7Qb25vo,126
+hasts/plugins/version.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+hasts/plugins/manager/__init__.py,sha256=2XNDX7hEZvGHOdL3nH0G82UU-9dtouhVfs7u-4RTwR4,260
+hasts/plugins/plugin/__init__.py,sha256=1IpCQY3_W4LqUDI0t0P2pxQibspjnwc8kE_KOKYuSPA,266
+hasts/plugins/services/__init__.py,sha256=ZBiwZMdYaUqnNyKoZ4kD1euCn6rRFdkqeG7-A83Y1LE,755
+hasts/plugins/services/flaskapp.py,sha256=h4oawhhtgFEpjbWdULiCgl6cmwL24VUzGedsE6tzfUo,867
+hasts_plugins-0.0.5.dist-info/LICENSE,sha256=Na4_MjSt5F5sMMSN82SeeGgWCCaaRx2afcX97joZSMo,1316
+hasts_plugins-0.0.5.dist-info/METADATA,sha256=H1cgWCxonTLj34qQrkak4ss1oY__eC9i53iX6rpNFsg,866
+hasts_plugins-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hasts_plugins-0.0.5.dist-info/top_level.txt,sha256=nLrwt1iw3GRyUV87LWqDSYSNhyZQ9_rSmMComN1EBwQ,6
+hasts_plugins-0.0.5.dist-info/RECORD,,
