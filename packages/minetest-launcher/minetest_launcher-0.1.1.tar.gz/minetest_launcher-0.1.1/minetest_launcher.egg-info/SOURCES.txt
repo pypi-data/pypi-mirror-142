@@ -1,0 +1,17 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+data/io.github.destofr.MinetestLauncher.desktop
+minetest_launcher/LauncherWindow.ui
+minetest_launcher/PasswordEditor.ui
+minetest_launcher/ServerList.ui
+minetest_launcher/ServerWidget.ui
+minetest_launcher/__init__.py
+minetest_launcher/__main__.py
+minetest_launcher/main.css
+minetest_launcher.egg-info/PKG-INFO
+minetest_launcher.egg-info/SOURCES.txt
+minetest_launcher.egg-info/dependency_links.txt
+minetest_launcher.egg-info/requires.txt
+minetest_launcher.egg-info/top_level.txt
