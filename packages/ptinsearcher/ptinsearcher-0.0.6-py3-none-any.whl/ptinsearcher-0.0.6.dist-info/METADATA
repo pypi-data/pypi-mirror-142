@@ -1,0 +1,141 @@
+Metadata-Version: 2.1
+Name: ptinsearcher
+Version: 0.0.6
+Summary: Web sources information extractor
+Home-page: https://www.penterep.com/
+Author: Penterep
+Author-email: info@penterep.com
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: ptlibs
+Requires-Dist: pyexiftool
+Requires-Dist: requests
+Requires-Dist: tldextract
+
+![penterepTools](https://www.penterep.com/external/penterepToolsLogo.png)
+
+
+# PTINSEARCHER
+> Web sources information extractor
+
+ptinsearcher is a tool for extracting information from web sources. This tool allows dumping of HTML comments, e-mail addresses, phone numbers, IP addresses, subdomains, HTML forms, links and metadata of documents.
+
+## Installation
+
+```
+pip install ptinsearcher
+```
+
+### Add to PATH
+If you cannot invoke the script in your terminal, its probably because its not in your PATH. Fix it by running commands below.
+```bash
+echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
+source ~/.bashrc
+```
+
+## Usage examples
+
+```
+ptinsearcher -u https://www.example.com/            # Dump information from URL
+ptinsearcher -u https://www.example.com/ -e C       # Extract comments from URL
+ptinsearcher -u https://www.example.com/ -e CSE     # Extract comments, subdomains, emails from URL
+ptinsearcher -f urlList.txt                         # Load list of sources to grab from file
+ptinsearcher -f urlList.txt -gc -e E                # Group findings of all sources
+```
+
+## Options
+```
+   -u   --url                 <url>           Test URL
+   -f   --file                <file>          Load URL list from file
+   -d   --domain              <domain>        Domain - Merge domain with filepath. Use when wordlist contains filepaths (e.g. /index.php)
+   -e   --extract             <extract>       Specify data to extract [A, E, S, C, F, I, P, U, Q, X, M, T] (default A)
+   -o   --output              <output>        Save output to file
+   -op  --output-parts                        Save each extract_type to separatorarate file
+   -gp  --group-parameters                    Group URL parameters
+   -wp  --without-parameters                  Without URL parameters
+   -g   --grouping                            One output table for all sites
+   -gc  --grouping-complete                   Merge all results into one group
+   -r   --redirect                            Follow redirects (default False)
+   -c   --cookie              <cookie=value>  Set cookie(s)
+   -H   --headers             <header:value>  Set custom headers
+   -p   --proxy               <proxy>         Set proxy (e.g. http://127.0.0.1:8080)
+   -ua  --user-agent          <user-agent>    Set User-Agent (default Penterep Tools)
+   -j   --json                                Output in JSON format
+   -v   --version                             Show script version and exit
+   -h   --help                                Show this help message and exit
+
+```
+
+## Extract arguments
+Specify which data to extract from source
+```
+A - grab all (default)
+E - Emails
+S - Subdomains
+C - Comments
+F - Forms
+I - IP addresses
+U - Internal URLs
+Q - Internal URLs with parameters
+X - External URLs
+P - Phone numbers
+M - Metadata
+T - Metadata-Tags (author, robots, generator)
+```
+
+## Dependencies
+- requests
+- bs4
+- pyexiftool
+- tldextract
+- ptlibs
+
+We use [ExifTool](https://exiftool.org/) to extract metadata.
+Python 3.6+ is required.
+
+## Version History
+* 0.0.6
+    * Fixed spacing when printing forms & internal URLs with parameters
+    * Fixed JSON output for internal URLs with parameters
+    * Added 'T' to extract parameters - dumps content of Author, Robots and Generator meta tags.
+* 0.0.5
+    * Improved stability
+    * Updated help message
+    * Replaced  extract parameter for comment extraction from 'H' to 'C'
+    * Fixed grouping
+* 0.0.1 - 0.0.4
+    * Alpha releases
+
+## License
+
+Copyright (c) 2020 HACKER Consulting s.r.o.
+
+ptinsearcher is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ptinsearcher is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ptinsearcher.  If not, see <https://www.gnu.org/licenses/>.
+
+## Warning
+
+You are only allowed to run the tool against the websites which
+you have been given permission to pentest. We do not accept any
+responsibility for any damage/harm that this application causes to your
+computer, or your network. Penterep is not responsible for any illegal
+or malicious use of this code. Be Ethical!
+
