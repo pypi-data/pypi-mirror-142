@@ -1,0 +1,6 @@
+## instructions on how to build and package the software
+
+[build-system]
+
+requires=["setuptools","wheel"]
+build-backend="setuptools.build_meta"
