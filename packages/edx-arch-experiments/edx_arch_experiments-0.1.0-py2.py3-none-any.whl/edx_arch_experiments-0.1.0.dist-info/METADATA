@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: edx-arch-experiments
+Version: 0.1.0
+Summary: A plugin to include applications under development by the architecture team at edx
+Home-page: https://github.com/edx/edx-arch-experiments
+Author: edX
+Author-email: oscm@edx.org
+License: AGPL 3.0
+Keywords: Python edx
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: Django
+Requires-Dist: confluent-kafka
+Requires-Dist: edx-django-utils
+Requires-Dist: edx-toggles
+Requires-Dist: fastavro
+Requires-Dist: requests
+Requires-Dist: setuptools
+
+
+
+Change Log
+----------
+
+..
+   All enhancements and patches to edx_arch_experiments will be documented
+   in this file.  It adheres to the structure of https://keepachangelog.com/ ,
+   but in reStructuredText instead of Markdown (for ease of incorporation into
+   Sphinx documentation and the PyPI description).
+
+   This project adheres to Semantic Versioning (https://semver.org/).
+
+.. There should always be an "Unreleased" section for changes pending release.
+
+Unreleased
+~~~~~~~~~~
+
+*
+
+[0.1.0] - 2022-02-22
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Added
+_____
+
+* First release on PyPI.
+
+
