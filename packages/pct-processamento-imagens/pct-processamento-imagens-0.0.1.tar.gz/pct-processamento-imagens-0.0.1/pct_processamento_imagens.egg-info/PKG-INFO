@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pct-processamento-imagens
+Version: 0.0.1
+Summary: Image processing
+Home-page: https://github.com/JoaoVitorPinheiro/image-processing-package
+Author: João Vitor Pinheiro da Costa
+Author-email: joaovpro17@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+### [Digital Innovation One](http://www.dio.me/)
+
+Pacote **image-processing-package**:
+
+**MÃ³dulo Processing**:
+  * CorrespondÃªncia de histograma;
+  * Similaridade estrutural;
+  * Redimensionar imagem;
+  
+**MÃ³dulo Utils**:
+
+  * Ler imagem;
+  * Salvar imagem;
+  * Plotar imagem;
+  * Resultado do grÃ¡fico;
+  * Plotar histograma;
+
+# Autor 
+
+JoÃ£o Vitor
+
+--- 
+
+
