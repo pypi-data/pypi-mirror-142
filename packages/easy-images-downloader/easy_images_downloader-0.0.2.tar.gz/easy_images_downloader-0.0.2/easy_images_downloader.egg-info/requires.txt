@@ -1,0 +1,8 @@
+requests
+opencv-python
+python-magic
+beautifulsoup4
+selenium
+tqdm
+webdriver-manager
+tabulate
