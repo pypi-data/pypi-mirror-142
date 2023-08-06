@@ -1,0 +1,4 @@
+[console_scripts]
+portproxy = portproxy:main
+portproxy.forward = portproxy:forward
+
