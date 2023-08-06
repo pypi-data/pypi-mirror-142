@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/lam/__init__.py
+src/lam/core/__init__.py
+src/lam/core/matrixexpression.py
+src/lam/core/solver.py
+src/linalgpy.egg-info/PKG-INFO
+src/linalgpy.egg-info/SOURCES.txt
+src/linalgpy.egg-info/dependency_links.txt
+src/linalgpy.egg-info/requires.txt
+src/linalgpy.egg-info/top_level.txt
