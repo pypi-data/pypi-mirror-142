@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fastwlk
+Version: 0.1.0
+Summary: fastwlk is a Python package that implements a fast version of the Weisfeiler-Lehman kernel.
+License: BSD-3 Clause License
+Author: Philip Hartout
+Author-email: philip.hartout@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: build (>=0.7.0,<0.8.0)
+Requires-Dist: networkx (>=2.6.3,<3.0.0)
+Requires-Dist: numpy (>=1.22.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
