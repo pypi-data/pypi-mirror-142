@@ -1,0 +1,16 @@
+qiskit_alt/Project.toml,sha256=KE2i_VwVp_gFVaPVRjRdWREC7kFVjgvIwYAyrvJ6RPU,427
+qiskit_alt/__init__.py,sha256=Lf9zs06V3RF6H12IpwGNRk_wxDHzy7JndrmM_f5MC6g,348
+qiskit_alt/_julia_project.py,sha256=p4kWWguONqlPqs9cTqcqiQrEgXINonsM7Yzt6XyTJwk,1043
+qiskit_alt/electronic_structure.jl,sha256=-QzXKBp_ASfuD13pU2FTnd331tBuWwzCGXLDT3eiotU,2248
+qiskit_alt/electronic_structure.py,sha256=8ff4BBNvt4vBFhpqkF6cHKiJBpctJyyxeJnau_IUA9A,2300
+qiskit_alt/es_juliacall.jl,sha256=wMJaUbqnPPTs0GMhsHVjETOIUhRTkaD0xhgKHeyciqI,642
+qiskit_alt/juliacall_util.jl,sha256=WGDRNCBTpzQ6FyqEg44ICkeCbvH37AlK-e5mX_zvpZE,711
+qiskit_alt/pauli_operators.py,sha256=-nXRpDvcY3fFm-NdMF0pMxcPlSb45DD7R26TMic4Xwo,1318
+qiskit_alt/sys_image/Project.toml,sha256=jpXxp1UXkyb3B7SXQduK2YveH-AptL60646OEq_QzcE,644
+qiskit_alt/sys_image/compile_exercise_script.jl,sha256=0Ddx2cLLWUB6B3n1PaB433u0VAqnZ2eP4SFvjxnbKCk,270
+qiskit_alt/sys_image/packages.jl,sha256=YJsYYzI0ZiuBihHhildzo3wzNE5mYusWWz4ANtgwv8M,56
+qiskit_alt-0.1.6.dist-info/LICENSE.txt,sha256=5uwKvv95k5PXchg9tCU8MkgQ4SMFhUjen8A1LFrIemg,11416
+qiskit_alt-0.1.6.dist-info/METADATA,sha256=NjGHI4nas7s_Z8sla6mkl2Gp-7UWxFHpSbsNVEVpvYY,12529
+qiskit_alt-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qiskit_alt-0.1.6.dist-info/top_level.txt,sha256=DLtJ4AbQY_T766LHxle0cEecBulXgwQEDiqyomo3RLU,11
+qiskit_alt-0.1.6.dist-info/RECORD,,
