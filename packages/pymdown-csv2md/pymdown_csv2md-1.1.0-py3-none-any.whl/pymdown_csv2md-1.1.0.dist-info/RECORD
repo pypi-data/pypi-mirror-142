@@ -1,0 +1,11 @@
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/csv2md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/csv2md/csv2md.py,sha256=SF6X95i-7gcWQRF6L8EOipq_pQhO5tJenc3wuWiYpSk,2894
+package/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/tests/test.py,sha256=prqaK_h55B_2bAzecBZGND_uKVOzXYUgCDow_MgB7yE,606
+pymdown_csv2md-1.1.0.dist-info/LICENSE,sha256=bQFWrU2dJMV8xqsARAadn7jjiBBmSVknGn93QXGNUHU,1066
+pymdown_csv2md-1.1.0.dist-info/METADATA,sha256=-UL-1OI7FoVtEnEZVwWvI9l0AxjOb8-PZaYOnEZc9Cg,2245
+pymdown_csv2md-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymdown_csv2md-1.1.0.dist-info/entry_points.txt,sha256=QmVawfOA8ZbnwdSy8KJYh1Ctb6KGMJF5n_qH5FLmXuI,70
+pymdown_csv2md-1.1.0.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+pymdown_csv2md-1.1.0.dist-info/RECORD,,
