@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: poetri
+Version: 0.0.7
+Summary: Pre-OAuth Entity Trust Reference Implementation (POETRI) using secp256k1
+Home-page: https://github.com/transparenthealth/python-poetri
+Author: Alan Viars
+Author-email: alan@transparenthealth.org
+License: UNKNOWN
+Download-URL: https://github.com/transparenthealth/python-poetri/tarball/master
+Description: Command line tools and python libraries for creating keys(JWK), and signing/verifying signatures of JWTs.
+Platform: UNKNOWN
