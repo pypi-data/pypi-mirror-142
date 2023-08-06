@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+modbamtools/__init__.py
+modbamtools/cli.py
+modbamtools/gene_models.py
+modbamtools/modbamviz.py
+modbamtools/tracks.py
+modbamtools/utils.py
+modbamtools.egg-info/PKG-INFO
+modbamtools.egg-info/SOURCES.txt
+modbamtools.egg-info/dependency_links.txt
+modbamtools.egg-info/entry_points.txt
+modbamtools.egg-info/requires.txt
+modbamtools.egg-info/top_level.txt
