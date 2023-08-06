@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ocean-cli
+Version: 0.3.0a1
+Summary: Ocean CLI
+Home-page: https://github.com/AI-Ocean/ocean-cli
+Author: kairos03
+Author-email: kairos0=9603@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (~=8.0.1)
+Requires-Dist: python-dateutil
+Requires-Dist: requests (~=2.26.0)
+Requires-Dist: inquirer
+Requires-Dist: pyyaml
+Requires-Dist: sentry-sdk
+Requires-Dist: pyfiglet
+
+# Ocean CLI
+[![PyPI version](https://badge.fury.io/py/ocean-cli.svg)](https://badge.fury.io/py/ocean-cli)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ocean-cli)
+[![ocean-backend](https://github.com/AI-Ocean/ocean-cli/actions/workflows/main.yaml/badge.svg)](https://github.com/AI-Ocean/ocean-cli/actions/workflows/main.yaml)
+
+
+## Initial development setup
+For linux/mac
+```
+$ ./boot.sh
+$ source venv/bin/activate
+```
+For windows
+```
+> ./boot.bat
+> venv\Scripts\activate.bat
+```
+
+## Install
+Install ocean-cli for production.
+```
+pip install ocean-cli
+```
+
+If you want to install develop mode
+```
+pip install -e .
+or
+python setup.py develop
+```
+
+## Usage
+check our [Docs](https://ocean-cli.herokuapp.com/)
+
