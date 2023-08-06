@@ -1,0 +1,7 @@
+README.md
+setup.py
+symbol_sdk_core_python.egg-info/PKG-INFO
+symbol_sdk_core_python.egg-info/SOURCES.txt
+symbol_sdk_core_python.egg-info/dependency_links.txt
+symbol_sdk_core_python.egg-info/requires.txt
+symbol_sdk_core_python.egg-info/top_level.txt

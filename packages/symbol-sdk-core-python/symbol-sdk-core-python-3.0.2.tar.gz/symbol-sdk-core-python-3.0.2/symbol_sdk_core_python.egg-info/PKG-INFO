@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: symbol-sdk-core-python
+Version: 3.0.2
+Summary: Symbol SDK Core
+Home-page: https://github.com/symbol/sdk-python
+Author: Symbol Contributors
+Author-email: contributors@symbol.dev
+License: MIT
+Description: # Symbol-sdk-core-python
+        
+        Deprecated, us [symbol-sdk-python](https://pypi.python.org/pypi/symbol-sdk-python/) instead.
+        
+Keywords: symbol,sdk,sdk-core,Symbol SDK core
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
