@@ -1,0 +1,15 @@
+stray/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stray/camera.py,sha256=f4wsNeSBb6_1WXDEtNS4qyfDhohfcIdv5au-iAFRSLg,3028
+stray/debugger.py,sha256=sUSgjjbW5FKIpQoFXrcR2gJpWg1amOa6mzE38gkLKP8,1935
+stray/export.py,sha256=OH_pFyQ6IkTYVgvHqhTDDgWuGaX4GEWcCH6bMxu-tgM,7322
+stray/linalg.py,sha256=37THROZWDNodZk4_XZ9qhMtt4MKlDBhSrMq9EIxun7w,123
+stray/renderer.py,sha256=d7usEjM2pbBz5VYmPTF6bTQVFmHC_4V5k3YiQ5DxNnw,3299
+stray/scene.py,sha256=-3PevQPuQXhgpbtDp0PRXxIRJRRClr22jVblroY2CVE,10393
+stray/segmentation.py,sha256=VGM1kW0KGes4EHgDl5i4XVP6inuwsgG37TAHu0rVoDc,1145
+stray/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stray/utils/detectron2.py,sha256=J-Ci8YZJpYspXtmKLZPNXm9PwShdcWs3jA4I8iHEke0,2221
+stray-0.0.5.dist-info/LICENSE,sha256=ggL7wb0Cl73puw9ZE2iXlmVuBOJpsBAcojRhOlDyLrI,1069
+stray-0.0.5.dist-info/METADATA,sha256=JTL4rXz5Wu28pNQxXaQ_hN-uJIE95A5ddA-EzyfIY7Y,821
+stray-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stray-0.0.5.dist-info/top_level.txt,sha256=Q7q2wmvAMpnz5RCPN8-hkO9kRs_jj0IpIEoNa4jksQI,6
+stray-0.0.5.dist-info/RECORD,,
