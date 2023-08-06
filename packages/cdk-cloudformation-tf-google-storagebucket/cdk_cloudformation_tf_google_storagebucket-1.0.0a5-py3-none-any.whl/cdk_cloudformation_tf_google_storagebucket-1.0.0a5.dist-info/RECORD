@@ -1,0 +1,9 @@
+cdk_cloudformation_tf_google_storagebucket/__init__.py,sha256=yzrc0ljwppQQWy-tY8JgapqgZESfYXNVBinTA1zB_jE,48934
+cdk_cloudformation_tf_google_storagebucket/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_tf_google_storagebucket/_jsii/__init__.py,sha256=66NW6X6TMgMMC8S2NuWEzqUpCuLVe60HRE187VaFuvU,428
+cdk_cloudformation_tf_google_storagebucket/_jsii/tf-google-storagebucket@1.0.0-alpha.5.jsii.tgz,sha256=RgX4oHi_i0LwxNeU0JbDhq0s3VWj6TwAyJi-LbfphNM,121990
+cdk_cloudformation_tf_google_storagebucket-1.0.0a5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_tf_google_storagebucket-1.0.0a5.dist-info/METADATA,sha256=EjvSoOyWfPjlikDrCfPDDKRcS5_rFBK7DkQdrya_DFE,3687
+cdk_cloudformation_tf_google_storagebucket-1.0.0a5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_cloudformation_tf_google_storagebucket-1.0.0a5.dist-info/top_level.txt,sha256=aCq-4wFDvYM8qtKqM7adanmoks18k-TSppoYAkg_QY4,43
+cdk_cloudformation_tf_google_storagebucket-1.0.0a5.dist-info/RECORD,,
