@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: maxoptics
+Version: 0.5.5
+Summary: MaxOptics SDK
+Home-page: UNKNOWN
+Author: MaxOptics
+Author-email: rao-jin@maxoptics.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: Independent
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown
