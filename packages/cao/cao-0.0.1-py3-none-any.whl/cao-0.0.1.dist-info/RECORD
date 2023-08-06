@@ -1,0 +1,15 @@
+cao/__init__.py,sha256=BQuqMC2IUfa-1N7i6w6yTo0Y1rc3x58-Mrjj0aHAzQk,92
+cao/shell/__init__.py,sha256=YzoUN5v8IBbhdnlZKGIhMHdaNX6nKSBeRIUGMTiqNZg,57
+cao/shell/usage.py,sha256=ygNCHwGFEoCNkc8GHpH0yqKd2tSFtMwmyGnUPAlCTHk,188
+cao/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cao-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+cao-0.0.1.dist-info/METADATA,sha256=FNWFEVwaxza-31L_fdoqDiPlxjkBYOK0hIImYeM7nmU,3102
+cao-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cao-0.0.1.dist-info/entry_points.txt,sha256=HrsydY3MeI1W3uMUAxreGtg0VbNgPrXgHObWI2xzAOc,39
+cao-0.0.1.dist-info/top_level.txt,sha256=GcQqxPYvk9c2Mn-GcwepDBUCu2s9qGYE1vTlY2RbxYM,4
+cao-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cao-0.0.1.dist-info/RECORD,,
