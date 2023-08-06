@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: swissarmyknife
+Version: 0.1.0
+Summary: A few functions often used
+Home-page: https://github.com/schrma/swissarmyknife
+Author: mm4go
+Author-email: mm4go.marcschr@dfgh.net
+License: MIT
+Project-URL: Documentation, https://swissarmyknife.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/schrma/swissarmyknife
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: parse
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pylint ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+
+==============
+swissarmyknife
+==============
+
+This is a collection of functions which i used frequently including:
+
+* file-handling (reading, writing)
+*
+
+.. note::
+   This project has been set up using PyScaffold 4.1.2 For details and usage information on PyScaffold see https://pyscaffold.org/.
+
+-------
+Content
+-------
+`Documention <https://swissarmyknife.readthedocs.io/en/latest/>`_
+
+-------------------
+Build Documentation
+-------------------
+Execute the following commands to build the full documentation.
+
+
+
+1. Set up virtual environment (must be done only the first time):
+
+.. code-block:: shell
+
+   python -m venv .venv-swiss
+   . .venv-swiss/Scripts/activate
+   python -m pip install --upgrade pip
+   python -m pip install tox
+
+2. Activate your virtual environment:
+
+.. code-block:: shell
+
+   . .venv-swiss/Scripts/activate
+
+3. Execute `tox`
+
+.. code-block:: shell
+
+   tox -e docs
+
+
