@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: toolsPro
+Version: 0.0.2
+Summary: toolsPro
+Home-page: https://gitee.com/daben_chen/pro-pip-tools
+Author: guhao
+Author-email: guhao@pin-dao.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.8
+Description-Content-Type: text/markdown
+Requires-Dist: yagmail
+
+
+# toolspro
+
+工具包
+
+### 安装(Python 版本>=3.6.8)
+```
+pip install --upgrade toolsPro
+```
+
+### 使用
+
+#### 发送邮件
+```
+from toolspro.tools import Tool
+tool = Tool()
+
+tool.mail_from_user_host = '发件地址host'
+tool.mail_from_user = '发件人邮箱号'
+tool.mail_from_user_pwd = '发件人密码'
+
+tool.send_mail_msg(to_user='收件人邮箱地址（这里是列表，可填写多个）', title='邮件标题', content='邮件内容')
+```
+
+
