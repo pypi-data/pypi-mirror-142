@@ -1,0 +1,15 @@
+alef/bash/__init__.py,sha256=15mvfhlNHGc1anHkIwlGODX2INg7v6CJZak8wsjGZ1o,6613
+alef/cli/__init__.py,sha256=NNcx7s1fUx-ZfE22HnSRkL6zgsn4YxI-qmLqXTaaDsI,135
+alef/cli/__main__.py,sha256=iYOIJTCXaJk5_GtyDdJkWVDHnYVdFkHxqqos9ZEAi-0,49
+alef/logging/__init__.py,sha256=QjUo6q9_IwSmDk162V05GxHwx0n70g1grjxmH-tODSw,167
+alef/logging/_impl.py,sha256=ALH5mZjHql050fWFBPQFtvOyq1Mb9enDuIRe4CB5tVo,11196
+alef/shell/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+alef/shell/play.py,sha256=d7F7l2PQuPARdQb46JMsLrg-Q9qJ529160Q0-SGcI74,355
+alef/shell/runner.py,sha256=X-KuPub_JJvg5Asv1pouuhwNa-ZH--1Og0jwEb3moVQ,5137
+alef/shell/wrap.py,sha256=iXz6l4X6KhdIRpHEfGZwB3r-VMN16f6msXdXaR2iW38,6098
+alef/util/__init__.py,sha256=1KLnPT8XPl_SVyOMOsEe6t8nQ9I9d35IoQk4fTPaAUs,708
+alef-0.2.0.dev3.dist-info/LICENSE,sha256=fSXpEMXLGGmZ8qJl6GFg5bG97fsZ3samR2GfsVOe3Sk,1071
+alef-0.2.0.dev3.dist-info/METADATA,sha256=O3ilZW5KRS468VgdBnmgiNmRst95Wf5MU_x4S9wyjv8,297
+alef-0.2.0.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alef-0.2.0.dev3.dist-info/top_level.txt,sha256=nRw3QzgrpYizkOy8Dl2W2FyN8a7VIBeSCzTMA4JbaGU,5
+alef-0.2.0.dev3.dist-info/RECORD,,
