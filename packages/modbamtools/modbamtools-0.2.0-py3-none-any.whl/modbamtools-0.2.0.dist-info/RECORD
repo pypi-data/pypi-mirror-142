@@ -1,0 +1,12 @@
+modbamtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modbamtools/cli.py,sha256=eq5ia71dmkYO_ZpwHogr5JPWrO58g9N-H_W9xdZMV6o,6172
+modbamtools/gene_models.py,sha256=wUsnTDesX7_s1jUVIT3JEBKSXD9NfifXbDG4sdUXnN8,7024
+modbamtools/modbamviz.py,sha256=ewnvBk_b3eGlvGaGrThSRXhLa71o8KtOrJ67D1e-sFg,5347
+modbamtools/tracks.py,sha256=eIzggPrGB2OCd8lL48FsO9EUdOYhfPmr-Gr81CartBA,6861
+modbamtools/utils.py,sha256=FUtG8yzj3-gB4JdpC98tcWmawT3pj4DHfnxuU2Qz6Rw,7638
+modbamtools-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+modbamtools-0.2.0.dist-info/METADATA,sha256=MjA-Ccjv5vM0gHTLAkvoM0A_fUAnVQQMfxFWqW-9kVY,4201
+modbamtools-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modbamtools-0.2.0.dist-info/entry_points.txt,sha256=Ds7_Sy9tdBZzkDphRusdU20Z2hfEpIOTX9E7sw-HCdI,52
+modbamtools-0.2.0.dist-info/top_level.txt,sha256=pVaLj7pRTg2LjroaYQvWBJf8iwfTPqe6dMHcjKffqbo,12
+modbamtools-0.2.0.dist-info/RECORD,,
