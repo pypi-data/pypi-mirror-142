@@ -1,0 +1,29 @@
+config:
+    # Generated Github action file
+    githubAction: ${PROJECTDIR}/.github/workflows/build.yml
+
+    # Template file for Github action
+    githubActionTemplate: ${BASEDIR}/templates/build.yml
+
+    # List of python versions to be tested
+    githubPythonVersions: []
+
+    # Dictionary of build commands (per operating system) for github action
+    githubCommands:
+        ubuntu-latest: source loadme.sh nmk tests
+        # FIXME: wait for check_logs support with emojis on Windows
+        #windows-latest: ./loadme.bat nmk tests
+
+tasks:
+    # Github action file generation
+    gh.actions:
+        description: Generate Github action file
+        emoji: ":octopus:.:clapper_board:"
+        appendToDeps: setup
+        input: ${githubActionTemplate}
+        output: ${githubAction}
+        if: ${githubPythonVersions}
+        params:
+            python_versions: ${githubPythonVersions}
+            commands: ${githubCommands}
+        builder: nmk_github.action.ActionFileBuilder
