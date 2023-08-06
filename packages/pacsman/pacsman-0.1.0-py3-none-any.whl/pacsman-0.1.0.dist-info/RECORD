@@ -1,0 +1,17 @@
+pacsman/__init__.py,sha256=7vfWlRTud1cjKqWInElaBiaAqNK23OohtcgMkJP8C4s,313
+pacsman/base_client.py,sha256=tBUGpJCHkmXZw98S2lzyFNuete6NTm5EVIjPAQT5sxs,9468
+pacsman/base_client_test.py,sha256=XbRLHy9tcFbujHmSEJj4EBGrWTTECrohkMQka3PvM-s,6261
+pacsman/dcmtk_client.py,sha256=pZbQTSwpL9fMQZk0cSnAN_ShZ_82bfhbklxBdkz-7as,20938
+pacsman/filesystem_client_test.py,sha256=P81vqjGklN6a7s5S-L2pyFawTKcWBURRy2S-zvawH0U,1554
+pacsman/filesystem_dev_client.py,sha256=XRMttH6dc1Wj8bmnEnFQ61JVbEPKzouAnCFOpuCrXNU,10835
+pacsman/integration_test.py,sha256=7bA0MBebEabTdtf-TrS7gorWWRFLer24n2qxJzB6aaI,7010
+pacsman/pynetdicom_client.py,sha256=umBn6pM3TAkWCrngupQaFSpCLv0zbUrEkwnMsQ5Dbtc,22544
+pacsman/upload_test.py,sha256=YlPfQgelSKpJTmuUwoCE_FgjtCWvSdDNVoEbWoFAGb8,896
+pacsman/utils.py,sha256=n0tjsAEuPo-ayaUvq9DB_9jdpKn1L79DGKZEJzr6yeQ,5684
+pacsman/utils_test.py,sha256=z1hjZVEDDf-e46Kdug7xdmy5uVm5F1hxOhQ3bMZDTbA,1816
+pacsman-0.1.0.dist-info/LICENSE,sha256=f6g2gxFABVGO1FYxnpZFItbMIHn6DhK7TuohKGfVkD8,1067
+pacsman-0.1.0.dist-info/METADATA,sha256=cBHSTEw4Zqg_zdUkuATnp7cGlabG0MolF0SZa3od4OI,921
+pacsman-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pacsman-0.1.0.dist-info/dependency_links.txt,sha256=ud0yAuSH3PK_34POCyNEaB4-kfhaZ_fNJdqdqZekyuI,63
+pacsman-0.1.0.dist-info/top_level.txt,sha256=OUIk1_z4N_dNpkvfQCGELurQO1qVPWy3wx_U7kT7gKA,8
+pacsman-0.1.0.dist-info/RECORD,,
