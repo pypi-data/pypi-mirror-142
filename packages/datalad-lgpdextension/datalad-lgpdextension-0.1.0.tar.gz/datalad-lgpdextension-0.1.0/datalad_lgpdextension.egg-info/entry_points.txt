@@ -1,0 +1,3 @@
+[datalad.extensions]
+lgpdextension = datalad_lgpdextension:command_suite
+
