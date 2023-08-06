@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: pillow-heif
+Version: 0.1.10
+Summary: Python 3.6+ interface to libheif library
+Home-page: https://github.com/bigcat88/pillow_heif
+Author: Alexander Piskun
+Author-email: bigcat88@users.noreply.github.com
+License: Apache-2.0
+Keywords: pillow heif heic avif
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi (>=1.15.0)
+Requires-Dist: Pillow (>=8.0.1)
+
+# pillow_heif
+
+![analysis](https://github.com/bigcat88/pillow_heif/actions/workflows/analysis-coverage.yml/badge.svg)
+![build](https://github.com/bigcat88/pillow_heif/actions/workflows/create-release-draft.yml/badge.svg)
+![published](https://github.com/bigcat88/pillow_heif/actions/workflows/publish-pypi.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/bigcat88/pillow_heif/branch/master/graph/badge.svg?token=JY64F2OL6V)](https://codecov.io/gh/bigcat88/pillow_heif)
+![style](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+![PythonVersion](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)
+![impl](https://img.shields.io/pypi/implementation/pillow_heif)
+![pypi](https://img.shields.io/pypi/v/pillow_heif.svg)
+[![Downloads](https://img.shields.io/pypi/dm/pillow_heif?color=orange)](https://pypi.org/project/pillow-heif/)
+
+![Mac OS](https://img.shields.io/badge/mac%20os-FCC624?style=for-the-badge&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-0078D6.svg?style=for-the-badge&logo=alpine-linux&logoColor=white)
+
+Library to work with HEIF files and an add-on for Pillow.
+Using the [libheif](https://github.com/strukturag/libheif) library via [CFFI](https://cffi.readthedocs.io).
+
+**Wheels table:**
+
+|               | macOS Intel | macOS Silicon | Windows 64bit | musllinux | manylinux |
+|---------------|:-----------:|:-------------:|:-------------:|:---------:|:---------:|
+| CPython 3.6   |     N/A     |      N/A      |      N/A      |     ✅     |     ✅     |
+| CPython 3.7   |      ✅      |      N/A      |       ✅       |     ✅     |     ✅     |
+| CPython 3.8   |      ✅      |      N/A      |       ✅       |     ✅     |     ✅     |
+| CPython 3.9   |      ✅      |       ✅       |       ✅       |     ✅     |     ✅     |
+| CPython 3.10  |      ✅      |       ✅       |       ✅       |     ✅     |     ✅     |
+| PyPy 3.7 v7.3 |      ✅      |      N/A      |      N/A      |    N/A    |     ✅     |
+| PyPy 3.8 v7.3 |      ✅      |      N/A      |      N/A      |    N/A    |     ✅     |
+
+Note: **CPython** **musllinux**/**manylinux** wheels for **i686**, **x64_86** and **aarch64**(arm8)
+
+#### **_Versions 0.2.X will be last to support Python 3.6_**
+
+**Pull requests are greatly welcome.**
+
+## Installation
+From [PyPi](https://pypi.org/project/pillow-heif/):
+
+```bash
+python3 -m pip install pillow_heif
+```
+
+#### Or [Building from source](https://github.com/bigcat88/pillow_heif/blob/master/docs/BUILDING.md)
+
+## Example of use as opener
+```python3
+from PIL import Image
+from pillow_heif import register_heif_opener
+
+register_heif_opener()
+
+image = Image.open('image.heic')
+image.load()
+```
+
+## Example of use as reader
+```python3
+from PIL import Image
+import pillow_heif
+
+if not pillow_heif.is_supported('ABC.HEIC'):
+  exit(0)
+heif_file = pillow_heif.read_heif('ABC.HEIC')
+for img in heif_file:       # you still can use it without iteration, like before.
+    image = Image.frombytes(
+        img.mode,
+        img.size,
+        img.data,
+        'raw',
+        img.mode,
+        img.stride,
+    )
+```
+### [More examples](https://github.com/bigcat88/pillow_heif/tree/master/examples)
+
+
+### The HeifImageFile object (as Pillow plugin)
+The returned `HeifImageFile` by `Pillow` function `Image.open` has the following additional properties beside regular:
+* `info` dictionary keys:
+  * `brand` - value from int enum `HeifBrand`.
+  * `exif` - exif data or `None`.
+  * `metadata` - is a list of dictionaries with `type` and `data` keys, excluding `exif`. May be empty.
+  * `color_profile` - is a dictionary with `type` and `data` keys. May be empty.
+  * `icc_profile` - contains data and present only when file has `ICC` color profile(`prof` or `rICC`).
+  * `nclx_profile` - contains data and present only when file has `NCLX` color profile.
+
+### An UndecodedHeifFile object
+The returned `UndecodedHeifFile` by function `open_heif` has the following properties:
+
+* `size` - the size of the image as a `(width, height)` tuple of integers.
+* `has_alpha` - is a boolean indicating the presence of an alpha channel.
+* `mode` - the image mode, e.g. 'RGB' or 'RGBA'.
+* `bit_depth` - the number of bits in each component of a pixel.
+* `data` - the raw decoded file data, as bytes. Contains `None` until `load` method is called.
+* `stride` - the number of bytes in a row of decoded file data. Contains `None` until `load` method is called.
+* `img_id` - id of image, will be needed for encoding operations later.
+* `info` dictionary with the same content as in `HeifImageFile.info` plus `main` - a boolean indicating is this a default picture.
+* `thumbnails` - list of `HeifThumbnail` or `UndecodedHeifThumbnail` classes.
+* `top_lvl_images` - list of `UndecodedHeifFile` or `HeifFile` classes, excluding main image.
+* class supports `len` and `iter`:
+  * `len` - returns number of top level images including main.
+  * `iter` - returns a generator to iterate through all images, first image will be main.
+* other useful class methods:
+  * `thumbnails_all` - returns an iterator to access thumbnails for all images in file.
+
+### The HeifFile object
+
+`HeifFile` can be obtained by calling `load` method of `UndecodedHeifFile` or by calling `read_heif` function.
+`HeifFile` has all properties of `UndecodedHeifFile` plus filled `data` and `stride`.
+
+## Thumbnails
+To enable thumbnails, set `thumbnails` property in `options` to True:
+```python3
+import pillow_heif
+
+pillow_heif.options().thumbnails = True
+pillow_heif.options().thumbnails_autoload = True # if you wish
+# or
+pillow_heif.register_heif_opener(thumbnails=True, thumbnails_autoload=True)
+```
+
+### The UndecodedHeifThumbnail object
+* `size` - the size of the image as a `(width, height)` tuple of integers.
+* `has_alpha` - is a boolean indicating the presence of an alpha channel.
+* `mode` - the image mode, e.g. 'RGB' or 'RGBA'.
+* `bit_depth` - the number of bits in each component of a pixel.
+* `data` - the raw decoded file data, as bytes. Contains `None` until `load` method is called.
+* `stride` - the number of bytes in a row of decoded file data. Contains `None` until `load` method is called.
+* `img_id` - id of thumbnail, will be needed for encoding operations later.
+
+### The HeifThumbnail object
+
+You can enable thumbnail autoload by setting `thumbnails_autoload` property to `True`.
+
+Also `HeifThumbnail` can be obtained by calling `load` method of `UndecodedHeifThumbnail`, `UndecodedHeifFile` or `HeifImageFile`.
+
+`HeifThumbnail` has all properties of `UndecodedHeifThumbnail` plus filled `data` and `stride`.
+
+
