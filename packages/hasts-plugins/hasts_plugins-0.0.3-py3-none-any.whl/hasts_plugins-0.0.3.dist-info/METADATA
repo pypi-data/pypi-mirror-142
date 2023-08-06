@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hasts-plugins
+Version: 0.0.3
+Summary: A plugin framework for HA-STS based on the kneedeepio-plugins python library.
+Home-page: https://github.com/ha-sts/ha-sts-plugin-library
+Author: Daniel Williams
+Author-email: dwilliams@port8080.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kneedeepio-plugins
+Requires-Dist: Flask
+
+# ha-sts-plugin-library
+This is the library that should be imported when writing a plugin for the ha-sts server.
+
+Commands to build and push to PyPi:
+```
+rm -rf dist/*
+python -m build
+twine upload --config-file .pypirc dist/*
+```
+
+
