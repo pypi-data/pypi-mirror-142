@@ -1,0 +1,13 @@
+pyprep/__init__.py,sha256=7hNLZi4ZLhNVNwfZ_IhNaJgTAWdBqAXVKrJkTT6Pfe8,324
+pyprep/_version.py,sha256=jao0Z929U8GHrA9K6CewjytBoxqgzRHNNnJC3N7mHSc,497
+pyprep/find_noisy_channels.py,sha256=qiBKQeAHE1JE6dCr3qYTYegQ2YOavV8gHUrsjTXu93k,27775
+pyprep/prep_pipeline.py,sha256=Y9kzRvG-O0cgpGtOJfvD7yhAYO45IAGad9jFXDCth_A,10410
+pyprep/ransac.py,sha256=qs9-zoDqUPvqB5Xexddwy5sNvyElxZqu2RZ5uNKKDAY,21615
+pyprep/reference.py,sha256=D9CP2PGkp_AGLn3toskKBTC0upxUz_vIJR3uruy7HoU,14726
+pyprep/removeTrend.py,sha256=OFoyOp0jGvM1Xl7JPMrqgEp5KV_DTozY2SUKo7-WROs,5654
+pyprep/utils.py,sha256=jZDwE51045T7pzjLVDMCGP_RelFWyLycwiHY9o02C-4,21335
+pyprep-0.4.2.dist-info/LICENSE,sha256=sYGjMXxPiUFV_mzrA887Kq03R1YpDB8MmG_xo8UKEmU,1079
+pyprep-0.4.2.dist-info/METADATA,sha256=p3Goh7kHJyZREPPBiAev324LPMOfSSP4YUBxjYbvcoQ,5202
+pyprep-0.4.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pyprep-0.4.2.dist-info/top_level.txt,sha256=vhujsaAIA0JzvTUuGljomJrQ3N_sPZGe2P2XsQREB7I,7
+pyprep-0.4.2.dist-info/RECORD,,
