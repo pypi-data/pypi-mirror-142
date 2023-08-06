@@ -1,0 +1,8 @@
+README.md
+setup.py
+figurator/__init__.py
+figurator/version.py
+figurator.egg-info/PKG-INFO
+figurator.egg-info/SOURCES.txt
+figurator.egg-info/dependency_links.txt
+figurator.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: figurator
+Version: 0.0.0
+Summary: User configuration manager and documenter
+Home-page: https://github.com/chrispyles/confit
+Author: Christopher Pyles
+License: MIT
+Description: # confit
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
