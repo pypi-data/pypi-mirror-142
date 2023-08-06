@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+favapy/favapy.egg-info/PKG-INFO
+favapy/favapy.egg-info/SOURCES.txt
+favapy/favapy.egg-info/dependency_links.txt
+favapy/favapy.egg-info/entry_points.txt
+favapy/favapy.egg-info/requires.txt
+favapy/favapy.egg-info/top_level.txt
