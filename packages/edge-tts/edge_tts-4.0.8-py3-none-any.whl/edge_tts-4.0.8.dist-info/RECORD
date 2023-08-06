@@ -1,0 +1,15 @@
+edge_playback/__init__.py,sha256=abL_vrdv5zeYxPjkNFvwmZeVkgzmQnioStdaUFzOSJc,1309
+edge_playback/__main__.py,sha256=J69AD2VczlQrf7vLX__WkPv_UcBW6rHemIO_GefGiEs,165
+edge_tts/__init__.py,sha256=FVNlfijGT9eVfpDCe8DmtVo6bAt-i6NFakpCuhIAlOM,136
+edge_tts/__main__.py,sha256=Tsu2VczZNea0xElye5rC1uzHC1BNgLeEzLehn20tT4w,94
+edge_tts/communicate.py,sha256=I7SSnh4MEJpY1oTVMHntS8dr7m47g0gHP7xosEO9JRw,14919
+edge_tts/constants.py,sha256=pTCeUadGhqY7dEgzusqmoCIqxd8OVbHTVvo3TK9dteo,415
+edge_tts/list_voices.py,sha256=K6NcIKZyBBGgXOoq3dZ8oN3MWvN3zMWVqy-X-SJOGWc,1361
+edge_tts/submaker.py,sha256=AxeVw4XmSClKGU9ubYAHrmi0Zww_UDv_xQj7mM8Hovs,3162
+edge_tts/util.py,sha256=emBptjOuQB1FEHbYzfoRJojNp8YecbCGo-ki_MZMlGk,4756
+edge_tts-4.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+edge_tts-4.0.8.dist-info/METADATA,sha256=Eiu9KLB4KgqeBkr3cZAmCKIfX0GynfUbKuwL79K94Ac,4496
+edge_tts-4.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edge_tts-4.0.8.dist-info/entry_points.txt,sha256=F5POZmYBoqcK0aiTEedluaCvsJitJtAa3K2b8i7u12A,97
+edge_tts-4.0.8.dist-info/top_level.txt,sha256=lxYRVU1wLS0a2YHxkXYU1l6CNieX--fJn-HedzhwzPk,23
+edge_tts-4.0.8.dist-info/RECORD,,
