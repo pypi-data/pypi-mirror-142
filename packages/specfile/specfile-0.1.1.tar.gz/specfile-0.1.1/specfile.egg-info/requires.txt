@@ -1,0 +1,9 @@
+arrow
+rpm
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+pytest
+flexmock
