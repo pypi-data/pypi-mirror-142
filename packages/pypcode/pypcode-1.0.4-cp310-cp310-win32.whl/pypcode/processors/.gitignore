@@ -1,0 +1,4 @@
+*.sla
+*.manifest
+*.gradle
+*.java
