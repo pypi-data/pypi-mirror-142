@@ -1,0 +1,10 @@
+napari_stl_exporter/__init__.py,sha256=W8_IypfVxjca4BwbGdVHJ0VP7_UfWYi3ZYDkh6ZO3fw,88
+napari_stl_exporter/_writer.py,sha256=zzQ2HbgBJKtGHaHRV6msxHMBbH_ll8WXJOU0IozPOVw,1624
+napari_stl_exporter/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_stl_exporter/_tests/test_writer.py,sha256=ra3tkAI9cmAfUbDFZkyqmt2_vnK3kvVU2DOUuNUGvXI,816
+napari_stl_exporter-0.0.6.dist-info/LICENSE,sha256=Z0Fii3N9k7XqdJoGn27qpXsDnWpeyS2E_zByqlPImz4,1586
+napari_stl_exporter-0.0.6.dist-info/METADATA,sha256=TxTthQqSUxz308VGj6S0EsjXXyC5402zNRbwf2tvQZA,6251
+napari_stl_exporter-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_stl_exporter-0.0.6.dist-info/entry_points.txt,sha256=aEN16F4-aqPgS2qDr_SWljiR5PYFbJwaM01gAv8HUJ8,43
+napari_stl_exporter-0.0.6.dist-info/top_level.txt,sha256=-NyohTGLDihvH6GApBYzlF4QdHXD98YMe6Bn0u7o63Q,20
+napari_stl_exporter-0.0.6.dist-info/RECORD,,
