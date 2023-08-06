@@ -1,0 +1,10 @@
+yamlu
+lxml
+numpy
+matplotlib
+Pillow
+
+[testing]
+setuptools
+pytest
+pytest-cov
