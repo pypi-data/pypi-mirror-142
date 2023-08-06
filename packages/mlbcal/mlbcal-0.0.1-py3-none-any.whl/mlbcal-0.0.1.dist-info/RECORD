@@ -1,0 +1,13 @@
+mlbcal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlbcal/main.py,sha256=cyLoQimsoX8eiSGQ9L7FkSoc-ZTLRGOrorGLeeopDsg,6191
+mlbcal/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlbcal/data/teams.json,sha256=kxqWAvo27qYk0naHiEbtPbRcTzuHC9Xa0jBuddCDOkM,2566
+mlbcal/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlbcal/utils/download_teams.py,sha256=hqRcOHJjsyMghLfcaPBualUwhTDgbmFe913hRfW8biw,1394
+mlbcal/utils/load.py,sha256=8lXF-OzPnXBLZbosYPd9_GUi12PwrPiFn4xtY_wTSeg,397
+mlbcal-0.0.1.dist-info/LICENSE,sha256=K-o_3jS1eEy6inYcT4rPcZ6CwFAhOCTv4Wr7SOBOk6s,1063
+mlbcal-0.0.1.dist-info/METADATA,sha256=k3o4fi1d6b2_i5sqUSkuJ-EKafJfIWV2X3SCy_69hWs,2305
+mlbcal-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mlbcal-0.0.1.dist-info/entry_points.txt,sha256=hGJnhgygn4QLDtMMMiv6_OnVhcGFdS9DUbeEFZiCgl4,44
+mlbcal-0.0.1.dist-info/top_level.txt,sha256=kCtzSUbGUy-rxVRqUq-0iDUPAam6D8qDSCh9qN-EA24,7
+mlbcal-0.0.1.dist-info/RECORD,,
