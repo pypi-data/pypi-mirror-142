@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spotipy_random/__init__.py
+src/spotipy_random/spotipy_random.py
+src/spotipy_random.egg-info/PKG-INFO
+src/spotipy_random.egg-info/SOURCES.txt
+src/spotipy_random.egg-info/dependency_links.txt
+src/spotipy_random.egg-info/top_level.txt
