@@ -1,0 +1,3 @@
+include trainer/models/*.py
+include trainer/loaders/*.py
+include trainer/utils/*.py

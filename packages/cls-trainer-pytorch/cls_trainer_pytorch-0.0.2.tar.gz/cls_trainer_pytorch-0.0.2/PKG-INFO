@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cls_trainer_pytorch
+Version: 0.0.2
+Summary: General neural network classification trainer compatibile with PyTorch, grid search regime
+Home-page: https://github.com/BartekKrzepkowski/TSDAP-Materials/tree/master/project
+Author: Bartek Krzepkowski
+Author-email: b.krzepkowski@student.uw.edu.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
