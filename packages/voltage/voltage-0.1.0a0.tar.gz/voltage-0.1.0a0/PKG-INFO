@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: voltage
+Version: 0.1.0a0
+Summary: A Simple Pythonic Asynchronous API wrapper for Revolt.
+Home-page: https://github.com/EnokiUN/voltag
+Author: EnokiUN
+License: MIT
+Project-URL: Documentation, https://psup.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://github.com/enokiun/voltage/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+-------
+Voltage
+-------
+
+A Simple Pythonic Asynchronous API wrapper for Revolt.
+
+nothing much here yet tho.
+
+An example payload bot:
+
+.. code-block:: python3
+
+    import voltage
+
+    client = voltage.Client()
+
+    @client.on('message')
+    async def on_message(payload):
+        if payload['content'] == 'ping':
+            await client.send_message(payload['channel'], 'pong')
+        if payload['content'] == 'embed':
+            embed = voltage.new_embed(title="Hello World", description="This is an embed")
+            await client.send_message(payload['channel'], content"Hi", embed=embed) # Adding content since it's required by revolt.
+
+    client.run("TOKEN")
+
