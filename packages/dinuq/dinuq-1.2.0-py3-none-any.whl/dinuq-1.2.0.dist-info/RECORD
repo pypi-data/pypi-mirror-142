@@ -1,0 +1,13 @@
+dinuq/__init__.py,sha256=EF0SuPBDndzBOaFVSWH_9IAqhnwCZDi_JWoroRKjqBY,113
+dinuq/checks.py,sha256=vQ-bJtGvLwxMOvlfL-5MGO2NcJEHht8JW3XwkK_EJ6I,2550
+dinuq/make_ntcont.py,sha256=hRoChB_eXmH67QqqYM7WKpDf4VHuLsy82jd4pZ70eTk,10852
+dinuq/rda.py,sha256=xT651V4alw22I6Dv9ov5Oqub0eUHXVNg2STi7m0qDt8,8465
+dinuq/rscu.py,sha256=-hfbWfziG12_zdTPPbxMTWVdUA0xk3Wq7rGKbOsfazI,4555
+dinuq/sdu.py,sha256=6_E1bzhZKBM7IyJsGRQHnOrN1eJ14Xj_BpYZjKc8Wa8,67568
+dinuq/sduc.py,sha256=3LsiV74rP-cNlZ2bCMopLAppj6xGIwb1ruu5g-X6wdA,34609
+dinuq/thedicts.py,sha256=D2eRuY6sFrYN3jqN5ID5oCEcxUsWJvaGF6WCYGlu8Bw,2818
+dinuq-1.2.0.dist-info/LICENSE.txt,sha256=Fms8PLlm0bMjxc_EabTy2hDYNud_w5ZAwBPnRLDUWz8,1089
+dinuq-1.2.0.dist-info/METADATA,sha256=s00c8crxn5K3UZ5ki0AT0YbEWD7M9fkDadgTWWeKZUQ,1909
+dinuq-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dinuq-1.2.0.dist-info/top_level.txt,sha256=x5X96mraA2N05SigPbd_YSeuUwruISOEI_zbj4QVdUU,6
+dinuq-1.2.0.dist-info/RECORD,,
