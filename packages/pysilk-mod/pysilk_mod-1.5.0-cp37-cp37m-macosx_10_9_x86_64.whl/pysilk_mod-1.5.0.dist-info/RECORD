@@ -1,0 +1,12 @@
+pysilk/__init__.py,sha256=56Y_en3LmycF23uM_H4dZARXfLjMY0C99Zmsc9g021o,348
+pysilk/__main__.py,sha256=wI8UcwX6N6-zcRVhy8mIMYRAdIJa9cfHVkEsmAsHmxo,1938
+pysilk/coder.cpython-37m-darwin.so,sha256=10hyaUHOGWPqILiskJoIXyRyLV5IMICVOOhUSeBDqhU,374760
+pysilk/pysilk.py,sha256=p546YxeHidWC9KRIfvfE0I4YKMpJW92WrXwH912nJbg,2246
+pysilk/utils.py,sha256=kO8juCawPdGIKkpzVZRsrlvb4avxEK9lc2T7azlJwWY,518
+pysilk/wav.py,sha256=eOMs9fTMtm5I2CWEKFftiy5q6w4SNWxXYZhKGKT0na4,1232
+pysilk_mod-1.5.0.dist-info/LICENSE,sha256=E6Es4ZNxz5F6o35P3CftG05nWoYt6nBKtsqnVBl0EvA,6277
+pysilk_mod-1.5.0.dist-info/METADATA,sha256=3vJrILzcKE5zTc0vVLkm2qfmzoiW_eG9XkxxI_omnDo,584
+pysilk_mod-1.5.0.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+pysilk_mod-1.5.0.dist-info/top_level.txt,sha256=tcB-cCbL6OMj8uspHFAz4kJ8ObWLz--nuLQ1wVc0GRY,7
+pysilk_mod-1.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pysilk_mod-1.5.0.dist-info/RECORD,,
