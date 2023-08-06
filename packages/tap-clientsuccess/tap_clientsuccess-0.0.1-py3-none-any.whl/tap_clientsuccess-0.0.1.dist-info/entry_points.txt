@@ -1,0 +1,3 @@
+[console_scripts]
+tap-clientsuccess=tap_clientsuccess.tap:TapClientSuccess.cli
+

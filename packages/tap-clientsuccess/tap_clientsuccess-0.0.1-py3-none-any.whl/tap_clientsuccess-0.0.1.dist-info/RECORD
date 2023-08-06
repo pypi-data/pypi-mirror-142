@@ -1,0 +1,13 @@
+tap_clientsuccess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_clientsuccess/client.py,sha256=OW6rmDotsWh4PAhkbJ7jvfHp-TenXVr9HidfWMCL5fE,1409
+tap_clientsuccess/schemas/client.json,sha256=lTU8U6M2YiGEiSQ7YGX8-_gyiz2FjkAodL85lk7HJPM,3216
+tap_clientsuccess/schemas/clients.json,sha256=RU9srTAOZsKgSeTutJDLaTkcvA0d9VgDx1Y9NmbCC2Y,899
+tap_clientsuccess/schemas/interactions.json,sha256=3eAkSipQq-Skq6FxoZ9hIp2XsCYIkVOgpy9FywcJbrU,2376
+tap_clientsuccess/streams.py,sha256=FEYTdliREeGtxZC5vUyQIv7zv1s0ILeDsWghNARKyXk,3696
+tap_clientsuccess/tap.py,sha256=jgRAX1gjsLXIZaMrC-NxCjJTUIwlIiBwWu1zEbGx7HM,1353
+tap_clientsuccess/tests/__init__.py,sha256=lvEF1D2DzFWJETOmjIbKPNxfuWNGg8iuGE9FnBNwinA,40
+tap_clientsuccess/tests/test_core.py,sha256=iEhoh7684PxG6afs9I_1ZfHb4I2EundbPJrU9J7uPkY,732
+tap_clientsuccess-0.0.1.dist-info/entry_points.txt,sha256=3EcKrh113iZ7_OD1RNx1V-j31cPw5Dk9HwC2_CtlOtk,80
+tap_clientsuccess-0.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+tap_clientsuccess-0.0.1.dist-info/METADATA,sha256=0kVFhb2HMZLpb7-7CdbbbPToN_a7BRPb2qH105pabkg,594
+tap_clientsuccess-0.0.1.dist-info/RECORD,,
