@@ -1,0 +1,12 @@
+#ifndef _JANUS_CONFIG_H_
+#define _JANUS_CONFIG_H_
+  #define JANUS_LIBRARY_NAME "Janus"
+  #define JANUS_LIBRARY_DESCRIPTION "Janus - Janus DAVE-ML Interpreter"
+  #define JANUS_VERSION 0x020300
+  #define JANUS_VERSION_HEX "0x020300"
+  #define JANUS_VERSION_SHORT "2.3.0"
+  #define JANUS_VERSION_LONG "Janus-2.3.0"
+  #define JANUS_REVISION "2.3.0.1568"
+  #define JANUS_REVISION_COUNT 1568
+  #define JANUS_REVISION_INFO "6688b7c8baf9bea367fed2e78150df7221ae9dd3"
+#endif /* _JANUS_CONFIG_H_ */
