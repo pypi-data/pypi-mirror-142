@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+tools_doc_sphinx/__init__.py
+tools_doc_sphinx/auto_doc_api.py
+tools_doc_sphinx/summary_groups.py
+tools_doc_sphinx/tree_view_source_code.py
+tools_doc_sphinx.egg-info/PKG-INFO
+tools_doc_sphinx.egg-info/SOURCES.txt
+tools_doc_sphinx.egg-info/dependency_links.txt
+tools_doc_sphinx.egg-info/top_level.txt
