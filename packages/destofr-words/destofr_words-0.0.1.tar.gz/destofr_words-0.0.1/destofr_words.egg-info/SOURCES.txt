@@ -1,0 +1,13 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+data/io.github.destofr.Words.desktop
+destofr_words/GamePlayer.ui
+destofr_words/__init__.py
+destofr_words/__main__.py
+destofr_words/main.css
+destofr_words.egg-info/PKG-INFO
+destofr_words.egg-info/SOURCES.txt
+destofr_words.egg-info/dependency_links.txt
+destofr_words.egg-info/top_level.txt
