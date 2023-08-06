@@ -1,0 +1,2 @@
+[console_scripts]
+excal = excal:main
