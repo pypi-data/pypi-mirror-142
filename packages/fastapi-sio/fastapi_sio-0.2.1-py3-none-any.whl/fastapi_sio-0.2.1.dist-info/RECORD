@@ -1,0 +1,10 @@
+fastapi_sio/__init__.py,sha256=jiFAuIPKir7N0bPC3Wr-UtAGcAnEIGDlVzeIG9lOxu8,81
+fastapi_sio/actors.py,sha256=IpfB-RKUpM72zQuwuwPRrloLoXiwOBGu0c93Y7u9Wrc,1553
+fastapi_sio/applications.py,sha256=ktzLBeGoCjZ-QKwqrSkbk7bFXQEQ3udVoVqRZ4nIZ5s,6115
+fastapi_sio/asyncapi.py,sha256=RM_qlsOTITTBRFpS95mPIMT9YDacpKeETcgXBFT2URY,2994
+fastapi_sio/schemas/asyncapi.py,sha256=h1JyslTbi1AsgmW5pHete6eKt6V7sDqB-EAtBGjExF8,3294
+fastapi_sio/utils.py,sha256=6rlmg8wXbhS8SqfUJsr7o2n6_BkaGZPNQZLAWrj6e9I,696
+fastapi_sio-0.2.1.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+fastapi_sio-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fastapi_sio-0.2.1.dist-info/METADATA,sha256=s41dYCnOlV4oLErvgYlfT1zVf_nsZP5kjyl8D8f1If4,3678
+fastapi_sio-0.2.1.dist-info/RECORD,,
