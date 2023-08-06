@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rescrap
+Version: 0.1.1
+Summary: Regex Scraper
+Author: LouMa
+Author-email: louma.pypi@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyPDF2 (>=1.26.0,<2.0.0)
+Requires-Dist: regex (>=2021.11.10,<2022.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
