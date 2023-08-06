@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pyparadiseo
+Version: 0.2.1
+Summary: Python of the ParadisEO framework for heuristic optimization
+Home-page: https://gitlab.inria.fr/paradiseo/pyparadiseo
+Author: Jan Gmys
+Author-email: jan.gmys@inria.fr
+License: CeCILL
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+[![pipeline status](https://gitlab.inria.fr/paradiseo/pyparadiseo/badges/master/pipeline.svg)](https://gitlab.inria.fr/paradiseo/pyparadiseo/-/commits/master)
+
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#getting-started)
+- [Components](#components)
+
+
+
+## Installation
+
+You can install pyParadiseo with `pip`
+
+```console
+pip install pyparadiseo
+```
+
+## Getting Started
+
+Example of running EO's simple GA (SGA) for the One-Max test problem
+
+```python
+# problem dependent
+from pyparadiseo import Pop
+from pyparadiseo.evaluator import FitnessEval,PopLoopEval
+# encoding dependent
+from pyparadiseo.initializer import BinaryInit
+from pyparadiseo.operator import OnePtBitCrossover,DetBitFlip
+# independent
+from pyparadiseo.eo import algo,selector,continuator
+
+import numpy as np
+
+if __name__ == "__main__":
+    #make pyparadiseo evaluator from python function
+    eval = FitnessEval(lambda sol: np.count_nonzero(sol))
+    #generate and evaluate population
+    pop = Pop(25, BinaryInit(20))
+    PopLoopEval(eval)(pop,pop)
+    #assemble simple GA
+    sga = algo.SGA(
+        selector.DetTournamentSelect(),
+        OnePtBitCrossover(),.2,
+        DetBitFlip(),.6,
+        eval,
+        continuator.GenContinue(100)
+    )
+    #run algo on pop and print best individual
+    sga(pop)
+    print(pop.best())
+```
+
+## Components
+- **EO** (Population-based single-objective)
+- **MO** (Trajectory-based single-objective)
+- **MOEO** (Multi-objective)
+- **Encodings** : Binary, Integer, Real, Permutation, Custom
+- **Genetic Operators** : ...
+
+
