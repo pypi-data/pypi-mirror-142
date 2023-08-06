@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+fits2comp/__init__.py
+fits2comp/__main__.py
+fits2comp.egg-info/PKG-INFO
+fits2comp.egg-info/SOURCES.txt
+fits2comp.egg-info/dependency_links.txt
+fits2comp.egg-info/entry_points.txt
+fits2comp.egg-info/requires.txt
+fits2comp.egg-info/top_level.txt
