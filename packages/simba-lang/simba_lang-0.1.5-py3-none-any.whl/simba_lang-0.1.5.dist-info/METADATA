@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: simba-lang
+Version: 0.1.5
+Summary: The Simba programming language
+Author: Jérémie Vaney
+Author-email: jeremievaney@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyrsistent
+Requires-Dist: prompt-toolkit
+Requires-Dist: toolz
+
+ # Simba Documentation
+
+Simba is a Clojure-like, interpreted programming language that easily interoperates with all Python libraries.
+Features:
+- multimethods
+- persistent immutable data structures via Pyrsistent
+- easy interoperability
+- macros
+- Clojure-like standard library based on similar abstractions
+- named arguments
+
+Install:
+You can use Simba from the command line by calling `src/simba.py` from the main directory.
+You can execute some files with:
+`src/simba.py <file-name> <eventual-other-file-names>*`; at which point the execution will always start in the main namespace.
+
+Build:
+
+
