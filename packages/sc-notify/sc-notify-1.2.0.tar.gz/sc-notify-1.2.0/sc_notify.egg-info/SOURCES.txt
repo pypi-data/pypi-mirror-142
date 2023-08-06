@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+notify/__init__.py
+notify/__main__.py
+notify/mail.py
+notify/message.py
+notify/pm.py
+sc_notify.egg-info/PKG-INFO
+sc_notify.egg-info/SOURCES.txt
+sc_notify.egg-info/dependency_links.txt
+sc_notify.egg-info/entry_points.txt
+sc_notify.egg-info/requires.txt
+sc_notify.egg-info/top_level.txt
