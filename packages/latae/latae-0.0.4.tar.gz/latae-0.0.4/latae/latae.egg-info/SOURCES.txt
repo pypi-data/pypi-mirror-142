@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+latae/latae.egg-info/PKG-INFO
+latae/latae.egg-info/SOURCES.txt
+latae/latae.egg-info/dependency_links.txt
+latae/latae.egg-info/top_level.txt
