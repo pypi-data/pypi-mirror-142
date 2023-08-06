@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: prometheus-query-builder
+Version: 0.1.1
+Summary: Package for generation Prometheus Query Language queries.
+Home-page: https://github.com/m-chrome/prometheus-query-builder
+Author: Michail Tsyganov
+Author-email: tsyganov.michail@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/m-chrome/prometheus-query-builder
