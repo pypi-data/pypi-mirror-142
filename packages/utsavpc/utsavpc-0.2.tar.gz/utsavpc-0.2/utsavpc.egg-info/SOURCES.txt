@@ -1,0 +1,7 @@
+Licence.txt
+setup.py
+utsavpc/__init__.py
+utsavpc.egg-info/PKG-INFO
+utsavpc.egg-info/SOURCES.txt
+utsavpc.egg-info/dependency_links.txt
+utsavpc.egg-info/top_level.txt

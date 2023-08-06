@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: utsavpc
+Version: 0.2
+Summary: This is Utsav's First package
+Home-page: UNKNOWN
+Author: Utsav Chabhadiya
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: Licence.txt
+
+ This is a package whcih sums the value of two numbers.
+
