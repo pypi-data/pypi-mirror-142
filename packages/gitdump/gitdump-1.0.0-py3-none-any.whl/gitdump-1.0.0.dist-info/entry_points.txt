@@ -1,0 +1,3 @@
+[console_scripts]
+gd = gitdump.__main__:main
+
