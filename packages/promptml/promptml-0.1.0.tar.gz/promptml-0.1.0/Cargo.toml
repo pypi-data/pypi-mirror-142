@@ -1,0 +1,22 @@
+[package]
+name = "promptml"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0"
+authors = ["ylfeng <ylfeng@ir.hit.edu.cn>"]
+description = "A Parser for Prompt Markup Language."
+homepage = "https://github.com/AlongWY/PromptEngine"
+repository = "https://github.com/AlongWY/PromptEngine"
+keywords = ["prompt"]
+exclude = [".github"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nom = { version = "7" }
+itertools = { version = "0.10.3" }
+pyo3 = { version = "0.16.1", features = ["extension-module"] }
+
+[package.metadata.maturin]
+python-source = "python"
