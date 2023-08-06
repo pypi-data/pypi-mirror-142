@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+colorprint3/__init__.py
+colorprint3.egg-info/PKG-INFO
+colorprint3.egg-info/SOURCES.txt
+colorprint3.egg-info/dependency_links.txt
+colorprint3.egg-info/top_level.txt
