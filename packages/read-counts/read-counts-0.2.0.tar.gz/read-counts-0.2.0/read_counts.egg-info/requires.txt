@@ -1,0 +1,9 @@
+numpy
+pandas
+
+[dev]
+bump2version
+pytest
+black
+mypy
+flake8
