@@ -1,0 +1,5 @@
+setup.py
+s3000.egg-info/PKG-INFO
+s3000.egg-info/SOURCES.txt
+s3000.egg-info/dependency_links.txt
+s3000.egg-info/top_level.txt
