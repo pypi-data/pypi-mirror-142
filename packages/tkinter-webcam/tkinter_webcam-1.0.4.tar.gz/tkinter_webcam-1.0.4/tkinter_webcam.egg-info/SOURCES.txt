@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tkinter_webcam/__init__.py
+tkinter_webcam/webcam.py
+tkinter_webcam.egg-info/PKG-INFO
+tkinter_webcam.egg-info/SOURCES.txt
+tkinter_webcam.egg-info/dependency_links.txt
+tkinter_webcam.egg-info/top_level.txt
