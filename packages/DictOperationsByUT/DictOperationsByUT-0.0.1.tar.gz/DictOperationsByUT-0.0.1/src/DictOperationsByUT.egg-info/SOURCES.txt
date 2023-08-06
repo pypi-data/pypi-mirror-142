@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DictOperationsByUT/__init__.py
+src/DictOperationsByUT/dict_main.py
+src/DictOperationsByUT/list_main.py
+src/DictOperationsByUT.egg-info/PKG-INFO
+src/DictOperationsByUT.egg-info/SOURCES.txt
+src/DictOperationsByUT.egg-info/dependency_links.txt
+src/DictOperationsByUT.egg-info/top_level.txt
