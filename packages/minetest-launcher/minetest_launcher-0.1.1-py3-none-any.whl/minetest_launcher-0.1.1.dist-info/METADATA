@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: minetest-launcher
+Version: 0.1.1
+Summary: Work in progress Minetest server browser and launcher
+Home-page: https://github.com/destofr/MinetestLauncher
+Author: destofr
+Author-email: destofr@outlook.com
+License: GPLv3+
+Project-URL: Bug Tracker, https://github.com/destofr/MinetestLauncher/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: requests
+
+# Minetest Launcher
+A GTK Minetest server browser and launcher
+
+This is in a very early development stage.
+
+Basic roadmap:
+- Server list implementation
+- Login management
+- Detect and launch Minetest
+- Preferences
+
+## Installation
+To install the latest development version:
+```
+pip install https://github.com/destofr/MinetestLauncher/archive/refs/heads/main.zip
+```
+
+## Contributing
+Bug reports and pull requests are welcome.
+
+

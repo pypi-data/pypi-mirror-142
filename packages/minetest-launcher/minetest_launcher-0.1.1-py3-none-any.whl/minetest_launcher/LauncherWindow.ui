@@ -1,0 +1,13 @@
+<interface>
+    <template class="LauncherWindow" parent="GtkApplicationWindow">
+        <property name="default-width">500</property>
+        <property name="default-height">500</property>
+        <child>
+            <object class="GtkScrolledWindow">
+                <child>
+                    <object class="ServerList" id="server_list"></object>
+                </child>
+            </object>
+        </child>
+    </template>
+</interface>
