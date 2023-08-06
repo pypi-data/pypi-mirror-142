@@ -1,0 +1,8 @@
+setup.py
+cheesy_lines/__init__.py
+cheesy_lines/cheesy_lines.py
+cheesy_lines.egg-info/PKG-INFO
+cheesy_lines.egg-info/SOURCES.txt
+cheesy_lines.egg-info/dependency_links.txt
+cheesy_lines.egg-info/not-zip-safe
+cheesy_lines.egg-info/top_level.txt
