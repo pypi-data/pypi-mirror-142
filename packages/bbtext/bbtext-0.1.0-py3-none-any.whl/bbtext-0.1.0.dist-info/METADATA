@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bbtext
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Yuta Taniguchi
+Author-email: yuta.taniguchi.y.t@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: pdfminer.six (>=20211012,<20211013)
