@@ -1,0 +1,3 @@
+[console_scripts]
+epg=py_epg.main:main
+
