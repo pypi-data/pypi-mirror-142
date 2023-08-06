@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/para-mlp/__init__.py
+src/para-mlp/preprocess.py
+src/para_mlp_iwamura.egg-info/PKG-INFO
+src/para_mlp_iwamura.egg-info/SOURCES.txt
+src/para_mlp_iwamura.egg-info/dependency_links.txt
+src/para_mlp_iwamura.egg-info/top_level.txt

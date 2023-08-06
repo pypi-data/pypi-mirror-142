@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: para-mlp-iwamura
+Version: 0.0.1
+Summary: paramagnetic machine learning potential package
+Home-page: https://github.com/iwamura-lab/para-mlp
+Author: Taiki Iwamura
+Author-email: takki.0206@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# para-mlp
+paramagnetic machine learning potential package
+
+
