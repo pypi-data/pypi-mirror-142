@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: atomic6ghg
+Version: 0.1.1
+Summary: Library of constants, conversion factors and functions for greenhouse gas calculations
+Home-page: https://github.com/GE-Atomic6/ghg
+Author: General Electric Company
+Author-email: atomic.6@ge.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# ghg
+The Atomic6 GHG package has been crafted to help Python developers speed development of tools
+for calculating estimates of CO2 equivalent greenhouse gas emissions.
+
+Install it from PyPI:
+
+`pip install atomic6ghg`
+
+## Docs
+[Read the Docs](https://ge-atomic6.github.io/ghg/)
+
+## Sponsorship
+Atomic6 GHG is made possible by funding from the General Electric Company and the generous support of developers like 
+you!
+

@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+atomic6ghg/__init__.py
+atomic6ghg/__main__.py
+atomic6ghg.egg-info/PKG-INFO
+atomic6ghg.egg-info/SOURCES.txt
+atomic6ghg.egg-info/dependency_links.txt
+atomic6ghg.egg-info/top_level.txt
+atomic6ghg/factors/__init__.py
+atomic6ghg/formulas/__init__.py
+atomic6ghg/schemas/__init__.py
