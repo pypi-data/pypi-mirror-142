@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ezaws
+Version: 0.13
+Summary: An easy to use interface to AWS, ezaws.
+Home-page: https://github.com/saidvandeklundert/ezaws
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/saidvandeklundert/ezaws/issues
+Project-URL: Source, https://github.com/saidvandeklundert/ezaws
+Project-URL: Documentation, https://github.com/saidvandeklundert/ezaws
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+
+# ezaws
+
+Building an easy interface to work with the cloud.
+
+Work in progress.
+
