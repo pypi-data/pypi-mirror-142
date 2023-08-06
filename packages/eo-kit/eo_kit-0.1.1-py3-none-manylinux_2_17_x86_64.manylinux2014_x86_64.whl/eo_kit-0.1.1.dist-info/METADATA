@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: eo-kit
+Version: 0.1.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: cffi
+Requires-Dist: numpy
+Summary: A multithreaded library for efficient Earth observation algorithms.
+Author: Andrew Bowell
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/AnBowell/eo-kit
+Project-URL: documentation, https://eo-kit.readthedocs.io/en/latest/
+
+# EOkit
+
+EOkit is aiming to be a useful Python library which uses Rust behind the scenes to multi-thread and accelerate numerical operations.
+
+This package can be installed from PyPI here: https://pypi.org/project/eo-kit/ 
+
+The (very basic) documentation can be found here: https://eo-kit.readthedocs.io/en/latest/ 
+
