@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: visionpy
+Version: 0.0.4
+Summary: Vision Python client library
+Home-page: https://github.com/vision-consensus/vision-python-sdk
+License: MIT
+Keywords: vision,api,blockchain
+Author: mio
+Author-email: liurusi.101@gmail.com
+Requires-Python: >3.7.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: base58 (>=2.0.0,<3.0.0)
+Requires-Dist: ecdsa (>=0.15)
+Requires-Dist: eth_abi (>=2.1.1,<3.0.0)
+Requires-Dist: httpx (>=0.16.1)
+Requires-Dist: pycryptodome (>=3.9.7,<4.0.0)
+Project-URL: Repository, https://github.com/vision-consensus/vision-python-sdky
+Description-Content-Type: text/markdown
+
+# vision-python-sdk (visionpy)
+[![PyPI version](https://badge.fury.io/py/visionpy.svg)](https://badge.fury.io/py/visionpy)
+
+Vision Python Client Library.
+
+## Features
+1. Get Block, Transaction, TransactionInfo, Node;
+2. Build and transfer VS, VRC10, VRC20;
+3. Parse event logs of TransactionInfo;
+4. Decode contract function inputs;
+5. Asyncio support;
+6. Python 3.7.2 and late version required;
+7. Poetry for package management.
+
+## How to use
+More examples please check `example` folder.
+```python
+from visionpy import Vision
+from visionpy.keys import PrivateKey
+
+
+# Private key of VDGXn73Qgf6V1aGbm8eigoHyPJRJpALN9F
+priv_key = PrivateKey(bytes.fromhex("eed06aebdef88683ff5678b353d1281bb2b730113c9283f7ea96600a0d2c104f"))
+def transfer():
+    client = Vision(network='vpioneer')
+    txn_ret = (
+        client.vs.transfer("VTCYvEK2ZuWvZ5LXqrLpU2GoRkFeJ1NrD2", "VSfD1o6FPChqdqLgwJaztjckyyo2GSM1KP", 1_000)
+        .memo("test memo")
+        .build()
+        .inspect()
+        .sign(priv_key)
+        .broadcast()
+    )
+    print(txn_ret)
+    print(txn_ret.result())
+```
+
+#### Async Client
+
+```python
+import asyncio
+
+from visionpy import AsyncVision
+from visionpy.keys import PrivateKey
+
+# private key of VTCYvEK2ZuWvZ5LXqrLpU2GoRkFeJ1NrD2
+priv_key = PrivateKey(bytes.fromhex("eed06aebdef88683ff5678b353d1281bb2b730113c9283f7ea96600a0d2c104f"))
+
+async def transfer():
+    async with AsyncVision(network='vpioneer') as client:
+        print(client)
+
+        txb = (
+            client.trx.transfer("VTCYvEK2ZuWvZ5LXqrLpU2GoRkFeJ1NrD2", "VSfD1o6FPChqdqLgwJaztjckyyo2GSM1KP", 1_000)
+            .memo("test memo")
+            .fee_limit(100_000_000)
+        )
+        txn = await txb.build()
+        print(txn)
+        txn_ret = await txn.sign(priv_key).broadcast()
+        print(txn_ret)
+        print(await txn_ret.wait())
+
+if __name__ == '__main__':
+    asyncio.run(transfer())
+```
