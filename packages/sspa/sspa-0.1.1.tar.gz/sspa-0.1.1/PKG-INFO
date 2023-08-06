@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sspa
+Version: 0.1.1
+Summary: Single sample pathway analysis tools for omics data
+Home-page: https://github.com/cwieder/sspa
+Author: Cecilia Wieder
+Author-email: cw2019@ic.ac.uk
+License: GNU 3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
