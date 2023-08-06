@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+betfair_ex_connection/__init__.py
+betfair_ex_connection/betfair_ex_conn_class.py
+betfair_ex_connection.egg-info/PKG-INFO
+betfair_ex_connection.egg-info/SOURCES.txt
+betfair_ex_connection.egg-info/dependency_links.txt
+betfair_ex_connection.egg-info/requires.txt
+betfair_ex_connection.egg-info/top_level.txt
