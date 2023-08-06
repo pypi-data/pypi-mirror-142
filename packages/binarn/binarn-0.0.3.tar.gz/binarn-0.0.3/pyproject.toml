@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "binarn"
+version = "0.0.3"
+description = "Find arbitrary keys in deep dictionaries."
+authors = ["Baptiste Fontaine <b@ptistefontaine.fr>"]
+license = "MIT"
+homepage = "https://github.com/bfontaine/binarn"
+include = ["binarn/py.typed"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
