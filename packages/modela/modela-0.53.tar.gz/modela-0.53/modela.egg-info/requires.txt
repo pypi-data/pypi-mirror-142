@@ -1,0 +1,10 @@
+Click>=7.0
+grpcio
+jwt
+modelaapi
+pandas
+protobuf
+protoc-gen-swagger
+tabulate
+tqdm
+typing_utils
