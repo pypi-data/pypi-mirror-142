@@ -1,0 +1,4 @@
+zanshinsdk==1.2.0
+typer==0.3.2
+prettytable==2.1.0
+boto3~=1.21.19
