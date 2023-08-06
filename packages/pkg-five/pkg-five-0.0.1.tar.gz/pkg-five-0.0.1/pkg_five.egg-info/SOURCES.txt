@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg/__init__.py
+pkg_five.egg-info/PKG-INFO
+pkg_five.egg-info/SOURCES.txt
+pkg_five.egg-info/dependency_links.txt
+pkg_five.egg-info/top_level.txt
