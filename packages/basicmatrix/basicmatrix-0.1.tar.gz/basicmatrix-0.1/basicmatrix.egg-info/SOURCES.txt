@@ -1,0 +1,8 @@
+setup.py
+basicmatrix/__init__.py
+basicmatrix/basicmatrix.py
+basicmatrix.egg-info/PKG-INFO
+basicmatrix.egg-info/SOURCES.txt
+basicmatrix.egg-info/dependency_links.txt
+basicmatrix.egg-info/not-zip-safe
+basicmatrix.egg-info/top_level.txt
