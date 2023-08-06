@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: packjay-FXXKPYTHON
+Version: 0.0.2
+Summary: 一个测试
+Home-page: https://github.com/pypa/sampleproject
+Author: JayChen
+Author-email: 12345678@qq.com
+License: MIT Licence
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# PackJay
+这是一个测试。。。。。。。。。。
+
