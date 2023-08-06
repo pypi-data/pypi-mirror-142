@@ -1,0 +1,14 @@
+tinyDA/__init__.py,sha256=ONlzh8Shnk9JlHTiuaB94UFnow77q8z1xfMJOSGFeL4,328
+tinyDA/chain.py,sha256=BXCOviDhzeJYlwB5XExY0lIgFmeDi74U2vxLndPEBc8,18200
+tinyDA/diagnostics.py,sha256=uN1siNdwiToU-dNr6H0tbTds5Ulb5G9k_59xT_Sq2PI,18538
+tinyDA/distributions.py,sha256=E2klaZ6MWU473JUY140Tt3bbA9G5PDyz4wqiYhb2F3U,7638
+tinyDA/link.py,sha256=gqLEdg6vJxNkNBlzkBI4h2zAHcy_qbJQBIDeXjluQgo,8990
+tinyDA/proposal.py,sha256=s81UyCQed1NlZ1y6JjqsHgVCR2EB3crSyXEMelbE1F0,29842
+tinyDA/ray.py,sha256=CrdCKX95yPXbIU6o5Y_vu9SnWujxlK8dohwNuytzuaw,12977
+tinyDA/sampler.py,sha256=K9DADnOQVlQfkG_IK6POB-Q2-IasgiDue40j6hXqQQ0,11636
+tinyDA/utils.py,sha256=h5RfIeUD8iieNSMwnrUqAU25SY_IeKiy0iiqx2R8eCs,6755
+tinyDA-0.9.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tinyDA-0.9.5.dist-info/METADATA,sha256=7raQyOEw4nOCunJ-CsfCsT-EXmTs2-SygoDSeFF4sJ0,6631
+tinyDA-0.9.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tinyDA-0.9.5.dist-info/top_level.txt,sha256=O5j-lv702iH3dUvpIHZ-yItYFUz0U7pwGF5eTPbbT_s,7
+tinyDA-0.9.5.dist-info/RECORD,,
