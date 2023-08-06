@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist/__init__.py
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist/py.typed
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist.egg-info/PKG-INFO
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist.egg-info/SOURCES.txt
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist.egg-info/dependency_links.txt
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist.egg-info/requires.txt
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist.egg-info/top_level.txt
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist/_jsii/__init__.py
+src/cdk_cloudformation_mongodb_atlas_projectipaccesslist/_jsii/mongodb-atlas-projectipaccesslist@1.1.0-alpha.5.jsii.tgz
