@@ -1,0 +1,4 @@
+[console_scripts]
+changedetection.io = changedetectionio:main
+changedetection.py = changedetectionio:main
+
