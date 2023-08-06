@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hf-doc-builder
+Version: 0.1.0
+Summary: Doc building utility
+Home-page: https://github.com/huggingface/doc-builder
+Author: Hugging Face, Inc.
+Author-email: sylvain@huggingface.co
+License: UNKNOWN
+Keywords: doc documentation doc-builder huggingface hugging face
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+Requires-Dist: packaging
+Requires-Dist: nbformat
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-xdist ; extra == 'all'
+Requires-Dist: torch ; extra == 'all'
+Requires-Dist: transformers ; extra == 'all'
+Requires-Dist: black (~=22.0) ; extra == 'all'
+Requires-Dist: isort (>=5.5.4) ; extra == 'all'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: torch ; extra == 'dev'
+Requires-Dist: transformers ; extra == 'dev'
+Requires-Dist: black (~=22.0) ; extra == 'dev'
+Requires-Dist: isort (>=5.5.4) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'dev'
+Provides-Extra: quality
+Requires-Dist: black (~=22.0) ; extra == 'quality'
+Requires-Dist: isort (>=5.5.4) ; extra == 'quality'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'quality'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-xdist ; extra == 'testing'
+Requires-Dist: torch ; extra == 'testing'
+Requires-Dist: transformers ; extra == 'testing'
+Provides-Extra: transformers
+Requires-Dist: transformers[dev] ; extra == 'transformers'
+
+# doc-builder
+
+This is the package we will use to build the documentation of our Hugging Face repos.
+
+This is a work in progress!
+
+
