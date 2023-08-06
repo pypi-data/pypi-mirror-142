@@ -1,0 +1,8 @@
+quickerml/__init__.py,sha256=PyuIQjmm1MVHP-aJHqUtQfekq3G1x3uc-HbVx8QN3dM,35
+quickerml/exceptions.py,sha256=Xou3mNXPdmA_UC83rlB0AJl4Io8e28B08VUBgJhGgWM,161
+quickerml/finder.py,sha256=FPwuTBLVbd0BgxEdgbXTHET-hN048OTI1zoX9kEGu94,4180
+quickerml/metrics.py,sha256=HcuQhjpg91l_homaLap0HAXym3xhtsFNw_V-MVSR5E8,169
+quickerml-0.1.0.dist-info/METADATA,sha256=aw0FeyJeH3LX-VbbHwEYW3csHXjwxAwGDFV7u57qkSw,1804
+quickerml-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quickerml-0.1.0.dist-info/top_level.txt,sha256=BG0SmAy9wralv3DQlLfQtlYpbqxOB0qGDw-ZFWnMCao,10
+quickerml-0.1.0.dist-info/RECORD,,
