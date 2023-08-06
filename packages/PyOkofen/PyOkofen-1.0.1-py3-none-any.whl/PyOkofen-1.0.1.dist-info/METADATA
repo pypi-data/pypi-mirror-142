@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: PyOkofen
+Version: 1.0.1
+Summary: JSON to python API for Okofen boilers
+Home-page: https://github.com/JbPasquier/pyokofen
+Author: Jean-Baptiste Pasquier
+Author-email: contact@jbpasquier.eu
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# PyOkofen
+
+Python interface for Okofen (oekofen) JSON API
+
+```python
+import pyokofen
+import time
+
+boiler = pyokofen.Okofen()
+# Set here you ip:port/password/ - eg. 1.1.1.1:4321/XXXX/
+try boiler.credentials("1.1.1.1", "4321", "XXXX"):
+    print("It works!")
+    print("Current temperature: " + boiler.get("hk0", "L_roomtemp_act"))
+    print("Target temperature: " + boiler.get("hk0", "L_roomtemp_set"))
+    time.sleep(30)
+    boiler.update()
+    print("Current temperature: " + boiler.get("hk0", "L_roomtemp_act"))
+except:
+    print('Oh no!')
+```
+
+**Notice! Beside the class init, every other function are async functions.**  
+**Notice! Okofen have a soft limitation of 1 request per 10 seconds, regardless of the origin nor if it's to get or set something.**
+
+## Todo
+
+- Document actual okofen API
+- Implement value modification (eg. GET /ww1.heat_once=1 to enable domestic hot water force heating)\ beware 1x request per 10 seconds regardless of the source. Maybe implement a queue?
+- Missing Power, Stirling, Thirdparty, Pu (accu), Se (Solar), Circ (circulation pump), St5k (5kw stirling) datas, as I do not own them, I don't know their format. Lack of documentation on Okofen side.
+
+
