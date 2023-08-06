@@ -1,0 +1,11 @@
+api/ApiClient.py,sha256=VaS_QRaSBisFCobMwkDRG_uogS_vFKUudhootPHa2nI,1948
+api/Card.py,sha256=WRB9gmIjTcB3gAQBRiWU-G9dSCKRynhGOAkCW1Xl4Yk,193
+api/Deck.py,sha256=o6L4-_tFU9AykmdqPgmdyAeSROGg3vXFPLshWRWQwY8,189
+api/DrawnCards.py,sha256=kTHrgPMUmxP1-m94qHChiWUjgjd9oEXybFKwYB_7KAs,223
+api/FetchCache.py,sha256=ZUZKDVLJ-9q1LwkVyguZez-DJtW6cS3RySDhCoQTcz8,1565
+api/__init__.py,sha256=qT30bEEuzx0h2gUQUpgbM_0fmDXVIX4ySksv9ZikzMM,40
+boostrapsdk-0.0.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+boostrapsdk-0.0.6.dist-info/METADATA,sha256=N_HzU92hDWC6hCXKGdk0Rwh4q6nPOh5Uwhnqvpl1pKo,807
+boostrapsdk-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boostrapsdk-0.0.6.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+boostrapsdk-0.0.6.dist-info/RECORD,,
