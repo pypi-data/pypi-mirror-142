@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: clidow
+Version: 0.0.1
+Summary: Climate Downscaling Benchmarks
+Home-page: https://github.com/goel-shashank/CLIDOW
+Author: Tung Nguyen, Hritik Bansal, Shashank Goel
+Author-email: shashankgoel@ucla.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: pickle
+Requires-Dist: internetarchive
+
+# CLIDOW
+This repository hosts the a python library to load dataset benchmarks for research in Climate Downscaling using Deep Learning.
+
+
