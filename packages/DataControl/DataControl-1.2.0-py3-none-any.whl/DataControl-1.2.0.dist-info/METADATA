@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: DataControl
+Version: 1.2.0
+Summary: Data governance script summary
+Home-page: https://github.com/xxxxx/datacontrol
+Author: CAIWEI
+Author-email: caiwei@kuaishou.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/xxxxx/datacontrol/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# README
+
+- 文档
+
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
+
+- 编译
+
+```shell
+python3 -m build
+```
+
+
+
+- 上传到测试PyPi源
+
+```shell
+python3 -m twine upload --repository testpypi dist/*
+```
+
+
+
+- 上传到PyPi源
+
+```shell
+python3 -m twine upload --repository pypi dist/*
+```
+
+
+
