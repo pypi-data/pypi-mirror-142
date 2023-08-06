@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "echoloader"
+version = "0.1.9"
+description = ""
+authors = ["mathias <mathias@us2.ai>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.5,<3.11"
+requests = "^2.26.0"
+watchdog = "^2.1.5"
+pycognito = "^2021.3.1"
+pynetdicom = "^1.5.7"
+opencv-python = "^4.5.4"
+numpy = "^1.21.4"
+pydicom = "^2.2.2"
+tqdm = "^4.62.3"
+python-gdcm = "^3.0.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+echoloader = "echoloader.watcher:main"
