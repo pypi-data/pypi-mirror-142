@@ -1,0 +1,15 @@
+README.md
+setup.py
+abottle/__init__.py
+abottle/base_model.py
+abottle/main.py
+abottle/onnx_model.py
+abottle/pytorch_model.py
+abottle/triton_model.py
+abottle/trt_model.py
+abottle.egg-info/PKG-INFO
+abottle.egg-info/SOURCES.txt
+abottle.egg-info/dependency_links.txt
+abottle.egg-info/entry_points.txt
+abottle.egg-info/requires.txt
+abottle.egg-info/top_level.txt
