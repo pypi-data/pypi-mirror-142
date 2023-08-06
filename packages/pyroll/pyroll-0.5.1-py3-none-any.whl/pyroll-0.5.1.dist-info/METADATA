@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyroll
+Version: 0.5.1
+Summary: PyRoll rolling simulation framework - core library.
+Home-page: https://pyroll-project.github.io/
+License: BSD-3-Clause
+Author: Matthias Schmidtchen
+Author-email: matthias.schmidtchen@imf.tu-freiberg.de
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: lxml (>=4.7.1,<5.0.0)
+Requires-Dist: makefun (>=1.13.1,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.0,<4.0.0)
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: pluggy (>=1.0.0,<2.0.0)
+Requires-Dist: scipy (>=1.7.2,<2.0.0)
+Project-URL: Documentation, https://pyroll-project.github.io/modules/pyroll-core/docs/
+Project-URL: Repository, https://github.com/pyroll-project/pyroll-core
