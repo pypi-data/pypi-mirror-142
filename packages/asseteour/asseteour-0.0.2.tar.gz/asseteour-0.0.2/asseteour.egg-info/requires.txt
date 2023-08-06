@@ -1,0 +1,4 @@
+compipe
+pydantic>=1.9.0
+matplotlib>=3.5.1
+compipe>=0.1.14
