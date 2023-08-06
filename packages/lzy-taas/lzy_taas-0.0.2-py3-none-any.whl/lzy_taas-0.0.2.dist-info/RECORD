@@ -1,0 +1,9 @@
+lzy_taas/__init__.py,sha256=zF8Np83znJLW4mOXfXs21ByNqV22C275r74MlMAOW9E,91
+lzy_taas/config.py,sha256=-5JZvJxdBYndHjaZ6_g0md4X4G_e7gaC8nCJlp7OHGo,556
+lzy_taas/create_project.py,sha256=BQEkVh9r2r-wxqAkw-3UHnkbDaOYViyJQ-wEErv6sVc,5231
+lzy_taas/notebook_generator.py,sha256=p5sfoPS3CtQyL_QdnMYyGYq2x7j0nuDQPesvCy1Ow_E,2251
+lzy_taas/upload_to_s3.py,sha256=XO69ikfz6h1rZBVRPLFduTYIjfzMHaJ0CG3pVcL9y7Q,1435
+lzy_taas-0.0.2.dist-info/METADATA,sha256=gs8oCqFYJljJ3l3jgNWTlG88GJ8o7KlltuzNm0lR2HE,240
+lzy_taas-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lzy_taas-0.0.2.dist-info/top_level.txt,sha256=twJBVZ4hMQ9-cQqvirms6lprtDYyJypxunxyw-J4cRk,9
+lzy_taas-0.0.2.dist-info/RECORD,,
