@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/phamclust/Genome.py
+src/phamclust/SymMatrix.py
+src/phamclust/__init__.py
+src/phamclust/__main__.py
+src/phamclust/clustering.py
+src/phamclust/multiprocess.py
+src/phamclust/similarity.py
+src/phamclust/statistics.py
+src/phamclust.egg-info/PKG-INFO
+src/phamclust.egg-info/SOURCES.txt
+src/phamclust.egg-info/dependency_links.txt
+src/phamclust.egg-info/entry_points.txt
+src/phamclust.egg-info/top_level.txt
