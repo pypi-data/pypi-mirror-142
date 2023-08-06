@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyzytemp/__init__.py
+src/pyzytemp.egg-info/PKG-INFO
+src/pyzytemp.egg-info/SOURCES.txt
+src/pyzytemp.egg-info/dependency_links.txt
+src/pyzytemp.egg-info/requires.txt
+src/pyzytemp.egg-info/top_level.txt
