@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: proxycalc
+Version: 0.1.0
+Summary: Proxycalc provides a Calculator class for handling basic mathematical operations.
+Author-email: Ebube Okoli <ebubeokoli@rocketmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/leonardokhorliey/proxycalc
