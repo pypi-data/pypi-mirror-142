@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: nnrl
+Version: 0.1.1
+Summary: Top-level package for NN RL.
+Home-page: https://github.com/angelolovatto/nnrl
+License: MIT
+Author: Ângelo Gregório Lovatto
+Author-email: angelolovatto@gmail.com
+Requires-Python: >=3.7
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dataclasses-json (>=0.5.4,<0.6.0)
+Requires-Dist: gym (>=0.23.0,<0.24.0)
+Requires-Dist: torch (>=1.9.0,<2.0.0)
+Description-Content-Type: text/x-rst
+
+=====
+NN RL
+=====
+
+
+.. image:: https://img.shields.io/pypi/v/nnrl.svg
+        :target: https://pypi.python.org/pypi/nnrl
+
+.. image:: https://img.shields.io/travis/angelolovatto/nnrl.svg
+        :target: https://travis-ci.com/angelolovatto/nnrl
+
+.. image:: https://readthedocs.org/projects/nnrl/badge/?version=latest
+        :target: https://nnrl.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+Neural Networks and utilities for Reinforcement Learning in PyTorch
+
+
+* Free software: MIT
+* Documentation: https://nnrl.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `briggySmalls/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`briggySmalls/cookiecutter-pypackage`: https://github.com/briggySmalls/cookiecutter-pypackage
+
