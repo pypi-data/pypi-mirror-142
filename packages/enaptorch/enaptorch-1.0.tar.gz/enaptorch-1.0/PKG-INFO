@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: enaptorch
+Version: 1.0
+Summary: A simplified framework and utilities for PyTorch.
+Home-page: https://enaptorch.org
+Author: Swanand Katdare
+Author-email: swanand@edgeneural.ai
+License: UNKNOWN
+Download-URL: https://github.com/SwanandkEN/enaptorch/archive/refs/tags/v1.0.zip
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.1
+Description-Content-Type: text/plain
+Provides-Extra: colorama
+Provides-Extra: scikit-learn
+Provides-Extra: tensorboard
+Provides-Extra: tensorboardX
+Provides-Extra: torchvision
+Provides-Extra: pandas
+Provides-Extra: mlflow
+
+# enaptorch
+TORCH
+
