@@ -1,0 +1,3 @@
+[console_scripts]
+local_chamber=local_chamber:cli
+
