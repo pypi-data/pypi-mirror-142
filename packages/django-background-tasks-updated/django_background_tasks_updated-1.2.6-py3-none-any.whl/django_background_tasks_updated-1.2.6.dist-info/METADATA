@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: django-background-tasks-updated
+Version: 1.2.6
+Summary: Database backed asynchronous task queue
+Home-page: http://github.com/iamjonmiller/django-background-tasks
+Author: arteria GmbH, John Montgomery, Alberto Petrucci, Jon Miller
+Author-email: iamjonamiller@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.txt
+Requires-Dist: six
+Requires-Dist: Django (>=3.2.12)
+
+# Django Background Tasks Updated
+Django Background Task is a database-backed work queue for Django, loosely based
+around [Ruby's DelayedJob](https://github.com/tobi/delayed_job) library. This project was
+adopted and adapted from [lilspikey](lilspikey: https://github.com/lilspikey/) `django-background-task`. This fork includes minor fixes to support Django 4.
+
+To avoid conflicts on PyPI we renamed it to django-background-tasks-updated (plural).
+# Docs
+See [Read the docs](http://django-background-tasks.readthedocs.io/en/latest/)
+# Donations
+``django-background-tasks`` is free software. If you find it useful and would like to give back, please consider making
+a donation to the original author using [Bitcoin](https://blockchain.info/payment_request?address=34vD9fADYX9QAcMfJUB4c2pYd19SG2toZ9) or [PayPal](https://www.paypal.me/arteriagmbh). Thank you!
+
+
