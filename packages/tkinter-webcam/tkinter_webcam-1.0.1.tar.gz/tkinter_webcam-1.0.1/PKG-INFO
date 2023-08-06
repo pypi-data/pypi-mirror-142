@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tkinter_webcam
+Version: 1.0.1
+Summary: Easily display a webcam window in a Tkinter GUI
+Home-page: https://github.com/matthewkayne/Tkinter-Webcam
+Author: Matthew Kayne
+Author-email: matthewkayne2004@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tkinter-Webcam
+
+Easily display a webcam window in a Tkinter GUI
+
+
