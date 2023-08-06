@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+simple_repr/__init__.py
+simple_repr/simple_repr.py
+simple_repr.egg-info/PKG-INFO
+simple_repr.egg-info/SOURCES.txt
+simple_repr.egg-info/dependency_links.txt
+simple_repr.egg-info/top_level.txt
