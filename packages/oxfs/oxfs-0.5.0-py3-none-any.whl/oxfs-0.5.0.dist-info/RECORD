@@ -1,0 +1,11 @@
+oxfs/__init__.py,sha256=dS5cdDvozp1sE0LeCoCaUGRgjuqf3TyAE-yhhPXcanw,14
+oxfs/lock.py,sha256=Y8wiBUcW2hErZQ12YqjpAnL9jAVZP7GR0gnqGV_h4sE,584
+oxfs/oxfs.py,sha256=FTpn9lEm3S4uB3ZoklUbWnoclNnD6oWt8zboO_RXv9U,15073
+oxfs/updater.py,sha256=jNqm3sbHGL4BY0_gfdGeb9C5Tuh9OPnTQsDSJu2RlUo,3386
+oxfs-0.5.0.dist-info/LICENSE,sha256=qLa_eaaLejdRifNma4uNjxwtf2hzEKBwnfPfO31JnfI,1068
+oxfs-0.5.0.dist-info/METADATA,sha256=FRN7RQVyv-AMZrTD_WQ_uVEsaNKbVbJRtM9uEg5WsbY,1238
+oxfs-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oxfs-0.5.0.dist-info/entry_points.txt,sha256=X7NPqK3oBzgfGlX9yNOjyNhGpzlkuJkiodPvwaguqRA,41
+oxfs-0.5.0.dist-info/top_level.txt,sha256=npMdeLDbXkNCQD1Pa_9SygQMb6tByMfGHHYE6hjQwiE,5
+oxfs-0.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+oxfs-0.5.0.dist-info/RECORD,,
