@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datasets_sql/__init__.py
+datasets_sql/query.py
+datasets_sql.egg-info/PKG-INFO
+datasets_sql.egg-info/SOURCES.txt
+datasets_sql.egg-info/dependency_links.txt
+datasets_sql.egg-info/requires.txt
+datasets_sql.egg-info/top_level.txt
+tests/__init__.py
+tests/test_query.py
