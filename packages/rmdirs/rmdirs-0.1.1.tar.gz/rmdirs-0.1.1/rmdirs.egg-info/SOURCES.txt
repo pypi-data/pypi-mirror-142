@@ -1,0 +1,8 @@
+setup.py
+rmdirs/__init__.py
+rmdirs/__main__.py
+rmdirs/utils.py
+rmdirs.egg-info/PKG-INFO
+rmdirs.egg-info/SOURCES.txt
+rmdirs.egg-info/dependency_links.txt
+rmdirs.egg-info/top_level.txt
