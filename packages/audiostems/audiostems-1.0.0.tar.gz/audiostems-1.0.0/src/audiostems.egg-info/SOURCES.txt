@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/audiostems/__init__.py
+src/audiostems.egg-info/PKG-INFO
+src/audiostems.egg-info/SOURCES.txt
+src/audiostems.egg-info/dependency_links.txt
+src/audiostems.egg-info/entry_points.txt
+src/audiostems.egg-info/requires.txt
+src/audiostems.egg-info/top_level.txt
