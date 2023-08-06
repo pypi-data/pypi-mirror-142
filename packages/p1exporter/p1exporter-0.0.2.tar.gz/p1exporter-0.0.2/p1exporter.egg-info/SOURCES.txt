@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+p1exporter/__init__.py
+p1exporter/p1collector.py
+p1exporter/p1reader.py
+p1exporter.egg-info/PKG-INFO
+p1exporter.egg-info/SOURCES.txt
+p1exporter.egg-info/dependency_links.txt
+p1exporter.egg-info/requires.txt
+p1exporter.egg-info/top_level.txt
+scripts/p1exporter

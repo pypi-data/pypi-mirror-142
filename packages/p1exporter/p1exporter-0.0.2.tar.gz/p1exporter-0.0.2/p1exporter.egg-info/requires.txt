@@ -1,0 +1,6 @@
+crcmod>=1.7
+prometheus-client>=0.13.1
+pyserial>=3.5
+
+[testing]
+pytest
