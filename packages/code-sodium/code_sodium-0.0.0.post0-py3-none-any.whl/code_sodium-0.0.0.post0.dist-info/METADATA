@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: code-sodium
+Version: 0.0.0.post0
+Summary: the package of neural networks and utilities
+Home-page: https://github.com/YeongHyeon/sodium
+Author: YeongHyeon Park
+Author-email: young200405@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/YeongHyeon/sodium/archive/refs/heads/master.zip
+Keywords: sodium
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: tensorflow (==2.4.0)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/YeongHyeon/sodium/7253890a6f7638a750e36a069c03b37d95019887/misc/code-sodium.svg?token=AFJZUXAFEDXUMUWZ2Z5TJJTCGHNTC" width="200">
+</div>  
+
+---
+<strong>code-sodium</strong> (short for <a href="https://github.com/YeongHyeon/sodium">sodium</a>) is a Python module for deep learning built on top of TensorFlow and is distributed under the MIT license.  
+
+The project was started in March 2022 by <a href="https://github.com/YeongHyeon">YeongHyeon Park</a>.  
+This project does not limit for participation.  
+Contribute now!  
+
+## Installation
+
+### Dependencies
+sodium requires:
+* Numpy: 1.19.5  
+* TensorFlow: 2.4.0  
+
+### User installation
+You can install the sodium via simple command as below.  
+``` sh
+$ pip install code-sodium
+```
+
+## Development
+There is no limit for new contributors of all experience levels. The sodium community goals are to be helpful, welcoming, and effective. The Development Guide has detailed information about contributing code, documentation, tests, and more. We've included some basic information in this README.
+
+## Example
+
+#### Import sodium package
+``` python
+import sodium
+```
+
+
