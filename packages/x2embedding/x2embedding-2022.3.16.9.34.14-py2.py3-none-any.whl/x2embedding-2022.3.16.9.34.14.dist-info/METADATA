@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: x2embedding
+Version: 2022.3.16.9.34.14
+Summary: Create a Python package.
+Home-page: https://github.com/Jie-Yuan/x2embedding
+Author: x2embedding
+Author-email: yuanjie@example.com
+License: MIT license
+Keywords: x2embedding
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: meutils
+
+
+
+![image](https://img.shields.io/pypi/v/x2embedding.svg) ![image](https://img.shields.io/travis/Jie-Yuan/x2embedding.svg) ![image](https://readthedocs.org/projects/x2embedding/badge/?version=latest)
+
+
+
+<h1 align = "center">🔥x2embedding🔥</h1>
+
+---
+# Install
+```python
+pip install -U x2embedding
+```
+
+# [Docs](https://jie-yuan.github.io/x2embedding/)
+
+# Usages
+```
+from x2embedding.zoo import Bert4Vec
+
+s2v = Bert4Vec()
+s2v.encode(['万物皆可embedding'])
+```
+
+---
+# TODO
+
+
+=======
+History
+=======
+
+0.0.0 (2022-03-15)
+------------------
+
+* First release on PyPI.
+
+
