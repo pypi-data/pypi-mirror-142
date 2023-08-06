@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jrpyml"
+version = "1.0.1"
+description = "Jumping Rivers: Machine Learning with Python"
+authors = ["Jumping Rivers <info@jumpingrivers.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+numpy = ">=1.19"
+pandas = ">=1"
+matplotlib = ">=3.0"
+scipy = ">=1.2"
+scikit-learn = ">=1"
+seaborn = ">=0.11"
+graphviz = ">=0.10"
+
+[tool.poetry.dev-dependencies]
