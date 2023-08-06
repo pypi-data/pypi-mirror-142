@@ -1,0 +1,6 @@
+[console_scripts]
+gem2ms = gemlog.gemconvert:main
+gem_cat = gemlog.gem_cat:main
+gemconvert = gemlog.gemconvert:main
+verify_huddle_test = gemlog.huddle_test:main
+
