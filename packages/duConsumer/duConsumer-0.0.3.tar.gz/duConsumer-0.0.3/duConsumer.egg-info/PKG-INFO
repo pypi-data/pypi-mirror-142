@@ -1,0 +1,47 @@
+Metadata-Version: 1.2
+Name: duConsumer
+Version: 0.0.3
+Summary: python调用dubbo,目前支持dubbo协议，不需要服务端修改成jsonrpc.实现客户端的负载均衡、配合Zookeeper自动发现服务功能等
+Home-page: https://github.com/morningzhang/dubbo
+Author: zhangliming
+Author-email: 149151874@qq.com
+Maintainer: zhangliming
+Maintainer-email: 149151874@qq.com
+License: BSD License
+Description: 依赖pyhessian，bitstring
+        
+        示例代码
+        ::
+        
+            from dubbo import DubboConsumer
+        
+        
+            def print_hi(consumer):
+                req = consumer.queryCusStatis([("Lcom/weimob/o2o/wecom/data/api/interfaces/query/request/CusStatisRequest;",
+                                                {"corpid": 1, "dateRangeType": 3})])
+                print(f'req: {req!r}')
+                for dto in req.responseVo.data.cusStatisDayDtos:
+                    print(f'dto: {dto!r}')
+        
+        
+            if __name__ == '__main__':
+                consumer = DubboConsumer("10.11.32.251:2181", "com.weimob.o2o.wecom.data.api.interfaces.query.QueryCusApi")
+                print_hi(consumer)
+        
+        
+        
+        
+        
+        具体参照测main.py，目前支持常用的dubbo协议。
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
