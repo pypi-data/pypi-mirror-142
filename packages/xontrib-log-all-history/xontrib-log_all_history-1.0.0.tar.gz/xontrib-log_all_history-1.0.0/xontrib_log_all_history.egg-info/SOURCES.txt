@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+xontrib/log_all_history.xsh
+xontrib_log_all_history.egg-info/PKG-INFO
+xontrib_log_all_history.egg-info/SOURCES.txt
+xontrib_log_all_history.egg-info/dependency_links.txt
+xontrib_log_all_history.egg-info/top_level.txt
