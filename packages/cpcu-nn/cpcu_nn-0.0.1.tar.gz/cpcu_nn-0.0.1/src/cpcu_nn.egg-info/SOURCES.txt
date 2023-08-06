@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+src/cpcu_nn.egg-info/PKG-INFO
+src/cpcu_nn.egg-info/SOURCES.txt
+src/cpcu_nn.egg-info/dependency_links.txt
+src/cpcu_nn.egg-info/top_level.txt
+src/nn/__init__.py
+src/nn/sigmoid.py
