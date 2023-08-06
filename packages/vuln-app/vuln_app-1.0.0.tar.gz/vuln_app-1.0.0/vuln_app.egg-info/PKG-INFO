@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vuln-app
+Version: 1.0.0
+Summary: Test package that has vulnerable dependency
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
