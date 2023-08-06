@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "scalarstop"
+version = "5.0.0"
+description = "A framework for managing machine learning experiments."
+authors = ["Neocrym Records Inc <engineering@neocrym.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://www.scalarstop.com"
+repository = "https://github.com/scalarstop/scalarstop"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "*"
+numpy = [
+    {version = ">=1.20", python = "<3.10"},
+    {version = ">=1.22", python = ">=3.10,<3.11"}
+]
+cloudpickle = "^2.0"
+SQLAlchemy = "^1.4"
+alembic = "^1.7"
+log-with-context = "*"
+
+# These are optional dependencies installed
+# with pip extras. Seee the `tool.poetry.extras` section for more.
+tensorflow = { version = ">=2.8", optional = true }
+tensorflow-gpu = { version = ">=2.8", optional = true }
+
+psycopg2 = { version = "^2.9.3", optional = true }
+psycopg2-binary = { version = "^2.9.3", optional = true }
+
+[tool.poetry.dev-dependencies]
+# dev-dependencies does not include dependencies
+# for generating docs. they are stored in .readthedocs-requirements.txt
+pytest = "^5.2"
+pylint = "^2.12.2"
+mypy = "^0.941"
+black = "^22.1.0"
+isort = "^5.10.1"
+coverage = "^5.5"
+jupyter = "^1.0.0"
+
+# We use pip "extras" to enforce a dependency on either
+# the `tensorflow` or `tensorflow-gpu` package.
+[tool.poetry.extras]
+tensorflow = ["tensorflow"]
+tensorflow-gpu = ["tensorflow-gpu"]
+psycopg2 = ["psycopg2"]
+psycopg2-binary = ["psycopg2-binary"]
+
+[tool.black]
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.svn
+    | \.mypy_cache
+    | \.nox
+    | \.tox
+    | \.venv
+    | venv
+    | _build
+    | buck-out
+    | build
+    | migrations
+    | dist
+    | bin
+  )/
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
