@@ -1,0 +1,13 @@
+README.md
+setup.py
+geneticregression.egg-info/PKG-INFO
+geneticregression.egg-info/SOURCES.txt
+geneticregression.egg-info/dependency_links.txt
+geneticregression.egg-info/top_level.txt
+genreg/__init__.py
+genreg/genetic_regressor.py
+genreg/genreg.py
+genreg/preprocessor.py
+genreg/regfit.py
+genreg/regressor.py
+genreg/tf_optimizer_regressor.py
