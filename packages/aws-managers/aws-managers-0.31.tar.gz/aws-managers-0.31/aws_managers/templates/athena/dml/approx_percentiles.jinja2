@@ -1,0 +1,19 @@
+SELECT
+    approx_percentile(
+        {{ column }},
+        ARRAY[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+    ) as percentiles
+FROM
+    {{ database }}.{{ table }}
+{%- if sample is not none %}
+TABLESAMPLE
+    {{ sample[0] }} ({{ sample[1] }})
+{%- endif %}
+{%- if where is not none %}
+WHERE {{ where }}
+{%- endif %}
+{%- if limit is not none  %}
+LIMIT
+    {{ limit }}
+{%- endif %}
+;
