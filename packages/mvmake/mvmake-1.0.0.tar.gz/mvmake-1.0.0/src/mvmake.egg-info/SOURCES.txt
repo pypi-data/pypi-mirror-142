@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mvmake/__init__.py
+src/mvmake/__main__.py
+src/mvmake/sourceclip.py
+src/mvmake/videosize.py
+src/mvmake.egg-info/PKG-INFO
+src/mvmake.egg-info/SOURCES.txt
+src/mvmake.egg-info/dependency_links.txt
+src/mvmake.egg-info/entry_points.txt
+src/mvmake.egg-info/requires.txt
+src/mvmake.egg-info/top_level.txt
