@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Theory &mdash; Profile Likelihood  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Modules" href="modules/modules.html" />
+    <link rel="prev" title="Get started" href="get_started/get_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Profile Likelihood
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Basics:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="get_started/get_started.html">Get started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Theory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#computation-process">Computation process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules/modules.html">Modules</a></li>
+</ul>
+<p class="caption"><span class="caption-text">How to:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="howto/howto.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Profile Likelihood</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Theory</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/theory.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="theory">
+<span id="id1"></span><h1>Theory<a class="headerlink" href="#theory" title="Permalink to this headline">¶</a></h1>
+<p>In the problem of fitting a theoretical model <span class="math notranslate nohighlight">\(f\left(t_m, \vec{\theta}\right)\)</span>
+to the <span class="math notranslate nohighlight">\(M\)</span> experimentally determined data points <span class="math notranslate nohighlight">\(y_m\)</span> at times
+<span class="math notranslate nohighlight">\(t_m\)</span>, by assuming that the experimental errors for the data points are
+independent and Gaussian distributed with standard deviation of <span class="math notranslate nohighlight">\(\sigma\)</span>,
+the probability that a given model produced the observed data points is</p>
+<div class="math notranslate nohighlight">
+\[P\left(\vec{y}\middle|\vec{\theta}\right) =
+\prod_{m=1}^N \frac{1}{\sqrt{2\pi}\sigma}
+e^{-\left(f(t_m,\vec{\theta}) - y_m\right)^2/2\sigma^2}.\]</div>
+<p>The likelihood function of this model, <span class="math notranslate nohighlight">\(L\left(\vec{\theta}\middle|\vec{y}\right)\)</span>,
+is the probability of the occurrence of the outcomes <span class="math notranslate nohighlight">\(\vec{y}\)</span> given a set
+of parameters <span class="math notranslate nohighlight">\(\vec{\theta}\)</span> of the model, <span class="math notranslate nohighlight">\(P\left(\vec{y}\middle|\vec{\theta}\right)\)</span>.
+Using the equation above, we can write</p>
+<div class="math notranslate nohighlight">
+\[L\left(\vec{\theta}\middle|\vec{y}\right) \propto
+\exp\left[ -C\left(\vec{\theta}\right) \right],\]</div>
+<p>where <span class="math notranslate nohighlight">\(C\left(\vec{\theta}\right)\)</span> is the cost function, given by</p>
+<div class="math notranslate nohighlight">
+\[C\left(\vec{\theta}\right) = \frac{1}{2} \sum_m
+\left(\frac{y_m - f\left(t_m, \vec{\theta}\right)}
+{\sigma_m} \right)^2.\]</div>
+<p>Suppose the model <span class="math notranslate nohighlight">\(f\left(t_m, \vec{\theta}\right)\)</span> has <span class="math notranslate nohighlight">\(N\)</span>
+parameters, written as <span class="math notranslate nohighlight">\(\{ \theta_1, \cdots, \theta_N \}\)</span>. The profile
+likelihood of the model for parameter <span class="math notranslate nohighlight">\(\theta_j\)</span> is the possible maximum
+likelihood given the parameter <span class="math notranslate nohighlight">\(\theta_j\)</span>. The profile likelihood for
+parameter <span class="math notranslate nohighlight">\(\theta_j\)</span> is calculated by setting <span class="math notranslate nohighlight">\(\theta_j\)</span> to a fixed
+value, then maximizing the likelihood function (by minimizing the cost function)
+over the other parameters of the model. We repeat this computation across a
+range of <span class="math notranslate nohighlight">\(\theta_j\)</span>, <span class="math notranslate nohighlight">\(\left(\theta_j^{\min}, \theta_j^{\max}\right)\)</span>.</p>
+<div class="section" id="computation-process">
+<h2>Computation process<a class="headerlink" href="#computation-process" title="Permalink to this headline">¶</a></h2>
+<p>Assuming that the best-fit parameter is the maximum of the likelihood function,
+the computation starts at the best-fit parameter.
+Then the profile likelihood computation will continue for the parameters to the
+left of the best-fit.
+After this is done, the computation returns to the best-fit and continue for
+the parameters to the right. This process is done for each parameter.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="modules/modules.html" class="btn btn-neutral float-right" title="Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="get_started/get_started.html" class="btn btn-neutral float-left" title="Get started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Yonatan Kurniawan.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

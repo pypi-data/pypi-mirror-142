@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Examples &mdash; Profile Likelihood  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Default classes" href="../modules/default_classes.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Profile Likelihood
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Basics:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get_started/get_started.html">Get started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theory.html">Theory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/modules.html">Modules</a></li>
+</ul>
+<p class="caption"><span class="caption-text">How to:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Profile Likelihood</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Examples</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/howto/howto.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="examples">
+<span id="howto"></span><h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
+<p>List of (incomplete) examples about using <code class="docutils literal notranslate"><span class="pre">profile_likelihood</span></code>:</p>
+<ol class="arabic">
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/basic_computation.ipynb">Basic
+computation</a>
+We show a minimum implementation on how to compute the profile likelihood of the model.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/geometric_representation.ipynb">Geometric
+representation</a>
+In this example, we compare the profile likelihood paths to the cost contour of the model and show that the paths follows the direction of the canyon.
+We will also give some interpretation of the results.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/parallel_computing.ipynb">Parallel
+computing</a>
+We show how to use multiprocessing to compute profile likelihood.
+The process will be divided per parameter.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/custom_fixed_points.ipynb">Custom fixed
+points</a>
+Sometimes, cleverly choosing the points to do the computation can result in more efficient process.
+For example, around the region where the canyon curves, we would want to have more points to capture the shape of the canyon.
+On the other hand, in some region the canyon might look like a line (the canyon doesn’t curve significantly).
+In this case, we don’t need as much point to capture the shape of the canyon.
+This can possibly speed up the computation, because we can require fewer number of points in our computation.</p>
+<p>To show this, we will compare the results of profile likelihood computation using the sum of exponentials model.
+We will run the computation using linearly spaced points (using the internal algorithm to generate the points) and some custom points.
+We will compare the time to run for each computation.
+Additionally, we will also compare the results qualitatively by plotting the profile likelihood paths on the cost contour and comparing the profile likelihood.</p>
+</li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/multiple_starting_points.ipynb">Multiple starting
+points</a>
+We note that usually the results from the optimization algorithm depends on the initial guess, especiallly when the function to optimize has multiple local minima.
+In the case where there are multiple local minima on cost contour, we might want to use several trial starting points to find those minima.
+In this example, we want to show how user can define custom class to choose starting points and to use multiple initial guess’ in the optimization algorithm.
+The comparison to the results will be done internally.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/custom_fitting.ipynb">Custom fitting
+routine</a>
+We show how to use custom fitting routine, besides the default one provided.
+Additionally, we compare the results of profile likelihood computations using the default fitting class and the custom fitting class.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/save_and_load.ipynb">Save and load
+results</a>
+It will be useful to save the results of profile likelihood computation for future use and to load the results again later.
+This is especially convenient when the computation is slow.</p></li>
+<li><p><a class="reference external" href="https://git.physics.byu.edu/yonatank/profile_likelihood/blob/add-doc/examples/plotting_routines.ipynb">Plotting
+routines</a>
+Here, we show how to use internal function to plot the results of profile likelihood calculation.
+There are 3 plotting routines available: <a class="reference internal" href="../modules/profile_likelihood.html#profile_likelihood.profile_likelihood.plot_profiles" title="profile_likelihood.profile_likelihood.plot_profiles"><code class="xref py py-meth docutils literal notranslate"><span class="pre">profile_likelihood.profile_likelihood.plot_profiles()</span></code></a>, <a class="reference internal" href="../modules/profile_likelihood.html#profile_likelihood.profile_likelihood.plot_paths" title="profile_likelihood.profile_likelihood.plot_paths"><code class="xref py py-meth docutils literal notranslate"><span class="pre">profile_likelihood.profile_likelihood.plot_paths()</span></code></a>, and <a class="reference internal" href="../modules/profile_likelihood.html#profile_likelihood.profile_likelihood.plot_paths_and_profiles" title="profile_likelihood.profile_likelihood.plot_paths_and_profiles"><code class="xref py py-meth docutils literal notranslate"><span class="pre">profile_likelihood.profile_likelihood.plot_paths_and_profiles()</span></code></a>.</p></li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../modules/default_classes.html" class="btn btn-neutral float-left" title="Default classes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Yonatan Kurniawan.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
