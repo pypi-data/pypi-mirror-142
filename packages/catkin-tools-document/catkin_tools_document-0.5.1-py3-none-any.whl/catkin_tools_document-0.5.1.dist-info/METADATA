@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: catkin-tools-document
+Version: 0.5.1
+Summary: Plugin for catkin_tools to enable building workspace documentation.
+Home-page: https://github.com/mikepurvis/catkin_tools_document
+Author: Mike Purvis
+Author-email: mike@uwmike.com
+Maintainer: Mike Purvis
+Maintainer-email: mike@uwmike.com
+License: Apache 2.0
+Keywords: catkin
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Dist: catkin-pkg
+Requires-Dist: catkin-sphinx
+Requires-Dist: catkin-tools (>=0.8.3)
+Requires-Dist: pydoctor (>=20.12.0)
+Requires-Dist: pyyaml
+Requires-Dist: sphinx (>=4.3.0)
+
+UNKNOWN
+
+

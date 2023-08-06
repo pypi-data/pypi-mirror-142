@@ -1,0 +1,6 @@
+[catkin_tools.commands.catkin.verbs]
+document = catkin_tools_document:description
+
+[catkin_tools.spaces]
+docs = catkin_tools_document.spaces.docs:description
+
