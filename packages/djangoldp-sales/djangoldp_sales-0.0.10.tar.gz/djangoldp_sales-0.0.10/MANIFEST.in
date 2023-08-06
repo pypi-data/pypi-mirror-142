@@ -1,0 +1,3 @@
+recursive-include djangoldp_sales/templates *
+recursive-include djangoldp_sales/static *
+include README.md
