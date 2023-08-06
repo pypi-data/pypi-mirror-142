@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pangoro/__init__.py
+pangoro/preprocessing.py
+pangoro.egg-info/PKG-INFO
+pangoro.egg-info/SOURCES.txt
+pangoro.egg-info/dependency_links.txt
+pangoro.egg-info/requires.txt
+pangoro.egg-info/top_level.txt
