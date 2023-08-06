@@ -1,0 +1,15 @@
+scipy
+netCDF4
+matplotlib
+requests
+pytz
+cloudnetpy_qc>=0.0.4
+scikit-image
+
+[test]
+pytest
+pytest-cov
+pylint
+mypy
+types-requests
+types-pytz
