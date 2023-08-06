@@ -1,0 +1,9 @@
+geode_simplexremeshgeosciences/__init__.py,sha256=68f9Y-f1g3OyFqozQiE_UP_Wx9LJm0jd85KpybQnlEU,94
+geode_simplexremeshgeosciences/geode_simplexremeshgeosciences_py_surface.cpython-310-x86_64-linux-gnu.so,sha256=CnB1xoOO_vpV3BJ-u-HZ1hR8vjY0zgsn1pEjo-1rgD4,134824
+geode_simplexremeshgeosciences/libGeode-SimplexRemeshGeosciences_core.so,sha256=p9je7qSW-k08rZdMrEj4Yvb1m-pbCHExge2Q-H7lEGc,49224
+geode_simplexremeshgeosciences/libGeode-SimplexRemeshGeosciences_surface.so,sha256=siNEgSg712zqvD73OOhFRjzzQhztOdblB2vuTeAvZMM,2758952
+geode_simplexremeshgeosciences/surface.py,sha256=FzRFYr23rAO3ejVnR_5ePrAHRcJ9NtdEikXrFJ2nfXw,289
+Geode_SimplexRemeshGeosciences-1.5.1.dist-info/METADATA,sha256=xwJdSdQFPAGirQta3PGDOSkkaySWys3TGHPviceFcB0,3226
+Geode_SimplexRemeshGeosciences-1.5.1.dist-info/WHEEL,sha256=nTy_Z8ivGEB6qFwVLg7_h6rq0Jt0JU5Pz2cL2_FjSMQ,105
+Geode_SimplexRemeshGeosciences-1.5.1.dist-info/top_level.txt,sha256=rCTWY_fQNmUCLliTI0A9GmbsPZAtPGtPtLHhVlp26iA,31
+Geode_SimplexRemeshGeosciences-1.5.1.dist-info/RECORD,,
