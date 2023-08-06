@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "<5"
+psycopg2 = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = ">=5.0.0"
+gunicorn = "*"
+whitenoise = "*"
+django-sendgrid-v5 = "*"
+pyyaml = "*"
+django-burl = ">=1.0.4"
+cfitall = ">=1.0.5"
+uritemplate = "*"
+
+[dev-packages]
+django-extensions = "*"
+Werkzeug = "*"
+ipython = "*"
+pbr = "*"
+burl = {editable = true, path = "."}
+twine = "*"
