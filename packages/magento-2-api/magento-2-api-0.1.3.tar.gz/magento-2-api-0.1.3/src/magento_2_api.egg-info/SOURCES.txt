@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/magento_2_api/__init__.py
+src/magento_2_api/magento_api.py
+src/magento_2_api.egg-info/PKG-INFO
+src/magento_2_api.egg-info/SOURCES.txt
+src/magento_2_api.egg-info/dependency_links.txt
+src/magento_2_api.egg-info/requires.txt
+src/magento_2_api.egg-info/top_level.txt
