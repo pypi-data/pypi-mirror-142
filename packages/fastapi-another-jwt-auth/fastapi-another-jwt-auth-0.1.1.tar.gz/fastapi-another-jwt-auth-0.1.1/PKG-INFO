@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastapi-another-jwt-auth
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Mariusz Masztalerczuk
+Author-email: mariusz@masztalerczuk.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyJWT (>=2.3.0,<3.0.0)
+Requires-Dist: cryptography (>=36.0.2,<37.0.0)
+Requires-Dist: fastapi (>=0.75.0,<0.76.0)
