@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PDF-Thing/__init__.py
+PDF-Thing/pdf2image.py
+PDF-Thing/pdf2text.py
+Pdf_Thing.egg-info/PKG-INFO
+Pdf_Thing.egg-info/SOURCES.txt
+Pdf_Thing.egg-info/dependency_links.txt
+Pdf_Thing.egg-info/top_level.txt
