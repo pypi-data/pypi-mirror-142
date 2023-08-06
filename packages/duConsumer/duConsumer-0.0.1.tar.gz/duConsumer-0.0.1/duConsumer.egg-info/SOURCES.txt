@@ -1,0 +1,7 @@
+README.rst
+setup.py
+duConsumer.egg-info/PKG-INFO
+duConsumer.egg-info/SOURCES.txt
+duConsumer.egg-info/dependency_links.txt
+duConsumer.egg-info/requires.txt
+duConsumer.egg-info/top_level.txt
