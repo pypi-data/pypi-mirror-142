@@ -1,0 +1,16 @@
+ipwhl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipwhl/declck.py,sha256=u5V3yNefZ-EySDntNzrx0K-gRlGUrHM7Br6RgAT-e8o,3448
+ipwhl/declgen.py,sha256=nJeBRhsfQM8kIXYTNOY5pUIUXOJyDy0OwH0oJixPhfE,3687
+ipwhl/deps.py,sha256=z8MqgWmds0N2eg4tCbcuIuP600RovjBz3c_fPVn_9-U,1162
+ipwhl/depsck.py,sha256=aDLETP_NK6Dxc6XpitT0sNAH0Frb70JSRlut_xw1XBE,5482
+ipwhl/misc.py,sha256=fZWIjdrn01yvAehZnJw5vkfxFgN5zDU0wKPniYX4Rt8,2008
+ipwhl/nameck.py,sha256=ZPJLjanm3HXhAv5SdyRKBfpXahph2R0nkjeBErCa_Xo,3123
+ipwhl/prefix.py,sha256=Kur5Sh62588QogTxpysPJV2o21hLWRcI8dcwXGEuXGA,1184
+ipwhl/publish.py,sha256=yZDX4YgXQJLz11ClxJXc8KMZOkkG6MsHsd7u0snE6ME,3084
+ipwhl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipwhl/tags.py,sha256=1RRHh76FD1WB6ubt4WHcykenOCWxmsuVcoVqlvC7prI,5755
+ipwhl-1.1.0.dist-info/entry_points.txt,sha256=9iljb05AljeoROR8rC_EEcE54d3zONWuN0V5kbMjuew,209
+ipwhl-1.1.0.dist-info/COPYING,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ipwhl-1.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+ipwhl-1.1.0.dist-info/METADATA,sha256=ZvjyQXJGcKgAdwK75H8ZSLm9GXyZg1zkkF9jI2BJp6A,2769
+ipwhl-1.1.0.dist-info/RECORD,,
