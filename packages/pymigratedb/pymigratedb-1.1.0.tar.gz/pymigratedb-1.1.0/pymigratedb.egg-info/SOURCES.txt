@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+pymigratedb.egg-info/PKG-INFO
+pymigratedb.egg-info/SOURCES.txt
+pymigratedb.egg-info/dependency_links.txt
+pymigratedb.egg-info/entry_points.txt
+pymigratedb.egg-info/requires.txt
+pymigratedb.egg-info/top_level.txt
+src/__init__.py
+src/migrate.py
