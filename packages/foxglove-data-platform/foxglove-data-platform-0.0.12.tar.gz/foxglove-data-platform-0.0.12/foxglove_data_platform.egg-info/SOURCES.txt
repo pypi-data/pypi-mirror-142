@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+foxglove_data_platform/__init__.py
+foxglove_data_platform/client.py
+foxglove_data_platform/py.typed
+foxglove_data_platform/to_curl.py
+foxglove_data_platform.egg-info/PKG-INFO
+foxglove_data_platform.egg-info/SOURCES.txt
+foxglove_data_platform.egg-info/dependency_links.txt
+foxglove_data_platform.egg-info/requires.txt
+foxglove_data_platform.egg-info/top_level.txt
