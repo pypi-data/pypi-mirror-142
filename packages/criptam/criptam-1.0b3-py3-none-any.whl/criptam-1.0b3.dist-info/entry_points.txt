@@ -1,0 +1,3 @@
+[console_scripts]
+criptam=criptam.__main__:main
+
