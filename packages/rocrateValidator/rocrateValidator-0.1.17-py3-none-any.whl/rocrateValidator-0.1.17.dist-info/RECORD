@@ -1,0 +1,13 @@
+rocrateValidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocrateValidator/check_list.py,sha256=yl2X0pFk2FJFyJuy7banRUvgw9CDAWz94tMrkGYzIxo,1145
+rocrateValidator/check_list.txt,sha256=K1yeL0-tqtUBtiQIDn0zDGaM1MhfNTEoImwYFwiIeZo,432
+rocrateValidator/semanticCheck.py,sha256=EGBbiNgNS2y3nv0KKT26jRyiQ-H67qiCAJlr8UbzrRM,32139
+rocrateValidator/syntaxCheck.py,sha256=X2R5pRlhYWKwXbwANS7bd4JQ1ijLJsr2GDwACxjYndQ,3514
+rocrateValidator/utils.py,sha256=TlYVSX9wA--F2ovsjtbJNqlIWF36CMBRbk59Y3zh-E4,316
+rocrateValidator/validate.py,sha256=JIM-8zhCW38mxVpH8i01jhye63R1sFr0u6TLUAdIJKU,4231
+rocrateValidator/workflow_extension.py,sha256=bLluH2cOtzhBoHR0nEVcAhU0FLuNHMxqzmTlREWWA6c,186
+rocrateValidator/workflow_extension.txt,sha256=eVww58ibB-fL66msKNk1Ng9UGHh2QOhUQrhIT-1FBdE,52
+rocrateValidator-0.1.17.dist-info/METADATA,sha256=5zZECRaPEsoNE-LBHZfudS6Ttw9395xhYnWNIH_ttJ0,228
+rocrateValidator-0.1.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rocrateValidator-0.1.17.dist-info/top_level.txt,sha256=-Ac8pyAMF90fKAX8Alp8XJAwO8uCxnX82l7e4S3q67I,17
+rocrateValidator-0.1.17.dist-info/RECORD,,
