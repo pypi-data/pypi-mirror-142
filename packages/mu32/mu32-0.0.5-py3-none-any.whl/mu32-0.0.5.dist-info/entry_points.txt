@@ -1,0 +1,5 @@
+[console_scripts]
+mu32-autotest = mu32.examples.mu32autotest:main
+mu32-doa = mu32.examples.mu3doa:main
+mu32-play = mu32.examples.mu32play:main
+mu32-run = mu32.examples.mu32run:main
