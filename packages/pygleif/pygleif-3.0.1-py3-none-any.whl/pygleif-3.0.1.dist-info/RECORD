@@ -1,0 +1,13 @@
+pygleif/__init__.py,sha256=8vcePhFvZO-0koKGdHhfy-w64cF0CInZvGC8qz2AoFg,164
+pygleif/address.py,sha256=dNnZ_8E8oD5Ag-qYi5hiU8cP7zn9DxuVD_W0p0eE8RU,937
+pygleif/const.py,sha256=iGf-6v-GnQjsK9QUsOlZDI6ivH6ehkrgewTjAAxxAIg,3445
+pygleif/entity.py,sha256=HxtGCEFHSrZzvBonprAXwVnjBU6mho2ykPLHcER14p0,2172
+pygleif/error.py,sha256=AJo1twMiXYvVoj_1y1IbyFn2YXXTsuCqcTo7FhPDliw,196
+pygleif/gleif.py,sha256=ZKdagmLkCfGunAXWKGzNRg_xy8-3m2PzZFWQAK9Vq3g,897
+pygleif/registration.py,sha256=xqRYsW8jZlLvPERSt45kNsMaB1QHj4CJdFrtAxVczTE,1390
+pygleif/search.py,sha256=UMh83JE5DtAaz75Pgl7KyMDexm6ml0Oc9mY2UWkvsgg,2465
+pygleif-3.0.1.dist-info/LICENSE,sha256=w0sDOPeSEFaRdKU-_9BiYNaMPOZUoGMo-a9SadoJPkY,1063
+pygleif-3.0.1.dist-info/METADATA,sha256=dPec6_asUrah1RWDzQmt13Q3Xw0gdgaOLJlKbnl6LFo,1684
+pygleif-3.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygleif-3.0.1.dist-info/top_level.txt,sha256=UKMLPCn1_nSohuaD-3nhTRsZKK5SynQvqF_Bps3lfvs,8
+pygleif-3.0.1.dist-info/RECORD,,
