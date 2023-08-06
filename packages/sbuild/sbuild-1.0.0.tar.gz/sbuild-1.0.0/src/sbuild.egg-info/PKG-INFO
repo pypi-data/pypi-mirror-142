@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sbuild
+Version: 1.0.0
+Summary: A simple build backend for python projects with nuitka and typing support.
+Author: bit
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Provides-Extra: compile
+
+# sbuild
+A simple build backend for python projects with nuitka and typing support.
+
+

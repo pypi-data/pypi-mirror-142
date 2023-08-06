@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/sbuild/__init__.py
+src/sbuild/build.py
+src/sbuild/setup.py
+src/sbuild.egg-info/PKG-INFO
+src/sbuild.egg-info/SOURCES.txt
+src/sbuild.egg-info/dependency_links.txt
+src/sbuild.egg-info/requires.txt
+src/sbuild.egg-info/top_level.txt

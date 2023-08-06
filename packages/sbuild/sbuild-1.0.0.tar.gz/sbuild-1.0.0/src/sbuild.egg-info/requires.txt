@@ -1,0 +1,7 @@
+setuptools>=42
+toml
+wheel
+
+[compile]
+mypy
+nuitka
