@@ -1,0 +1,10 @@
+Faker<14.0,>=4.1
+
+[docs]
+Sphinx>=3.2
+sphinx_rtd_theme>=0.5.0
+
+[tests]
+flake8
+pylint
+tox
