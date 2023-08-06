@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wangankeji_sso/__init__.py
+src/wangankeji_sso.egg-info/PKG-INFO
+src/wangankeji_sso.egg-info/SOURCES.txt
+src/wangankeji_sso.egg-info/dependency_links.txt
+src/wangankeji_sso.egg-info/requires.txt
+src/wangankeji_sso.egg-info/top_level.txt
+src/wangankeji_sso/client/__init__.py
+src/wangankeji_sso/client/client.py
+src/wangankeji_sso/client/enums.py
+src/wangankeji_sso/client/exceptions.py
+src/wangankeji_sso/client/http.py
+src/wangankeji_sso/client/models.py
+src/wangankeji_sso/client/utils.py
