@@ -1,0 +1,13 @@
+schema/InsightEngineResponse.json,sha256=077ExiXdzrcbwETTjRnEHX-gWH_zS4V6EpTkGOfGmig,198
+schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema/claim1.json,sha256=MbDuOVb37GuP4ydJtG4SM0haGIJFYo-PaEZDtEiT6Tw,703
+schema/claim_topic_message.py,sha256=PZFitYliuW9eXV-BEGwNPCyEunYR3xEE40OiB6lYeyE,1833
+schema/insight_engine_request.py,sha256=W-rX8vFVHUN9vdpPdJg4QoW8JtN74fUNGOyeDSVpwxc,2654
+schema/insight_engine_response.py,sha256=6NRqPBby0YJKOWz2RsReHSR5nF3LtAFawdX6GzCb1kE,6680
+schema/insight_engine_testcase.py,sha256=XW_8yAe1nmpYpXd8URYBqG8PoJv7QNfj-FcCtHjvsao,1673
+schema/legacy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema/legacy/dsl.py,sha256=tNnx3ejRSaOgxmlf179lStbX6AOxkWoqUF02BwbyN_w,13980
+insight_engine_schema_python-0.3.21.dist-info/LICENSE,sha256=eOnnfzV5opTAECZNqLxisJqWZTX-6_cq-5SzjT17dB8,1301
+insight_engine_schema_python-0.3.21.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+insight_engine_schema_python-0.3.21.dist-info/METADATA,sha256=na-pgaSP3mKJJF0hJk-BnjmBNbJhYyWmapMTj7QSbrM,2463
+insight_engine_schema_python-0.3.21.dist-info/RECORD,,
