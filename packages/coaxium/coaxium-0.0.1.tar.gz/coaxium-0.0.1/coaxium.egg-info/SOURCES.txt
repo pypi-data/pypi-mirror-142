@@ -1,0 +1,5 @@
+setup.py
+coaxium.egg-info/PKG-INFO
+coaxium.egg-info/SOURCES.txt
+coaxium.egg-info/dependency_links.txt
+coaxium.egg-info/top_level.txt
