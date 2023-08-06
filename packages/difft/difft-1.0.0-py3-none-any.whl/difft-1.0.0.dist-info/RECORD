@@ -1,0 +1,11 @@
+difft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+difft/attachment.py,sha256=fYvOXteOjeceKT9RKWZJYDqGmvVrsXNY-0yfVN0EGo4,1272
+difft/auth.py,sha256=IxdpJaRJ42MVUy-sngYPaIaYQISeS2H1iH3By_S2wE4,2993
+difft/client.py,sha256=qjKOYxFmSn69-apl4IgVYHfpTktdsiHaWzgP8EK7DyE,7814
+difft/constants.py,sha256=G_gmGlsvhGHz1KlMyxEzRP2Etzaizob7vbmr8crhkY4,519
+difft/message.py,sha256=q32dzf_mXG_VGrl1myILH1KslQYmxEM1JImeVxl4QE0,1764
+difft/utils.py,sha256=IFi1g4ZMUCiTfFkt2a7X5mkpM47o_UedoXAgiMiQ5-A,304
+difft-1.0.0.dist-info/METADATA,sha256=Ro6wdpE6RONoNwIIWUMeo-Knq096dUMPf3S4miYZmQE,224
+difft-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+difft-1.0.0.dist-info/top_level.txt,sha256=chJ57utNQdklgBoF42UEt4t2wgtXWqUUcehueecHAgM,6
+difft-1.0.0.dist-info/RECORD,,
