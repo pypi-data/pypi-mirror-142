@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dexapi
+Version: 0.1.0
+Summary: Python wraper for DEX API
+Home-page: https://github.com/kayrauygun/dexapi
+Author: Kayra Uygun
+Author-email: kayrauygun@gmail.com
+License: UNKNOWN
+Description: # dexapi
+        Python wrapper for bitquery.io DEX API
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
