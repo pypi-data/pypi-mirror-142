@@ -1,0 +1,10 @@
+README.md
+setup.py
+calculadora_kevin.egg-info/PKG-INFO
+calculadora_kevin.egg-info/SOURCES.txt
+calculadora_kevin.egg-info/dependency_links.txt
+calculadora_kevin.egg-info/top_level.txt
+project/__init__.py
+project/calc.py
+project/calc_kevin/__init__.py
+project/calc_kevin/calc_kevin.py

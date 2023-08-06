@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: calculadora_kevin
+Version: 0.0.2
+Summary: Projeto para bootcamp da DIO, calculadora simples
+Home-page: https://github.com/Kevingtxz/Building-Python-Package
+Author: Kevin Gonçalves
+Author-email: kevingtxz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Building Python Package
+
+## Description
+
+A simple calculator to study how to build a package
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install calc_kevin
+```
+
+## Usage
+
+```python
+from project.calc import *
+ 
+sum(1, 11)
+sub(1, 10)
+mul(2, 12)
+div(34, 2)
+exp(10, 2)
+root(4, 2)
+
+```
+
+## Author
+Kevin Gonçalves
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
