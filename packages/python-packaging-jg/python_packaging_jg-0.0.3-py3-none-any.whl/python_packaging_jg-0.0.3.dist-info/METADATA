@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-packaging-jg
+Version: 0.0.3
+Summary: Example of how to package Python code for release
+Home-page: https://github.com/JaderGiacon/python-packaging-jg
+Author: Jader Giacon
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22.2)
+Requires-Dist: pandas
+
+# python-packaging-jg
+
+Python code packaging demo
+
