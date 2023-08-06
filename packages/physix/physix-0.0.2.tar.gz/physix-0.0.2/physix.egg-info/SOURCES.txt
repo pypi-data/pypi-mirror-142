@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+physix/__init__.py
+physix/mechanics.py
+physix.egg-info/PKG-INFO
+physix.egg-info/SOURCES.txt
+physix.egg-info/dependency_links.txt
+physix.egg-info/requires.txt
+physix.egg-info/top_level.txt
