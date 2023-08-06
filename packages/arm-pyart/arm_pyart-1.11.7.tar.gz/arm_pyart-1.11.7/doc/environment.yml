@@ -1,0 +1,34 @@
+name: pyart-docs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - gdal
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - netcdf4
+  - pytest
+  - trmm_rsl
+  - wradlib
+  - cartopy
+  - cvxopt
+  - xarray
+  - sphinx
+  - ipython
+  - pandoc
+  - netcdf4
+  - pytest
+  - coin-or-cbc
+  - pkg-config
+  - pip
+  - pip:
+      - pydata-sphinx-theme
+      - sphinx_gallery
+      - sphinx-copybutton
+      - myst_nb
+      - ablog
+      - nbsphinx
+      - pooch
