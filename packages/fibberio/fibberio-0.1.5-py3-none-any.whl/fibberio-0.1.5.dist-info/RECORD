@@ -1,0 +1,11 @@
+fibberio/__init__.py,sha256=ZSVXHim2Q4Vq5OUY-wU_1ZKlLh_ePNdEGcX0jYqKrZ8,345
+fibberio/cli.py,sha256=KSyRHC_bE3ZJUw6kNRLpYQ2XVKhY9eQ4bXthXxFAnEY,1339
+fibberio/distribution.py,sha256=GfNk4V8suiJCb_dm15HSBRw2iqlhqSghT8ABnFxBFLE,5803
+fibberio/feature.py,sha256=a9NiKzrILQBRHpaWCJq1uxv5hQ13rpGvOrmnMY_rJI0,1990
+fibberio/range.py,sha256=WNmvswYjxvGsmLVZzeVYSnT4NHUEijD22bt5XYeCwqw,5273
+fibberio/source.py,sha256=DwL_vaVpdKIlQs5oTmd4yssSHteknY6ipiwGG7Ax_VE,419
+fibberio/task.py,sha256=qJBZQXeAMyF82lyLEK2I5YnIPqJ5S2O1NEpddOX_maY,3583
+fibberio-0.1.5.dist-info/entry_points.txt,sha256=GRmyh8bqrzGhYjxIWZtqjJ_iqvau17Ciu2yo2bBD_Hg,43
+fibberio-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fibberio-0.1.5.dist-info/METADATA,sha256=MPLFLq00I018ZVJVkVz6OV-W865Eovl8cBOmVdihhb8,9298
+fibberio-0.1.5.dist-info/RECORD,,
