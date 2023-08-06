@@ -1,0 +1,9 @@
+julia>=0.2
+juliacall>=0.6.1
+find_julia>=0.2.2
+find_libpython
+tomli
+
+[test]
+pytest
+mock
