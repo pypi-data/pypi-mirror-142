@@ -1,0 +1,4 @@
+six
+
+[openpyxl]
+openpyxl
