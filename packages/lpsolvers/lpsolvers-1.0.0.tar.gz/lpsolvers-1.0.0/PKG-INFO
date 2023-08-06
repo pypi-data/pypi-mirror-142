@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: lpsolvers
+Version: 1.0.0
+Summary: Linear programming solvers in Python with a unified API
+Home-page: None
+Author: None
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
