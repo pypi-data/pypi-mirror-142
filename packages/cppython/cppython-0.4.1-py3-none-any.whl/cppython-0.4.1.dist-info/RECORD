@@ -1,0 +1,10 @@
+cppython/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython/console.py,sha256=CiazsUkvlNgX5QbLnAb9wDok0dZw06aP-AiJ7cXrfdI,2295
+cppython/data.py,sha256=AgtMR94gbABnUgNwS0EPMrdtitfZxGaTxESMCGiEzmY,509
+cppython/plugins/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython/project.py,sha256=MZFTlh3t98MHP-M_rej2eeOTAD_Rf8zdQSEShigTLR4,2490
+cppython-0.4.1.dist-info/entry_points.txt,sha256=QpB5ygr3WAql3NNpQze9maEG5v4e7poGQL0NRoUjSVE,49
+cppython-0.4.1.dist-info/WHEEL,sha256=eGjM9T8LUFBfsaHKKY-i_vmgJxaYyUWmy-35tnjSGqI,88
+cppython-0.4.1.dist-info/METADATA,sha256=zq9UdNwxC-Sx6zk-MO1vbVHMr5iFg-SwWLELee3kC1k,601
+cppython-0.4.1.dist-info/license_files/LICENSE.md,sha256=O2GDdR5BeAXcN20aptXMBkBD0QUDlBgHTw-0JJApQOM,1070
+cppython-0.4.1.dist-info/RECORD,,
