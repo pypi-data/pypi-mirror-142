@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PwStrength
+Version: 0.2.0
+Summary: Wolfram Style Password Strength Test
+Home-page: https://github.com/dylanfmarquis/PwStrength
+Download-URL: https://github.com/dylanfmarquis/PwStrength/archive/0.2.0.tar.gz
+Author: Dylan F. Marquis
+Author-email: dylanfmarquis@dylanfmarquis.com
+License: UNKNOWN
+Keywords: password,strength,testing
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pyenchant
+Requires-Dist: requests
+Requires-Dist: bitarray
+
+UNKNOWN
+
