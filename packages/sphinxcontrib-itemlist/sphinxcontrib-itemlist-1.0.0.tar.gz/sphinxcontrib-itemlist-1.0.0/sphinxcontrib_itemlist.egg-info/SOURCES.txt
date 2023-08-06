@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sphinxcontrib/itemlist/__init__.py
+sphinxcontrib_itemlist.egg-info/PKG-INFO
+sphinxcontrib_itemlist.egg-info/SOURCES.txt
+sphinxcontrib_itemlist.egg-info/dependency_links.txt
+sphinxcontrib_itemlist.egg-info/requires.txt
+sphinxcontrib_itemlist.egg-info/top_level.txt
