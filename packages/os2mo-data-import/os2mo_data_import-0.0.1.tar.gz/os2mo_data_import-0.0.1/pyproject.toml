@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "os2mo_data_import"
+version = "0.0.1"
+description = "A set of tools for OS2MO data import and export"
+authors = ["Magenta <info@magenta.dk>"]
+license = "MPL-2.0"
+readme = "README.rst"
+repository = "https://git.magenta.dk/rammearkitektur/os2mo-data-import-and-export"
+keywords = ["os2mo", "dipex"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
