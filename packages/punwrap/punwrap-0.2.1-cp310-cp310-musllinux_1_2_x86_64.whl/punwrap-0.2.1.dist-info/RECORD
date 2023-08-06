@@ -1,0 +1,5 @@
+punwrap-0.2.1.dist-info/METADATA,sha256=t3lEP7QPOWBRsYhY3vd6jYwsON9GW8Fi4kQVoRy9dnA,709
+punwrap-0.2.1.dist-info/WHEEL,sha256=LT2yNho3YHShA-7wSxuKz1B1uHJ4-ITYl34fm7y2KFs,108
+punwrap/__init__.py,sha256=FId820p8ZpwEBNT78RoRQi_YeKTxkCnkLBpXZ4xGMLU,23
+punwrap/punwrap.cpython-310-x86_64-linux-gnu.so,sha256=05yFlYocV7T0cq1J2o3DCBx23zLqz13IKBI0zuJRuBA,3859512
+punwrap-0.2.1.dist-info/RECORD,,
