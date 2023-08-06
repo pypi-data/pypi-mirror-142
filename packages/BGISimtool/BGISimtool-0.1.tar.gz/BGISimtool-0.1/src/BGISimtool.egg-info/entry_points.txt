@@ -1,0 +1,2 @@
+[console_scripts]
+process_results = bgisimtool.process_results:run

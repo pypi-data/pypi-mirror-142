@@ -1,0 +1,10 @@
+importlib-metadata
+pandas
+numpy
+scipy
+matplotlib
+
+[testing]
+setuptools
+pytest
+pytest-cov
