@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+deepkime/core/__init__.py
+deepkime/core/utils.py
+deepkime/deepkime.egg-info/PKG-INFO
+deepkime/deepkime.egg-info/SOURCES.txt
+deepkime/deepkime.egg-info/dependency_links.txt
+deepkime/deepkime.egg-info/requires.txt
+deepkime/deepkime.egg-info/top_level.txt
