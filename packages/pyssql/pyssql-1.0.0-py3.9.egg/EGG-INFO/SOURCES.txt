@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+example.py
+setup.py
+.github/workflows/python-publish.yml
+pyssql/__class.py
+pyssql/__database.py
+pyssql/__init__.py
+pyssql/__types.py
+pyssql.egg-info/PKG-INFO
+pyssql.egg-info/SOURCES.txt
+pyssql.egg-info/dependency_links.txt
+pyssql.egg-info/top_level.txt
