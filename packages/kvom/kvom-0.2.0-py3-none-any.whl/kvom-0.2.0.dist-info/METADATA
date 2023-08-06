@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kvom
+Version: 0.2.0
+Summary: key-value store object mapping
+Author: ischaojie
+Author-email: zhuzhezhe95@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: pymongo (>=4.0.1,<5.0.0)
+Requires-Dist: redis (>=4.1.3,<5.0.0)
