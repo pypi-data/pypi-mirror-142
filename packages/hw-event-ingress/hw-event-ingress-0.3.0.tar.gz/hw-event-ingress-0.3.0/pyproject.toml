@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hw-event-ingress"
+version = "0.3.0"
+description = ""
+authors = ["Skyler Lewis <skyler@hivewire.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aio-pika = "^7.1"
+mypy = "^0.910"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+black = "^21.7b0"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[repositories]
+[repositories.gitlab]
+url = "https://gitlab.com/api/v4/projects/28743178/packages/pypi"
