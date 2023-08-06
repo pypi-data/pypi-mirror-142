@@ -1,0 +1,11 @@
+LICENCE,sha256=9Enb-O6zwCRmtxw3bGyfdFDKjy5LgMj-GIIMb1VXrRY,1058
+pytest_split/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_split/algorithms.py,sha256=BSEfdU6W1F5bgL1s9hDpopCTwP_gg7bvK1e77ELtEt0,5954
+pytest_split/cli.py,sha256=e2Ebie3LkYrupnsE47kblVj9qOvXvhmtUsBEGEc5hFE,1011
+pytest_split/ipynb_compatibility.py,sha256=wDDNkpxMok7K6xjj927LBHJxPud-7doQmhB5C2pJVzg,2079
+pytest_split/plugin.py,sha256=FgU-UqK1xUq1thML2uSRZSUoTlXx6xi2r3RhRWEaz9g,7923
+pytest_split/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_split-0.7.0.dist-info/entry_points.txt,sha256=TQBEnYSUICZtzsc1CUyiYrOHpEll6HBDzIFvjJyo9F8,114
+pytest_split-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytest_split-0.7.0.dist-info/METADATA,sha256=ZA2ysWoz_TomH85SXY_pTTYASZDrv4ib2wBZhNzsghk,9031
+pytest_split-0.7.0.dist-info/RECORD,,
