@@ -1,0 +1,3 @@
+[console_scripts]
+markdown-code-exec=markdown_code_exec._app:app
+
