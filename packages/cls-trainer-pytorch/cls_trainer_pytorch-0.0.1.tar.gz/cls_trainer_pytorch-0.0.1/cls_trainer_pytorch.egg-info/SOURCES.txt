@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+cls_trainer_pytorch.egg-info/PKG-INFO
+cls_trainer_pytorch.egg-info/SOURCES.txt
+cls_trainer_pytorch.egg-info/dependency_links.txt
+cls_trainer_pytorch.egg-info/requires.txt
+cls_trainer_pytorch.egg-info/top_level.txt
+trainer/__init__.py
+trainer/_trainer.py
+trainer/loaders.py
+trainer/models.py
+trainer/utils.py
