@@ -1,0 +1,11 @@
+ndacrawler/__init__.py,sha256=7fB2IB1EzeHL433MiVlqcQ64uDZXajPOih2zb6hUoIM,30
+ndacrawler/_internal_utils.py,sha256=2XYSo9pNugIMSIPBWoVVqjvp4n7Cqt9r2r-5DRJXMX4,321
+ndacrawler/drugs.py,sha256=qx7Cy3XwO062IyzPfOCDOrIJXDwvanGINzmDy7m80Dw,2626
+ndacrawler/extractors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndacrawler/extractors/drug_shops.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndacrawler/extractors/pharmacies.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndacrawler-0.1.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ndacrawler-0.1.1.dist-info/METADATA,sha256=6wIWyIAGOUxmCcJIzxab1YB8vNSnr_HbzUOijeCan2M,1373
+ndacrawler-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ndacrawler-0.1.1.dist-info/top_level.txt,sha256=q8BLroxPM1CSWA0B-vdYFpncqDn429aaXM_ZTHkssjQ,11
+ndacrawler-0.1.1.dist-info/RECORD,,
