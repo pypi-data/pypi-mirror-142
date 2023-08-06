@@ -1,0 +1,16 @@
+property_price_register/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+property_price_register/constants.py,sha256=Iuz9Te_L7T7ifdH7xZ6XjVKZTWTHMxVhan4U0a2CIb0,515
+property_price_register/utils.py,sha256=bFCAEyV5StFpH2agpMeOgaKbuyJyXW817acd0TB-dPc,481
+property_price_register/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+property_price_register/bin/load.py,sha256=Qy2exykwEBK2nV3Vns1_dYYPoYRrmpGZ71QwMqVI9YM,291
+property_price_register/bin/merge_latest.py,sha256=Mx-hAU4LelpSvXjLXnH6d7fmcPmwQ_6wdt9-ky27Zrc,530
+property_price_register/bin/save.py,sha256=Tl9erCA0RjtitToMGAowQk8sCFiMMkmd8GI1GOVE95g,408
+property_price_register/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+property_price_register/models/sale.py,sha256=Jo97vJhf1iFMN-hIEg7OVOAD2tPtKfplcrwaNl6Xd6I,15869
+property_price_register/resources/PPR.csv.tar.gz,sha256=DnrKH9CzYZ1NY4LBg4unKX3B09St8vbOqfuxxmnumnM,25569188
+property_price_register-0.0.16.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+property_price_register-0.0.16.dist-info/METADATA,sha256=O1_csvITf17AQYAMv8InQeTgGlTIUT5S-_aJqg7mr4g,400
+property_price_register-0.0.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+property_price_register-0.0.16.dist-info/entry_points.txt,sha256=xM4a_uWyiNv4lmryf7RFVeVS9j_iQ6jBMF1QpxRDeiE,156
+property_price_register-0.0.16.dist-info/top_level.txt,sha256=5PgTIL8FldXH8JulHOF9Y44wutVv8UFOZ8m_IO8nV0w,24
+property_price_register-0.0.16.dist-info/RECORD,,
