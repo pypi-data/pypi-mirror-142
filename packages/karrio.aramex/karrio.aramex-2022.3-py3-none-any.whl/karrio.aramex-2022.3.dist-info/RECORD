@@ -1,0 +1,12 @@
+karrio/mappers/aramex/__init__.py,sha256=_oLryb3m5QP9IeD6A6refgLDfwhvWWas_CIuDdo2-gM,545
+karrio/mappers/aramex/mapper.py,sha256=aMrZrbqtWHmDnB9OxYm_t0rbWEYz9dlg5C5s7rX5AdE,4243
+karrio/mappers/aramex/proxy.py,sha256=3Go0czqyVJ5KnqC03fsyU-Ftv6cCuhu_CWV0gacm8Ew,780
+karrio/mappers/aramex/settings.py,sha256=MRMnQ_F80QDxnTe3JYgZHeMndaLvt1D4up6AiKsAODA,473
+karrio/providers/aramex/__init__.py,sha256=BvDtqrLi7p1-b3snGShCe1_t0VweA4wETUPUPYu5bn0,763
+karrio/providers/aramex/error.py,sha256=cgduSqQNJunV2R7V3KA6xbfG1qOXD2YlJhIRbi7q02A,774
+karrio/providers/aramex/tracking.py,sha256=i5aVLDtbEQ_8juAxKNQDNRDSqL142BNVHvpLMGa2p7U,3135
+karrio/providers/aramex/units.py,sha256=gsOzXxQW1UE-ff7mhgS6Az7AbPGoI5Il7-8a3vzoFKM,1330
+karrio/providers/aramex/utils.py,sha256=ZVeDdiIs1h1ZuTpUoy7AGqmeuJflIw15gGKUPFKZph0,1414
+karrio.aramex-2022.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.aramex-2022.3.dist-info/METADATA,sha256=HEflKnqbwJUQQ6SDNHTOxpXHMIeArodGq45CW8RlsDQ,1312
+karrio.aramex-2022.3.dist-info/RECORD,,
