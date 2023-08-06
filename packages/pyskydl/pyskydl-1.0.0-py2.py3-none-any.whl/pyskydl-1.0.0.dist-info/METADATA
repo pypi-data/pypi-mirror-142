@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyskydl
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: skydl-team
+Author-email: 
+License: BSD
+Keywords: robot,ai,reinforcement learning,machine learning,RL,ML,tensorflow,pytorch,ray,pyskydl,high efficiency,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+# pyskydl
+The lightweight PyTorch wrapper for high-performance AI research. Scale your models, not the boilerplate.
+
+
+# issue汇总
+[import tensorflow is very slow #37729](https://github.com/tensorflow/tensorflow/issues/37729)  
+[Pytorch seems very slow on CPU](https://discuss.pytorch.org/t/pytorch-seems-very-slow-on-cpu/94360)  
+
