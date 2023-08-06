@@ -1,0 +1,9 @@
+README.md
+setup.py
+XCPlayTool.egg-info/PKG-INFO
+XCPlayTool.egg-info/SOURCES.txt
+XCPlayTool.egg-info/dependency_links.txt
+XCPlayTool.egg-info/requires.txt
+XCPlayTool.egg-info/top_level.txt
+xxc-pip-test/__init__.py
+xxc-pip-test/playGame.py
