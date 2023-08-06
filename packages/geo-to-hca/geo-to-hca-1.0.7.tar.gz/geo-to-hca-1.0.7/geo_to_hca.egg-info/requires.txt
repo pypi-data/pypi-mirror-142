@@ -1,0 +1,6 @@
+contextlib2
+openpyxl
+pandas
+pysradb
+pyyaml
+requests
