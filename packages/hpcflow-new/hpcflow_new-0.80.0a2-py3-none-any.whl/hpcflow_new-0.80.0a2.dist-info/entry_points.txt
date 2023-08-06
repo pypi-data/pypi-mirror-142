@@ -1,0 +1,3 @@
+[console_scripts]
+hpcflow=hpcflow.cli:cli
+
