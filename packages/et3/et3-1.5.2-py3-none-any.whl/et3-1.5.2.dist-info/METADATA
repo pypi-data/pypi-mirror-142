@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: et3
+Version: 1.5.2
+Summary: Simple library for Extracting and Transforming data, third incarnation.
+Home-page: https://github.com/lsh-0/et3
+Download-URL: https://github.com/lsh-0/et3/archive/refs/tags/1.5.2.tar.gz
+Author: Luke
+Author-email: lsh-0@users.noreply.github.com
+License: GPLv3
+Platform: any
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# et3
+
+A simple library for Extracting and Transforming data, third incarnation.
+
+## install
+
+    $ pip install et3
+
+## usage
+
+You have a description of your data in the form of a dictionary, with 
+each key's value being a list of transformers. This description is
+applied to a list of items using the `render` and `render_item` functions.
+The first transformer in the list of transformers receives the item, the
+next element receives the result of the previous transformation and so on.
+
+Examples:
+
+* [example.py](example.py)
+* [test_render.py](et3/tests/test_render.py)
+* [bot-lax-adaptor](https://github.com/elifesciences/bot-lax-adaptor/blob/develop/src/main.py)
+
+
