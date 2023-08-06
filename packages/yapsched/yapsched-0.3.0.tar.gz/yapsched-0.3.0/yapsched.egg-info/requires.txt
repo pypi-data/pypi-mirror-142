@@ -1,0 +1,14 @@
+wheel
+croniter
+sqlalchemy
+tzdata
+
+[dev]
+pytest>=6.0.2
+pytest-cov
+pylint
+mypy
+types-croniter
+sqlalchemy-stubs
+lxml
+mock-alchemy==0.2.2
