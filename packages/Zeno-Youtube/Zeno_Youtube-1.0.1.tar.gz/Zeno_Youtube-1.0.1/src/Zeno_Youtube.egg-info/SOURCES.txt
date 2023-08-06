@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Zeno_Youtube.egg-info/PKG-INFO
+src/Zeno_Youtube.egg-info/SOURCES.txt
+src/Zeno_Youtube.egg-info/dependency_links.txt
+src/Zeno_Youtube.egg-info/top_level.txt
