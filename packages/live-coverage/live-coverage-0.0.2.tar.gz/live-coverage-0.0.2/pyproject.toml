@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "live-coverage"
+version = "0.0.2"
+description = "Live Code Coverage for Python"
+authors = ["Defelo <elodef42@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0-only"
+homepage = "https://github.com/Defelo/live-coverage"
+repository = "https://github.com/Defelo/live-coverage"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coverage = "^6.3.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+bandit = "1.7.2"
+black = "^22.1.0"
+wemake-python-styleguide = "^0.16.1"
+mypy = "^0.940"
+
+[tool.poetry.scripts]
+live-coverage = "live_coverage.live_coverage:main"
+
+[tool.poe.tasks]
+flake8 = "flake8 live_coverage --count --statistics --show-source"
+black = "black live_coverage"
+mypy = "mypy live_coverage"
+lint = ["black", "mypy", "flake8"]
+
+[tool.black]
+target-version = ["py310"]
+line-length = 120
+skip-magic-trailing-comma = true
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: live-coverage
+Version: 0.0.2
+Summary: Live Code Coverage for Python
+Home-page: https://github.com/Defelo/live-coverage
+License: GPL-3.0-only
+Author: Defelo
+Author-email: elodef42@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: coverage (>=6.3.2,<7.0.0)
+Project-URL: Repository, https://github.com/Defelo/live-coverage
+Description-Content-Type: text/markdown
+
+# live-coverage
+Live Code Coverage for Python
+
