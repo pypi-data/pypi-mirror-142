@@ -1,0 +1,9 @@
+rich
+typer
+requests-cache
+rich-click
+humanize
+thefuzz
+textual
+textual-inputs==0.2.*
+rapidfuzz

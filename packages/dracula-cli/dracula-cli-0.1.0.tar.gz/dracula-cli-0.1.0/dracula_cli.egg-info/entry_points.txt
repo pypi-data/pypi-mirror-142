@@ -1,0 +1,6 @@
+[console_scripts]
+dracula = dracula.__main__:app
+
+[pipx.run]
+dracula-cli = dracula.__main__:app
+
