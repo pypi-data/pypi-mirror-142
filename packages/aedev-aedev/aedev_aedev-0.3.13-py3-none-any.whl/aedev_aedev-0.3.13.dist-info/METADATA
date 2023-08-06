@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: aedev-aedev
+Version: 0.3.13
+Summary: aedev namespace-root: aedev namespace root, providing setup, development and documentation tools/templates for Python projects.
+Home-page: https://gitlab.com/aedev-group/aedev_aedev
+Author: AndiEcker
+Author-email: aecker2@gmail.com
+License: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Documentation, https://aedev.readthedocs.io/en/latest/_autosummary/aedev.aedev.html
+Project-URL: Repository, https://gitlab.com/aedev-group/aedev_aedev
+Project-URL: Source, https://aedev.readthedocs.io/en/latest/_modules/aedev/aedev.html
+Keywords: configuration,development,environment,productivity
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Provides-Extra: dev
+Requires-Dist: aedev-setup-project ; extra == 'dev'
+Requires-Dist: aedev-tpl-project ; extra == 'dev'
+Requires-Dist: aedev-tpl-namespace-root ; extra == 'dev'
+Requires-Dist: aedev-tpl-app ; extra == 'dev'
+Requires-Dist: aedev-git-repo-manager ; extra == 'dev'
+Requires-Dist: aedev-setup-hook ; extra == 'dev'
+Requires-Dist: sphinx (==4.4.0) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinx-paramlinks ; extra == 'dev'
+Requires-Dist: anybadge ; extra == 'dev'
+Requires-Dist: coverage-badge ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: typing ; extra == 'dev'
+Requires-Dist: types-setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (==4.4.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-paramlinks ; extra == 'docs'
+Requires-Dist: aedev-setup-project ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: anybadge ; extra == 'tests'
+Requires-Dist: coverage-badge ; extra == 'tests'
+Requires-Dist: aedev-git-repo-manager ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: pylint ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: typing ; extra == 'tests'
+Requires-Dist: types-setuptools ; extra == 'tests'
+Requires-Dist: wheel ; extra == 'tests'
+Requires-Dist: twine ; extra == 'tests'
+
+<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.tpl_namespace_root V0.3.10 -->
+# __aedev__ namespace-root project
+
+aedev namespace-root: aedev namespace root, providing setup, development and documentation tools/templates for Python projects.
+
+
+## aedev namespace root package use-cases
+
+this project is maintaining the portions (modules and sub-packages) of the aedev namespace to:
+
+* bulk refactor multiple portions of this namespace simultaneously using the [grm children actions](
+https://aedev.readthedocs.io/en/latest/man/git_repo_manager.html "git_repo_manager manual")
+* update and deploy common outsourced files, optionally generated from templates
+* merge docstrings of all portions into a single combined and cross-linked documentation
+* publish documentation via Sphinx onto [ReadTheDocs](https://aedev.readthedocs.io "aedev on RTD")
+
+this namespace-root package is only needed for development tasks, so never add it to the installation requirements
+file (requirements.txt) of a project.
+
+to ensure the update and deployment of outsourced files generated from the templates provided by this root package via
+the [git repository manager tool](https://github.com/aedev-group/aedev_git_repo_manager), add this root package to the
+development requirements file (dev_requirements.txt) of a portion project of this namespace.
+
+
+## installation
+
+to use this root package first clone it to your local machine and then install it as editable package with `pip`::
+
+   cd projects-parent-folder
+   git clone https://gitlab.com/aedev-group
+   pip install -e aedev_aedev
+
+
+## namespace portions
+
+the following 686 portions are currently included in this namespace:
+
+* [aedev_setup_project](https://pypi.org/project/aedev_setup_project "aedev namespace portion aedev_setup_project")
+* [aedev_tpl_project](https://pypi.org/project/aedev_tpl_project "aedev namespace portion aedev_tpl_project")
+* [aedev_tpl_namespace_root](https://pypi.org/project/aedev_tpl_namespace_root "aedev namespace portion aedev_tpl_namespace_root")
+* [aedev_tpl_app](https://pypi.org/project/aedev_tpl_app "aedev namespace portion aedev_tpl_app")
+* [aedev_git_repo_manager](https://pypi.org/project/aedev_git_repo_manager "aedev namespace portion aedev_git_repo_manager")
+* [aedev_setup_hook](https://pypi.org/project/aedev_setup_hook "aedev namespace portion aedev_setup_hook")
+
+
