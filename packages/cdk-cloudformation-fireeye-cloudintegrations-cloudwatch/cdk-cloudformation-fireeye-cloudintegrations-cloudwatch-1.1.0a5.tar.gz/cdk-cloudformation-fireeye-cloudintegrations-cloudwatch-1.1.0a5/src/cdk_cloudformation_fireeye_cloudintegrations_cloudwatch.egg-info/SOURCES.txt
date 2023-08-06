@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch/__init__.py
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch/py.typed
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch.egg-info/PKG-INFO
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch.egg-info/SOURCES.txt
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch.egg-info/dependency_links.txt
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch.egg-info/requires.txt
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch.egg-info/top_level.txt
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch/_jsii/__init__.py
+src/cdk_cloudformation_fireeye_cloudintegrations_cloudwatch/_jsii/fireeye-cloudintegrations-cloudwatch@1.1.0-alpha.5.jsii.tgz
