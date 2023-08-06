@@ -1,0 +1,21 @@
+[dependencies]
+ndarray = "0.15"
+numpy = "0.15"
+
+[dependencies.biosphere]
+path = "local_dependencies/biosphere"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.15"
+
+[lib]
+crate-type = ["cdylib"]
+name = "biosphere"
+
+[package]
+edition = "2021"
+name = "biosphere_py"
+version = "0.3.0"
+[package.metadata.maturin]
+name = "biosphere"
