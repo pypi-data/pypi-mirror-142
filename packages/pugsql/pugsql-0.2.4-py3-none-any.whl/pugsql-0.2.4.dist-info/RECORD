@@ -1,0 +1,11 @@
+pugsql/__init__.py,sha256=-ibpaLYuRX5tHIRF64fphsRAZEZnk-kc4V1-wyPHsoo,1034
+pugsql/compiler.py,sha256=9ZqYZb6SBkg099gzI9chFh-nQKLrA47zdrOAPxVnrnA,6281
+pugsql/context.py,sha256=xQJ3PtlM54wdiTY5g3LucyiBZCouMhWVeHDL0mBjqVM,1156
+pugsql/exceptions.py,sha256=ESI8qlJu35wz9pzZ7iZdflYqg4DN8CbYuSBI9ZhuFt8,1470
+pugsql/lexer.py,sha256=CFecskITPOBkA_eEaIgQJOLJIKzJWP_w57vrR23Cc54,2904
+pugsql/parser.py,sha256=afezZQCAe-JSnpDygiBmcWEajTNPr8laGTylUkxNcts,3825
+pugsql/statement.py,sha256=zMBiTmlcldzFpmsnqaPpnWaEmAdYaRX6kq7C6CLWShg,5360
+pugsql-0.2.4.dist-info/LICENSE,sha256=m6zM4C5FToBUj5cVwyhXCmjEy_mVbWL2JU6Z_fsbs4g,11345
+pugsql-0.2.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pugsql-0.2.4.dist-info/METADATA,sha256=d1woFfU8CcEHwuRL73pkc8S_Ih7PBng5OZFD_gE9Itc,1778
+pugsql-0.2.4.dist-info/RECORD,,
