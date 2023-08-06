@@ -1,0 +1,17 @@
+hopscotch/__init__.py,sha256=Is5HBHNkr25s9CltXKqB-ggtJvf6eavlxrQc_8hL1SI,318
+hopscotch/callers.py,sha256=AXIpYgauMujnmwbJv0Hy_fp7ATL5Aj0MlNEdDA_8NB0,998
+hopscotch/field_infos.py,sha256=M9VWBNYlxWFuL2X_GTn-qlpjjhbMVeQeUn3C_ShFWGE,6129
+hopscotch/fixtures/__init__.py,sha256=JQ2eXwWaBRKInX5-A-d4MSOH1txf4X4pfrfQJZB4pZg,515
+hopscotch/fixtures/dataklasses.py,sha256=Zjg6Okj-tdk0W8M6-iNeBlvuR_lsXBurwFRT0Mg0Ogo,4004
+hopscotch/fixtures/functions.py,sha256=rNXWe_n8FA9KD6oUg4DURxrXl7SDpgcWfBUWqgbFSrE,1259
+hopscotch/fixtures/hopscotch_setup/__init__.py,sha256=upqhZXNvKNlmvPI97y_pG31Ir0NTCHC4up4Gg6snlPw,426
+hopscotch/fixtures/init_caller_package/__init__.py,sha256=ttfVw9Z91jhDXuMMFOG6gv7FImuBs2fUvKaAOlUpVaw,456
+hopscotch/fixtures/named_tuples.py,sha256=iFbUnHrX87YY7zpgdBNjUNqgE-zIXE6gJ6HPg0lo-kE,1043
+hopscotch/fixtures/plain_classes.py,sha256=XM-j6yJO2w1R3BEVzFbLTJ5wD0VO3x_wPeoSIkgh6Wk,1720
+hopscotch/operators.py,sha256=pOtw1D0DxXApcDG6o5SWg99KWE8cLqPNlItSIWttgfc,3023
+hopscotch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hopscotch/registry.py,sha256=UOz18IfOmxQqafwdKEXE_8VYNHHv9JT3PdrT53F3tkw,14597
+hopscotch-0.3.0.dist-info/LICENSE.md,sha256=25pb3FZhHlWdw7a4J6zPBfKxrm_nogsT8wdOA_abfq4,1074
+hopscotch-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+hopscotch-0.3.0.dist-info/METADATA,sha256=LUQUoXJjwlZPms8Nkw53dLwyKshJhj0dKxPEYCnEiTg,6429
+hopscotch-0.3.0.dist-info/RECORD,,
