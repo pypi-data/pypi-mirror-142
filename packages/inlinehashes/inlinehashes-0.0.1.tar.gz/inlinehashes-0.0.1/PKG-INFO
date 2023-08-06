@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: inlinehashes
+Version: 0.0.1
+Summary: Hash generator for HTML inline styles and scripts
+Home-page: https://github.com/dethos/inlinehashes
+License: MIT
+Author: Gonçalo Valério
+Author-email: gon@ovalerio.net
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Typing :: Typed
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Repository, https://github.com/dethos/inlinehashes
