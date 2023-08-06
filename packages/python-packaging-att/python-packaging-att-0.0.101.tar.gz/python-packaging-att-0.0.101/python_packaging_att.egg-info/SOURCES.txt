@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+python_packaging_at/__init__.py
+python_packaging_at/maths.py
+python_packaging_att.egg-info/PKG-INFO
+python_packaging_att.egg-info/SOURCES.txt
+python_packaging_att.egg-info/dependency_links.txt
+python_packaging_att.egg-info/requires.txt
+python_packaging_att.egg-info/top_level.txt
