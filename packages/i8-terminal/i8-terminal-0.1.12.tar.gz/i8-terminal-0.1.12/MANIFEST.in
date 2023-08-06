@@ -1,0 +1,4 @@
+include config.yml
+include assets/*
+include setup_utils.py
+include requirements.txt
