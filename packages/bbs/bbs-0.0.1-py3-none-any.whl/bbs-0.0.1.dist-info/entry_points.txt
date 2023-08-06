@@ -1,0 +1,3 @@
+[console_scripts]
+bbs = bbs.shell:run
+

@@ -1,0 +1,15 @@
+bbs/__init__.py,sha256=1fl7_tFXmsFqkZrq_cuw2wVKC14PxSflAN5dxJP3PSY,92
+bbs/shell/__init__.py,sha256=XbSZPwkXwbe3mTuxy1ABRn7WH8Ql7nk5Ap_-BJTdRR4,57
+bbs/shell/usage.py,sha256=sQmOHm6g2Tq6tsg8R89USNUj0lEDRmoCdrpiiYVLefk,188
+bbs/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bbs-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+bbs-0.0.1.dist-info/METADATA,sha256=VrAIcuihgmwyjqFvq82tCXtwMgB0DREVj3e6lUBTwu0,3102
+bbs-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bbs-0.0.1.dist-info/entry_points.txt,sha256=XxoBM0KZVf_vUxHhmM3LFRxnuy84H0aLlI0RnfjLH7Y,39
+bbs-0.0.1.dist-info/top_level.txt,sha256=0rWjcPTgHwPRD5JNeQXoBIB6MdYdoGJUOy-YO_Rrsn4,4
+bbs-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bbs-0.0.1.dist-info/RECORD,,
