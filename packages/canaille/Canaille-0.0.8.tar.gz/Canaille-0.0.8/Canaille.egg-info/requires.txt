@@ -1,0 +1,11 @@
+authlib<1
+click<9
+email_validator<2
+flask<3
+flask-babel<3
+flask-themer<2
+flask-wtf<2
+python-ldap<4
+sentry-sdk[flask]<2
+toml<1
+wtforms<4
