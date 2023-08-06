@@ -1,0 +1,33 @@
+{
+    "spec": {
+        "type": "dict",
+        "required": true,
+        "schema": {
+            "name": {
+                "type": "string",
+                "required": true
+            },
+            "feeds": {
+                "type": "list",
+                "required": true,
+                "schema": {
+                    "type": "dict",
+                    "schema": {
+                        "name": {
+                            "type": "string",
+                            "required": true
+                        },
+                        "feedID": {
+                            "type": "string",
+                            "required": true
+                        },
+                        "foo": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
