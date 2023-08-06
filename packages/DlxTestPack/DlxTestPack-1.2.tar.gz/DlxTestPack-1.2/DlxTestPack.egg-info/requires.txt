@@ -1,0 +1,4 @@
+configobj
+pyvisa
+subprocess
+pyserial
