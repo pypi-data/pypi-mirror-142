@@ -1,0 +1,8 @@
+click>=8
+requests
+rich
+pyyaml
+
+[maintainers-sync]
+beautifulsoup4
+browser-cookie3
