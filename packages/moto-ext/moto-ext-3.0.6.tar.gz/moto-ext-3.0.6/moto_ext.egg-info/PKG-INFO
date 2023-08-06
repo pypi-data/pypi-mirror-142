@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: moto-ext
+Version: 3.0.6
+Summary: A library that allows your python tests to easily mock out the boto library
+Home-page: https://github.com/spulec/moto
+Author: Steve Pulec
+Author-email: spulec@gmail.com
+License: Apache
+Project-URL: Documentation, http://docs.getmoto.org/en/latest/
+Description: # Moto - Mock AWS Services
+        
+        Fork of [`moto`](https://github.com/spulec/moto) with changes and adaptations for [LocalStack](https://github.com/localstack/localstack).
+        
+        Please refer to the upstream repo for more details.
+        
+        ## Releasing
+        
+        This fork is maintained as a separate pypi package, [moto-ext](https://pypi.org/project/moto-ext). To release a new version, follow these steps:
+        ```
+        # make sure to have git remotes defined for both repos: 
+        $ git remote -v
+        localstack	git@github.com:localstack/moto.git (fetch)
+        localstack	git@github.com:localstack/moto.git (push)
+        upstream	git@github.com:spulec/moto.git (fetch)
+        upstream	git@github.com:spulec/moto.git (push)
+        
+        # fetch fresh upstream "master" branch
+        $ git fetch upstream master
+        
+        # branch "localstack" is the default branch of this repo
+        $ git checkout localstack
+        $ git rebase upstream/master  # resolve merge conflicts, if any...
+        # (force-)push latest changes to the remote repo
+        $ git push -f localstack localstack
+        
+        # update __version__, then publish to pypi
+        $ vi moto/__init__.py
+        ...
+        $ rm -rf dist/ build/
+        $ make publish
+        ...
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dms
+Provides-Extra: sns
+Provides-Extra: kinesisvideo
+Provides-Extra: datasync
+Provides-Extra: cloudfront
+Provides-Extra: swf
+Provides-Extra: mediapackage
+Provides-Extra: sagemaker
+Provides-Extra: elb
+Provides-Extra: firehose
+Provides-Extra: codecommit
+Provides-Extra: transcribe
+Provides-Extra: emrcontainers
+Provides-Extra: redshiftdata
+Provides-Extra: cognitoidp
+Provides-Extra: s3control
+Provides-Extra: medialive
+Provides-Extra: dynamodbstreams
+Provides-Extra: all
+Provides-Extra: athena
+Provides-Extra: dynamodb2
+Provides-Extra: sqs
+Provides-Extra: xray_client
+Provides-Extra: textract
+Provides-Extra: ssm
+Provides-Extra: apigatewayv2
+Provides-Extra: resourcegroupstaggingapi
+Provides-Extra: kinesis
+Provides-Extra: dynamodb
+Provides-Extra: opsworks
+Provides-Extra: acm
+Provides-Extra: sts
+Provides-Extra: glue
+Provides-Extra: wafv2
+Provides-Extra: awslambda
+Provides-Extra: autoscaling
+Provides-Extra: budgets
+Provides-Extra: sdb
+Provides-Extra: ssoadmin
+Provides-Extra: config
+Provides-Extra: route53resolver
+Provides-Extra: servicediscovery
+Provides-Extra: ses
+Provides-Extra: rds2
+Provides-Extra: managedblockchain
+Provides-Extra: resourcegroups
+Provides-Extra: redshift
+Provides-Extra: iotdata
+Provides-Extra: ecs
+Provides-Extra: guardduty
+Provides-Extra: ds
+Provides-Extra: datapipeline
+Provides-Extra: applicationautoscaling
+Provides-Extra: glacier
+Provides-Extra: forecast
+Provides-Extra: support
+Provides-Extra: es
+Provides-Extra: elastictranscoder
+Provides-Extra: pinpoint
+Provides-Extra: ecr
+Provides-Extra: emr
+Provides-Extra: kinesisvideoarchivedmedia
+Provides-Extra: logs
+Provides-Extra: mediastoredata
+Provides-Extra: route53
+Provides-Extra: ec2instanceconnect
+Provides-Extra: efs
+Provides-Extra: organizations
+Provides-Extra: timestreamwrite
+Provides-Extra: ec2
+Provides-Extra: iot
+Provides-Extra: events
+Provides-Extra: s3
+Provides-Extra: databrew
+Provides-Extra: kms
+Provides-Extra: appsync
+Provides-Extra: dax
+Provides-Extra: cloudformation
+Provides-Extra: polly
+Provides-Extra: elasticbeanstalk
+Provides-Extra: mediastore
+Provides-Extra: iam
+Provides-Extra: batch
+Provides-Extra: secretsmanager
+Provides-Extra: eks
+Provides-Extra: stepfunctions
+Provides-Extra: elasticache
+Provides-Extra: mq
+Provides-Extra: server
+Provides-Extra: cloudtrail
+Provides-Extra: apigateway
+Provides-Extra: ram
+Provides-Extra: mediaconnect
+Provides-Extra: lambda
+Provides-Extra: cloudwatch
+Provides-Extra: cognitoidentity
+Provides-Extra: xray
+Provides-Extra: codepipeline
+Provides-Extra: elbv2
+Provides-Extra: rds
