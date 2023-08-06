@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pydynpd.egg-info/PKG-INFO
+src/pydynpd.egg-info/SOURCES.txt
+src/pydynpd.egg-info/dependency_links.txt
+src/pydynpd.egg-info/top_level.txt
