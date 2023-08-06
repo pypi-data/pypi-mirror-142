@@ -1,0 +1,2 @@
+colorlog==5.0.1
+sentry-sdk==1.5.7
