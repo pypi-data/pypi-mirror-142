@@ -1,0 +1,12 @@
+cagmon/__init__.py,sha256=vcWrz33i7vccr9pjsax-kHlCrvo76DlIWwSFnMhrt8I,464
+cagmon/agrement.py,sha256=Wg7d9M0FcscaIonSkQPAHASTINk2eL04DeEm5Y_xetg,22323
+cagmon/conchord.py,sha256=8ktIyev66rZuutEl31_hQWWZ49Cq7SXuYAO2AoLP7iI,23001
+cagmon/echo.py,sha256=cIlH9GKjd-bB9PG9eWvX4obuhePTHxakAFgSKHvZze8,19149
+cagmon/main.py,sha256=Qi6QXgteFJapprpCUCtqJz1rXkDc6t-4iXphy8FPKIc,9678
+cagmon/melody.py,sha256=a3e0i7LgwxjCCz7AttCgcmUrAx8JSXPrNxvMWHON8c8,16081
+CAGMon-0.8.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+CAGMon-0.8.5.dist-info/METADATA,sha256=YG9qjDqOwrZHVu_O79MHa1Xix8yVS0A6vsP_JcTi2kQ,5056
+CAGMon-0.8.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+CAGMon-0.8.5.dist-info/entry_points.txt,sha256=uri27bZFEkRyWc32t7seGB09oZi22as45tPboHLQKmw,45
+CAGMon-0.8.5.dist-info/top_level.txt,sha256=DXKCbCH8aczRGjW9QkKs34RK22Q4_CTm9AgOlK75x9g,7
+CAGMon-0.8.5.dist-info/RECORD,,

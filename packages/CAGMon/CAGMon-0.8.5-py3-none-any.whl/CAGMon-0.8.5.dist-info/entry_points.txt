@@ -1,0 +1,3 @@
+[console_scripts]
+cagmon = cagmon.main:main
+
