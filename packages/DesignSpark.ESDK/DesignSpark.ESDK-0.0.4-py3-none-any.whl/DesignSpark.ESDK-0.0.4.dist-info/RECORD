@@ -1,0 +1,16 @@
+DesignSpark.ESDK-0.0.4-py3.9-nspkg.pth,sha256=5dqQDydto32QXM8Hkhb3FP17zNmTXS_ntSgLPAxhBF8,565
+DesignSpark/ESDK/AppLogger.py,sha256=Ro1MsUwh70QsqPo4uLFGVDhkxwwNHpyaEEit1TEOpTc,1924
+DesignSpark/ESDK/CO2.py,sha256=VqGFgXuFxBRQ8TEE4nJUnlLPeuDGslreb8W2SiNaWIg,2880
+DesignSpark/ESDK/DFRobot_SGP40_VOCAlgorithm.py,sha256=C0TMWgV1K9ibFPv6MJJ-XRPikfpUk2Rra4-TQ3z1Azs,27647
+DesignSpark/ESDK/MAIN.py,sha256=1_F6XyOEh65HhqOd7TXJYTmf5Q69JJ_r_-A4oIArK3s,9373
+DesignSpark/ESDK/MQTT.py,sha256=9mNJxilBfAr03kMKdl7qAlOQaDeEn1fH_B23MkqTK2E,1276
+DesignSpark/ESDK/NO2.py,sha256=RobbkIA5pkeh4NSbw45-VSVFvBiaAPWn3DkH6oLqWfQ,4100
+DesignSpark/ESDK/PM2.py,sha256=a9P794cu4MCLVev417Ts52tHY1Pe6nn02UeUOkSBQ8E,3939
+DesignSpark/ESDK/THV.py,sha256=gFXO7TgNSxQ0YIsxRx191zICeBriL4QqgQmEHz-OEgM,4996
+DesignSpark/ESDK/__init__.py,sha256=ATTA0jmRn090xKHnGUEqMuDn2TiQhQJ-Oc-hBo1cdUk,196
+DesignSpark.ESDK-0.0.4.dist-info/COPYING,sha256=2pj5hSiDhbCHkKsAhifEyiTw0HQpFK28hti2Cl1Hnsw,1128
+DesignSpark.ESDK-0.0.4.dist-info/METADATA,sha256=HVvwH8pvheylFil-KbV6fQd_y8MMRW5N4-h8p3KO0xk,1068
+DesignSpark.ESDK-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+DesignSpark.ESDK-0.0.4.dist-info/namespace_packages.txt,sha256=3EdTiKB3LlJ0GqPSPjSWhlVhGclG8dUzgPVKlXSkPEY,12
+DesignSpark.ESDK-0.0.4.dist-info/top_level.txt,sha256=3EdTiKB3LlJ0GqPSPjSWhlVhGclG8dUzgPVKlXSkPEY,12
+DesignSpark.ESDK-0.0.4.dist-info/RECORD,,
