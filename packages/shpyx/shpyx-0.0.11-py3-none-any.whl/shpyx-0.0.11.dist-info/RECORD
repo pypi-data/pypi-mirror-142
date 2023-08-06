@@ -1,0 +1,10 @@
+shpyx/__init__.py,sha256=bpirNcyU3XrFmu9l9IMmc0daFYqaJrqLVgVT2lHd8j8,309
+shpyx/cmd_runner.py,sha256=tZJKBZi3V5q-iUUyA98rtcQ4yjRa1iAf_P09uvGhGNw,9337
+shpyx/errors.py,sha256=p3dKFDogj-ALCnqKgZjGOsfprFubJtL_XNoW4NEl9-A,525
+shpyx/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+shpyx/result.py,sha256=4FnOdzWsEAU3t0fV_Qh7Dm79zBDgXBiVBuJtDv5buds,758
+shpyx-0.0.11.dist-info/LICENSE,sha256=HRuAc9yA1A8CXhF6t5uMVWNxEV-uF5A3OZnPe9bxAYE,1072
+shpyx-0.0.11.dist-info/METADATA,sha256=c6C1Vix6Qsh04ohqbC8OS8NI_-ztTdwuvZ9Eth-34Vo,3434
+shpyx-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shpyx-0.0.11.dist-info/top_level.txt,sha256=ga0Jqjk-e9f9mhN9cwOzBx0SFCztVgp73-0ra32WAiM,6
+shpyx-0.0.11.dist-info/RECORD,,
