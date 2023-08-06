@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+examples/example.ipynb
+fakertype/__init__.py
+fakertype/core.py
+fakertype/version.py
+fakertype.egg-info/PKG-INFO
+fakertype.egg-info/SOURCES.txt
+fakertype.egg-info/dependency_links.txt
+fakertype.egg-info/requires.txt
+fakertype.egg-info/top_level.txt

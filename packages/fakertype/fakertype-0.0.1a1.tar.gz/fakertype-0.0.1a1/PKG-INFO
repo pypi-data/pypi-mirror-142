@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fakertype
+Version: 0.0.1a1
+Summary: Generate fake data in specified type data
+Home-page: https://github.com/yasirroni/fakertype
+Author: Muhammad Yasirroni
+Author-email: muhammadyasirroni@gmail.com
+License: UNKNOWN
+Description: # fakertype
+        
+        Generate fake data in specified type data
+        
+        ## Usage
+        
+        ```python
+        from fakertype import FakerType
+        
+        ft = FakerType()
+        fake_dict = ft.fake_dict()
+        ```
+        
+        See more example in [`example.ipynb`](examples/example.ipynb).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
