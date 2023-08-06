@@ -1,0 +1,11 @@
+how/__init__.py,sha256=6eaCtk4qkUY854mEMyq6nNoU5_V2WhSuy-KibV17fQY,349
+how/__main__.py,sha256=Kebyhrx53_Fzi6oOEuZCNmYqtdAHw5svYIOvcta3dy0,732
+how/cli.py,sha256=r2B55b2HR4YuY_2-lgQ5_O95vR2I1CEV6Oy43fibBkc,2125
+how/crawler.py,sha256=DN5vzjbYXeAr3g3Ng0-NgzA3IjNn9Q-3og1ddpNUx2Q,1222
+how/util.py,sha256=v7gtJSV1JcUaIM3WlTdpFJ8VITdW8oAATuui-DlW1h4,319
+askquestions-0.4.0.dist-info/LICENSE,sha256=_kGuGmXsq-VzR2UH8K0kjhRhpBi8hLt8dXfxWFxKoJM,1045
+askquestions-0.4.0.dist-info/METADATA,sha256=qaR_WPeS1wHdIMEWko4znjFgITCO7ytgfQ94SaLKBFY,3133
+askquestions-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+askquestions-0.4.0.dist-info/entry_points.txt,sha256=4N55X8KCpWThR1rx8ftt-nR3jYyJCqik4dvE7s9vXxM,42
+askquestions-0.4.0.dist-info/top_level.txt,sha256=LIXNCWyu3FZmtJRAmtdDyfDDhBCVyONn0SkolQvB6qc,4
+askquestions-0.4.0.dist-info/RECORD,,
