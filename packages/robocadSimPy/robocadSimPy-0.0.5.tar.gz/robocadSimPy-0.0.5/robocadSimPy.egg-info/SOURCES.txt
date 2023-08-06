@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+RobocadSim.py
+__init__.py
+funcad.py
+setup.py
+data/__init__.py
+robocadSimPy.egg-info/PKG-INFO
+robocadSimPy.egg-info/SOURCES.txt
+robocadSimPy.egg-info/dependency_links.txt
+robocadSimPy.egg-info/requires.txt
+robocadSimPy.egg-info/top_level.txt

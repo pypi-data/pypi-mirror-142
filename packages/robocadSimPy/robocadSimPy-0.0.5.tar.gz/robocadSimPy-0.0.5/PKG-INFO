@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: robocadSimPy
+Version: 0.0.5
+Summary: python lib for robocadSim
+Home-page: https://readthedocs.org/projects/robocadsim/
+Author: Abdrakov Airat
+Author-email: abdrakovairat@gmail.com
+License: MIT
+Keywords: simulator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Python lib for robocadSim
+
+Change Log
+==============================
+
+0.0.1 (06.10.2020)
+------------------------------
+- First Release
+
