@@ -1,0 +1,248 @@
+#!/usr/bin/env python3
+import xolphin
+import os
+import base64
+from OpenSSL import crypto
+import argparse
+import textwrap
+
+def main():
+
+    TEST_MODE = False
+
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
+        epilog='''
+additional information:
+    This program needs 2 environment variables to be set with your Xolphin credentials:
+        XOLPHIN_USER='foo@bar.nl'
+        XOLPHIN_PASSWORD='secret_password'
+    It will use these credentials to authenticate to the Xolphin API.'''
+
+    )
+    parser.add_argument('--create-pem', help='Creates a .pem file with the certificate(.crt), the intermediates(.ca) and the key(.key). And a .cer file with the Certificate and the intermediates. Requires the following files: FILENAME.crt ,FILENAME.ca and FILENAME.key', metavar='filename')
+    parser.add_argument('--kube-secret', help='Prints a kubernetes secret in yaml format generated from a cert/key. Requires a FILENAME.cer and a FILENAME.key', metavar='filename')
+    parser.add_argument('--list-requests', help='Lists all pending requests at Xolphin', action='store_true')
+    parser.add_argument('--retry-validation', help='Triggers a validation of the certificate request with DOMAIN_NAME', metavar='domain_name')
+    parser.add_argument('--download-certificate', help='Downloads the certificate for DOMAIN_NAME and saves it as DOMAIN_NAME.cer. Also downloads the corresponding intermediate certificates as DOMAIN_NAME.ca', metavar='domain_name')
+    parser.add_argument('--list-certificates', help='Lists all current certificates at Xolphin', action='store_true')
+    parser.add_argument('--request-status', help='Gets the status of the request with the DOMAIN_NAME. If DOMAIN_NAME is "all" then list the status of all requests' , metavar='domain_name')
+    parser.add_argument('--request-certificate', help='Request a new certificate from Xolphin, and saves the generated DOMAIN_NAME.csr and DOMAIN_NAME.key', metavar='domain_name')
+    parser.add_argument('--renew-certificate', help='Renews an existing certificate from Xolphin, and saves the generated DOMAIN_NAME.csr and DOMAIN_NAME.key', metavar='domain_name')
+
+    args = parser.parse_args()
+
+    user = os.getenv('XOLPHIN_USER')
+    password = os.environ.get('XOLPHIN_PASSWORD')
+
+
+    client = xolphin.Client(user, password, TEST_MODE)
+
+    if args.create_pem:
+        file_name = args.create_pem
+        with open('%s.crt' % file_name)  as crt, open('%s.ca' % file_name) as ca, open('%s.key' % file_name) as key, open('%s.pem' % file_name, 'a') as pem, open('%s.cer' % file_name, 'a') as cer:
+            pem.truncate(0)
+            cer.truncate(0)
+            for line in crt:
+                pem.write(line)
+                cer.write(line)
+            pem.write('\n')
+            for line in ca:
+                pem.write(line)
+                cer.write(line)
+            pem.write('\n')
+            cer.write('\n')
+            for line in key:
+                pem.write(line)
+
+    if args.kube_secret:
+        file_name = args.kube_secret
+        with open('%s.cer' % file_name, 'r') as cer, open('%s.key' % file_name, 'r') as key:
+            cerData = cer.read()
+            cerData = cerData.encode('ascii')
+            cerData = base64.b64encode(cerData)
+            cerData = cerData.decode('ascii')
+            keyData = key.read()
+            keyData = keyData.encode('ascii')
+            keyData = base64.b64encode(keyData)
+            keyData = keyData.decode('ascii')
+        template = """
+    tls.crt: %s
+    tls.key: %s
+        """ % (cerData, keyData)
+        print(template)
+
+    if args.list_requests:
+        # List current requests
+        requests = client.request().all()
+        for request in requests:
+            #print(vars(request))
+            print(request.domain_name, request.product.name)
+
+    if args.retry_validation:
+        # List current requests
+        domain_name = args.retry_validation
+        requests = client.request().all()
+        for request in requests:
+            if domain_name == request.domain_name:
+                result = client.request().retry_dcv(request.id, domain_name, 'DNS')
+                print(result.message)
+
+    if args.download_certificate:
+        domain_name = args.download_certificate
+        if domain_name[0] == '*':
+            fileName = domain_name.replace('*', 'star')
+        else:
+            fileName = domain_name
+        certificates = client.certificate().all()
+        for certificate in certificates:
+            if domain_name == certificate.domain_name:
+                cert = client.certificate().download(certificate.id, 'CRT')
+                ca = client.certificate().download(certificate.id, 'CA_BUNDLE')
+        with open('%s.crt' % fileName, 'wb') as f:
+            f.write(cert)
+        with open('%s.ca' % fileName, 'wb') as f:
+            f.write(ca)
+
+    if args.list_certificates:
+        # List current certificates
+        certificates = client.certificate().all()
+        for certificate in certificates:
+            #print(vars(certificate))
+            print(certificate.domain_name, "expires:",certificate.date_expired, "product id:", certificate.product.id)
+
+    if args.request_status:
+        domain_name = args.request_status
+        requests = client.request().all()
+        for request in requests:
+            if domain_name == 'all':
+                print(vars(request))
+            elif domain_name == request.domain_name:
+                request = client.request().get(request.id)
+                validation = request.validations.get('dcv')
+                domains = validation.domains
+                for domain in domains:
+                    attrs = vars(domain)
+                    for item in attrs.items():
+                        print("%s: %s" % item)
+                    print("\n")
+
+    if args.request_certificate:
+        domain_name = args.request_certificate
+        if domain_name[0] == '*':
+            fileName = domain_name.replace('*', 'star')
+            product_id = 19
+        else:
+            fileName = domain_name
+            product_id = 18
+        #generate key:
+        TYPE_RSA = crypto.TYPE_RSA
+        key = crypto.PKey()
+        key.generate_key(TYPE_RSA, 4096)
+        result = crypto.dump_privatekey(crypto.FILETYPE_PEM, key)
+        with open('%s.key' % fileName, 'wb') as f:
+            f.write(result)
+
+        #generate csr:
+        c = 'NL'
+        st = 'Noord Holland'
+        l = 'Amsterdam'
+        o = 'FD Mediagroep'
+        ou = ''
+        req = crypto.X509Req()
+        req.get_subject().CN = domain_name
+        req.get_subject().C = c
+        req.get_subject().ST = st
+        req.get_subject().L = l
+        req.get_subject().O = o
+        #req.get_subject().OU = ou
+        req.set_pubkey(key)
+        req.sign(key, "sha256")
+
+        csr = crypto.dump_certificate_request(crypto.FILETYPE_PEM, req)
+        #csr = csr.decode('ascii')
+        with open('%s.csr' % fileName, 'wb') as f:
+            f.write(csr)
+
+        #request certificate
+        ccr = client.request().create(product_id, 1, csr, 'DNS')
+        ccr.address = 'Address'
+        ccr.approver_first_name = 'Riny'
+        ccr.approver_last_name = 'Meester'
+        ccr.approver_phone = '+12345678901'
+        # ccr.approver_email = 'email@domain.com'
+        ccr.zipcode = '1097 BL'
+        ccr.city = 'Amsterdam'
+        ccr.company = 'FD Mediagroep'
+        # currently available languages: en, de, fr, nl
+        ccr.language = 'nl'
+        #ccr.subject_alternative_names.append('test1.domain.com')
+        #ccr.subject_alternative_names.append('test2.domain.com')
+        ccr.dcvType = 'DNS'
+        #Request certificvate
+        request = client.request().send(ccr)
+        print(request.domain_name, "date ordered:", request.date_ordered)
+
+    if args.renew_certificate:
+        domain_name = args.renew_certificate
+        certificates = client.certificate().all()
+        for certificate in certificates:
+            if domain_name == certificate.domain_name:
+                #cert = client.certificate().get(certificate.id)
+                cert = certificate.id
+        if domain_name[0] == '*':
+            fileName = domain_name.replace('*', 'star')
+            product_id = 19
+        else:
+            fileName = domain_name
+            product_id = 18
+        # generate key:
+        TYPE_RSA = crypto.TYPE_RSA
+        key = crypto.PKey()
+        key.generate_key(TYPE_RSA, 4096)
+        result = crypto.dump_privatekey(crypto.FILETYPE_PEM, key)
+        with open('%s.key' % fileName, 'wb') as f:
+            f.write(result)
+
+        # generate csr:
+        c = 'NL'
+        st = 'Noord Holland'
+        l = 'Amsterdam'
+        o = 'FD Mediagroep'
+        ou = ''
+        req = crypto.X509Req()
+        req.get_subject().CN = domain_name
+        req.get_subject().C = c
+        req.get_subject().ST = st
+        req.get_subject().L = l
+        req.get_subject().O = o
+        # req.get_subject().OU = ou
+        req.set_pubkey(key)
+        req.sign(key, "sha256")
+
+        csr = crypto.dump_certificate_request(crypto.FILETYPE_PEM, req)
+        # csr = csr.decode('ascii')
+        with open('%s.csr' % fileName, 'wb') as f:
+            f.write(csr)
+
+        # request certificate
+        ccr = client.request().create(product_id, 1, csr, 'DNS')
+        ccr.address = 'Address'
+        ccr.approver_first_name = 'Riny'
+        ccr.approver_last_name = 'Meester'
+        ccr.approver_phone = '+12345678901'
+        # ccr.approver_email = 'email@domain.com'
+        ccr.zipcode = '1097 BL'
+        ccr.city = 'Amsterdam'
+        ccr.company = 'FD Mediagroep'
+        # currently available languages: en, de, fr, nl
+        ccr.language = 'nl'
+        # ccr.subject_alternative_names.append('test1.domain.com')
+        # ccr.subject_alternative_names.append('test2.domain.com')
+        ccr.dcvType = 'DNS'
+        # Request certificate
+        request = client.certificate().renew(cert, ccr)
+        print(request.domain_name, "date ordered:", request.date_ordered)
+
+if __name__ == "__main__":
+    """This runs when you execute '$ python3 mypackage/mymodule.py'"""
+    main()

@@ -1,0 +1,2 @@
+pyOpenSSL~=21.0
+xolphin-api~=1.6
