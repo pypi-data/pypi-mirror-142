@@ -1,0 +1,15 @@
+qlligraphy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlligraphy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlligraphy/core/ast_node_context.py,sha256=is2m7iYqFIeBBYt77GoYCYSUJXgnYf6r43YGON_Oy7o,2200
+qlligraphy/core/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlligraphy/core/base/visitor.py,sha256=W3f5II-RdWEoBOW6Fpq6QBeHMLRTDGCOvh1vQGuNK2M,866
+qlligraphy/core/constants.py,sha256=XiJHvgOIopKraFUX7knda8kaBD3sZRLTbhb-CuMPblY,252
+qlligraphy/core/graphql_schema_visitor.py,sha256=W11wkwLgVf0vPMtpMe98ynWEgnB26dmL1t6L9pncJFE,456
+qlligraphy/core/py_ast_builders.py,sha256=q4amOa43aCBP1DKZQQMrSKLlDrIiFc8rhW455UkyAcY,2376
+qlligraphy/core/visit_functions.py,sha256=6tiqoWh9gc1KnFbZlg_UlAKNuua03mXdqBfhbXsYEhc,5573
+qlligraphy/main.py,sha256=dTxVFRjboi2E0wCKOgUptxgZD8MgIRqVPII_dXOqnPo,1418
+qlligraphy-0.1.2.dist-info/entry_points.txt,sha256=iQRneZ8EACgPvmQ11MiFn72SdSs7HhFZj-_1O2pycko,50
+qlligraphy-0.1.2.dist-info/LICENSE,sha256=_7HSFXmwkUdCdK2H-BUhKIAxAo2-St_dSSxvvIClNSY,1524
+qlligraphy-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+qlligraphy-0.1.2.dist-info/METADATA,sha256=xhNqXPcoHMXjHWJJjCkkTU6sarV8cCVStBYl_IX4_iY,1524
+qlligraphy-0.1.2.dist-info/RECORD,,
