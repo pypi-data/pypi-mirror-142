@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ecoserver
+Version: 1.0.0
+Summary: Eco Game API
+Home-page: 
+Author-email: 
+License: UNKNOWN
+Keywords: Swagger,Eco Game API
+Platform: UNKNOWN
+
+    First API draft for Eco. Heavy work in progress and subject to changes.  # noqa: E501
+    
+
