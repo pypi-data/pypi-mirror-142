@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+deformable_attention/__init__.py
+deformable_attention/deformable_attention.py
+deformable_attention.egg-info/PKG-INFO
+deformable_attention.egg-info/SOURCES.txt
+deformable_attention.egg-info/dependency_links.txt
+deformable_attention.egg-info/requires.txt
+deformable_attention.egg-info/top_level.txt
