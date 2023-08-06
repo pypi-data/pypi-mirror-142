@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ce_dates_parser/__init__.py
+src/ce_dates_parser/dates_parser.py
+src/ce_dates_parser/dates_regex.py
+src/ce_dates_parser.egg-info/PKG-INFO
+src/ce_dates_parser.egg-info/SOURCES.txt
+src/ce_dates_parser.egg-info/dependency_links.txt
+src/ce_dates_parser.egg-info/top_level.txt
