@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+RegexFactory.egg-info/PKG-INFO
+RegexFactory.egg-info/SOURCES.txt
+RegexFactory.egg-info/dependency_links.txt
+RegexFactory.egg-info/top_level.txt
+RegexFactory.egg-info/zip-safe
+regexfactory/__init__.py
+regexfactory/chars.py
+regexfactory/pattern.py
+regexfactory/patterns.py
