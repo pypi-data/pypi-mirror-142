@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/reddoor_gcp.py
+src/reddoor_package.egg-info/PKG-INFO
+src/reddoor_package.egg-info/SOURCES.txt
+src/reddoor_package.egg-info/dependency_links.txt
+src/reddoor_package.egg-info/requires.txt
+src/reddoor_package.egg-info/top_level.txt
