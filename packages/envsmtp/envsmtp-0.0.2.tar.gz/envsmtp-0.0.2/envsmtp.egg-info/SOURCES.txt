@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+envsmtp/__init__.py
+envsmtp.egg-info/PKG-INFO
+envsmtp.egg-info/SOURCES.txt
+envsmtp.egg-info/dependency_links.txt
+envsmtp.egg-info/top_level.txt
