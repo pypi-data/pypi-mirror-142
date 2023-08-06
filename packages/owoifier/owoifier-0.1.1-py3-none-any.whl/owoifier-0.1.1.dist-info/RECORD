@@ -1,0 +1,11 @@
+owoifier/__init__.py,sha256=qErrOmRdO22BZzw4Fq2YEgFFC5pc1aXuyxxjd99qGbc,761
+owoifier/constants.py,sha256=0J3c9lPbzHm7rAVLWYBJtvWpey0IaSUPOwmBPE6iZOI,1046
+owoifier/owoifier.py,sha256=59fiFxk3i0xnVHTykfIL6HUxdVYUezSsYowa984VhVQ,1900
+owoifier/_cli/__init__.py,sha256=d6DhkViGRmnD1WPtFz-FwWgjYNPlUeNB9WCXsQlmfp8,1915
+owoifier/_cli/interface.py,sha256=nSEfRm-Z3ivQzhe_EV4MK7xHdXV4uJQ0R6s7GtgrRdk,2866
+owoifier-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+owoifier-0.1.1.dist-info/METADATA,sha256=Hve4VZpuKpp1nmdAMCvpYFpLVOGTuVDbWVYuMPbFF4Y,1930
+owoifier-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+owoifier-0.1.1.dist-info/entry_points.txt,sha256=zNMX0BeHDx_tGAlsry-kdTJP_pQV7WPEjZIA06J7j34,48
+owoifier-0.1.1.dist-info/top_level.txt,sha256=ZRFLRKke57UdOvfg46DkxBC3wihxTGgq8HtS_bZ0x0U,9
+owoifier-0.1.1.dist-info/RECORD,,

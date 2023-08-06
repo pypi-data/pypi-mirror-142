@@ -1,0 +1,2 @@
+[console_scripts]
+owoifier = owoifier._cli:main
