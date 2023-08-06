@@ -1,0 +1,3 @@
+[console_scripts]
+loci-snyk = loci_snyk.main:loci_snyk
+
