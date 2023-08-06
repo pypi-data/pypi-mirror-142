@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pipedt-hanjing
+Version: 0.0.1
+Summary: An unified engine for training and inference for large-scale models
+Home-page: https://github.com/VegeWong/PipelineDT
+Author: Hanjing Wang, Mankit
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/VegeWong/PipelineDT/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# PDT: Pipeline Decision Transformer
+
+![arch](./arch.png)
+<p align="center"><font size=4>Framework Architecture</font></p> 
+
+## TODO
+  - [ ] Pipeline model with data scheduler
+  - [ ] Performance experiments
+  - [ ] Decoupling components from starcraft
+  
+  
+
+
