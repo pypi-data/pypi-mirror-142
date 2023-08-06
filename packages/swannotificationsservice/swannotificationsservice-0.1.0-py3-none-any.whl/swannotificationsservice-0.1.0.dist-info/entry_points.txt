@@ -1,0 +1,3 @@
+[console_scripts]
+swannotificationsservice = swannotificationsservice.app:main
+
