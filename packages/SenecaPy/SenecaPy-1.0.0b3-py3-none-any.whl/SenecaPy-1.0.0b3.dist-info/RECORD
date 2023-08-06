@@ -1,0 +1,10 @@
+seneca/__init__.py,sha256=XKnVN2BHNi3hyY1UkXfZsyVPNG84kM0c3wE062RVMoA,431
+seneca/Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seneca/Modules/answers.py,sha256=3A3kij8t8Zp-VCZcvhPEpUltqFt-Y7RM1wPp69uhLj0,4851
+seneca/Modules/info.py,sha256=ZiudVQEvpr1mb5A0Qy3VjxIoiPTrJc6g5bW4NG_Y874,1439
+seneca/Modules/locations.py,sha256=yvUyT8tDQSxd0unNrPacArjbu9djKS2bcVeX8OfrE5Y,1304
+seneca/Modules/token.py,sha256=tLjYjCMKsB5A-7CU5_mVLj5jNnOr7xL5gPBlv2kXHO4,1360
+SenecaPy-1.0.0b3.dist-info/METADATA,sha256=_4LJyn36VmkJWEFfunI4ZLDbPynhhZThXmMT2tlL8vg,605
+SenecaPy-1.0.0b3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SenecaPy-1.0.0b3.dist-info/top_level.txt,sha256=oNQFO8HGTwLRkdrYvjRMdF93x4v6Yfe8iOxS3s7KZ3c,7
+SenecaPy-1.0.0b3.dist-info/RECORD,,
