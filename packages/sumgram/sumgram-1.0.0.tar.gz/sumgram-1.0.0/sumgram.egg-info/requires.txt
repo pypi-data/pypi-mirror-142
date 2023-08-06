@@ -1,0 +1,4 @@
+numpy
+requests
+sklearn
+NwalaTextUtils==0.0.5
