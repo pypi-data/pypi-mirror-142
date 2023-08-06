@@ -1,0 +1,3 @@
+[console_scripts]
+easy_infra = easy_infra.__main__:main
+
