@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "geopatra"
+version = "0.3.0"
+description = "Interactive Maps with Geopandas"
+authors = ["sangarshanan <sangarshanan1998@gmail.com>"]
+
+readme = "README.md"
+
+repository = "https://github.com/Sangarshanan/geopatra"
+documentation = "https://geopatra.readthedocs.io/"
+
+keywords = ["geopandas", "geospatial", "interactive maps"]
+
+[tool.poetry.dependencies]
+importlib-metadata = {version = "^1.0", python = ">=3.9"}
+python = "^3.9"
+folium = "^0.11.0"
+geopandas = "^0.8.1"
+keplergl = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+Sphinx = "2.2.1"
+ipython = "^7.12.0"
+nbsphinx = "^0.5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
