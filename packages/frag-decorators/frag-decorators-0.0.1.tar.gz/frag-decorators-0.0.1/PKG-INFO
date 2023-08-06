@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: frag-decorators
+Version: 0.0.1
+Summary: Some simple but useful decorators
+Home-page: https://github.com/FQY7
+Author: FQY
+Author-email: qingyun-feng@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Some simple but useful decorators
+

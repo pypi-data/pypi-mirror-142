@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+frag-decorators/__init__.py
+frag-decorators/decorators.py
+frag_decorators.egg-info/PKG-INFO
+frag_decorators.egg-info/SOURCES.txt
+frag_decorators.egg-info/dependency_links.txt
+frag_decorators.egg-info/top_level.txt
