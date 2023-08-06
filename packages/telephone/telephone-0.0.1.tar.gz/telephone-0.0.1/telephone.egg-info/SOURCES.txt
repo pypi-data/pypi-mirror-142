@@ -1,0 +1,10 @@
+README.md
+setup.py
+telephone/__init__.py
+telephone/main.py
+telephone.egg-info/PKG-INFO
+telephone.egg-info/SOURCES.txt
+telephone.egg-info/dependency_links.txt
+telephone.egg-info/not-zip-safe
+telephone.egg-info/requires.txt
+telephone.egg-info/top_level.txt
