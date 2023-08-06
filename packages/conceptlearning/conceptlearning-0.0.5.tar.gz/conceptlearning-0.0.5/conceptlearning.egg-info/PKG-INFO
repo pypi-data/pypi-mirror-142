@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: conceptlearning
+Version: 0.0.5
+Summary: Concept Learning Algorithms
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Concept Learning
+This module contains functions to concept learning algorithms
+
+# Installation 
+Run the following command to install:
+```python
+    pip install conceptlearning
+```
+# Parameters
+## data
+    The training dataset consisting of featues and outcomes of type list
+
+# Attributes
+```
+    # for Candidate Elimination Algorithm
+    candidate_elimination() 
+
+    # for Find S Algorithm
+    initialize_hypothesis() 
+    find_s() 
+```
+# Usage 
+```python 
+    from conceptlearning.CandidateEliminationAlgorithm import CandidateElimination
+    ce = CandidateElimination(data)
+    ce.candidate_elimination()
+
+    from concetplearning.FindSAlgorithm import FindS
+    fs = FindS(data)
+    fs.initialize_hypothesis()
+    fs.find_s()
+```
+

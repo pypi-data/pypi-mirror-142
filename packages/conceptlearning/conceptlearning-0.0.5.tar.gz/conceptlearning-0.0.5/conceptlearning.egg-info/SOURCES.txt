@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+conceptlearning/CandidateEliminationAlgorithm.py
+conceptlearning/ConceptLearning.py
+conceptlearning/FindSAlgorithm.py
+conceptlearning/__init__.py
+conceptlearning.egg-info/PKG-INFO
+conceptlearning.egg-info/SOURCES.txt
+conceptlearning.egg-info/dependency_links.txt
+conceptlearning.egg-info/top_level.txt
