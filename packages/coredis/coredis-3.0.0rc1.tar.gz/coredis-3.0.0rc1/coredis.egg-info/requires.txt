@@ -1,0 +1,6 @@
+deprecated>=1.2
+typing_extensions
+packaging<22,>=21
+
+[hiredis]
+hiredis>=0.2.0

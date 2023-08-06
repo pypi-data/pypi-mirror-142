@@ -1,0 +1,15 @@
+-r main.txt
+beartype
+coverage
+docker-compose
+flaky
+lovely-pytest-docker
+mock
+pytest
+pytest-asyncio
+pytest-cov
+pytest-env
+pytest-lazy-fixture
+pytest-mock
+redis
+contextvars
