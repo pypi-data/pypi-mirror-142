@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ndacrawler
+Version: 0.0.12
+Summary: A simple crawler for the NDA website
+Home-page: https://github.com/AntonioMande/ndacrawler
+Author: Antonio Mande
+Author-email: mandetonny@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NDA Website Crawler
+
+This crawler helps extract information from the [National Drug Authority(NDA) website](https://www.nda.or.ug/) in Uganda. 
+
+## Installation
+```console
+pip install ndacrawler
+```
+
+## Examples 
+### Get list of  [licensed drugs](https://www.nda.or.ug/drug-register/)
+    
+```python
+from ndacrawler import get_drugs
+drugs = get_drugs()
+
+# Data Extractors
+herbal_human_drugs = drugs["Herbal Human"]
+herbal_vet_drugs = drugs["Herbal Vet"]
+human_drugs = drugs["Human"]
+vet_drugs = drugs["Vet"]
+local_traditional_human_herbal_drugs = drugs["Local Traditional Human Herbal"]
+
+# Save to a csv file
+herbal_human_drugs.to_csv("Herbal Human.csv")
+
+# Display the headers of the data
+# print(herbal_human_drugs.headers)
+
+# Display the data
+# print(herbal_human_drugs.data)
+
+
+```
+
