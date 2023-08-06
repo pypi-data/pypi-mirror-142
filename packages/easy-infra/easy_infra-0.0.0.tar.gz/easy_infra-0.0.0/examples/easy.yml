@@ -1,0 +1,48 @@
+---
+name: demo
+
+environments:
+  production:
+    balancer: shared-load-balancer
+    cache: demo-production
+    database: demo-production
+    domain: demo.cube.services.net
+    storage: demo-production
+
+    memory: 1024
+    cli-memory: 1024
+    queue-memory: 1024
+    queue-timeout: 100
+
+    queues:
+      - demo-production-default
+      - demo-production-slow
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force
+
+  staging:
+    balancer: shared-load-balancer
+    cache: demo-staging
+    database: demo-staging
+    domain: demo-staging.cube.services.net
+    storage: demo-staging
+
+    memory: 1024
+    service-count-min: 1
+    cli-memory: 1024
+    queue-memory: 1024
+    queue-timeout: 100
+
+    queues:
+      - demo-staging-default
+      - demo-staging-slow
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force

@@ -1,0 +1,14 @@
+{
+  "include": [
+    "setup.py",
+    "easy_infra"
+  ],
+  "python": {
+    "analysis": {
+      "useLibraryCodeForTypes": true
+    }
+  },
+  "reportMissingTypeStubs": true,
+  "reportUntypedFunctionDecorator": true,
+  "reportUnknownParameterType": true
+}

@@ -1,0 +1,13 @@
+boto3
+click
+click-default-group
+click-log
+pyyaml
+wheel
+
+[dev]
+black
+flake8
+pylint
+pyright
+twine

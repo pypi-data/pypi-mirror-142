@@ -1,0 +1,82 @@
+---
+# All the bells and whistles
+name: full-demo
+
+environments:
+  production:
+    balancer: shared-load-balancer
+    cache: demo-production
+    database: demo-production
+    database-proxy: true
+    network: shared-network
+    storage: demo-production
+
+    domain:
+      - demo.cube.services.net
+      - www.demo.cube.services.net
+
+    cpu: 256
+    memory: 1024
+
+    scaling-min: 2
+    scaling-max: 10
+    scaling-desired: 3
+
+    cli-cpu: 256
+    cli-memory: 1024
+
+    queue-cpu: 256
+    queue-memory: 1024
+    queue-timeout: 100
+
+    queue-scaling-min: 1
+    queue-scaling-max: 10
+    queue-scaling-desired: 3
+
+    queues:
+      - demo-production-default
+      - demo-production-slow
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force
+
+  staging:
+    balancer: shared-load-balancer
+    cache: demo-staging
+    database: demo-staging
+    database-proxy: false
+    network: shared-network
+    storage: demo-staging
+
+    domain: demo-staging.cube.services.net
+
+    cpu: 256
+    memory: 1024
+
+    scaling-min: 2
+    scaling-max: 5
+    scaling-desired: 2
+
+    cli-cpu: 256
+    cli-memory: 1024
+
+    queue-cpu: 256
+    queue-memory: 1024
+    queue-timeout: 100
+
+    queue-scaling-min: 1
+    queue-scaling-max: 5
+    queue-scaling-desired: 3
+
+    queues:
+      - demo-staging-default
+      - demo-staging-slow
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force

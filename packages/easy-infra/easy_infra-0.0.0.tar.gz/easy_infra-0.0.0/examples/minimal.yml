@@ -1,0 +1,23 @@
+---
+name: minimal demo
+
+environments:
+  production:
+    database: demo-production
+    network: shared-network
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force
+
+  staging:
+    database: demo-staging
+    network: shared-network
+
+    build:
+      - ./build.sh
+
+    deploy:
+      - php artisan migrate --force

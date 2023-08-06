@@ -1,0 +1,40 @@
+# easy-infra
+
+Config-driven infrastructure. Demo project with the required config is [here](https://github.com/RingierIMU/easy-infra-demo).
+
+## resources
+
+* networking (tied to `network:` config)
+  * vpc [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
+  * security groups (created by default, tied to `security-groups:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
+  * subnets (public and private, created by default, tied to `subnets:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
+  * optional load balancer (tied to `balancer:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb)
+* database (tied to `database:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_instance)
+* optional database proxy (tied to `database-proxy:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_proxy)
+* memcached cluster (default cache that is always present) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_cluster)
+* optional redis cluster (tied to `cache:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_cluster)
+
+## projects
+
+* sqs queue worker task
+* scheduler task
+* optional fargate scheduler task (nice to have)
+* cli task
+* s3 bucket (default bucket is created if none configured, tied to `storage:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+* sqs queues (default queue is created if none configured, tied to `queues:` config) [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sqs_queue)
+* auto scaling groups and config for the main service and workers [tf](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/autoscaling_group)
+
+## other vapor features
+
+* firewall (backed by [WAF](https://aws.amazon.com/waf/)) [vapor](https://docs.vapor.build/1.0/projects/environments.html#firewall)
+  * rate limit
+  * bot control
+* mail (backed by [SES](https://aws.amazon.com/ses/)) [vapor](https://docs.vapor.build/1.0/projects/environments.html#mail)
+* octane [vapor](https://docs.vapor.build/1.0/projects/environments.html#octane)
+
+## sample configs
+
+The selected file should be moved to `easy.yml` in your project root:
+
+* [minimal config](examples/minimal.yml)
+* [full config](examples/full.yml)
