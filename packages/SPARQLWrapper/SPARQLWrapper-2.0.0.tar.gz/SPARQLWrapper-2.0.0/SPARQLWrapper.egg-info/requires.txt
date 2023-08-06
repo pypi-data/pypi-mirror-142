@@ -1,0 +1,17 @@
+rdflib>=6.1.1
+
+[dev]
+setuptools>=3.7.1
+mypy>=0.931
+pandas>=1.3.5
+pandas-stubs>=1.2.0.48
+
+[docs]
+sphinx<5
+sphinx-rtd-theme
+
+[keepalive]
+keepalive>=0.5
+
+[pandas]
+pandas>=1.3.5
