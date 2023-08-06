@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+dimorphite_dl/__init__.py
+dimorphite_dl/dimorphite_dl.py
+dimorphite_dl.egg-info/PKG-INFO
+dimorphite_dl.egg-info/SOURCES.txt
+dimorphite_dl.egg-info/dependency_links.txt
+dimorphite_dl.egg-info/not-zip-safe
+dimorphite_dl.egg-info/top_level.txt
