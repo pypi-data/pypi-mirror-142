@@ -1,0 +1,1 @@
+cdk_cloudformation_generic_database_schema
