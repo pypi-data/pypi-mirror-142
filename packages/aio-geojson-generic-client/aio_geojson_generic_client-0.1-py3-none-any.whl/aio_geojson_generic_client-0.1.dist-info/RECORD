@@ -1,0 +1,11 @@
+aio_geojson_generic_client/__init__.py,sha256=4Aw0t3Ov8-79l9DRXyEzMpWaLcSAUHtrJtm2tL6LagA,133
+aio_geojson_generic_client/__version__.py,sha256=PENzGfa_UZa_-u8gHUNewARfeGkbnoSC9G39APTkpTM,53
+aio_geojson_generic_client/consts.py,sha256=vG-FbB18A_WhOsv4I-kumikoY2EmSUQBuUmNNhUX8KE,184
+aio_geojson_generic_client/feed.py,sha256=a4yHihCSpc6M0nfkohs_8FAorOyjm3oAT3_S_yKeGrY,1797
+aio_geojson_generic_client/feed_entry.py,sha256=kvP3D7CG73qkWuUmxeTG_l6-7WXvy38R0wTEphs2wRc,2107
+aio_geojson_generic_client/feed_manager.py,sha256=u-NQ4Z5nMdEo5fXQ0Llo5czAOHrMQEj3teCC1gtHXSw,1199
+aio_geojson_generic_client-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aio_geojson_generic_client-0.1.dist-info/METADATA,sha256=_fcwRmsFG018ryzZOwKtMMGdCiVtnRXxGZex_eATGsQ,6961
+aio_geojson_generic_client-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio_geojson_generic_client-0.1.dist-info/top_level.txt,sha256=KLVLNXO7TTZqaSI9xbv1Qs2ePypko-bvfO8g2Eg58xc,27
+aio_geojson_generic_client-0.1.dist-info/RECORD,,
