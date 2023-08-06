@@ -1,0 +1,2 @@
+Bugfixes:
+    when listing new directory delete GUI tree
