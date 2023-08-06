@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyrainbird-alternative
+Version: 0.5.1
+Summary: Rain Bird Controller
+Home-page: https://github.com/konikvranik/pyrainbird/
+Author: konikvranik
+Author-email: hpa@suteren.net
+License: MIT
+Keywords: Rain Bird
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: pycryptodome
+Requires-Dist: requests (~=2.27.0)
+Requires-Dist: datetime (~=4.3)
+Requires-Dist: setuptools (~=56.0.0)
+Requires-Dist: PyYAML (~=5.1.2)
+
+UNKNOWN
+
