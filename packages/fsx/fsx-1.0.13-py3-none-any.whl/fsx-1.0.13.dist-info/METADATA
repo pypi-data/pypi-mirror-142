@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fsx
+Version: 1.0.13
+Summary: A low-level and easily mockable file system wrapper.
+Home-page: https://github.com/hweickert/fsx
+Author: Henry Weickert
+Author-email: henryweickert@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: six
+Requires-Dist: fstree (==1.0.7)
+Requires-Dist: anytree (==2.4.3)
+Requires-Dist: oyaml (==0.9)
+
+UNKNOWN
+
