@@ -1,0 +1,12 @@
+drf_lighten/__init__.py,sha256=lC56NHnyXc4Dgj40Bes81MIeUfX3x1VxaXrz5Q4HNOM,122
+drf_lighten/exceptions.py,sha256=85rp1m2n7iBWil14QbIKy0Uh3XaW_q7oxewwpEUrcbo,42
+drf_lighten/lighteners.py,sha256=2ikTL51Dre4sHm64YBRCxJYKeqlVEQx4yifLIx2rD7c,2600
+drf_lighten/parsers.py,sha256=BX1lXHAH6XC59iz3StVDbHrOHhoLSPA6_PPdhVgsDhM,1678
+drf_lighten/serializers.py,sha256=Uzht2ZhYlqtHOZakqagkpbaavPTFS3PTo63CV8T4Aj0,645
+drf_lighten/settings.py,sha256=uvQOIsxi8-oaSP26ekMVppTg-sY-HUjn-ZcKKRDd4NI,575
+drf_lighten/types.py,sha256=nng43Gley6Keds2R5iSEKdMU_yaKqo9Sd5QW4_9wdDw,155
+drf_lighten/views.py,sha256=0LLpWJh3CHS30PBIZxIVIbjSD-kM0M0ck9SRcdWzDTM,804
+drf_lighten-0.8.1.dist-info/LICENSE,sha256=kjSG15k8cE17B0qUxhMe6RUyyZ3dBN3qtQxdvN3WPsI,1081
+drf_lighten-0.8.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+drf_lighten-0.8.1.dist-info/METADATA,sha256=1-IjOQlegk7r86aaOPuEBGRjeKXfyTYjjCRSDLJIA8Y,2966
+drf_lighten-0.8.1.dist-info/RECORD,,
