@@ -1,0 +1,14 @@
+icebox/__init__.py,sha256=uUGlTVpgBOJDcerHq1ZANukNt89U_W6GHWzewNvxX0c,430
+icebox/box.py,sha256=MWAdW2z_sG6brKPLDh9KRy_Neud6-z81BuMCvWnVhPw,15618
+icebox/cli.py,sha256=yQ6wvOwdQ2xlg5QRIHRo1z08j_R55NM-fOxmWgorgY8,9222
+icebox/data.py,sha256=PW4XTj2G7ysM3KC7ukUyIk0wEYSn_idflJ2lODaLk1Q,1075
+icebox/backend/__init__.py,sha256=yhV_ait-KZfZ6T5T-DTxDQCtESV_g1yxv3PY22vF1H8,524
+icebox/backend/folder.py,sha256=oSTxmCmotUWo4WMCuR3tCX0-l0JuhTAEyyhE2SEHsOY,2526
+icebox/backend/s3.py,sha256=BFWuoNjRoenrjuK2eWBCFj5AVih6WvXtXBn2UOJiO1E,3422
+icebox/backend/webdav.py,sha256=gsp2ZDdk8Yau1toNG_dVxJIQDfBW0IWR5Ax9eIr3EwY,2481
+icebox-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+icebox-0.5.0.dist-info/METADATA,sha256=VOJOMs80X9sw22y3V3NW9NkDXaufF0N7KMJw47m3aEg,3266
+icebox-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+icebox-0.5.0.dist-info/entry_points.txt,sha256=ZwPFR2NCbKONuXlpEW2Ak51yMkxtTk62GE0s321jmHo,45
+icebox-0.5.0.dist-info/top_level.txt,sha256=HAxegGk4-myh_YaqzQRBYT1-CRTBrKq0Oc0Eu6JZwLg,7
+icebox-0.5.0.dist-info/RECORD,,
