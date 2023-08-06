@@ -1,0 +1,12 @@
+license
+setup.py
+typejson/__init__.py
+typejson/mongo.py
+typejson/mysql.py
+typejson/serialization.py
+typejson/typing.py
+typejson.egg-info/PKG-INFO
+typejson.egg-info/SOURCES.txt
+typejson.egg-info/dependency_links.txt
+typejson.egg-info/requires.txt
+typejson.egg-info/top_level.txt
