@@ -1,0 +1,8 @@
+README.md
+setup.py
+dataplatform_path_generator.egg-info/PKG-INFO
+dataplatform_path_generator.egg-info/SOURCES.txt
+dataplatform_path_generator.egg-info/dependency_links.txt
+dataplatform_path_generator.egg-info/top_level.txt
+pathgenerator/__init__.py
+pathgenerator/path.py
