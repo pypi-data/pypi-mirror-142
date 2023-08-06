@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyroarc/__init__.py
+src/pyroarc/pyroarc.py
+src/pyroarc/pyroarc_test.py
+src/pyroarc.egg-info/PKG-INFO
+src/pyroarc.egg-info/SOURCES.txt
+src/pyroarc.egg-info/dependency_links.txt
+src/pyroarc.egg-info/top_level.txt
