@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: SmallGoogleTranslator
+Version: 1.2
+Summary: Использование гугл-переводчика удобным вам образом.
+Home-page: https://github.com/MagM1go/GoogleTranslator
+Author: MagMigo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+<h1 align="center">Google-translator</h1>
+
+#### pip install GoogleTranslator
+
+
+
+**ASYNC**
+
+
+```python
+import asyncio
+from google.translator import GoogleTranslator
+
+translator = GoogleTranslator()
+
+async def my_translator(text, src_lang: str):
+    await translator.translate_async(text, src_lang)
+
+print(asyncio.run(my_translator("test", "ru")))
+```
+
+
+**SYNC**
+
+```python
+from google.translator import GoogleTranslator
+
+translator = GoogleTranslator()
+
+def my_translator(text, src_lang: str):
+    translator.translate_async(text, src_lang)
+
+print(my_translator("test", "ru"))
+```
+
+
