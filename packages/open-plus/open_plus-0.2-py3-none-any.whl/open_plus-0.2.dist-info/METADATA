@@ -1,0 +1,366 @@
+Metadata-Version: 2.1
+Name: open-plus
+Version: 0.2
+Summary: 一个更好用的open()|An easier open()
+Home-page: https://libraries.io/pypi/open-plus
+Author: CharlesCai
+Author-email: 18222159844@163.com
+Maintainer: 蔡沐含
+Maintainer-email: c6661366613@qq.com
+License: GPL License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=2.7
+
+
+==================
+一个更好用的open()
+==================
+
+----------------
+An easier open()
+----------------
+
+
+
+中文Chinese
+
+========
+使用方法
+========
+
+----
+安装
+----
+
+安装方法：
+
+pip install open_plus
+
+----
+使用
+----
+
+----------------------
+from open_plus import*
+----------------------
+
+ * check_address
+
+     - check_address(address,range=1,address_get="auto",slash_add=False)
+
+     - address:地址（填入的地址）
+
+     - range:地址重复的次数（只是当address_get为"\\"时，或为"auto"且系统是Windows时；添加的目的是有一些例如：C:\\Users\\dell\\Desktop\\...，但是需要写入python文件再次运行，就需要写为C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+     - address_get:分隔符号（"auto"是自动获取，可以填本电脑的（"\\"或"/"）
+
+     - slash_add：末尾是否添加分隔符号
+
+     - 作用：检查地址（例如：Windows下，range=1，C:\\\\Users\\dell\\\\\\\\Desktop会改为C:\\Users\\dell\\Desktop）
+
+ * open_normal
+
+     - open_normal
+
+          - 名字 = open_normal(address.mode,encode,address_get,range=1)
+
+          - address：地址
+
+          - mode：open模式（只支持add(a),write(w),read(r),add+read(a+),write+read(w+),read+add(r+),binaryadd(ab),binaryrite(wb),binaryread(rb),binaryadd+binaryread(ab+),binarywrite+binaryread(wb+),binaryread+binaryadd(rb+)）
+
+          - encode：编码（常用utf-8,utf-16LE,utf-16BE,utf-32,utf-64,cp2312,gbk,gbk2312）（二进制模式时不需要填）
+
+          - range:地址重复的次数（只是当address_get为"\\"时，或为"auto"且系统是Windows时；添加的目的是有一些例如：C:\\Users\\dell\\Desktop\\...，但是需要写入python文件再次运行，就需要写为C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+          - address_get:分隔符号（"auto"是自动获取，可以填本电脑的（"\\"或"/"）
+
+     - read
+
+          - 名字.read()
+
+     - write
+
+          - 名字.write(thing)
+
+          - thing:写入的东西
+
+     - clear
+
+          - 名字.clear()
+
+          - 清空文件
+
+(open_normal.basic我就不展示了，感兴趣的可以OpenModule->open_plus)
+
+ * open_simple
+
+    - open_simple
+
+         - 名字 = open_simple(address,encoding="utf-8",address_get="auto",range=1)
+
+         - address：地址
+
+         - encoding：编码（常用utf-8,utf-16LE,utf-16BE,utf-32,utf-64,cp2312,gbk,gbk2312）
+
+         - address_get：分隔符号（"auto"是自动获取，可以填本电脑的（"\\"或"/"）
+
+         - range:地址重复的次数（只是当address_get为"\\"时，或为"auto"且系统是Windows时；添加的目的是有一些例如：C:\\Users\\dell\\Desktop\\...，但是需要写入python文件再次运行，就需要写为C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+     - read
+
+          - read()
+
+          - 读取文件
+
+     - write
+
+          - write(thing)
+
+          - 写入thing（先清空）
+
+     - add
+
+          - add(thing)
+
+          - 写入thing
+
+     - clear
+
+          - clear()
+
+          - 清空文件
+
+     - read_in_binary
+
+          - read()
+
+          - 读取文件
+
+     - write_in_binary
+
+          - write(thing)
+
+          - 写入thing（先清空）
+
+     - add_in_binary
+
+          - add(thing)
+
+          - 写入thing
+
+
+
+英文English
+
+==========
+How to use
+==========
+
+-------
+Install
+-------
+
+the way to install：
+
+pip install open_plus
+
+---
+use
+---
+
+----------------------
+from open_plus import*
+----------------------
+
+ * check_address
+
+     - check_address(address,range=1,address_get="auto",slash_add=False)
+
+     - address:address（input）
+
+     - range:number of address repeats（only when address_get is"\\"，or "auto" and OS is Windows；the purpose of addition：C:\\Users\\dell\\Desktop\\...，but also need to write into the programme and run twice，so need to be like C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+     - address_get:separator symbol（"auto" is automatic get，it can also be this computer's（"\\"or"/"）
+
+     - slash_add：Will/Won't add the separator symbol in the end
+
+     - effect：check the address（like：in Windows，range=1，C:\\\\Users\\dell\\\\\\\\Desktop will change to C:\\Users\\dell\\Desktop）
+
+ * open_normal
+
+     - open_normal
+
+          - name = open_normal(address.mode,encode,address_get,range=1)
+
+          - address：address
+
+          - mode：open mode（only have add(a),write(w),read(r),add+read(a+),write+read(w+),read+add(r+),binaryadd(ab),binaryrite(wb),binaryread(rb),binaryadd+binaryread(ab+),binarywrite+binaryread(wb+),binaryread+binaryadd(rb+) now）
+
+          - encode：encode（often use utf-8,utf-16LE,utf-16BE,utf-32,utf-64,cp2312,gbk,gbk2312）（binary mode don't need it）
+
+          - range:number of address repeats（only when address_get is"\\"，or "auto" and OS is Windows；the purpose of addition：C:\\Users\\dell\\Desktop\\...，but also need to write into the programme and run twice，so need to be like C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+          - address_get:separator symbol（"auto" is automatic get，it can also be this computer's（"\\"or"/"）
+
+     - read
+
+          - name.read()
+
+     - write
+
+          - name.write(thing)
+
+          - thing:thing that need to write
+
+     - clear
+
+          - name.clear()
+
+          - clear the document
+
+(I won't show open_normal.basic，if interested in that can use OpenModule->open_plus to check)
+
+ * open_simple
+
+    - open_simple
+
+         - name = open_simple(address,encoding="utf-8",address_get="auto",range=1)
+
+         - address：address
+
+         - encode：encode（often use utf-8,utf-16LE,utf-16BE,utf-32,utf-64,cp2312,gbk,gbk2312）（binary mode don't need it）
+
+          - range:number of address repeats（only when address_get is"\\"，or "auto" and OS is Windows；the purpose of addition：C:\\Users\\dell\\Desktop\\...，but also need to write into the programme and run twice，so need to be like C:\\\\Users\\\\dell\\\\Desktop\\\\...）
+
+          - address_get:separator symbol（"auto" is automatic get，it can also be this computer's（"\\"or"/"）
+
+     - read
+
+          - read()
+
+          - read the document
+
+     - write
+
+          - write(thing)
+
+          - write thing in the document（first clear the document）
+
+     - add
+
+          - add(thing)
+
+          - write thing in the document
+
+     - clear
+
+          - clear()
+
+          - clear the document
+
+     - read_in_binary
+
+          - read()
+
+          - read the document in binary
+
+     - write_in_binary
+
+          - write(thing)
+
+          - write thing in the document in binary（first clear the document）
+
+     - add_in_binary
+
+          - add(thing)
+
+          - write thing in the document in binary
+
+
+
+========
+LICENSE:
+========
+
+==========
+版权声明：
+==========
+
+Copyright © 2018 The Python Packaging Authority( https://pypi.org/ https://python.org/). All rights reserved.
+
+Copyright © 2018 The RGB Studio( RGB Information Technology Studio). All rights reserved.
+
+Copyright © 2021 Charles Cai( https://pypi.org/user/CharlesCai/ ). All rights reserved.
+
+Copyright © 2009 CaiMuHan 蔡沐含
+
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+
+of this software and associated documentation files (the "Software"), to use
+
+in the Software without restriction, including without limitation the rights
+
+to use, copy, modify, merge, publish, distribute, sublicense, without sell
+
+copies of the Software, and to permit persons to whom the Software is
+
+furnished to do so, subject to the following conditions:
+
+
+
+现准许任何人免费取得本软件及相关文件档案(”软件”)的复制本，
+
+不受任何限制地使用该软件，包括但不限于使用、复制、修改、
+
+合并、发布、分发、再授权的权利，但不得出售该软件的复制本，
+
+并准许向其提供该软件的人这样做，但须符合下列条件:
+
+
+
+The above copyright notice and this license notice shall be included in the
+software or in the software’s open source or downloaded and installed web pages
+and in all copies of the software. 
+
+
+
+上述版权声明和本许可声明应包含在软件中或软件的开源或下载安装的网页中和
+软件的所有复制品中。
+
+
+
+COPIES OF THE SOFTWARE MUST BE OPEN SOURCE, AND CANNOT BE USED FOR
+
+COMMERCIAL PURPOSES. THE REPRODUCTION OF THIS WORK SHALL NOT IN ANY
+
+WAY BE SUBJECT TO PAYMENT, INCLUDING BUT NOT LIMITED TO EXPRESS AND LIMPLIED
+
+BUT MAY BE FREELY DONATED BY THE USER FOR A SUM NOT EXCEEDING US $ 10. IN NO
+
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+
+DEALINGS IN THE SOFTWARE.
+
+
+软件的复制品必须是开源的，且不能用于商业用途。此作品的复制品不得以任何方式要求付费，
+
+包括但不限于明示、暗示，但可以让使用者自愿打赏，金额不得超过10美元。在任何情况下，
+
+作者或版权持有人都不应对任何索赔、损害赔偿或其他责任负责，无论是在合同、侵权行为或
+
+其他方面的诉讼中，由该软件或该软件的使用或其他交易引起、产生或与之有关。
+
+
