@@ -1,0 +1,3 @@
+[console_scripts]
+rafa = rafa.main:main
+
