@@ -1,0 +1,10 @@
+aiida_upgrade/__init__.py,sha256=vGRrzLY7FjkSVDPmexR-AZMUPlN60mfSXO6KYEk4cls,101
+aiida_upgrade/__main__.py,sha256=kBYYhy_mgFvoLVMnjBTHj5sQi8dzpWkKkdbKzNLvRQA,391
+aiida_upgrade/entry_points.py,sha256=v44k-2WD2HyFjaMlpTcDmvO4f6pwi0_h-jMXwhBCZkY,4535
+aiida_upgrade/methods.py,sha256=jqBfCc0lIsbU0L00gEw_odhLQZw-ErTxqgHYbnuPeac,2055
+aiida_upgrade/migrate.py,sha256=BSLCotLp8NRYEUj8FZhKsK5fexXD5jnkJgkpWUAEqjc,798
+aiida_upgrade-0.1.0.dist-info/entry_points.txt,sha256=hlphHYE23KOZhgDTfLaO3MC7b0QZ7mkFOdo4RXuAVuw,61
+aiida_upgrade-0.1.0.dist-info/LICENSE,sha256=91KhLQ3ctiSlzYF9uXgrpVpnURbkaUvT9GrFNQxYPJs,1067
+aiida_upgrade-0.1.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+aiida_upgrade-0.1.0.dist-info/METADATA,sha256=dUWrw1lJsmuxzQw3Mp3rgKYGufm7zi2CcOXjY7oeZF4,2738
+aiida_upgrade-0.1.0.dist-info/RECORD,,
