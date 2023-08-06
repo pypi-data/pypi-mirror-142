@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: keepcodingtest
+Version: 0.0.1
+Summary: Un ejemplo
+Author: keepcoder
+Author-email: rmmonteagudo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Un pequeño ejemplo
+
