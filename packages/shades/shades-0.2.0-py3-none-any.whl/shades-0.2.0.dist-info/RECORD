@@ -1,0 +1,10 @@
+shades/__init__.py,sha256=ZesmyjqGWS4YeUcZc2BwB4x5ztVh29YuoaOMd9OtCqY,92
+shades/canvas.py,sha256=nM2jKL04fsnhK-wqt0f3S8HKpnDllnu_GUsxp3oQPBY,3148
+shades/inks.py,sha256=v7JzYO11zqANo1r5O5oakZ4kwsbAQ8df5Z6w4-jMpNA,24365
+shades/noise_fields.py,sha256=m6zQEpRVLCjt-pXU6cCwHNAi_NUILx5KkC-UEijkkc4,4688
+shades/utils.py,sha256=ktdYWojT8bpQfpxACQ9kcQL6sb7qShZJ8Jz10_1q6i4,1231
+shades-0.2.0.dist-info/LICENSE,sha256=uI6vXxubedqbFzyEU40XYWgSyO14xPdPhUshaLm7bSE,1060
+shades-0.2.0.dist-info/METADATA,sha256=fjetKXWP6YV1Qa-ffAzbm8t-GHKIIPzYeAEljT_YdH0,9059
+shades-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shades-0.2.0.dist-info/top_level.txt,sha256=EcrDB-p9ExwjBRWtx4Gz4q5jOpWhBxOD3PbqPspr-ic,7
+shades-0.2.0.dist-info/RECORD,,
