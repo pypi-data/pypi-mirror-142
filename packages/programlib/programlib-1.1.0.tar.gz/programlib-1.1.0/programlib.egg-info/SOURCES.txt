@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+programlib/__init__.py
+programlib.egg-info/PKG-INFO
+programlib.egg-info/SOURCES.txt
+programlib.egg-info/dependency_links.txt
+programlib.egg-info/top_level.txt
+programlib/programs/.gitkeep
