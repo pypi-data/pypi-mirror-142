@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xlab
+Version: 0.0.11
+Summary: Experiment execution tool for automation in research-oriented projects.
+Home-page: https://github.com/csalcedo001/xlab
+Author: Cesar Salcedo
+Author-email: cesar.salcedo@utec.edu.pe
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![xLab Logo](https://github.com/csalcedo001/xlab/blob/main/docs/img/xlab_logo.png)
+
+-------------------------------------------------------------------
+
+xLab is an experiment execution tool that automates tasks in research-oriented projects.
+
+
