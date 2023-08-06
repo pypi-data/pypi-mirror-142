@@ -1,0 +1,5 @@
+[console_scripts]
+udpchat_cli = udp_chat.client:main
+udpchat_gui = udp_chat.gui_client:main
+udpchat_server = udp_chat.server:main
+
