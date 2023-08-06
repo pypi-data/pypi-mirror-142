@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-odoo-orm"
+version = "3.0.1"
+description = "A kind of Python ORM for Odoo XML-RPC API inspired by Django ORM."
+authors = ["mistiru <dev@mistiru.me>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mistiru/django-odoo-orm"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0"
+odoo-orm = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
