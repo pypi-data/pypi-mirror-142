@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pyfrx/__init__.py
+pyfrx/main.py
+pyfrx/supported_currencies.py
+pyfrx.egg-info/PKG-INFO
+pyfrx.egg-info/SOURCES.txt
+pyfrx.egg-info/dependency_links.txt
+pyfrx.egg-info/top_level.txt
