@@ -1,0 +1,10 @@
+setup.py
+katuula_probability/Binomialdistribution.py
+katuula_probability/Gaussiandistribution.py
+katuula_probability/Generaldistribution.py
+katuula_probability/__init__.py
+katuula_probability.egg-info/PKG-INFO
+katuula_probability.egg-info/SOURCES.txt
+katuula_probability.egg-info/dependency_links.txt
+katuula_probability.egg-info/not-zip-safe
+katuula_probability.egg-info/top_level.txt
