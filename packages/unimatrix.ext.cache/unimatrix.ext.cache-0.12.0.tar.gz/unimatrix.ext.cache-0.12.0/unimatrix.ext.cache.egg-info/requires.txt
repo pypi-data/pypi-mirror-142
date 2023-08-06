@@ -1,0 +1,8 @@
+python-ioc
+unimatrix>=1.2.0
+
+[all]
+aioredis>=2.0.0
+
+[redis]
+aioredis>=2.0.0
