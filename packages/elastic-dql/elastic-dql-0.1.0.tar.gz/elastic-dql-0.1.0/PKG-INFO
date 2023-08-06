@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: elastic-dql
+Version: 0.1.0
+Summary: Elastic query language library - convering readable queries to elasticsearch query
+Home-page: https://github.com/mohammad-ahadi/elastic-dql
+Author: Mohammad Ahadi
+Author-email: mohammadahadi27s@gmail.com
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
