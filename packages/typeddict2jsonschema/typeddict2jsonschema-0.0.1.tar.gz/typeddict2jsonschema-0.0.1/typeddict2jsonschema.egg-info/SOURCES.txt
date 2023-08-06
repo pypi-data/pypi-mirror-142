@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+test/test_simple.py
+typeddict2jsonschema/__init__.py
+typeddict2jsonschema/__main__.py
+typeddict2jsonschema/cli.py
+typeddict2jsonschema/jsonschemagenerator.py
+typeddict2jsonschema/utils.py
+typeddict2jsonschema.egg-info/PKG-INFO
+typeddict2jsonschema.egg-info/SOURCES.txt
+typeddict2jsonschema.egg-info/dependency_links.txt
+typeddict2jsonschema.egg-info/entry_points.txt
+typeddict2jsonschema.egg-info/requires.txt
+typeddict2jsonschema.egg-info/top_level.txt
