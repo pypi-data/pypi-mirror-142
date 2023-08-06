@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+poynter/src/poynter.py
+poynter/src/poynter.egg-info/PKG-INFO
+poynter/src/poynter.egg-info/SOURCES.txt
+poynter/src/poynter.egg-info/dependency_links.txt
+poynter/src/poynter.egg-info/top_level.txt
