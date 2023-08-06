@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pururin/__init__.py
+pururin/pururin.py
+pururin.egg-info/PKG-INFO
+pururin.egg-info/SOURCES.txt
+pururin.egg-info/dependency_links.txt
+pururin.egg-info/requires.txt
+pururin.egg-info/top_level.txt
