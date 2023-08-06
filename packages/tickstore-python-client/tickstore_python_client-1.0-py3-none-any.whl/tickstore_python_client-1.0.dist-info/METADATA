@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tickstore-python-client
+Version: 1.0
+Summary: client to communicate with tickstore
+Home-page: https://gitlab.com/alphaticks/tickstore-python-client
+Author: Alphatikcs
+License: copyright
+Platform: UNKNOWN
+Requires-Dist: grpcio (==1.37.1)
+Requires-Dist: protobuf (==3.16.0)
+Requires-Dist: six (==1.13.0)
+Requires-Dist: tickstore-grpc (==1.0)
+
+UNKNOWN
+
