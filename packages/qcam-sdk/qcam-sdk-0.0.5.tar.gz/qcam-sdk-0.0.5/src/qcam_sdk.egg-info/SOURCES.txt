@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qcam/__init__.py
+src/qcam/image2ascii.py
+src/qcam/qCam.py
+src/qcam_sdk.egg-info/PKG-INFO
+src/qcam_sdk.egg-info/SOURCES.txt
+src/qcam_sdk.egg-info/dependency_links.txt
+src/qcam_sdk.egg-info/top_level.txt
