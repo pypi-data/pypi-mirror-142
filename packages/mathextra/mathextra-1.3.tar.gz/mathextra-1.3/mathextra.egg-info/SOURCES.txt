@@ -1,0 +1,11 @@
+setup.py
+mathextra/__init__.py
+mathextra/area.py
+mathextra/arithmetic_ops.py
+mathextra/conversions.py
+mathextra/factor.py
+mathextra/formulas.py
+mathextra.egg-info/PKG-INFO
+mathextra.egg-info/SOURCES.txt
+mathextra.egg-info/dependency_links.txt
+mathextra.egg-info/top_level.txt
