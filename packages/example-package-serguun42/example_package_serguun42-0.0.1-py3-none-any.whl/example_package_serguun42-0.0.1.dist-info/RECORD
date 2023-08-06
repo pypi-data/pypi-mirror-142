@@ -1,0 +1,7 @@
+first_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+first_package/first.py,sha256=5CE2IYPXUyLnedUpamY-SpLmYlPayTElEuDfrUNSqbM,43
+example_package_serguun42-0.0.1.dist-info/LICENSE,sha256=Fp3BmczqBOcXi_eu3G8eDM94nTt9VlZjIz1lphfnuQQ,1053
+example_package_serguun42-0.0.1.dist-info/METADATA,sha256=NqeGBgkfgd0qJNmJGCNWK9JnwDo4Hu7by6em1sXOXec,666
+example_package_serguun42-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+example_package_serguun42-0.0.1.dist-info/top_level.txt,sha256=ug3kFyXZ-Yt85oysY3E1UCZ_ruPmkv4SgP6CapKuRNQ,14
+example_package_serguun42-0.0.1.dist-info/RECORD,,
