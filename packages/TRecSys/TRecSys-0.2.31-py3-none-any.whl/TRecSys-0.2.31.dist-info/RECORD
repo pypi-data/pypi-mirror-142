@@ -1,0 +1,12 @@
+TRecSys/__init__.py,sha256=NLuN51C1wVbJkXr3SPEozi9IswIXFpgOLkcoLUBWyY4,124
+TRecSys/encoders.py,sha256=b7AUJf26ZUimPoJmObfCb8LJ4CzzUcotSxsFXoa2HFU,16741
+TRecSys/endpoint.py,sha256=3AK4J48N4BraBikedeomqcb2UgNg1RC-CWkrytYrxQs,6029
+TRecSys/index_partitions.py,sha256=UeZomNJnEW8aKrENPniSq-ikomf9Yy4hA-_eIaam6w8,3465
+TRecSys/repartition.py,sha256=8WxifGBIgQpefemxOVd5zCLDQ1VO7nrSjucOCLRBszY,3430
+TRecSys/similarity_helpers.py,sha256=qUxQ2Ytw3iPz9PAUT94CtM-W08425dXxwdPr-SJQ-Wg,3562
+TRecSys/strategies.py,sha256=ULiCScM27nAEN1EcFMf9jcVszklYOj7weihUHOe3RnI,9606
+TRecSys/tree_helpers.py,sha256=DY9RFNK_yGY5kE8yuOhnP3oF7ycQe8csLO3FfIelsIU,2168
+TRecSys-0.2.31.dist-info/METADATA,sha256=OTBjbYEyYeOK6t-J04dK13P7LylfNGwqoC4gEAcKAhM,660
+TRecSys-0.2.31.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TRecSys-0.2.31.dist-info/top_level.txt,sha256=QVlxpLoJkBfeqLhwZWDV9KaW32Ap9XuZiQqzJ5t33TA,8
+TRecSys-0.2.31.dist-info/RECORD,,
