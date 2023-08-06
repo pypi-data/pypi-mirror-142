@@ -1,0 +1,80 @@
+
+
+Examples using ``gsmote.GeometricSMOTE``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the Geometric SMOTE data  generation mechanism and the usage of its  h...">
+
+.. only:: html
+
+ .. figure:: /auto_examples/images/thumb/sphx_glr_plot_data_generation_mechanism_thumb.png
+     :alt: Data generation mechanism
+
+     :ref:`sphx_glr_auto_examples_plot_data_generation_mechanism.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_plot_data_generation_mechanism.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="In this example the impact of the Geometric SMOTE&#x27;s hyperparameters is examined. The validation...">
+
+.. only:: html
+
+ .. figure:: /auto_examples/images/thumb/sphx_glr_plot_validation_curves_thumb.png
+     :alt: Plotting validation curves
+
+     :ref:`sphx_glr_auto_examples_plot_validation_curves.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_plot_validation_curves.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="The following examples make use of scikit-learn&#x27;s Forest Cover Type dataset and the Indian Pine...">
+
+.. only:: html
+
+ .. figure:: /auto_examples/applications/images/thumb/sphx_glr_plot_remote_sensing_example_thumb.png
+     :alt: Remote sensing examples
+
+     :ref:`sphx_glr_auto_examples_applications_plot_remote_sensing_example.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_applications_plot_remote_sensing_example.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="The example makes use of openml&#x27;s MNIST dataset.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/applications/images/thumb/sphx_glr_plot_mnist_example_thumb.png
+     :alt: MNIST Dataset oversampling
+
+     :ref:`sphx_glr_auto_examples_applications_plot_mnist_example.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_applications_plot_mnist_example.py`

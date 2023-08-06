@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gsmote.geometric_smote &mdash; geometric-smote 0.1.3 documentation</title><link rel="stylesheet" href="../../_static/css/geometric-smote.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-rendered-html.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/js/copybutton.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> geometric-smote
+          </a>
+              <div class="version">
+                0.1.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../test.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contribute.html">Contribute</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../user_guide.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.html">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html#applications">Applications</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../release_history.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">About</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">geometric-smote</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      <li>gsmote.geometric_smote</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for gsmote.geometric_smote</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Class to perform over-sampling using Geometric SMOTE.&quot;&quot;&quot;</span>
+
+<span class="c1"># Author: Georgios Douzas &lt;gdouzas@icloud.com&gt;</span>
+<span class="c1">#         Joao Fonseca    &lt;jpmrfonseca@gmail.com&gt;</span>
+<span class="c1"># License: BSD 3 clause</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">numpy.linalg</span> <span class="kn">import</span> <span class="n">norm</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">sparse</span>
+<span class="kn">from</span> <span class="nn">sklearn.utils</span> <span class="kn">import</span> <span class="n">check_random_state</span><span class="p">,</span> <span class="n">check_array</span>
+<span class="kn">from</span> <span class="nn">sklearn.utils.sparsefuncs_fast</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">csr_mean_variance_axis0</span><span class="p">,</span>
+    <span class="n">csc_mean_variance_axis0</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">OneHotEncoder</span>
+<span class="kn">from</span> <span class="nn">imblearn.over_sampling.base</span> <span class="kn">import</span> <span class="n">BaseOverSampler</span>
+<span class="kn">from</span> <span class="nn">imblearn.utils</span> <span class="kn">import</span> <span class="n">check_neighbors_object</span><span class="p">,</span> <span class="n">Substitution</span><span class="p">,</span> <span class="n">check_target_type</span>
+<span class="kn">from</span> <span class="nn">imblearn.utils._docstring</span> <span class="kn">import</span> <span class="n">_random_state_docstring</span>
+
+<span class="n">SELECTION_STRATEGY</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;combined&quot;</span><span class="p">,</span> <span class="s2">&quot;majority&quot;</span><span class="p">,</span> <span class="s2">&quot;minority&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_make_geometric_sample</span><span class="p">(</span>
+    <span class="n">center</span><span class="p">,</span> <span class="n">surface_point</span><span class="p">,</span> <span class="n">truncation_factor</span><span class="p">,</span> <span class="n">deformation_factor</span><span class="p">,</span> <span class="n">random_state</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A support function that returns an artificial point inside</span>
+<span class="sd">    the geometric region defined by the center and surface points.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    center : ndarray, shape (n_features, )</span>
+<span class="sd">        Center point of the geometric region.</span>
+
+<span class="sd">    surface_point : ndarray, shape (n_features, )</span>
+<span class="sd">        Surface point of the geometric region.</span>
+
+<span class="sd">    truncation_factor : float, optional (default=0.0)</span>
+<span class="sd">        The type of truncation. The values should be in the [-1.0, 1.0] range.</span>
+
+<span class="sd">    deformation_factor : float, optional (default=0.0)</span>
+<span class="sd">        The type of geometry. The values should be in the [0.0, 1.0] range.</span>
+
+<span class="sd">    random_state : int, RandomState instance or None</span>
+<span class="sd">        Control the randomization of the algorithm.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    point : ndarray, shape (n_features, )</span>
+<span class="sd">            Synthetically generated sample.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Zero radius case</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">array_equal</span><span class="p">(</span><span class="n">center</span><span class="p">,</span> <span class="n">surface_point</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">center</span>
+
+    <span class="c1"># Generate a point on the surface of a unit hyper-sphere</span>
+    <span class="n">radius</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">center</span> <span class="o">-</span> <span class="n">surface_point</span><span class="p">)</span>
+    <span class="n">normal_samples</span> <span class="o">=</span> <span class="n">random_state</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="n">center</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+    <span class="n">point_on_unit_sphere</span> <span class="o">=</span> <span class="n">normal_samples</span> <span class="o">/</span> <span class="n">norm</span><span class="p">(</span><span class="n">normal_samples</span><span class="p">)</span>
+    <span class="n">point</span> <span class="o">=</span> <span class="p">(</span><span class="n">random_state</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="o">**</span> <span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">center</span><span class="o">.</span><span class="n">size</span><span class="p">))</span> <span class="o">*</span> <span class="n">point_on_unit_sphere</span>
+
+    <span class="c1"># Parallel unit vector</span>
+    <span class="n">parallel_unit_vector</span> <span class="o">=</span> <span class="p">(</span><span class="n">surface_point</span> <span class="o">-</span> <span class="n">center</span><span class="p">)</span> <span class="o">/</span> <span class="n">norm</span><span class="p">(</span><span class="n">surface_point</span> <span class="o">-</span> <span class="n">center</span><span class="p">)</span>
+
+    <span class="c1"># Truncation</span>
+    <span class="n">close_to_opposite_boundary</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">truncation_factor</span> <span class="o">&gt;</span> <span class="mi">0</span>
+        <span class="ow">and</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">point</span><span class="p">,</span> <span class="n">parallel_unit_vector</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">truncation_factor</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="n">close_to_boundary</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">truncation_factor</span> <span class="o">&lt;</span> <span class="mi">0</span>
+        <span class="ow">and</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">point</span><span class="p">,</span> <span class="n">parallel_unit_vector</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">truncation_factor</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="n">close_to_opposite_boundary</span> <span class="ow">or</span> <span class="n">close_to_boundary</span><span class="p">:</span>
+        <span class="n">point</span> <span class="o">-=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">point</span><span class="p">,</span> <span class="n">parallel_unit_vector</span><span class="p">)</span> <span class="o">*</span> <span class="n">parallel_unit_vector</span>
+
+    <span class="c1"># Deformation</span>
+    <span class="n">parallel_point_position</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">point</span><span class="p">,</span> <span class="n">parallel_unit_vector</span><span class="p">)</span> <span class="o">*</span> <span class="n">parallel_unit_vector</span>
+    <span class="n">perpendicular_point_position</span> <span class="o">=</span> <span class="n">point</span> <span class="o">-</span> <span class="n">parallel_point_position</span>
+    <span class="n">point</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">parallel_point_position</span>
+        <span class="o">+</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">deformation_factor</span><span class="p">)</span> <span class="o">*</span> <span class="n">perpendicular_point_position</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Translation</span>
+    <span class="n">point</span> <span class="o">=</span> <span class="n">center</span> <span class="o">+</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">point</span>
+
+    <span class="k">return</span> <span class="n">point</span>
+
+
+<span class="k">def</span> <span class="nf">_make_categorical_sample</span><span class="p">(</span><span class="n">X_new</span><span class="p">,</span> <span class="n">all_neighbors</span><span class="p">,</span> <span class="n">categories_size</span><span class="p">,</span> <span class="n">random_state</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A support function that populates categorical features&#39; values</span>
+<span class="sd">    in an artificial point.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    X_new : ndarray, shape (n_features, )</span>
+<span class="sd">        Artificial point to populate categorical features.</span>
+
+<span class="sd">    all_neighbors: ndarray, shape (n_features, k_neighbors)</span>
+<span class="sd">        Nearest neighbors used for majority voting.</span>
+
+<span class="sd">    categories_size: list</span>
+<span class="sd">        Used to tell apart one-hot encoded features.</span>
+
+<span class="sd">    random_state : int, RandomState instance or None</span>
+<span class="sd">        Control the randomization of the algorithm. Used</span>
+<span class="sd">        for tie breaking when there are two majority values.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    point : ndarray, shape (n_features, )</span>
+<span class="sd">            Synthetically generated sample.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">start_idx</span><span class="p">,</span> <span class="n">end_idx</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
+        <span class="n">np</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="n">categories_size</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">np</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="n">categories_size</span><span class="p">)[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="p">):</span>
+        <span class="n">col_maxs</span> <span class="o">=</span> <span class="n">all_neighbors</span><span class="p">[:,</span> <span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="c1"># tie breaking argmax</span>
+        <span class="n">is_max</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">col_maxs</span><span class="p">,</span> <span class="n">col_maxs</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+        <span class="n">max_idxs</span> <span class="o">=</span> <span class="n">random_state</span><span class="o">.</span><span class="n">permutation</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argwhere</span><span class="p">(</span><span class="n">is_max</span><span class="p">))</span>
+        <span class="n">col_sels</span> <span class="o">=</span> <span class="n">max_idxs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="n">ys</span> <span class="o">=</span> <span class="n">start_idx</span> <span class="o">+</span> <span class="n">col_sels</span>
+        <span class="n">X_new</span><span class="p">[</span><span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">X_new</span><span class="p">[</span><span class="n">ys</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="n">X_new</span>
+
+
+<div class="viewcode-block" id="GeometricSMOTE"><a class="viewcode-back" href="../../generated/gsmote.GeometricSMOTE.html#gsmote.GeometricSMOTE">[docs]</a><span class="nd">@Substitution</span><span class="p">(</span>
+    <span class="n">sampling_strategy</span><span class="o">=</span><span class="n">BaseOverSampler</span><span class="o">.</span><span class="n">_sampling_strategy_docstring</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="n">_random_state_docstring</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="k">class</span> <span class="nc">GeometricSMOTE</span><span class="p">(</span><span class="n">BaseOverSampler</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Class to to perform over-sampling using Geometric SMOTE.</span>
+
+<span class="sd">    This algorithm is an implementation of Geometric SMOTE, a geometrically</span>
+<span class="sd">    enhanced drop-in replacement for SMOTE as presented in [1]_.</span>
+
+<span class="sd">    Read more in the :ref:`User Guide &lt;user_guide&gt;`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    categorical_features : ndarray of shape (n_cat_features,) or (n_features,)</span>
+<span class="sd">        Specified which features are categorical. Can either be:</span>
+
+<span class="sd">        - array of indices specifying the categorical features;</span>
+<span class="sd">        - mask array of shape (n_features, ) and ``bool`` dtype for which</span>
+<span class="sd">          ``True`` indicates the categorical features.</span>
+
+<span class="sd">    {sampling_strategy}</span>
+
+<span class="sd">    {random_state}</span>
+
+<span class="sd">    truncation_factor : float, optional (default=0.0)</span>
+<span class="sd">        The type of truncation. The values should be in the [-1.0, 1.0] range.</span>
+
+<span class="sd">    deformation_factor : float, optional (default=0.0)</span>
+<span class="sd">        The type of geometry. The values should be in the [0.0, 1.0] range.</span>
+
+<span class="sd">    selection_strategy : str, optional (default=&#39;combined&#39;)</span>
+<span class="sd">        The type of Geometric SMOTE algorithm with the following options:</span>
+<span class="sd">        ``&#39;combined&#39;``, ``&#39;majority&#39;``, ``&#39;minority&#39;``.</span>
+
+<span class="sd">    k_neighbors : int or object, optional (default=5)</span>
+<span class="sd">        If ``int``, number of nearest neighbours to use when synthetic</span>
+<span class="sd">        samples are constructed for the minority method.  If object, an estimator</span>
+<span class="sd">        that inherits from :class:`sklearn.neighbors.base.KNeighborsMixin` that</span>
+<span class="sd">        will be used to find the k_neighbors.</span>
+
+<span class="sd">    n_jobs : int, optional (default=1)</span>
+<span class="sd">        The number of threads to open if possible.</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    sampling_strategy_ : dict</span>
+<span class="sd">        Dictionary containing the information to sample the dataset. The keys</span>
+<span class="sd">        corresponds to the class labels from which to sample and the values</span>
+<span class="sd">        are the number of samples to sample.</span>
+<span class="sd">    n_features_in_ : int</span>
+<span class="sd">        Number of features in the input dataset.</span>
+<span class="sd">    nns_pos_ : estimator object</span>
+<span class="sd">        Validated k-nearest neighbours created from the `k_neighbors` parameter. It is</span>
+<span class="sd">        used to find the nearest neighbors of the same class of a selected</span>
+<span class="sd">        observation.</span>
+<span class="sd">    nn_neg_ : estimator object</span>
+<span class="sd">        Validated k-nearest neighbours created from the `k_neighbors` parameter. It is</span>
+<span class="sd">        used to find the nearest neighbor of the remaining classes (k=1) of a selected</span>
+<span class="sd">        observation.</span>
+<span class="sd">    random_state_ : instance of RandomState</span>
+<span class="sd">        If the `random_state` parameter is None, it is a RandomState singleton used by</span>
+<span class="sd">        np.random. If `random_state` is an int, it is a RandomState instance seeded with</span>
+<span class="sd">        seed. If `random_state` is already a RandomState instance, it is the same</span>
+<span class="sd">        object.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    See the original paper: [1]_ for more details.</span>
+
+<span class="sd">    Supports multi-class resampling. A one-vs.-rest scheme is used as</span>
+<span class="sd">    originally proposed in [2]_.</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    .. [1] G. Douzas, F. Bacao, &quot;Geometric SMOTE:</span>
+<span class="sd">       a geometrically enhanced drop-in replacement for SMOTE&quot;,</span>
+<span class="sd">       Information Sciences, vol. 501, pp. 118-135, 2019.</span>
+
+<span class="sd">    .. [2] N. V. Chawla, K. W. Bowyer, L. O. Hall, W. P. Kegelmeyer, &quot;SMOTE:</span>
+<span class="sd">       synthetic minority over-sampling technique&quot;, Journal of Artificial</span>
+<span class="sd">       Intelligence Research, vol. 16, pp. 321-357, 2002.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+
+<span class="sd">    &gt;&gt;&gt; from collections import Counter</span>
+<span class="sd">    &gt;&gt;&gt; from sklearn.datasets import make_classification</span>
+<span class="sd">    &gt;&gt;&gt; from gsmote import GeometricSMOTE # doctest: +NORMALIZE_WHITESPACE</span>
+<span class="sd">    &gt;&gt;&gt; X, y = make_classification(n_classes=2, class_sep=2,</span>
+<span class="sd">    ... weights=[0.1, 0.9], n_informative=3, n_redundant=1, flip_y=0,</span>
+<span class="sd">    ... n_features=20, n_clusters_per_class=1, n_samples=1000, random_state=10)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;Original dataset shape %s&#39; % Counter(y))</span>
+<span class="sd">    Original dataset shape Counter({{1: 900, 0: 100}})</span>
+<span class="sd">    &gt;&gt;&gt; gsmote = GeometricSMOTE(random_state=1)</span>
+<span class="sd">    &gt;&gt;&gt; X_res, y_res = gsmote.fit_resample(X, y)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;Resampled dataset shape %s&#39; % Counter(y_res))</span>
+<span class="sd">    Resampled dataset shape Counter({{0: 900, 1: 900}})</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="GeometricSMOTE.__init__"><a class="viewcode-back" href="../../generated/gsmote.GeometricSMOTE.html#gsmote.GeometricSMOTE.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">sampling_strategy</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">truncation_factor</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
+        <span class="n">deformation_factor</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>
+        <span class="n">selection_strategy</span><span class="o">=</span><span class="s1">&#39;combined&#39;</span><span class="p">,</span>
+        <span class="n">k_neighbors</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+        <span class="n">categorical_features</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">n_jobs</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">GeometricSMOTE</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">sampling_strategy</span><span class="o">=</span><span class="n">sampling_strategy</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">random_state</span> <span class="o">=</span> <span class="n">random_state</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">truncation_factor</span> <span class="o">=</span> <span class="n">truncation_factor</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">deformation_factor</span> <span class="o">=</span> <span class="n">deformation_factor</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span> <span class="o">=</span> <span class="n">selection_strategy</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">k_neighbors</span> <span class="o">=</span> <span class="n">k_neighbors</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="n">categorical_features</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">n_jobs</span> <span class="o">=</span> <span class="n">n_jobs</span></div>
+
+    <span class="k">def</span> <span class="nf">_validate_estimator</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Create the necessary attributes for Geometric SMOTE.&quot;&quot;&quot;</span>
+
+        <span class="c1"># Check random state</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">random_state_</span> <span class="o">=</span> <span class="n">check_random_state</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">random_state</span><span class="p">)</span>
+
+        <span class="c1"># Validate strategy</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">SELECTION_STRATEGY</span><span class="p">:</span>
+            <span class="n">error_msg</span> <span class="o">=</span> <span class="p">(</span>
+                <span class="s1">&#39;Unknown selection_strategy for Geometric SMOTE algorithm. &#39;</span>
+                <span class="s1">&#39;Choices are </span><span class="si">{}</span><span class="s1">. Got </span><span class="si">{}</span><span class="s1"> instead.&#39;</span>
+            <span class="p">)</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="n">error_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">SELECTION_STRATEGY</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span><span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="c1"># Create nearest neighbors object for positive class</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;minority&quot;</span><span class="p">,</span> <span class="s2">&quot;combined&quot;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nns_pos_</span> <span class="o">=</span> <span class="n">check_neighbors_object</span><span class="p">(</span>
+                <span class="s1">&#39;nns_positive&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">k_neighbors</span><span class="p">,</span> <span class="n">additional_neighbor</span><span class="o">=</span><span class="mi">1</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nns_pos_</span><span class="o">.</span><span class="n">set_params</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">n_jobs</span><span class="p">)</span>
+
+        <span class="c1"># Create nearest neighbors object for negative class</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;majority&quot;</span><span class="p">,</span> <span class="s2">&quot;combined&quot;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nn_neg_</span> <span class="o">=</span> <span class="n">check_neighbors_object</span><span class="p">(</span><span class="s2">&quot;nn_negative&quot;</span><span class="p">,</span> <span class="n">nn_object</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nn_neg_</span><span class="o">.</span><span class="n">set_params</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">n_jobs</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_validate_categorical</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Create the necessary attributes for Geometric SMOTE</span>
+<span class="sd">        with categorical features&quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span>
+
+        <span class="n">categorical_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">categorical_features</span><span class="o">.</span><span class="n">dtype</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;bool&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">flatnonzero</span><span class="p">(</span><span class="n">categorical_features</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">any</span><span class="p">(</span>
+                <span class="p">[</span><span class="n">cat</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n_features_</span><span class="p">)</span> <span class="k">for</span> <span class="n">cat</span> <span class="ow">in</span> <span class="n">categorical_features</span><span class="p">]</span>
+            <span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s2">&quot;Some of the categorical indices are out of range. Indices&quot;</span>
+                    <span class="s2">&quot; should be between 0 and </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n_features_</span><span class="p">)</span>
+                <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span> <span class="o">=</span> <span class="n">categorical_features</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">setdiff1d</span><span class="p">(</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n_features_</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span>
+        <span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span><span class="o">.</span><span class="n">size</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_features_in_</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="s2">&quot;GeometricSMOTE is not designed to work only with categorical &quot;</span>
+                <span class="s2">&quot;features. It requires some numerical features.&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="k">def</span> <span class="nf">_check_X_y</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Overwrite the checking to let pass some string for categorical</span>
+<span class="sd">        features.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">y</span><span class="p">,</span> <span class="n">binarize_y</span> <span class="o">=</span> <span class="n">check_target_type</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">indicate_one_vs_all</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_validate_data</span><span class="p">(</span>
+            <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">accept_sparse</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;csr&quot;</span><span class="p">,</span> <span class="s2">&quot;csc&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">binarize_y</span>
+
+    <span class="k">def</span> <span class="nf">_make_geometric_samples</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">pos_class_label</span><span class="p">,</span> <span class="n">n_samples</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A support function that returns an artificials samples inside</span>
+<span class="sd">        the geometric region defined by nearest neighbors.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        X : array-like, shape (n_samples, n_features)</span>
+<span class="sd">            Matrix containing the data which have to be sampled.</span>
+<span class="sd">        y : array-like, shape (n_samples, )</span>
+<span class="sd">            Corresponding label for each sample in X.</span>
+<span class="sd">        pos_class_label : str or int</span>
+<span class="sd">            The minority class (positive class) target value.</span>
+<span class="sd">        n_samples : int</span>
+<span class="sd">            The number of samples to generate.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        X_new : ndarray, shape (n_samples_new, n_features)</span>
+<span class="sd">            Synthetically generated samples.</span>
+<span class="sd">        y_new : ndarray, shape (n_samples_new, )</span>
+<span class="sd">            Target values for synthetic samples.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="c1"># Return zero new samples</span>
+        <span class="k">if</span> <span class="n">n_samples</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">(</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">X</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">y</span><span class="o">.</span><span class="n">dtype</span><span class="p">),</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">X</span><span class="o">.</span><span class="n">dtype</span><span class="p">),</span>
+            <span class="p">)</span>
+
+        <span class="c1"># Select positive class samples</span>
+        <span class="n">X_pos</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">y</span> <span class="o">==</span> <span class="n">pos_class_label</span><span class="p">]</span>
+
+        <span class="c1"># Force minority strategy if no negative class samples are present</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="s1">&#39;minority&#39;</span> <span class="k">if</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">X_pos</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy</span>
+        <span class="p">)</span>
+
+        <span class="c1"># Minority or combined strategy</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;minority&quot;</span><span class="p">,</span> <span class="s2">&quot;combined&quot;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nns_pos_</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_pos</span><span class="p">)</span>
+            <span class="n">points_pos</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nns_pos_</span><span class="o">.</span><span class="n">kneighbors</span><span class="p">(</span><span class="n">X_pos</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:,</span> <span class="mi">1</span><span class="p">:]</span>
+            <span class="n">samples_indices</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">random_state_</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span>
+                <span class="n">low</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">points_pos</span><span class="o">.</span><span class="n">flatten</span><span class="p">()),</span> <span class="n">size</span><span class="o">=</span><span class="n">n_samples</span>
+            <span class="p">)</span>
+            <span class="n">rows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">floor_divide</span><span class="p">(</span><span class="n">samples_indices</span><span class="p">,</span> <span class="n">points_pos</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">cols</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mod</span><span class="p">(</span><span class="n">samples_indices</span><span class="p">,</span> <span class="n">points_pos</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="c1"># Majority or combined strategy</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;majority&#39;</span><span class="p">,</span> <span class="s1">&#39;combined&#39;</span><span class="p">):</span>
+            <span class="n">X_neg</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">y</span> <span class="o">!=</span> <span class="n">pos_class_label</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">nn_neg_</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_neg</span><span class="p">)</span>
+            <span class="n">points_neg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nn_neg_</span><span class="o">.</span><span class="n">kneighbors</span><span class="p">(</span><span class="n">X_pos</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="o">==</span> <span class="s2">&quot;majority&quot;</span><span class="p">:</span>
+                <span class="n">samples_indices</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">random_state_</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span>
+                    <span class="n">low</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">points_neg</span><span class="o">.</span><span class="n">flatten</span><span class="p">()),</span> <span class="n">size</span><span class="o">=</span><span class="n">n_samples</span>
+                <span class="p">)</span>
+                <span class="n">rows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">floor_divide</span><span class="p">(</span><span class="n">samples_indices</span><span class="p">,</span> <span class="n">points_neg</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+                <span class="n">cols</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mod</span><span class="p">(</span><span class="n">samples_indices</span><span class="p">,</span> <span class="n">points_neg</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="c1"># In the case that the median std was equal to zeros, we have to</span>
+        <span class="c1"># create non-null entry based on the encoded of OHE</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">median_std_</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="n">X</span><span class="p">[:,</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span> <span class="p">:]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_X_categorical_encoded</span>
+                <span class="c1"># Select positive class samples</span>
+                <span class="n">X_pos</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">y</span> <span class="o">==</span> <span class="n">pos_class_label</span><span class="p">]</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;majority&#39;</span><span class="p">,</span> <span class="s1">&#39;combined&#39;</span><span class="p">):</span>
+                    <span class="n">X_neg</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">y</span> <span class="o">!=</span> <span class="n">pos_class_label</span><span class="p">]</span>
+
+        <span class="c1"># Generate new samples</span>
+        <span class="n">X_new</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n_samples</span><span class="p">,</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+        <span class="n">all_neighbors_</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">ind</span><span class="p">,</span> <span class="p">(</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">)):</span>
+
+            <span class="c1"># Define center point</span>
+            <span class="n">center</span> <span class="o">=</span> <span class="n">X_pos</span><span class="p">[</span><span class="n">row</span><span class="p">]</span>
+
+            <span class="c1"># Minority strategy</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="o">==</span> <span class="s2">&quot;minority&quot;</span><span class="p">:</span>
+                <span class="n">surface_point</span> <span class="o">=</span> <span class="n">X_pos</span><span class="p">[</span><span class="n">points_pos</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">]]</span>
+                <span class="n">all_neighbors</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="p">(</span><span class="n">X_pos</span><span class="p">[</span><span class="n">points_pos</span><span class="p">[</span><span class="n">row</span><span class="p">]])</span>
+                    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+                    <span class="k">else</span> <span class="kc">None</span>
+                <span class="p">)</span>
+
+            <span class="c1"># Majority strategy</span>
+            <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">selection_strategy_</span> <span class="o">==</span> <span class="s2">&quot;majority&quot;</span><span class="p">:</span>
+                <span class="n">surface_point</span> <span class="o">=</span> <span class="n">X_neg</span><span class="p">[</span><span class="n">points_neg</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">]]</span>
+                <span class="n">all_neighbors</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="p">(</span><span class="n">X_neg</span><span class="p">[</span><span class="n">points_neg</span><span class="p">[</span><span class="n">row</span><span class="p">]])</span>
+                    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+                    <span class="k">else</span> <span class="kc">None</span>
+                <span class="p">)</span>
+
+            <span class="c1"># Combined strategy</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">surface_point_pos</span> <span class="o">=</span> <span class="n">X_pos</span><span class="p">[</span><span class="n">points_pos</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">]]</span>
+                <span class="n">surface_point_neg</span> <span class="o">=</span> <span class="n">X_neg</span><span class="p">[</span><span class="n">points_neg</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>
+                <span class="n">radius_pos</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">center</span> <span class="o">-</span> <span class="n">surface_point_pos</span><span class="p">)</span>
+                <span class="n">radius_neg</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">center</span> <span class="o">-</span> <span class="n">surface_point_neg</span><span class="p">)</span>
+                <span class="n">surface_point</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="n">surface_point_neg</span> <span class="k">if</span> <span class="n">radius_pos</span> <span class="o">&gt;</span> <span class="n">radius_neg</span> <span class="k">else</span> <span class="n">surface_point_pos</span>
+                <span class="p">)</span>
+                <span class="n">all_neighbors</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">([</span><span class="n">X_pos</span><span class="p">[</span><span class="n">points_pos</span><span class="p">[</span><span class="n">row</span><span class="p">]],</span> <span class="n">X_neg</span><span class="p">[</span><span class="n">points_neg</span><span class="p">[</span><span class="n">row</span><span class="p">]]])</span>
+                    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+                    <span class="k">else</span> <span class="kc">None</span>
+                <span class="p">)</span>
+
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">all_neighbors_</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">all_neighbors</span><span class="p">)</span>
+
+            <span class="c1"># Append new sample - no categorical features</span>
+            <span class="n">X_new</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="n">_make_geometric_sample</span><span class="p">(</span>
+                <span class="n">center</span><span class="p">,</span>
+                <span class="n">surface_point</span><span class="p">,</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">truncation_factor</span><span class="p">,</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">deformation_factor</span><span class="p">,</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">random_state_</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="c1"># Create new samples for target variable</span>
+        <span class="n">y_new</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">pos_class_label</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">samples_indices</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="n">all_neighbors_</span>
+
+    <span class="k">def</span> <span class="nf">_make_categorical_samples</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="n">categories_size</span><span class="p">,</span> <span class="n">all_neighbors_</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">ind</span><span class="p">,</span> <span class="n">all_neighbors</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">all_neighbors_</span><span class="p">):</span>
+            <span class="c1"># Append new sample - continuous features</span>
+            <span class="n">X_new</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="n">_make_categorical_sample</span><span class="p">(</span>
+                <span class="n">X_new</span><span class="p">[</span><span class="n">ind</span><span class="p">],</span> <span class="n">all_neighbors</span><span class="p">,</span> <span class="n">categories_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">random_state_</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span>
+
+    <span class="k">def</span> <span class="nf">_encode_categorical</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;TODO&quot;&quot;&quot;</span>
+        <span class="c1"># compute the median of the standard deviation of the minority class</span>
+        <span class="n">target_stats</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+        <span class="n">class_minority</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">target_stats</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">target_stats</span><span class="o">.</span><span class="n">get</span><span class="p">)</span>
+
+        <span class="c1"># Separate categorical features from continuous features</span>
+        <span class="n">X_continuous</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="p">]</span>
+        <span class="n">X_continuous</span> <span class="o">=</span> <span class="n">check_array</span><span class="p">(</span><span class="n">X_continuous</span><span class="p">,</span> <span class="n">accept_sparse</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;csr&quot;</span><span class="p">,</span> <span class="s2">&quot;csc&quot;</span><span class="p">])</span>
+        <span class="n">X_categorical</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="n">X_minority</span> <span class="o">=</span> <span class="n">X_continuous</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">flatnonzero</span><span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="n">class_minority</span><span class="p">)]</span>
+
+        <span class="k">if</span> <span class="n">sparse</span><span class="o">.</span><span class="n">issparse</span><span class="p">(</span><span class="n">X</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">X</span><span class="o">.</span><span class="n">format</span> <span class="o">==</span> <span class="s2">&quot;csr&quot;</span><span class="p">:</span>
+                <span class="n">_</span><span class="p">,</span> <span class="n">var</span> <span class="o">=</span> <span class="n">csr_mean_variance_axis0</span><span class="p">(</span><span class="n">X_minority</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">_</span><span class="p">,</span> <span class="n">var</span> <span class="o">=</span> <span class="n">csc_mean_variance_axis0</span><span class="p">(</span><span class="n">X_minority</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">var</span> <span class="o">=</span> <span class="n">X_minority</span><span class="o">.</span><span class="n">var</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">median_std_</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">var</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="n">X_continuous</span><span class="o">.</span><span class="n">dtype</span><span class="o">.</span><span class="n">name</span> <span class="o">!=</span> <span class="s2">&quot;object&quot;</span><span class="p">:</span>
+            <span class="n">dtype_ohe</span> <span class="o">=</span> <span class="n">X_continuous</span><span class="o">.</span><span class="n">dtype</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">dtype_ohe</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float64</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ohe_</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">sparse</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">handle_unknown</span><span class="o">=</span><span class="s2">&quot;ignore&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype_ohe</span><span class="p">)</span>
+
+        <span class="c1"># the input of the OneHotEncoder needs to be dense</span>
+        <span class="n">X_ohe</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ohe_</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span>
+            <span class="n">X_categorical</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span> <span class="k">if</span> <span class="n">sparse</span><span class="o">.</span><span class="n">issparse</span><span class="p">(</span><span class="n">X_categorical</span><span class="p">)</span> <span class="k">else</span> <span class="n">X_categorical</span>
+        <span class="p">)</span>
+
+        <span class="c1"># we can replace the 1 entries of the categorical features with the</span>
+        <span class="c1"># median of the standard deviation. It will ensure that whenever</span>
+        <span class="c1"># distance is computed between 2 samples, the difference will be equal</span>
+        <span class="c1"># to the median of the standard deviation as in the original paper.</span>
+
+        <span class="c1"># In the edge case where the median of the std is equal to 0, the 1s</span>
+        <span class="c1"># entries will be also nullified. In this case, we store the original</span>
+        <span class="c1"># categorical encoding which will be later used for inversing the OHE</span>
+        <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">median_std_</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_X_categorical_encoded</span> <span class="o">=</span> <span class="n">X_ohe</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+
+        <span class="n">X_ohe</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">X_ohe</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">X_ohe</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">median_std_</span> <span class="o">/</span> <span class="mi">2</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_issparse</span><span class="p">:</span>
+            <span class="n">X_encoded</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">([</span><span class="n">X_continuous</span><span class="o">.</span><span class="n">toarray</span><span class="p">(),</span> <span class="n">X_ohe</span><span class="o">.</span><span class="n">toarray</span><span class="p">()])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">X_encoded</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">([</span><span class="n">X_continuous</span><span class="p">,</span> <span class="n">X_ohe</span><span class="o">.</span><span class="n">toarray</span><span class="p">()])</span>
+
+        <span class="k">return</span> <span class="n">X_encoded</span>
+
+    <span class="k">def</span> <span class="nf">_decode_categorical</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X_resampled</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Reverses the encoding of the categorical features to match</span>
+<span class="sd">        the dataset&#39;s original structure.&quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">median_std_</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">X_resampled</span><span class="p">[</span>
+                <span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_X_categorical_encoded</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span> <span class="p">:</span>
+            <span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_X_categorical_encoded</span>
+
+        <span class="n">X_resampled</span> <span class="o">=</span> <span class="n">sparse</span><span class="o">.</span><span class="n">csr_matrix</span><span class="p">(</span><span class="n">X_resampled</span><span class="p">)</span>
+
+        <span class="n">X_res_cat</span> <span class="o">=</span> <span class="n">X_resampled</span><span class="p">[:,</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span> <span class="p">:]</span>
+        <span class="n">X_res_cat</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">X_res_cat</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">X_res_cat_dec</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ohe_</span><span class="o">.</span><span class="n">inverse_transform</span><span class="p">(</span><span class="n">X_res_cat</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_issparse</span><span class="p">:</span>
+            <span class="n">X_resampled</span> <span class="o">=</span> <span class="n">sparse</span><span class="o">.</span><span class="n">hstack</span><span class="p">(</span>
+                <span class="p">(</span><span class="n">X_resampled</span><span class="p">[:,</span> <span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span><span class="p">],</span> <span class="n">X_res_cat_dec</span><span class="p">),</span>
+                <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;csr&quot;</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">X_resampled</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">(</span>
+                <span class="p">(</span>
+                    <span class="n">X_resampled</span><span class="p">[:,</span> <span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span><span class="p">]</span><span class="o">.</span><span class="n">toarray</span><span class="p">(),</span>
+                    <span class="n">X_res_cat_dec</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="n">indices_reordered</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features_</span><span class="p">))</span>
+        <span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">sparse</span><span class="o">.</span><span class="n">issparse</span><span class="p">(</span><span class="n">X_resampled</span><span class="p">):</span>
+            <span class="n">col_indices</span> <span class="o">=</span> <span class="n">X_resampled</span><span class="o">.</span><span class="n">indices</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">col_idx</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">indices_reordered</span><span class="p">):</span>
+                <span class="n">mask</span> <span class="o">=</span> <span class="n">X_resampled</span><span class="o">.</span><span class="n">indices</span> <span class="o">==</span> <span class="n">col_idx</span>
+                <span class="n">col_indices</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span> <span class="o">=</span> <span class="n">idx</span>
+            <span class="n">X_resampled</span><span class="o">.</span><span class="n">indices</span> <span class="o">=</span> <span class="n">col_indices</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">X_resampled</span> <span class="o">=</span> <span class="n">X_resampled</span><span class="p">[:,</span> <span class="n">indices_reordered</span><span class="p">]</span>
+
+        <span class="k">return</span> <span class="n">X_resampled</span>
+
+    <span class="k">def</span> <span class="nf">_fit_resample</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+
+        <span class="c1"># Save basic data</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">n_features_</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_issparse</span> <span class="o">=</span> <span class="n">sparse</span><span class="o">.</span><span class="n">issparse</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+        <span class="n">X_dtype</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">dtype</span>
+
+        <span class="c1"># Validate estimator&#39;s parameters</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_validate_categorical</span><span class="p">()</span><span class="o">.</span><span class="n">_validate_estimator</span><span class="p">()</span>
+
+        <span class="c1"># Preprocess categorical data</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">X</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_encode_categorical</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+            <span class="n">categories_size</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">continuous_features_</span><span class="o">.</span><span class="n">size</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span>
+                <span class="n">cat</span><span class="o">.</span><span class="n">size</span> <span class="k">for</span> <span class="n">cat</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ohe_</span><span class="o">.</span><span class="n">categories_</span>
+            <span class="p">]</span>
+
+        <span class="c1"># Copy data</span>
+        <span class="n">X_resampled</span><span class="p">,</span> <span class="n">y_resampled</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">copy</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+        <span class="c1"># Resample</span>
+        <span class="k">for</span> <span class="n">class_label</span><span class="p">,</span> <span class="n">n_samples</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">sampling_strategy_</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+
+            <span class="c1"># Apply gsmote mechanism</span>
+            <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="n">all_neighbors_</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_geometric_samples</span><span class="p">(</span>
+                <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">class_label</span><span class="p">,</span> <span class="n">n_samples</span>
+            <span class="p">)</span>
+
+            <span class="c1"># Apply smotenc mechanism</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_categorical_samples</span><span class="p">(</span>
+                    <span class="n">X_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="n">categories_size</span><span class="p">,</span> <span class="n">all_neighbors_</span>
+                <span class="p">)</span>
+
+            <span class="c1"># Append new data</span>
+            <span class="n">X_resampled</span><span class="p">,</span> <span class="n">y_resampled</span> <span class="o">=</span> <span class="p">(</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">X_resampled</span><span class="p">,</span> <span class="n">X_new</span><span class="p">)),</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">y_resampled</span><span class="p">,</span> <span class="n">y_new</span><span class="p">)),</span>
+            <span class="p">)</span>
+
+        <span class="c1"># reverse the encoding of the categorical features</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">categorical_features</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">X_resampled</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_decode_categorical</span><span class="p">(</span><span class="n">X_resampled</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">X_dtype</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">X_resampled</span> <span class="o">=</span> <span class="n">X_resampled</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">X_dtype</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">X_resampled</span><span class="p">,</span> <span class="n">y_resampled</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2019, Georgios Douzas.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
