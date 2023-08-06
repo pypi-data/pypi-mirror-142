@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bsts
+Version: 0.1
+Summary: Python library for Bayesian structural time series
+Home-page: UNKNOWN
+Author: Bati Sengul
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
