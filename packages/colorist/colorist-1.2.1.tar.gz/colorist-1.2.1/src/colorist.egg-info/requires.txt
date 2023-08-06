@@ -1,0 +1,7 @@
+
+[testing]
+coverage>=6.3.2
+pytest>=6.0
+pytest-cov>=2.0
+flake8>=3.9
+tox>=3.24
