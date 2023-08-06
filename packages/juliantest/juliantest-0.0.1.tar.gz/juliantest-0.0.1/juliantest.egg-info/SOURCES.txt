@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+juliantest.egg-info/PKG-INFO
+juliantest.egg-info/SOURCES.txt
+juliantest.egg-info/dependency_links.txt
+juliantest.egg-info/top_level.txt
