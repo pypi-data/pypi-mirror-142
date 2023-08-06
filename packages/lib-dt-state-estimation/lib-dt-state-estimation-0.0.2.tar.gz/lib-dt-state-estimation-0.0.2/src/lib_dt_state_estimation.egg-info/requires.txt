@@ -1,0 +1,5 @@
+numpy<=1.21.5
+opencv-python-headless
+reprep
+scipy<=1.7.3
+transformations~=2021.6.6
