@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: markdown_code_exec
+Version: 0.3.0
+Summary: Executes Python code in Markdown files and captures the output
+Author-email: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Documentation, https://github.com/smathot/markdown_code_exec
+Project-URL: Source, https://github.com/smathot/markdown_code_exec
+
+# markdown_code_exec
+
+*Execute Python code in Markdown files and captures the output*
+
+Copyright 2022 Sebastiaan Mathôt
+
+## Command-line usage
+
+usage: markdown_code_exec.py [-h] [-i INPUT] [-o OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        input markdown file
+  -o OUTPUT, --output OUTPUT
+                        output markdown file
+
+
+## Function reference
+
+**<span style="color:purple">markdown&#95;code&#95;exec.parse&#95;text</span>_(md)_**
+
+
+Takes a `str` containing markdown text, finds code blocks in the
+markdown, executes these code blocks and captures the output, and then
+embeds the captured output in the markdown.
+
+
+#### Parameters
+* md: str :  The input markdown string
+
+#### Returns
+<b><i>str</i></b>  The compiled markdown string
+
+
+
+**<span style="color:purple">markdown&#95;code&#95;exec.parse&#95;file</span>_(src, dst)_**
+
+
+Takes a markdown input file, executes code blocks while capturing output
+and writes the result to a new output file.
+
+
+src: str
+    The full path to the input file
+dst: str
+    The full path to the output file
+
+## License
+
+GNU General Public License 3
+
