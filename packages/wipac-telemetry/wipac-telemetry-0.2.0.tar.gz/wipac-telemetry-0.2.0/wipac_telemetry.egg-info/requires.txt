@@ -1,0 +1,7 @@
+coloredlogs
+opentelemetry-api
+opentelemetry-exporter-jaeger
+opentelemetry-exporter-otlp-proto-http
+opentelemetry-sdk
+typing-extensions
+wipac_dev_tools
