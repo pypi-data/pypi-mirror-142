@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "i_asana"
+author = "Jason Romano"
+author-email = "aracnid@gmail.com"
+home-page = "https://github.com/aracnid/i-asana"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+requires-python = ">=3.9"
+requires = [
+    "aracnid-logger",
+    "asana"
+]
+keywords = "python,asana"
+
+[tools.flit.metadata.requires-extra]
+test = ["pytest"]
+build = ["flit", "pylint"]
+
+[tool.pytest.ini_options]
+addopts = "-p no:warnings"
+log_cli = true
+log_cli_level = "DEBUG"
