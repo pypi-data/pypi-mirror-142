@@ -1,0 +1,6 @@
+arcane/spreadsheet/__init__.py,sha256=S16qmmoCOih4vVUbwtBjPDaP1Hm9ulUcHWmncpC9iGo,65
+arcane/spreadsheet/sp_duplicator_cf_utils.py,sha256=Cu1_btpcZuIaOCo_AfywClYzxGYfa9fUCcbX6HLHC8E,1352
+arcane/spreadsheet/spreadsheet.py,sha256=YkzmF3EhzKJ1zC3cNJLpL-NpMPPOjX38q4WWr7h8tv0,10640
+arcane_spreadsheet-0.5.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+arcane_spreadsheet-0.5.1.dist-info/METADATA,sha256=Ddq1dI8rtKegbzeKbmAQV2YUD6At_4PO0xrlGHLyI-8,765
+arcane_spreadsheet-0.5.1.dist-info/RECORD,,
