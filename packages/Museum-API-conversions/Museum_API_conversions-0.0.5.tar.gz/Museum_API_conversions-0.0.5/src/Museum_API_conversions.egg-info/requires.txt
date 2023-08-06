@@ -1,0 +1,5 @@
+pandas
+requests
+flatten_json
+pdfkit
+lxml

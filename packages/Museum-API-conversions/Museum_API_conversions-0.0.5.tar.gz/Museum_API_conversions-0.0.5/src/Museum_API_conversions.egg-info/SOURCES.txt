@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/Museum_API_conversions.py
+src/Museum_API_conversions.egg-info/PKG-INFO
+src/Museum_API_conversions.egg-info/SOURCES.txt
+src/Museum_API_conversions.egg-info/dependency_links.txt
+src/Museum_API_conversions.egg-info/requires.txt
+src/Museum_API_conversions.egg-info/top_level.txt
