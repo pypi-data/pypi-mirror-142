@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Metodo-GaussJordan
+Version: 0.1
+Summary: Con este paquete puedes resolver matrices nxn por GaussJordan
+Home-page: https://github.com/IsoT0P0S/Metodo-GaussJordan.git
+Download-URL: https://github.com/IsoT0P0S/Metodo-GaussJordan.git
+Author: Miguel Acevedo
+Author-email: 
+License: MIT
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# MÃ©todo de Gauss Jordan
+
+Este programa te ayuda a resolver matrices nxn usando el mÃ©todo de Gauss Jordan
+
