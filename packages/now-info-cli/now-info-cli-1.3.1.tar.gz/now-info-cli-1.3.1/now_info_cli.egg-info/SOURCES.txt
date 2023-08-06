@@ -1,0 +1,10 @@
+README.md
+now.py
+setup.cfg
+setup.py
+now_info_cli.egg-info/PKG-INFO
+now_info_cli.egg-info/SOURCES.txt
+now_info_cli.egg-info/dependency_links.txt
+now_info_cli.egg-info/entry_points.txt
+now_info_cli.egg-info/requires.txt
+now_info_cli.egg-info/top_level.txt
