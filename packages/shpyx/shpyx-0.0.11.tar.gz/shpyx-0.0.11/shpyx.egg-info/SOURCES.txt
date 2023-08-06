@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shpyx/__init__.py
+shpyx/cmd_runner.py
+shpyx/errors.py
+shpyx/py.typed
+shpyx/result.py
+shpyx.egg-info/PKG-INFO
+shpyx.egg-info/SOURCES.txt
+shpyx.egg-info/dependency_links.txt
+shpyx.egg-info/top_level.txt
