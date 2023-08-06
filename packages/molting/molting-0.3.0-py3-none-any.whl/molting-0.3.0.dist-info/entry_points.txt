@@ -1,0 +1,3 @@
+[console_scripts]
+molting=molting.main:cli
+
