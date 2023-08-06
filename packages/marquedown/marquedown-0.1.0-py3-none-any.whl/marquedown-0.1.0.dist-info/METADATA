@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: marquedown
+Version: 0.1.0
+Summary: Extending Markdown further by adding a few more useful notations.
+Home-page: https://gitlab.com/deepadmax/marquedown
+License: GPL-3.0-or-later
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Markdown (>=3.3.6,<4.0.0)
+Project-URL: Repository, https://gitlab.com/deepadmax/marquedown
+Description-Content-Type: text/markdown
+
+
