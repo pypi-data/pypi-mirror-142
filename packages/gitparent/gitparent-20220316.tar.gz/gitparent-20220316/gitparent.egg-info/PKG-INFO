@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gitparent
+Version: 20220316
+Summary: Git Parent multirepo management utility
+Home-page: https://gitlab.com/d2463/gitp
+Author: June Nguyen
+Author-email: june@dreambigsemi.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/d2463/db-tools/gitp/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
