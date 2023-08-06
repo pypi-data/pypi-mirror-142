@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: datacards
+Version: 0.1.0
+Summary: Append missing model cards to Huggingface datasets
+Home-page: https://github.com/Hugging-Face-Supporter/datacards
+License: Apache-2.0
+Keywords: huggingface,transformers,datasets,dataset,text,modelcard,card
+Author: MarkusSagen
+Author-email: markus.john.sagen@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Markdown (>=3.3.6,<4.0.0)
+Requires-Dist: datasets (>=1.14.0,<2.0.0)
+Requires-Dist: pydantic (>=1.8.0,<2.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: rich[jupyter] (>=10.14.0,<11.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Project-URL: Repository, https://github.com/Hugging-Face-Supporter/datacards
+Description-Content-Type: text/markdown
+
+# Datacard
+
+This repo aims to find and update the missing model cards for Huggingface datasets.
+
+The goal is to run the script once, manually update and review the files and datasets proposed and make a PR to the datasets repo.
+
+## WIP
+
+- [ ] Look into tools for Github and HF hub. Maybe create PR on new change or release?
+- [ ] Look into strategies for parsing
+      https://www.digitalocean.com/community/tutorials/how-to-use-python-markdown-to-convert-markdown-text-to-html
+
+- [ ] Look into how to provide multiple answers in model card (ex. Glue dataset)
+
