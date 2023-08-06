@@ -1,0 +1,10 @@
+wheel
+PyQt5
+Sphinx
+black[d]
+git-lint
+ipython
+mypy
+pylint
+pytest
+rich
