@@ -1,0 +1,104 @@
+{% set multivariate_title = 'Checks' %}
+{% extends 'multivariate-layout.html' %}
+
+{% from "macros.html" import info_popover, visualize_check_result %}
+
+{% block styles %}
+<style>
+    .score-table {
+        table-layout: fixed;
+    }
+    .score-table .score-grouping {
+        width: 20%;
+    }
+    .score-table .score {
+        width: 20%;
+    }
+</style>
+{% endblock %}
+
+{% block menu %}
+{{ multivariate_menu(multivariate_title) }}
+{% endblock %}
+
+{% block multivariate_content %}
+
+{% if quality_checks %}
+{% if quality_checks|selectattr('metadata.kpi', 'equalto', 'metadata')|list|count > 0 %}
+<table class="ts-table table table-borderless score-table">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Metadata group</th>
+            <th scope="col">Metadata checks</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for group, checks in quality_checks|selectattr('metadata.kpi', 'equalto', 'metadata')|groupby('metadata.group') %}
+        {% for check in checks|sort(attribute='metadata.name')|sort(attribute='result')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% if loop.changed(group) %}
+            <th rowspan="{{ checks|count }}">{{ group|capitalize }}</th>
+            {% endif %}
+            <td>{{ check.metadata.name }} {{ info_popover(check.metadata.short_help_text) }}</td>
+            {{ visualize_check_result(check) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% if quality_checks|rejectattr('metadata.kpi', 'equalto', 'metadata')|list|count > 0 %}
+<table class="ts-table table table-borderless score-table">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Quality KPI</th>
+            <th scope="col">Series checks</th>
+            <th scope="col" class="score">Event frames</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for kpi, checks in quality_checks|rejectattr('metadata.kpi', 'equalto', 'metadata')|groupby('metadata.kpi') %}
+        {% for check in checks|sort(attribute='metadata.name')|sort(attribute='result')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% if loop.changed(kpi) %}
+            <th rowspan="{{ checks|count }}">{{ kpi|capitalize }}</th>
+            {% endif %}
+            <td>{{ check.metadata.name }} {{ info_popover(check.metadata.short_help_text) }}</td>
+            <td>
+                {% if check.metadata.event_frame_types %}
+                <div class="dropdown">
+                    <button type="button"
+                            class="btn btn-sm btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        List event frames
+                    </button>
+                    <div class="dropdown-menu">
+                        {% for type in check.metadata.event_frame_types %}
+                        <a class="dropdown-item"
+                            href="{{ url_for('.show_event_frames', blockevaluationid=block_evaluation.db_id, flowname=flow.name, type=type, sourcename=source_name) }}">
+                            {{ type }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </td>
+            {{ visualize_check_result(check) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% else %}
+<div class="alert alert-info">
+    No checks available.
+</div>
+{% endif %}
+{% endblock %}
