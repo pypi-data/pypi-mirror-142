@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-13 16:49+0000\n"
+"PO-Revision-Date: 2022-03-13 16:50+0000\n"
+"Last-Translator: Tom Teichler <tom.teichler@teckids.org>\n"
+"Language-Team: German <https://translate.edugit.org/projects/aleksis/"
+"aleksis-app-tezor/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#: aleksis/apps/tezor/menus.py:6
+msgid "Payments and Money"
+msgstr "Zahlungen und Geld"
+
+#: aleksis/apps/tezor/menus.py:16
+msgid "Manage clients"
+msgstr "Klienten verwalten"
+
+#: aleksis/apps/tezor/models/base.py:8
+msgid "Name"
+msgstr "Name"
+
+#: aleksis/apps/tezor/models/base.py:9
+msgid "Email"
+msgstr "E-Mail"
+
+#: aleksis/apps/tezor/models/invoice.py:20
+msgid "Invoice group name"
+msgstr "Name der Rechnungsgruppe"
+
+#: aleksis/apps/tezor/models/invoice.py:23
+msgid "Linked client"
+msgstr "Verknüpfter Klient"
+
+#: aleksis/apps/tezor/models/invoice.py:30
+msgid "Template to render invoices with as PDF"
+msgstr "Vorlage, um Rechnungen als PDF zu erzeugen"
+
+#: aleksis/apps/tezor/models/invoice.py:44
+msgid "PayPal"
+msgstr "PayPal"
+
+#: aleksis/apps/tezor/models/invoice.py:45
+msgid "Klarna / Sofort"
+msgstr "Klarna / Sofort"
+
+#: aleksis/apps/tezor/models/invoice.py:46
+msgid "Payment pledge / manual payment"
+msgstr "Zahlungsversprechen / Manuelle Zahlung"
+
+#: aleksis/apps/tezor/models/invoice.py:47
+msgid "SEPA Direct Debit"
+msgstr "SEPA-Lastschrift"
+
+#: aleksis/apps/tezor/models/invoice.py:61
+msgid "Invoice group"
+msgstr "Rechnungsgruppe"
+
+#: aleksis/apps/tezor/models/invoice.py:67
+msgid "Invoice number"
+msgstr "Rechnungsnummer"
+
+#: aleksis/apps/tezor/models/invoice.py:68
+msgid "Payment due date"
+msgstr "Fälligkeitsdatum"
+
+#: aleksis/apps/tezor/models/invoice.py:78
+msgid "Invoice recipient (person)"
+msgstr "Rechnungsempfänger (Person)"
+
+#: aleksis/apps/tezor/models/invoice.py:82
+msgid "Invoice items"
+msgstr "Rechnungspositionen"
+
+#: aleksis/apps/tezor/models/invoice.py:126
+msgid "Can send invoice by email"
+msgstr "Kann Rechnung als E-Mail versenden"
+
+#: aleksis/apps/tezor/models/invoice.py:150
+msgid "VAT {} %"
+msgstr "MWSt. {} %"
+
+#: aleksis/apps/tezor/models/invoice.py:158
+msgid "Gross total"
+msgstr "Bruttosumme"
+
+#: aleksis/apps/tezor/models/invoice.py:177
+msgid "Article no."
+msgstr "Artikel Nr."
+
+#: aleksis/apps/tezor/models/invoice.py:178
+msgid "Purchased item"
+msgstr "Gekaufter Artikel"
+
+#: aleksis/apps/tezor/models/invoice.py:180
+msgid "Item net price"
+msgstr "Artikel-Nettopreis"
+
+#: aleksis/apps/tezor/models/invoice.py:182
+msgid "Currency"
+msgstr "Währung"
+
+#: aleksis/apps/tezor/models/invoice.py:184
+msgid "Tax rate"
+msgstr "Steuersatz"
+
+#: aleksis/apps/tezor/preferences.py:8
+msgid "Payments"
+msgstr "Zahlungen"
+
+#: aleksis/apps/tezor/preferences.py:17
+msgid "Public payments"
+msgstr "Öffentliche Zahlungen"
+
+#: aleksis/apps/tezor/preferences.py:19
+msgid "Allow anyone (including guests) to make payments. Basic invoice information will be visible to anyone who knows the invoice token."
+msgstr "Jedem (einschließlich Gästen) erlauben, Zahlungen zu leisten. Grundlegende Rechnungsinformationen sind für jeden sichtbar, der das Rechnungstoken kennt."
+
+#: aleksis/apps/tezor/preferences.py:32
+msgid "Sofort / Klarna - API ID"
+msgstr "Sofort / Klarna - API-ID"
+
+#: aleksis/apps/tezor/preferences.py:43
+msgid "Sofort / Klarna - API Key"
+msgstr "Sofort / Klarna - API-Schlüssel"
+
+#: aleksis/apps/tezor/preferences.py:54
+msgid "Sofort / Klarna - Project ID"
+msgstr "Sofort / Klarna - Projekt-ID"
+
+#: aleksis/apps/tezor/preferences.py:65
+msgid "PayPal - Client ID"
+msgstr "PayPal - Kundennummer"
+
+#: aleksis/apps/tezor/preferences.py:76
+msgid "PayPal - Secret"
+msgstr "PayPal - Secret"
+
+#: aleksis/apps/tezor/preferences.py:87
+msgid "PayPal - Use Authorize & Capture"
+msgstr "PayPal - \"Authorize & Capture\" nutzen"
+
+#: aleksis/apps/tezor/preferences.py:98
+msgid "Enable pledged payments"
+msgstr "Manuelle Zahlungen aktivieren"
+
+#: aleksis/apps/tezor/preferences.py:109
+msgid "SEPA Direct Debit - Creditor name"
+msgstr "SEPA-Lastschrift - Kreditor-Name"
+
+#: aleksis/apps/tezor/preferences.py:120
+msgid "SEPA Direct Debit - Creditor identifier"
+msgstr "SEPA-Lastschrift - Kreditor-Kennung"
+
+#: aleksis/apps/tezor/tables.py:8
+msgid "Art. No."
+msgstr "Art. Nr."
+
+#: aleksis/apps/tezor/tables.py:9
+msgid "Item"
+msgstr "Artikel"
+
+#: aleksis/apps/tezor/tables.py:11
+msgid "Tax Rate"
+msgstr "Steuersatz"
+
+#: aleksis/apps/tezor/tables.py:15
+msgid "Qty."
+msgstr "Anz."
+
+#: aleksis/apps/tezor/tables.py:17
+msgid "Gross"
+msgstr "Brutto"
+
+#: aleksis/apps/tezor/tables.py:47 aleksis/apps/tezor/tables.py:48
+#: aleksis/apps/tezor/tables.py:71 aleksis/apps/tezor/tables.py:72
+#: aleksis/apps/tezor/tables.py:99 aleksis/apps/tezor/tables.py:100
+msgid "View"
+msgstr "Ansehen"
+
+#: aleksis/apps/tezor/tables.py:53 aleksis/apps/tezor/tables.py:54
+#: aleksis/apps/tezor/tables.py:77 aleksis/apps/tezor/tables.py:78
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: aleksis/apps/tezor/tables.py:59 aleksis/apps/tezor/tables.py:60
+#: aleksis/apps/tezor/tables.py:83 aleksis/apps/tezor/tables.py:84
+msgid "Delete"
+msgstr "Löschen"
+
+#: aleksis/apps/tezor/tables.py:105 aleksis/apps/tezor/tables.py:106
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:23
+msgid "Print"
+msgstr "Drucken"
+
+#: aleksis/apps/tezor/templates/templated_email/invoice.email:4
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:17
+msgid "Invoice"
+msgstr "Rechnung"
+
+#: aleksis/apps/tezor/templates/templated_email/invoice.email:8
+#, python-format
+msgid ""
+"\n"
+"    Please find attached invoice number %(number)s for %(description)s.\n"
+"    Please carefully read the PDF file concerning all payment details.\n"
+"    "
+msgstr ""
+"\n"
+"    Im Anhang finden Sie die Rechnung Nr. %(number)s für %(description)s.\n"
+"    Bitte lesen Sie das PDF mit allen Zahlungsdetails sorgfältig durch.\n"
+"    "
+
+#: aleksis/apps/tezor/templates/templated_email/invoice.email:15
+msgid ""
+"\n"
+"    Please visit the following link to view and make the payment:\n"
+"    "
+msgstr ""
+"\n"
+"    Bitte rufen Sie den folgenden Link auf, um die Zahlung zu veranlassen:\n"
+"    "
+
+#: aleksis/apps/tezor/templates/tezor/client/create.html:4
+#: aleksis/apps/tezor/templates/tezor/client/create.html:5
+#: aleksis/apps/tezor/templates/tezor/client/list.html:11
+msgid "Create client"
+msgstr "Klient erstellen"
+
+#: aleksis/apps/tezor/templates/tezor/client/edit.html:4
+#: aleksis/apps/tezor/templates/tezor/client/edit.html:5
+msgid "Edit client"
+msgstr "Klient bearbeiten"
+
+#: aleksis/apps/tezor/templates/tezor/client/full.html:6
+#: aleksis/apps/tezor/templates/tezor/client/full.html:7
+msgid "Client"
+msgstr "Klient"
+
+#: aleksis/apps/tezor/templates/tezor/client/full.html:11
+msgid "Add invoice group"
+msgstr "Rechnungsgruppe hinzufügen"
+
+#: aleksis/apps/tezor/templates/tezor/client/list.html:6
+#: aleksis/apps/tezor/templates/tezor/client/list.html:7
+msgid "Clients"
+msgstr "Klienten"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:20
+#: aleksis/apps/tezor/templates/tezor/invoice_group/full.html:11
+msgid "Back"
+msgstr "Zurück"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:26
+msgid "Send Email"
+msgstr "E-Mail senden"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:34
+msgid "Billing information"
+msgstr "Rechnungsinformationen"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:67
+msgid "Payment"
+msgstr "Zahlung"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/full.html:99
+msgid "Pay now"
+msgstr "Jetzt zahlen"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/payment.html:6
+#: aleksis/apps/tezor/templates/tezor/invoice/payment.html:7
+msgid "Make payment for"
+msgstr "Bezahlung durchführen für"
+
+#: aleksis/apps/tezor/templates/tezor/invoice/payment.html:13
+msgid "Confirm payment"
+msgstr "Bezahlung bestätigen"
+
+#: aleksis/apps/tezor/templates/tezor/invoice_group/create.html:4
+#: aleksis/apps/tezor/templates/tezor/invoice_group/create.html:5
+msgid "Create invoice group"
+msgstr "Rechnungsgruppe erstellen"
+
+#: aleksis/apps/tezor/templates/tezor/invoice_group/edit.html:4
+#: aleksis/apps/tezor/templates/tezor/invoice_group/edit.html:5
+msgid "Edit invoice group"
+msgstr "Rechnungsgruppe bearbeiten"
+
+#: aleksis/apps/tezor/views.py:83
+msgid "The client has been created."
+msgstr "Der Klient wurde erstellt."
+
+#: aleksis/apps/tezor/views.py:95
+msgid "The client has been saved."
+msgstr "Der Klient wurde gespeichert."
+
+#: aleksis/apps/tezor/views.py:105
+msgid "The client has been deleted."
+msgstr "Der Klient wurde gelöscht."
+
+#: aleksis/apps/tezor/views.py:151
+msgid "The invoice group has been created."
+msgstr "Die Rechnungsgruppe wurde erstellt."
+
+#: aleksis/apps/tezor/views.py:173
+msgid "The invoice group has been saved."
+msgstr "Die Rechnungsgruppe wurde gespeichert."
+
+#: aleksis/apps/tezor/views.py:183
+msgid "The invoice group has been deleted."
+msgstr "Die Rechnungsgruppe wurde gelöscht."
