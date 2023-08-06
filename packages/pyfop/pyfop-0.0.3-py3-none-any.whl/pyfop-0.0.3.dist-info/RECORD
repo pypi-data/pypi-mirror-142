@@ -1,0 +1,11 @@
+pyfop/__init__.py,sha256=rGEK2i3bJqEzgW8iFlNb5uqxJUZNghwZD4gbY4a5rmE,84
+pyfop/argparser.py,sha256=w48lAEy0PaQH3LIdMRjALMrmtahbUhXQcoPXmN_SoBg,531
+pyfop/aspect.py,sha256=fBesSuugT_X_kP2OsmDidqDIba6p1kNuzLWyCEbYuKQ,2412
+pyfop/core.py,sha256=ydl3PrzUrs6cY_RESdeWmBDeuFg4aSURRjq72VRENkw,4178
+pyfop/execution.py,sha256=0DQuEzoY4zS0V2JaexNNsV4vSty5XSUJQRtkED3-VOY,2191
+tests/test.py,sha256=8ALzT19JJDV6wLdE5Z2OQ7Pon6BpJ8KGvEJ_qBjDckc,4844
+pyfop-0.0.3.dist-info/LICENSE.txt,sha256=EouM7s-oxRtS-T3BbhPhCSj3JFrA1m1QjlLj1zlq6LA,11555
+pyfop-0.0.3.dist-info/METADATA,sha256=VrV22uAGsa7ZL4M3IAEmsH1TuCd3his-AhJdUQy2otY,5048
+pyfop-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyfop-0.0.3.dist-info/top_level.txt,sha256=p4XbqxsVP2pPa-ic0-TO0bd0iMBSS1VtKukXVT3HGwU,12
+pyfop-0.0.3.dist-info/RECORD,,
