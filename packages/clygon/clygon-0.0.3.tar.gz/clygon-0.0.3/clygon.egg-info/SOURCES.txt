@@ -1,0 +1,7 @@
+setup.py
+clygon/__init__.py
+clygon/shapes.py
+clygon.egg-info/PKG-INFO
+clygon.egg-info/SOURCES.txt
+clygon.egg-info/dependency_links.txt
+clygon.egg-info/top_level.txt
