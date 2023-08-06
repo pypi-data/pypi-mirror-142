@@ -1,0 +1,2 @@
+[console_scripts]
+ap-parse = apparse.cli:main
