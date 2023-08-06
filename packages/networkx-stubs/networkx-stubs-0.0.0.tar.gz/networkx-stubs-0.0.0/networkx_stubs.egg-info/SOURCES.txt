@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+networkx_stubs.egg-info/PKG-INFO
+networkx_stubs.egg-info/SOURCES.txt
+networkx_stubs.egg-info/dependency_links.txt
+networkx_stubs.egg-info/requires.txt
+networkx_stubs.egg-info/top_level.txt
