@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hub-scraper
+Version: 0.6.1
+Summary: Tool to grab articles from the habr.com hubs.
+Home-page: https://github.com/dmitriiweb/hub-scraper
+License: MIT
+Keywords: habr.com,scraper,cli,tools
+Author: Dmitrii Kurlov
+Author-email: dmitriik@protonmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Dist: aiofile (>=3.7.4,<4.0.0)
+Requires-Dist: chompjs (>=1.1.6,<2.0.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: httpx (>=0.22.0,<0.23.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: lxml (>=4.8.0,<5.0.0)
+Requires-Dist: markdownify (>=0.10.3,<0.11.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Hub scraper
+
+Tool to grab articles from the habr.com hubs.
+
+## Requirements
+- Python 3.8+
+
+## Installation
+```bash
+pip install hub-scraper
+```
+
+
+## Usage
+```bash
+hub-scraper --help
+
+hub-scraper -h python -of /home/user/Downloads/hubs
+```
+
+I'm using [Obsidian](https://obsidian.md/) to view the articles:
+![](https://github.com/dmitriiweb/hub-scraper/raw/main/images/default-obsidian.png)
