@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SignalProcessor-CraigR8806
+Version: 0.0.8
+Summary: Signal Processing Library
+Home-page: https://github.com/CraigR8806/SignalProcessor
+Author: Craig Ramage
+Author-email: craig@craigramage.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CraigR8806/SignalProcessor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.22.2)
+Requires-Dist: platformdirs (==2.5.0)
+Requires-Dist: pytools (==2022.1)
+Requires-Dist: ParallelLinear-CraigR8806 (==0.0.38)
+
+This is a library for Image Processing to assist in Image Classification
+I'm not entirely sure exactly what all this library will contain just yet,
+but convolusions will be a main focus of it
+It will use my Parallel Linear library under the hood for calculations
+
+
