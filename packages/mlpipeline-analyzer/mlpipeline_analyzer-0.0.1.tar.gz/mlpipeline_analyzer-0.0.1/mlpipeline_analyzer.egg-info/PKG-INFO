@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mlpipeline-analyzer
+Version: 0.0.1
+Summary: Python package that analyze, visualize and suggest any changes to the machine learning pipeline 
+Home-page: https://github.com/TharunKumarReddy5/ml-pipeline-analyzer
+Author: Tharun Kumar Reddy Karasani
+Author-email: karasani.tarunreddy@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: machinelearning,visualizer,analyzer,mlpipeline,suggestion
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
