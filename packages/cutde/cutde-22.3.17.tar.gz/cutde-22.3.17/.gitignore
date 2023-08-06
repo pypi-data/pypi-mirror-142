@@ -1,0 +1,16 @@
+*.swp
+*.swo
+tags
+__pycache__
+.pytest_cache
+.cache
+*.egg-info
+archive
+dist
+*.tar.gz
+*.npy
+*.rendered
+.rendered*
+*.so
+.DS_Store
+.vim

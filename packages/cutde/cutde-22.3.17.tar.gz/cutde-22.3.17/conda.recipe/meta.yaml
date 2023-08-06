@@ -1,0 +1,54 @@
+{% set name = "cutde" %}
+{% set version = "22.3.17.5" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cutde-{{ version }}.tar.gz
+  sha256: 47ec18bfc333c18c10147784e1499fb5b758cfb4a767a5a57ad206a68c4018eb
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv "
+  skip: True  # [py<37]
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - llvm-openmp  # [osx]
+    - libgomp  # [linux]
+
+  host:
+    - python
+    - pip
+    - numpy
+    - pybind11
+    - mako
+
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - pyproj
+    - pybind11
+    - mako
+
+test:
+  imports:
+    - cutde
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/tbenthompson/cutde
+  summary: 130 million TDEs per second, Python + CUDA TDEs from Nikkhoo and Walter 2015
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - tbenthompson
