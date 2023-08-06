@@ -1,0 +1,2 @@
+[console_scripts]
+cmdwatch = cmdwatch.__main__:main
