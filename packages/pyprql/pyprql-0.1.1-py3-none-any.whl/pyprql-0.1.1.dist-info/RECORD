@@ -1,0 +1,8 @@
+pyprql/PRQLLexer.py,sha256=fcqlHBwL1VlP6MK8BqcDSWmkniLjHGUOuckGHmgVjVQ,2958
+pyprql/__init__.py,sha256=dgQpq9zo-8TUyIw6FBS78fwSXHVACeeeDs6q6dd9Lsg,76
+pyprql/cli.py,sha256=aK2Jrsx0vUpz0wlN-MGycFaphYYkyVS54ekhVLKzE3o,14912
+pyprql/prql.py,sha256=otngty4VxSUmoLROsw5s5JegykG8PdMTtX-HJwX_y0s,30552
+pyprql-0.1.1.dist-info/entry_points.txt,sha256=sWDOTGPluiv9bLOAq2MDBhYMQpcTNXgJ7f0HaO7mwko,40
+pyprql-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyprql-0.1.1.dist-info/METADATA,sha256=tGJQIj_53--X2h5AoKeIR4upVzANcSgf-Nq_LB-IWOs,2680
+pyprql-0.1.1.dist-info/RECORD,,
