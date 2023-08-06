@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: utils-whitetail
+Version: 0.0.8
+Summary: Common utils
+Home-page: https://bitbucket.org/mediblock/lib-web-scrape-utils/
+Author: Ankesh Gautam
+Author-email: ankesh.gautam@whitetail.in
+License: UNKNOWN
+Project-URL: Bug Tracker, https://bitbucket.org/mediblock/lib-web-scrape-utils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Installation
+
+
+```sh
+pip install -r requirements.txt
+```
+
+
