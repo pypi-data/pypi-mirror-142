@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: sk2torch
+Version: 1.1.0
+Summary: Convert scikit-learn models to PyTorch modules
+Home-page: https://github.com/unixpickle/sk2torch
+Author: Alex Nichol
+Author-email: unixpickle@gmail.com
+License: MIT
+Description: Convert scikit-learn models to PyTorch modules
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
