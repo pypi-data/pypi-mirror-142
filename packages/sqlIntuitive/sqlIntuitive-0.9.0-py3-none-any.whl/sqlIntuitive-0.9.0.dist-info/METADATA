@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlIntuitive
+Version: 0.9.0
+Summary: Library for easy and intuitive use of database systems.
+Home-page: https://www.github.com/einfachIrgendwer0815/SqlIntuitive
+Author: Moritz Bauer
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+Requires-Dist: mysql-connector-python
+
+Library for easy and intuitive use of database systems.
+
+
