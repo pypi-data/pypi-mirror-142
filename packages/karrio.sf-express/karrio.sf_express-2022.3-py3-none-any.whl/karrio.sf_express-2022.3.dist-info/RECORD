@@ -1,0 +1,12 @@
+karrio/mappers/sf_express/__init__.py,sha256=cHdiI6NgqR3AQMtUKLBdCFqBEJB5iEGRjrlb2EdgvRU,569
+karrio/mappers/sf_express/mapper.py,sha256=8iXZn_0ABT8HzPloE8wMJTzBOtZAIPd1UFt9zt9Pt4c,4258
+karrio/mappers/sf_express/proxy.py,sha256=EJObJKkQidMfPIUUEYMqqz5GCSyLVOmWv9BAJ3CmzN8,617
+karrio/mappers/sf_express/settings.py,sha256=R3BfHHofZJFryNQ3Fn1Een5BB3Isc7cEtrTrFdGnFxA,431
+karrio/providers/sf_express/__init__.py,sha256=RkabgUI6MNuF6sGo72ddeu_u3qSEfiBTRqg2yVomOPA,787
+karrio/providers/sf_express/error.py,sha256=jxHYuw3og9te4MuhRxdf0uggrdv9P6n1CYYnwZ6Se_8,546
+karrio/providers/sf_express/tracking.py,sha256=IH5HMxbr3KEpEX91UKbDe6yA_yqcaLd2wIrA3omHG6c,1784
+karrio/providers/sf_express/units.py,sha256=sw5pMrksLEWRUNm4qqJdvtR6rL3IDR8AwJc45EFzr14,1336
+karrio/providers/sf_express/utils.py,sha256=z7ZAmpNzXYHuDLcGv9pqV83rj5ezChMfmBCeC8nOQKw,1319
+karrio.sf_express-2022.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.sf_express-2022.3.dist-info/METADATA,sha256=nyi8GzDjJdvrIoH1swu8v11oEnBoRbkskbwjSuL0XZo,1344
+karrio.sf_express-2022.3.dist-info/RECORD,,
