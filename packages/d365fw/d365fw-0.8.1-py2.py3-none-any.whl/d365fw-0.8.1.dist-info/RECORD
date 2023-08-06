@@ -1,0 +1,15 @@
+D365FW/Access.py,sha256=qKGb-Ey1KT_iOFSRghAkaI0M8dZNTfYQQjMjBG7soLE,2435
+D365FW/Common.py,sha256=eK2VviBMCDkGLsRwBOJGJxIrFzNrL4G8dYnOF1nrFp0,174
+D365FW/Constant.py,sha256=dkXzc5xPcpgmW1ri-TvG9XGDkD6og3i1rSGiac_xCrI,88
+D365FW/D365FW.py,sha256=7NxKlYldstRoBPb7CNxp3ydqPcZYf-MBwqLBGHKRl6I,1369
+D365FW/Entity.py,sha256=n0Op-m4MxZQ1XxRmuJ56cBsNnxzh4fQTr993NKAyeOA,10599
+D365FW/__init__.py,sha256=o35RCKxgjinhBGtlJ0ZBOK6eCFsV0IiAnc7OFDU-VIg,109
+D365FW/Test/TestAccess.py,sha256=ezLyKQauEeN_5xwdulsJILrmHOHqpoyxPAK26MAJRHM,2621
+D365FW/Test/TestAccount.py,sha256=wG38nq4fqKVCu-iOnuX3h4J3QFIZGlaK3hTbcWnGr9M,30764
+D365FW/Test/TestD365FW.py,sha256=afdZvsHjBfTHhsey-N2e8snYEDVZD_47iMwe_BIdYMg,1546
+D365FW/Test/__init__.py,sha256=VIKKPOpTwgkyYGR2TcZuYGoagtaiKj6y-QjjkMbButI,1000
+d365fw-0.8.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+d365fw-0.8.1.dist-info/METADATA,sha256=HWMspWwxSdnzBveSI9YbNBX-vKjjk32Q3BjqGvVmQQI,2752
+d365fw-0.8.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+d365fw-0.8.1.dist-info/top_level.txt,sha256=tqmMFS-wU0zjzu8oOuCUesIP6AujsE-aeqpBbmRyJPE,7
+d365fw-0.8.1.dist-info/RECORD,,
