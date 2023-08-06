@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: chemspectranslator
+Version: 1.1.0
+Summary: Universal translator for chemical species
+Home-page: https://mbees.med.uni-augsburg.de/
+License: GPL-3.0-or-later
+Author: Christoph Knote
+Author-email: christoph.knote@med.uni-augsburg.de
+Requires-Python: >=3,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Dist: numpy (>=1.2)
+Project-URL: Repository, https://git.rz.uni-augsburg.de/mmbees-git/chemspectranslator_pypackage
+Description-Content-Type: text/markdown
+
+# chemspectranslator
+
+``chemspectranslator`` is a universal translator for chemical mechanism species
+
+Based on the master spreadsheet originally conceived by Bill Carter (UC Riverside),
+and adapted by Christoph Knote (Uni Augsburg) / Louisa Emmons (NCAR).
+
+## Documentation
+
+maintained at https://mbees.med.uni-augsburg.de
+
+## Changelog
+
+### 1.1.0 (2021-03-14)
+
+- Update build system, remove Google online version
+
+### 1.0.0 (2017-12-19)
+
+- Peer-reviewed version to be published in Knote et al., GMD
+
+### 0.1.0 (2017-08-12)
+
+- Initial release
+

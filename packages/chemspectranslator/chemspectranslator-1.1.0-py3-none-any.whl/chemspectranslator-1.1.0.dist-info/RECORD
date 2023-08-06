@@ -1,0 +1,10 @@
+chemspectranslator/__init__.py,sha256=3aILFrhZE65nOJ3K-V2PyOfulI8d7H-nwdgrO0uCgV0,34
+chemspectranslator/data/translator_db.README,sha256=95d68cn_SJPv7JJSL6J6fbPdjSs_hSDUgByfNWioONY,190
+chemspectranslator/data/translator_db.csv,sha256=hIByHxLAMaaSVzaDrDJliL-CHlNbK8MBdE9LntO3tUk,281813
+chemspectranslator/db.py,sha256=tckJJPMiaMa8MT73hWtb9wqXpahXOTXiDe-lrhkLbxA,10904
+chemspectranslator/local_csv.py,sha256=tWQQfN7I2cP_JktxZU3jNOVimAuH1kfWsQwdxBoA_BA,3233
+chemspectranslator/source.py,sha256=FGGymSTNywQrNMZ4tl769eq6pZ6K6JyUeQS36Fp3z94,1472
+chemspectranslator-1.1.0.dist-info/LICENSE,sha256=uY-7N9tbI7xc_c0WeTIGpacSCnsB91N05eCIg3bkaRw,35140
+chemspectranslator-1.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+chemspectranslator-1.1.0.dist-info/METADATA,sha256=HLD5rI62Ah7tN28cVQl2Ehdf4gx6yfmye1rzjsVullY,1980
+chemspectranslator-1.1.0.dist-info/RECORD,,
