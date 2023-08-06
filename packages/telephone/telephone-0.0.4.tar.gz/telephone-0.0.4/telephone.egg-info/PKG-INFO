@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: telephone
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/voidful/telephone
+Author: Voidful
+Author-email: voidful.stack@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+
+# Telephone
+
+usage
+```python
+from telephone import Telephonemizer
+from datasets import load_dataset
+telephonemizer = Telephonemizer()
+
+telephonemizer.convert_text("hello")
+
+ds = load_dataset("patrickvonplaten/librispeech_asr_dummy", "clean", split="validation")
+telephonemizer.convert_voice(ds[0]["audio"]["array"])
+```
+
