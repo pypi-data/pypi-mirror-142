@@ -1,0 +1,1 @@
+cdk_cloudformation_awsqs_iridium_cloudconnectqs_module
