@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: BucketUtils
+Version: 1.1.0
+Summary: 用树模型代替qcut进行分桶。
+Home-page: https://github.com/HeiBoWang/DecisionTreeBktUtil.git
+Author: wangyongpeng
+Author-email: 1690992651@qq.com
+License: MIT Licence
+Keywords: pip,wangyongpeng,tree
+Platform: any
+
+用决策树来分桶
+
