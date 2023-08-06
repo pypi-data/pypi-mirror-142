@@ -1,0 +1,7 @@
+README.md
+setup.py
+focus_xp_9588.egg-info/PKG-INFO
+focus_xp_9588.egg-info/SOURCES.txt
+focus_xp_9588.egg-info/dependency_links.txt
+focus_xp_9588.egg-info/not-zip-safe
+focus_xp_9588.egg-info/top_level.txt
