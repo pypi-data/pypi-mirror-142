@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Shuvel Rules",
+    "description": "Rules used in the Shuvel code analysis tool",
+    "type": "object",
+    "properties": {
+        "shuvel_magic": {
+            "description": "The magic Shuvel ID, because I have the maturity of a thirteen year old",
+            "type": "number",
+            "minimum": 69420,
+            "maximum": 69420
+        },
+        "rules": {
+            "description": "The list of rules",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "The name of the rule",
+                        "type": "string",
+                        "pattern":"^[\\w\\.]+$"
+                    },
+                    "pattern": {
+                        "description": "The regex pattern to match",
+                        "type": "string"
+                    },
+                    "desc": {
+                        "description": "The description of what this problem is, and why it matters",
+                        "type": "string"
+                    },
+                    "severity": {
+                        "description": "How bad this finding tends to be",
+                        "type": "string",
+                        "pattern": "^(high|low|info)$"
+                    },
+                    "ignore_case": {
+                        "description": "Whether or not the regex should use the IGNORE_CASE flag",
+                        "type": "boolean"
+                    },
+                    "refs": {
+                        "description": "Links for additional information and research",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "pattern",
+                    "desc",
+                    "severity"
+                ]
+            }
+        }
+    },
+    "required": [
+        "shuvel_magic",
+        "rules"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "$schema": "https://gitlab.com/TheTwitchy/shuvel/-/raw/main/schemas/shuvel-rule-schema-v1.0.json",
+    "shuvel_magic": 69420,
+    "rules":[
+        {
+            "name": "general.security_words",
+            "pattern": "(security|hack|vuln)",
+            "desc": "Possibly dangerous word",
+            "severity": "high",
+            "ignore_case": true,
+            "refs": [
+                "https://example.com"
+            ]
+        },
+        {
+            "name": "general.rng",
+            "pattern": "rng",
+            "desc": "An RNG is used, and may have a bad seed",
+            "severity": "info",
+            "ignore_case": true
+        },
+        {
+            "name": "java",
+            "pattern": "public static void main",
+            "desc": "Entry point for a Java application",
+            "severity": "info"
+        }
+    ]
+}

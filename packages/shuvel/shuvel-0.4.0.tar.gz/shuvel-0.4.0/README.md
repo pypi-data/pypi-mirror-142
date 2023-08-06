@@ -1,0 +1,43 @@
+# Shuvel
+Unearthing bad code. Performs regex searches, but with more manageable results.
+
+## Installation
+### Standard Build
+`pip3 install shuvel`
+
+### Bleeding Edge Build
+`pip3 install git+https://gitlab.com/TheTwitchy/shuvel`
+
+### Development
+* It is recommended that you use a virtualenv for development:
+    * `virtualenv --python python3 venv`
+    * `source ./venv/bin/activate`
+* `python setup.py develop`
+* Run with `shuvel`
+
+## Usage
+### Running Rulesets
+* `shuvel run -t ~/example/src`
+    * Runs all rules.
+* `shuvel run -t ~/example/src -r general.*`
+    * Runs all rules in the `general` category.
+* `shuvel run -t ~/example/src -r general.security_words`
+    * Runs only the rule `general.security_words`.
+* `shuvel run -t ~/example/src -r general.security_words,general.rng,other.*`
+    * Runs several rules at once.
+* `shuvel run -t ~/example/src -s low`
+    * Only run rules which will report low severity items or higher. Possible values are `high`, `low`, and `info`. 
+
+### Showing Rulesets
+* `shuvel rules` 
+    * Shows all loaded rules.
+
+## Writing Rules
+Rules are stored locally, and can generally be found in the `shuvel` config directory, which can be seen when running `shuvel run --help`. Non-default rules directories may be specified on the command line with the `-r` option. Rules need to be JSON files which have a structure as shown below (specifically the magic number should be intact, and all rules should be defined as a list under the "rules" field).
+
+### Example Rules
+See the `examples` folder for some possibilities.
+
+### Testing Rules
+To ensure a rule is valid, run `shuvel test` to show any errors or suggestions. The `--debug` switch can be passed before the `test` command as well for additional output.
+
