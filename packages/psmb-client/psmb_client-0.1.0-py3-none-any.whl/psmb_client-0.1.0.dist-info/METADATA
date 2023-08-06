@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: psmb-client
+Version: 0.1.0
+Summary: psmb client implemented in Python
+Home-page: https://github.com/hit-mc/psmb-client
+Author: inclyc
+Author-email: axoford@icloud.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/hit-mc/psmb-client/issues
+Project-URL: Source, https://github.com/hit-mc/psmb-client
+Keywords: Chattings,PSMB,Minecraft,BungeeCross,CrossLink
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+
+# 重置版本的Asyncio PSMB Client
+
+
+## 带自动重连的守护客户端
+
+```python
+from psmb_client.guardian import Guardian
+import asyncio
+
+host = '127.0.0.1'
+port = 13880
+topic = '123123123'
+client_id = 1
+
+async def handler(msg: bytes):
+    print(str(msg, encoding='UTF-8'))
+
+guard = Guardian(host, port, topic, client_id, handler)
+
+async def main():
+    guard.try_connect()
+    for _ in range(100):
+        await guard.send_msg(b"hahaha")
+        await asyncio.sleep(10)
+
+asyncio.run(main())
+```
+
+## 使用高级抽象的Client
+
+```python
+from psmb_client.stream import Client
+import asyncio
+
+host = '127.0.0.1'
+port = 13880
+topic = '123123123'
+client_id = 1
+
+async def handler(msg: bytes):
+    print(str(msg, encoding='UTF-8'))
+
+client = Client(host, port, topic, client_id, handler)
+
+async def main():
+    try:
+        await client.establish()
+    except IOError:
+        return
+    for _ in range(10):
+        try:
+            await client.send_msg(b'asdasd')
+            await asyncio.sleep(5)
+        except IOError:
+            break
+    try:
+        await client.close()
+    except BrokenPipeError:
+        return
+
+asyncio.run(main())
+```
+
+## 流式、分离的Client
+
+```python
+from psmb_client.stream import *
+import asyncio
+
+host = '127.0.0.1'
+port = 13880
+topic = '123123123'
+subsciber_id = 1
+
+async def start_pub() -> Publisher:
+    pub = Publisher(host, port, topic)
+    await pub.open_connection()
+    return pub
+
+async def start_sub() -> Subscriber:
+
+    async def process(data: bytes):
+        print(str(data, 'UTF-8'))      
+    sub = Subscriber(host, port, topic, subsciber_id, process)
+    await sub.open_connection()
+    return sub
+
+
+async def main():
+    pub, sub = await asyncio.gather(start_pub(), start_sub())
+    for i in range(10):
+        try:
+            await pub.send_msg(b'asdasd')
+            await asyncio.sleep(5)
+        except IOError:
+            break
+    try:
+        await pub.close()
+        await sub.close()
+    except BrokenPipeError:
+        pass
+
+asyncio.run(main())
+```
+
