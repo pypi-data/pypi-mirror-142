@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+mikhailok-convertor/__init__.py
+mikhailok-convertor/Сonvertor.py
+mikhailok_package.egg-info/PKG-INFO
+mikhailok_package.egg-info/SOURCES.txt
+mikhailok_package.egg-info/dependency_links.txt
+mikhailok_package.egg-info/top_level.txt
