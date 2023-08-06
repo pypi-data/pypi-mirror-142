@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: s3-connection
+Version: 0.1.1
+Summary: A package with functions for reading/writing different file types from/to AWS S3 storage. It is essentially a wrapper for the s3fs package.
+Home-page: UNKNOWN
+Author: Jamie O'Brien
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
