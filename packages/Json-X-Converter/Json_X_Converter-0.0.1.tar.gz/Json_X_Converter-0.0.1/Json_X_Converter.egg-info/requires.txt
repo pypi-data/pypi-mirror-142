@@ -1,0 +1,6 @@
+json
+pandas
+json2xml
+pdfkit
+flatten_json
+requests

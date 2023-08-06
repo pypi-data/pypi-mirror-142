@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Json_X_Converter
+Version: 0.0.1
+Summary: Convert Api responst to CSV, XML, PDF or HTML file
+Author: Snehal Borkar
+Author-email: borkarsnehal60@gmail.com
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Json_X_Converter
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Snehal Borkar (c) 2022
+
+## Examples of How To Use (Buggy Alpha Version)
+
+Calling Api
+
+```python
+from Json_X_Converter import x_converter,api_resp_flat
+ 
+"Call Class and Methods"
+
+"Enjoy the Package"
+
