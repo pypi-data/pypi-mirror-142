@@ -1,0 +1,4 @@
+include MANIFEST.in
+include *.md
+include LICENSE
+recursive-include django_customize_history/templates *

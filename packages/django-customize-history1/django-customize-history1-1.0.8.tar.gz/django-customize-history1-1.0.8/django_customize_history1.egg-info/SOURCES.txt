@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_customize_history/__init__.py
+django_customize_history/admin.py
+django_customize_history/templates/django_customize_history/object_history.html
+django_customize_history1.egg-info/PKG-INFO
+django_customize_history1.egg-info/SOURCES.txt
+django_customize_history1.egg-info/dependency_links.txt
+django_customize_history1.egg-info/not-zip-safe
+django_customize_history1.egg-info/requires.txt
+django_customize_history1.egg-info/top_level.txt
