@@ -1,0 +1,8 @@
+setup.py
+kitolib/__init__.py
+kitolib/core.py
+kitolib.egg-info/PKG-INFO
+kitolib.egg-info/SOURCES.txt
+kitolib.egg-info/dependency_links.txt
+kitolib.egg-info/requires.txt
+kitolib.egg-info/top_level.txt
