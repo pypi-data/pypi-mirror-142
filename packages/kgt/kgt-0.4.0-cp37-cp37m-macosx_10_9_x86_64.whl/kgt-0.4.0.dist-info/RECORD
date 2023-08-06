@@ -1,0 +1,16 @@
+kgt.cpython-37m-darwin.so,sha256=E6_rY_0IL9NlHcKk5gX3YDl70fcpngO-VW6zy8rexp4,898048
+kgt.pyi,sha256=YB4FvTrWac0Vt7gjOv-21eSnuqVjsCaKg3R_3_UU0Qk,1130
+kgt/__about__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgt/__init__.pyi,sha256=V3OX_0ozwCD8Spfygo5abSC68OTiB5VM-G6J0jCGY2U,361
+kgt/_cached.pyi,sha256=pjWFwrZwLcXikg10NbtZAxPgaPDhbXLqBUFS2jtkT8Q,392
+kgt/_exceptions.pyi,sha256=MgYHf4GTJ31E6DFRHLjIUs5gH9_zPR_G353TN20MnlM,207
+kgt/_helpers.pyi,sha256=AFrs5_cQlMP31UktUg_KEhT3iLjlM16HSzvD4_91tuM,119
+kgt/_main.pyi,sha256=DinrKTgFBbmvQy8S-yAnC9BdRogjjKx-21wW6ZUCOO8,537
+kgt/_offline.pyi,sha256=99VEbb6CYiyxfx4Q5ntFDYG5ID0-WcbTyhpKUWPo0-g,155
+kgt/_online.pyi,sha256=2dz2MYJMHcFns9JRWaKktLi6NVpCf3yD-UXvfqNNVHY,130
+kgt/_unlock.pyi,sha256=TKJwikuGo202qc_vuLSgyUYrirb7R4AfFx3on4a85Mw,54
+kgt/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+kgt-0.4.0.dist-info/METADATA,sha256=ekWLWgqt_X5SHRiRvmY3_4HRa7yvglul1nTFwZJQS1U,3057
+kgt-0.4.0.dist-info/WHEEL,sha256=wpNSiSzfGK4oag33cC7tikGYVuMt1vQzEta76QQkt54,104
+kgt-0.4.0.dist-info/top_level.txt,sha256=7Qr09-XLARVhBjD8XniehDZ6-QUJh5OOLoABeHuO8Aw,4
+kgt-0.4.0.dist-info/RECORD,,
