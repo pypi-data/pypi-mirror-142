@@ -1,0 +1,12 @@
+x2embedding/__init__.py,sha256=lXrB5PMCf6nnJrfQBdooW5tLWmHjp4PzTjD9d-ZEKvA,129
+x2embedding/zoo.py,sha256=nhTBZx_w6AhnE8zIiLmdrjSF1g1uvYakaWHwY3-fH4c,3434
+x2embedding/clis/README.md,sha256=SIDx7CH3kxJhdekoZdNhLQlaIBz8cxwaWWr8MX2d4PM,413
+x2embedding/clis/__init__.py,sha256=O96-AN5LgAGFr0fDbnbx6KTSluihF2ZfDNaVkoQKTpc,283
+x2embedding/clis/cli.py,sha256=VThpKQ7R43WFuBcg75zw0cz5EhpuwdQd52D5yo-5CQI,577
+x2embedding-2022.3.16.9.22.0.dist-info/AUTHORS.rst,sha256=qWcyg9LpT9u7DSJitdn9rE_OXK_jt1FzFChWmJ0PS0A,156
+x2embedding-2022.3.16.9.22.0.dist-info/LICENSE,sha256=Rk58OfzsTw3PIjfuh4AFQa7IUOYMyGEkBJRneg-OJm8,1070
+x2embedding-2022.3.16.9.22.0.dist-info/METADATA,sha256=ZQOQjhBwExMdQEAFga2WNhW_Eyueq-8G25JMROZPiIY,1354
+x2embedding-2022.3.16.9.22.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+x2embedding-2022.3.16.9.22.0.dist-info/entry_points.txt,sha256=Rut9Gu9E8FZxfabWc31eTBtdAGR5nG5Vy1iUtM5gO94,58
+x2embedding-2022.3.16.9.22.0.dist-info/top_level.txt,sha256=XOkQQXXtStmwE55x9cI3P4mZSxyPl3_rBTzRBkYTNZg,12
+x2embedding-2022.3.16.9.22.0.dist-info/RECORD,,

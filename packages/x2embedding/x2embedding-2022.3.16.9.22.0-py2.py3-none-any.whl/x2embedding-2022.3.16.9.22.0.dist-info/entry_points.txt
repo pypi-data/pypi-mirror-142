@@ -1,0 +1,3 @@
+[console_scripts]
+x2embedding = x2embedding.clis.cli:cli
+
