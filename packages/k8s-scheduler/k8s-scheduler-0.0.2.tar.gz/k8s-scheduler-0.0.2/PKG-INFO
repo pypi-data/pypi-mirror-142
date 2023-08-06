@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: k8s-scheduler
+Version: 0.0.2
+Summary: Basic Scheduler for k8s
+Home-page: https://github.com/saikiran2603/k8s-scheduler/
+Author: Sai Kiran
+Author-email: neo2603@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/saikiran2603/k8s-scheduler//issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# k8s-Scheduler 
+
+## Pre requisites 
+
+Install microk8s / k8s flavour
+
+    sudo snap install microk8s --classic
+	microk8s enable helm3 ingress dashboard dns storage registry
+	sudo snap alias microk8s.kubectl kubectl
+	sudo snap alias microk8s.helm3 helm
+
+## Install backends 
+
+- Mongodb
+
+Install mongodb 
+
+	helm install test-mongodb bitnami/mongodb -n test-mongodb --create-namespace --set architecture=replicaset
+
+## Install Logging framework 
+
+    microk8s enable fluentd 
+
+
+
