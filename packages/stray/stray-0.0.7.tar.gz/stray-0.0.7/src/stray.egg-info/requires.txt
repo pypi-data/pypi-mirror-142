@@ -1,0 +1,11 @@
+torch
+trimesh
+scipy
+pillow
+numpy
+scikit-video
+scikit-spatial
+pycocotools
+open3d
+opencv-python
+pytorch_lightning

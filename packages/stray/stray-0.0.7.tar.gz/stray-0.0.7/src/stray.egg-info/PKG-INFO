@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stray
+Version: 0.0.7
+Summary: Stray SDK
+Home-page: https://strayrobots.io
+Author: Stray Robots
+Author-email: hello@strayrobots.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/StrayRobots/stray/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Stray SDK
+Stray SDK is the primary way for integrating Stray Robots capabilities into your app. The SDK supports visualizing data, training models, and integrating detectors into custom solutions.
+
+
