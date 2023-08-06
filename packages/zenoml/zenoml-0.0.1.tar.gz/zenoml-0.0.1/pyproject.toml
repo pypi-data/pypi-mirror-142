@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "zenoml"
+version = "0.0.1"
+description = "Behavioral Testing for Machine Learning"
+license = "MIT"
+authors = ["Ángel Alexander Cabrera <alex.cabrera@gmail.com>"]
+readme = "README.md"  # Markdown files are supported
+repository = "https://github.com/cabreraalex/zeno"
+homepage = "https://github.com/cabreraalex/zeno"
+keywords = ["ml", "testing"]
+packages = [
+    { include = "zeno" },
+]
+include = [
+    "zeno/frontend/**/*"
+]
+exclude = ["zeno/tests/*"]
+
+[tool.poetry.dependencies]
+python = "^3.8" 
+pandas = "^1.4.0"
+pyarrow = "^7.0.0"
+watchdog = "^2.1.6"
+uvicorn = "^0.17.5"
+fastapi = "^0.75.0"
+websockets = "^10.2"
+pandas-stubs = "^1.2.0"
+ray = "^1.11.0"
+modin = "^0.13.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-cov = "^2.4"
+torch = "^1.10.2"
+torchvision = "^0.11.3"
+Sphinx = "^4.4.0"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^1.0.0"
+black = "^22.1.0"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+pyright = "^1.1.228"
+jupyter-book = "^0.12.2"
+usort = "^1.0.1"
+sphinx-autodoc-typehints = "^1.17.0"
+sphinx-argparse = "^0.3.1"
+
+[tool.poetry.scripts]
+zeno = "zeno.runner:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["zeno"]
+useLibraryCodeForTypes = true
+
+[tool.black]
+exclude = "docs/conf.py"

@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: zenoml
+Version: 0.0.1
+Summary: Behavioral Testing for Machine Learning
+Home-page: https://github.com/cabreraalex/zeno
+License: MIT
+Keywords: ml,testing
+Author: Ángel Alexander Cabrera
+Author-email: alex.cabrera@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.75.0,<0.76.0)
+Requires-Dist: modin (>=0.13.2,<0.14.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: pandas-stubs (>=1.2.0,<2.0.0)
+Requires-Dist: pyarrow (>=7.0.0,<8.0.0)
+Requires-Dist: ray (>=1.11.0,<2.0.0)
+Requires-Dist: uvicorn (>=0.17.5,<0.18.0)
+Requires-Dist: watchdog (>=2.1.6,<3.0.0)
+Requires-Dist: websockets (>=10.2,<11.0)
+Project-URL: Repository, https://github.com/cabreraalex/zeno
+Description-Content-Type: text/markdown
+
+# Zeno - Behavioral testing of AI/ML
+
+![Github Actions CI tests](https://github.com/cabreraalex/zeno/actions/workflows/test.yml/badge.svg)
+[![code style black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![codecov](https://codecov.io/gh/cabreraalex/zeno/branch/main/graph/badge.svg?token=XPT8R98H8J)](https://codecov.io/gh/cabreraalex/zeno)
+
+## Quick Start
+
+Install the Zeno package from PyPI:
+
+```
+pip install zenoml
+```
+
+### [Follow the documentation to get started](https://cabreraalex.github.io/zeno/intro.html)
+
+## Development
+
+### Environment
+
+Please install [`Poetry`](https://python-poetry.org/docs/master/#installing-with-the-official-installer) and use VSCode as your editor.
+
+### Install
+
+Suggest setting poetry to install the virtual env locally, which VSCode can use directly:
+
+`poetry config virtualenvs.in-project true`
+
+`poetry install`
+
+### Running
+
+`poetry run zeno`
+
+### Formatting and Linting
+
+`make`
+
+### Testing
+
+`make test`
+
+### Build Docs
+
+`make book`
+
+### Build
+
+`make build`
+
+### Publish
+
+`make publish`
+
