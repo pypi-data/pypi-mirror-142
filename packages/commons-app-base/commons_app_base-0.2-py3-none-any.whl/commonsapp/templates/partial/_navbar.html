@@ -1,0 +1,25 @@
+{% load static %}
+{% include 'partial/_header.html' %}
+<div class="main">
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav_logo"> </a>
+                <div class="nav_list">
+                    <a href="{% url 'dashboard' %}" class="nav_link active">
+                        <span class="material-icons">home</span>
+                    </a>
+                    <a href="{% url 'documents' %}" class="nav_link">
+                        <span class="material-icons">menu_book</span>
+                    </a>
+                    <a href="{% url 'settings' %}" class="nav_link">
+                        <span class="material-icons">settings</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="nav_link">
+                <span class="material-icons">help_outline</span>
+            </a>
+        </nav>
+    </div>
+</div>

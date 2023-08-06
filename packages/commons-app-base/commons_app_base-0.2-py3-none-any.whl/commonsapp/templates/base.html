@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    {% include 'partial/_head.html' %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body class="body-custom">
+<main class="custom-main">
+    <div class="row custom-grid" style="overflow-x: hidden">
+        <div class="col-1" style="width: 76px">
+            {% include 'partial/_navbar.html' %}
+        </div>
+        <div class="col base-container">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h3">{% block page-title %}{% endblock %}</h1>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group me-2">
+                        {% block toobar-buttons %} {% endblock %}
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2 ">
+                <div class="col-12">
+                    {% include 'components/messages.html' %}
+                </div>
+
+                <div class="col-12 ">
+                    <div class="btn-toolbar justify-content-between" role="toolbar"
+                         aria-label="Toolbar with button groups">
+                        {% block toobar %}
+                            {% block buttons %}{% endblock %}
+                            <div class="input-group">
+                                {% block inputgroup %} {% endblock %}
+                            </div>
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="icontainer">
+                    <!-- CONTAINER BLOCK -->
+                    {% block 	container %} {% endblock %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    {% include 'partial/_footer.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+{% include 'partial/_scripts.html' %}
+</body>
+</html>
