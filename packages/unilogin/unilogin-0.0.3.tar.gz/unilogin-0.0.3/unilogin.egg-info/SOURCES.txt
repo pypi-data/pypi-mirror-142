@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+unilogin/__init__.py
+unilogin.egg-info/PKG-INFO
+unilogin.egg-info/SOURCES.txt
+unilogin.egg-info/dependency_links.txt
+unilogin.egg-info/requires.txt
+unilogin.egg-info/top_level.txt
