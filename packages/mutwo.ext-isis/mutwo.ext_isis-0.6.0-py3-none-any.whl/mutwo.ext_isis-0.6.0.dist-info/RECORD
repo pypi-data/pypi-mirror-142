@@ -1,0 +1,10 @@
+mutwo/isis_converters/__init__.py,sha256=a-zX_BEksa004d1-MKbnl3L01z63It_qA5YMJGybzZA,74
+mutwo/isis_converters/configurations.py,sha256=I5Lw6hKhEfyo-fyydWvj5wyish7yigfCUzw800maMNQ,261
+mutwo/isis_converters/isis.py,sha256=gOiTbnKV2wgJeoZJWvXyzsX08CK8hcWrKe1MGqkGqsk,11941
+mutwo/isis_converters/constants/XSAMPA.py,sha256=RWrrY1CJJ_qdW08HE11RJFnNRBz5-Jioi3sdnXuxQ8E,1023
+mutwo/isis_converters/constants/__init__.py,sha256=QT8fWXbeSEsJOnGYHE0_9yItgyslDJjrG4IHJjB1o-I,537
+mutwo.ext_isis-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mutwo.ext_isis-0.6.0.dist-info/METADATA,sha256=Qe7lAkRuoMvQbvGhlxhXR0A85g_N8viYqyYt-2E2BVs,1477
+mutwo.ext_isis-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mutwo.ext_isis-0.6.0.dist-info/top_level.txt,sha256=1UzApATBnnDoZgVDqupcM1hYH7l1uhSHZQCf_nUK5y8,6
+mutwo.ext_isis-0.6.0.dist-info/RECORD,,
