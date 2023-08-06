@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+kraken_entity_client/__init__.py
+kraken_entity_client/kraken_entities_client.py
+kraken_entity_client/kraken_entity_client.py
+kraken_entity_client.egg-info/PKG-INFO
+kraken_entity_client.egg-info/SOURCES.txt
+kraken_entity_client.egg-info/dependency_links.txt
+kraken_entity_client.egg-info/requires.txt
+kraken_entity_client.egg-info/top_level.txt
