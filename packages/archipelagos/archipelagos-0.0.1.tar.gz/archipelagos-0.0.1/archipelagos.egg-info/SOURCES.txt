@@ -1,0 +1,16 @@
+setup.py
+archipelagos/__init__.py
+archipelagos/client.py
+archipelagos.egg-info/PKG-INFO
+archipelagos.egg-info/SOURCES.txt
+archipelagos.egg-info/dependency_links.txt
+archipelagos.egg-info/requires.txt
+archipelagos.egg-info/top_level.txt
+archipelagos/common/__init__.py
+archipelagos/common/platform.py
+archipelagos/common/settings.py
+archipelagos/common/data/__init__.py
+archipelagos/common/data/collection.py
+archipelagos/common/data/filestore.py
+archipelagos/common/data/filter.py
+archipelagos/common/data/timeseries.py
