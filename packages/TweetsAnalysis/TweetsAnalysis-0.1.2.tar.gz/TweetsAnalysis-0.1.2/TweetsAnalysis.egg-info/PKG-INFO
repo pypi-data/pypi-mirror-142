@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: TweetsAnalysis
+Version: 0.1.2
+Summary: Real Time Tweets Analysis.
+Home-page: https://github.com/HassanRady/TweetAnalysis
+Author: Hassan Rady
+Author-email: hassan.khaled.rady@gmail.com
+License: MIT license
+Keywords: Tweets
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#TweetAnalysis
+
