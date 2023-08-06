@@ -1,0 +1,2 @@
+[console_scripts]
+get_ip_adr = pybrary.main:get_ip_adr
