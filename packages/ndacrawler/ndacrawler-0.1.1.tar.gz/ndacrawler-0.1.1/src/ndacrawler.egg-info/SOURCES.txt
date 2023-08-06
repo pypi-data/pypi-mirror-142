@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ndacrawler/__init__.py
+src/ndacrawler/_internal_utils.py
+src/ndacrawler/drugs.py
+src/ndacrawler.egg-info/PKG-INFO
+src/ndacrawler.egg-info/SOURCES.txt
+src/ndacrawler.egg-info/dependency_links.txt
+src/ndacrawler.egg-info/requires.txt
+src/ndacrawler.egg-info/top_level.txt
+src/ndacrawler/extractors/__init__.py
+src/ndacrawler/extractors/drug_shops.py
+src/ndacrawler/extractors/pharmacies.py
