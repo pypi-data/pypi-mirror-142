@@ -1,0 +1,22 @@
+include README.md
+include license.txt
+
+include lauetoolsnn/*.py
+include lauetoolsnn/*.txt
+include lauetoolsnn/*.png
+include lauetoolsnn/*.npz
+include lauetoolsnn/*.ini
+
+include lauetoolsnn/examples/ZnCUOCl/*.py
+include lauetoolsnn/examples/ZnCUOCl/*.txt
+include lauetoolsnn/examples/ZnCUOCl/*.det
+include lauetoolsnn/examples/ZnCUOCl/*.tif
+
+include lauetoolsnn/examples/GaN_Si/*.py
+include lauetoolsnn/examples/GaN_Si/*.txt
+include lauetoolsnn/examples/GaN_Si/*.det
+include lauetoolsnn/examples/GaN_Si/*.tif
+
+include lauetoolsnn/notebook_scripts/*.ipynb
+
+recursive-include lauetoolsnn/*.*
