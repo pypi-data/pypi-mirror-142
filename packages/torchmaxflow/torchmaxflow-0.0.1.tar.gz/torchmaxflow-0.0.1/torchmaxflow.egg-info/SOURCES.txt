@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+/home/runner/work/torchmaxflow/torchmaxflow/src/torchmaxflow.cpp
+/home/runner/work/torchmaxflow/torchmaxflow/src/torchmaxflow_cpu.cpp
+/home/runner/work/torchmaxflow/torchmaxflow/src/maxflow-v3.04.src/graph.cpp
+/home/runner/work/torchmaxflow/torchmaxflow/src/maxflow-v3.04.src/maxflow.cpp
+torchmaxflow.egg-info/PKG-INFO
+torchmaxflow.egg-info/SOURCES.txt
+torchmaxflow.egg-info/dependency_links.txt
+torchmaxflow.egg-info/not-zip-safe
+torchmaxflow.egg-info/top_level.txt
