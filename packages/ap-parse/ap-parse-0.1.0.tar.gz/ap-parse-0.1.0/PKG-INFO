@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: ap-parse
+Version: 0.1.0
+Summary: Parser for iw and iwinfo on OpenWrt devices
+Home-page: https://github.com/alexitx/ap-parse
+Author: alexitx
+Author-email: alexander@alexitx.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/alexitx/ap-parse/issues
+Project-URL: Source, https://github.com/alexitx/ap-parse
+Keywords: parser,parsing,iw,iwinfo,openwrt,wifi,device,station,cli,command-line
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ap-parse
+
+Parser for iw and iwinfo on OpenWrt devices. Currently supports only device list and connected
+stations data. Output from iw and iwinfo on other platforms might work, but it's not tested.
+
+
+## Table of contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [CLI](#cli)
+  - [API](#api)
+- [License](#license)
+
+
+## Installation
+
+```sh
+python -m pip install -U ap-parse
+```
+
+
+## Usage
+
+Log in to the device via SSH and run the the command of choice. Feed the output to ap-parse either
+programmatically or via the CLI.
+
+- List devices with iw:
+  ```sh
+  iw dev
+  ```
+
+- List stations with iw:
+  ```sh
+  iw dev <device name> station dump
+  ```
+
+- List devices with iwinfo:
+  ```sh
+  iwinfo
+  ```
+
+- List stations with iwinfo:
+  ```sh
+  iwinfo <device name> assoclist
+  ```
+
+### CLI
+
+Pipe the command output to ap-parse. Example for iwinfo device list:
+```
+ssh <user@host> iwinfo | python -m apparse iwinfo device
+```
+
+| Argument | Type | Values              | Description                              |
+|----------|------|---------------------|------------------------------------------|
+| backend  | str  | `iw`, `iwinfo`      | Utility used to generate the output data |
+| type     | str  | `device`, `station` | Type of the output data                  |
+
+### API
+
+Save the command output to a file and pass it as a string to the appropriate parser.
+Example for iwinfo device list:
+```sh
+ssh <user@host> iwinfo > output.txt
+```
+
+```python
+import apparse
+
+with open('output.txt', 'r', encoding='utf-8') as f:
+    raw_data = f.read()
+
+parsed_data = apparse.parse_iwinfo_station(raw_data)
+print(parsed_data)
+```
+
+In case you wish to add or remove fields or modify regexes, subclass one of the parser classes under
+its respective module `apparse.*_parser`.
+
+
+## License
+
+MIT license. See [LICENSE][license] for more information.
+
+
+[license]: https://github.com/alexitx/ap-parse/blob/master/LICENSE
+
+
