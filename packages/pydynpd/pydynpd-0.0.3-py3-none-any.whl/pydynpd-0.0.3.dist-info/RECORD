@@ -1,0 +1,15 @@
+pydynpd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydynpd/__version__.py,sha256=MobQVtrO9Ze27biO6l6QreTAONnDTqbALI54Q1gpCI8,352
+pydynpd/command.py,sha256=gslP2pH87N5GhRF9CeJV8i0XGtuxOZQJxGm_X-LwRDY,4157
+pydynpd/common_functions.py,sha256=WYso6TBlJ4yssEZbr8XhynvY67PeiZ_b8cglMYgGxas,1769
+pydynpd/info.py,sha256=wO4hKFFtvGpnw-rHXUulh8GlMCWrXTdWXAaSps-X_zE,1824
+pydynpd/multicollinearity.py,sha256=rba7qRolZshxEv3vhEm2Vcgndvd6NOegv_TbOn_OGbk,1255
+pydynpd/panel_data.py,sha256=DVGqCAvWKhr41Xday2uiWoUB44XK3CPGMwVlh-CVXVc,13145
+pydynpd/regression.py,sha256=824D7LL4wL3oaV-u1-uzjObPPT7sIPfVsUEdDE3lS6U,10694
+pydynpd/specification_tests.py,sha256=npn5lYhvFHMY3RdGT_cXWYt4mo8Egdo4W8Nz0LpZ3qU,3474
+pydynpd/variable.py,sha256=PXN17yBOm16AITGaPGxml3PxR93Czdu7BxwQEAcsX90,385
+pydynpd-0.0.3.dist-info/LICENSE,sha256=9Oe6ECz9KroRGkXnLE0KRf1hslz7RhzhfPegT74bWjg,1086
+pydynpd-0.0.3.dist-info/METADATA,sha256=V7f1AL4sQWTZyVLUKFsrfP8SNJrqhTg3jvvQwhXk6oI,959
+pydynpd-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydynpd-0.0.3.dist-info/top_level.txt,sha256=ZA0Q1vA7o9xb2hf9gxuZVGhtVyPjU5M8XXWIgYZBkK8,8
+pydynpd-0.0.3.dist-info/RECORD,,
