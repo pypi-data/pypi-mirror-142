@@ -1,0 +1,2 @@
+[console_scripts]
+pyq = pyq.__main__:main

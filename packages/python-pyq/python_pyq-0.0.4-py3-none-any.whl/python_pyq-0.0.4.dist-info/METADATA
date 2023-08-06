@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: python-pyq
+Version: 0.0.4
+Summary: Pipe stdout to python
+Home-page: https://github.com/piotrszyma/pyq
+Author: Piotr Szyma
+Author-email: contact@piotrszyma.pl
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# pyq
+## Apply python over stdin, line by line.
+
+### Usage examples
+
+```
+echo """1
+2
+3
+4
+5
+6
+7""" | pyq '[e for e in args if e and int(e) >= 5]'
+```
+
+```
+echo """1
+2
+3
+4
+not a digit
+5
+6
+7"""| pyq '[e for e in args if e.isdigit()]'
+```
+
+### Install
+```
+python3 setup.py install
+```
+
+### Run
+```
+python3 -m pyq
+```
+
+
