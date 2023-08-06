@@ -1,0 +1,9 @@
+adfpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adfpy/activities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adfpy/activities/control.py,sha256=Imf6zX-6JGsD78vPx_ryoqu21yRj2DzNF0iG-HkJim0,3558
+adfpy/activities/execution.py,sha256=PFqGkYZLOQlbAyJwVJPz7eigGRYfHfcXkhOy9VN-oYs,4164
+adfpy/activity.py,sha256=0RmKZK33xXiuLAdeOT_wPBkVXpt-qM6QbDxsJS8srmE,1826
+adfpy/pipeline.py,sha256=C1jY-hPeZ7jouSKCqsa_VVAR9PBBQ4G2ex19QWVntsw,752
+adfpy-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+adfpy-0.0.1.dist-info/METADATA,sha256=yoP3XB-4T1B7q2B72U4GSKIkfvF1JvLVylYF81LtdT0,660
+adfpy-0.0.1.dist-info/RECORD,,
