@@ -1,0 +1,105 @@
+# Docker Ensure
+
+Docker Ensure is a tool that ensures Docker images are available on your system by building or downloading the image if necessary.
+
+## Installing Docker Ensure
+
+```
+pip install dockerensure
+```
+
+## Basic Usage
+
+Say we have a Dockerfile `first.Dockerfile` that we build into `first-image`. The following code will ensure that an image called `first-image` exists by building it if it doesn't yet exist.
+
+The `BuildConfig` will not make any files available to the build context by using a wildcard `.dockerignore` file.
+
+```
+DockerImage(
+    "first-image",
+    build_config=BuildConfig(
+        "first.Dockerfile",
+        files=FilePolicy.Nothing
+    )
+).ensure()
+```
+
+The simple declaration above will only rebuild if `first-image` doesn't exist on the system. If we have an image registry we can include that as a place to search for images:
+
+```
+registry = DockerRegistry("my.registry")
+DockerImage(
+    "first-image",
+    build_config=BuildConfig(
+        "first.Dockerfile",
+        files=FilePolicy.Nothing
+    ),
+    registry=registry
+).ensure()
+```
+
+DockerEnsure will check the registry for the image before building. If the image doesn't exist the build will take place and the image will be pushed to the registry.
+You can control how the registry is used with the `remote_policy` argument.
+
+In the above examples if the Dockerfile is changed the image won't be rebuild as long as it exists. We can include a hash in the image tag consisting of the state of the build config to detect any changes to that config:
+
+```
+image = DockerImage(
+    "first-image",
+    with_hash=True,
+    build_config=BuildConfig(
+        "first.Dockerfile",
+        files=FilePolicy.Nothing
+    )
+)
+print(image.ref)  # e.g. first-image:abcd9876
+```
+
+If the contents of `first.Dockerfile` change the hash will also change and a new image will be built. In these situations the full reference of the image is not known in advance and you must use `.ref` to return the name and tag so you can use the image elsewhere.
+
+### Other build config parameters
+
+The build config object contains all inputs to your build. You can pass a number of different parameters to this object:
+- dockerfile: The dockerfile to build with
+- build_args: Docker build args that will be passed to the build.
+- parents: List of DockerImages that this image depends on. These images will be ensured before this image is built.
+- files: A FilePolicy object describing what files are to be made available to the build
+- metadata: Additional metadata to include in the hash. This won't be passed to the Docker build
+- interval: An interval to refresh the hash after. 
+- directory: Directory to set the build context to. Leave as None for the current directory
+- unhashed_build_args: Docker build_args that won't be included in the hash. These could include credentials and other data that is required by the build but won't affect the built image.
+
+#### File Policy
+
+You can control what files are available to the build context by using a `FilePolicy`. `FilePolicy.All` is the default and makes all files available. `FilePolicy.Nothing` is the opposite - all files will be excluded. If you ran `COPY . .` in your Dockerfile, nothing would be copied.
+
+`FilePolicy.Only` specifies certain files to include - everything else is excluded. This is used when you know exactly which files your build needs. For example, if you're running `pip install -r requirements.txt` in your Dockerfile your file policy would be `FilePolicy.Only(["requirements.txt"])`.
+
+`FilePolicy.AllBut` excludes certain files. Maybe you're building from a Git repo - in that case use `FilePolicy.AllBut([".git/"])`.
+
+If you are including the hash of the build state in your image name you are limited to using `Nothing` or `Only` file policies. This is because all the files included in the file policy are used to calculate the hash. Furthermore when using `Only` you must use files, not directories.
+
+#### Metadata
+
+You can include extra string metadata that will affect the hash but not be included in the build. This is completely arbitrary and user defined.
+
+#### Interval
+
+To prevent builds becoming outdated you can use the interval parameter to force a rebuild after a period of time. Rhis is recommended if your Dockerfile installs from a repository (e.g. `apt get update && apt get upgrade`).
+
+`IntervalOffset(timedelta(days=1))` will change the hash every day.
+
+Note that you must be using `with_hash=True` on the DockerImage for this to have any effect.
+
+#### Unhashed build args
+
+You may want to pass build args to the build without affecting the build state hash. For example, temporary credentials that are discarded after use. In this case we need the build to have these credentials but we don't want the hash to change every time the credentials are rotated.
+
+`BuildConfig(..., unhashed_build_args={"REPO_TOKEN": "abcxyz"})`
+
+## Versioning Images
+
+
+
+## Images without BuildConfig
+
