@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jrpytorch"
+version = "0.1.10"
+description = "Jumping Rivers: PyTorch with Python"
+authors = ["Jamie <jamie@jumpingrivers.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = ">=1.15"
+torch = ">=1"
+scikit-learn = ">=1.0.0"
+torchvision = ">=0.11"
+matplotlib = ">=3.0"
+pandas = ">=1"
+visdom = ">=0.1.8"
+
+[tool.poetry.dev-dependencies]
+

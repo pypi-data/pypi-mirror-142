@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jrpytorch
+Version: 0.1.10
+Summary: Jumping Rivers: PyTorch with Python
+Author: Jamie
+Author-email: jamie@jumpingrivers.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: pandas (>=1)
+Requires-Dist: scikit-learn (>=1.0.0)
+Requires-Dist: torch (>=1)
+Requires-Dist: torchvision (>=0.11)
+Requires-Dist: visdom (>=0.1.8)
