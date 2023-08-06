@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cardano-tools
+Version: 2.0.0
+Summary: A collection of tools to enable development in the Cardano ecosystem using the Python programming language.
+Home-page: https://gitlab.com/viper-staking/cardano-tools
+License: Apache-2.0
+Author: Viper Science LLC
+Author-email: viperstakepool@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://gitlab.com/viper-staking/cardano-tools
