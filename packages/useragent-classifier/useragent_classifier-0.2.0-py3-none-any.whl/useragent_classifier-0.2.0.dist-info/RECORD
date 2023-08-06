@@ -1,0 +1,10 @@
+useragent_classifier/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+useragent_classifier/custom_transformers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+useragent_classifier/custom_transformers/transformers.py,sha256=8_7nutvj0u7S_SRiTfoB0aVJJ_DdmLFb3CdK4rlRAVk,2574
+useragent_classifier/features_importances.py,sha256=4kS6zS43pIaw5kXD0MNjt7K_iwn5iphHqyc1kFrpxX8,1320
+useragent_classifier/graphical_explanation.py,sha256=sPZyW8-v1SsNXuPaDNrVhXBgGw8uz_KlXoIfjId4AWI,2524
+useragent_classifier/main.py,sha256=LOs67NMzQtL9IeWQrrOwA2HK-VG5KsSmTJ5YiwNTs3U,3855
+useragent_classifier-0.2.0.dist-info/entry_points.txt,sha256=VMJLhVItdipHgWoAS7n9D8iURo7F0U4oqgPk4CVvWvI,80
+useragent_classifier-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+useragent_classifier-0.2.0.dist-info/METADATA,sha256=xgWwAsZ7fF-zk74vM_dPl0VquRZqCzKX0gs2r1wZuv4,555
+useragent_classifier-0.2.0.dist-info/RECORD,,
