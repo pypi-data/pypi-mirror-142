@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hypyspectral
+Version: 0.0.2
+Summary: HyPySpectral - Hyperspectral Image Analysis Toolbox for Python
+Home-page: UNKNOWN
+Author: Fraser Macfarlane
+Author-email: frasermac108@live.com
+License: UNKNOWN
+Keywords: python,hyperspectral
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+
+HyPySpectral - Hyperspectral Image Analysis Toolbox for Python
+
