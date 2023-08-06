@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: amplpyfinance
+Version: 0.0.0a0
+Summary: Financial portfolio optimization with amplpy
+Home-page: http://ampl.com/
+Author: Filipe Brandão
+Author-email: fdabrandao@ampl.com
+License: MIT
+Download-URL: https://github.com/ampl/amplpy/tree/master/amplpyfinance
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+
+
+Financial portfolio optimization with amplpy
+--------------------------------------------
+
+This package replicates some financial portfolio optimization models 
+from `pypfopt <https://github.com/robertmartin8/PyPortfolioOpt>`_
+using `amplpy <https://github.com/ampl/amplpy>`_.
+
+Links
+`````
+
+* GitHub Repository: https://github.com/ampl/amplpyfinance
+* PyPI Repository: https://pypi.python.org/pypi/amplpyfinance
+
+
