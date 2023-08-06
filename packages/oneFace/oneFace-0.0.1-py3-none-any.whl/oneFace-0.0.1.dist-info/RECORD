@@ -1,0 +1,10 @@
+oneface/__init__.py,sha256=XVU6-HeRbvCp8_e6SuYJwIEl9KDmatvprDs0S2gI8BM,72
+oneface/core.py,sha256=YwHVM7k_wL0IFykNhYY1jbn6FwjQ89tfDN2hq0-mNSE,5205
+oneface/dash_app.py,sha256=04J-L2zXfReCHGFpdiOwnRo9Qmjz2CGFsWw0FOiYBHk,9563
+oneface/qt.py,sha256=JAKr-3oZMyiO6W-fpMziEZ4lRymIksjz3G8x-WumYvs,8607
+oneface/types.py,sha256=slf6hFI_K9Us9gdWn4ZKoh0iQeBQUbPiTzkkIiwbLZk,1164
+oneFace-0.0.1.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+oneFace-0.0.1.dist-info/METADATA,sha256=AYAaDR7Kg8zm_j5ubqHlVZ9rmjYVkgGHwAZ5wk0q29A,2085
+oneFace-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oneFace-0.0.1.dist-info/top_level.txt,sha256=n7WJK-bosXzcMqh_TFszUol6dTaSjxz6tzV0LxT-0zo,8
+oneFace-0.0.1.dist-info/RECORD,,
