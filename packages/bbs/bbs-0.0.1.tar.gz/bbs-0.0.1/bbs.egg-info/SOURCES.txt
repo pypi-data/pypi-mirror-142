@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bbs/__init__.py
+bbs.egg-info/PKG-INFO
+bbs.egg-info/SOURCES.txt
+bbs.egg-info/dependency_links.txt
+bbs.egg-info/entry_points.txt
+bbs.egg-info/top_level.txt
+bbs.egg-info/zip-safe
+bbs/shell/__init__.py
+bbs/shell/usage.py
+bbs/src/temp.txt
