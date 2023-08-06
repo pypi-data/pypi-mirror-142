@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pydigilent/pydigilent.egg-info/PKG-INFO
+pydigilent/pydigilent.egg-info/SOURCES.txt
+pydigilent/pydigilent.egg-info/dependency_links.txt
+pydigilent/pydigilent.egg-info/top_level.txt
