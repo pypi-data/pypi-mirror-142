@@ -1,0 +1,10 @@
+parallelworkloads.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+parallelworkloads.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+parallelworkloads/tsafrir05.cpython-38-i386-linux-gnu.so,sha256=Ae7ZLGfyrnWDBmS1hq8z4zj4KSN9nDqCzY8AVGOX6QA,1338740
+parallelworkloads/lublin99.cpython-38-i386-linux-gnu.so,sha256=_TaxlJmPSmf2CFU_2L2rXMvKl_0NE6b7xRzIQdTA5Fg,1019312
+parallelworkloads/__init__.py,sha256=iXhhXLFQ72miTO_OazB1sTlVGzYzTcpQ4ooDQPGhiL4,69
+parallelworkloads/swf.cpython-38-i386-linux-gnu.so,sha256=YxpFsHj4bnIpjkm7UeL_HHmOhrXuTU-O2dRsIcLKe28,399156
+parallelworkloads-0.1.3.dist-info/METADATA,sha256=08-Bdy6qLec7CR80MDy1DxUMe7_nO1w2A6r7JqPNrd4,3421
+parallelworkloads-0.1.3.dist-info/top_level.txt,sha256=5iP9oLsXIKpyNk_4fNowHt5nGB2lecS9C4BsVllIae8,18
+parallelworkloads-0.1.3.dist-info/RECORD,,
+parallelworkloads-0.1.3.dist-info/WHEEL,sha256=Z7q0tLC_wZLbaDM2MWqDEoYaMt_l-bLC3QaG1YIsuYg,109
