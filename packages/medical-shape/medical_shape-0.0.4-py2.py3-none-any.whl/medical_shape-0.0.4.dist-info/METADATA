@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: medical-shape
+Version: 0.0.4
+Summary: This is a super duper package
+Home-page: https://github.com/justusschock/medical-shape
+Author: Justus Schock
+Author-email: justus.schock@posteo.de
+License: UNKNOWN
+Project-URL: source, https://github.com/justusschock/medical-shape
+Project-URL: tracker, https://github.com/justusschock/medical-shape/issues
+Keywords: deep learning,machine learning,pytorch,medical,AI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: torch (>=1.7.*)
+Requires-Dist: rising (>=0.2.1)
+Requires-Dist: torchio (>=0.18.71)
+Requires-Dist: medical-dl-utils (>=0.0.2)
+
+Python Template repository
+
+
