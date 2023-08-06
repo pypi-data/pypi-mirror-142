@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+tox.ini
+admincommands/__init__.py
+admincommands/admin.py
+admincommands/apps.py
+admincommands/models.py
+django_admin_commands.egg-info/PKG-INFO
+django_admin_commands.egg-info/SOURCES.txt
+django_admin_commands.egg-info/dependency_links.txt
+django_admin_commands.egg-info/requires.txt
+django_admin_commands.egg-info/top_level.txt
