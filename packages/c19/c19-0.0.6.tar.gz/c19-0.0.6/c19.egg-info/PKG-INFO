@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: c19
+Version: 0.0.6
+Summary: COVID-19 stats package for the country of Pakistan.
+Author: siphr
+Author-email: pypi@techtum.dev
+License: UNKNOWN
+Project-URL: Homepage, https://www.techtum.dev/work-c19-220109.html
+Project-URL: Source, https://github.com/siphr/c19
+Project-URL: Tracker, https://github.com/siphr/c19/issues
+Keywords: covid-19,stats,distribution,Pakistan
+Platform: any
+
+c19
+===
+
+COVID-19 stats for the country of Pakistan.
+
+
+Usage
+-----
+
+from c19 import c19
+
+\# create a country object
+pk = c19.countries.pk()
+
+\# get deaths
+pk.deaths()
+
+\# get doses
+pk.doses()
+
+
