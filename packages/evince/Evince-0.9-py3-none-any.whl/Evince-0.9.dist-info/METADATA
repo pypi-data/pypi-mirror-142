@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Evince
+Version: 0.9
+Summary: Visualization tools for computational chemistry
+Home-page: https://github.uio.no/audunsh/evince
+Author: Audun Skau Hansen
+Author-email: a.s.hansen@kjemi.uio.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: braketlab
+Requires-Dist: pythreejs
+
+## EVINCE
+
+
