@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nunc
+Version: 0.0.1
+Summary: Easy to use opinionated python library for consuming messages from some of the most common message queue systems.
+Home-page: https://github.com/migraf/dolor
+Author: Michael Graf
+License: MIT
+Keywords: nunc,rabbitmq,message queue,redis,consumer
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+UNKNOWN
+

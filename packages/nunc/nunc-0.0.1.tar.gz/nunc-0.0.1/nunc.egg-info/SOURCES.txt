@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+nunc/__init__.py
+nunc.egg-info/PKG-INFO
+nunc.egg-info/SOURCES.txt
+nunc.egg-info/dependency_links.txt
+nunc.egg-info/requires.txt
+nunc.egg-info/top_level.txt
