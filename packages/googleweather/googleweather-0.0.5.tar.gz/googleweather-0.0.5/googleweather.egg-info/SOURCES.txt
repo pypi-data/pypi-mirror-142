@@ -1,0 +1,17 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+__init__.py
+requirements.txt
+setup.cfg
+setup.py
+googleweather/__init__.py
+googleweather/googleweather.py
+googleweather.egg-info/PKG-INFO
+googleweather.egg-info/SOURCES.txt
+googleweather.egg-info/dependency_links.txt
+googleweather.egg-info/entry_points.txt
+googleweather.egg-info/requires.txt
+googleweather.egg-info/top_level.txt
+screenshots/output.gif
