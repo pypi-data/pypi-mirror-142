@@ -1,0 +1,3 @@
+[spacy_tokenizers]
+html_tokenizer=spacy_html_tokenizer.html_tokenizer:create_html_tokenizer
+
