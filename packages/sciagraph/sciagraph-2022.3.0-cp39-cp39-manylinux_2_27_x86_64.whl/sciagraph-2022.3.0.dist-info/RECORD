@@ -1,0 +1,12 @@
+sciagraph/__init__.py,sha256=CyiyPuNo3zFdnU71fAp0HgDpDBQVziazv-I5_oAJtqo,205
+sciagraph/__main__.py,sha256=zYUV1Vb8Wm5xhH75jIxlXhLZkNT0AX5D0HzOlmuKlB4,3765
+sciagraph/_autoenv.py,sha256=LXZToO9Xzh5ZQdzuqMPJIdxfiNlOJVcajFyxMzfJZmI,724
+sciagraph/_sciagraph.cpython-39-x86_64-linux-gnu.so,sha256=QgdT3x-mNMkagwJWApPK0LrbQ8ZpX55SRsaqFrOPFHQ,5846360
+sciagraph/_sciagraph_debug.cpython-39-x86_64-linux-gnu.so,sha256=s8KkKVyDb0CYP_WoVkKcIq3zKpXWOksamFQei4RQ7Rc,9775304
+sciagraph/api.py,sha256=5GLopfBrQQg7ULps9CPkWPX5ax4oJt_JUlQIITAA8lU,1488
+sciagraph/licenses.html,sha256=eZujK1qhVfjeeQmXTfhGrYHZQHBa3_E9tSu5de5CEMQ,549899
+sciagraph-2022.3.0.data/data/lib/python3.9/site-packages/_sciagraph_autoload.pth,sha256=c5Sz__TfW5FKunEy2CbX9IsD3Fx0IhQe7o7cJ416Ffc,25
+sciagraph-2022.3.0.dist-info/METADATA,sha256=HN2WHTqv8MN9xr6667Pp2QCHU4BME_oWxihAwexnRyU,269
+sciagraph-2022.3.0.dist-info/WHEEL,sha256=_Tzqjbl1t_2pj9gfZPvG1ppyvaOyoxUa053nfh40rE8,103
+sciagraph-2022.3.0.dist-info/top_level.txt,sha256=n-fhF6apn3oqTnm2JmGdtc5SFCHIymvddg6CyeBtBQQ,10
+sciagraph-2022.3.0.dist-info/RECORD,,
