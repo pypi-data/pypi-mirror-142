@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ehva
+Version: 0.3
+Summary: Library used to run Python scripts from the EHVA App
+Home-page: https://github.com/EHVAAutomation/ehva-python
+Author: EHVA inc.
+Author-email: info@ehva.ca
+License: MIT
+Download-URL: https://github.com/EHVAAutomation/ehva-python/archive/refs/tags/v0.3.tar.gz
+Description: UNKNOWN
+Keywords: EHVA
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
