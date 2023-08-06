@@ -1,0 +1,8 @@
+README.md
+setup.py
+hello/__init__.py
+hello/hello.py
+hellolibalec.egg-info/PKG-INFO
+hellolibalec.egg-info/SOURCES.txt
+hellolibalec.egg-info/dependency_links.txt
+hellolibalec.egg-info/top_level.txt
