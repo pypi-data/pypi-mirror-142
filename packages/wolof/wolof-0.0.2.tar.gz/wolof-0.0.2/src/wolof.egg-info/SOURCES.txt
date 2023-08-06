@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/wolof/__init__.py
+src/wolof/asr.py
+src/wolof.egg-info/PKG-INFO
+src/wolof.egg-info/SOURCES.txt
+src/wolof.egg-info/dependency_links.txt
+src/wolof.egg-info/top_level.txt
