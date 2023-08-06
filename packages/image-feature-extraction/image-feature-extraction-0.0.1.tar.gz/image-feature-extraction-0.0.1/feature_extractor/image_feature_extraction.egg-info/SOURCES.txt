@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+feature_extractor/image_feature_extraction.egg-info/PKG-INFO
+feature_extractor/image_feature_extraction.egg-info/SOURCES.txt
+feature_extractor/image_feature_extraction.egg-info/dependency_links.txt
+feature_extractor/image_feature_extraction.egg-info/top_level.txt
