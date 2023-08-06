@@ -1,0 +1,11 @@
+requests
+htmldate
+dateparser
+tldextract
+py3langid
+newspaper3k
+goose3
+BeautifulSoup4
+readability-lxml
+trafilatura
+boilerpy3
