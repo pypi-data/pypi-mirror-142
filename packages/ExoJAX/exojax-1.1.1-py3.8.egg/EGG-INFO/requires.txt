@@ -1,0 +1,10 @@
+numpy
+pandas
+tqdm
+scipy
+jax>=0.2.22
+numpyro
+pyarrow
+bs4
+vaex
+jaxopt
