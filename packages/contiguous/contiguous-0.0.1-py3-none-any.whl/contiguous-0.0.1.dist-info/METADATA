@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: contiguous
+Version: 0.0.1
+Summary: COBOL-style flat contiguous data structures for Python
+Home-page: https://github.com/bmcollier/contiguous
+Author: Ben Collier
+Author-email: bencollier@fastmail.com
+License: 3-Clause BSD
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
