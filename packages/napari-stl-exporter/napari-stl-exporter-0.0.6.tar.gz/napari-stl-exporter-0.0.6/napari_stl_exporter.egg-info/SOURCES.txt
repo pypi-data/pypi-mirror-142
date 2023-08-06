@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_stl_exporter/__init__.py
+napari_stl_exporter/_writer.py
+napari_stl_exporter.egg-info/PKG-INFO
+napari_stl_exporter.egg-info/SOURCES.txt
+napari_stl_exporter.egg-info/dependency_links.txt
+napari_stl_exporter.egg-info/entry_points.txt
+napari_stl_exporter.egg-info/requires.txt
+napari_stl_exporter.egg-info/top_level.txt
+napari_stl_exporter/_tests/__init__.py
+napari_stl_exporter/_tests/test_writer.py
