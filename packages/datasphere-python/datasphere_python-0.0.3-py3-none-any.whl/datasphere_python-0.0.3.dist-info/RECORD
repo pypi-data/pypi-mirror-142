@@ -1,0 +1,8 @@
+datasphere_python/__init__.py,sha256=PmhpZ1s1wZerL24N7-yCLP9lD1ofjafRyz3svoqeBDI,79
+datasphere_python/client.py,sha256=svzNfuur1B_yLKwi4esSFx_VrzC5Vj6YqwHj8wV9azI,6655
+datasphere_python/iam_generator.py,sha256=jMpH3NNTPxNBoROXwTxkCH56qUnuz5tt-qBd-VRITYs,868
+datasphere_python/jwt_generator.py,sha256=5-fqBvOLMnSPbDLOvavDuloAvN3SEkvubKZ5VMxEc2Q,971
+datasphere_python-0.0.3.dist-info/METADATA,sha256=ub4wbHl9HB60MTiAv_UuV45DoA-l9v45nvcxKz3z3TU,226
+datasphere_python-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datasphere_python-0.0.3.dist-info/top_level.txt,sha256=7hnaAKbUPgXUGw31ObhjNQEEKbD4iUQi9g7FTxMC5dQ,18
+datasphere_python-0.0.3.dist-info/RECORD,,
