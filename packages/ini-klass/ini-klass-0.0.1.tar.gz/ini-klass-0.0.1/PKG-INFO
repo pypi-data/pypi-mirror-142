@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ini-klass
+Version: 0.0.1
+Summary: ini file parser.
+Home-page: https://github.com/trk54ylmz/ini-klass
+Author: Tarik Yilmaz
+Author-email: tarikyilmaz.54@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+## ini klass
+
+The ini file parser.
+
+### Install
+
+To install a wheel from PyPI,
+
+```bash
+pip install --upgrade ini-klass
+```
+
+### Usage
+
+Example ini file,
+
+```ini
+[example]
+id = 12
+name = John
+status = true
+salary = 100.50
+group = car, book, phone
+```
+
+To parse ini file above,
+
+```python
+from ini import ConfigParser
+
+# read from `CONFIG` environment
+config = ConfigParser.load()
+
+# read from file
+config = ConfigParser.load('/tmp/file.ini')
+
+# access configuration value
+name = config.example.name
+```
+
+
