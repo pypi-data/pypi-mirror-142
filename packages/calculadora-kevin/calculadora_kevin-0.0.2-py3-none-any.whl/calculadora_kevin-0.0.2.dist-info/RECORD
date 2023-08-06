@@ -1,0 +1,11 @@
+building_python_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+building_python_package/calc_kevin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+building_python_package/calc_kevin/calc_kevin.py,sha256=RBAEECM_kmZn_EajzJPZy4mcJJCZnGmYU3YDz1l-KSA,243
+project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project/calc.py,sha256=6-e3F9JYav555OoxJZ7AytYCT6_WM1_9fgcEWsv-ceE,295
+project/calc_kevin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project/calc_kevin/calc_kevin.py,sha256=RBAEECM_kmZn_EajzJPZy4mcJJCZnGmYU3YDz1l-KSA,243
+calculadora_kevin-0.0.2.dist-info/METADATA,sha256=ERr0xjqiZUCmk2-3TBFkEx-9Z0uy3fg7FIor4WZPGLI,787
+calculadora_kevin-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+calculadora_kevin-0.0.2.dist-info/top_level.txt,sha256=TlF2bnXqjOJKLBaN9-1i4CXAglwTmZ1h474uDQoYzWY,8
+calculadora_kevin-0.0.2.dist-info/RECORD,,
