@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: punkML
+Version: 3.0.1
+Summary: Primitives for Uncovering New Knowledge.
+Home-page: https://gitlab.com/datadrivendiscovery/contrib/punk
+Author: New Knowledge
+Author-email: support@newknowledge.io
+License: MIT
+Keywords: TA1 primitive,feature selection,novelty detection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-dateutil
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+PUNK - Primitives for Uncovering New Knowledge
+===============================================
+
+Working on developing algorithms and pipelines to automate Machine Learning:
+
+- Data augmentation
+
+- Feature selection
+
+- Novelty detection
+
+D3M
+----
+For submission and usage with respect to the broader D3M community see `D3M <d3m>`_.
+
+Usage
+------
+For examples on how to use these primitives look at `examples <examples>`_.
+
+
