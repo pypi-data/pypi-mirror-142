@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pointevector-irs990
+Version: 0.0.6
+Summary: UNKNOWN
+Home-page: https://github.com/Pointe-Vector/xml_parser
+Author: Andrew Hoekstra
+Author-email: andrew@pointevector.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: ruamel.yaml
+Requires-Dist: typing-extensions
+
+UNKNOWN
+
