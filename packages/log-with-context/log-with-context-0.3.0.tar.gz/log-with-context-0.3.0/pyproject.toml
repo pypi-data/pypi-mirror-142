@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "log-with-context"
+version = "0.3.0"
+description = "a thread-local, context-preserving Python logger"
+authors = ["Neocrym Records Inc. <engineering@neocrym.com>"]
+readme = "README.rst"
+repository = "https://github.com/neocrym/log-with-context"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.12.2"
+mypy = "^0.941"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
