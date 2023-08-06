@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/fortformat/__init__.py
+src/fortformat/fnetdata.py
+src/fortformat/fnetout.py
+src/fortnet_python.egg-info/PKG-INFO
+src/fortnet_python.egg-info/SOURCES.txt
+src/fortnet_python.egg-info/dependency_links.txt
+src/fortnet_python.egg-info/requires.txt
+src/fortnet_python.egg-info/top_level.txt
+test/test_fnetdata.py
+test/test_fnetout.py

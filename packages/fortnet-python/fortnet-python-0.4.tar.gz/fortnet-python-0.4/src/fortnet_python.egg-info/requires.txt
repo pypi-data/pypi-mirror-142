@@ -1,0 +1,6 @@
+ase
+h5py
+numpy
+pytest
+setuptools
+wheel
