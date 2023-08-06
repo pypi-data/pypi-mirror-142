@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+multi_indexer/__init__.py
+multi_indexer/main.py
+multi_indexer.egg-info/PKG-INFO
+multi_indexer.egg-info/SOURCES.txt
+multi_indexer.egg-info/dependency_links.txt
+multi_indexer.egg-info/index.html
+multi_indexer.egg-info/requires.txt
+multi_indexer.egg-info/top_level.txt
