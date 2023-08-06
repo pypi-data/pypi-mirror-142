@@ -1,0 +1,15 @@
+crf_pos/__init__.py,sha256=x-Znhf_Bm6eURg7EIDGAn4ONq-CFjVNr25GsG0X9phQ,137
+crf_pos/api.py,sha256=1bk6jHfoL8XVsJzmDNbO4ADJm370o4QlTtb9Gsr1ALs,3076
+crf_pos/normalization/__init__.py,sha256=I5aTSnWDJ3LQG4WBFtaUB74xJC_WVpb3Si5Q5HPF9Rs,56
+crf_pos/normalization/normalizer.py,sha256=iGAfP5fZPxS7M2rgFsCqULh06bpmqoq4qtY2PK9FZUk,6325
+crf_pos/normalization/tokenizer.py,sha256=kSTY9c_IWX0myJOO4CQhxFTyPCFw__jN1Tz1HX1GE1s,3262
+crf_pos/pos_tagger/__init__.py,sha256=DmnXW8LBXLq5y-mgRfU2MHFP8RaA3EzU0EU3d4ia2MY,141
+crf_pos/pos_tagger/crf.py,sha256=nd93clSUdv228yqWwltZVsvkfHi3g-GXm0Z5pUxjk4w,1533
+crf_pos/pos_tagger/meta_tagger.py,sha256=H43631L12gKCwm_WtuS4ndOOeBcQ3lWD8za4gWyup5k,2171
+crf_pos/pos_tagger/utils.py,sha256=Ccwur7z_HAZ1F_oRCDChJEJL6DdjOWQe6Z7AnahHX6Y,3660
+crf_pos/pos_tagger/wapiti.py,sha256=ugeciCiVU-UMVnpADkhAUh2OM5H6hRpXCRvg9SRWQYU,1587
+crf_pos-2.0.1.dist-info/LICENSE,sha256=gbqi5gc9YTcBOynereAJEkMN_sIWpYSL6bFqoajizeA,1075
+crf_pos-2.0.1.dist-info/METADATA,sha256=gjcAIEEh7OBy98sLvE70B2RqSab54vBTTmzPqGfLHbM,6652
+crf_pos-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crf_pos-2.0.1.dist-info/top_level.txt,sha256=dXOcSiPNbggoUU9ofjxobQY6zdSdZfXh4dyaXqIaEgc,8
+crf_pos-2.0.1.dist-info/RECORD,,
