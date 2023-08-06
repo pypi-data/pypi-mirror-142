@@ -1,0 +1,12 @@
+-r tox.txt
+PyYAML
+bpython
+bumpversion
+flake8
+flake8-bugbear
+ipython
+jupyter
+pythonpy
+twine
+xerox
+yolk1977
