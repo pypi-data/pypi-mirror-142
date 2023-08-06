@@ -1,0 +1,4 @@
+ase>=3.19.0
+matplotlib
+numpy>=1.13.0
+requests>=2.4
