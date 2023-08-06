@@ -1,0 +1,2 @@
+numpy
+hyperopt==0.2.5
