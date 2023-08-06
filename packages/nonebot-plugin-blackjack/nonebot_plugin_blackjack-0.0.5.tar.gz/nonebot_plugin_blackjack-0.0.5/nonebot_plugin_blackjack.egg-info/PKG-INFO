@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-blackjack
+Version: 0.0.5
+Summary: nonebot2 21点插件
+Home-page: https://github.com/yaowan233/nonebot-plugin-blackjack
+License: UNKNOWN
+Keywords: pip,nonebot2,nonebot,nonebot_plugin
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+nonebot2 21点插件
+
