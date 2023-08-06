@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pydamain
+Version: 0.0.1
+Summary: Domain driven design library based on Pydantic
+Home-page: https://github.com/by-Exist/pydamain
+Author: by-Exist
+Author-email: bolk9652@naver.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/by-Exist/pydamain/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pydamain
+
+Pydantic을 기반으로 한 도메인 주도 설계 라이브러리.
+
