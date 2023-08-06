@@ -1,0 +1,6 @@
+numpy>=1
+PyYAML>=4
+
+[docs]
+sphinx
+myst-parser
