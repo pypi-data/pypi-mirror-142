@@ -1,0 +1,13 @@
+sqlalchemy_authorize/__init__.py,sha256=gMg9U1dW9pveD8dyNamTVRfVD6VlinJKPf3x9juo2z0,298
+sqlalchemy_authorize/constants.py,sha256=g8li0jQch5aDTl9FblvgP7FPdYSalWzSXO2_20q07Jg,167
+sqlalchemy_authorize/permissions_mixin.py,sha256=9UpgXtH6PZCK4g2lqitfbWLmUpGes2FI53iAAftyigc,23375
+sqlalchemy_authorize/utils.py,sha256=qsjN328BGiCSB1qXTyQ9MrJwbwqE5PRzeQjFqImHHqM,524
+sqlalchemy_authorize/oso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_authorize/oso/oso_permissions_mixin.py,sha256=7Vn0wfUpV0zSJ_lsG7cvN-V4HEZI1MiW0HaCm9jBX2Y,2973
+sqlalchemy_authorize-0.1.0.dist-info/AUTHORS.rst,sha256=PgGsn-l-BaotmKbeb9hhzBOftNQla8vCir3IpGgWmdY,163
+sqlalchemy_authorize-0.1.0.dist-info/LICENSE,sha256=fkxG0g2SmZ1JcwX96scRhHEBLuQamkCMdRLUqa6NANw,1073
+sqlalchemy_authorize-0.1.0.dist-info/METADATA,sha256=Bbtw8mgOgsk4hwM3vdBd0cuCPCbB3ma4Z7mrxSS-NcY,7674
+sqlalchemy_authorize-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+sqlalchemy_authorize-0.1.0.dist-info/entry_points.txt,sha256=0Jts9Mzhgkq8RMOp8Fu0V_Eu_driegSjq94osK8PzOg,72
+sqlalchemy_authorize-0.1.0.dist-info/top_level.txt,sha256=DxcAcODId1rcob4-WJNCDh1moRcc1flVSGLWIDpbevk,21
+sqlalchemy_authorize-0.1.0.dist-info/RECORD,,
