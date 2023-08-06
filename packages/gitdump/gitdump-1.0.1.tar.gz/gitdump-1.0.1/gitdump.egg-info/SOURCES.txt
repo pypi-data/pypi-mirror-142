@@ -1,0 +1,10 @@
+README.md
+setup.py
+gitdump/__init__.py
+gitdump/__main__.py
+gitdump/func.py
+gitdump.egg-info/PKG-INFO
+gitdump.egg-info/SOURCES.txt
+gitdump.egg-info/dependency_links.txt
+gitdump.egg-info/entry_points.txt
+gitdump.egg-info/top_level.txt
