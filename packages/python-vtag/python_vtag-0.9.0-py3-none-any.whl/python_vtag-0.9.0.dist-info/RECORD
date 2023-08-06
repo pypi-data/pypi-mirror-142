@@ -1,0 +1,17 @@
+vtag/__main__.py,sha256=Q3p_j3mZvVGkVC65mqKjc6OHvQ3ssTqjlzOfwccEoFk,182
+vtag/core/__init__.py,sha256=JRcxiMUSpTObAy_hmd969Cgj1-wl4thgoHMX-3U1k0s,111
+vtag/core/contour.py,sha256=WxN5lGVQ1cWwA31WU9m3eN-YZFPZrGba3BM9sQtiDXA,905
+vtag/core/motion.py,sha256=8U7RiLo3qGYs79LpfPqOKkBv51ERb7J5A_0dMVUtP0E,2689
+vtag/core/tracking.py,sha256=m9n4gbZ5XA5Zam5OwQoIcB22t2UyQaSZJidek5dmqKI,4924
+vtag/core/utils.py,sha256=i7mPDeLc0IZEcv_4fVrl-B9k19N_HBMhoZvZqokX0Ms,1598
+vtag/core/vtag.py,sha256=TcRPLzthNKMcDvcAkh3v_-jDWTMU_EyI7JUKq01Qdjg,6892
+vtag/gui/colors.py,sha256=RPzY9GEOgrM396eeTRUM5jXTyxCD6HCUdhItRr1MOP4,1237
+vtag/gui/utils.py,sha256=u1fp6fCUYRD4wfaSC73xxBMij17pWMVsfqL7mtEPqPM,464
+vtag/gui/vtframe.py,sha256=HZ76ptMjFH6AeRAB4XTf5bHJvhlkUTj5L2j9xqNMmqM,5129
+vtag/gui/vtplayback.py,sha256=KTHe9BxHj4fUk265mcGbVAbgnWMR4uUPrRchrgyxquo,2717
+vtag/gui/vtplayer.py,sha256=UIG-tfDp6QuqH5wCsBAH1vHJGkCWauvvhi2QqaNCxkA,21685
+python_vtag-0.9.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+python_vtag-0.9.0.dist-info/METADATA,sha256=8taKJT0oZuwkxRyfVtEQCKPUrJe-1w7R6k1I54filXs,745
+python_vtag-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_vtag-0.9.0.dist-info/top_level.txt,sha256=nQ1mpy9EtQ4Yj8MpXpws_s0DKMnFbu1LRNDZJC1KXZ4,5
+python_vtag-0.9.0.dist-info/RECORD,,
