@@ -1,0 +1,7 @@
+README.md
+setup.py
+WOPkg.egg-info/PKG-INFO
+WOPkg.egg-info/SOURCES.txt
+WOPkg.egg-info/dependency_links.txt
+WOPkg.egg-info/not-zip-safe
+WOPkg.egg-info/top_level.txt

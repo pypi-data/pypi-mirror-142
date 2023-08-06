@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: WOPkg
+Version: 0.3
+Summary: Small lib for Python. run("url_to_raw") - run online code. save("url_to_raw", "path.py") - save online code.
+Home-page: https://github.com/Wolframoviy/WOPkg/
+Author: WolframoviyI
+Author-email: arseniysstrim@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+# WOPkg
+
+# EN #
+Small lib for Python. 
+run("url_to_raw") - run online code.
+save("url_to_raw", "path.py") - save online code.
+
