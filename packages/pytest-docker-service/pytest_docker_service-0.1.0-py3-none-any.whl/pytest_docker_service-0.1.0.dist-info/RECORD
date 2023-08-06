@@ -1,0 +1,8 @@
+pytest_docker_service/__init__.py,sha256=J2vm92otmKKc0N6-UCfiLpLpuVm1UqmZJXcx_rdlLCE,117
+pytest_docker_service/plugin.py,sha256=wPjG7-kqlMAeaKE1lmWqkrLEnaFhgZLCz2F3Jv6dFoo,3518
+pytest_docker_service-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytest_docker_service-0.1.0.dist-info/METADATA,sha256=OvlHfVj1w37Xb6ejmWUH9cvsuxP63IZy0tsrlgSkm1g,2432
+pytest_docker_service-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_docker_service-0.1.0.dist-info/entry_points.txt,sha256=4y6FOhDfnnUssyCOlQSXEncK_xwN7Om54hbn-pdqa2w,57
+pytest_docker_service-0.1.0.dist-info/top_level.txt,sha256=QcOG7uLxT3F7N-uQecZy_sXbNSrxW1j9I3hok9Cyiow,22
+pytest_docker_service-0.1.0.dist-info/RECORD,,
