@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: deputil
+Version: 0.1.1
+Summary: A lightweight dependency manager for Python.
+Home-page: https://github.com/parafoxia/deputil
+Author: Ethan Henderson
+Author-email: 
+License: BSD 3-Clause 'New' or 'Revised' License
+Project-URL: Source, https://github.com/parafoxia/deputil
+Project-URL: Bug Tracker, https://github.com/parafoxia/deputil/issues
+Project-URL: CI, https://github.com/parafoxia/deputil/actions
+Project-URL: Changelog, https://github.com/parafoxia/deputil/releases
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.0,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DepUtil
+
+A lightweight dependency manager for Python.
+
+**NOTE:** This is a very early release. While *DepUtil* is perfectly fine to use, there are currently no configuration options for it.
+
+## Installation
+
+To install the latest stable version of *DepUtil*, use the following command:
+```sh
+pip install deputil
+```
+
+You can also install the latest development version using the following command:
+```sh
+pip install git+https://github.com/parafoxia/deputil
+```
+
+You may need to prefix these commands with a call to the Python interpreter depending on your OS and Python configuration.
+
+## Usage
+
+To run *DepUtil*, you can use either of the following commands:
+```sh
+deputil
+python -m deputil
+```
+
+## Contributing
+
+Contributions are very much welcome! To get started:
+
+* Familiarise yourself with the [code of conduct](https://github.com/parafoxia/deputil/blob/main/CODE_OF_CONDUCT.md)
+* Have a look at the [contributing guide](https://github.com/parafoxia/deputil/blob/main/CONTRIBUTING.md)
+
+## License
+
+The *DepUtil* module for Python is licensed under the [BSD 3-Clause License](https://github.com/parafoxia/deputil/blob/main/LICENSE).
+
+

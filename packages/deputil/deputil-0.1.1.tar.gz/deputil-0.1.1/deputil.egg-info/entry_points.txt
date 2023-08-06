@@ -1,0 +1,2 @@
+[console_scripts]
+deputil = deputil.__main__:main
