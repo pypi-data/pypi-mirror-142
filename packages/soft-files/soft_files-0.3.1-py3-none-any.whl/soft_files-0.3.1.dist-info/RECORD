@@ -1,0 +1,11 @@
+soft/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soft/client/__main__.py,sha256=uDyt9ok9tsX7te1QhalFJr1QQ38akZaEo7ASJnGeWoI,5369
+soft/client/_userops.py,sha256=HaEm2ueKfHcwcOMhUdLFDwa-KgiU9SiJntV9gUoXd4k,779
+soft/client/safe.py,sha256=rTJGV6PYQnrPRpOwQNtewyAnwdilsG0xdLMsAMpJdFk,1288
+soft/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soft/server/__main__.py,sha256=WF2VcOaT_aLyIcpI_3oN1QGbXniUtaSe-C5HUz0zIxI,6151
+soft/server/_userops.py,sha256=elsDamutqkoRVKdZoo7X72EB9nCx5D2WqW1RpktgA2A,1431
+soft/server/safe.py,sha256=4EoGyY6JQjrgwCquUJzbxZOFVGM_eBpbKIHbhF2AAJQ,638
+soft_files-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+soft_files-0.3.1.dist-info/METADATA,sha256=3n6sKZcfHzT6i5iScPRiMqThewTAk6TDEnGTeEvQuYw,542
+soft_files-0.3.1.dist-info/RECORD,,
