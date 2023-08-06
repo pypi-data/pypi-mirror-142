@@ -1,0 +1,13 @@
+paaaaath/__init__.py,sha256=DUbjzFHyFUqVwq0klw_qhzg4s_T6bl8lbyhHkNGi3-c,677
+paaaaath/blob.py,sha256=cKxLj0b8bWFw4sEuv_2S-Ij97P1QowKzAcsgTNT7bgg,1034
+paaaaath/common.py,sha256=tOFaI7zjjtteZkDjKCho59CWt1Oyy0gYRFEkwoRwfCo,8894
+paaaaath/gcs.py,sha256=Oupa5dl45nQ_F2QkoNx9wiA6rajD8LzgPfaJbGW8bNE,2850
+paaaaath/http.py,sha256=Zqrx1Z_yhoaFlxDBxP7jE_ghMblEd6rQnzXBt2RtBDI,789
+paaaaath/posix.py,sha256=RzK5wIN4_6SJ14CTfW0wzEx6RDStGy059toWbXfa5KQ,212
+paaaaath/s3.py,sha256=EeQZlVyH9TbNkQI5B1ZatNz0za7fEPyPOB7oC1dhPiE,3319
+paaaaath/uri.py,sha256=KcmJYpnjRhMDospysywi05cQkA4jKAKC2a2DgR7_xd0,1956
+paaaaath/windows.py,sha256=9UmJe0YrmdeLQTNU44YT-i_XicgYsfVraOX1RHMw4iQ,222
+paaaaath-0.2.5.dist-info/LICENSE,sha256=E7tF_UTSwjY5DB1AQk-CYK6-NegI_NrCFCVbtjb6GOk,1070
+paaaaath-0.2.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+paaaaath-0.2.5.dist-info/METADATA,sha256=z3TDMuWiZpFKhFoofA54sY7edKPuJ6ykGCm_ULHeQSc,6689
+paaaaath-0.2.5.dist-info/RECORD,,
