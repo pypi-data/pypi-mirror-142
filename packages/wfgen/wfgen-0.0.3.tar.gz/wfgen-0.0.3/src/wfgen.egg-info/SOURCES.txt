@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/wfgen/WFGen.py
+src/wfgen/WFGenModels.py
+src/wfgen/__init__.py
+src/wfgen.egg-info/PKG-INFO
+src/wfgen.egg-info/SOURCES.txt
+src/wfgen.egg-info/dependency_links.txt
+src/wfgen.egg-info/requires.txt
+src/wfgen.egg-info/top_level.txt
