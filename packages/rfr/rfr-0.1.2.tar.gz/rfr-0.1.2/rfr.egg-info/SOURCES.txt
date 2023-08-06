@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+rfr.py
+setup.cfg
+setup.py
+rfr.egg-info/PKG-INFO
+rfr.egg-info/SOURCES.txt
+rfr.egg-info/dependency_links.txt
+rfr.egg-info/requires.txt
+rfr.egg-info/top_level.txt
