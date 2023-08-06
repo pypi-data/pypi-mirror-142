@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/sudocdkconstructs.s3_run_fargate_task.egg-info/PKG-INFO
+src/sudocdkconstructs.s3_run_fargate_task.egg-info/SOURCES.txt
+src/sudocdkconstructs.s3_run_fargate_task.egg-info/dependency_links.txt
+src/sudocdkconstructs.s3_run_fargate_task.egg-info/requires.txt
+src/sudocdkconstructs.s3_run_fargate_task.egg-info/top_level.txt
+src/sudocdkconstructs/s3_run_fargate_task/__init__.py
+src/sudocdkconstructs/s3_run_fargate_task/py.typed
+src/sudocdkconstructs/s3_run_fargate_task/_jsii/__init__.py
+src/sudocdkconstructs/s3_run_fargate_task/_jsii/s3-run-fargate-task@1.0.1.jsii.tgz
