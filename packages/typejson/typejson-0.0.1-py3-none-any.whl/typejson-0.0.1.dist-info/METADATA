@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: typejson
+Version: 0.0.1
+Summary: yet a type json library.
+Home-page: https://github.com/chenshenchao/typejson
+Author: chenshenchao
+Author-email: chenshenchao@outlook.com
+License: MIT
+Keywords: type json library
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: mongo
+Requires-Dist: pymongo (>=4.0.2) ; extra == 'mongo'
+Provides-Extra: mysql
+Requires-Dist: pymysql (>=1.0.2) ; extra == 'mysql'
+
+# typejson[https://github.com/chenshenchao/typejson]
+
+## 示例
+
+```bash
+# 刷新包代码
+pip install -e .
+```
+
+## 单元测试
+
+```bash
+# 安装单元测试库
+pip install pytest
+
+# 执行测试
+pytest
+```
+
+
