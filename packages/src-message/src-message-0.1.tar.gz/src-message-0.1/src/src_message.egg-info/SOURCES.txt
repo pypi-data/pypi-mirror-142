@@ -1,0 +1,9 @@
+setup.py
+src/ljj/__init__.py
+src/ljj/handsome/__init__.py
+src/ljj/handsome/boy/__init__.py
+src/ljj/handsome/boy/message.py
+src/src_message.egg-info/PKG-INFO
+src/src_message.egg-info/SOURCES.txt
+src/src_message.egg-info/dependency_links.txt
+src/src_message.egg-info/top_level.txt
