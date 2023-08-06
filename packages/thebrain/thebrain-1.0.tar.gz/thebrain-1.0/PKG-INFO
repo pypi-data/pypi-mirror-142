@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: thebrain
+Version: 1.0
+Summary: The human brain implemented in python (AI).
+Home-page: https://github.com/naveednilawfar/thebrain
+Author: Naveed Nilawfar
+Author-email: naveednilawfar@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/naveednilawfar/thebrain/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# COMING SOON
+
+# brain
+The human brain implemented in python (AI).
+
+

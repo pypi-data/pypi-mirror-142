@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/brain/__init__.py
+src/thebrain.egg-info/PKG-INFO
+src/thebrain.egg-info/SOURCES.txt
+src/thebrain.egg-info/dependency_links.txt
+src/thebrain.egg-info/top_level.txt
