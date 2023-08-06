@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: criptam
+Version: 1.0b3
+Summary: iOS firmware key decrypter
+Home-page: https://github.com/m1stadev/Criptam
+License: BSD-3-Clause
+Keywords: ios,jailbreak,iboot,img4
+Author: m1stadev
+Author-email: adamhamdi31@gmail.com
+Maintainer: m1stadev
+Maintainer-email: adamhamdi31@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: ipwndfu (>=2.0.0b5,<2.1.0)
+Requires-Dist: kimg4 (>=0.1.1,<0.2.0)
+Requires-Dist: mwclient (>=0.10.1,<0.11.0)
+Requires-Dist: pyusb (>=1.2.1,<2.0.0)
+Requires-Dist: remotezip (>=0.9.3,<0.10.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/m1stadev/Criptam/issues
+Project-URL: Repository, https://github.com/m1stadev/Criptam
+Description-Content-Type: text/markdown
+
+# Criptam
+Criptam is a tool written in Python to easily fetch decrypted [iOS bootchain](https://www.theiphonewiki.com/wiki/Bootchain) [firmware keys](https://www.theiphonewiki.com/wiki/Firmware_Keys) (excluding SEPOS) from a connected device.
+
+## Features
+- Automatically fetch decrypted bootchain firmware keys for any iOS version, no IPSW download required.
+
+## Requirements
+- A UNIX-like OS
+- An internet connection
+- A 64-bit device connected in DFU mode vulnerable to [checkm8](https://github.com/hack-different/ipwndfu)
+
+## Installation
+Criptam can be installed from [PyPI](https://pypi.org/project/criptam/), or locally (requires [poetry](https://python-poetry.org/)):
+
+    ./install.sh
+
+
+## Usage
+| Option (short) | Option (long) | Description |
+|----------------|---------------|-------------|
+| `-h` | `--help` | Shows all options avaiable |
+| `-b BUILDID` | `--buildid BUILDID` | iOS build to decrypt firmware keys for |
+| `-m MAJOR` | `--major MAJOR` | Major iOS version to decrypt all firmware keys for |
+| `-a` | `--all` | Decrypt firmware keys for all versions |
+
