@@ -1,0 +1,26 @@
+```
+This script communicates with the Xolphin API to manage certificates.
+The script is pretty basic and doesnt contain much error handling.
+also the output is plain json sometimes. But it gets the job done.
+What it will do:
+
+xcert.py list-requests          # Lists all current certificates at Xolphin.
+         request <domain-name>  # Request a certificate. If you request a wildcard 
+                                # domain, e.g. *.fd.nl, make sure to put quotes 
+                                # around the name, e.g. '*.fd.nl'.
+                                # This will also create a key and a csr file in the working directory
+         status <domain-name>   # Gets the status of a request. This scripts uses domain validation
+                                # So it will show which CNAME to put in your DNS zone.
+         validate <domain-name> # (re)validates a request, in case an earlier validation has failed somehow.
+                                # Use 'xcert.py status <domain-name>' to get the new CNAME
+         list-certs             # List current certificates in Xolphin
+         download <domain-name> # Downloads the certificate with the domain name specified. It will also download the ca-bundle.
+                                # It will save them in the current working directory as .crt and .ca file
+         create-pem <filename>  # Creates a <filename>.pem from a <filename>.crt, <filename>.ca and a <filename>.key
+         create-cer <filename>  # Creates a <filename>.pem from a <filename>.crt and a<filename>.ca
+         kube-secret <filename> # Prints a kubernetes tls secret with a base64 encoded tls.crt and tls.key from a <filename>.cer and <filename>.key
+
+The script relies on 2 env vars for username and password for Xolphin. So use something like :
+export XOLPHIN_USER='xolphin.user@fdmediagroep.nl'
+export XOLPHIN_PASSWORD='secretpassword'
+```
