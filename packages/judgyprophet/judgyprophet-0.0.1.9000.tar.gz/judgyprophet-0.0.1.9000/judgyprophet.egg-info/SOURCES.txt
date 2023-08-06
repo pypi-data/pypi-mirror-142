@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+judgyprophet.egg-info/PKG-INFO
+judgyprophet.egg-info/SOURCES.txt
+judgyprophet.egg-info/dependency_links.txt
+judgyprophet.egg-info/top_level.txt
