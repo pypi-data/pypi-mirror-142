@@ -1,0 +1,10 @@
+README.md
+setup.py
+framework_python/__init__.py
+framework_python/aws_client.py
+framework_python/handler_decorator.py
+framework_python.egg-info/PKG-INFO
+framework_python.egg-info/SOURCES.txt
+framework_python.egg-info/dependency_links.txt
+framework_python.egg-info/requires.txt
+framework_python.egg-info/top_level.txt
