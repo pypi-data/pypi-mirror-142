@@ -1,0 +1,11 @@
+parsimonious-stubs/METADATA.toml,sha256=SB4otb2IYQzLEIi3qoS5KkovMIIrDQDMP3W8JFbABGg,18
+parsimonious-stubs/__init__.pyi,sha256=aKleN9K-eQzvrpaEoPVkQAXZD2R8N9gZuKGLTqdpZf0,378
+parsimonious-stubs/exceptions.pyi,sha256=CwuHSCWVXtgrkLjzfmFu66sNZCEEP0k4OtF2HUVzYJo,812
+parsimonious-stubs/expressions.pyi,sha256=OLUA2QMgQYoKjIdwrN5s1JiVJ0jG5u2fZPMRnZ922B4,2023
+parsimonious-stubs/grammar.pyi,sha256=-GmxYphTb1tTOKYUFtcaY7BMitGXiIh-QC7cHx9FT5M,3036
+parsimonious-stubs/nodes.pyi,sha256=IT-LCQ6paSLBg-U0SKnnQaoLK5pvfb1vpdHYlIkOZ4w,1370
+parsimonious-stubs/utils.pyi,sha256=DSKi8-VkseIqzSckl75kSCPwITSo7Klo9wtdDL_BYX8,200
+types_parsimonious-0.8.0.dist-info/METADATA,sha256=QRPXki8SQCVc9g_JSdyBLuyI9gIYm57dL7oLe4knMuw,1181
+types_parsimonious-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_parsimonious-0.8.0.dist-info/top_level.txt,sha256=qoLhPjLehyVunL9nUPivqeixqdxgATvkNGNLnOpVIZ4,19
+types_parsimonious-0.8.0.dist-info/RECORD,,
