@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: nalog
+Version: 0.0.3
+Summary: Moy Nalog API wrapper
+Home-page: https://github.com/TimNekk/nalog
+Author: TimNekk
+Author-email: herew26@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Moy Nalog API
+
+![PyPI](https://img.shields.io/pypi/v/nalog?color=orange) ![Python 3.6, 3.4, 3.8](https://img.shields.io/pypi/pyversions/nalog?color=blueviolet)
+
+**nalog** - this module is a Python client library for Moy Nalog API
+
+## Installation
+
+Install the current version with [PyPI](https://pypi.org/project/nalog/):
+
+```bash
+pip install nalog
+```
+
+## Usage
+
+You need next data from [lkfl2.nalog.ru](https://lkfl2.nalog.ru/lkfl/login) to autharize:
+- Email
+- INN (Taxpayer Identification Number)
+- Password
+
+```python
+from nalog import NalogAPI
+
+api = NalogAPI(
+  email="example@email.com",
+  inn="123456789012",
+  password="my_secret_password"
+)
+
+receipt_id = api.create_receipt(name="Flower pot", price=199)
+url = api.get_url(receipt_id)
+
+print(url)
+```
+
+## Contributing
+
+Bug reports and/or pull requests are welcome
+
+
+## License
+
+The module is available as open source under the terms of the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0)
+
+
