@@ -1,0 +1,2 @@
+[console_scripts]
+mfvis = src.mfvis:__main__.main
