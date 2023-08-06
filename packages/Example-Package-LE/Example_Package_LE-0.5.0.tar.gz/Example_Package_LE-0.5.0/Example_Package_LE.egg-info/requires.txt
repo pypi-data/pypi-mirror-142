@@ -1,0 +1,8 @@
+tqdm
+
+[dev]
+bump2version
+pytest
+flake8
+black
+mypy
