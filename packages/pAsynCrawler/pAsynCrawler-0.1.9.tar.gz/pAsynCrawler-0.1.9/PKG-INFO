@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pAsynCrawler
+Version: 0.1.9
+Summary: 
+Author-email: Michael Hsieh <m9810223@gmail.com>
+Requires-Python: >=3.7,<4
+Description-Content-Type: text/markdown
+Classifier: Environment :: Web Environment
+Classifier: Framework :: aiohttp
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Requires-Dist: aiohttp >=3.8.1
+Requires-Dist: beautifulsoup4 >=4.10.0 ; extra == "demo"
+Project-URL: Bug Tracker, https://github.com/m9810223/pAsynCrawler/issues
+Project-URL: Source, https://github.com/m9810223/pAsynCrawler
+Project-URL: documentation, https://github.com/m9810223/pAsynCrawler#readme
+Project-URL: homepage, https://github.com/m9810223/pAsynCrawler
+Provides-Extra: demo
+
+# pAsynCrawler
+
+<p align="left">
+  <a href="https://pypi.org/project/pAsynCrawler" target="_blank">
+    <img src="https://img.shields.io/pypi/v/pAsynCrawler?color=%2334D058&label=pypi%20package" alt="Package version">
+  </a>
+</p>
+
+## Installation
+
+```shell
+pip install pAsynCrawler
+```
+
+## Features
+
+- Fetch data - `Asynchronously`
+- Parse data - with `multiprocessing`
+
+## Demo
+
+[demo code](https://github.com/m9810223/pAsynCrawler/tree/master/demos)
+
+## Example
+
+```python
+from bs4 import BeautifulSoup
+from pAsynCrawler import AsynCrawler, flattener
+
+
+def parser_0(response_text):
+    soup = BeautifulSoup(response_text)
+    menus = soup.select('ul > li > span > a')
+    datas = tuple(x.text for x in menus)
+    urls = tuple(x.attrs['href'] for x in menus)
+    return (datas, urls)
+
+
+def parser_0(response_text):
+    soup = BeautifulSoup(response_text)
+    menus = soup.select('ul > li > a')
+    datas = tuple(x.text for x in menus)
+    urls = tuple(x.attrs['href'] for x in menus)
+    return (datas, urls)
+
+
+if __name__ == '__main__':
+    ac = AsynCrawler(asy_fetch=20, mp_parse=8)
+    datas_1, urls_1 = ac.fetch_and_parse(parser_0, ['https://www.example.com'])
+    datas_2, urls_2 = ac.fetch_and_parse(parser_1, flattener(urls_1))
+
+```
+
