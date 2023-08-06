@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vip/VIPG5encode.egg-info/PKG-INFO
+vip/VIPG5encode.egg-info/SOURCES.txt
+vip/VIPG5encode.egg-info/dependency_links.txt
+vip/VIPG5encode.egg-info/top_level.txt
+vip/viping/VIPG5encode.py
+vip/viping/__init__.py
