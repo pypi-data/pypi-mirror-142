@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: heidtex
+Version: 0.0.1
+Summary: Package for transforming various python structures into LaTex.
+Home-page: https://github.com/rafaelheid-it/texpy
+Author: Rafael Heid
+Author-email: rafaelheid.it@gmail.com
+License: UNKNOWN
+Project-URL: Issue Tracker, https://github.com/rafaelheid-it/texpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HeidTex
+
+This package aims to aid developers, students and researchers to simplify adding tables and other LaTex elements to their reports and papers.
+
+The package is currently in development and features will follow in the near future.
+

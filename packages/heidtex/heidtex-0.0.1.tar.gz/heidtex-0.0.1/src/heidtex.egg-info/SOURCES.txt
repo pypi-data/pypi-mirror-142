@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/heidtex.egg-info/PKG-INFO
+src/heidtex.egg-info/SOURCES.txt
+src/heidtex.egg-info/dependency_links.txt
+src/heidtex.egg-info/top_level.txt
+src/texpy/__init__.py
