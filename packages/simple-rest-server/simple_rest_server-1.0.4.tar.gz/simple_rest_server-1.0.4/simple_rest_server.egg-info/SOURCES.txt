@@ -1,0 +1,9 @@
+LICENSE
+README.md
+conftest.py
+pyproject.toml
+setup.py
+simple_rest_server.egg-info/PKG-INFO
+simple_rest_server.egg-info/SOURCES.txt
+simple_rest_server.egg-info/dependency_links.txt
+simple_rest_server.egg-info/top_level.txt

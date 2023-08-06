@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simple_rest_server
+Version: 1.0.4
+Summary: simple rest server based on flask, useful for api testing
+Home-page: https://gitlab.com/pavel_lavi/simple-rest-server
+Author: Pavel Lavi
+Author-email: LaviPavel@outlook.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
