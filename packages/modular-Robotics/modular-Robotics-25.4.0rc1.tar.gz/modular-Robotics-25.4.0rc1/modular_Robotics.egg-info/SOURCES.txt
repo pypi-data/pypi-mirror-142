@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+modular-Robotics/__init__.py
+modular-Robotics/_version.py
+modular-Robotics/movement.py
+modular-Robotics/test.py
+modular_Robotics.egg-info/PKG-INFO
+modular_Robotics.egg-info/SOURCES.txt
+modular_Robotics.egg-info/dependency_links.txt
+modular_Robotics.egg-info/requires.txt
+modular_Robotics.egg-info/top_level.txt
