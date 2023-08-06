@@ -1,0 +1,11 @@
+cfgcaddy/__init__.py,sha256=uu758MPw8apTwxbXHkkpAn_MakAA5C9ctisDjbd3dO4,339
+cfgcaddy/__main__.py,sha256=oM491vz0NyMNUpwNRH-ZxrUcPGDz1nKlwIrdobGkIFk,4584
+cfgcaddy/config.py,sha256=flI_6R4sulmr4ZLiNmURQiOl6XtHfTQS9W1zidFCgmY,4769
+cfgcaddy/link.py,sha256=tnlntQdd3skH4DdcVuELrTg0tDQn0kqZQ1pj6sNgBUE,1459
+cfgcaddy/linker.py,sha256=S-LauCia_Fe4aB7Jkh_FzIV0g6WQHR-94Fsz2YnJ69Y,6279
+cfgcaddy/publish.py,sha256=YwzDFhp19eNgPFiLWmn3mSCKIUbTUSp9kx0wb94FAcw,263
+cfgcaddy/utils.py,sha256=LkhwaEAmQ1RdrIMM-v1S7zxeY1SCFx3dv9tWE2fBJ1s,2506
+cfgcaddy-0.1.4.dist-info/entry_points.txt,sha256=ABwcygQyExs2okh0Ox1MoOX4xp_-oJq_Q8h2ZcVMEhY,84
+cfgcaddy-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cfgcaddy-0.1.4.dist-info/METADATA,sha256=OmmaF7f8t1shfFZGXQ0UxGPQ0Pvj_LPSA-ZT_z1SMeA,3597
+cfgcaddy-0.1.4.dist-info/RECORD,,
