@@ -1,0 +1,12 @@
+setup.py
+bnasr.egg-info/PKG-INFO
+bnasr.egg-info/SOURCES.txt
+bnasr.egg-info/dependency_links.txt
+bnasr.egg-info/requires.txt
+bnasr.egg-info/top_level.txt
+proto/__init__.py
+proto/speech2text_pb2.py
+proto/speech2text_pb2_grpc.py
+utils/__init__.py
+utils/check_mic.py
+utils/stream_output.py
