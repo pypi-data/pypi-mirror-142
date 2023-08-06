@@ -1,0 +1,17 @@
+flat_me/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flat_me/file_factory.py,sha256=6omjG__R06xxElh5QPidLXk5PWzd4IkYwKCLQtOeMVI,730
+flat_me/pd_transformations.py,sha256=WwVQo3mcEzKnax7GIhgdRh3FiszGTs4Q0KWVqxGzDtk,1981
+flat_me/user_prompt.py,sha256=4NhoYxvVRJ9X4HDEDoFTcUL1jEmpiOkAPBfoB9m8MU8,3933
+flat_me/file_classes/__init__.py,sha256=Ec8Adze9vmxrnQyGHiLoC3LJqPe69Cl9KX3vABzxShY,200
+flat_me/file_classes/csv_to_json.py,sha256=vGOrpMUYDcVtC5zFicufU4M5uwAEEMbfiMlyUXVX12U,668
+flat_me/file_classes/csv_to_txt.py,sha256=ZAPW38DKforV_oYl34AddpJtOvK1SuUrRyyjYFNkP2s,758
+flat_me/file_classes/csv_utils.py,sha256=3mOlWOB7GCHOsKxF1VqV3SlgDn4WJzVCW7llgyewhac,1365
+flat_me/file_classes/txt_to_csv.py,sha256=7ywLl0Cd7IpXjUH0ACnlBDaUM6wf2qyaJcs2Z2IqGss,814
+flat_me/file_classes/txt_to_json.py,sha256=K3rEsn1jkjbQ81CnwJp6Oo9ejc3yQOUBIOP6XKjt4Rk,796
+flat_me/file_classes/txt_utils.py,sha256=YvOYE7LLAnVHxvXIJZdRs1qhe7FVwLsOcQVFNQ5KZ2o,1368
+flat_me-0.1.5.dist-info/LICENSE.txt,sha256=KD6mzCmXoacNoASeCa35MXu2DKG1Enm2UZa4OmnhmWs,11323
+flat_me-0.1.5.dist-info/METADATA,sha256=VBkrXReodDWRPrAyT0K15S3ZDIiVkWfCYWxEVlTriMo,774
+flat_me-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flat_me-0.1.5.dist-info/entry_points.txt,sha256=7P50Cj7GtfrR7_zuFnmbrLEkC1Fw8A8kt0HKXo8PBr8,53
+flat_me-0.1.5.dist-info/top_level.txt,sha256=lnQhbjzv6RkPh_p1VOm-iTaUq0_oQbWScbU4GLX1onY,8
+flat_me-0.1.5.dist-info/RECORD,,
