@@ -1,0 +1,6 @@
+bandit
+pydocstyle
+pylint
+line_profiler
+memory_profiler
+setuptools
