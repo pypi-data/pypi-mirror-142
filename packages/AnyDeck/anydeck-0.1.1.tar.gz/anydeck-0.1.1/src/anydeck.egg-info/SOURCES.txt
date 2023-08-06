@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/anydeck.egg-info/PKG-INFO
+src/anydeck.egg-info/SOURCES.txt
+src/anydeck.egg-info/dependency_links.txt
+src/anydeck.egg-info/top_level.txt
