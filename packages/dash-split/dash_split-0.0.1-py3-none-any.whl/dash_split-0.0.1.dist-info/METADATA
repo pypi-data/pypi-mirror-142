@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dash-split
+Version: 0.0.1
+Summary: Dash wrapper for split.js
+Home-page: UNKNOWN
+Author: Tom Catshoek <tomcatshoek@zeelandnet.nl>
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+License-File: LICENSE
+
+UNKNOWN
+
