@@ -1,0 +1,7 @@
+README.md
+main.py
+setup.py
+MySuperDF.egg-info/PKG-INFO
+MySuperDF.egg-info/SOURCES.txt
+MySuperDF.egg-info/dependency_links.txt
+MySuperDF.egg-info/top_level.txt
