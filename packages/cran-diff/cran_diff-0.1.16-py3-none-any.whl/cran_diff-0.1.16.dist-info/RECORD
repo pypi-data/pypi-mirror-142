@@ -1,0 +1,13 @@
+cran_diff/__init__.py,sha256=sP2bQRtRUS8Qo8Zj7nkhV-gpMjAE4xsNkbE_-PvAMag,209
+cran_diff/cran_archive.py,sha256=G6Zix7X3GnpA5kQC4YZR3cCs0zqrRDoc4gyjAXpRXeI,2215
+cran_diff/cran_parser.py,sha256=Hzs7ZpNKYGzVoRpEN3zdU_68nVSOjy2Ec-XRJ-BFV_4,16995
+cran_diff/cran_parsing_functions.py,sha256=_DZZwQv7PoyC_H6aKFltkYZWu6AFLOIFiCPJk64pId8,1085
+cran_diff/file_functions.py,sha256=hxmsXaRO31Py8NIUT9aK8NvJDC_hVRvj1XmUNHTT2Jg,1427
+cran_diff/filenames.py,sha256=llOdfBumxSyuHVfL_1EJvRYpAmxb_i7AIXVT7wDhAck,54
+cran_diff/pkg_parsing_functions.py,sha256=FCG83d46f5y_byYWbFJaZnWfVZqOMiLnPg-GDOe2zqc,19544
+cran_diff/rcom.py,sha256=P2F6zLaMu1x2BkSYUo9PzlRBxI3oqidmPfYIGMo5mcg,2530
+cran_diff/tuples.py,sha256=cjjlEDJk-FNvRr_OaCPGlwdXsWVKWiENgPoOTJTPeKg,84
+cran_diff/urls.py,sha256=3KWOUBslJE9QTNSRu9_WXJ24UJDdF2FK9lAW3oEFb6M,220
+cran_diff-0.1.16.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cran_diff-0.1.16.dist-info/METADATA,sha256=JGCMC0RI5NA3t-wKRTyMwxyH-ZxBqTzyqHoiKVLVkR4,713
+cran_diff-0.1.16.dist-info/RECORD,,
