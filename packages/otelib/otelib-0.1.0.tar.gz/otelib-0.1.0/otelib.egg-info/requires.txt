@@ -1,0 +1,9 @@
+oteapi-core<1,>=0.1.2
+
+[dev]
+invoke~=1.6
+pre-commit~=2.17
+pylint~=2.12
+pytest~=7.0
+pytest-cov~=3.0
+requests-mock~=1.9
