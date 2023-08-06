@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyfrench
+Version: 0.1.6
+Summary: Une librairie qui traduit python en français
+Author: Artic#6377
+Author-email: artic.admisoffi@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+Une librairie python de toute versions qui traduit ajoute les même fonctionnalités python sur le module en français.
+
