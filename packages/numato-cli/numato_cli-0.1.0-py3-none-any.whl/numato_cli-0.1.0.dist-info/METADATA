@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: numato-cli
+Version: 0.1.0
+Summary: Command-line interface for Numato GPIO expanders
+License: MIT
+Author: Henning Claßen
+Author-email: code@clssn.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: numato-gpio (>=0.10.0,<0.11.0)
+Requires-Dist: shellingham (>=1.4.0,<2.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/x-rst
+
+Numato CLI
+==========
+
+A command-line interface for Numato GPIO Expanders.
+
+Install
+-------
+
+    pip install numato-cli
+
+or even better
+
+    pipx install numato-cli
+
+With pipx you can also ensure that the `numato` executable's binary directory is in the PATH variable:
+
+    pipx ensurepath
+
+
+Use
+---
+
+Discover all numato devices from a list of Linux/Windows devices::
+
+    numato discover
+
+
+Develop
+-------
+
+Best practice is to use ``poetry`` installed with ``pipx``::
+
+    pip install pipx
+    pipx install poetry
+    poetry shell
+
+In the poetry shell you can also run an IDE like VSCode::
+
+    code .
+
+Install the dependencies and run the Numato CLI::
+
+    poetry install
+    numato --help
+
+Build packages::
+
+    poetry build
+

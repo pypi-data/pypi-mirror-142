@@ -1,0 +1,3 @@
+[console_scripts]
+numato=numato_cli.__main__:app
+
