@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aplicacion-ejemplo-kc-cicd-martinvedani
+Version: 0.0.1
+Summary: A small example package
+Author: KC
+Author-email: martin.vedani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Aplicación de ejemplo
+
+Una aplicación python de ejemplo
+

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/aplicacion_ejemplo/__init__.py
+src/aplicacion_ejemplo/ejemplo.py
+src/aplicacion_ejemplo_kc_cicd_martinvedani.egg-info/PKG-INFO
+src/aplicacion_ejemplo_kc_cicd_martinvedani.egg-info/SOURCES.txt
+src/aplicacion_ejemplo_kc_cicd_martinvedani.egg-info/dependency_links.txt
+src/aplicacion_ejemplo_kc_cicd_martinvedani.egg-info/requires.txt
+src/aplicacion_ejemplo_kc_cicd_martinvedani.egg-info/top_level.txt
