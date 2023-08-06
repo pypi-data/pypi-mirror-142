@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: image-processing-teste2
+Version: 0.0.2
+Summary: Versão de teste - Processamento de imagem. Este projeto pertence a Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist da Take. Este pacote é uma demonstração para simulação de upload no site Test Pypi, e é da classe do desenvolvedor do Bootcamp . E-mail: karinatkato@gmail.com.
+Author: gabriel
+Author-email: andre-carmo02@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: keyring (==21.3.1)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: twine (==3.2.0)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: webencodings (==0.5.1)
+
+## Projeto: Pacote de Processamento de Imagens
+Autora do Projeto: Karina Kato
+Aula: Descomplicando a criaÃ§Ã£o de pacotes de processamento de imagens em Python - Digital Innovation One
+
+Tecnologia: Python
+Data: 16/03/2022
+
+## DescriÃ§Ã£o
+O pacote "image_processing-test" Ã© usado para:
+
+"MÃ³dulo "Processing":
+
+	CorrespondÃªncia de histograma;
+	Similaridade estrutural;
+	Redimensionar imagem;
+
+"MÃ³dulo "Utils":
+
+	Ler imagem;
+	Salvar imagem;
+	Plotar imagem;
+	Resultado do grÃ¡fico;
+	Plotar histograma;
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image-processing-teste2
+```
+
+## Usage
+
+```python
+from image_processing_teste2.utils import io, plot
+from image_processing_teste2.processing import combination, transformation
+```
+
+## Autor (quem hospedou o projeto no Test Pypi) 
+Gabriel andre
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
