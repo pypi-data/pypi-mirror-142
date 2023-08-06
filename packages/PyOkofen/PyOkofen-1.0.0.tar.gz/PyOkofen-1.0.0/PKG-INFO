@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyOkofen
+Version: 1.0.0
+Summary: JSON to python API for Okofen boilers
+Home-page: https://github.com/JbPasquier/pyokofen
+Author: Jean-Baptiste Pasquier
+Author-email: contact@jbpasquier.eu
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8.0
+License-File: LICENSE
+
+UNKNOWN
+
