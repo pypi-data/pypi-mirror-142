@@ -1,0 +1,10 @@
+fast/__init__.py,sha256=cleTHFv4syw0hXl3qrACmfsWf0gL_RQhvuqrjfVnWKg,85
+fast/preprocessor.py,sha256=GgWtfTbTofEYZJWOQMo5QXyF9okM94OGpT8E2DQ4b60,767
+fast/token.py,sha256=UHMNStaBiT0LWNEWTYynOJWKjHHa7KmwmwbdU_gJD5Q,5018
+fast/tokeniser.py,sha256=5R7cXodYUamoTq0wHeLxkmhXIF-SN45OEKg1JleQUt8,2341
+fast/tokens.py,sha256=b_wuwNQI_lDuxzFggCmKhvYF8OzKxfbdhvKOpswhpEE,4962
+fast/utils.py,sha256=BxtQFwPImQtlumL_FkwLNcAmVZ9yTE22Thhzludyd9I,1360
+ffast-0.0.1.dist-info/METADATA,sha256=Wt3uHH_IjeyOjie-e9iqPmNnwVOHhokyLdEJk-IRt9Q,885
+ffast-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ffast-0.0.1.dist-info/top_level.txt,sha256=8QJk2-edYNobGXP5cFnggvdAmRsO4HxRmobqpf6Uxuo,5
+ffast-0.0.1.dist-info/RECORD,,
