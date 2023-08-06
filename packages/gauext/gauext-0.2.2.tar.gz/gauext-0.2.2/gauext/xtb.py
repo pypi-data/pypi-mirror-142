@@ -1,0 +1,202 @@
+import os
+import numpy as np
+
+from .gaussian import GaussianExternalInterface, GaussianExternalInput
+
+
+class XTBInterface(GaussianExternalInterface):
+
+    name = "XTB"
+    executable = 'xtb'
+    _command = "%s %s --chrg %d %s --wbo "
+
+    _user_input = """
+    options = :: str, optional, alias=o
+    save = false :: bool, alias=s
+    input = xtbinput.xyz :: file
+    """
+
+    @classmethod
+    def from_config(cls, config):
+        inp = GaussianExternalInput.from_config(config)
+        return cls(inp, config['input'], config['options'], config['save'])
+
+    def __init__(self, inp, xtbfilename, options, save):
+        super().__init__(inp)
+        #
+        if options is None:
+            options = " "
+        self._options = options
+        self._save = save
+        self.input = "xtb.xyz"
+
+    def _write_general_inputs(self):
+        self.write_xyz_file(self.input, self.inp_file.natoms, "xtb input", self.inp_file.atomids, self.inp_file.coords)
+
+    def set_options(self, options, save):
+        self._save = save
+        if options is None:
+            return
+        self._options = options
+
+    def _get_command(self, options):
+        return self._command % (self.executable, self.input, self.chg, self._options + options)
+
+    def _handle_xcontrol(self):
+        if self._save is True:
+            return
+        if os.path.isfile("xcontrol"):
+            os.remove("xcontrol")
+
+    def _run_interface(self, command):
+        self._handle_xcontrol()
+        self._write_general_inputs()
+        self.run_interface(command, self.name)
+
+    def _run_energy(self):
+        command = self._get_command(" --sp --copy > output_energy ")
+        self._run_interface(command)
+        self.logger.write(get_gaussian_wbo_txt(self.inp_file.atomids, 'wbo'))
+        self.logger.write(get_gaussian_charges(self.inp_file.atomids, 'charges'))
+        e, d = self._read_xtb_energy_and_dipole("output_energy")
+        self.logger.write("\n\n SCF Done:  E(xtb) =  %12.8f     A.U. after   XX cycles\n\n" % e)
+        return (e, d), None, None
+
+    def _run_gradient(self, hessian=False):
+        command = self._get_command(" --grad --copy > output_gradient ")
+        self._run_interface(command)
+        self.logger.write(get_gaussian_wbo_txt(self.inp_file.atomids, 'wbo'))
+        self.logger.write(get_gaussian_charges(self.inp_file.atomids, 'charges'))
+        output = (self._read_xtb_energy_and_dipole("output_gradient"),
+                self._read_xtb_gradient("gradient"), None)
+        if hessian is False:
+            self.logger.write("\n\n SCF Done:  E(xtb) =  %12.8f     A.U. after   XX cycles\n\n" % output[0][0])
+        self.clean_up()
+        return output
+
+    def _run_frequency(self):
+        command = self._get_command(" --hess --copy > output_freq")
+        e_and_dip, grad, _ = self._run_gradient(hessian=True)
+        self._run_interface(command)
+        self.logger.write("\n\n SCF Done:  E(xtb) =  %12.8f     A.U. after   XX cycles\n\n" % e_and_dip[0])
+        return (e_and_dip,
+                grad,
+                self._read_xtb_hessian("hessian"))
+
+    def clean_up(self):
+        os.rename("gradient", "grad_old")
+        return
+
+    def _read_xtb_energy_and_dipole(self, filename):
+        with open(filename, 'r') as fh:
+            for line in fh:
+                if line.startswith('molecular dipole:'):
+                    dipole = _parse_diple(fh)
+                if 'TOTAL ENERGY' in line:
+                    energy = float(line.split()[3])
+                    return energy, dipole
+
+    def _read_xtb_gradient(self, filename):
+        with open(filename, 'r') as fh:
+            itr = iter(fh)
+            for _ in range(self.natoms+2):
+                next(itr)
+            return np.array([[float(val) for val in next(itr).split()]
+                              for _ in range(self.natoms)])
+
+    def _read_xtb_hessian(self, filename):
+        with open(filename, 'r') as fh:
+            itr = iter(fh)
+            next(itr)
+            return np.array([float(entry)
+                             for line in itr
+                             for entry in line.split()])
+
+
+def iformat(num):
+    return str(num).center(6)
+
+
+def get_header(start, end):
+    first = "     Atom"
+    second = "     ----"
+    for i in range(start+1, end+1):
+        first += " " + iformat(i) + " "
+        second += " ------ "
+    return first + "\n" + second + "\n"
+
+
+def get_wbo_line(atom, wbo, idx, istart, end):
+    line = str(idx+1)
+    line = " "*(4-len(line)) + line + '.  ' + atom + " "*(2-len(atom))
+    for i in range(istart, end):
+        line += "%7.4f " % wbo[idx, i]
+    return line + '\n'
+
+
+def get_block(atomids, wbo, istart, end):
+    txt = get_header(istart, end)
+    for i, atom in enumerate(atomids):
+        txt += get_wbo_line(atom, wbo, i, istart, end)
+    return txt + "\n"
+
+
+def get_gaussian_wbo_txt(atomids, filename):
+    txt = """
+
+-------------------------------------------------------------
+    Start of: N A T U R A L   B O N D   O R B I T A L
+-------------------------------------------------------------
+
+ Wiberg bond index matrix in the NAO basis:
+
+ """
+    natoms = len(atomids)
+    wbo = parse_wbo(natoms, filename)
+    istart = 0
+    while (istart < natoms):
+        end = istart + 9
+        if end >= natoms:
+            end = natoms
+        txt += get_block(atomids, wbo, istart, end)
+        istart = end
+    txt += """
+ Wiberg bond index, Totals by atom:
+
+ """
+    wbosum = np.zeros((natoms, 1))
+    for i in range(natoms):
+        wbosum[i, 0] = sum(wbo[i])
+    txt += get_block(atomids, wbosum, 0, 1)
+    txt += "\n\n --- END WBO ANALYSIS ---\n\n"
+    return txt
+
+
+def parse_wbo(natoms, filename):
+    wbo = np.zeros((natoms, natoms))
+    with open(filename, 'r') as fh:
+        for line in fh:
+            i, j, value = line.split()
+            i, j, value = int(i)-1, int(j)-1, float(value)
+            wbo[i, j] = value
+            wbo[j, i] = value
+    return wbo
+
+
+def _parse_charges(filename):
+    with open(filename, 'r') as fh:
+        return [float(val) for val in fh]
+
+
+def get_gaussian_charges(atomids, filename):
+    charges = _parse_charges(filename)
+    assert len(atomids) == len(charges), "inconsistency between charges and natoms"
+    charge_txt = "\n".join("%12.8f" % charge for charge in charges)
+    return f"Hirshfeld charges, spin densities\n{charge_txt}\n\n\nESP charges:\n{charge_txt}"
+
+
+def _parse_diple(fh):
+    for _ in range(2):
+        next(fh)
+    cols = next(fh).split()
+    return [float(cols[1]), float(cols[2]), float(cols[3])]
