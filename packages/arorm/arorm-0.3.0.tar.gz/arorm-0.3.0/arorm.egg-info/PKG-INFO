@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arorm
+Version: 0.3.0
+Summary: A python orm with identity pattern mainly for arango
+Home-page: https://github.com/patricklx/ar-orm
+Author: Patrick Pircher
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+License-File: LICENCE
+
+UNKNOWN
+
