@@ -1,0 +1,11 @@
+sysubadminton/__init__.py,sha256=bX0qo_w46o5fHciG1W4gjXHFlOhlvDYorCGRrwjkIPU,25
+sysubadminton/__main__.py,sha256=x4_pLlVhK2ZDmXs-hYAXpgyf9vxP0y3nR9ZPhydS_X0,33
+sysubadminton/badminton.py,sha256=u1sf4qfftrw8bgOTPWEMsbJs-eNMnEkyGVjYIRtxgro,14845
+sysubadminton/utils.py,sha256=QUVHgVrjwAQbaZShzB_Wim46bTSjOeNxhzojrY7qBBw,275
+sysubadminton/version.py,sha256=Eov0WTl17linKX8ufK-hPGZHs7w0LFDE1HiZtemHitM,212
+sysubadminton-0.4.1.dist-info/LICENSE,sha256=Ovx6St533DNmpSXvVRXAfbAF69mfOxD-yTcoy-KMSrU,1063
+sysubadminton-0.4.1.dist-info/METADATA,sha256=9KVRXG1VG05F_UvYX8hwY7eiaoSzicFNZd9KgQu94Z4,2238
+sysubadminton-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sysubadminton-0.4.1.dist-info/entry_points.txt,sha256=cX627WZoImT2KTeCYPkvAsgmP9vdlsmee2m5mE4ICn8,50
+sysubadminton-0.4.1.dist-info/top_level.txt,sha256=PIzmWxJqwzCmqyAL21Nqp-YksMvfl_JEVZjYhI7u9pA,14
+sysubadminton-0.4.1.dist-info/RECORD,,
