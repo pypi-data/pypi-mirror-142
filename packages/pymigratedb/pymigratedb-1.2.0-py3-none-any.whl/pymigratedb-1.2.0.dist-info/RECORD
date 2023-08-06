@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/constants.py,sha256=sL04NxevEAMA5ZTw-Sy_nzVWk6OwbwHf-U1wRwpkT-Q,547
+src/migrate.py,sha256=UZDiBEDGq0Kzqbp48dtDtm-cxJJUzpEnp0YvgflW0SM,5404
+tests/__init__.py,sha256=iTw_teUZxYB_s7S7Pm3oHt6-VBZ3S3gn3bnOxxMnATY,64
+tests/test_migratedatabase.py,sha256=6vdqCIXtCAlSWrPWsHNUwok7-RWrfC0JI39t3LOCQbk,802
+pymigratedb-1.2.0.dist-info/LICENSE.txt,sha256=csgAt_CS_oRlfockFDyZNDLDy_ITi08273Cc0RHEhoM,11316
+pymigratedb-1.2.0.dist-info/METADATA,sha256=_UQOhrsuJ017FTdfVmQEYGAPkJDuk7scHbiuJ3MtxfU,1230
+pymigratedb-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymigratedb-1.2.0.dist-info/entry_points.txt,sha256=uR04BHPmzhjMAx14Z1WOgz2Z0rrSrcp4DVvSA6t445w,45
+pymigratedb-1.2.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+pymigratedb-1.2.0.dist-info/RECORD,,
