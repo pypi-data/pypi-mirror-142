@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gwcs
+Version: 0.18.1
+Summary: Generalized World Coordinate System
+Home-page: https://github.com/spacetelescope/gwcs
+Author: gwcs developers
+Author-email: help@stsci.edu
+License: BSD
+Project-URL: Tracker, https://github.com/spacetelescope/gwcs/issues
+Project-URL: Documentation, https://gwcs.readthedocs.io/en/stable/
+Project-URL: Source Code, https://github.com/spacetelescope/jwst
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: docs
+Provides-Extra: test
+
+Tools for managing the WCS of astronomical observations in a general (non-FITS) way
+
