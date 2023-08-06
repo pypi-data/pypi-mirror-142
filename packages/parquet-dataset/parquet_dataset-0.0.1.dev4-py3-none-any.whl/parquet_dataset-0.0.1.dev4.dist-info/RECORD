@@ -1,0 +1,8 @@
+parquet_dataset/__init__.py,sha256=iHNemhap_YP1BNH3n3NV6VLc6zP0I3-ePtRBXQlxdNI,22
+parquet_dataset/pytorch/__init__.py,sha256=2eFEqPNZUdOnCny56JgQiaddfx--a6krFNKAFoGF5HM,87
+parquet_dataset/pytorch/base_parquet_dataset.py,sha256=vkTYP-fEc6EVRVXpOPZrsCcgHW71EbBpbUZhYsUPWi4,4324
+parquet_dataset-0.0.1.dev4.dist-info/LICENSE,sha256=6eLk-ejKsEPU239XjEOeEnpYuRbdJwOqEF5FKTt1qK0,1158
+parquet_dataset-0.0.1.dev4.dist-info/METADATA,sha256=yG9BqiOl9zNG5pAL2ybosWDH7sNRCqjsyK8Ywyz1vUY,485
+parquet_dataset-0.0.1.dev4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+parquet_dataset-0.0.1.dev4.dist-info/top_level.txt,sha256=KgPlXW1eStK5aoY7qUoV2_Z5q1w8tkmDiM7WZai7SAY,16
+parquet_dataset-0.0.1.dev4.dist-info/RECORD,,
