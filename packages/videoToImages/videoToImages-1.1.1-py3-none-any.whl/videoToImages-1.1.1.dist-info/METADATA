@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: videoToImages
+Version: 1.1.1
+Summary: A easy to use, video to images converter
+Home-page: https://github.com/aliwaqas333/VideoToImages
+Author: Ali Waqas
+Author-email: engrr.ali.waqas@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/aliwaqas333/VideoToImages/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+This repository can be used to convert `mp4` files to images, more extensions will be added soon.
+# Installation
+`pip install videoToImages`
+
+# Usage
+### Convert video folder to images
+```py
+videoToimages --videoFolder [pathToVideoFolder]
+```
+example: `videoToimages --videoFolder "c:/videos"`
+
+Running the above command will generate images from the video and store in the directory `imagesConverted` in the videos folder. 
+Alternatively, you can also pass output folder name: `--outFolder`
+
+### Convert video folder to images at specific rate (fps)
+```py
+videoToimages --videoFolder [pathToVideoFolder] --fps 10
+```
+example: `example: videoToimages --videoFolder "c:/videos" --fps 10`
+
+This command will capture 10 frames from each second of video data. You can use any `integer value < original fps`. 
+
+#  Useful Arguments
+- `--videoFolder` - (string) Full path of path of folder containing videos. example: `~/videos`
+- `--outFolder` - (string) Full path of path of folder to store output images (.png). example: `~/videos/images`
+- `--fps` - (int) sampling rate per second from the videos. example: `15`
+- `--resize` - (tuple) or (int) resize output images to specific size. example: `(512, 512)`
+
+# License
+Apache-2.0 License
+
