@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wagtail-colour-picker-enoki
+Version: 0.3.2
+Summary: WagtailColorPickerByEnoki
+Home-page: http://pypi.python.org/pypi/wagtail_colour_picker_enoki/
+Author: Enoki-Studio
+Author-email: theo@enoki-studio.com
+License: LICENSE.txt
+Keywords: wagtail,draftjs,colour,picker,accent,design
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Wagtail colors picker with draftailJs
+
