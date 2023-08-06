@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+cc-agent-helper
+pyjwt
