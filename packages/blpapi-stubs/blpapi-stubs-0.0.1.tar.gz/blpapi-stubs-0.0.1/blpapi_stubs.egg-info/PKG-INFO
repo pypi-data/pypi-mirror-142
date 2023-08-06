@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: blpapi-stubs
+Version: 0.0.1
+Summary: Mypy stubs for blpapi
+Home-page: https://github.com/sdfordham/blpapi-stubs
+Author: Stiofán Fordham
+Author-email: stiofan.fordham@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sdfordham/blpapi-stubs/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# blpapi-stubs
+
+Mypy stubs for [blpapi](https://www.bloomberg.com/professional/support/api-library/).
+
+## Note
+
+The latest version `3.18.0` of blpapi (2022-03-03) is typed; you really only need these stubs if using an older version: `3.17.1` or earlier.
+
+## Installation
+
+````console
+python -m pip install blpapi-stubs
+````
+
+It is not necessary to modify your `config.ini` as the files are placed alongside their `.py` counterparts.
+
+

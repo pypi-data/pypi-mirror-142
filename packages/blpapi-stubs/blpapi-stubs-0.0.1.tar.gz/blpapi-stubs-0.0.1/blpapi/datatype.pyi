@@ -1,0 +1,20 @@
+from typing import ClassVar
+
+class DataType:
+    BOOL: ClassVar[int]
+    CHAR: ClassVar[int]
+    BYTE: ClassVar[int]
+    INT32: ClassVar[int]
+    INT64: ClassVar[int]
+    FLOAT32: ClassVar[int]
+    FLOAT64: ClassVar[int]
+    STRING: ClassVar[int]
+    BYTEARRAY: ClassVar[int]
+    DATE: ClassVar[int]
+    TIME: ClassVar[int]
+    DECIMAL: ClassVar[int]
+    DATETIME: ClassVar[int]
+    ENUMERATION: ClassVar[int]
+    SEQUENCE: ClassVar[int]
+    CHOICE: ClassVar[int]
+    CORRELATION_ID: ClassVar[int]
