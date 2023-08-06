@@ -1,0 +1,8 @@
+README.md
+cz_fogoprobr.py
+setup.py
+commitizen_cz_fogoprobr.egg-info/PKG-INFO
+commitizen_cz_fogoprobr.egg-info/SOURCES.txt
+commitizen_cz_fogoprobr.egg-info/dependency_links.txt
+commitizen_cz_fogoprobr.egg-info/requires.txt
+commitizen_cz_fogoprobr.egg-info/top_level.txt
