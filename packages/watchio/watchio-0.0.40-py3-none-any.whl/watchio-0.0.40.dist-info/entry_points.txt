@@ -1,0 +1,2 @@
+[console_scripts]
+watchio = watchio:WatchIO.main_cli
