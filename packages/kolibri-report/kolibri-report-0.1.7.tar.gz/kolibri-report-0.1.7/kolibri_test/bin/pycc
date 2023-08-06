@@ -1,0 +1,3 @@
+#!/Users/aneruthmohanasundaram/Documents/GitHub/kolibri-report/kolibri_test/bin/python3
+from numba.pycc import main
+main()
