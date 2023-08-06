@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/utils/__init__.py
+src/utils/anticaptcha.py
+src/utils/patch.py
+src/utils/recaptcha_solver.py
+src/utils_whitetail.egg-info/PKG-INFO
+src/utils_whitetail.egg-info/SOURCES.txt
+src/utils_whitetail.egg-info/dependency_links.txt
+src/utils_whitetail.egg-info/requires.txt
+src/utils_whitetail.egg-info/top_level.txt
