@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "aws-s3-tools"
+version = "0.1.0"
+description = "AWS S3 tools package"
+authors = ["Daniel Ferrari"]
+maintainers = ["Daniel Ferrari, Carlos Alves, Tomás Osório"]
+license = "MIT"
+
+readme = "README.md"
+
+packages = [
+    { include = "s3_tools" }
+]
+
+homepage = "https://github.com/dlite-tools/aws-s3-tools"
+repository = "https://github.com/dlite-tools/aws-s3-tools"
+documentation = "https://aws-s3-tools.readthedocs.io/en/latest/index.html"
+
+keywords = ["aws", "s3", "tools", "package"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: Freely Distributable",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+boto3 = "^1.21.12"
+ujson = "^5.1.0"
+rich = {version = "^11.2.0", optional = true}
+types-ujson = "^4.2.1"
+
+[tool.poetry.extras]
+progress = ["rich"]
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+moto = "^3.0.5"
+mypy = "^0.931"
+pydocstyle = "^6.1.1"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+toml = "^0.10.2"
+sphinx-rtd-theme = "^0.5.2"
+sphinx = "^3.5.4"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.aws-s3-tools]
+copyright = "2021, Daniel Ferrari"
