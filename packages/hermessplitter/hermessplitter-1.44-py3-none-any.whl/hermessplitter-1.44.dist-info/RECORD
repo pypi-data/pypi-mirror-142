@@ -1,0 +1,10 @@
+hermessplitter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hermessplitter/functions.py,sha256=BLaG8DkTwBmzyco76-hWR39eY-8-mUPGK3luNQ0MCqw,3065
+hermessplitter/main.py,sha256=O46dP9SLivbJg4l3zkooTv_qOGJu8P76ue73PTh1bME,5769
+hermessplitter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hermessplitter/tests/hermes_activate_tests.py,sha256=mBDYRR_UKedJCqG5k9VeF_9ih0k3NrD3-0gxyOnWfRA,845
+hermessplitter-1.44.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+hermessplitter-1.44.dist-info/METADATA,sha256=rMedHMVGE0hsUBQqayxVdgn13wRbU0ognGtk-N2Vf2A,761
+hermessplitter-1.44.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hermessplitter-1.44.dist-info/top_level.txt,sha256=-irUC62Hn3T0w6CMiftA9yscS2o58MvzLskpUJtx7zI,15
+hermessplitter-1.44.dist-info/RECORD,,
