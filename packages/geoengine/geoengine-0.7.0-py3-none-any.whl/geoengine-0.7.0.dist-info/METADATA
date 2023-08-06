@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: geoengine
+Version: 0.7.0
+Summary: A package for easy access to Geo Engine instances
+Home-page: https://github.com/geo-engine/geoengine-python
+Author: Geo Engine GmbH
+Author-email: info@geoengine.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/geo-engine/geoengine-python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database :: Front-Ends
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopandas (<0.11,>=0.9)
+Requires-Dist: numpy (<2,>=1.21)
+Requires-Dist: owslib (<0.26,>=0.25)
+Requires-Dist: pillow (<10,>=9.0)
+Requires-Dist: python-dotenv (<0.20,>=0.19)
+Requires-Dist: rasterio (<2,>=1.2)
+Requires-Dist: requests (<3,>=2.26)
+Requires-Dist: vega (<4,>=3.5)
+Requires-Dist: xarray (<0.20,>=0.19)
+Provides-Extra: dev
+Requires-Dist: build (<0.8,>=0.7) ; extra == 'dev'
+Requires-Dist: pdoc3 (<0.11,>=0.10) ; extra == 'dev'
+Requires-Dist: pycodestyle (<3,>=2.8) ; extra == 'dev'
+Requires-Dist: pylint (<3,>=2.11) ; extra == 'dev'
+Requires-Dist: setuptools (<61,>=42) ; extra == 'dev'
+Requires-Dist: twine (<4,>=3.4) ; extra == 'dev'
+Requires-Dist: wheel (<0.38,>=0.37) ; extra == 'dev'
+Provides-Extra: examples
+Requires-Dist: cartopy (==0.19.0.post1) ; extra == 'examples'
+Requires-Dist: matplotlib (<4,>=3.4) ; extra == 'examples'
+Requires-Dist: scipy (<2,>=1.7) ; extra == 'examples'
+Provides-Extra: test
+Requires-Dist: matplotlib (<4,>=3.4) ; extra == 'test'
+Requires-Dist: pytest (<7,>=6.2) ; extra == 'test'
+Requires-Dist: requests-mock (<2,>=1.9) ; extra == 'test'
+
+# Geo Engine Python Package
+
+[![CI](https://github.com/geo-engine/geoengine-python/actions/workflows/ci.yml/badge.svg)](https://github.com/geo-engine/geoengine-python/actions/workflows/ci.yml)
+
+This package allows easy access to Geo Engine functionality from Python environments.
+
+## Test
+
+Create a virtual environment (e.g., `python3 -m venv env`).
+Then, install the dependencies with:
+
+```bash
+python3 -m pip install -e .
+python3 -m pip install -e .[test]
+```
+
+Run tests with:
+
+```bash
+pytest
+```
+
+## Dependencies
+
+Since we use `cartopy`, you need to have the following system dependencies installed.
+
+- GEOS
+- PROJ
+
+For Ubuntu, you can use this command:
+
+```bash
+sudo apt-get install libgeos-dev libproj-dev
+```
+
+## Build
+
+You can build the package with:
+
+```bash
+python3 -m pip install -e .[dev]
+python3 -m build
+```
+
+## Formatting
+
+This packages is formatted according to `pycodestyle`.
+You can check it by calling:
+
+```bash
+python3 -m pycodestyle
+```
+
+Our tip is to install `autopep8` and use it to format the code.
+
+## Lints
+
+Our CI automatically checks for lint errors.
+We use `pylint` to check the code.
+You can check it by calling:
+
+```bash
+python3 -m pylint geoengine
+python3 -m pylint tests
+```
+
+Our tip is to activate linting with `pylint` in your IDE.
+
+## Documentation
+
+Generate documentation HTML with:
+
+```bash
+pdoc3 --html --output-dir docs geoengine
+```
+
+## Examples
+
+There are several examples in the `examples` folder.
+It is necessary to install the dependencies with:
+
+```bash
+python3 -m pip install -e .[examples]
+```
+
+## Distribute to PyPI
+
+### Test-PyPI
+
+```
+python3 -m build
+python3 -m twine upload --repository testpypi dist/*
+```
+
+### PyPI
+
+```
+python3 -m build
+python3 -m twine upload --repository pypi dist/*
+```
+
+## Try it out
+
+Start a python terminal and try it out:
+
+```python
+import geoengine as ge
+from datetime import datetime
+
+ge.initialize("https://nightly.peter.geoengine.io/api")
+
+time = datetime.strptime('2014-04-01T12:00:00.000Z', "%Y-%m-%dT%H:%M:%S.%f%z")
+
+workflow = ge.workflow_by_id('4cdf1ffe-cb67-5de2-a1f3-3357ae0112bd')
+
+print(workflow.get_result_descriptor())
+
+workflow.get_dataframe(ge.Bbox([-60.0, 5.0, 61.0, 6.0], [time, time]))
+```
+
+## Authentication
+
+If the Geo Engine server requires authentication, you can set your credentials in the following ways:
+
+1. in the initialize method: `ge.initialize("https://nightly.peter.geoengine.io/api", ("email", "password"))`
+2. as environment variables `export GEOENGINE_EMAIL="email"` and `export GEOENGINE_PASSWORD="password"`
+3. in a .env file in the current working directory with the content:
+
+```bash
+GEOENGINE_EMAIL="email"
+GEOENGINE_PASSWORD="password"
+```
+
+
