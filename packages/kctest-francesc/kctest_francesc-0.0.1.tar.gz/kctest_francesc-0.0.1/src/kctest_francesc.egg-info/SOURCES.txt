@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/application_example/__init__.py
+src/application_example/example.py
+src/kctest_francesc.egg-info/PKG-INFO
+src/kctest_francesc.egg-info/SOURCES.txt
+src/kctest_francesc.egg-info/dependency_links.txt
+src/kctest_francesc.egg-info/requires.txt
+src/kctest_francesc.egg-info/top_level.txt
