@@ -1,0 +1,5 @@
+include mediciasafely/VERSION
+include LICENSE
+include mediciasafely/_vendor/certifi/*.pem
+include mediciasafely/_vendor/jobrunner/schema.sql
+exclude pyproject.toml
