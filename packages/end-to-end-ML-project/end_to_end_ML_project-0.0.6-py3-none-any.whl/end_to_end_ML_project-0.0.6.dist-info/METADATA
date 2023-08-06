@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: end-to-end-ML-project
+Version: 0.0.6
+Summary: End to End ML Project
+Home-page: https://github.com/Deffro/end-to-end-ML-project
+Author: Dimitris Effrosynidis
+Author-email: dimitris.effrosynidis@gmail.com
+License: BSD-3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: feature-engine (==1.2.0)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: loguru (==0.6.0)
+Requires-Dist: tox (==3.24.5)
+Requires-Dist: pytest (==7.0.1)
+Requires-Dist: black (==22.1.0)
+Requires-Dist: flake8 (==4.0.1)
+Requires-Dist: mypy (==0.931)
+Requires-Dist: isort (==5.10.1)
+Requires-Dist: pydantic (==1.9.0)
+Requires-Dist: strictyaml (==1.6.1)
+
+End to End ML Project
+
