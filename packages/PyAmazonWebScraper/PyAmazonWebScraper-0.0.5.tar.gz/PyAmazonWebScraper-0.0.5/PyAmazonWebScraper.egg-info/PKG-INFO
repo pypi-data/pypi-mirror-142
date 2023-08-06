@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: PyAmazonWebScraper
+Version: 0.0.5
+Summary: Python Web Scraper : Pranav Sai
+Home-page: 
+Author: Pranav Sai
+Author-email: pranavs31899@gmail.com
+License: MIT
+Keywords: Python Web Scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Created by Pranav Sai ; 
+
+Youtube: https://www.youtube.com/channel/UC3VQFrTfI-sI3LZtVKFhLDg
+
+--------------------------------------------------------------------------
+
+First Release: Simple Amazon Web Scraper
+    
+    
+    
+
+CHANGELOG
+=============================
+0.0.1(3/13/2022)
+-----------------------------------
+-First Release: Simple Amazon Web Scraper
+
+    page=WebScraper(URL)
+
+    print(page.title())
+
+    print(page.price())
+
+    print(page.rating())
+
+    print(page.total_reviews())
+
+    print(page.availability())
+
