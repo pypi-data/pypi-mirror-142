@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Leslie_DeLury.egg-info/PKG-INFO
+src/Leslie_DeLury.egg-info/SOURCES.txt
+src/Leslie_DeLury.egg-info/dependency_links.txt
+src/Leslie_DeLury.egg-info/top_level.txt
+src/leslieDelury/__init__.py
+src/leslieDelury/popEstimate.py
