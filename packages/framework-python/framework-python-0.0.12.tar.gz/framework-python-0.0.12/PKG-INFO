@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: framework-python
+Version: 0.0.12
+Summary: Macai framework for AWS lambda in Python
+Home-page: https://macaiapp.com
+Author: Macai
+Author-email: developers@macaiapp.com
+License: MIT
+Description: Macai framework for AWS lambda in Python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
