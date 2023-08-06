@@ -1,0 +1,7 @@
+click>=7.0
+requests
+boto3
+pylint<2.5.0
+aero-metaflow
+rich
+psutil
