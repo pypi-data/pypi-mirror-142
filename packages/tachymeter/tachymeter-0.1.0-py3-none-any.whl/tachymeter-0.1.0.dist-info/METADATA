@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tachymeter
+Version: 0.1.0
+Summary: A small, convenient timing package for python
+Home-page: https://github.com/benjisidi/tachymeter
+Author: Benjamin Sidi
+Author-email: benjisidi@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Coming soon.
+
+
