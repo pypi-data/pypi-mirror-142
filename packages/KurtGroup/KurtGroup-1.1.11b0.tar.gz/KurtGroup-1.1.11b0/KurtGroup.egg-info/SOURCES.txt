@@ -1,0 +1,13 @@
+README.md
+setup.py
+Kurt/Info.json
+Kurt/__init__.py
+Kurt/chemical_information.py
+Kurt/output_processing.py
+Kurt/structures.py
+Kurt/xyz.py
+KurtGroup.egg-info/PKG-INFO
+KurtGroup.egg-info/SOURCES.txt
+KurtGroup.egg-info/dependency_links.txt
+KurtGroup.egg-info/requires.txt
+KurtGroup.egg-info/top_level.txt
