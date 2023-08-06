@@ -1,0 +1,7 @@
+include *.lock
+include *.png
+include Pipfile
+include tox.ini
+recursive-include tests *.py
+include *.yaml
+recursive-include squirrel *.yaml

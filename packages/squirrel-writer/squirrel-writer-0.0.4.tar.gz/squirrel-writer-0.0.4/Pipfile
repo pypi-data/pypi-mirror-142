@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rich = "*"
+daemonize = "*"
+watchdog = "*"
+pyyaml = "*"
+python-dateutil = "*"
+
+[dev-packages]
+codespell = "*"
+flake8 = "*"
+pipenv-setup = "*"
+pytest = "*"
+autopep8 = "*"
+check-manifest = "*"
+twine = "*"
+tox = "*"
+pre-commit = "*"
+yelp-gprof2dot = "*"
+pytest-mock = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.9"
