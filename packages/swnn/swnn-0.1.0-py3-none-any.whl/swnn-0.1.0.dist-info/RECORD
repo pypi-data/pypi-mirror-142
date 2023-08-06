@@ -1,0 +1,12 @@
+swnn/__init__.py,sha256=KvM5IayIl5LOqHqLC_0gavMCVDO3vpxOWgtvq9djvJk,333
+swnn/builder.py,sha256=PQ0JJ2kU6I1jExIJJZd4qtNgd1tU2vAdWnGRzAMv7YY,6907
+swnn/graph2tree.py,sha256=F5rJKrERZXV90S-F5ZhEuujYl0RRWrmGzTHbII0ZCLs,12011
+swnn/multipartite_graph.py,sha256=2ufbnXXI9nYegakdPEbkGq5-UeUJX-Hf7xnpg9Kj9nA,8284
+swnn/utils/__init__.py,sha256=yZlvIYq54TvoseoHBqoPvQV9C6FymOJCpwmg9q-UpTc,145
+swnn/utils/_scale.py,sha256=f7PJeq4e4FiblqDyt03ebzNhyJ9w5o3iqn5inYFrLls,4817
+swnn/utils/process.py,sha256=Utb5zGsh7lmLaGQOTWEWNFI7aqACarGgU1fb4KqLCig,13821
+swnn-0.1.0.dist-info/LICENSE,sha256=9bMaAAdxG76isbC-BaMB-8dKRkGVq3wG8NfCzhExcbg,1064
+swnn-0.1.0.dist-info/METADATA,sha256=W8GRUEWJP7G05YV0_PTmHYXqFfKYzy_5pC5uvql_oXM,2914
+swnn-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+swnn-0.1.0.dist-info/top_level.txt,sha256=1Fz-q8fjjZ47sa1SmoBtRGrTAtp7vMLhZCQ8PXEGoZs,5
+swnn-0.1.0.dist-info/RECORD,,
