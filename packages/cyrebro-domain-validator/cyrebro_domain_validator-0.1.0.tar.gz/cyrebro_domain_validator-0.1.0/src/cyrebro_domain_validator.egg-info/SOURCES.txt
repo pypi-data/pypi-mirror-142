@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cyrebro_domain_validator/__init__.py
+src/cyrebro_domain_validator/domain_validator.py
+src/cyrebro_domain_validator.egg-info/PKG-INFO
+src/cyrebro_domain_validator.egg-info/SOURCES.txt
+src/cyrebro_domain_validator.egg-info/dependency_links.txt
+src/cyrebro_domain_validator.egg-info/requires.txt
+src/cyrebro_domain_validator.egg-info/top_level.txt
