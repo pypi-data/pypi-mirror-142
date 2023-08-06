@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: async-case
+Version: 10.1.0
+Summary: Backport of Python 3.8's unittest.async_case
+Home-page: https://github.com/nvllsvm/async_case
+Author: Andrew Rabert
+Author-email: ar@nullsum.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# async_case
+[![PyPi Version](https://img.shields.io/pypi/v/async_case.svg)](https://pypi.python.org/pypi/async_case/)
+
+Backport of Python 3.8's unittest.IsolatedAsyncioTestCase
+
+See upstream [docs](https://docs.python.org/3/library/unittest.html#unittest.IsolatedAsyncioTestCase)
+and [source](https://github.com/python/cpython/blob/3.8/Lib/unittest/async_case.py) for more.
+
+```
+pip install async_case
+```
+
+
