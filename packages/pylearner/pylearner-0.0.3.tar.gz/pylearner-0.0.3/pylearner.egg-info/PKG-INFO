@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pylearner
+Version: 0.0.3
+Summary: a package which is developing
+Home-page: UNKNOWN
+Author: azkidzz
+Author-email: cszcszcsz@126.com
+License: GNU GPLv3
+Description: UNKNOWN
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
