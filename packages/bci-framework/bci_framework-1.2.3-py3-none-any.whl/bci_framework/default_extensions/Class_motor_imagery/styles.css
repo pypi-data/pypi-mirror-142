@@ -1,0 +1,16 @@
+#cue {
+    font-size: 60vh;
+    color: #4dd0e1;
+    justify-content: center;
+    padding-top: calc(50vh - 30vh);
+    line-height: 60vh;
+}
+
+.bci_dashboard button {
+    margin: 10px;
+}
+
+
+.bci_stimuli {
+  background: #000000;
+} 
