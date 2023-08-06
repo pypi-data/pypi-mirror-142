@@ -1,0 +1,7 @@
+setup.py
+symcodelib/__init__.py
+symcodelib.egg-info/PKG-INFO
+symcodelib.egg-info/SOURCES.txt
+symcodelib.egg-info/dependency_links.txt
+symcodelib.egg-info/requires.txt
+symcodelib.egg-info/top_level.txt
