@@ -1,0 +1,14 @@
+caboodle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caboodle/artifacts.py,sha256=lJhnPInRw1oXN5CfJ1Xi2KNeYl1b1QNqmGjBZWiMxsE,4232
+caboodle/artifacts_test.py,sha256=_K5WwMSXBkalh4dUwPo8nHrjgh03PJoghSqbkHimD6E,2099
+caboodle/cli.py,sha256=I4ek1ZIGDXfpHb-MA68DpsrYZ_3CxjsitIbrskIrb_Y,2590
+caboodle/cli_test.py,sha256=ejoIdwC7rX9dZ9KFW5EZKAUBj0Q1zjQzOVXnJpPgVGY,619
+caboodle/coffer.py,sha256=EqOgjtH1xwDsCBkWpLGtTt4tRa2e8Y4293qNQL7fhJ4,5323
+caboodle/coffer_test.py,sha256=i1P28CMjXv0CXpMLdM1srIpJVtsWofjz_iNZPnhYh38,1204
+caboodle/gcs.py,sha256=4pG8EQcIcDG2n81_1AVb0Lr6XLWak-hH2Z3h-yrs9aQ,4831
+caboodle/workflow.py,sha256=DOzVP8yBs7jWWoz6kdPxtGF4kjHFpD9g-Zdp8vokMA0,2810
+caboodle/workflow_test.py,sha256=myPuVWdumIR3SE2WdATfIAqW98RY4Y8veWJpEPDM87w,507
+the_whole_caboodle-0.1.5.dist-info/LICENSE,sha256=G1Aqhrju6dW004uGclY7qwDvcIEKTGMID0sa89uF9hQ,1066
+the_whole_caboodle-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+the_whole_caboodle-0.1.5.dist-info/METADATA,sha256=i7TsbdyouuRqQBFU1AXvi9RWk6zHPk_EEPmeYy2nU5k,538
+the_whole_caboodle-0.1.5.dist-info/RECORD,,
