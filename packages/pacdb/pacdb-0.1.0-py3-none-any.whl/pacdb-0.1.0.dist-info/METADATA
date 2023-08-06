@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pacdb
+Version: 0.1.0
+Summary: Pure-python module to parse and read pacman sync dbs.
+Home-page: https://github.com/jeremyd2019/pacdb
+License: MIT
+Author: Jeremy Drake
+Author-email: github@jdrake.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: zstandard
+Project-URL: Repository, https://github.com/jeremyd2019/pacdb
+Description-Content-Type: text/markdown
+
+# pacdb
+Pure-python module to parse and read pacman sync dbs
+
