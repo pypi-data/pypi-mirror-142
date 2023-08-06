@@ -1,0 +1,14 @@
+htag/__init__.py,sha256=kDWR7m2n8FeDNJajiQ2aK937-YkQkOGwJvseV1YYjSM,910
+htag/render.py,sha256=GfkekSnMo35JEcmqqmncBDYN0OxPpN8hGHIn0Q_JSIU,8564
+htag/runners/__init__.py,sha256=JzRYiwI2Qi3GGrA9wWDv5qUBPow1ARjJghgFiB6Cbcc,661
+htag/runners/browserhttp.py,sha256=LodvbqD6kiKW0Xur1csVr3WODohbj2HG-ZCG6bKAAMI,2803
+htag/runners/browserstarlettehttp.py,sha256=zwBWsmn9RZYZA3dAxPc9n5xbl2BErTBAKxLP7w0VVtw,1714
+htag/runners/browserstarlettews.py,sha256=bT7X0vVcwt9OSr5Lh13CzDhVuo1GkEDDgPI0EU2-II4,1799
+htag/runners/guyapp.py,sha256=bqgc7JCJtLDbeflP41oZZcVkLAhKhg_sJ4L0cF6BSZM,1800
+htag/runners/pywebview.py,sha256=hUz8YDhntW0aeXdGD_tb-7TupX8nPJ7Y-v0hpsQRmko,1599
+htag/runners/webhttp.py,sha256=Ctp34rn9cjNQfFAxvWnQYSR-WJL6sliGS2onhcpA0Y4,3540
+htag/tag.py,sha256=55u5gJ91GPGMb_TOFUSIS2mEWwyQdijWar9TAxVhFt0,5523
+htag-0.0.8.dist-info/LICENSE,sha256=3UHJs7Jn8o60WsDhLxgSKwwgK5MfQ05L9nEKTOA7uGQ,1065
+htag-0.0.8.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+htag-0.0.8.dist-info/METADATA,sha256=2b2Z6ogrYrpW6TEbNdZSuwRqMYJRGxQ3y1VuQoM2bzk,2964
+htag-0.0.8.dist-info/RECORD,,
