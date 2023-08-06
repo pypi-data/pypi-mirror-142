@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+solarmax_query/solarmax_query.egg-info/PKG-INFO
+solarmax_query/solarmax_query.egg-info/SOURCES.txt
+solarmax_query/solarmax_query.egg-info/dependency_links.txt
+solarmax_query/solarmax_query.egg-info/top_level.txt
