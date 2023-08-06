@@ -1,0 +1,12 @@
+pyorthanc/__init__.py,sha256=YnvLmSkjSdV2zE2gIJn2NKW-TVK0h3_9eOZZTtNsNqI,533
+pyorthanc/instance.py,sha256=01RNC71ny6YT2eDb_kwQBrKrRU6l2IdEqog_90U4YWg,5654
+pyorthanc/orthanc.py,sha256=kV77a5Y6fb187Uv1WkQgG0nM_IWrJFCJEIlimO1Meqw,121526
+pyorthanc/patient.py,sha256=jh4tpI3_e9889S8WcJtMQ0I1of3qqzcX1TwDD94WB-8,5598
+pyorthanc/remote.py,sha256=SGgGj2imusB_91mWZsVuGDmRDgwVkB-u9KaYlvmJV5M,3172
+pyorthanc/series.py,sha256=1MikFeE2T4DU0G2Xkc8-QRJvkWqUqMfP4Mgu454XqU4,3507
+pyorthanc/study.py,sha256=vOgzZSGDv9awBbgN817FsfjhpxpTyj8VMc27c4-ewhQ,4694
+pyorthanc/util.py,sha256=I_9kqP9Vw705nR6LgaBgFPpd_7vbtNdRYfZ0O_9tqEM,6816
+pyorthanc-0.2.16.dist-info/LICENSE.txt,sha256=XLau884Wk5dMMC4Y0RCekS14ycbPB8FO20D6o-5DL6U,1059
+pyorthanc-0.2.16.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyorthanc-0.2.16.dist-info/METADATA,sha256=iPOOyII9rZ2ijRN7ZyqvJ2T94ptY7dmnZdfquKgXtYk,560
+pyorthanc-0.2.16.dist-info/RECORD,,
