@@ -1,0 +1,7 @@
+click~=8.0.1
+python-dateutil
+requests~=2.26.0
+inquirer
+pyyaml
+sentry-sdk
+pyfiglet
