@@ -1,0 +1,75 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "audioFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "audioFileProcessing": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "audioFileDuration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "insertionPoint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "position": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "originalFilename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "orderID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "promoID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

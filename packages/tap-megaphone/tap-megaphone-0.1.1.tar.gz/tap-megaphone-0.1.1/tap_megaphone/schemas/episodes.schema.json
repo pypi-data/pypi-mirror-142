@@ -1,0 +1,347 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pubdate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "link": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "imageFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "explicit": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "episodeType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "seasonNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "episodeNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "audioFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "downloadUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "size": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "duration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "originalUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bitrate": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "samplerate": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "channelMode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vbr": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "audioFileProcessing": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "podcastId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "preCount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "postCount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "insertionPoints": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "id3File": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "id3FileProcessing": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "id3FileSize": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "parentId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "guid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "soundcloudIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pubdateTimezone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "originalFilename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "preOffset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "postOffset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "spotifyIdentifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expectedAdhash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "audioFileUpdatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "draft": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "externalId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cleanTitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "customFields": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "published": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "podcastTitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "networkId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "podcastAuthor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "podcastItunesCategories": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "advertisingTags": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}
