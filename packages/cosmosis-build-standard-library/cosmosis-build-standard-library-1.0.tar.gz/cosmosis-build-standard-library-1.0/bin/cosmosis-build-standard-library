@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+DEFAULT_BRANCH=main
+
+if [ "$1" == "" ]; then
+    branch=${DEFAULT_BRANCH}
+else
+    branch=$1
+fi
+
+echo "Downloading version '$branch'"
+
+set -x
+
+
+# Download and build the standard library
+git clone --branch ${branch} https://github.com/joezuntz/cosmosis-standard-library
+pushd cosmosis-standard-library
+
+# it turns out that if you source a script with no arguments
+# then it inherits the arguments from the parent script.
+# Which is clearly insane, but we have to work around it like this.
+# https://stackoverflow.com/a/65912397/989692
+function DoSource() { source cosmosis-configure ; } ; DoSource
+make
+popd
