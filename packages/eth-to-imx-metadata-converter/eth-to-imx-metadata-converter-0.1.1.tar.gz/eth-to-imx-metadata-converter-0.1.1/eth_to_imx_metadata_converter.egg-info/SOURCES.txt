@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+eth_to_imx_metadata_converter/__init__.py
+eth_to_imx_metadata_converter/cli.py
+eth_to_imx_metadata_converter/metadata_converter.py
+eth_to_imx_metadata_converter.egg-info/PKG-INFO
+eth_to_imx_metadata_converter.egg-info/SOURCES.txt
+eth_to_imx_metadata_converter.egg-info/dependency_links.txt
+eth_to_imx_metadata_converter.egg-info/entry_points.txt
+eth_to_imx_metadata_converter.egg-info/not-zip-safe
+eth_to_imx_metadata_converter.egg-info/requires.txt
+eth_to_imx_metadata_converter.egg-info/top_level.txt
