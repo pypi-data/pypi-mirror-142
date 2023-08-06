@@ -1,0 +1,8 @@
+jedi<1,>=0.18
+packaging>=20.0
+pygments>=2.7.4
+urwid>=1.1.1
+urwid_readline
+
+[:python_version < "3.7"]
+dataclasses>=0.7
