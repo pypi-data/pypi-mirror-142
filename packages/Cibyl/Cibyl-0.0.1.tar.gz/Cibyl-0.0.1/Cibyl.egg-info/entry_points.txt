@@ -1,0 +1,4 @@
+[console_scripts]
+ci = cibyl.cli.main:main
+cibyl = cibyl.cli.main:main
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Cibyl
+Version: 0.0.1
+Summary: Cibyl is tool that models ci system bycommand-line interface for querying CI environments
+Home-page: https://github.com/rhos-infra/cibyl
+Author: RHOS CRE Team
+License: Apache
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
