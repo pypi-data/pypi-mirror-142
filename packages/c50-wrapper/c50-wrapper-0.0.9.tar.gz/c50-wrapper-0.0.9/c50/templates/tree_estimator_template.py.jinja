@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Module estimartor_template.py
+--------------------------------------------
+A template for rendering estimators from a parsed output of the C5.0 decision tree; 
+"""
+import pandas as pd
+import numpy as np
+
+
+class {{ estimator_name }}(object):
+    
+    def predict(self, X):
+        {% for node in tree %}
+        {{ '    ' * node.node_level }}if X['{{ node.feature_name }}'] {{ node.operator }} {{ node.value }}:
+        {%- if node.is_terminal %}
+            {{ '    ' * node.node_level }}return '{{ node.label }}'
+        {% endif %}
+        {%- endfor %}
+    
+    def batch_predict(self, X: pd.DataFrame):
+        {% for rule in rules -%}
+        X.loc[X.eval('{{ rule }}'), 'prediction'] = '{{ labels[loop.index0] }}'
+        {% endfor -%}
+        
+        preds = X.pop('prediction')
+        return preds
+
