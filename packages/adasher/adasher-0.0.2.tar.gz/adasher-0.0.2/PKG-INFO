@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: adasher
+Version: 0.0.2
+Summary: Dash with analytics utilities
+Home-page: https://github.com/bhanuchander210/adasher.git
+Author: Bhanuchander Udhayakumar
+Author-email: bhanuchander210@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ADasher - Analytics Dash
+
+[![status](https://api.travis-ci.com/bhanuchander210/adasher.png)](https://travis-ci.com/github/Bhanuchander210/adasher)
+
+Dash with Analytics based components
+
+## Installation
+
+```
+pip install adasher
+```
+
+## Dash results
+
+### Stats
+![adasher_stats](https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/adasher_stats.png)
+
+
+### Stats with plots
+![adasher_stats_plots](https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/adsher_stats_plot.png)
+
+
+### Advanced
+
+![auto_analytics](https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/auto_analytics.png)
+
