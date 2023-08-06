@@ -1,0 +1,16 @@
+kornia_rs-0.0.1.dist-info/METADATA,sha256=v9o67AIVmYOiFkHSkcE74OG1kBg_rtbI5KOTJ8QLYBg,13635
+kornia_rs-0.0.1.dist-info/WHEEL,sha256=qDnmacPTYI_AbRkQDqR9pMRSfGoIdEJ5U-0vwIwDUzk,108
+kornia_rs.libs/libturbojpeg-4f3a923a.so.0,sha256=3kCXKVqpRBvx9JNyEot6RxHPNS1Z6KQIZxsJuK8NZiM,607824
+kornia_rs.libs/libcrypto-c85bc075.so.1.1,sha256=k2l1pwaEN2pmepz_vfk3g_gvvVy4ul9wlcQmm24IX1g,3206728
+kornia_rs.libs/libGLdispatch-000adef1.so.0,sha256=QqMKpSdq9tycsvVtrU7SjIkgRe8HS2cE-dz6bT8rw7w,717832
+kornia_rs.libs/libXdmcp-911ecd1c.so.6,sha256=cHTbA01n-Nrt_FkPo3eZRXBgk4M6-mIJKeBXRGbXgbo,29776
+kornia_rs.libs/libmd-3e8acc74.so.0,sha256=d3hhr_p_YxLJ0M19RdgTJ0XfPTAhWd1N9uihF75pdaY,50864
+kornia_rs.libs/libxcb-a80dca6d.so.1,sha256=bHVKHCBQmAxZ0Kqqe40bQt8uRxrJdoXg-j2Msi1Xd1k,235096
+kornia_rs.libs/libGLX-dc21f515.so.0,sha256=X299OzY1EaIgGp-2DOCp3w9YG6kjAP6YskUwg78mJpE,149288
+kornia_rs.libs/libbsd-c5dac39b.so.0,sha256=W0qKcRTe-324ehAsZSrpoeJD8WvzKyiuKAGss8dO2aU,92744
+kornia_rs.libs/libssl-3fe346cc.so.1.1,sha256=HaJD-TJsKSFuIYYvMW7a1TKTjUYDvLVXzgIcbitpcDk,642040
+kornia_rs.libs/libXau-833aa73c.so.6,sha256=HoTj9tMX9E4vk8YA5fR4cwI7NTymvlIrPUSixui4DfQ,17880
+kornia_rs.libs/libXi-da9f9e8b.so.6,sha256=Lrf91qOgMisGcUVhF_oMzArAiNmOwZY4PrOzM36wc2E,72536
+kornia_rs/__init__.py,sha256=fvoeX18N8NcS53io04-nZcxTErvX9Jxw2qfgEWdn-Qg,54
+kornia_rs/kornia_rs.cpython-39-x86_64-linux-gnu.so,sha256=YfHEOAeNhiLq4GQr_hZAv4NvBbaQxcd6bMXyvpvl1hM,9308712
+kornia_rs-0.0.1.dist-info/RECORD,,
