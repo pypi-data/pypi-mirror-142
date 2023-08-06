@@ -1,0 +1,11 @@
+koko_keywords/__init__.py,sha256=ak8_JsebwmAHAaA1F3ncZnvduKpgUkP1Ef3wK5I9rQo,33
+koko_keywords/koko_keywords.py,sha256=sA7bpFS_9s-jD0v2_-wTpEpt3nXyMuEzm3wc2qq1T_Y,1932
+koko_keywords/lib/libkoko_arm64.dylib,sha256=I8EXxQaBqPMYIjiTs_dWsRXpNB_aGUHkEzfph2uFWxs,6720067
+koko_keywords/lib/libkoko_arm64.so,sha256=U7aXlzmkhRB3HRrVWr03d3nTiTInU6K3K79EZxLAQJk,12899168
+koko_keywords/lib/libkoko_x86_64.dylib,sha256=GLbYxVdZDq8vLIBvKJQmrww62BTOq6Pj2NlKVeU5ZBM,7130072
+koko_keywords/lib/libkoko_x86_64.so,sha256=dxCUiGyJfErWciJDsN2E1jrSb9im3KnwDSxAJqroSGg,12738296
+koko_keywords-0.0.5.dist-info/LICENSE.txt,sha256=bCkrx6qd05i2Mh8AttYFJ1EA8VKf7EhaVeJjUzqQIJ4,1094
+koko_keywords-0.0.5.dist-info/METADATA,sha256=HrlvvsWJ6SEa6oMe7niyX1553p7aYpTNK7aux-GSmoI,4160
+koko_keywords-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+koko_keywords-0.0.5.dist-info/top_level.txt,sha256=Jz_Unp0EXiusK8UnZ0lesT_53qTGygvbGLgtkZiDghw,14
+koko_keywords-0.0.5.dist-info/RECORD,,
