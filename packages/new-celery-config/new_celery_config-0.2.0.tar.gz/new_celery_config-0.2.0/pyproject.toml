@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "new_celery_config"
+version = "0.2.0"
+description = "new-celery-config specifies Celery configuration via environment variables."
+authors = ["Neocrym Records Inc. <engineering@neocrym.com>"]
+license = "MIT"
+readme = "README.rst"
+classifiers = [
+  "Topic :: Software Development :: Object Brokering",
+  "Topic :: System :: Distributed Computing"
+]
+homepage = "https://github.com/neocrym/new-celery-config"
+repository = "https://github.com/neocrym/new-celery-config"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "*"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.12.2"
+mypy = "^0.941"
+black = "^22.1.0"
+isort = "^5.10.1"
+celery = "^5.0.5"
+types-PyYAML = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.svn
+    | \.mypy_cache
+    | \.nox
+    | \.tox
+    | \.venv
+    | venv
+    | build
+    | dist
+    | vendor
+    | bin
+  )/
+)
+'''
