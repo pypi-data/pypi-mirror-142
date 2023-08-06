@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: devicons
+Version: 0.1.0
+Summary: A set of icons representing programming languages, designing & development tools.
+Home-page: https://github.com/UltiRequiem/devicons-python
+License: MIT
+Keywords: utilities,utils,aesthetic,icons
+Author: Eliaz Bobadilla
+Author-email: eliaz.bobadilladev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/UltiRequiem/devicons-python
+Description-Content-Type: text/markdown
+
+# devicons
+
+todo
+
+https://github.com/ryanoasis/vim-devicons/blob/master/plugin/webdevicons.vim
+
