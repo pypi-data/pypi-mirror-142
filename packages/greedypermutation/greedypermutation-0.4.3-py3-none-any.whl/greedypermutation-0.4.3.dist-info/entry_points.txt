@@ -1,0 +1,2 @@
+[console_scripts]
+greedypermutation = greedypermutation.cli:cli
