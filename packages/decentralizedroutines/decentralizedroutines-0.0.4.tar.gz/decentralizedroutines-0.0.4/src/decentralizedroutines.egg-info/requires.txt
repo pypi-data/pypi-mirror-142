@@ -1,0 +1,2 @@
+shareddata==0.0.46
+psutil==5.9.0
