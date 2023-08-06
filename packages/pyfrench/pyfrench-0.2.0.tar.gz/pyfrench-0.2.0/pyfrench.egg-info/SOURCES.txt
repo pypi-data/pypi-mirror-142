@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyfrench/__init__.py
+pyfrench/console.py
+pyfrench/maths.py
+pyfrench.egg-info/PKG-INFO
+pyfrench.egg-info/SOURCES.txt
+pyfrench.egg-info/dependency_links.txt
+pyfrench.egg-info/top_level.txt
