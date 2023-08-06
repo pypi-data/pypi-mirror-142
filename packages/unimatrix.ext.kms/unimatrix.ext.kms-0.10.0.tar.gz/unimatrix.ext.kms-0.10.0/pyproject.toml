@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+markers = [
+  "google: run test for Google Cloud KMS",
+  "hmac: test HMAC signing",
+]

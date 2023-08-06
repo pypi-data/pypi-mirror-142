@@ -1,0 +1,13 @@
+aiohttp>=0.8.0
+aiofiles>=0.8.0
+cryptography>=36.0.1
+unimatrix>=1.2.0
+
+[all]
+google-cloud-kms>=2.0.0
+authlib
+pyjwt
+python-jose[cryptography]
+
+[google]
+google-cloud-kms>=2.0.0
