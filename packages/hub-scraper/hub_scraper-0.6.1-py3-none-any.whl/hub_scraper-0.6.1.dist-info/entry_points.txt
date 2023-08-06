@@ -1,0 +1,3 @@
+[console_scripts]
+hub-scraper=hub_scraper.console.application:main
+
