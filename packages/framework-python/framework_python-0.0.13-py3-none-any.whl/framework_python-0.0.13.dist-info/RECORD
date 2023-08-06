@@ -1,0 +1,7 @@
+framework_python/__init__.py,sha256=P-Y0dkQBtO6xxxRLYYHk7jOoEgCzUH6V2VhuuMMBz2Y,82
+framework_python/aws_client.py,sha256=UzJ8XYD5BBH1SOFLSrWRwMPv0WNwPQEuu9LhPzdCNfk,832
+framework_python/handler_decorator.py,sha256=WQFRUw1EFKSRS_gtVxy-Gn_ZcSrnFC4TbyRFVoB6ALw,866
+framework_python-0.0.13.dist-info/METADATA,sha256=LJfJ_xUfSj2miV_5KxT2iJlcbCXTSum0AZeM7pmI5L4,564
+framework_python-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+framework_python-0.0.13.dist-info/top_level.txt,sha256=vizml8vNuJbsx4lILlVoJULlXCCmnywOILU17Kml9cE,17
+framework_python-0.0.13.dist-info/RECORD,,
