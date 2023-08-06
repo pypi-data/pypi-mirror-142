@@ -1,0 +1,14 @@
+archipelagos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archipelagos/client.py,sha256=byfy9vmsyuHEBp0ctJKKiE_rBaictM2Rt-5ujcF9Vtg,34348
+archipelagos/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archipelagos/common/platform.py,sha256=W4hqsmnBZrMFiA85Z2BWOD5ysSXX2v90v5nRm11Q2Ts,1617
+archipelagos/common/settings.py,sha256=au50Yvll7fT6eBjLi0dimu2Ny8QJYcWh_Dye1SYDsq0,5924
+archipelagos/common/data/__init__.py,sha256=Nbq5igzUluQICGLelVtMzeH7hlDxpa1TG4QTECBsPx4,17380
+archipelagos/common/data/collection.py,sha256=uIabZ6xRrhJHiE-arI_1baK6MyD-4_FSuTLYcQN5f7A,52443
+archipelagos/common/data/filestore.py,sha256=ZucwTC5DC4WxeVg9Dj0MJwzAO7ekb3nR1lOSc2GP_xQ,56976
+archipelagos/common/data/filter.py,sha256=tsPWWc-eXl8bwrpfW85ee0aNIwt9TqQxj-zMwZeOTqY,64815
+archipelagos/common/data/timeseries.py,sha256=0o8Ue8HcMP5n4j9sypsGIhNR6RM2-LvWtz6aWkC0Zp8,63628
+archipelagos-0.0.4.dist-info/METADATA,sha256=JZSIYoB6AHqjzqwo66-8xsMikKpEqXWZqA0jFqtJJ9c,887
+archipelagos-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+archipelagos-0.0.4.dist-info/top_level.txt,sha256=fCiatFfrd0tYb5CR3Ail_j0nRsRP07C-p9F58iOMn08,13
+archipelagos-0.0.4.dist-info/RECORD,,
