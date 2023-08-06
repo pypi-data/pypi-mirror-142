@@ -1,0 +1,13 @@
+README.md
+setup.py
+cli/__init__.py
+cli/alerts.py
+cli/cli.py
+cli/intro.py
+cli/useragent.py
+richwx.egg-info/PKG-INFO
+richwx.egg-info/SOURCES.txt
+richwx.egg-info/dependency_links.txt
+richwx.egg-info/entry_points.txt
+richwx.egg-info/requires.txt
+richwx.egg-info/top_level.txt
