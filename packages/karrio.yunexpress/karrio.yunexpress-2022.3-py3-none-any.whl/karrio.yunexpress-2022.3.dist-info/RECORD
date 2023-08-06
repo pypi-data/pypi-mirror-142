@@ -1,0 +1,12 @@
+karrio/mappers/yunexpress/__init__.py,sha256=IETK9pykoY1X4i0LvX_M0AySYYyFbOUbwoGvXev4aAA,569
+karrio/mappers/yunexpress/mapper.py,sha256=MBFmUaIvslv6tPTrZXw4djsDW91Sv2RivYgU60fgcfw,4258
+karrio/mappers/yunexpress/proxy.py,sha256=EZxqQVBE1osoCI3DiVHVh3OWXIhuRC75FRShBq8c1wI,753
+karrio/mappers/yunexpress/settings.py,sha256=eK9QPPx-UtBf7VZzAi__3ZVNo1n0jv5hxD1LSBUhMXY,438
+karrio/providers/yunexpress/__init__.py,sha256=cXXRIB89L0vYH1lbPSVwOrQPJLxADWAaCu_eAh7fs4I,787
+karrio/providers/yunexpress/error.py,sha256=P5TvTxdWMdzkMM3g0m_4vAXDzq_AnO4wQJoz6Zffy-c,774
+karrio/providers/yunexpress/tracking.py,sha256=z_F5VXaeGgwB4yh08CFrvVBIublf-0faB0inuUDNPYE,1284
+karrio/providers/yunexpress/units.py,sha256=FDDX4qARwkLDvVCbdioyRJmS1sks2sFfps47fBdUaQo,1337
+karrio/providers/yunexpress/utils.py,sha256=Vxp9R_QEIJcWYvh9k3A7tGw3eyNi8nABDPzXQbe2OTw,630
+karrio.yunexpress-2022.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.yunexpress-2022.3.dist-info/METADATA,sha256=ANe40jxKqSKhmQJVb9os-SZS9Ws5MC_FQ1AJE4yW3c4,1345
+karrio.yunexpress-2022.3.dist-info/RECORD,,
