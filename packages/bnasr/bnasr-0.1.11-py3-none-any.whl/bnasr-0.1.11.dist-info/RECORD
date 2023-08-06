@@ -1,0 +1,11 @@
+.DS_Store,sha256=72O6UsDUzUwRgf_FD64MyqdnlcgrSF2cgbJgD5HX0d4,6148
+proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proto/speech2text_pb2.py,sha256=YdKDTYB9-ib11JieeFo_BFA3QQMS11JcQ2mpyuV1_1U,4694
+proto/speech2text_pb2_grpc.py,sha256=wWJsOtsTLedQcKdjCRQLyrvazqN_Ya2e2VCwGGzPW6w,3903
+utils/__init__.py,sha256=DIuWYWCQ8peShdO4m0E5T2RQOQyvD4EIf3ZTM8-9CKI,73
+utils/check_mic.py,sha256=FfctE5abP3db8tJXhmy8fD_1PH49t9RndGAM_B5onO8,260
+utils/stream_output.py,sha256=HWSjYDcU7YNH0N7vx4JoYqqjAhVrYQwuuMAmPyS_UIE,225
+bnasr-0.1.11.dist-info/METADATA,sha256=Y83p6i4HJIHabLAt88kg23pnVEDQ6vghARkjLpxR8n8,473
+bnasr-0.1.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bnasr-0.1.11.dist-info/top_level.txt,sha256=Xqgu1O_xxqGCUdiV2UPKlyPfwRotgFoTbfKvc0jgtpk,12
+bnasr-0.1.11.dist-info/RECORD,,

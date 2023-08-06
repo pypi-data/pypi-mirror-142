@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bnasr
+Version: 0.1.11
+Summary: Botnoi speech to text client
+Home-page: UNKNOWN
+Author: Peerapon Wechsuwanmanee
+Author-email: peerapon.w@gmail.com
+License: UNKNOWN
+Keywords: python,speech recognition,speech to text,botnoi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+UNKNOWN
+
