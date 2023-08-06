@@ -1,0 +1,12 @@
+databaseci/__init__.py,sha256=unlsHQrE8CP51RL6MCqr9QmjNQofKDwJmf7t26WhlLY,192
+databaseci/command.py,sha256=bhds2ZpEMOJXfA0HuFcDKk1nKpFkk0aIauZ0Hd_2Fyw,260
+databaseci/createdrop.py,sha256=IANcVi5KUmX0c8z1LIxE4_5Bng71CvFnhLSXtBzDGPc,953
+databaseci/database.py,sha256=YzKijSrjYkGFYGI-Jx4qLLSEfPqdou0R6uATKHfoA6o,3333
+databaseci/psyco.py,sha256=RdNgLRQoy0HUqY9dkX2Ldkn9DxhT3NOLVLptRNi3FFs,1109
+databaseci/schemas.py,sha256=XX3PaFbW028fWFUmL5Apv_gp-RjwflSZZqvW5Fwzx9Q,215
+databaseci/tempdb.py,sha256=9ogL0RDPgJNO6Z7PYVRPHL--UTIPnuHk4PYw95pUhpA,2300
+databaseci-5.1.0.dist-info/entry_points.txt,sha256=VtVn2H9abqPMNe4icM5PvHnP5VYl9Ud-7OYc7K5nXbU,53
+databaseci-5.1.0.dist-info/LICENSE.md,sha256=1GFwfqvfKRXOgKBklGAs5ilKM-qbPhrUSHyljc-xkaY,952
+databaseci-5.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+databaseci-5.1.0.dist-info/METADATA,sha256=ggGQV_6F1kCuZwoHBQLqc7JhA-4TrR1SKRm32m1rC1Y,878
+databaseci-5.1.0.dist-info/RECORD,,
