@@ -1,0 +1,12 @@
+sii/__init__.py,sha256=wnBuPKcRDqUkocAZ3zBBW3TCzoz0L2rIj4yi8qZ4L5c,79
+sii/resource.py,sha256=pfLT6k2p8ncDwU0sABvc4QemS-4D_huW0U0cpjO6ciY,27395
+sii/server.py,sha256=i97QOkI-JCCqoYQNPjpaVGCjZ6F3MDP9qiu3Iek1aB4,10400
+sii/utils.py,sha256=H3VbaElM1G_hN9dM1FDeMnRuYyicKgxpZsPRYTTM-SM,11530
+sii/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sii/models/basic_models.py,sha256=TnndDaqKGHryJ1MkkCGkjVeGQNLFrd06p9C8wx3ycpU,3442
+sii/models/invoices_deregister.py,sha256=dcwIrcCZsu3yPyM4laSh8HMWgbdD-GMajlNoOs6TAN0,3051
+sii/models/invoices_record.py,sha256=uGkVWsFR6xj3VND8oZGdq1x9N6WJxA2otn8TtS2HZo4,24925
+sii-1.8.8.dist-info/METADATA,sha256=Ob6JNkv-0z-cHSa07RyUjvJeeLL3L4s3srAivISvrQQ,878
+sii-1.8.8.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+sii-1.8.8.dist-info/top_level.txt,sha256=HzfJ5OSROdrKe06esDwWyqxuYYFJMp08nPmj0xiTbF4,4
+sii-1.8.8.dist-info/RECORD,,
