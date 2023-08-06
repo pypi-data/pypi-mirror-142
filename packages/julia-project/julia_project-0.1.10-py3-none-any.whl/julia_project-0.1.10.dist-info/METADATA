@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: julia-project
+Version: 0.1.10
+Summary: Manage a Julia project inside a Python package
+Home-page: https://github.com/jlapeyre/julia_project.git
+Author: John Lapeyre
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.md
+Requires-Dist: julia (>=0.2)
+Requires-Dist: juliacall (>=0.6.1)
+Requires-Dist: find-julia (>=0.2.2)
+Requires-Dist: find-libpython
+Requires-Dist: tomli
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+
+UNKNOWN
+
