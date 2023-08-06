@@ -1,0 +1,2 @@
+djangoldp>=1.0.0
+djangoldp_circle
