@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: im-jote
+Version: 0.2.7
+Summary: The IM Data Manager Job Tester (jote)
+Home-page: https://github.com/informaticsmatters/data-manager-job-tester
+Author: Alan Christie
+Author-email: achristie@informaticsmatters.com
+License: MIT
+Keywords: configuration
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: docker-compose (==1.29.2)
+Requires-Dist: im-data-manager-job-decoder (==1.6.3)
+Requires-Dist: munch (==2.5.0)
+Requires-Dist: pyyaml (==5.4.1)
+Requires-Dist: yamllint (==1.26.3)
+
+Informatics Matters Job Tester
+==============================
+
+.. image:: https://badge.fury.io/py/im-jote.svg
+   :target: https://badge.fury.io/py/im-jote
+   :alt: PyPI package (latest)
+
+The Job Tester (``jote``) is used to run unit tests located in
+Data Manager Job implementation repositories against the Job's
+container image.
+
+Job implementations are required to provide a Manifest file (``manifest.yaml``)
+that lists Job Definition files (in the Job repository's ``data-manager``
+directory). The Manifest names at least ine file and the Job Definition
+should define at least one test for every Job. ``jote`` runs the tests
+but also ensures the repository structure meets the Data Manager requirements.
+
+Tests are defined in the Job definition file. Here's a snippet illustrating a
+Job (``max-min-picker``) with a test called ``simple-execution``.
+
+The test defines an input option (a file) and some other command options.
+The ``checks`` section defines the exit criteria of a successful test.
+In this case the container must exit with code ``0`` and the file
+``diverse.smi`` must be found (in the mounted project directory), i.e
+it must *exist* and contain ``100`` lines::
+
+    jobs:
+      [...]
+      max-min-picker:
+        [...]
+        tests:
+          simple-execution:
+            inputs:
+              inputFile: data/100000.smi
+            options:
+              outputFile: diverse.smi
+              count: 100
+            checks:
+              exitCode: 0
+              outputs:
+              - name: diverse.smi
+                checks:
+                - exists: true
+                - lineCount: 100
+
+Individual tests can be prevented from being executed by adding an `ignore`
+declaration::
+
+    jobs:
+      [...]
+      max-min-picker:
+        [...]
+        tests:
+          simple-execution:
+            ignore:
+            [...]
+
+Tests can be assigned a ``run-level``. Run-levels are numerical value (1..100)
+that can be used to classify your tests, often using it to represent
+execution time. By default all tests that have no run-level and those with
+run-level ``1`` are executed. You can set the run-level for longer-running
+tests higher value, e.g. ``10``. To run these more time-consuming tests you
+specify the new run-level when running jote: ``jote --run-level 10``.
+
+You define the run-level in the root block of the job specification::
+
+    jobs:
+      [...]
+      max-min-picker:
+        [...]
+        tests:
+          simple-execution:
+            run-level: 5
+            [...]
+
+Installation
+------------
+
+Pyconf is published on `PyPI`_ and can be installed from
+there::
+
+    pip install im-jote
+
+This is a Python 3 utility, so try to run it from a recent (ideally 3.10)
+Python environment.
+
+To use the utility you will need to have installed `Docker`_.
+
+.. _PyPI: https://pypi.org/project/im-jote/
+.. _Docker: https://docs.docker.com/get-docker/
+
+Running tests
+-------------
+
+Run ``jote`` from the root of a clone of the Data Manager Job implementation
+repository that you want to test::
+
+    jote
+
+You can display the utility's help with::
+
+    jote --help
+
+Get in touch
+------------
+
+- Report bugs, suggest features or view the source code `on GitHub`_.
+
+.. _on GitHub: https://github.com/informaticsmatters/data-manager-job-tester
+
+
