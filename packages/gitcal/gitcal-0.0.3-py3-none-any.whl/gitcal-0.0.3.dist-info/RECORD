@@ -1,0 +1,13 @@
+gitcal/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+gitcal/__main__.py,sha256=m_kPBrSeVU2pI2K2PCSk1lIjTFi-xoIZBnSC-3ViDao,438
+gitcal/args.py,sha256=HwPXb9Qh8xRkQu6PZL9GShfB7dCwBg3CUvqAq_gNxWM,11778
+gitcal/gitcal.py,sha256=yM_BvdsNuGlvDu_2HcJj5393V4yR9MCELcxw0__cHNo,5357
+gitcal/gitcommit.py,sha256=NumbT7S4aEMQ3lwXvNLHPsAlzrU0cppPY87gzPNKvkA,5298
+gitcal/table.py,sha256=X5pDbGu1DgEBnUJyHhsoZvzg1pVzYEsWaY_2iyD5KZU,9071
+gitcal/tableconfig.py,sha256=-T6kV3MjPWQ0gkEulwzNeNYo3-NE8CTSyoji59qJKbA,1012
+gitcal-0.0.3.dist-info/LICENSE,sha256=_X48nhRIgKEI2yyROWpwOGWRiNFSqtPGHK-HyhvjxaI,1065
+gitcal-0.0.3.dist-info/METADATA,sha256=uzyb1-LsrbdnekNxnIc_Tc9NTeygJWKUGVrmIN_R5TE,2972
+gitcal-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitcal-0.0.3.dist-info/entry_points.txt,sha256=MEqB2jnJKEdUougHT7LLXssZgbr0AFIwtyh4IUUDuF0,48
+gitcal-0.0.3.dist-info/top_level.txt,sha256=JzDGwZii7jQIXDeMRCJv87S0rdHadZnB0DEBqCIqMT8,7
+gitcal-0.0.3.dist-info/RECORD,,

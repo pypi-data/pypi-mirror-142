@@ -1,0 +1,2 @@
+[console_scripts]
+gitcal = gitcal.__main__:main
