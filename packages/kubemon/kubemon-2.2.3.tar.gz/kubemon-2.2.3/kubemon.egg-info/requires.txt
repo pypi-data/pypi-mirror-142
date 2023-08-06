@@ -1,0 +1,6 @@
+requests
+psutil
+docker
+flask
+flask_restful
+gunicorn
