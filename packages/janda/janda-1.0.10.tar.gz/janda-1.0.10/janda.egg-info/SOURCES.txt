@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+janda/__init__.py
+janda/nhentai.py
+janda/pururin.py
+janda/utils.py
+janda.egg-info/PKG-INFO
+janda.egg-info/SOURCES.txt
+janda.egg-info/dependency_links.txt
+janda.egg-info/requires.txt
+janda.egg-info/top_level.txt
