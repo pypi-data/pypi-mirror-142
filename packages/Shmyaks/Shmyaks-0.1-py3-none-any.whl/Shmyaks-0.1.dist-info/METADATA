@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Shmyaks
+Version: 0.1
+Summary: This is package
+Home-page: http://github.com/Shmyaks
+Author: Shmyaks
+Author-email: maxonic10@list.ru
+License: MIT
+Keywords: package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+
+Really, the funniest around.
+
