@@ -1,0 +1,9 @@
+[orange.canvas.help]
+html-index = orangecontrib.i3dxrd.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+i3dxrd = orangecontrib.i3dxrd.widgets
+
+[orange3.addon]
+i3dxrd-add-on = orangecontrib.i3dxrd
+

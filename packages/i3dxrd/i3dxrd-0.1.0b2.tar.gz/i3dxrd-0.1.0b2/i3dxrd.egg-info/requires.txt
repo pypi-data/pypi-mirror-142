@@ -1,0 +1,17 @@
+numpy
+setuptools
+darfix
+silx
+ImageD11
+
+[doc]
+sphinx
+nbsphinx
+recommonmark
+
+[full]
+matplotlib>=1.2.0
+opencv-python==4.1.2.30
+scikit-image>=0.17.1
+PyQt5
+orange3
