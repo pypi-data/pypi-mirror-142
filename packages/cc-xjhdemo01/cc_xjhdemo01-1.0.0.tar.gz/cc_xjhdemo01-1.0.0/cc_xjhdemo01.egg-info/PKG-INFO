@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cc-xjhdemo01
+Version: 1.0.0
+Summary: An feature extraction algorithm
+Home-page: https://github.com/LiangjunFeng/SICA
+Author: xjh815
+Author-email: xujinghua815@qq.com
+License: MIT Licence
+Keywords: pip,cc_xjhdemo01,featureextraction
+Platform: any
+
+An feature extraction algorithm, improve the FastICA
+
