@@ -1,0 +1,3 @@
+[console_scripts]
+swaggerhole = swaggerhole.__main__:main
+
