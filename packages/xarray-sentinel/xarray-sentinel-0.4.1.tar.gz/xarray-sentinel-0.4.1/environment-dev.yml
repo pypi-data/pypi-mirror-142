@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+dependencies:
+  - adlfs
+  - build
+  - gcsfs
+  - ipytree
+  - matplotlib
+  - mamba
+  - notebook
+  - sentinelsat
+
