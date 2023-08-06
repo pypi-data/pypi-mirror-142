@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: budget-constrained-CB
+Version: 0.0.0
+Summary: Constrained Contextual Bandits for Personalized Recommendation
+Home-page: https://github.com/HongleiXie/budgetCB
+Author: Honglei Xie
+Author-email: xhonglei2007@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/HongleiXie/budgetCB/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black (==21.7b0) ; extra == 'dev'
+Requires-Dist: isort (==5.9.3) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: flake8-annotations (==2.6.2) ; extra == 'dev'
+Requires-Dist: flake8-colors (==0.1.9) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.14.0) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.4) ; extra == 'dev'
+Requires-Dist: numpy (==1.21.0) ; extra == 'dev'
+Requires-Dist: joblib (==1.0.1) ; extra == 'dev'
+Requires-Dist: scipy (>=1.7.3) ; extra == 'dev'
+Requires-Dist: matplotlib (==3.5.1) ; extra == 'dev'
+Requires-Dist: scikit-learn (==1.0.2) ; extra == 'dev'
+
+# Budget Contextual Bandits
+
+Constrained Contextual Bandits for Personalized Recommendation. Adding budget constraints to a few popular MAB/CB methods.
+
+- Context-Free Epsilon Greedy
+- LinUCB [[1]](#1)
+- UCB-ALP [[2]](#2)
+- HATCH [[3]](#3)
+
+## Install
+
+`pip install budget-constrained-CB`
+
+## Use
+
+There is an example in Jupyter [notebook](https://github.com/HongleiXie/budgetCB/blob/master/example_data/example.ipynb).
+
+## Reference
+
+<a id="1">[1]</a>
+Li, Lihong, et al. "A contextual-bandit approach to personalized news article recommendation." *Proceedings of the 19th international conference on World wide web.* 2010.
+
+<a id="2">[2]</a>
+Wu, Huasen, et al. "Algorithms with logarithmic or sublinear regret for constrained contextual bandits." *Advances in Neural Information Processing Systems.* 2015.
+
+<a id="3">[3]</a>
+Yang, Mengyue, et al. "Hierarchical Adaptive Contextual Bandits for Resource Constraint based Recommendation." *Proceedings of The Web Conference 2020.* 2020.
+
