@@ -1,0 +1,14 @@
+vertex2tex/__init__.py,sha256=R9p8a8p0VI6Gi9jtESAXJbAuwE7RmsaFfBHQvinOMFw,191
+vertex2tex/config.py,sha256=MG1dWgac6jVBKeCorBXknqakz0d2yfUskbr1wf8-ZP8,4954
+vertex2tex/document.py,sha256=UGojv3E9hlMNid9xrbpPB-HPi06cli33LKX1X6Ulfkc,4673
+vertex2tex/excep.py,sha256=Y7_JxOyUzFHTcU50yEeiK-96VGw4dcS7S3Y5A-d26jM,266
+vertex2tex/v2t.py,sha256=ljgo4XGWTf94JRJJtX8XrvmCmK6lXw2s4RxfXUhWSco,15240
+vertex2tex/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertex2tex/test/test_compress.py,sha256=Dn-CSWplVZ-aWebdbmUzk1Fv4h8lKqbSg4-2JiKD9B8,226
+vertex2tex/test/test_tokenize.py,sha256=d4upyc5XNwRKIGE70J9HM91Uq7vK8LekZ186XAhBRn0,1522
+vertex2tex/test/test_translate.py,sha256=FHQo9bLSlamF_GlhHrtB_TsxpVPQPMIiA2fhFwFf8dM,3054
+vertex2tex-0.3.3.dist-info/LICENSE,sha256=iROVz4vjulo4mJd0L63bnvdw2GYye851ljA5ul_xv8w,1075
+vertex2tex-0.3.3.dist-info/METADATA,sha256=8Xcqh_X97WDDDl986bX3MWMCQRuiWMvXzPm-B3pAgZ4,14839
+vertex2tex-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vertex2tex-0.3.3.dist-info/top_level.txt,sha256=_H6lRCrvA_2ZXDo8hPY-WvnLucc36p0qTDfevE1nywY,11
+vertex2tex-0.3.3.dist-info/RECORD,,
