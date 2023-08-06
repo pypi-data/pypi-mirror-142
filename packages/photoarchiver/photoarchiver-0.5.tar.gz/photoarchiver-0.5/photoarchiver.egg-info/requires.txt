@@ -1,0 +1,4 @@
+exifread
+reverse_geocoder
+tqdm
+requests
