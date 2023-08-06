@@ -1,0 +1,7 @@
+Sphinx>3
+sphinx-autoapi==1.8.*
+sphinx-rtd-theme==0.5.*
+recommonmark==0.7.*
+pbr==5.5.*
+six==1.16.*
+nltk==3.*

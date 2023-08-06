@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+2022.03.0
+---------
+
+* Refactor to use new country and region table (#91)
