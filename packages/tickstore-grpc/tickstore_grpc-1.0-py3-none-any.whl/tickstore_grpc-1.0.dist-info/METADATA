@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tickstore-grpc
+Version: 1.0
+Summary: gRPC code for tickstore client
+Home-page: https://gitlab.com/alphaticks/tickstore-grpc
+Author: Laurent Meunier
+License: copyright
+Platform: UNKNOWN
+
+UNKNOWN
+
