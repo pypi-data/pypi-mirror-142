@@ -1,0 +1,14 @@
+linkml_solr/__init__.py,sha256=h-ksCANf1ZTSr1MJ0XTPboTF3Hsiqd7QvZ1nvikXUYs,131
+linkml_solr/cli.py,sha256=9RwNwUZcLjsNuGypuCAbXLknG4htBeFjchx5z6Wc4c8,5082
+linkml_solr/mapper.py,sha256=w0Fn65S_wVdyR-hSBz6fBVSpanCLOLxeCXxfqmndIVg,1906
+linkml_solr/query.py,sha256=FSltygQaZ5F2_HdJIrY4CNnDml86L-ti24eP77pyd7k,9464
+linkml_solr/solrmodel.py,sha256=9pDscERQvT8_pTY9fLmFQCi3tTa7NmCmcNcsniNwJ1M,2239
+linkml_solr/solrschema.py,sha256=qQQ_rgqbwwtIMJ63NP3S0B6j8QpeDTtGmYA9eBOzokY,13214
+linkml_solr/solrschemagen.py,sha256=60Fao5uQjgHYR2XSv9uro7yo8QIGtd5EtMwkLGG5Jxw,4491
+linkml_solr/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linkml_solr/utils/golr_schema_utils.py,sha256=21GWErS53f9IVnbqrkyox-fYnP4s7hAwpcy4CjmquM8,2937
+linkml_solr/utils/solr_bulkload.py,sha256=G7C-H56qfOgc0wJtimMFbPCrGIkVrJwuyNFM9-Dkzvg,1407
+linkml_solr-0.1.0.dist-info/entry_points.txt,sha256=GOwYVzABjiy3W3R7zGTA8T27ZNRDyF_7nxmhZHm7hvs,46
+linkml_solr-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+linkml_solr-0.1.0.dist-info/METADATA,sha256=kySYpNw9RE2MyhHEfYzADqTcm1wtUSjK6GZWDROwZIw,599
+linkml_solr-0.1.0.dist-info/RECORD,,
