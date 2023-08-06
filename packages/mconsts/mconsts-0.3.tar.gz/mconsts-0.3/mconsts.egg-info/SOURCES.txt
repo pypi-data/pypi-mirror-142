@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+mconsts.egg-info/PKG-INFO
+mconsts.egg-info/SOURCES.txt
+mconsts.egg-info/dependency_links.txt
+mconsts.egg-info/top_level.txt
