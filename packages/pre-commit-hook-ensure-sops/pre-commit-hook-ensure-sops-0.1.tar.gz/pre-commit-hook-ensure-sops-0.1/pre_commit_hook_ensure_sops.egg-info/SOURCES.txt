@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pre_commit_hook_ensure_sops/__init__.py
+pre_commit_hook_ensure_sops/__main__.py
+pre_commit_hook_ensure_sops.egg-info/PKG-INFO
+pre_commit_hook_ensure_sops.egg-info/SOURCES.txt
+pre_commit_hook_ensure_sops.egg-info/dependency_links.txt
+pre_commit_hook_ensure_sops.egg-info/requires.txt
+pre_commit_hook_ensure_sops.egg-info/top_level.txt
