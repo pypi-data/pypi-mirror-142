@@ -1,0 +1,15 @@
+D365API/Access.py,sha256=qKGb-Ey1KT_iOFSRghAkaI0M8dZNTfYQQjMjBG7soLE,2435
+D365API/Common.py,sha256=rRdsXM5yiMQI0X61bXf5QxnOEv_Vv2t5hgWwwZ4wr8I,176
+D365API/Constant.py,sha256=p_kODCKG2MN0w_6m1dIVpuG-j41ThQxpQNxDcBjJ3TQ,188
+D365API/D365API.py,sha256=HanY75EDwNs4zQ7PBr_XpmSGpzE2ii5IFFGX_-pQIo0,1376
+D365API/Entity.py,sha256=H9flQ7YqQWNL5_2Q9z3HdISVA4UNE4PqaeT1JTz3vGY,10602
+D365API/__init__.py,sha256=NiebqKlN2VslrqgVcp80-YSkiU821sCnSPKnU90j6no,133
+D365API/Test/TestAccess.py,sha256=a6T9Rx58lKmRX26EPoGoKA6AjA3KTPOJIQ8as09qAY8,2625
+D365API/Test/TestAccount.py,sha256=AjJD6v38kCqDnZtPFZGKergtugqnqmWIyv3gp9-egRg,30769
+D365API/Test/TestD365API.py,sha256=IdgQM_G2SPUncKueUEwyt1irDY5al3Zhp5IPFe8H-6A,1566
+D365API/Test/__init__.py,sha256=2Sm7ZFSwSVBNBwuJqSgpZINBV1iF3sat_Je8mJStj-Y,1001
+d365fw-0.8.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+d365fw-0.8.0.dist-info/METADATA,sha256=lfUXqyanVqM60Paydkmqoth7rvWvVpso3U5QeXS_FYo,2824
+d365fw-0.8.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+d365fw-0.8.0.dist-info/top_level.txt,sha256=v07uhr2PknCt76k8LuZuE6hBtVVCI3iNef_xWtmAZqk,8
+d365fw-0.8.0.dist-info/RECORD,,
