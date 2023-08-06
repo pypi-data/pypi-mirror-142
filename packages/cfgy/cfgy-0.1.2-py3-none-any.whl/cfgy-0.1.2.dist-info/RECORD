@@ -1,0 +1,10 @@
+cfgy/__init__.py,sha256=FsKXipxvDHw_FxurS78kr42fr_A8ynrSOSiIuQ8uawk,316
+cfgy/_version.py,sha256=nJw07NaAOarsjNXV62uCKxBueTVXsMnv45wa1HFr3pM,142
+cfgy/demo.py,sha256=yDiIgmccY2WnQO4Yqepc2p_HlJxXUh90cj3ye4C422Q,843
+cfgy/general.py,sha256=mPfptAx9DRUKVzPRbB9FwcEE7YVzjVs7BXcWq2g06UM,17933
+cfgy/yaml.py,sha256=NOrLb83vdOCGRgW8ZelvGhbFrJiAcetyHPQan3mwbi4,4360
+cfgy-0.1.2.dist-info/METADATA,sha256=A_9QhcPWri_QmCH-z3wBlNaCbWv7LIh6ra4czIYOOJ0,274
+cfgy-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cfgy-0.1.2.dist-info/top_level.txt,sha256=yrsW6NSbWBWcBvcXIqkmkkThRO4FCkmpPUHlr3NOM3s,5
+cfgy-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cfgy-0.1.2.dist-info/RECORD,,
