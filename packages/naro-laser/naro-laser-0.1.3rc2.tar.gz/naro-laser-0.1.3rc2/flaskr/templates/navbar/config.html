@@ -1,0 +1,56 @@
+{% extends 'base_navbar.html' %}
+{% block content %}
+<main class="container">
+    <div class="bg-light p-5 rounded">
+        <h1>Config</h1>
+        <form>
+            <h5>Sampling</h5>
+            <div class="col-auto">
+                Period(ms):
+                <input type="number" class="form-control" name="sample_period" value="{{ sample_period }}" min="0.25"
+                       max="5" step="0.25">
+                Sample size:
+                <input type="number" class="form-control mb-1" name="sample_size" value="{{ sample_size }}" min="4"
+                       max="32" step="4">
+            </div>
+            <h5>Logging</h5>
+            <div class="col-auto">
+                Max log counts:
+                <input type="number" class="form-control" name="log_max" value="{{ log_max }}" min="10" max="1000"
+                       step="10">
+            </div>
+            <h5>Processing</h5>
+            <div class="col-auto">
+                <select class="form-select" name="proc_method" aria-label="select">
+                    <option selected>{{ proc_method }}</option>
+                    <option value="MEAN">Mean Value</option>
+                    <option value="MEDIAN">Median Value</option>
+                </select>
+            </div>
+            <h5>SSE</h5>
+            <div class="col-auto">
+                Period(ms):
+                <input type="number" class="form-control" name="sse_period" value="{{ sse_period }}" min="0.25" max="1"
+                       step="0.25">
+            </div>
+            <p></p>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+
+        <div class="row justify-content-start">
+            <p></p>
+            <h5>Config file</h5>
+            <div class="col-2">
+                <form><input class="btn btn-primary" type="submit" name="cmd_cnfgfile" value="Save"></form>
+            </div>
+            <div class="col-2">
+                <form><input class="btn btn-success" type="submit" name="cmd_cnfgfile" value="Load"></form>
+            </div>
+            <div class="col-2">
+                <form><input class="btn btn-warning" type="submit" name="cmd_cnfgfile" value="Delete"></form>
+            </div>
+        </div>
+
+    </div>
+</main>
+{% endblock %}
