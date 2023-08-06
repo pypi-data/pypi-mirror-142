@@ -1,0 +1,7 @@
+spec:
+  name: testName
+  feeds:
+    - name: foo
+      feedID: bar
+    - name: spam
+      feedID: eggs
