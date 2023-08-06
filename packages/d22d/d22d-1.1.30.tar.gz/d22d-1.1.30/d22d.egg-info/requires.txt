@@ -1,0 +1,9 @@
+
+[OracleD]
+cx_Oracle==7.2.3
+
+[http]
+http-parser
+
+[rar]
+unrar-cffi
