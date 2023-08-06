@@ -1,0 +1,8 @@
+README.md
+setup.py
+skoleintra/__init__.py
+skoleintra.egg-info/PKG-INFO
+skoleintra.egg-info/SOURCES.txt
+skoleintra.egg-info/dependency_links.txt
+skoleintra.egg-info/requires.txt
+skoleintra.egg-info/top_level.txt
