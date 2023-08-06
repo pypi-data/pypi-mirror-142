@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: DAT-test
+Version: 0.0.1
+Summary: blablabla
+Home-page: https://github.com/toto/titi
+Author: auteur
+Author-email: test@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# TEST
+
+Generate messages.
+
+## Instructions
+
+1. Install:
+
+```
+pip install DAT_test
+```
+
+2. Generate an aesthetic ASCII visual:
+
+```python
+from aesthetic_ascii import synthesize
+# initialize drive object (to generate visuals)
+drive = synthesize.Drive()
+# generate a ASCII visual (dark_mode optional)
+drive.generate(dark_mode=True)
+# save to png
+drive.to_png('aesthetic.png')
+```
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+
+

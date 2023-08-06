@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+DAT_test.egg-info/PKG-INFO
+DAT_test.egg-info/SOURCES.txt
+DAT_test.egg-info/dependency_links.txt
+DAT_test.egg-info/top_level.txt
+dat_test/__init__.py
+dat_test/tn_nodrive.py
