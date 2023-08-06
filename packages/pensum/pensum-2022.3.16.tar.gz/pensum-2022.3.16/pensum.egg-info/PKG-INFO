@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: pensum
+Version: 2022.3.16
+Summary: Command lines reminder
+Home-page: UNKNOWN
+Author: Étienne Nadji
+Author-email: etnadji@eml.cc
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Source Code, https://framagit.org/etnadji/pensum
+Project-URL: Issue tracker, https://framagit.org/etnadji/pensum/-/issues
+Project-URL: Documentation, https://framagit.org/etnadji/pensum/-/wikis/Pensum
+Project-URL: License, https://framagit.org/etnadji/pensum/-/blob/main/LICENSE
+Description: ######
+        Pensum
+        ######
+        
+        Command lines reminder as a command line software.
+        
+        Remind notes are written in Markdown and can be exported to any format Pandoc 
+        handles.
+        
+        Usage
+        =====
+        
+        .. code-block::
+        
+            pm ls [<tag>]
+            pm cat <note_id> [-d] [-s] [-t]
+            pm new <note_id> [<note_title>]
+            pm find <request>
+            pm build <format> [<output_folder>] [--verbose]
+            pm option (set|get) [<option_name>] [<option_value>] [--verbose]
+            pm help [<topic>]
+        
+        * Notes and configuration are stored according to OS conventions (see `folders` help topic).
+        * For more help about `pm` command, see … `pm` help topic.
+        
+        Prerequisites
+        =============
+        
+        * `docopt <https://github.com/docopt>`_
+        * `appdirs <https://pypi.org/project/appdirs/>`_
+        * `rich <https://pypi.org/project/rich/>`_
+        * `pypandoc <https://pypi.org/project/pypandoc/>`_
+        * `stop-words <https://pypi.org/project/stop-words/>`_
+        
+        
+Platform: any
+Classifier: Topic :: Documentation
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.8
