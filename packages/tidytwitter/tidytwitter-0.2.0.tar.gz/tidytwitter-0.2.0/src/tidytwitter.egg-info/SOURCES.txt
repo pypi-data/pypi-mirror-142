@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tidytwitter/__init__.py
+src/tidytwitter/tidytwitter.py
+src/tidytwitter.egg-info/PKG-INFO
+src/tidytwitter.egg-info/SOURCES.txt
+src/tidytwitter.egg-info/dependency_links.txt
+src/tidytwitter.egg-info/entry_points.txt
+src/tidytwitter.egg-info/requires.txt
+src/tidytwitter.egg-info/top_level.txt
