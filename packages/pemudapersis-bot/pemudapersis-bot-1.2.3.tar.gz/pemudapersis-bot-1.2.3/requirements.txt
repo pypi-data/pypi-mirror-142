@@ -1,0 +1,11 @@
+pydantic==1.8.2
+Flask==2.0.1
+python-telegram-bot==13.11
+pandas==1.2.2
+SQLAlchemy==1.4.20
+requests==2.25.1
+colorama==0.4.4
+termcolor==1.1.0
+pyfiglet==0.8.post1
+pytest==7.1.0
+

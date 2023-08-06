@@ -1,0 +1,3 @@
+[console_scripts]
+pemudapersis-bot = pemudapersis_bot.cli.cli:handle_commands
+
