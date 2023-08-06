@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jess
+Version: 0.2.0.1
+Summary: Just in Time Elimination of Spurious Signals - jess
+Home-page: https://github.com/josephwkania/jess
+Author: Joseph W Kania
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Provides-Extra: tests
+Provides-Extra: cupy
+Provides-Extra: docs
+
+UNKNOWN
+
