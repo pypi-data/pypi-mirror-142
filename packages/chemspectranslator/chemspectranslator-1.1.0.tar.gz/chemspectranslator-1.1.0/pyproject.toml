@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "chemspectranslator"
+version = "1.1.0"
+description = "Universal translator for chemical species"
+license = "GPL-3.0-or-later"
+authors = ["Christoph Knote <christoph.knote@med.uni-augsburg.de>"]
+readme = "README.md"
+homepage = "https://mbees.med.uni-augsburg.de/"
+repository = "https://git.rz.uni-augsburg.de/mmbees-git/chemspectranslator_pypackage"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Utilities",
+]
+packages = [
+    { include = "chemspectranslator", from = "src" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3"
+numpy  = ">= 1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
