@@ -1,0 +1,521 @@
+Metadata-Version: 2.1
+Name: fluidai-sanatio
+Version: 2.1.0
+Summary: Run different validation tests on machine learning models.
+Home-page: https://github.com/
+Author: FluidAI
+Author-email: info@fluid.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-plot
+Requires-Dist: sklearn
+Requires-Dist: statsmodels
+Requires-Dist: Pillow
+Requires-Dist: tabulate
+Requires-Dist: seaborn
+Requires-Dist: xgboost
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: sqlalchemy
+Requires-Dist: markdown
+Requires-Dist: mdutils
+Requires-Dist: jupyter
+Requires-Dist: ipython
+Requires-Dist: pymssql
+Requires-Dist: requests
+Requires-Dist: coverage
+Requires-Dist: coverage-badge
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: auto-sklearn
+Requires-Dist: cython
+Requires-Dist: cornac
+Requires-Dist: joblib
+
+﻿# FluidAI - Sanatio
+
+> sanatio(Latin) OR validation(English) <br>
+>> noun <br>
+>> 1. the action of checking or proving the validity or accuracy of something.
+>> 2. the action of making or declaring something legally or officially acceptable.
+>> 3. recognition or affirmation that a person or their feelings or opinions are valid or worthwhile.
+
+The FluidAI - Sanatio package provides functions to perform different types of validation functions, the results of
+which can be used for ensuring the machine learning model trained is robust and the accuracy levels attained are
+dependable. <br>
+
+## Version 2.1.0 updates
+
+1. Code Generation modules
+2. CF model training modules
+3. Correlation structure in routines
+
+## Creating a PIP Package on Pypi.org
+
+[Steps to Create a pip package](https://packaging.python.org/tutorials/packaging-projects/)
+
+[Process for Token Creation and Setup in Pypi.org and Twine](http://172.31.20.20/python/fluid-ai-sanatio/-/wikis/Pip-Package-Setup-Process)
+
+Use the fluidai username for logging into test.pypi.org or pypi.org respectively
+
+Use 192.168.1.90 to upload packages, all packages are uploaded from there
+
+## SPECSHEET / MILESTONES
+
+- **REQUIREMENT**: a package that serves to cross validate the results of machine learning model trained and provide
+  recommendations to correct improve the results of the model finally used for predictions
+- **OBJECTIVES**:
+
+1. python package
+2. submodules with function definitions of different calculations to be performed during model validation
+3. documentation
+4. submodule with function definitions of different graphs / visualizations to be plotted
+
+- **SPEC**:
+
+1. the package needs to have an authentication server and authentication mechanism
+2. it needs a library / submodule of all the different functions that need to be called for performing the analysis
+3. it needs a wrapper that has functions binding to the library of submodules defined above performing each operation
+4. it needs another wrapper class that extends the previous one to include functions that call the base class's function
+   in a sequence to generate recommendations & overall results
+
+### Current directory structure
+
+```
+sanatio/
+├───authentication_server/
+│   ├───authentication_server.py   
+│   ├───utils/
+│   │   ├───db_credential.json        # credential file
+│   │   ├───utils.py
+│   │   └───__init__.py
+│   └───__init__.py
+├───code_generation/
+│   ├───generate_code.py              # codes to generate new cell with functions defined in the below files
+│   ├───metrics_codes.py
+│   └───preprocessing_codes.py
+├───training/
+│   ├───automl/                       # pipeline generation functions
+│   │   ├───pipeline_generation.py
+│   │   └───__init__.py
+│   └───__init__.py
+│   ├───recommsys/                       # recommendation for CF functions
+│   │   ├───cf.py
+│   └───__init__.py
+├───validations/
+│   ├───db_credential.json
+│   ├───graphs/                       # plotting functions
+│   │   ├───graphs.py
+│   │   └───__init__.py                   
+│   ├───routines/                     # folder has different routines 
+│   │   ├───binary_logistic_regression_routine.py 
+│   │   ├───helper_routines.py        # has the base routine and validation routine class that calls different routines
+│   │   ├───linear_regression_routine.py
+│   │   ├───tree_based_classification_routine.py
+│   │   └───__init__.py
+│   ├───sanatio_enact.py              # code to enact sanatio recommendations
+│   ├───session_authentication.py     # code to authenticate with main server  
+│   ├───stats/
+│   │   ├───stats.py                  # plotting functions
+|   |   |───correlation_structure.py
+│   │   └───__init__.py
+│   └───__init__.py
+├───validation_tests/                 # test cases
+│   ├───test_authentication.py
+│   ├───test_automl.py
+│   ├───test_enact.py
+│   ├───test_graphs.py
+│   ├───test_routines.py
+│   ├───test_stats.py
+│   └───__init__.py
+└───__init__.py
+```
+
+*Note*: _Subject to future changes in the file structure._
+
+### Function List
+
+**Note**: Only the required functions are listed below. As such, it is possible that some present in the actual `.py`
+file are not given below.
+_**HINT**_: You can mark things as done by changing `Status` column value from `<span>&#10003</span>`
+to `<span>&#10003</span>`.
+<table>
+<tr>
+<th rowspan="2" colspan="1">filename</th>
+<th rowspan="1" colspan="5">definitions</th>
+</tr>
+<tr>
+<th>function/class</th>
+<th>input</th>
+<th>output</th>
+<th>description</th>
+<th>status</th>
+</tr>
+<tr>
+<td rowspan="2"><code>validations/routines/helper_routines.py</code></td>
+<td><code>BaseRoutine</code></td>
+<td>Functions are called from <code>binary_logistic_regression_routine.py</code>, <code>linear_regression_routine.py</code> and <code>binary_logistic_regression_routine.py</code></td>
+<td>-</td>
+<td>Class with calls to all different validation functions defined within stats.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>ValidationRoutine</code></td>
+<td>-</td>
+<td>-</td>
+<td>Child class of <code>BaseRoutine</code> with functions calling parent class's functions in sequence for different validation routines.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="2"><code>validations/authentication.py</code></td>
+<td><code>set_key</code></td>
+<td>str: key</td>
+<td>-</td>
+<td>This function should be importable and callable before `routine.py` is used. Will set a global variable with auth-key - which is verified by connecting to auth-server.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>authenticate_session</code></td>
+<td>-</td>
+<td>bool: active/inactive</td>
+<td>This function simply uses the global key variable (which can be defined by `set_key`) and checks with auth-server if the key is active. And accordingly return's response.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="25"><code>validations/stats/stats.py</code></td>
+<td>accuracy</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>This function returns the accuracy of the model using sklearn.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>precision</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>This function returns the precision of the model using sklearn.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>recall</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>This function returns the recall of the model using sklearn.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>f1_score</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>This function returns the f1 score of the model using sklearn.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>r_square_cox_snell</td>
+<td>pd.Series: weight, X, actual</td>
+<td>float: value</td>
+<td>Its an R-square measurement based on the assumption that the usual R2 for linear regression depends on the likelihoods for the models.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>r_square_mcfadden</td>
+<td>pd.Series: weight, X, actual</td>
+<td>float: value</td>
+<td>Loosely speaking, its 1 minus the ratio of log likelihood of the fitted model and the null model. Best value within range 0.2-0.4.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>f_test</td>
+<td>pd.Series: sample1, sample2</td>
+<td>tuple of floats: (fstatistic, pvalue)</td>
+<td>The F-test of overall significance indicates whether your linear regression model provides a better fit to the data than a model that contains no independent variables.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>log_loss</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>Log-loss is indicative of how close the prediction probability is to the corresponding actual/true value (0 or 1 in case of binary classification). The more the predicted probability diverges from the actual value, the higher is the log-loss value.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>r_square</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>In statistics, the coefficient of determination, denoted R² or r² and pronounced "R squared", is the proportion of the variation in the dependent variable that is predictable from the independent variable.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>r_square_adjusted</td>
+<td>pd.Series: predicted, actual
+int: no_of_features</td>
+<td>float: value</td>
+<td>Adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>mse</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>Abbreviation: mean square error</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>mae</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>Abbreviation: mean absolute error</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>rmse</td>
+<td>pd.Series: predicted, actual</td>
+<td>float: value</td>
+<td>Abbreviation: root mean square error</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>dunn_index</td>
+<td>pd.DataFrame: data_points, cluster_centroids: </td>
+<td>float: value</td>
+<td>It is calculated as the lowest inter-cluster distance (ie. the smallest distance between any two cluster centroids) divided by the highest intra-cluster distance (ie. the largest distance between any two points in any cluster).</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>silhoutte_score</td>
+<td>pd.DataFrame: data_points, cluster_centroids </td>
+<td>float: value</td>
+<td>Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. Its value ranges from -1 to 1.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>check_sparsity</td>
+<td>pd.DataFrame: data </td>
+<td>list : column names</td>
+<td>The check sparsity function returns the name of the columns that has more than 40% missing values</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>check_correlation</td>
+<td>pd.DataFrame: data
+pd.DataSeries : target
+Float(Optional): pearson_threshold, vif_factor</td>
+<td>dictionary : Name of columns to remove for pearson,vif,correlation with target</td>
+<td>The check sparsity function returns the name of the columns that has more than 40% missing values</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>mutual_information_classification</td>
+<td>pd.DataFrame: data
+pd.DataSeries : target</td>
+<td>dataframe : column and score</td>
+<td>This function will give you the mutual information score of the data</td>
+<td><span>&#10003</span></td>  
+</tr>
+<tr>
+<td>mutual_information_regression</td>
+<td>pd.DataFrame: data
+pd.DataSeries : target</td>
+<td>dataframe : column and score</td>
+<td>This function will give you the mutual information score of the data</td>
+<td><span>&#10003</span></td>  
+</tr> 
+<tr>
+<td>chi_square</td>
+<td>pd.DataFrame: data,
+list : categorical columns</td>
+<td>dataframe : column and score</td>
+<td>This function is used to check the correlation between categorical variables using chi square</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>hl_test</td>
+<td>pd.DataFrame: data,
+pd.Series: actual, predicted_probability,
+list : categorical columns</td>
+<td>dataframe : column and score</td>
+<td>The Hosmer-Lemeshow test (HL test) is a goodness of fit test for logistic regression, especially for risk prediction models. A goodness of fit test tells you how well your data fits the model. Specifically, the HL test calculates if the observed event rates match the expected event rates in population subgroups.</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>kurtosis_check</td>
+<td>pd.DataFrame: data,</td>
+<td>dataframe : column and score</td>
+<td>Kurtosis refers to the degree of presence of outliers in the distribution. Kurtosis is a statistical measure, whether the data is heavy-tailed or light-tailed in a normal distribution.</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>skew_check</td>
+<td>pd.DataFrame: data,</td>
+<td>dataframe : column and score</td>
+<td>Skewness is the measure of symmetry or asymmetry of data distribution.
+</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>ranking_metrics</td>
+<td>metrics: list of metrics, topK: int</td>
+<td>list : contain function list cornac lib</td>
+<td>Ranking metrics is wrapper around cornac lib metrics and use to obtain the result of the models.
+such as MAP, Presion@K etc.
+</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td>rating_metrics</td>
+<td>metrics: list of metrics,</td>
+<td>list : contain function list cornac lib<</td>
+<td>Rating metrics is wrapper around cornac lib metrics and use to obtain the result of the models. such as 
+RMSE, MAE,MSE
+</td>
+<td><span>&#10003</span></td> 
+</tr>
+<tr>
+<td rowspan="8"><code>validations/graphs/graphs.py</code></td>
+<td>calibration_curve_plot</td>
+<td>pd.Series: predicted, actual</td>
+<td>tuple: (ax: matplotlib axes object, float: auc)</td>
+<td>Calibration curves are used to evaluate how calibrated a classifier is i.e., how the probabilities of predicting each class label differ. The x-axis represents the average predicted probability in each bin. The y-axis is the ratio of positives (the proportion of positive predictions).</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>roc</td>
+<td> Dataframe : two_class_probability,
+pd.Series: actual</td>
+<td>plt</td>
+<td>It is a plot of the false positive rate (x-axis) versus the true positive rate (y-axis) for a number of different candidate threshold values between 0.0 and 1.0. Put another way, it plots the false alarm rate versus the hit rate.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>auc</td>
+<td>pd.Series: predicted_probability, actual</td>
+<td>plt</td>
+<td>It returns a plot with the area under the curve given by roc plotting.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>ks_chart</td>
+<td>
+pd.Series: predicted, actual</td>
+<td>plt</td>
+<td>K-S or Kolmogorov-Smirnov chart measures performance of classification models. More accurately, K-S is a measure of the degree of separation between the positive and negative distributions.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>elbow</td>
+<td>pd.DataFrame: data used for training</td>
+<td>ax: matplotlib axes object</td>
+<td>Elbow plots the cluster number vs the overall inertia of the model</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>residual_plot</td>
+<td>pd.Series: predicted,actual</td>
+<td>plt</td>
+<td>A residual plot is a graph that shows the residuals on the vertical axis and the independent variable on the horizontal axis. If the points in a residual plot are randomly dispersed around the horizontal axis, a linear regression model is appropriate for the data; otherwise, a nonlinear model is more appropriate.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>data_relation</td>
+<td>pd.DataFrame : data
+pd.Series: actual</td>
+<td>ax: matplotlib axes object</td>
+<td>This function plots the significant data relation between the individual feature with the target.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>confusion_matrix</td>
+<td>pd.Series: predicted,actual</td>
+<td>plt</td>
+<td>A confusion matrix is a summary of prediction results on a classification problem. The number of correct and incorrect predictions are summarized with count values and broken down by each class.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="2"><code>validations/sanatio_enact.py</code></td>
+<td>enact_helper</td>
+<td>pd.DataFrame:X_train, y_train, X_test, y_test
+object:model</td>
+<td>-</td>
+<td>This class contains all the enacting functions that are used to modify the data passed</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td>enact</td>
+<td>pd.DataFrame:X_train, y_train, X_test, y_test
+object:model</td>
+<td>Generates a enacting report</td>
+<td>This class is used to generate a report by using the functions in the above class and the changes in performance</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="1"><code>training/automl/pipeline_generation.py</code></td>
+<td><code>generate_sanatio_pipeline</code></td>
+<td>pd.DataFrame:X_train, y_train, X_test, y_test
+boolean:classification,regression</td>
+<td>object:automl_model</td>
+<td>This function trains an automl model for the given data, generates a validation report and returns an automl object</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="2"><code>training/recommsys/cf.py</code></td>
+<td><code>TrainCFModel</code></td>
+<td>list(object):models,pd.DataFrame:item_user_df,string:useIDName,list:metrics_list</td>
+<td>object:model, dict:prediction,pickle:model,csv: user_idx_map</td>
+<td>Class to train single collaborative filtering recommendation system model.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>CFExperiment</code></td>
+<td>list(object):models,pd.DataFrame:item_user_df,string:useIDName,list:metrics_list,int:ratioSplit</td>
+<td>Table with result for the model</td>
+<td>Class to run experiment on different models of collaborative filtering recommendation system.</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td rowspan="5"><code>code_generation/</code></td>
+<td><code>generate_code.py</code></td>
+<td>Functions are called from <code>regression_search_codes.py</code>, <code>classification_search_codes.py</code>, <code>preprocessing_codes.py</code>  and <code>metrics_code.py</code></td>
+<td>Creates new cell on notebook</td>
+<td>Functions to create new cells on notebook with codes</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>metrics_codes.py</code></td>
+<td>The functions available in this file are gini_index</td>
+<td>This file has codes that will be called by the generate_code.py file</td>
+<td>Functions to create metrics code</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>preprocessing_codes.py</code></td>
+<td>The functions available in this file are find_columns_type, numericals_summary, categoricals_summary, skew_kurtosis_summary, pearson_correlation_filter, chi_square_filter, p_val_filter, vif_filter, standardize_encoder, onehot_encoder, robust_encoder</td>
+<td>This file has codes that will be called by the generate_code.py file</td>
+<td>Functions to create preprocessing  code</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>regression_search_codes.py</code></td>
+<td>The functions available in this file are search_xgb_regression, search_random_forest_regression, search_linear_regression</td>
+<td>This file has codes that will be called by the generate_code.py file</td>
+<td>Functions to create search codes for regression models  code</td>
+<td><span>&#10003</span></td>
+</tr>
+<tr>
+<td><code>classification_search_codes.py</code></td>
+<td>The functions available in this file are search_xgb_classification, search_random_forest_classification, search_logistic_regression_classification</td>
+<td>This file has codes that will be called by the generate_code.py file</td>
+<td>Functions to create search codes for classification model</td>
+<td><span>&#10003</span></td>
+</tr>
+</table>
+
+
