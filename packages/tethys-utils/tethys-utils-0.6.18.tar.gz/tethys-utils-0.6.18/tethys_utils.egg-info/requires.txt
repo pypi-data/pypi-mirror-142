@@ -1,0 +1,9 @@
+tethys-data-models>=0.4.4
+requests
+tethysts>=0.4.11
+rasterio
+numexpr
+dask
+numcodecs
+hydrointerp
+geojson
