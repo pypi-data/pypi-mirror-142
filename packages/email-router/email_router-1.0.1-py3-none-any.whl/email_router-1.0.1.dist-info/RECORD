@@ -1,0 +1,15 @@
+emailrouter/__init__.py,sha256=YKmsQ-X7D24G1w6-GtdgLXJyiDWimK0fxZqiKW1gO1I,298
+emailrouter/email.py,sha256=EuNFo9DRFe-I3N9PpPBvIh9oKP5H4zJ4a5M8MeDwojw,1591
+emailrouter/filters.py,sha256=6jf4lcwfXXZHJ_UiFsbuPZ8KW0MgORpzTZ2aM89NP7M,5134
+emailrouter/handlers.py,sha256=QZ4CzVtj836hIBQR99PbVGhoElCgl18C-yCtdtK1vyY,3767
+emailrouter/routing.py,sha256=FtT2TOu3-z99h477OEVweGtT4ylXVAO4-JxBO0A24_M,2244
+emailrouter/testsuite.py,sha256=ppXrD_VUvqhflQ_a8TnIbd4092DvAvUMYFfzYH9NMAk,1680
+emailrouter/utils.py,sha256=rJPpc-giBQPJwwwYSU8K7mdJLEg_-HqE7Vk_e7WLgjE,2552
+emailrouter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emailrouter/tests/test_filters.py,sha256=uLRT_QciWziGly_LZa0MWkaVvVHDDPzpBPbgYJ_R4Ls,6320
+emailrouter/tests/test_router.py,sha256=dkAkzAPPnDuBrv-L0hiKu6DsE8aKykGmEuQKVNYtP_c,2090
+email_router-1.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+email_router-1.0.1.dist-info/METADATA,sha256=qKqR0LSbbXKKjekLeuKISl5beufA-iuaHfMdRiGmEig,1439
+email_router-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+email_router-1.0.1.dist-info/top_level.txt,sha256=Ucbf-Bj8PzAxlTnPKXvbXtfn84GU5P7rbvqkOhr_MPw,12
+email_router-1.0.1.dist-info/RECORD,,
