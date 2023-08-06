@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+gitflic/__init__.py
+gitflic/__version__.py
+gitflic/api.py
+gitflic/auth.py
+gitflic/exceptions.py
+gitflic.egg-info/PKG-INFO
+gitflic.egg-info/SOURCES.txt
+gitflic.egg-info/dependency_links.txt
+gitflic.egg-info/requires.txt
+gitflic.egg-info/top_level.txt
