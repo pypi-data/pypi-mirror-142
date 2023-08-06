@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: insight-pythonsdk
+Version: 0.0.1
+Summary: insight-pythonsdk
+Home-page: UNKNOWN
+Author: htsc
+Author-email: fuqianliang@htsc.com
+License: Apache2.0
+Project-URL: Documentation, https://packaging.python.org/tutorials/distributing-packages/
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Project-URL: Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy (>=1.14)
+
+insight python sdk
+
