@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: prtpy
+Version: 0.5.0
+Summary: Number partitioning in Python
+Home-page: https://github.com/erelsgl/prtpy
+Author: Erel Segal-Halevi
+Author-email: erelsgl@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/erelsgl/prtpy/issues
+Project-URL: Source Code, https://github.com/erelsgl/prtpy
+Keywords: optimization,partition
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.3)
+Requires-Dist: scipy (>=1.6.1)
+Requires-Dist: mip
+
+# prtpy 
+
+![Pytest result](https://github.com/erelsgl/prtpy/workflows/pytest/badge.svg)
+[![PyPI version](https://badge.fury.io/py/prtpy.svg)](https://badge.fury.io/py/prtpy)
+
+Python code for multiway number partitioning and bin packing algorithms.
+
+Supports several exact and approximate algorithms, with several input formats, optimization objectives and output formats.
+
+## Installation
+
+    pip install prtpy
+
+If you want to speed up the ILP code, you can install the GUROBI solver.
+See the [documentation of Python-MIP](https://www.python-mip.com/) for more information.
+
+## Usage
+
+The function `prtpy.partition` can be used to activate all number-partitioning algorithms. For example, to partition the values [1,2,3,4,5] into two bins using the greedy approximation algorithm, do:
+
+    import prtpy
+    prtpy.partition(algorithm=prtpy.partitioning.greedy, numbins=2, items=[1,2,3,4,5])
+
+To use the exact algorithm based on ILP, and maximize the smallest sum:
+
+    prtpy.partition(algorithm=prtpy.partitioning.ilp, numbins=2, items=[1,2,3,4,5], objective=prtpy.obj.MaximizeSmallestSum)
+
+Similarly, the function `prtpy.packing` can be used to activate all bin-packing algorithms.
+
+For more features and examples, see:
+
+1. [Number-partitioning algorithms](examples/partitioning_algorithms.md);
+1. [Bin-packing algorithms](examples/packing_algorithms.md);
+1. [Bin-covering algorithms](examples/covering_algorithms.md);
+1. [Input formats](examples/input_formats.md);
+1. [Optimization objectives](examples/objectives.md);
+2. [Output formats](examples/output_formats.md).
+
+## Related libraries
+
+* [numberpartitioning](https://github.com/fuglede/numberpartitioning) by SÃ¸ren Fuglede JÃ¸rgensen - the code for [complete_greedy](prtpy/complete_greedy.py) is adapted from there.
+* [binpacking](https://github.com/benmaier/binpacking) by Ben Maier.
+
+## Limitations
+
+The package is tested only on Python 3.8 and 3.9. Earlier versions, as well as 3.10, are not supported.
+
+
+
+
