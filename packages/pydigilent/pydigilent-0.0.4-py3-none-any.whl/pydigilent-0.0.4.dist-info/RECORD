@@ -1,0 +1,8 @@
+pydigilent/__init__.py,sha256=j6uwXu9iwcAmxf1DMpl-bSbNJ7omKK1_R9wzOwl25Bs,46
+pydigilent/dwf.py,sha256=d7lGr5tpfdiDUdjj1hSLDHpQVXZtmOIexcYkw9WtqF4,39216
+pydigilent/dwfconstants.py,sha256=Yr3Fz6XUSLO0JHnv0suBhEHNvgiywI2y6auB4FCLBN0,8139
+pydigilent-0.0.4.dist-info/LICENSE,sha256=KyQyaibCRXPxFG7Lg-oXETeV8hW6t4-mvpZE3tFFIis,1069
+pydigilent-0.0.4.dist-info/METADATA,sha256=lXM5wiZmHYZxll1Y3hg2vmO0hEczGjNvOKtG_exQtjk,2187
+pydigilent-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydigilent-0.0.4.dist-info/top_level.txt,sha256=DolT1jCg5gytxvyBW3sfVh0uYy7z4aGcpfWxrm0VaSA,11
+pydigilent-0.0.4.dist-info/RECORD,,
