@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: djangoldp-sales
+Version: 0.0.9
+Summary: {{ description }}
+Home-page: https://git.startinblox.com/djangoldp-packages/djangoldp-sales
+Author: Startin'blox
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: djangoldp (>=1.0.0)
+Requires-Dist: djangoldp-circle
+
+# djangoldp-sales
+
+
+
