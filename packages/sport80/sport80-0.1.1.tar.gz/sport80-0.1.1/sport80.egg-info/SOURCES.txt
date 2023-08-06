@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sport80.egg-info/PKG-INFO
+sport80.egg-info/SOURCES.txt
+sport80.egg-info/dependency_links.txt
+sport80.egg-info/requires.txt
+sport80.egg-info/top_level.txt
