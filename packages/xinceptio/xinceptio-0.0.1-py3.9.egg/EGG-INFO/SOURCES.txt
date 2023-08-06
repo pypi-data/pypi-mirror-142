@@ -1,0 +1,14 @@
+setup.py
+xinceptio/__init__.py
+xinceptio/fuzzy_clause.py
+xinceptio/fuzzy_rule.py
+xinceptio/fuzzy_set.py
+xinceptio/fuzzy_system.py
+xinceptio/fuzzy_variable.py
+xinceptio/fuzzy_variable_input.py
+xinceptio/fuzzy_variable_output.py
+xinceptio.egg-info/PKG-INFO
+xinceptio.egg-info/SOURCES.txt
+xinceptio.egg-info/dependency_links.txt
+xinceptio.egg-info/not-zip-safe
+xinceptio.egg-info/top_level.txt
