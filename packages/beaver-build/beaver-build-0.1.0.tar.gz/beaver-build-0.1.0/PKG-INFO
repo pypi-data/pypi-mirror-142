@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: beaver-build
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Till Hoffmann
+Author-email: niches_osmosis0a@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Provides-Extra: docs
+
+🦫 Beaver
+=========
+
+.. image:: https://github.com/tillahoffmann/beaver/actions/workflows/main.yml/badge.svg
+  :target: https://github.com/tillahoffmann/beaver/actions/workflows/main.yml
+
+Beaver is a small build system that uses the python language to express how ::code:`beaver.Transformation`\ s generate output ::code:`beaver.Artifact`\ s from input ::code:`beaver.Artifact`\ s.
+
+Interface
+---------
+
+Artifacts
+^^^^^^^^^
+
+.. code-block::
+
+  .. automodule:: beaver.artifacts
+   :members:
+
+Transformations
+^^^^^^^^^^^^^^^
+
+.. code-block::
+
+  .. automodule:: beaver.transformations
+   :members:
+
+

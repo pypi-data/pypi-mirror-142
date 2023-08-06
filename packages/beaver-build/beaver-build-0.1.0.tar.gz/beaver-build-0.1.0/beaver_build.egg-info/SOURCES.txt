@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+VERSION
+setup.cfg
+setup.py
+beaver/__init__.py
+beaver/artifacts.py
+beaver/cli.py
+beaver/transformations.py
+beaver/util.py
+beaver_build.egg-info/PKG-INFO
+beaver_build.egg-info/SOURCES.txt
+beaver_build.egg-info/dependency_links.txt
+beaver_build.egg-info/requires.txt
+beaver_build.egg-info/top_level.txt
