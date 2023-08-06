@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/TextCutUps.egg-info/PKG-INFO
+src/TextCutUps.egg-info/SOURCES.txt
+src/TextCutUps.egg-info/dependency_links.txt
+src/TextCutUps.egg-info/top_level.txt
+src/Textcutpackage/TextCutUp.py
+src/Textcutpackage/__init__.py

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: TextCutUps
+Version: 0.0.1
+Summary: A package that helps cut up text for creative writers
+Home-page: https://github.com/users/lukedevereux/projects/1
+Author: Luke Devereux
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#HELLO AND WELCOME TO THE READ.ME
+
+This package lets you create cut ups with text in the style of William Burroughs. There are a couple of ways of doing this
+
+1 Cutting a page into 4 sections by sentence
+2 Cutting a page into 4 sections by line
+3 Creating a fold from two texts
+
