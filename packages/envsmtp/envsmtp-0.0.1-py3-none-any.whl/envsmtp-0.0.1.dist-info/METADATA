@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: envsmtp
+Version: 0.0.1
+Summary: Simple sending of smtp emails using env variables
+Home-page: https://github.com/ofersadan85/envsmtp
+Author: Ofer Sadan
+Author-email: ofersadan85@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# envsmtp
+Simple sending of smtp emails using env variables
+
+
