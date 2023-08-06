@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+cryptome/__init__.py
+cryptome/routes.py
+cryptome.egg-info/PKG-INFO
+cryptome.egg-info/SOURCES.txt
+cryptome.egg-info/dependency_links.txt
+cryptome.egg-info/top_level.txt
