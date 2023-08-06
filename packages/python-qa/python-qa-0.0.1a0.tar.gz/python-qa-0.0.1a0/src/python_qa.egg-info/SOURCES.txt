@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/python_qa/__init__.py
+src/python_qa.egg-info/PKG-INFO
+src/python_qa.egg-info/SOURCES.txt
+src/python_qa.egg-info/dependency_links.txt
+src/python_qa.egg-info/top_level.txt
+src/python_qa/utils/__init__.py
+src/python_qa/utils/structure.py
