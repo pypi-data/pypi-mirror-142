@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pynut
+Version: 0.0.1
+Summary: Function easing life :)
+Home-page: https://github.com/LaurentTupin
+Author: Laurent Tupin
+Author-email: laurent.tupinn@gmail.com
+License: Copyright 2022-2035
+Platform: UNKNOWN
+Classifier: License :: Free For Home Use
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Laurent Tupin - pynut
+
+It provides various functions to provide additionnal functionnalities
+For more information see the tutorial ...
+
+## Installation
+
+You can install the package from [PyPI](https://pypi.org/project/pynut/):
+    python -m pip install pynut
+The package is supported on Python 3.7 and above.
+
+## How to use
+
+    $ ...
+    
+
+
+You can also call the Real Python Feed Reader in your own Python code, by importing from the `reader` package:
+
+    >>> from pynut import pyNut
+    >>> pyNut.nutDate.today()
+  
+
