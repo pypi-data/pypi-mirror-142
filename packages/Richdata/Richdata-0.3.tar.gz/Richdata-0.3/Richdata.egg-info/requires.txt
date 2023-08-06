@@ -1,0 +1,12 @@
+pandas
+
+[bigquery]
+google.cloud.bigquery
+google.oauth2
+
+[postgres]
+SQLAlchemy
+psycopg2-binary
+
+[sqlserver]
+pyodbc
