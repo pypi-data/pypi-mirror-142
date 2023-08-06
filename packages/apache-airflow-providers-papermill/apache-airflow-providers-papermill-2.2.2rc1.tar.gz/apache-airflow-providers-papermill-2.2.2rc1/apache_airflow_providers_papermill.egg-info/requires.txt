@@ -1,0 +1,5 @@
+apache-airflow>=2.1.0rc1
+papermill[all]>=1.2.1
+scrapbook[all]
+gitpython
+wheel
