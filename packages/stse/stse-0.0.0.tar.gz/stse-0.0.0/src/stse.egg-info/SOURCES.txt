@@ -1,0 +1,12 @@
+setup.py
+src/data_sci/__init__.py
+src/data_sci/data_sci.py
+src/stse.egg-info/PKG-INFO
+src/stse.egg-info/SOURCES.txt
+src/stse.egg-info/dependency_links.txt
+src/stse.egg-info/requires.txt
+src/stse.egg-info/top_level.txt
+src/stuff_that_should_exist/__init__.py
+src/stuff_that_should_exist/data_sci.py
+src/stuff_that_should_exist/dataframes.py
+src/stuff_that_should_exist/duplicates.py
