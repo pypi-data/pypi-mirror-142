@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+setup.py
+kggn/__init__.py
+kggn.egg-info/PKG-INFO
+kggn.egg-info/SOURCES.txt
+kggn.egg-info/dependency_links.txt
+kggn.egg-info/top_level.txt
