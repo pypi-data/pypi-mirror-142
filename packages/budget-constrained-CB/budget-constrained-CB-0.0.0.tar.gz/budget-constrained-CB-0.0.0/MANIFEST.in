@@ -1,0 +1,3 @@
+recursive-include budgetcb * 
+include docs/pkg_docs.md
+recursive-exclude example_data *
