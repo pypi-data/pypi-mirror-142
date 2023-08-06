@@ -1,0 +1,759 @@
+CHANGES
+=======
+
+* midi compand
+* atk1=0 dec1 > 0
+* no concurrent
+* drum maps
+* rel scaling
+* high pass filter, fix rel
+* pr speed round
+* need to drop NA diffs when calculating rates
+* read less samples
+* tests
+* initial midi note
+* midi doesn't need frame
+* correct int freq
+* bpm
+* default bpm
+* derive bpm from int freq by default
+* pytype uses -P
+* desidulate pytype
+* resample to utils
+* pytype
+* discover tests
+* disable pytype
+* py
+* copyright
+* initial note
+* cacheable/int
+* fix ADSR MIDI
+* main()
+* sudo
+* env
+* mididemux
+* fileio
+* sudo
+* cleanup
+* control bit tests
+* fold noise + other to waveform 0
+* more redundant R/S state
+* test no rel
+* preserve adsr
+* ADSR cols
+* logs
+* more tests
+* maxprspeed
+* cols/clock
+* log
+* no overwrite mean
+* type
+* need vol, use popular pr\_speed
+* test
+* 2 speed
+* q
+* skip clock\_start
+* fix waveform diff, samples
+* initial 0 waveform
+* filter test1/vol
+* resample
+* fix test
+* more testing
+* consolidate changes
+* bits2byte
+* do not need rate\_max, fall back to clock
+* rate clip
+* test pr\_speed
+* testable calc\_rates
+* test
+* don't need clock scaler
+* simplify
+* pytype
+* pad own function
+* crunch
+* very hard won
+* clock/min
+* frame precision loss
+* common frame
+* precision loss in frames
+* more test1 redundancy
+* diags
+* index
+* adsr
+* assert
+* verify waveforms when resampling
+* qx
+* pr\_speed
+* speed
+* use resample
+* pr\_frame
+* col\_min
+* resample
+* fix clock replace
+* correct frame calc
+* default rate\_max should be 0
+* rate/max
+* dropfix
+* drops
+* groupby
+* pr\_frame\_clock
+* avoid add/drop of rate cols
+* squeeze before ssf calculations
+* calc ratemin by frame
+* move rate cols
+* test split
+* swi test
+* empty list
+* genall
+* formatting
+* Update README.md
+* Update README.md
+* Update README.md
+* Update README.md
+* Update README.md
+* add screenshot
+* args
+* shorten WFARP
+* FRM
+* trim trailing
+* diff mult
+* filter
+* filter res
+* rle compress
+* dotize
+* prototype
+* cbits
+* default resample
+* pr\_speed
+* fix empty
+* miss 0
+* calculate pr\_frame
+* handle 1 SSF
+* early discard
+* calc rate maxes only
+* simplify filter
+* last row
+* more transforms
+* more order
+* log
+* log
+* avoid more transform
+* avoid more transform
+* avoid transform
+* avoid compute ADSR
+* common sus
+* index/test1\_inital
+* make multi cpu aware
+* group skip
+* clip min rate
+* rate
+* vbi\_frame
+* handle empty
+* resample to frames
+* frame/ssf col ordering
+* don't need \_lasts
+* 0 ref last
+* another workaround for atk == 0, sus == 0
+* pylint
+* collapse 0 prefix
+* waveform0
+* remove trailing test1 or no waveform
+* test
+* cleanup
+* args
+* released year
+* describe
+* passes
+* recurse
+* initial
+* arg generator
+* resample gateoff
+* set gateoff clock
+* unused cleanup
+* pytype
+* pytype
+* fix fs cache
+* file cache
+* Revert "need hashid noclock."
+* need hashid noclock
+* cleanup resample
+* more tests
+* simplify
+* more tests
+* more tests
+* cleanup
+* move to pyarrow
+* handle empty
+* add more resample metadata
+* maxclock
+* need mod
+* better glob
+* shorter
+* shorter waveform
+* test remove repeats
+* shard by waveform order
+* no log
+* resample at 25e4
+* fix sustain detect
+* discard changes just before next SSF
+* fix resample
+* reduce resample resolution
+* remove redundant columns
+* faulty restart workaround
+* unify sidinfo
+* sus might be 0 on gate on
+* pylint
+* enable sharding
+* dodge redundant adsr
+* fix sharding
+* sharded resampling
+* make index of all resampled SSFs
+* Resample ssf logfile
+* no waveform0 due to libresid231
+* remove thumbnail concept
+* adjust duration
+* verbose, use wav cache
+* next\_clock\_start
+* Add duration metadata to each ssf
+* fix skiptest
+* skip parser/one time
+* min samples clock
+* skiptest incorrect
+* remove SSFs with all test1
+* handle no SSFs
+* useful metadata
+* include hashid noclock
+* bracket
+* better blanking of reconfig during initial test1
+* v
+* row hash cache once
+* merge position
+* actually once
+* when flt routing 0, cutoff and res do not matter
+* drop fltext
+* atk1
+* sample todo
+* more coalesce
+* coalesce reorder
+* coalesce filters once, more efficient near coalesce
+* diff
+* shift1
+* no passes
+* test multipass
+* test passes
+* simplify coalesce
+* simplify/test coalesce
+* dtype once
+* sid not used by reg2state
+* run vsid for info database
+* need pal flag
+* Make gensidinfo subtune aware
+* filter complex
+* add test with attack > 0 and sus == 0
+* skip parser
+* initial waveform 0
+* add sys
+* empty
+* generate all
+* disable sample guess (too lossy)
+* map ssf to thumb
+* fix thumbnail generation
+* fix squeeze\_diffs
+* lint
+* wrong index
+* sort\_values
+* sort in place
+* ssf\_root
+* half frames
+* fltcoff
+* Even better high rate sample discard
+* discard again
+* discard max rate
+* pulse limit
+* min pulse freq
+* syntax
+* detect pulse 64k
+* Much simpler sample discard
+* comments
+* more empty reject
+* no filter
+* mask
+* mask
+* filter
+* digi group
+* empty gate
+* Remove empty end
+* discard samples early
+* pylint
+* f/n
+* speed
+* pal
+* drop filenames
+* year parse
+* simplify
+* metadata index
+* scale automation
+* no waveform0
+* reject 0 waveform start
+* frame 0 for length 0
+* lint
+* subset
+* subset
+* skip empty
+* Generate thumbnails
+* nopin
+* dfext
+* pylint
+* discard
+* discard samples entirely
+* Remove thumbnail ssfs for now
+* test bit samples not detected
+* diff\_cols
+* short path
+* labels
+* Add diagram
+* pipeline diagram
+* control -> thumbnail
+* control SSF has vectors
+* rename skip\_ssf to sample\_ssf, control\_ssf to sample\_ssf
+* add mtime
+* prefilter noise
+* sid vicious
+* log skip decisions
+* Experimental frame resync
+* less complex sample playback detection
+* directly play
+* can remove frequency with no waveform
+* state2samples wrong results where inital values decrease
+* Allow sample rate change
+* control SSF uses abs clock
+* Add ssf indexer
+* Detect empty log
+* MIDI lone percussion/deoverlap, min/max clock
+* minclock/voicemask filter
+* pylint
+* voicemask
+* maxclock/high tom
+* qn
+* syntax
+* default BPM, timer args
+* skiptest arg
+* skiptest
+* remove bpm
+* default to melody if gate held open
+* continue
+* faster types
+* type compression
+* simply skiptest
+* Remove diff cols - not used
+* Move init end
+* don't need int()
+* faster df2wav
+* drop cols that don't change
+* cover
+* coverage/no sox
+* 2test
+* QN window
+* only initial
+* More classification
+* Handle gate never goes off for a voice
+* inst detect/noisewaveforms
+* syntax
+* skiptest
+* more ssf meta
+* output instrument map
+* remove sox
+* w/s
+* ref clock
+* pylint
+* update
+* nosox
+* MAX\_WORKERS
+* lint
+* lint
+* lint
+* initial
+* test
+* wav
+* ffill
+* invert
+* init
+* ref frame, pitch drop
+* count
+* control ignore env
+* logs
+* split coalesce
+* logging
+* separate noclock hashid
+* rel frame
+* double check
+* 2b fix
+* less drop
+* less drop
+* df
+* collapse 64 cycle writes
+* avoid drops
+* iat
+* no len
+* precalc
+* groupby clock sum
+* hash less
+* lint
+* initial ADSR only
+* Use ADS from gate on, and R from gateoff
+* test env changes
+* test dec/sus
+* dec change
+* row\_hash not stable
+* jittermatch
+* build
+* lint
+* Test rel changes don't take effect until gateoff
+* Add sox
+* add mostf
+* avoid fragmentation warning generating samples
+* groupby ssf\_hash
+* faster hash
+* faster hash
+* better hash rowhash
+* Precalc hash
+* faster
+* series not writable
+* faster hash
+* Remove freq changes while gate and all waveforms off
+* min check
+* improve skipping
+* del
+* keep skip, cache fast mod cycles
+* na
+* skip sample playback
+* clockdiffmean
+* vol filter
+* sid vicious uses < 256
+* diffs
+* more outliers
+* quantile
+* ncol
+* sidlib
+* fast limit
+* pulse1 == 0
+* max
+* unique
+* fast
+* PWM pulse playback
+* don't need pulse check
+* len
+* max
+* drop pulse/vol ssfs
+* control ssf
+* ''
+* name
+* TRACK\_TYPE
+* mididemux
+* common tracks
+* add\_event.s
+* end\_of\_track
+* track\_zero
+* reusable
+* makeevent
+* Add end of track
+* skip
+* Add mididemux
+* lgc
+* last\_rel
+* skip phases
+* Revert "Revert "doc updates.""
+* Revert "doc updates."
+* sync with test1
+* doc updates
+* math
+* velocity curve
+* Cache frequency calculations
+* last\_clock
+* simplify
+* drop sounding
+* lookup velocity
+* reorder
+* groupby
+* fix waveform states
+* fix test
+* test
+* faster row\_waveforms
+* zip
+* lru
+* lru
+* split
+* unused
+* precalculate freq
+* arg
+* generator
+* cheaper hash
+* pylint
+* max lines
+* more dtypes
+* dtypes, rows
+* Reduce memory
+* MIDI ref
+* Fix ssf2midi
+* Update README.md
+* Update README.md
+* simplify
+* replace with Pandas based implementation
+* suppress tri
+* squash synced fieldnames
+* Don't rename mute3
+* del\_cols
+* remove unnecessary v3 params
+* drop
+* wider bass drum detect
+* sync/ring audible
+* convenient reg order
+* pylint
+* convenient synced voice order
+* Remove ring bit if not used, only generate drums if drums selected
+* ring only active when triangle waveform selected
+* errant fields
+* Generate SID info CSVs
+* Need to accumulate non-voicenum events
+* meta df
+* maxclock
+* denoise
+* normalize
+* test normalize
+* need prev state
+* Fix pw\_duty not removed when pulse == 0
+* more mute
+* dtype
+* mute3
+* reg\_max
+* filter assert
+* mute3
+* events within first frame
+* test
+* README
+* ssf2midi
+* smg
+* parse reg log to ssf log
+* dump\_events
+* df
+* frame wrap
+* Move all ssf class to ssf
+* test
+* rename
+* bass drum
+* ssf
+* midi notes should account for first test period
+* empty diffs
+* pytype
+* coverage
+* whitespace
+* parser tests
+* basic test
+* freq\_diff
+* force advance
+* reinit sid
+* install
+* tests
+* test sidwav
+* df2wav
+* max silent clocks
+* default sampling
+* int16
+* waveform
+* unused
+* sum helper
+* diffs
+* cumsum
+* temp voice states
+* undiff
+* min frame clock
+* iter
+* optimize
+* snare
+* fix filter
+* pylint
+* empty note
+* functionalize
+* split
+* ssf
+* empty midi notes
+* Faster register diff
+* collapse initial unvoiced
+* pylint
+* cache
+* cache midi\_notes
+* midi notes
+* cache df
+* first\_state
+* first\_clock
+* last state
+* remove unused filters
+* rename
+* bitranges
+* unused
+* inc consolidate
+* frame
+* frame
+* clock offset
+* frame
+* simplify
+* pylint
+* static
+* to\_csv()
+* precalc
+* Add gate
+* consolidate
+* yield
+* unused voicemask
+* yield
+* default dict/append
+* itertuples
+* single snare
+* parsedf
+* should be int64
+* pandas
+* plotwav
+* delete under max
+* clamp maxrows
+* patch pandas
+* pandas
+* compress patch buffers
+* Prototype ssf2wav
+* Fix reg2wav.py
+* pylint
+* super()
+* pytest
+* pytest
+* xz support
+* split to ssf.py
+* functionalize
+* clockq
+* clock\_freq
+* field names
+* frame\_clock offset
+* de-jitter
+* pass clock
+* frame\_clock
+* use frame
+* calc frame
+* More sidwrap
+* Bracket on gate only
+* pylint
+* Move to music21
+* req order
+* qn\_clock one place
+* logfile, sidreg
+* attrs
+* upgrade
+* enable pytype
+* pytype
+* pytype
+* not gen
+* pylint/pytype
+* maxsize
+* pylint
+* upgrade pip
+* setuptools/requirements
+* gha
+* skip
+* CSV quote
+* patch extract
+* sync select
+* skip non audible
+* trim voicestate tail
+* diff method
+* sse
+* sse
+* flat
+* strdump
+* More frozen
+* frozen factory
+* sidreg
+* frozen move
+* regmap
+* hash
+* super
+* debug
+* lots cache
+* in release
+* voicenum
+* no voicereg
+* Sidreg
+* int diff
+* Frozen
+* factory
+* diff
+* gates\_on()
+* gates\_on
+* gate\_on/hashreg
+* maxreg
+* Workaround missing fp lib
+* Nicer default midi location
+* Fix note onset detection, make drum tracks dynamic ordering
+* Allow reading of gz
+* One shot bass drums
+* Add pip3 install
+* Move to SMF object
+* sustain controls velocity
+* unused logfileout
+* docs
+* docs
+* Comments
+* Multiphase detection
+* test with hardcoded drum definitions
+* Handle test bit and clock boundaries
+* closest n
+* Choose non-kick based on duration
+* pylint
+* kick placeholder
+* clock quantization
+* non 0 duration
+* Add noise notes
+* noise waveform
+* constants
+* tracks
+* pylint
+* Detect no voices gated on
+* hash voices/main separately
+* Nicer debug
+* DROP
+* Add consolidate option
+* Flexible consolidated changes
+* pad samples
+* Smart diff
+* filter et al
+* Render as dict
+* reg2log
+* Don't need logoutfile
+* Don't need logoutfile
+* sorted
+* gitignore
+* Output deduped log
+* CLI args for reg2wav
+* initial bracket clock
+* bracketing
+* consolidate
+* consolidate
+* more efficient combine
+* Add initial reg2midi.py
+* get\_gate\_events()
+* comment
+* hashreg
+* hex and statecache
+* ADSR
+* mask
+* voicemask
+* reg2wav
+* comment
+* closest midi
+* write timeout, midi
+* Add sidmidi
+* clock\_to\_qn
+* move get\_consolidated\_changes()
+* comment
+* real\_sid\_freq
+* Comment
+* Add sidwav
+* Add reg scraper
+* Add sidlib
+* Initial commit

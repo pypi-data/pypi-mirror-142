@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: desidulate
+Version: 0.0.1.dev824
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Josh Bailey
+Author-email: josh@vandervecken.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
