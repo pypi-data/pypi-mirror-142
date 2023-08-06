@@ -1,0 +1,8 @@
+synochat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synochat/exceptions.py,sha256=t_xo0PzA_SeoSnAVEtERGKC0IR3ToSobFNSu4ha8vJg,1996
+synochat/webhooks.py,sha256=nhX5ACsxW4loD6w1gfvJDPS7joeJQsElyWRQY5l0KrQ,12703
+synochat-1.0.1.dist-info/LICENSE,sha256=i5nBioUhjh2ABBkyY_t7DH4lpJ2wZM2q6SyXtq59twI,1092
+synochat-1.0.1.dist-info/METADATA,sha256=fCzJFct3YGeu5Z92PtzS2zEaA_ra7aP8Qc8Jn_UT1sc,4790
+synochat-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+synochat-1.0.1.dist-info/top_level.txt,sha256=LKOCU50LH5HoEjTNa820B-5h6uWkUl2Y4rstbguX9Bw,9
+synochat-1.0.1.dist-info/RECORD,,
