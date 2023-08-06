@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: judgyprophet
+Version: 0.0.1.9000
+Summary: Bayesian judgmental adjustment forecasting library.
+Home-page: https://www.github.com/judgyprophet
+Author: Jack Baker
+Author-email: jackcbaker@yahoo.com,
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+
+Bayesian judgmental adjustment forecasting library.
+
