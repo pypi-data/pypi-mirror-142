@@ -1,0 +1,212 @@
+syntax = "proto3";
+
+package blits;
+
+service Blitskrieg {
+    /**
+    Return basic information about channels in the running stack.
+    */
+    rpc ChannelInfo (ChannelInfoRequest) returns (ChannelInfoResponse);
+
+    /**
+    Create a docker stack with the requested LN nodes.
+    */
+    rpc CreateStack (CreateStackRequest) returns (CreateStackResponse);
+
+    /**
+    Get BLITSkrieg info.
+    */
+    rpc GetInfo (GetInfoRequest) returns (GetInfoResponse);
+
+    /**
+    Return basic information about nodes in the running stack.
+    */
+    rpc NodeInfo (NodeInfoRequest) returns (NodeInfoResponse);
+
+    /**
+    Remove any existing docker stack.
+    */
+    rpc RemoveStack (RemoveStackRequest) returns (RemoveStackResponse);
+
+    /**
+    Return basic information about the running stack.
+    */
+    rpc StackInfo (StackInfoRequest) returns (StackInfoResponse);
+}
+
+service Bitcoin {
+    /**
+    Get a bitcoin address.
+    */
+    rpc GetAddress (GetAddressRequest) returns (GetAddressResponse);
+
+    /**
+    Generate the requested number of blocks, each containing the requested
+    number of transactions with the specified number of inputs and outputs.
+    */
+    rpc GenTransactions (GenTransactionsRequest)
+        returns (GenTransactionsResponse);
+
+    /**
+    Mine the requested number of blocks, optionally sending the mining reward
+    to a specific address.
+    */
+    rpc MineBlock (MineBlockRequest) returns (MineBlockResponse);
+
+    /**
+    Send the requested amount of BTC to the requested address.
+    */
+    rpc Send (SendRequest) returns (SendResponse);
+}
+
+service Lightning {
+    /**
+    Send BTC to all LN nodes.
+    */
+    rpc FundNodes (FundNodesRequest) returns (FundNodesResponse);
+}
+
+message Channel {
+    // channel identifier
+    string channel_id = 1;
+    // id of the first peer
+    string peer1_id = 2;
+    // id of the second peer
+    string peer2_id = 3;
+    // total capacity in satoshi
+    uint64 total_capacity_sat = 4;
+    // peer1 balance in millistatoshi
+    uint64 peer1_balance_msat = 5;
+    // peer2 balance in millistatoshi
+    uint64 peer2_balance_msat = 6;
+}
+
+message ChannelInfoRequest {
+    // list of open channel_ids, an empty list is a request for all of them
+    repeated string channel_ids = 1;
+}
+
+message ChannelInfoResponse {
+    // information about requested channels
+    repeated Channel channels = 1;
+}
+
+message CreateStackRequest {
+    uint32 clightning = 1;
+    uint32 eclair = 2;
+    uint32 electrum = 3;
+    uint32 lnd = 4;
+}
+
+message CreateStackResponse {
+}
+
+message GetInfoRequest {
+}
+
+message GetInfoResponse {
+    string version = 1;
+}
+
+message Node {
+    // short identifier of the node
+    string id = 1;
+    // uri of the node
+    string node_uri = 2;
+    // lightning implementation of the node
+    string implementation = 3;
+    // confirmed onchain balance of the node in satoshi
+    uint64 onchain_balance_sat = 4;
+    // lightning total balance of the node in millisatoshi
+    uint64 offchain_balance_msat = 5;
+    // list of ids for this node's channels
+    repeated string channel_ids = 6;
+}
+
+message NodeInfoRequest {
+    // list of node_ids, an empty list is a request for all of them
+    repeated string node_ids = 1;
+}
+
+message NodeInfoResponse {
+    // information about requested nodes
+    repeated Node nodes = 1;
+}
+
+message RemoveStackRequest {
+}
+
+message RemoveStackResponse {
+}
+
+message StackInfoRequest {
+}
+
+message StackInfoResponse {
+    // number of nodes
+    repeated string node_ids = 1;
+    // number of open channels
+    uint32 channel_count = 2;
+    // total lightning capacity in satoshi
+    uint64 total_ln_capacity_sat = 3;
+    // height of the last block in the chain
+    uint32 block_height = 4;
+}
+
+message GetAddressRequest {
+}
+
+message GetAddressResponse {
+    // bitcoin address from mining wallet
+    string address = 1;
+}
+
+message GenTransactionsRequest {
+    // number of blocks to be created
+    uint32 blocks = 1;
+    // number of transactions to insert in each block
+    uint64 transactions = 2;
+    // number of inputs of each transaction (default 1, max 3)
+    uint32 n_inputs = 3;
+    // number of outputs of each transaction (default 1, max 3)
+    uint32 n_outputs = 4;
+}
+
+message GenTransactionsResponse {
+}
+
+message MineBlockRequest {
+    // number of blocks to be mined
+    uint32 blocks = 1;
+    // bitcoin mining address
+    string address = 2;
+}
+
+message MineBlockResponse {
+    // a list of mined blocks hashes
+    repeated string block_hashes = 1;
+    // current block height
+    uint32 height = 2;
+}
+
+message SendRequest {
+    // address where to send BTC
+    string address = 1;
+    // amount of BTC to send
+    double amount = 2;
+    // number of confirmations requested for the sending transaction
+    uint32 confirmations = 3;
+}
+
+message SendResponse {
+    // ID of the sending transaction
+    string txid = 1;
+}
+
+message FundNodesRequest {
+}
+
+message FundNodesResponse {
+    // amount sent to nodes, in satoshi
+    int64 sent_amount = 1;
+}
