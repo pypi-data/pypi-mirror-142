@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qlligraphy
+Version: 0.1.0
+Summary: graphql-schema -> pydantic models
+License: BSD-3-Clause License
+Author: kuchichan
+Author-email: pawel.kucharski@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astunparse (>=1.6.3,<2.0.0)
+Requires-Dist: graphql-core (>=3.2.0,<4.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
