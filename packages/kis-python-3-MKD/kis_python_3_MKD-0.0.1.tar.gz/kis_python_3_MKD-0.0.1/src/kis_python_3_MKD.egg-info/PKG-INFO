@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kis-python-3-MKD
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitlab.com/muradovgitlab
+Author: MKD
+Author-email: kamilmuradov300@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Small uni task to upload
+
+

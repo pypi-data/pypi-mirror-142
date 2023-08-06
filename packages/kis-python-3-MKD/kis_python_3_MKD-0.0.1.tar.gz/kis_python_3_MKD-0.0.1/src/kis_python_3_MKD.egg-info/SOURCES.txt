@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/kis_python_3_MKD.egg-info/PKG-INFO
+src/kis_python_3_MKD.egg-info/SOURCES.txt
+src/kis_python_3_MKD.egg-info/dependency_links.txt
+src/kis_python_3_MKD.egg-info/top_level.txt
+src/package/5.py
+src/package/__init__.py
