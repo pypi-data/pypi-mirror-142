@@ -1,0 +1,9 @@
+BlobTrigger2
+common
+commonmarmallikarjunagoud2
+getFileStatus
+getTaskListAssets
+jobNumber
+postExamDates
+postTaskListStatus
+tests
