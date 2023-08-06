@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pointevector-xmlparser
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Pointe-Vector/xml_parser
+Author: Andrew Hoekstra
+Author-email: andrew@pointevector.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: typing-extensions
+
+UNKNOWN
+
