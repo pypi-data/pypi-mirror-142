@@ -1,0 +1,12 @@
+numpy<1.22,>1.19
+astropy
+matplotlib
+zarr
+tqdm
+cycler
+specutils
+numba>0.55
+weno4
+sunpy
+ipywidgets
+jupyterlab
