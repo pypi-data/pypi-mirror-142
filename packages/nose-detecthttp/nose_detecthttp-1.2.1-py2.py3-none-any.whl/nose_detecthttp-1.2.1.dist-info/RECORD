@@ -1,0 +1,10 @@
+detecthttp/__init__.py,sha256=7CSso0K9az5KujSaQbY1OEIV7GkV8b0IMYwb-oJOjR4,81
+detecthttp/_version.py,sha256=Mlm4Gvmb_6yQxwUbv2Ksc-BJFXLPg9H1Vt2iV7wXrA4,22
+detecthttp/plugin.py,sha256=xrOPWL4oj7OcSlz7RnUHN1Jk6fq6Xw-IaUR1nkGO7LA,5361
+detecthttp/pytest.py,sha256=9qFW6OjeV6UBml3Te62cFx7tbKQHFlzylRAgVfqmMOI,3108
+nose_detecthttp-1.2.1.dist-info/LICENSE,sha256=pjNorQKdWiuhZa5wAcDF8ipRQ_KVhW5uQJAAYGHpqT0,1073
+nose_detecthttp-1.2.1.dist-info/METADATA,sha256=yJLvqN_ljdG1WsVBxImras_Pp7O3cuVZZgA1XoTh_u4,3556
+nose_detecthttp-1.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+nose_detecthttp-1.2.1.dist-info/entry_points.txt,sha256=uO68Ez3OODIQW9rCSUsZgjjhOxH6CQeemLMCgKEtQKU,98
+nose_detecthttp-1.2.1.dist-info/top_level.txt,sha256=sK_zH47ZbsakkEItV4dp2hzETmqcBoKOUUDGjVxx1AQ,11
+nose_detecthttp-1.2.1.dist-info/RECORD,,
