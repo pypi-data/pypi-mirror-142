@@ -1,0 +1,7 @@
+bqskitrs==0.1.0_beta.2
+dask[distributed]
+lark-parser
+numpy>=1.16.6
+scipy>=1.4.1
+threadpoolctl
+typing-extensions
