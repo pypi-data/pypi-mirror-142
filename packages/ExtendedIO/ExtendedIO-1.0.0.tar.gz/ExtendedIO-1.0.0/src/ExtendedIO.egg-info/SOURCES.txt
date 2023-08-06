@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ExtendedIO.egg-info/PKG-INFO
+src/ExtendedIO.egg-info/SOURCES.txt
+src/ExtendedIO.egg-info/dependency_links.txt
+src/ExtendedIO.egg-info/top_level.txt
+src/extendedio/__init__.py
+src/extendedio/binary_stream.py
