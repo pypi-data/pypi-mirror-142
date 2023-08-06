@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: merge-hris-client
+Version: 1.2.1
+Summary: Merge HRIS API
+Home-page: UNKNOWN
+Author: Merge Team
+Author-email: hello@merge.dev
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Merge HRIS API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    The unified API for building rich integrations with multiple HR Information System platforms.  # noqa: E501
+    
+
