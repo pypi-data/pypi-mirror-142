@@ -1,0 +1,15 @@
+dj_loguru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_loguru/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+dj_loguru/apps.py,sha256=DqrGyp5Q50CVf5PiZqX4XufupGGhzCiuvOGnVtwEYNk,575
+dj_loguru/handlers.py,sha256=wMwON0_J97WXhWaiUG4fmZzPety9uJZeuXCSt7KWinI,814
+dj_loguru/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+dj_loguru/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+dj_loguru/utils.py,sha256=KNcLufcHBbqFFg9ajoqB-tQqX3N-mmJSLUV_pkRvSiE,3221
+dj_loguru/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+dj_loguru/middlewares/__init__.py,sha256=b4sj9XkbDV8ND6GzYB_wRw7g-avyYn6piqb-iqrgFCE,81
+dj_loguru/middlewares/request_log_middleware.py,sha256=NxvBx8pfEnQF4lVhh4_6VaEQUh98RjkylT0VCykt8u0,961
+dj_loguru-0.2.1.dist-info/LICENSE,sha256=o3A8UIb0KU5_NIGAFiNZF9TdMdfmwTSWrqt2zzFSkPY,1069
+dj_loguru-0.2.1.dist-info/METADATA,sha256=Tj6n3yoMVcuoiWpqD-mwNHhVlTfbBx0c1F-LWa0m0GU,753
+dj_loguru-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dj_loguru-0.2.1.dist-info/top_level.txt,sha256=NGHXJUDyoCsteHqyo064gSCONAwGTz7VP5bJ8v8at2c,10
+dj_loguru-0.2.1.dist-info/RECORD,,
