@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow_api_plugin = airflow_api_plugin.main:AgguaApi
+
