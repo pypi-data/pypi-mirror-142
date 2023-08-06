@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bunnyclient"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Rodrigues <ramon.srodrigues01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pika = "^1.2.0"
+pydantic = "^1.9.0"
+prettyconf = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
