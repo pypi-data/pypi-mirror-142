@@ -1,0 +1,16 @@
+todo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo/cli_parser.py,sha256=_8QlSQpqZecLsnKSJMGYqgNz_odmWx6KO2KoFskB5Lg,11314
+todo/core.py,sha256=YZ5WncP06OeGfiN5LFHPzED2JMJuIF87sbH9cG6ssbc,1859
+todo/data_access.py,sha256=vGw_lPi-ltCSFnuy40Tqw1pscfUO1DjDmadrcNCBjss,20941
+todo/init_db.py,sha256=vtcayTztv49-l1dmgkESH0qSfRGAxKsM1TVCuF8znCU,1633
+todo/rainbow.py,sha256=hAccJ-eHzsSfPcZ7-j53qRecUkji1I5Rf6OuSP-6HWY,9329
+todo/text_wrap.py,sha256=iHTK_rD0MRun57YTPY_nFJzIPdCjyadueMUy6N3Vs3E,1004
+todo/todo.py,sha256=hEOmd8_K2IIp31yzN2xpnwtUTKj_ZFaDOEN3FNEsdmc,20363
+todo/utils.py,sha256=21s1H8MhpM5A8Y0KkcAbWywbDT0t_CvSNPnvguTa3UY,8888
+todo/bash_completion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo/bash_completion/installation.py,sha256=Ca31S8T4sDXkD80wA1ARVLBF4ZoqYz4pR3aq6HVLCwI,1539
+todocli-3.4.1.dist-info/METADATA,sha256=IX9PhU5dxqWngMEdU9t-SbB8oV5F-jeEyykmo95Wvtk,373
+todocli-3.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+todocli-3.4.1.dist-info/entry_points.txt,sha256=XuhvE6YhxynybwYzyAvrq-2o7nrSCCM6gopD9g9uUFg,40
+todocli-3.4.1.dist-info/top_level.txt,sha256=c1x0MAVpTPy2QFoNZ9fz48_PoX9pcGKJOwNu8vee_hs,5
+todocli-3.4.1.dist-info/RECORD,,
