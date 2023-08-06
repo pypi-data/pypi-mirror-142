@@ -1,0 +1,10 @@
+mvmake/__init__.py,sha256=-NC_3TOtscM2SWV1VqZ_sOThx1vLcLGZRy98f9oln6g,26
+mvmake/__main__.py,sha256=y2gnJh4ouL-bRCDVTBBnCcBP4LBFXRmRd23aMLlSaYw,6027
+mvmake/sourceclip.py,sha256=j9SsoabKLk072PPkSA64qVkYoY8mXjLYrBzcOiY-9Hw,898
+mvmake/videosize.py,sha256=LWraw90RJ9nUeMH-gDNpxwqhm2WKKg-rfWg60ghcH8g,85
+mvmake-1.0.0.dist-info/LICENSE,sha256=pYCx6UDp9gnc2urAgSRxzKcgQ17KT9GC8tVYhvQUsoo,1066
+mvmake-1.0.0.dist-info/METADATA,sha256=THF2ZzDT72c3r9Xrw8CnflWJiar-Bfn-e-DihVXLI3E,4657
+mvmake-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mvmake-1.0.0.dist-info/entry_points.txt,sha256=O5CnrrgyNyvWzMEbqueuRWGB0dU3agncB5s-Vq5D0C8,39
+mvmake-1.0.0.dist-info/top_level.txt,sha256=KG1MltpBYkCnWurR7uCkZDlZR5KOgssCVI6lM_TJnDQ,7
+mvmake-1.0.0.dist-info/RECORD,,
