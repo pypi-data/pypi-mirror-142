@@ -1,0 +1,9 @@
+metabase_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabase_manager/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabase_manager/cli/main.py,sha256=9-LsBqnc0-ncex4EbIOHEAGPw5xBXZ57pHZW1R7a1Pk,50
+metabase_manager/registry.py,sha256=cWOcri254au0op5umA2cEgn0tbDEa98-XTWtMchnRiM,2115
+metabase_manager-0.1.1.dist-info/entry_points.txt,sha256=A7qwto_INIV1PjoBFSDv2EpWEiedOwK5748Rl_poF7Y,66
+metabase_manager-0.1.1.dist-info/LICENSE,sha256=D6ojRT1mhud-azDcS471xbdQMj41ETNGKVv7VKBshXI,1074
+metabase_manager-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+metabase_manager-0.1.1.dist-info/METADATA,sha256=CWbz9ldxtFjBhX8p4MNUmZdNpuwrXsc0GC0LBiuUWMU,468
+metabase_manager-0.1.1.dist-info/RECORD,,
