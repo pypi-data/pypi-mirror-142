@@ -1,0 +1,16 @@
+ffast/__init__.py,sha256=LwOOzSc3WKlMKCtU6u8w4RFqu0jsUfN9Lwmp5W-Vzjo,421
+ffast/preprocessor.py,sha256=GgWtfTbTofEYZJWOQMo5QXyF9okM94OGpT8E2DQ4b60,767
+ffast/poincare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffast/poincare/token.py,sha256=ArewZZ78OD0Ylv-CoaZp_5NSqlWm91hOGVm7iiSX9Ak,909
+ffast/poincare/tokeniser.py,sha256=V0JmRtdO5m17yQYsl14AGxyHen8-N_WseficYRkcFXY,2599
+ffast/poincare/tokens.py,sha256=n57Wc0nIjvZnBPn7GlWEv7odoBo7Isqf7wipZQMKoOY,3754
+ffast/poincare/utils.py,sha256=4Ygr3METE8hIdyBan8MG-sYRYktJbMgkMN5QaFap7JE,926
+ffast/wordnet/__init__.py,sha256=SPP6Sp7kFAYZ42WJVbbibT29KIXm0G63cCGW78GsYos,67
+ffast/wordnet/token.py,sha256=MWmY6M2DE5B3-Wr0-rmiHv8okhYDX3NTldjyJU7yRmw,5027
+ffast/wordnet/tokeniser.py,sha256=Qf3w0_j5ahg5wRvzcir-7T1vf0AOnbxvK8JXer0Tno8,2358
+ffast/wordnet/tokens.py,sha256=aP963cRYz4KgvFW_mwT_LayNZP6txY-4QAcYV2kVEAA,5110
+ffast/wordnet/utils.py,sha256=6zKa6EC3WEuMxU9kdCNaQSWCzeXOp7FP_4SNJHDkYHw,1572
+ffast-0.1.2.dist-info/METADATA,sha256=00xjMqJ1TjvfpmB-Sbfpw_lUP2nnYZRE74Dr5rO5Iqo,925
+ffast-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ffast-0.1.2.dist-info/top_level.txt,sha256=15ZeCKyToLGB4I__yDMB8wyrBoXch1WCJwPvXNZ9FtA,6
+ffast-0.1.2.dist-info/RECORD,,
