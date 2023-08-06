@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qcam-sdk
+Version: 0.0.5
+Summary: qhyccd camera SDK wrap
+Home-page: https://www.qhyccd.com/html/prepub/log_en.html#!log_en.md
+Author: my@qhyccd.com
+Author-email: my@qhyccd.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://www.qhyccd.cn/contact-us-2/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qcam test Package
+
+qcam test package
+

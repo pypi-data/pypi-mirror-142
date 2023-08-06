@@ -1,0 +1,8 @@
+qcam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcam/image2ascii.py,sha256=iLpzZPh-OxKRKPcayNGq9mU6ECtXitKq6C3rrDHBF_8,1334
+qcam/qCam.py,sha256=weF7_E22EYN-T_x4oMk4_ulpbXrqhLQscgTHqRGWd3U,3570
+qcam_sdk-0.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcam_sdk-0.0.5.dist-info/METADATA,sha256=QdEEIMBt7xguCB_Qrh6ndcBEFnBUOCJHMaFL1waFDdc,572
+qcam_sdk-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qcam_sdk-0.0.5.dist-info/top_level.txt,sha256=6S7m_IAeivXroNXRuJXK6ts2ecVkC4xmNDUss6XNTCY,5
+qcam_sdk-0.0.5.dist-info/RECORD,,
