@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+rocrateValidator/__init__.py
+rocrateValidator/check_list.txt
+rocrateValidator/semanticCheck.py
+rocrateValidator/syntaxCheck.py
+rocrateValidator/utils.py
+rocrateValidator/validate.py
+rocrateValidator/workflow_extension.txt
+rocrateValidator.egg-info/PKG-INFO
+rocrateValidator.egg-info/SOURCES.txt
+rocrateValidator.egg-info/dependency_links.txt
+rocrateValidator.egg-info/not-zip-safe
+rocrateValidator.egg-info/top_level.txt
