@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/utilsForWindows/__init__.py
+src/utilsForWindows/commons.py
+src/utilsForWindows/renameFiles.py
+src/utilsForWindows.egg-info/PKG-INFO
+src/utilsForWindows.egg-info/SOURCES.txt
+src/utilsForWindows.egg-info/dependency_links.txt
+src/utilsForWindows.egg-info/entry_points.txt
+src/utilsForWindows.egg-info/top_level.txt

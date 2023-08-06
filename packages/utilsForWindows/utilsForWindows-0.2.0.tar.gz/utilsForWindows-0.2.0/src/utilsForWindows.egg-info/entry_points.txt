@@ -1,0 +1,5 @@
+[console_scripts]
+_help = utilsForWindows.commons:info_function
+u_ren = utilsForWindows.renameFiles:rename_files
+u_rename = utilsForWindows.renameFiles:rename_files
+
