@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+MakanaLibrary/__init__.py
+MakanaLibrary/authService.py
+MakanaLibrary/makana.py
+MakanaLibrary/test.py
+MakanaLibrary.egg-info/PKG-INFO
+MakanaLibrary.egg-info/SOURCES.txt
+MakanaLibrary.egg-info/dependency_links.txt
+MakanaLibrary.egg-info/requires.txt
+MakanaLibrary.egg-info/top_level.txt
