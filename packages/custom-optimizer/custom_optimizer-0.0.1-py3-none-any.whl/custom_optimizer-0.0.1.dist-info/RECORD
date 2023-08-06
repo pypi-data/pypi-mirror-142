@@ -1,0 +1,11 @@
+custom/__init__.py,sha256=hd6A89_Jpk8vHGDfNhkmZNHKKI__e_YlKngTqjeRwHE,22
+custom/custom.py,sha256=xfv-dxRgz8rrwVGK0LxxdTn0yxoPvvVd7dm0qc1b3kw,20996
+custom/data/CUSTOM_codon_weights.csv,sha256=j6Hhwp7DQy8oG6rB8YNKY-uagiyo4tpLKMmMKvqaEGM,39876
+custom/data/CUSTOM_codonfreq_CoCoPuts.csv,sha256=EHjL0xiVYffCppPl_jr162sj3WOUxJ34Mox5HGveOtY,756
+custom/data/CUSTOM_codonpairsfreq_CoCoPuts.csv,sha256=RkaPZoExgHff7QCpqiiE0O0SZmeAwOBN9E1rrABEo8I,51219
+custom/data/CUSTOM_tissue_ratios.csv,sha256=1IS2cjPl8iezshl2jnvr76GxD5l-sTviSJLm9zV0RpU,40976
+custom_optimizer-0.0.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+custom_optimizer-0.0.1.dist-info/METADATA,sha256=nchO1ny775JX7uKjaDejk7-yY0bM9GKlnSYxDXA66HE,375
+custom_optimizer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+custom_optimizer-0.0.1.dist-info/top_level.txt,sha256=yVt0AyxDjHqRrxTvGvdcdzzNd1rYG_mKKh-90ddeo40,7
+custom_optimizer-0.0.1.dist-info/RECORD,,
