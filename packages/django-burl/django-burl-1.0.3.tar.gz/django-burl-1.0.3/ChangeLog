@@ -1,0 +1,43 @@
+CHANGES
+=======
+
+v1.0.3
+------
+
+* update ChangeLog & AUTHORS
+* extend settings, update readme, update test settings & tests
+* clean up test settings module
+* minor refactoring of api viewsets
+* pypi display issue
+* pypi display issue
+* try updating setup.cfg again to fix pypi
+
+v1.0.2
+------
+
+* fix admin bug
+
+v1.0.1
+------
+
+* update setup.cfg
+
+v1.0.0
+------
+
+* update README
+* update artifacts
+* update pkg metadata
+* update README
+* update README
+* update README
+* pbgf
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
+* update pipeline
