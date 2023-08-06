@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: Neodict2XML
+Version: 0.0.4
+Summary: Templating utilities
+Home-page: https://gitlab.com/kaeraspace/Kaera_Test_Group/Neodict2XML
+Author: Emmanuel Pluot
+Author-email: emmanuel.pluot@gmail.com
+License: UNKNOWN
+Description: # Neodict2XML
+        
+        Neomyte's dict to XML converter
+        
+        <ins>Example:<ins>
+        
+        ```python
+        >>> from neodict2xml import dict2xml
+        >>> test_dict = {\
+            'test': {\
+                'plop': ({'attr': 'brrr'}, 'lol'),\
+                'lol': [\
+                    'hello',\
+                    'world'\
+                ],\
+                'deep': {\
+                    'deeper': 1\
+                },\
+                'test2': [\
+                    { 'foo': 'bar' },\
+                    ( { 'id': 2 }, { 'foo': 'rab' } )\
+                ],\
+                'test3': ( { 'class': 'foo.Bar' }, )\
+                'test4': None,\
+                'test5': {},\
+                'test6': ( { 'class': 'foo.Bar' }, None ),\
+                'test7': ( { 'class': 'foo.Bar' }, {} )\
+            }\
+        }
+        >>> xml = dict2xml.from_dict(test_dict)
+        >>> print(dict2xml.prettify(xml))
+        <?xml version="1.0" ?>
+        <test>
+            <plop attr="brrr">lol</plop>
+            <lol>hello</lol>
+            <lol>world</lol>
+            <deep>
+                <deeper>1</deeper>
+            </deep>
+            <test2>
+                <foo>bar</foo>
+            </test2>
+            <test2 id="2">
+                <foo>rab</foo>
+            </test2>
+            <test3 class="foo.Bar"/>
+            <test4/>
+            <test5/>
+            <test6 class="foo.Bar"/>
+            <test7 class="foo.Bar"/>
+        </test>
+        
+        ```
+        
+        ```python
+        >>> from neodict2xml import dict2xml
+        >>> test_xml = test_xml = '''
+        ... <test>
+        ...     <plop attr="brrr">lol</plop>
+        ...     <lol>hello</lol>
+        ...     <lol>world</lol>
+        ...     <lol2>hello</lol2>
+        ...     <lol2>world</lol2>
+        ...     <lol2>foo</lol2>
+        ...     <lol2>bar</lol2>
+        ...     <deep>
+        ...         <deeper>
+        ...             1
+        ...         </deeper>
+        ...     </deep>
+        ...     <test2>
+        ...         <foo>bar</foo>
+        ...     </test2>
+        ...     <test2 id="2">
+        ...         <foo>bar</foo>
+        ...     </test2>
+        ...     <test3 class="foo.Bar" />
+        ...     <test4 />
+        ... </test>
+        ... '''
+        >>> dict2xml.from_xml(test_xml)
+        {'test': {'plop': ({'attr': 'brrr'}, 'lol'), 'lol': ['hello', 'world'], 'lol2': ['hello', 'world', 'foo', 'bar'], 'deep': {'deeper': '1'}, 'test2': [{'foo': 'bar'}, ({'id': '2'}, {'foo': 'bar'})], 'test3': ({'class': 'foo.Bar'},), 'test4': None}}
+        ```
+        
+        
+        # Contributors
+        
+         * Emmanuel Pluot (aka. Neomyte)
+        
+        
+        
+        # Changelog
+        All notable changes to this project will be documented in this file.
+        
+        The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+        and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+        
+        ## [Unreleased]
+        
+        ## [0.0.4] - 2022-03-12
+        ## Changed
+         - Deep copy dict entry to from_dict to prevent unwanted modification to the original data
+        
+        ## [0.0.3] - 2022-03-10
+        ## Added
+         - Add from_xml function
+        
+        ## Changed
+         - None is now considered the same as an empty dict in from_dict
+         - Fix setup doc and url
+        
+        ## [0.0.2] - 2021-11-24
+        ### Changed
+         - Handle subelement with attributes but no value
+         - Update Readme
+        
+        ## [0.0.1] - 2021-11-24
+        ### Added
+         - dict2xml module
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
