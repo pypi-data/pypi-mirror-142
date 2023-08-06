@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zever_local/__init__.py
+src/zever_local/inverter.py
+src/zever_local.egg-info/PKG-INFO
+src/zever_local.egg-info/SOURCES.txt
+src/zever_local.egg-info/dependency_links.txt
+src/zever_local.egg-info/top_level.txt
