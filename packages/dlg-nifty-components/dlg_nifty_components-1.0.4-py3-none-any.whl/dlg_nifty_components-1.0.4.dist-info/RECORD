@@ -1,0 +1,8 @@
+dlg_nifty_components/__init__.py,sha256=zU6gE2oQYMtP96evrVCdoKRf4r8XOw4raNpXynvDnXc,357
+dlg_nifty_components/cpu_gridder.py,sha256=nbfRbr0K6Rs0KVKUHCu_HERXUKi2sMwZ7AI7DkNFxZc,5231
+dlg_nifty_components/cuda_gridder.py,sha256=DkwjZgQWep54HOEsPvmAc9_QG_vgl-CRdq2A-Xtk8Rc,8764
+dlg_nifty_components-1.0.4.dist-info/LICENSE,sha256=kjZa4knm4Z4rGKjl5RtJSW2LWWvN_x7EacUJ-oXGEPs,1537
+dlg_nifty_components-1.0.4.dist-info/METADATA,sha256=4HkaxWyLhwfOH2xsDkokFGHPLC5A262qhZ_gk1s0Ca0,4558
+dlg_nifty_components-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dlg_nifty_components-1.0.4.dist-info/top_level.txt,sha256=eWKxUJXZ9yFALncQPb9y5aebAWgLytBtKlXH-CkWT68,21
+dlg_nifty_components-1.0.4.dist-info/RECORD,,
