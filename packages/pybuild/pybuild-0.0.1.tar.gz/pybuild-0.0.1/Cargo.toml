@@ -1,0 +1,24 @@
+[package]
+name = "pybuild-py"
+version = "0.0.1"
+authors = ["Bryant Biggs <bryantbiggs@gmail.com>"]
+description = """
+Python src+dependency bundler.
+"""
+documentation = "https://github.com/serverless-delivery/pybuild"
+homepage = "https://github.com/serverless-delivery/pybuild"
+repository = "https://github.com/serverless-delivery/pybuild/pybuild-py"
+keywords = ["bundler"]
+categories = ["development tools"]
+license = "Apache-2.0"
+edition = "2021"
+
+[lib]
+name = "pybuild"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.15", features = ["extension-module", "abi3-py36"] }
+
+[build-dependencies]
+pyo3-build-config = "^0.15"
