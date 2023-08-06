@@ -1,0 +1,15 @@
+splitp/__init__.py,sha256=IcMkIIxTnIiy73dxJen3MFJ7JQPcIfvYj_vrQIQtmwE,215
+splitp/enums.py,sha256=ScE9n0vywfdQcVgiA1DPAktJjEg7XkueIxb057_q9Oc,368
+splitp/nx_tree.py,sha256=_UT0te0qdjRwtEVpo7ShV3AJ_bNBI2IAXUIKyG1Radk,37049
+splitp/parsers.py,sha256=JlcrqXmWN9KES61jz0SeHZR36W6C3Xt6YFugG2XpB_4,2565
+splitp/squangles.py,sha256=qk59eQxtI_gZiD77ucId1ER6VfCPO_MzayLzhUJJyrE,2747
+splitp/tree_helper_functions.py,sha256=_XhY2F66kjU49bDWmd-Cro8oP98J7TkpQUQbmt8RxMA,7861
+splitp/tree_reconstruction.py,sha256=y0ThtFsDqbM69E4ig2IIda0nd02TJRv_J1jZ5YhdeGw,2558
+splitp/polynomials/sqg1.txt,sha256=widP5ii5nUEIO6i1RstmtVpKwgxaYGI7jYGsJi0np_A,1291236
+splitp/polynomials/sqg2.txt,sha256=4NBFMvJODOqYGJFCivGmDdaRn2lEw1y9mvW9wc-3g_k,1287780
+splitp/polynomials/sqg3.txt,sha256=8QpeOykBUOM6mdEkSxBn96mdTme7XKfgIbYHKY5DA5U,1287780
+splitp-0.1.8.dist-info/LICENSE,sha256=KTn9sX9ZQf0oZhR6qDUlStqFJqoCHp4UPUqUAHosABA,1073
+splitp-0.1.8.dist-info/METADATA,sha256=bU9tc1JSLEfQR0TarjD-mBtRrgVL-OhOuTwbTAKHDHY,2769
+splitp-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+splitp-0.1.8.dist-info/top_level.txt,sha256=cuXsftjn8n38lJRk2L79Wb8a_bQKerdK-sarJ0XSkjc,7
+splitp-0.1.8.dist-info/RECORD,,
