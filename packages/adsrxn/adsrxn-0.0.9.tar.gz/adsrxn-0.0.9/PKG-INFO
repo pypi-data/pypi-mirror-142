@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: adsrxn
+Version: 0.0.9
+Summary: software package for adsorption-reaction process modelling
+Home-page: https://github.com/cmcp-group/adsrxn
+Author: Yongchul G. Chung
+Author-email: drygchung@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/cmcp-group/adsrxn/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+# python package for adsorption-reaction process
+
+This is a simple package to run adsorption-reaction process simulation.
+
+
