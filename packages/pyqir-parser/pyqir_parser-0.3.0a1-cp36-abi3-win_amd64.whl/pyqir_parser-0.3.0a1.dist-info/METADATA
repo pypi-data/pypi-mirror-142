@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyqir-parser
+Version: 0.3.0a1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Summary: Python based QIR parser library.
+Author: Microsoft
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyqir-parser
+
+The pyqir-parser provides utilities for parsing QIR from bitcode files into convenience objects in python.
+It includes mechanisms for walking the functions and blocks in a given QIR program, with additional support for
+QIR specific conventions like getting static qubit identifiers or measurement result identifiers. It is not designed
+for output of QIR, and does not provide any functionality for modifying or transforming the parsed QIR.
+
+## Building and Testing
+
+See [Building](https://qir-alliance.github.io/pyqir/development-guide/building.html)
+
