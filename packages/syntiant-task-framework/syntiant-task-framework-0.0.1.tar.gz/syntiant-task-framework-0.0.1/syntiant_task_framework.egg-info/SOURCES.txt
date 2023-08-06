@@ -1,0 +1,5 @@
+setup.py
+syntiant_task_framework.egg-info/PKG-INFO
+syntiant_task_framework.egg-info/SOURCES.txt
+syntiant_task_framework.egg-info/dependency_links.txt
+syntiant_task_framework.egg-info/top_level.txt
