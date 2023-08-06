@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+LSTM_reshaper.egg-info/PKG-INFO
+LSTM_reshaper.egg-info/SOURCES.txt
+LSTM_reshaper.egg-info/dependency_links.txt
+LSTM_reshaper.egg-info/top_level.txt

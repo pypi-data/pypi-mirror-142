@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: LSTM-reshaper
+Version: 0.1.0
+Summary: This package provides fundamental operation on reshaping dataframes for Keras LSTM input
+Home-page: https://github.com/ysong126/lstm_reshaper
+Author: song111
+Author-email: clarksoyoung@sina.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ysong126/lstm_reshaper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
