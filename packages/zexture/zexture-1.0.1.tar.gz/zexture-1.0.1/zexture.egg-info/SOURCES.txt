@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+zexture/GestureMath.py
+zexture/HandTrackingModule.py
+zexture/__init__.py
+zexture/statMode.py
+zexture.egg-info/PKG-INFO
+zexture.egg-info/SOURCES.txt
+zexture.egg-info/dependency_links.txt
+zexture.egg-info/entry_points.txt
+zexture.egg-info/requires.txt
+zexture.egg-info/top_level.txt
