@@ -1,0 +1,3 @@
+[console_scripts]
+cao = cao.shell:run
+
