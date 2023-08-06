@@ -1,0 +1,16 @@
+{
+    "nhentai": {
+        "api": "https://nhentai.net",
+        "api_unblock": "https://nhentai.sinxdr.workers.dev",
+        "img": "https://i.nhentai.net/galleries"
+    },
+    "pururin": {
+        "api": "https://scathach.redsplit.org/v4/pururin/"
+    },
+    "hentaifox": {
+        "api": "https://scathach.redsplit.org/v4/hentaifox/"
+    },
+    "hentai2read": {
+        "api": "https://scathach.redsplit.org/v4/hentai2read/"
+    }
+}
