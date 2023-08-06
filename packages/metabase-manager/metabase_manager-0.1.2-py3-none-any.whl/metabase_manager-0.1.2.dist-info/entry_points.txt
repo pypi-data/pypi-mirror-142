@@ -1,0 +1,3 @@
+[console_scripts]
+metabase-manager=metabase_manager.cli.main:cli
+

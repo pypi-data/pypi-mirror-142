@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: metabase-manager
+Version: 0.1.2
+Summary: Manage your Metabase instance programmatically.
+Home-page: https://github.com/chasleslr/metabase-manager
+License: MIT
+Author: Charles Lariviere
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: metabase-python (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/chasleslr/metabase-manager
+Description-Content-Type: text/markdown
+
+# metabase-manager
+
+Manage your Metabase instance programmatically.
+
