@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+./LICENSE.txt
+./MANIFEST.in
+./README.md
+./__init__.py
+./setup.py
+DSPloggin/DSPlogging.py
+DSPloggin/__init__.py
+DSPloggin/test_dspLogging.py
+DSPutility.egg-info/PKG-INFO
+DSPutility.egg-info/SOURCES.txt
+DSPutility.egg-info/dependency_links.txt
+DSPutility.egg-info/top_level.txt
