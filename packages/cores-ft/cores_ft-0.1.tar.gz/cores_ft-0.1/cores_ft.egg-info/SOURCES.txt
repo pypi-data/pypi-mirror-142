@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+cores_ft/__init__.py
+cores_ft/__main__.py
+cores_ft/get_info.py
+cores_ft/loop.py
+cores_ft/output_msg.py
+cores_ft/screen.py
+cores_ft.egg-info/PKG-INFO
+cores_ft.egg-info/SOURCES.txt
+cores_ft.egg-info/dependency_links.txt
+cores_ft.egg-info/not-zip-safe
+cores_ft.egg-info/top_level.txt
+cores_ft/tests/__init__.py
+cores_ft/tests/test_get_info.py

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cores-ft
+Version: 0.1
+Summary: Monitora frequencia e temperatuda dos cores da CPU
+Home-page: https://github.com/HenriqueCCdA/cores_ft
+Author: Henrique C. C. de Andrade
+Author-email: henrique.ccda@gmail.com
+License: MIT
+Platform: Linux
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# Cores_ft
+
+Monitora a temperatua e frequências dos cores.
+
+Para obter a frequencia dos cores foi usado o arquivo /proc/cpuinfo.
+
+Para obter as temperatura do cores foi utilizado o utilitáqrio **sensors** do pacote **lm_sensors**
+
+Para rodar basta fazer:
+
+```console
+python3 -m cores_ft
+```
+
+
