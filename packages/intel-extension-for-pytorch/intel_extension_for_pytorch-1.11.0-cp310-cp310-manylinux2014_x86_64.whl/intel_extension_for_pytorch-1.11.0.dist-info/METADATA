@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: intel-extension-for-pytorch
+Version: 1.11.0
+Summary: Intel Extension for PyTorch
+Home-page: https://github.com/intel/intel-extension-for-pytorch
+Author: Intel/PyTorch Dev Team
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: psutil
+
+UNKNOWN
+
