@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+pyproject.toml
+setup.py
+src/CHPCDIANA/DIANA.py
+src/CHPCDIANA/__init__.py
+src/CHPCDIANA.egg-info/PKG-INFO
+src/CHPCDIANA.egg-info/SOURCES.txt
+src/CHPCDIANA.egg-info/dependency_links.txt
+src/CHPCDIANA.egg-info/top_level.txt
