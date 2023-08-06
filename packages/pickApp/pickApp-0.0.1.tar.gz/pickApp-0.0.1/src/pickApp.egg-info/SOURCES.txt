@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/pickApp.egg-info/PKG-INFO
+src/pickApp.egg-info/SOURCES.txt
+src/pickApp.egg-info/dependency_links.txt
+src/pickApp.egg-info/top_level.txt
