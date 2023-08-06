@@ -1,0 +1,10 @@
+setup.py
+src/ylq/__init__.py
+src/ylq/rich/__init__.py
+src/ylq/rich/man/__init__.py
+src/ylq/rich/man/information.py
+src/ylq/rich/man/message.py
+src/ylq_rich.egg-info/PKG-INFO
+src/ylq_rich.egg-info/SOURCES.txt
+src/ylq_rich.egg-info/dependency_links.txt
+src/ylq_rich.egg-info/top_level.txt
