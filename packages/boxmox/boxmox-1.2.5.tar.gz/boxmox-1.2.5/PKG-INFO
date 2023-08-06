@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: boxmox
+Version: 1.2.5
+Summary: BOXMOX python interface
+Home-page: https://mbees.med.uni-augsburg.de/
+License: GPL-3.0-or-later
+Keywords: atmosphere,chemistry,box model,boxmox
+Author: Christoph Knote
+Author-email: christoph.knote@med.uni-augsburg.de
+Requires-Python: >=3,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Dist: f90nml (>=1.3)
+Requires-Dist: numpy (>=1.2)
+Requires-Dist: pyparsing (>=3)
+Project-URL: Repository, https://mbees.med.uni-augsburg.de/gitlab/mbees/boxmox_pypackage
+Project-URL: issues, http://mbees.med.uni-augsburg.de/gitlab/mbees/boxmox_pypackage/issues
+Description-Content-Type: text/markdown
+
+# BOXMOX
+
+``boxmox`` is the Python wrapper for the chemical box model BOXMOX (a standalone
+C/Fortran executable).
+
+## Installation
+
+### BOXMOX model needs to be installed
+
+The BOXMOX chemical box model needs to be installed and the ``KPP_HOME`` environment variable has to be set. Download and instructions are our website at https://mbees.med.uni-augsburg.de/boxmodeling.
+
+### Environment variable needs to be set
+
+Additionally, ``boxmox`` needs a path to write temporary model results
+to, given through the environment variable ``BOXMOX_WORK_PATH``. This directory needs to be accessible and writeable by the user. Set it in your environment, e.g., through:
+
+```
+export BOXMOX_WORK_PATH=/where/you/want/boxmox/to/write/stuff/to/
+```
+
+Remember to close the shell and log in again for these changes to take effect.
+
+## Contributing
+
+We are looking forward to receiving your [new issue report](https://mbees.med.uni-augsburg.de/gitlab/mbees/boxmox_pypackage/-/issues/new).
+
+If you'd like to contribute source code directly, please [create a fork](https://mbees.med.uni-augsburg.de/gitlab/mbees/boxmox_pypackage),
+make your changes and then [submit a merge request](https://mbees.med.uni-augsburg.de/gitlab/mbees/boxmox_pypackage/-/merge_requests/new) to the original project.
+
+# Changelog
+
+## 1.2.5 (2022-03-14)
+
+- Release on PyPI
+
+## 1.2.0 (2022-03-08) (not released)
+
+- Updates to be compatible with BOXMOX 1.8
+
+## 1.1.0 (2020-09-16)
+
+- Python 3 compatible 
+
+## 1.0.0 (2017-12-19)
+
+- Peer-reviewed version to be published in Knote et al., GMD
+
+## 0.1.0 (2017-08-12)
+
+- Initial release
+
