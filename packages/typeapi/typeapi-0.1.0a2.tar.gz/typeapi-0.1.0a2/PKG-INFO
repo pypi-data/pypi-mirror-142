@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: typeapi
+Version: 0.1.0a2
+Summary: 
+License: MIT
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: docs
+Requires-Dist: typing-extensions (>=3.0.0)
+Project-URL: Bug Tracker, https://github.com/NiklasRosenstein/python-typeapi/issues
+Project-URL: Documentation, https://niklasrosenstein.github.io/python-typeapi/
+Project-URL: Homepage, https://github.com/NiklasRosenstein/python-typeapi
+Description-Content-Type: text/markdown
+
+# typeapi
+
+Typeapi provides a sane and stable API to introspect Python type hints.
+
+## Installation
+
+    $ pip install typeapi
+
+## Quickstart
+
+```py
+import typing
+from typeapi import parse_type_hint
+
+print(parse_type_hint(typing.Any))                  # Type(object)
+print(parse_type_hint(typing.List))                 # Type(list)
+print(parse_type_hint(typing.Mapping[str, int]))    # Type(collections.abc.Mapping, (Type(str), Type(int)))
+print(parse_type_hint(typing.Union[str, int]))      # Union(int, str)
+print(parse_type_hint(str | int))                   # Union(int, str)
+print(parse_type_hint(str | int | None))            # Optional(Union[int, str])
+print(parse_type_hint(typing.Annotated[int, 42]))   # Annotated(int, 42)
+print(parse_type_hint(typing.Annotated[int, 42]))   # Annotated(int, 42)
+print(parse_type_hint('str', __name__))             # Type(str)
+```
+
