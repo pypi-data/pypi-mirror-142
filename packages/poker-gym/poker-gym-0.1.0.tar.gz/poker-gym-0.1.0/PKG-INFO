@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: poker-gym
+Version: 0.1.0
+Summary: OpenAI Gym environment for Poker including No Limit Hold'em(NLHE) and Pot Limit Omaha(PLO)
+Author: azriel1rf
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: gym (>=0.23.1,<0.24.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
