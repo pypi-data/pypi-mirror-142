@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dismod/__init__.py
+dismod/__main__.py
+dismod/dependency.py
+dismod/dot.py
+dismod/instruction.py
+dismod/main.py
+dismod/utils.py
+dismod.egg-info/PKG-INFO
+dismod.egg-info/SOURCES.txt
+dismod.egg-info/dependency_links.txt
+dismod.egg-info/entry_points.txt
+dismod.egg-info/requires.txt
+dismod.egg-info/top_level.txt
