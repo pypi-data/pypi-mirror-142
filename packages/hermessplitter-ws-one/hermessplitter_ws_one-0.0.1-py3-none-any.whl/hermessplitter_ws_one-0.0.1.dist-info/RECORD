@@ -1,0 +1,10 @@
+hermessplitter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hermessplitter/functions.py,sha256=mPQYDBowUmfv9thG2w9e9O6SfMUT_LJpFg-kAdaeOg0,3115
+hermessplitter/main.py,sha256=fz8jrSVFQpw7U1OZ_CS0yShLFpD0zMoqqbZI1iOl2AU,5935
+hermessplitter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hermessplitter/tests/hermes_activate_tests.py,sha256=6eSlh1t7kumUpqE5PbnY_SXwMN6crh9lAPZs540Evh0,865
+hermessplitter_ws_one-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+hermessplitter_ws_one-0.0.1.dist-info/METADATA,sha256=b_K1nRL5hJ9qXED_mthRP1Q1raRk-55IvkRWDDz79EE,739
+hermessplitter_ws_one-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hermessplitter_ws_one-0.0.1.dist-info/top_level.txt,sha256=-irUC62Hn3T0w6CMiftA9yscS2o58MvzLskpUJtx7zI,15
+hermessplitter_ws_one-0.0.1.dist-info/RECORD,,
