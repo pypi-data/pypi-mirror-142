@@ -1,0 +1,103 @@
+{% load static icon dashboard %}
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-white">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>{{ title }}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css"/>
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body class="h-full">
+{% include "messages.html" %}
+
+<div class="min-h-full flex" x-data="{open:false}" @keydown.window.escape="open=false">
+  <div x-show="open" x-cloak class="fixed inset-0 flex z-40 lg:hidden" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 bg-gray-600 bg-opacity-75" aria-hidden="true"
+        x-show.transition="open"
+        x-transition:enter="duration-300 ease-linear transition-opacity"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="duration-300 ease-linear transition-opacity"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+    ></div>
+
+    <div class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-gray-800"
+        x-show.transition="open"
+        @click.away="open=false"
+        x-transition:enter="duration-300 ease-in-out transform transition"
+        x-transition:enter-start="-translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="duration-300 ease-in-out transform transition"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="-translate-x-full"
+    >
+      <div class="absolute top-0 right-0 -mr-12 pt-2"
+        x-show.transition="open"
+        x-transition:enter="duration-300 ease-in-out"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="duration-300 ease-in-out"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+      >
+        <button type="button" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                @click="open=false"
+        >
+          <span class="sr-only">Close sidebar</span>
+            {% icon "x" "h-6 w-6 text-white" %}
+        </button>
+      </div>
+
+      <div class="flex-shrink-0 flex items-center px-4">
+        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
+      </div>
+      <div class="mt-5 flex-1 h-0 overflow-y-auto">
+        <nav class="px-2">
+            {% render_menu %}
+        </nav>
+      </div>
+    </div>
+
+    <div class="flex-shrink-0 w-14" aria-hidden="true">
+      <!-- Dummy element to force sidebar to shrink to fit close icon -->
+    </div>
+  </div>
+
+  <!-- Static sidebar for desktop -->
+  <div class="hidden lg:flex lg:w-64 lg:fixed lg:inset-y-0">
+    <!-- Sidebar component, swap this element with another sidebar if you like -->
+    <div class="flex-1 flex flex-col min-h-0">
+      <div class="flex items-center h-16 flex-shrink-0 px-4 bg-gray-900">
+        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
+      </div>
+        {% render_menu %}
+    </div>
+  </div>
+  <div class="lg:pl-64 flex flex-col w-0 flex-1">
+    <div class="sticky top-0 z-10 flex-shrink-0 flex h-16 bg-white border-b border-gray-200">
+      <button type="button" class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900 lg:hidden"
+          @click="open=true"
+      >
+        <span class="sr-only">Open sidebar</span>
+          {%  icon "menu-alt-2" "h-6 w-6" %}
+      </button>
+      <div class="flex-1 px-4 flex justify-between">
+      </div>
+    </div>
+
+    <main class="flex-1 bg-gray-100">
+      <div class="py-8 xl:py-10">
+        <div class="px-4 sm:px-6 lg:px-8">
+            {% block content %}{% endblock %}
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>

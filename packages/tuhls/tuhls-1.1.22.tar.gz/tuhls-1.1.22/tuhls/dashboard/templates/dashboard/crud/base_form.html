@@ -1,0 +1,5 @@
+{% extends view.base_template %}
+{% block content %}
+    {% include "dashboard/crud/breadcrumb.html" %}
+    {% include "forms/container/submit.html" with form=form %}
+{% endblock %}

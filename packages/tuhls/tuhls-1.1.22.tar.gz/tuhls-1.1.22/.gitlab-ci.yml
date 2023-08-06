@@ -1,0 +1,17 @@
+image: python:3.10
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+build:
+  script:
+    - pip install .[prod,dev]
+    - gosu django lint
+    - gosu django test
+    - gosu django build
+    - gosu ci twine-gitlab-upload
+    - gosu ci twine-pypi-upload

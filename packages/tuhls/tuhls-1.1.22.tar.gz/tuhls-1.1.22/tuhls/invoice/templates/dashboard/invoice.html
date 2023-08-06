@@ -1,0 +1,111 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block content %}
+    <div class="shadow sm:rounded-md sm:overflow-hidden bg-white mb-12">
+        <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
+            <h3 class="text-lg leading-6 font-medium text-gray-900">
+                Invoices Due
+            </h3>
+        </div>
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+            <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Date
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Amount
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Invoice
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Receipt
+                </th>
+            </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+            {% for invoice in invoices_due %}
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        {{ invoice.created_at|date:"Y-m-d H:m" }}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-right">
+                        {% if invoice.is_paid %}
+                            <span class="text-green-500">
+                            Paid $ {{ invoice.total }}
+                            </span>
+                        {% else %}
+                            <span class="text-red-500">
+                            Due $ {{ invoice.total }}
+                            </span>
+                        {% endif %}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <a href="{% url "invoice_pdf" invoice_gid=invoice.gid %}" class="text-pc-600 hover:text-pc-900">{{ invoice.get_invoice_number }}</a>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        {% if invoice.is_paid %}
+                        <a href="{% url "receipt_pdf" invoice_gid=invoice.gid %}" class="text-pc-600 hover:text-pc-900">View</a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="shadow sm:rounded-md sm:overflow-hidden bg-white">
+        <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
+            <h3 class="text-lg leading-6 font-medium text-gray-900">
+                Invoices Paid
+            </h3>
+        </div>
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+            <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Date
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Amount
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Invoice
+                </th>
+                <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Receipt
+                </th>
+            </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+            {% for invoice in invoices_paid %}
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        {{ invoice.created_at|date:"Y-m-d H:m" }}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-right">
+                        {% if invoice.is_paid %}
+                            <span class="text-green-500">
+                            Paid $ {{ invoice.total }}
+                            </span>
+                        {% else %}
+                            <span class="text-red-500">
+                            Due $ {{ invoice.total }}
+                            </span>
+                        {% endif %}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <a href="{% url "invoice_pdf" invoice_gid=invoice.gid %}" class="text-pc-600 hover:text-pc-900">{{ invoice.get_invoice_number }}</a>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        {% if invoice.is_paid %}
+                        <a href="{% url "receipt_pdf" invoice_gid=invoice.gid %}" class="text-pc-600 hover:text-pc-900">View</a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

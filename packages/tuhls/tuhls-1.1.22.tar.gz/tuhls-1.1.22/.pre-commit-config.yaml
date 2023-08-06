@@ -1,0 +1,7 @@
+- repo: local
+  hooks:
+    - id: gosu-precommit
+      name: gosu-precommit
+      entry: gosu django precommit
+      language: system
+      pass_filenames: false

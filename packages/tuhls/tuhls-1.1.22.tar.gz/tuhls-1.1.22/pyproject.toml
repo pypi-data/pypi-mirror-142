@@ -1,0 +1,32 @@
+[project]
+name = "tuhls"
+requires-python = ">=3.8"
+version = "1.1.22"
+description = ""
+dependencies = [ "python-dotenv", "typer", "click", "plumbum", "toml",]
+[[project.authors]]
+name = "Herbert Rusznak (tlb)"
+email = "herbert.rusznak@gmail.com"
+
+[build-system]
+requires = [ "flit_core >=3.2",]
+build-backend = "flit_core.buildapi"
+
+[gosu]
+django_app_src = "example"
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+prod = [ "django", "django-configurations[cache,database,email,search]", "django-environ", "psycopg2", "whitenoise", "gunicorn", "sentry-sdk", "django-redis", "django-q", "django-q-email", "django-cors-headers", "djangorestframework", "drf-spectacular", "djoser", "django-templated-mail", "geoip2", "PyICU", "reportlab", "svglib", "django-crispy-forms", "crispy-tailwind", "sortedcontainers", "django-geoipdb-loader", "django-countries", "django-request-cache", "django-hosts", "pygments",]
+dev = [ "pdfminer.six", "django-debug-toolbar", "django-mail-panel", "parameterized", "mypy", "django-stubs", "djangorestframework-stubs", "django_coverage_plugin", "tblib", "pyupgrade", "pytest", "pytest-cov", "freezegun", "django-extensions", "Werkzeug", "semver", "pytest", "pyupgrade", "isort", "black==21.7b0", "flake8", "mccabe", "flake8-comprehensions", "flake8-print", "flake8-cognitive-complexity", "pre_commit", "pytest-xdist", "pytest-sugar", "coverage", "django_coverage_plugin", "flit", "twine", "toml",]
+
+[project.urls]
+Source = "https://gitlab.com/tuhls/tuhls"
+
+[project.scripts]
+gosu = "tuhls.gosu.main:app"
+
+[tool.flit.sdist]
+exclude = [ "tuhls/design/static_src", "tuhls/design/static/country_flags/png1000px", "tuhls/design/static/country_flags/png250px", "tuhls/design/static/country_flags/png100px", "tuhls/design/static/country_flags/scripts",]
