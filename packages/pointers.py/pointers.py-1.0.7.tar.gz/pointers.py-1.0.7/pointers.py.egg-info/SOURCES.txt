@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pointers.py
+pyproject.toml
+setup.py
+pointers.py.egg-info/PKG-INFO
+pointers.py.egg-info/SOURCES.txt
+pointers.py.egg-info/dependency_links.txt
+pointers.py.egg-info/requires.txt
+pointers.py.egg-info/top_level.txt
