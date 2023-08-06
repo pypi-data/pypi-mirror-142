@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include wagtail_colour_picker_enoki *.py *.html *.js *.css
