@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SignalProcessor_CraigR8806.egg-info/PKG-INFO
+src/SignalProcessor_CraigR8806.egg-info/SOURCES.txt
+src/SignalProcessor_CraigR8806.egg-info/dependency_links.txt
+src/SignalProcessor_CraigR8806.egg-info/requires.txt
+src/SignalProcessor_CraigR8806.egg-info/top_level.txt
