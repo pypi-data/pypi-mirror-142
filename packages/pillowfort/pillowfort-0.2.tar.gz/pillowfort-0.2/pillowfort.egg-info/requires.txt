@@ -1,0 +1,4 @@
+flamingo==1.7.1
+lona
+lona-bootstrap-5==0.3
+pyyaml
