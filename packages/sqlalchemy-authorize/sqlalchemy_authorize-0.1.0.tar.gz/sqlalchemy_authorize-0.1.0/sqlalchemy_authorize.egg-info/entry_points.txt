@@ -1,0 +1,3 @@
+[console_scripts]
+sqlalchemy_authorize = sqlalchemy_authorize.cli:main
+
