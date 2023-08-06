@@ -1,0 +1,10 @@
+kavyanarthaki/__init__.py,sha256=tZzwA4ZVy_Tigj-z3j8-QGPkY6GmwpWtHP3DrFXkoUg,1991
+kavyanarthaki/db.py,sha256=_Bo35f-LyjvYpsZuQpjGdSTZPJaTCdx-wNCcd0bMAdM,1628
+kavyanarthaki/text.py,sha256=Qxo5bm-kRYJmKIMEOotdfMcbWwBuq-uvgcI7P0gqpC8,3974
+kavyanarthaki/data/ml_data.csv,sha256=s3Q7lA1zPWPsllbXNczJ43k4rZfyZC_c8eh8enT06NU,17775
+kavyanarthaki/data/sa_data.csv,sha256=2TfBFwMwpdwiBH_DjTzJlI6KX9sqCrtGjGlglvgA7sY,14455
+kavyanarthaki-0.1.6.dist-info/LICENSE.txt,sha256=4KAhuqLftb4aSgfbG9A8KdXsc-WsWg1ycAcSN7npW6E,1069
+kavyanarthaki-0.1.6.dist-info/METADATA,sha256=IgE2AkbFj1papXC2475lDdeg1zkiiMsEEgiLP5L4d7k,2012
+kavyanarthaki-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kavyanarthaki-0.1.6.dist-info/top_level.txt,sha256=X-z-YUIqOG3QeATu61H5V5026gQJ3AmdsrYRelGenOU,14
+kavyanarthaki-0.1.6.dist-info/RECORD,,
