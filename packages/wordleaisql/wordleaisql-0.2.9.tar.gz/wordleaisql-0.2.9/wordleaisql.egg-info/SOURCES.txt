@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+wordleaisql/__init__.py
+wordleaisql/api.py
+wordleaisql/approx.py
+wordleaisql/base.py
+wordleaisql/bigquery.py
+wordleaisql/sqlite.py
+wordleaisql/utils.py
+wordleaisql/wordle-judge-all.cpp
+wordleaisql.egg-info/PKG-INFO
+wordleaisql.egg-info/SOURCES.txt
+wordleaisql.egg-info/dependency_links.txt
+wordleaisql.egg-info/entry_points.txt
+wordleaisql.egg-info/requires.txt
+wordleaisql.egg-info/top_level.txt
