@@ -1,0 +1,10 @@
+opscidia_elasticsearch/__init__.py,sha256=UfQFBpZRqbacV1YCx4WZyzDFd_YS-GTQ-fH5BjKi4rg,106
+opscidia_elasticsearch/manager.py,sha256=85ZXqdRZht62kzzx_fl6S0gGPsyS0_DSbwOe_AsxsBE,5591
+opscidia_elasticsearch/features/__init__.py,sha256=JuRXC4oqFFGHHgpIdXqw1vRjs_iF7bdHPfaGufmSABo,32
+opscidia_elasticsearch/features/app_features.py,sha256=RzUdc7Y0wIHprKcq-BTaxlVl0O2XwKmOrfuHUKDovyo,1398
+opscidia_elasticsearch/settings/settings v1.json,sha256=er6kQA2tOnP-3yS33TOirmIVP_-qRX_7UiBWGWF6Noo,5087
+opscidia_elasticsearch-0.9.0.dist-info/LICENSE,sha256=63nrCvswZlkIDlZ2bVpP4ztVHQmolD34qkn-YKCLIMg,1474
+opscidia_elasticsearch-0.9.0.dist-info/METADATA,sha256=DsEtktJ-29mYHvjajg1zAN2VDzSSJ5w8DJOVgxG_dTc,1163
+opscidia_elasticsearch-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opscidia_elasticsearch-0.9.0.dist-info/top_level.txt,sha256=wb_A8omHVYDFDKaWTijbn_v3LlRiuD8UAvRvveYOFGg,23
+opscidia_elasticsearch-0.9.0.dist-info/RECORD,,
