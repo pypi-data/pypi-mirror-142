@@ -1,0 +1,34 @@
+{% extends 'base_navbar.html' %}
+{% block content %}
+<main class="container">
+    <div class="bg-light p-5 rounded">
+        <h1>Status</h1>
+        <p class="lead">Press F5 to refresh...</p>
+
+        <h4>Host</h4>
+        <h6>{{s_hostname}}</h6>
+
+        <h4>About</h4>
+        <h6>{{s_about}}</h6>
+
+        <h4>ADC</h4>
+        <h6>Buffer: {{s_adc}}, Mean: {{s_adc_mean}}</h6>
+
+        <h4>Time</h4>
+        <p>Time: {{s_time}}, Diff(us): {{s_time_diff}}</p>
+
+        <h4>Config</h4>
+        <p>{{s_config}}</p>
+
+        <h4>Status</h4>
+        <p>{{s_status}}</p>
+
+        <h4>Environment</h4>
+        <p>{{s_env}}</p>
+
+        <h4>Peripherals</h4>
+        <p>{{s_peri}}</p>
+
+    </div>
+</main>
+{% endblock %}
