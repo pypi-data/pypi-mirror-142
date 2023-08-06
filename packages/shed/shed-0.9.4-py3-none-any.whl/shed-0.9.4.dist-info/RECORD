@@ -1,0 +1,11 @@
+shed/__init__.py,sha256=t_PzZRblVfZesLzI_y4UrQmkJFd2jjzrxi9FRWXxwO8,10083
+shed/__main__.py,sha256=lKkDjwYvvj2-TpGM8NpbGixALUzt6KReJvBSSpT34jQ,230
+shed/_cli.py,sha256=Rr-LK8DktCzLt3HbUuYn4rByAQ8EhDFVIJhYszFZhto,5564
+shed/_codemods.py,sha256=JYLLrMDFgxAZEIo--xm-1sBDOcKV-oACYB0XWKrQZnU,10389
+shed/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shed-0.9.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+shed-0.9.4.dist-info/METADATA,sha256=Hjdpk1odn-u-7SqNS1CQxQfl_5VglxVFJ8sok7_DKXY,4459
+shed-0.9.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shed-0.9.4.dist-info/entry_points.txt,sha256=7s9ud3mlU8xRYKOFjniZWoGvPUe0vxn036Et32eJ0ec,39
+shed-0.9.4.dist-info/top_level.txt,sha256=_ftMOy3wF-2yPM3eeavOB1T0kyXtk507s486dZ7N_Vs,5
+shed-0.9.4.dist-info/RECORD,,
