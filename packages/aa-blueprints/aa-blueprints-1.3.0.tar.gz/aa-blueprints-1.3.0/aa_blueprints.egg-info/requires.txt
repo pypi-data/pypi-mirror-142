@@ -1,0 +1,4 @@
+allianceauth>=2.9.0
+django-eveuniverse>=0.14
+dj-datatables-view
+allianceauth-app-utils>=1.12
