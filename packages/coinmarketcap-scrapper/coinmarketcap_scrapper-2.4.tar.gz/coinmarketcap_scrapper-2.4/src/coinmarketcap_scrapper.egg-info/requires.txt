@@ -1,0 +1,4 @@
+beautifulsoup4==4.10.0
+conexions==1.3
+python_Levenshtein==0.12.2
+uteis==0.1.2.2
