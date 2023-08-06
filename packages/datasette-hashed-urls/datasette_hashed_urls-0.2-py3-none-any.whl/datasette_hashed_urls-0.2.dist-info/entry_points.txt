@@ -1,0 +1,2 @@
+[datasette]
+hashed_urls = datasette_hashed_urls
