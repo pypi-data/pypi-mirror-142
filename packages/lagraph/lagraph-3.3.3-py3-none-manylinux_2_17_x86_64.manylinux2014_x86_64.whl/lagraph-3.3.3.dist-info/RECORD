@@ -1,0 +1,11 @@
+lagraph.include/GraphBLAS.h,sha256=e9-52iz1p8BEtWS5KXQT7UD1OotWQ9nFjAf9DMe1my4,423352
+lagraph.include/LAGraph.h,sha256=gbAmkDMGSIUy_JdozIywKLPE-Hne60RRzvcgLe14T04,56127
+lagraph.libs/libgraphblas.so.3.3.3,sha256=bbRp62oWxXKTstBmKnUva1TouX6Bwj3t5XGdr-wdNjI,70332760
+lagraph.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+lagraph.libs/liblagraph.so.0.1.0,sha256=lveJgYevw4kTpDLsCzIzrcMBNplKkJzbcKMxW-7HaBk,499952
+lagraph-3.3.3.dist-info/top_level.txt,sha256=Gt8Qm-fEY_dEerdRlntG775eFlFp6jix6a_7zc3YZ4U,8
+lagraph-3.3.3.dist-info/METADATA,sha256=x6KpS5dzdG2FlELBjyL9hL3mmeaBf_p15vKIvxLzK8M,391
+lagraph-3.3.3.dist-info/RECORD,,
+lagraph-3.3.3.dist-info/LICENSE,sha256=eRrtsZymhnjMN7a8lKWoJdXxs57xtAu9QS3mIEQq8pc,1073
+lagraph-3.3.3.dist-info/WHEEL,sha256=V2KjM8jRkjCA0T3Qq1khvRiuI5gyLMwf7zYUWcXbs_4,146
+lagraph-3.3.3.data/purelib/lagraph/__init__.py,sha256=aKGm4VVJFd6RRLHcatysSfG22lhdfbl8B8ICoFeV56M,692
