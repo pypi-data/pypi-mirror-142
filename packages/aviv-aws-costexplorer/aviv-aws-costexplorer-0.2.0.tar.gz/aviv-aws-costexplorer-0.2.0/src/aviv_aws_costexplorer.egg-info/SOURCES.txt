@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aviv_aws_costexplorer.egg-info/PKG-INFO
+src/aviv_aws_costexplorer.egg-info/SOURCES.txt
+src/aviv_aws_costexplorer.egg-info/dependency_links.txt
+src/aviv_aws_costexplorer.egg-info/requires.txt
+src/aviv_aws_costexplorer.egg-info/top_level.txt
