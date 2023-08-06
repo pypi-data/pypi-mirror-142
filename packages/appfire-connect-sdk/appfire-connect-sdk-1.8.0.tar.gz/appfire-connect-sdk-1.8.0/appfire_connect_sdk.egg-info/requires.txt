@@ -1,0 +1,7 @@
+click
+funcy
+PyYAML
+questionary
+coloredlogs
+pyngrok
+boto3
