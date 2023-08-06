@@ -1,0 +1,9 @@
+django_cron_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cron_tasks/admin.py,sha256=JyFHKJKvB2Ir-2Z4RxZ7tQ7wDtjXZ11XEaZrChMtIiQ,281
+django_cron_tasks/apps.py,sha256=hRjJNsZA_Qkvz7KYoZcqj7CVGVtiysVaXARFFDqPc-c,164
+django_cron_tasks/models.py,sha256=cseOf1wc2Y2flIhrKTYhchUkYmIjqX21R4QRy1-C25o,462
+django_cron_tasks-1.0.0.dist-info/LICENSE,sha256=sVQFejr4rBz2Aoh8JErHylTu1FIIb-ROffO5_O6g49E,1086
+django_cron_tasks-1.0.0.dist-info/METADATA,sha256=tI0mVta_fCV6K-HefCaQd0J0PUHEYOLJSHLNTHZ0HnY,273
+django_cron_tasks-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_cron_tasks-1.0.0.dist-info/top_level.txt,sha256=DLRxRr3bp4mAY4W3WiXCPxz-313SZL_2vz1jE58XIt4,18
+django_cron_tasks-1.0.0.dist-info/RECORD,,
