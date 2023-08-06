@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+memory_efficient_attention_pytorch/__init__.py
+memory_efficient_attention_pytorch/autoregressive_wrapper.py
+memory_efficient_attention_pytorch/memory_efficient_attention.py
+memory_efficient_attention_pytorch/memory_efficient_cosine_sim_attention.py
+memory_efficient_attention_pytorch/reversible.py
+memory_efficient_attention_pytorch/transformer.py
+memory_efficient_attention_pytorch.egg-info/PKG-INFO
+memory_efficient_attention_pytorch.egg-info/SOURCES.txt
+memory_efficient_attention_pytorch.egg-info/dependency_links.txt
+memory_efficient_attention_pytorch.egg-info/requires.txt
+memory_efficient_attention_pytorch.egg-info/top_level.txt
