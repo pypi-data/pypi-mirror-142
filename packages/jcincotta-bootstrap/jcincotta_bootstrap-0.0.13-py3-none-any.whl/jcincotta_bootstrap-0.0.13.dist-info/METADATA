@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: jcincotta-bootstrap
+Version: 0.0.13
+Summary: A small example package
+Home-page: https://github.com/jcincotta22/boilerplate-sdk-py
+Author: Jeff Cincotta
+Author-email: jcincotta22@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jcincotta22/boilerplate-sdk-py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: vcrpy (>=1.10.3)
+
+# Python sdk boilerplate code
+
+Use this link as a resource when publishing packages:
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+This is a basic example of an api sdk use the deck of cards api
+https://deckofcardsapi.com/
+
+
+
