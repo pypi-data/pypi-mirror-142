@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: opensea-wrapper
+Version: 0.0.1
+Summary: opensea wrapper functions to use in your projects
+Home-page: https://github.com/apinanyogaratnam/opensea-wrapper
+Author: apinanyogaratnam
+Author-email: apinanapinan@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Opensea Wrapper
+
+A wrapper for the Opensea API to be used as a python package for simplicity.
+
+
