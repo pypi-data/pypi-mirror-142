@@ -1,0 +1,16 @@
+a2pm/__init__.py,sha256=r5vC-IVcuWHMtxc7dKuOvwCHDvcUqnttkIloinjAoNM,86
+a2pm/a2pm.py,sha256=Khwt3fjbp9mC15QMKZAcrIruw7eFao-a_RwZU4DNp04,33257
+a2pm/callbacks/__init__.py,sha256=BOA2HY6hNPQrwRAFFFPTm-qGkkPASqpfQtD52GOuT6g,166
+a2pm/callbacks/base_callback.py,sha256=Ai_xhZzbTElfUiQb95WnH9WBwjgBdKanNvkrVzP6QC8,1806
+a2pm/callbacks/metric_callback.py,sha256=a6REOK3JLNpfn1S4jLQoki_NDw-mB8faB9SbNXrggVs,2958
+a2pm/callbacks/time_callback.py,sha256=HakXsNsEMwF6eAH4ShqqHAWsiRb3K_aDcrMocX0exMk,1709
+a2pm/patterns/__init__.py,sha256=cVuKlHgsNofnIqj1uFbPbWht49ouMBlV2TuI_Tw_Ff8,242
+a2pm/patterns/base_pattern.py,sha256=LWAife3BU-263IUaQG7kqdn3Ynt3btISrMVsOSgekXI,7034
+a2pm/patterns/combination_pattern.py,sha256=hCdYNN4K4uVK1O9QbZEzZdPI5Z3eZajbu6KS7BFZGuI,9319
+a2pm/patterns/interval_pattern.py,sha256=c6dV8KpD_xRczIo3KJoIg9dZJEKsD18-u8BrQ2oaXi8,13671
+a2pm/patterns/patterns.py,sha256=EAmKlcmD1RAyTdg5NknAoK0bU85fwH_GWEGrApnOAL0,3578
+a2pm-1.1.0.dist-info/LICENSE.txt,sha256=DOLHQs2b6PuCJNGC0NoXxmHmAku56YyThJS-Cyv6_0Q,1109
+a2pm-1.1.0.dist-info/METADATA,sha256=qKuAfqizYUe2s7YoJ2rKmu8SkX05CNABdLLKN9HjT4Y,5072
+a2pm-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+a2pm-1.1.0.dist-info/top_level.txt,sha256=usEvIMI3fTapJYZ2d5wxa3-u5EWQjhT-vZPOARu1Z6E,5
+a2pm-1.1.0.dist-info/RECORD,,
