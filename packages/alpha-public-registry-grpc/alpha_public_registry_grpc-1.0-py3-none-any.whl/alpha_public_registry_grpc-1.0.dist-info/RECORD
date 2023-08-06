@@ -1,0 +1,6 @@
+registry_pb2.py,sha256=Knix9eBVbmiW18syO_-hSZfEUJg42MmzE6dx7_6mIoU,140074
+registry_pb2_grpc.py,sha256=SmjWTgtk46a0gsGZ0R0SSQOA3bUIKn0tCZCLe8uSzhY,42630
+alpha_public_registry_grpc-1.0.dist-info/METADATA,sha256=_LbS3SupAsuQDNtazloSpgb9_EW0R0rmzmYbIe9pkP8,254
+alpha_public_registry_grpc-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alpha_public_registry_grpc-1.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+alpha_public_registry_grpc-1.0.dist-info/RECORD,,
