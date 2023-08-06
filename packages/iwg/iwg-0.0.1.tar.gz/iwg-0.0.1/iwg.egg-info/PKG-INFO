@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iwg
+Version: 0.0.1
+Summary: An in-house website generator
+Home-page: http://github.com/bozdogan/iwg
+Author: B.Ozdogan
+Author-email: boraozdogan99@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
