@@ -1,0 +1,6 @@
+Cython
+cookiecutter
+pbxproj
+Pillow
+requests
+sh
