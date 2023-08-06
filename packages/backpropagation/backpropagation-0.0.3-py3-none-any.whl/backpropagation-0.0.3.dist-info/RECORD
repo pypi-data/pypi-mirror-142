@@ -1,0 +1,11 @@
+backpropagation/Backpropagation.py,sha256=DY5ujgCpD_0-AN_Uhl2IyhAmO3evloibhH2prwI3m7Q,2033
+backpropagation/HyperbolicTangent.py,sha256=owHYRaH70xGN3TAYQoPkwVJftTIwUMPjsOjwtEcPoXU,270
+backpropagation/NeuralNetwork.py,sha256=KWlhZcRVeBXDTNa8-eYBhGHJo_AC-TIz3KwJnJR5r64,629
+backpropagation/ReLU.py,sha256=5CQB3aMSeS2gzFcJsYz01dnEz35Qg6dd3qKZSupHqNU,127
+backpropagation/Sigmoid.py,sha256=q_vxfjFt8-zP5Vyifsj3JBqUCCo4cVsVt5JX-lRZcK4,157
+backpropagation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backpropagation-0.0.3.dist-info/LICENSE.txt,sha256=nrb2nUih3XZOijPxSlhPRg087GU0d8E2qV3W35wkkhE,1055
+backpropagation-0.0.3.dist-info/METADATA,sha256=Zq-MxzrWNnCWsrvlf03TZYAuY6xaaoZuYJYBINhZEAw,1180
+backpropagation-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+backpropagation-0.0.3.dist-info/top_level.txt,sha256=1VZW1GM7sYasd3T7M1hhcZ2WdhCA0wlv_HRs9MQCbNo,16
+backpropagation-0.0.3.dist-info/RECORD,,
