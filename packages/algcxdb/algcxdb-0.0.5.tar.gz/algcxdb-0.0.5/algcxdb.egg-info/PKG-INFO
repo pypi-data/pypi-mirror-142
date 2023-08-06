@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: algcxdb
+Version: 0.0.5
+Summary: 奥利给硬件科技工作室程序打包库！！！
+Home-page: https://alggfzslt.freeflarum.com/
+Author: algfwq
+Author-email: 3104374883@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires: pyinstaller
+
+奥利给硬件科技工作室程序打包库！！！使用函数cxdb()即可！！！
+
