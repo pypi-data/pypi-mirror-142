@@ -1,0 +1,15 @@
+aoe/__init__.py,sha256=hdopcQ8U3YYiWdOHaxniMdweKbXmDiGdIBUbcljdGY8,92
+aoe/shell/__init__.py,sha256=VnI0WKTIxVbABujnJPeS_-MJVe4TRKr-bWMwJ18l4vw,57
+aoe/shell/usage.py,sha256=O0fEHxFUaE7FamxIjjSGrVoAn6IBQwzrwubea9KBizk,188
+aoe/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoe-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+aoe-0.0.1.dist-info/METADATA,sha256=gAdLETtT4p0iF2xWgG3IGbq-YKLp6jnKNP8EJg76u58,3097
+aoe-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aoe-0.0.1.dist-info/entry_points.txt,sha256=73AhJziG-Ro2lVhnCEKOVotmHeSmUpqnASifevKMyTw,39
+aoe-0.0.1.dist-info/top_level.txt,sha256=LUuMmOuujzYWKj_VzQ18Y8A2qfPcH6apOruljY_FCN0,4
+aoe-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aoe-0.0.1.dist-info/RECORD,,
