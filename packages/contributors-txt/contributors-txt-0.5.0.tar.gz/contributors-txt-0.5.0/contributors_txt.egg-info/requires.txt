@@ -1,0 +1,8 @@
+
+[test]
+pytest-cov
+coverage
+python-coveralls
+coveralls
+pylint==2.12.2
+pre-commit>=1.16
