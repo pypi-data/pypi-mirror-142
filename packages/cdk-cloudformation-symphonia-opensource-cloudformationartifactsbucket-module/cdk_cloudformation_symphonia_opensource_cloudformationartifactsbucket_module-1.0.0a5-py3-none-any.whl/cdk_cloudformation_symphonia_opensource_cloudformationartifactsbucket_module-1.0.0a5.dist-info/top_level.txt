@@ -1,0 +1,1 @@
+cdk_cloudformation_symphonia_opensource_cloudformationartifactsbucket_module
