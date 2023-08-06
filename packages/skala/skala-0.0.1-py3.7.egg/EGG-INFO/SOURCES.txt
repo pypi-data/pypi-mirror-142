@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/skala.egg-info/PKG-INFO
+src/skala.egg-info/SOURCES.txt
+src/skala.egg-info/dependency_links.txt
+src/skala.egg-info/top_level.txt
