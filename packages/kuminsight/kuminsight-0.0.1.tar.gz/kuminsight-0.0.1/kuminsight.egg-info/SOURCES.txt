@@ -1,0 +1,8 @@
+license.txt
+setup.py
+KumInsight/__init__.py
+KumInsight/kumcut.py
+kuminsight.egg-info/PKG-INFO
+kuminsight.egg-info/SOURCES.txt
+kuminsight.egg-info/dependency_links.txt
+kuminsight.egg-info/top_level.txt
