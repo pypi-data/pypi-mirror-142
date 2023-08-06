@@ -1,0 +1,3 @@
+[console_scripts]
+coco-preview=echo1_coco_preview.echo1_coco_preview:app
+

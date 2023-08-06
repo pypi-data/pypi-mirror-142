@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: echo1-coco-preview
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/e1-io/echo1-coco-preview
+License: MIT
+Author: Michael Mohamed
+Author-email: michael.mohamed@echo1.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bbox-visualizer (>=0.1.0,<0.2.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
+Requires-Dist: pydash (>=5.1.0,<6.0.0)
+Project-URL: Repository, https://github.com/e1-io/echo1-coco-preview
+Description-Content-Type: text/markdown
+
+# echo1-coco-preview
+
+## Installation & Use
+
+```shell
+# Install echo1-coco-preview
+> pip install echo1-coco-preview
+
+> coco-preview
+usage: coco-preview [-h] [--annotations_file ANNOTATIONS_FILE] [--data_base_path DATA_BASE_PATH] [--scale_percent SCALE_PERCENT] --image_id
+                    IMAGE_ID
+coco-preview: error: the following arguments are required: --image_id
+```
