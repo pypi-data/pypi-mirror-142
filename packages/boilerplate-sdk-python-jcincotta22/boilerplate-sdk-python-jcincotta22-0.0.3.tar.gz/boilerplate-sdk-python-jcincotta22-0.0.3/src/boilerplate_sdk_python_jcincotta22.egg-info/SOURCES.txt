@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/api/__init__.py
+src/api/apiclient.py
+src/api/card.py
+src/api/deck.py
+src/api/drawncards.py
+src/api/fetchcache.py
+src/boilerplate_sdk_python_jcincotta22.egg-info/PKG-INFO
+src/boilerplate_sdk_python_jcincotta22.egg-info/SOURCES.txt
+src/boilerplate_sdk_python_jcincotta22.egg-info/dependency_links.txt
+src/boilerplate_sdk_python_jcincotta22.egg-info/requires.txt
+src/boilerplate_sdk_python_jcincotta22.egg-info/top_level.txt
