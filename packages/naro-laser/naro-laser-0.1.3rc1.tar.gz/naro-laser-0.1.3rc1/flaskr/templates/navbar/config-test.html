@@ -1,0 +1,170 @@
+{% extends 'base_navbar.html' %}
+{% block content %}
+<main class="container">
+    <div class="bg-light p-5 rounded">
+
+        <h1>Config testing</h1>
+        <p>여기는 개발과정의 테스트 작업들이다. 마지막에는 삭제한다.
+        </p>
+
+<!--        22.0120-->
+        <h5>Buttons step#1</h5>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input">
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+
+        <h5>Buttons step#2</h5>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input">
+
+        <form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave1"></form>
+        <form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave2"></form>
+        <form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave3"></form>
+
+        <input class="btn btn-primary" type="reset" name="cmd" value="Reset">
+
+        <h5>Buttons step#3</h5>
+        <div class="row justify-content-start">
+            <div class="col-3">Col#1<form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave1"></form></div>
+            <div class="col-3">Col#2<form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave2"></form></div>
+            <div class="col-3">Col#3<form><input class="btn btn-primary" type="submit" name="cmd" value="SubmitSave3"></form></div>
+            <div class="col-3">Col#4</div>
+        </div>
+
+        <h5>Buttons step#4</h5>
+        <div class="row justify-content-start">
+            <div class="col-2"><form><input class="btn btn-primary" type="submit" name="cmd_cnfgfile" value="Save"></form></div>
+            <div class="col-2"><form><input class="btn btn-success" type="submit" name="cmd_cnfgfile" value="Load"></form></div>
+            <div class="col-2"><form><input class="btn btn-warning" type="submit" name="cmd_cnfgfile" value="Delete"></form></div>
+        </div>
+
+        <p></p>
+        <!--        <form class="row g-3">-->
+        <form>
+            <h5>Text or Number</h5>
+            <div class="col-auto">
+                <!--label 마저도 제거한 가장 간략한 방식-->
+                Item11: <input type="text" class="form-control" placeholder="hello" name="item11" value="A_Text_of_item11">
+                Item12: <input type="text" class="form-control" name="item12" value="A Text include spaces item12">
+                Item21: <input type="number" class="form-control" name="item21" value="100">
+                Item22: <input type="number" class="form-control" name="item22" value="100.3456">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Text or Number Alt #1.</h5>
+            <div class="col-auto">
+                <label>Item11</label>
+                <input type="text" class="form-control" name="item11" value="item11">
+            </div>
+            <div class="col-auto">
+                <label>Item12</label>
+                <input type="text" class="form-control" name="item12" value="item12">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Text or Number Alt #2.</h5>
+            <div class="col-auto">
+                <label>Item11
+                    <input type="text" class="form-control" name="item11" value="item11">
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Checkbox and Radio</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="check11" value="1" id="check11">
+                <label class="form-check-label" for="check11">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="check12" value="1" id="check12" checked>
+                <label class="form-check-label" for="check12">
+                    Checked checkbox
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Checkbox and Radio 2</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+                <label class="form-check-label" for="flexRadioDefault12">
+                    Default radio
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault13" checked>
+                <label class="form-check-label" for="flexRadioDefault13">
+                    Default checked radio
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Select</h5>
+            <select class="form-select" name="select11" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Range</h5>
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="1" step="0.1" name="range11" id="customRange3">
+            <label for="customRange4" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="100" step="1" name="range12" id="customRange4">
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+        <form>
+            <h5>Input group with Checkbox</h5>
+            <div class="input-group">
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input type="text" class="form-control" name="text11" aria-label="Text input with checkbox">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input type="text" class="form-control" name="text21" aria-label="Text input with checkbox">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit Form Data</button>
+        </form>
+
+
+        <hr>
+        <form class="" action="{{url_for('navbar.config_test')}}" method="get">
+            <!-- GET 방식 사용 -->
+            <!-- 이 방식은 주소창에 바로 입력해도 된다 -->
+            <!-- action 은 없어도 되어야 할 것 같은데... -->
+            <h4>HTML5 form class</h4>
+            ID:
+            <input type="text" placeholder="hello" name="id" value="1"><br>
+            username:
+            <input type="text" name="username" value="Bret"><br>
+            val:
+            <input type="text" name="val" value="3.141592"><br>
+
+            <input type="submit" value="Submit Form Data">
+        </form>
+
+    </div>
+
+    <!-- 박제 21.1010    <div class="bg-light p-5 rounded">-->
+    <!--        <h1>Config</h1>-->
+    <!--        <p class="lead">This example...</p>-->
+    <!--        <a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>-->
+    <!--    </div>-->
+</main>
+{% endblock %}

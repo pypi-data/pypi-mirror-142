@@ -1,0 +1,1 @@
+"{\"sample\": {\"period\": 1.0, \"size\": 4}, \"log\": {\"max\": 10}, \"proc\": {\"method\": \"MEAN\"}, \"lte\": {\"dev_name\": \"not defined\", \"baud_rate\": 115200, \"time_out\": 1, \"send_interval\": 3600}, \"sse\": {\"period\": 0.5}, \"from_file\": false}"
