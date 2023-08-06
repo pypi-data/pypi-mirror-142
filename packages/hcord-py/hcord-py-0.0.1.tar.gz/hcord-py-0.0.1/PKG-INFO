@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hcord-py
+Version: 0.0.1
+Summary: A Discord API Wrapper written in Python.
+Home-page: UNKNOWN
+Author: MaskDuck
+License: MIT
+Keywords: discord
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# hcord
+hcord is a Discord API wrapper written in Python.
+# Since it is in active early development I recommend you not to use it.
+
+

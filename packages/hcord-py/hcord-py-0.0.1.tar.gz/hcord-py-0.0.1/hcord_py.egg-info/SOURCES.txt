@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+hcord/__init__.py
+hcord/errors.py
+hcord/http.py
+hcord_py.egg-info/PKG-INFO
+hcord_py.egg-info/SOURCES.txt
+hcord_py.egg-info/dependency_links.txt
+hcord_py.egg-info/requires.txt
+hcord_py.egg-info/top_level.txt
