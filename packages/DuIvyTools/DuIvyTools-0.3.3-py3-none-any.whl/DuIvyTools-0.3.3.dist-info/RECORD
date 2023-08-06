@@ -1,0 +1,17 @@
+DuIvyTools/DIT.py,sha256=YtLmPNwOWLykG9puEsOLb8aSlEdB291NwmSnvylIufc,1946
+DuIvyTools/HELP.py,sha256=4sOBwsd8GPMe6eKcOxM1JUn-gIgkXAweZQFIMoYxMCU,21978
+DuIvyTools/MDP.py,sha256=ZhcoLGkbvzTeqbMYpYFSWHaru00fsGb56baegi6Gi84,3978
+DuIvyTools/NDX.py,sha256=o2-xsaJSjbmITPm8ZXxo1u87e7Q1mrpIebc02X3h6ts,17254
+DuIvyTools/XPM.py,sha256=_NA5rDv4826Qy8D_uDe9WkbyY4oDBt-doyWPlkkGx7w,31230
+DuIvyTools/XVG.py,sha256=chGqESpjmr2riOpti-GZPqOLjJC6W_H0XPXwHoOBIO0,55564
+DuIvyTools/__init__.py,sha256=BsP1QTcE7JEzOvmY6QdFMMu8jCSh0-EN1wxJJ3yVl-4,416
+DuIvyTools/data/pref_general.data,sha256=gL6Rrmka0FH_HwmdXJDdvUFb2ZNhKFkSCd6_JKmaN0s,883814
+DuIvyTools/data/pref_glycine.data,sha256=v1IKfyYOcWJE2RJQduXYe5NCmFNUVEuvxRvRjQwGSsw,926970
+DuIvyTools/data/pref_preproline.data,sha256=N1YH5Lm2Zttiuo48SIs_HgJJy4Z3cDl8psjjekoGkKE,695254
+DuIvyTools/data/pref_proline.data,sha256=Yv3wDajUPiMyXSqujSv2j6knYlvC4k0JHjg2m5MyHBo,641990
+DuIvyTools-0.3.3.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+DuIvyTools-0.3.3.dist-info/METADATA,sha256=s8x8peKqulssP7fQzchZbuq2928d-egZRxkQu8Wlanw,2999
+DuIvyTools-0.3.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+DuIvyTools-0.3.3.dist-info/entry_points.txt,sha256=ohGctKMVcFOedp3vT_5atsyFkhnIb7O3-Njb3lGJNOk,45
+DuIvyTools-0.3.3.dist-info/top_level.txt,sha256=91YHOdx4qNK4yDndl_jr5SndyLxLG_LENe0w-ql14Ws,11
+DuIvyTools-0.3.3.dist-info/RECORD,,
