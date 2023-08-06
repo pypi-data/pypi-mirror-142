@@ -1,0 +1,12 @@
+shakenfist_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shakenfist_agent/main.py,sha256=C2DPjg1WNu2lZkwv2TQ9BeUQZuEL9mry61DYXk-ZaXk,1886
+shakenfist_agent/protocol.py,sha256=J6-JcJlAD4YYvR1PUfU9gCTfJ1RpHT1KFD_n9KZ62Z8,4397
+shakenfist_agent/commandline/daemon.py,sha256=Dc7mjWB2EZ2FfM10I8XiYxQD1HAjA-Fmzl6Y8gpHd7U,1317
+shakenfist_agent-0.1.0.dist-info/AUTHORS,sha256=4_jnca0_6jMm29085a-7ygHu6VTTos6FxLfnHTHEXvA,60
+shakenfist_agent-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+shakenfist_agent-0.1.0.dist-info/METADATA,sha256=wvw_mXQohfUbs5b2XTxWSE3WRkSv5K9xO7W9_6Qz9Qg,985
+shakenfist_agent-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shakenfist_agent-0.1.0.dist-info/entry_points.txt,sha256=UgeJu8kTY2skedNDqQ8kWLafylt9BpeK5CTLm57BbKQ,56
+shakenfist_agent-0.1.0.dist-info/pbr.json,sha256=XIkD5jQZxhrGPu9iDWUfjEibqZPs9TEfw3BKD1-JfSg,46
+shakenfist_agent-0.1.0.dist-info/top_level.txt,sha256=QYG5Ra4x_qUqIaTNZpggrL3lU5Cj0ffj8-K-bQkXe00,17
+shakenfist_agent-0.1.0.dist-info/RECORD,,
