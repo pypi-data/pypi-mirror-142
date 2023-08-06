@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: CHPCDIANA
+Version: 0.0.9
+Summary: Implementation of the Divisive Analysis algorithm for clustering.
+Home-page: 
+Author: Ismail EL Yamani, Salma EL Omari, Widad EL Moutaouakal, Youssef EL Mrabet
+Author-email: ismail.elyamani.2000@gmail.com
+License: MIT
+Keywords: Divisive Analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# DIANA package  
+## CloudHPC Master Machine learning module, [ENSIAS](http://ensias.um5.ac.ma/), Morocco
+  Implementation of DIANA (Divisive analysis) package.
+### Project on Pypi.org
+- [https://pypi.org/project/chpcdiana/](https://pypi.org/project/chpcdiana/)
+
+### Installation
+```
+pip install CHPCDIANA
+```
+
+### Example on Google Colab
+- [Link (google Colab)](https://colab.research.google.com/drive/1CK73MHFoZm3ClKF8KkeAXwidUdAeW6tK)
+
+## report
+- [Link (google doc file)](https://docs.google.com/document/d/1tETv-cnt6FXEuNykg7tbenoG1oui_OI6UffoClQCejc)
+## Contributors:
+- [Ismail EL Yamani](mailto:ismail.elyamani.2000@gmail.com)
+- [Salma EL Omari](mailto:elomarisalma20@gmail.com)
+- [Widad EL Moutaouakal](mailto:widadelmoutaouakal617@gmail.com)
+- [Youssef EL Mrabet](mailto:contactyoussefelmrabet@gmail.com)
+
+
+
+
+
+## special thanks to:
+- [A. Elhassouny](https://github.com/Elhassouny)
+
+
+--------------------------------------------
+## 0.0.9 (17-03-2022)
+- Added Description of functions.
+- Added Description of functions parameters.
+
+## 0.0.8 (15-03-2022)
+- First Release 
+
+
