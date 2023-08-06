@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gitdump
+Version: 0.0.0
+Summary: Comming soon ...
+Home-page: https://github.com/Divinemonk/gitdump/
+Author: Divinemonk
+Author-email: <v1b7rc8eb@relay.firefox.com>
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
