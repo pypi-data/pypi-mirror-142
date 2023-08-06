@@ -1,0 +1,3 @@
+[console_scripts]
+yamlimg=yamlimg.cli:app
+
