@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+cloudprojects/__init__.py
+cloudprojects/urls.py
+django_cloudprojects.egg-info/PKG-INFO
+django_cloudprojects.egg-info/SOURCES.txt
+django_cloudprojects.egg-info/dependency_links.txt
+django_cloudprojects.egg-info/requires.txt
+django_cloudprojects.egg-info/top_level.txt
