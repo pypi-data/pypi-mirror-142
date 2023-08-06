@@ -1,0 +1,1 @@
+cdk_cloudformation_logzio_myservice_myname_module
