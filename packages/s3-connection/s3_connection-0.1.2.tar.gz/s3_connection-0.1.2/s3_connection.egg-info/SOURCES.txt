@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+s3_connection/__init__.py
+s3_connection/s3_conn_class.py
+s3_connection.egg-info/PKG-INFO
+s3_connection.egg-info/SOURCES.txt
+s3_connection.egg-info/dependency_links.txt
+s3_connection.egg-info/requires.txt
+s3_connection.egg-info/top_level.txt
