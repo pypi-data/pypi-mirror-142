@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: clsa-data
+Version: 0.1.0
+Summary: UNKNOWN
+Author: CLSA
+Author-email: no-reply@clsa.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.9.10, < 3.10
+Requires-Dist: build
+Requires-Dist: pip-tools
+Requires-Dist: pre-commit
+Requires-Dist: twine
+
+UNKNOWN
+
