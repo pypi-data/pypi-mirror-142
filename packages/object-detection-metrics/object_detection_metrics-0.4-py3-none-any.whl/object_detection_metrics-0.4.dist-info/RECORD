@@ -1,0 +1,14 @@
+podm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+podm/box.py,sha256=V5wAfKtCgGeQFJsWBUOCLZ0yE3-Fm5qxrmxKP0jM98A,5504
+podm/coco.py,sha256=WcKgrE4xV6WVZUNeqnc2XbbjQJwi39MZeW4Uh1WyDxY,11306
+podm/coco_decoder.py,sha256=_5zhjV_G3PgpbWoed1HrXx6ISXFz7w1G3_H8aDkCuOM,3869
+podm/coco_encoder.py,sha256=UrORHOlduNI2E8uRZoYNZL3Tpm-jwaxsXao2WOhkVy0,3791
+podm/metrics.py,sha256=Gz_rRRw6nzxxb4rswbK7M6D_rlcMlE8FLSPM8xW5N8c,8860
+podm/pascal2coco.py,sha256=dRVBbM0F4Olfqj9LZO2QTwRhMwYKcK50TyXuRi990vY,5888
+podm/visualize.py,sha256=4ybwmFygO4VgC2f2YEm8IbccbK4qfxnbg_tTaRf-opI,3959
+object_detection_metrics-0.4.dist-info/LICENSE,sha256=dw7o2FpaK3aZaehAbYpryA0UwXoeFMxDWMvAsIQ57aQ,1092
+object_detection_metrics-0.4.dist-info/METADATA,sha256=EVKshzGLjxhqeDSPyz4PNa1ISRLucyw4AD54uj2Acco,5006
+object_detection_metrics-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+object_detection_metrics-0.4.dist-info/entry_points.txt,sha256=TcNt-nKl0ZdQvWTcBDd23nui4w80HBuWnAQyv0IbhLY,54
+object_detection_metrics-0.4.dist-info/top_level.txt,sha256=sHePSDJoBGDAq-JYs19LrHsQ_EAbzowroafK1QgzbEI,5
+object_detection_metrics-0.4.dist-info/RECORD,,
