@@ -1,0 +1,2 @@
+[console_scripts]
+inka = inka.cli:cli
