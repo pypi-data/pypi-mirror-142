@@ -1,0 +1,5 @@
+include README.md
+include qhbayes/data/AubryData.xlsx
+include qhbayes/data/SparksData.xlsx
+include qhbayes/data/MastinData.xlsx
+include qhbayes/data/IVESPAData.xlsx
