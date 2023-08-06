@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "useless_lavalink"
+version = "1.4.1"
+description = "A fork of Red-Lavalink for useless_bot"
+license = "GPL-3.0-or-later"
+authors = ["MRvillager <mrvillager.dev@gmail.com>", "tekulvw"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: aiohttp",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Communications :: Chat",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+packages = [
+    { include = "lavalink" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = ">=3.6.0|<4"
+"discord.py" = "^1.7|^2"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+async_generator = "*"
+
+sphinx = {version = "^3.4.2|^4", optional = true}
+sphinxcontrib-asyncio = {version = "^0.3", optional = true}
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinxcontrib-asyncio"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
