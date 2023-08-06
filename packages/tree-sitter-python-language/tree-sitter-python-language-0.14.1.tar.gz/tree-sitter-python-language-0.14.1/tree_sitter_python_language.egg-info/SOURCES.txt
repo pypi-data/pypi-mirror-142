@@ -1,0 +1,15 @@
+setup.py
+tree_sitter_python_language/__init__.py
+tree_sitter_python_language/__main__.py
+tree_sitter_python_language/_build.py
+tree_sitter_python_language/_versions.py
+tree_sitter_python_language.egg-info/PKG-INFO
+tree_sitter_python_language.egg-info/SOURCES.txt
+tree_sitter_python_language.egg-info/dependency_links.txt
+tree_sitter_python_language.egg-info/requires.txt
+tree_sitter_python_language.egg-info/top_level.txt
+tree_sitter_python_language/src/grammar.json
+tree_sitter_python_language/src/node-types.json
+tree_sitter_python_language/src/parser.c
+tree_sitter_python_language/src/scanner.cc
+tree_sitter_python_language/src/tree_sitter/parser.h
