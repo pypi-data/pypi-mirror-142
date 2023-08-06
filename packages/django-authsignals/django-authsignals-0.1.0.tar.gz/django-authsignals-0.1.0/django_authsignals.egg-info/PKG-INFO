@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-authsignals
+Version: 0.1.0
+Summary: Consolidate common auth signal behavior
+Home-page: https://github.com/ccnmtl/django-authsignals
+Author: Nik Nyby
+Author-email: ctl-dev@columbia.edu
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+authsignals/__init__.py
+django_authsignals.egg-info/PKG-INFO
+django_authsignals.egg-info/SOURCES.txt
+django_authsignals.egg-info/dependency_links.txt
+django_authsignals.egg-info/requires.txt
+django_authsignals.egg-info/top_level.txt
