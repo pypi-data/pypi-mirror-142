@@ -1,0 +1,2 @@
+[console_scripts]
+cn-trader-ui = cn_trader.ui:main
