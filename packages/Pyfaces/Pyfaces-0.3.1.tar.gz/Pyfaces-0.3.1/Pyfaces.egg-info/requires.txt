@@ -1,0 +1,6 @@
+colorama
+face_recognition
+json-rpc
+numpy
+waitress
+werkzeug
