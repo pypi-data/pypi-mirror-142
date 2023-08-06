@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: better-partial
+Version: 1.0.6
+Summary: A more intuitive way to partially apply functions in Python.
+Home-page: https://github.com/chrisgrimm/better_partial
+Author: Christopher Grimm
+Author-email: cgrimm1994@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A more intuitive way to partially apply functions in Python.
+
