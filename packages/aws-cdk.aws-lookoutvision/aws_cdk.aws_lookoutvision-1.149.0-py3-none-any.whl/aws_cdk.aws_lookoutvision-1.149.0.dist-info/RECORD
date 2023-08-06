@@ -1,0 +1,10 @@
+aws_cdk/aws_lookoutvision/__init__.py,sha256=zypFMf-1whLJKu3cU92Qnbl15acRQ8-XY5Hp4-kqb4U,6944
+aws_cdk/aws_lookoutvision/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_lookoutvision/_jsii/__init__.py,sha256=s_wfrnbvERXlKO_GPxs0TCKifLGqfV3a686FzJ1l5yk,374
+aws_cdk/aws_lookoutvision/_jsii/aws-lookoutvision@1.149.0.jsii.tgz,sha256=TFMJ3AhynTM51j9p_5foGgqCJ98Px_fnwsHKtKnTDK4,17041
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/METADATA,sha256=KvDYRJfLS4HSvyf5Sz9NoQAhAa9e1Nb8UUmlm_xYQvE,2479
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_lookoutvision-1.149.0.dist-info/RECORD,,
