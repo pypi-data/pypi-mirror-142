@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/excal.egg-info/PKG-INFO
+src/excal.egg-info/SOURCES.txt
+src/excal.egg-info/dependency_links.txt
+src/excal.egg-info/entry_points.txt
+src/excal.egg-info/requires.txt
+src/excal.egg-info/top_level.txt
