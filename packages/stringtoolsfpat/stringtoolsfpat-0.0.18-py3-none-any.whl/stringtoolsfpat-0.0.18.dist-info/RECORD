@@ -1,0 +1,8 @@
+stringtoolsfpat/__init__.py,sha256=NTOjN5UCj-VzK8O3Rn2PqusWgcAjFQj0MhwcDhUHuI0,182
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=8YDpXVNl0HRvwERAi6y2bbkrmoLd1_Dwx1dUlXRqAIk,256
+tests/test_stringtools.py,sha256=OQkhGLuSPDeIVA28M3CJGrh8-0gFvazc1RM27N3Szq4,113
+stringtoolsfpat-0.0.18.dist-info/METADATA,sha256=Qipgj2nTJ8mmClp-XwHjRm7x-HZRquzo0LY3ePLSUT8,919
+stringtoolsfpat-0.0.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stringtoolsfpat-0.0.18.dist-info/top_level.txt,sha256=PrKFPUjgUI015C-BRP2EQ33MlMQSkXphegYFk90aMpw,22
+stringtoolsfpat-0.0.18.dist-info/RECORD,,
