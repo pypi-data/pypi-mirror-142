@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/__init__.py
+test/test.py
+wa_automate_socket_client.egg-info/PKG-INFO
+wa_automate_socket_client.egg-info/SOURCES.txt
+wa_automate_socket_client.egg-info/dependency_links.txt
+wa_automate_socket_client.egg-info/requires.txt
+wa_automate_socket_client.egg-info/top_level.txt
