@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: contributors-txt
+Version: 0.4.5
+Summary: Generate a list of contributors automatically from git data
+Home-page: https://github.com/Pierre-Sassoulas/contributors-txt
+Author: Pierre Sassoulas
+Author-email: pierre.sassoulas@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: python-coveralls ; extra == 'test'
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: pylint (==2.12.2) ; extra == 'test'
+Requires-Dist: pre-commit (>=1.16) ; extra == 'test'
+
+# contributors-txt
+
+Generate a list of contributors automatically from git data
+
+
