@@ -1,0 +1,11 @@
+mitmproxy<8.0.0,>=7.0.0
+parse>=1.19.0
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+tox
