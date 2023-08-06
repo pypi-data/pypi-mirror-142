@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_sysdig_helm_agent/__init__.py
+src/cdk_cloudformation_sysdig_helm_agent/py.typed
+src/cdk_cloudformation_sysdig_helm_agent.egg-info/PKG-INFO
+src/cdk_cloudformation_sysdig_helm_agent.egg-info/SOURCES.txt
+src/cdk_cloudformation_sysdig_helm_agent.egg-info/dependency_links.txt
+src/cdk_cloudformation_sysdig_helm_agent.egg-info/requires.txt
+src/cdk_cloudformation_sysdig_helm_agent.egg-info/top_level.txt
+src/cdk_cloudformation_sysdig_helm_agent/_jsii/__init__.py
+src/cdk_cloudformation_sysdig_helm_agent/_jsii/sysdig-helm-agent@1.8.0-alpha.5.jsii.tgz
