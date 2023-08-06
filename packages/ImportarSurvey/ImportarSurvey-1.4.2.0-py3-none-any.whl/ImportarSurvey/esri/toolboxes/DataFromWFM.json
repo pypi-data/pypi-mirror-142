@@ -1,0 +1,174 @@
+{
+    "mapeos": [
+        {
+            "origen": "JTX_JOBS",
+            "destino": "Asignacion",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "GLOBALID",
+            "llaveEsGuid": "True",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "JOB_ID",
+                    "destino": "ID_ASIGNACION"
+                },
+                {
+                    "origen": "CREATED_DATE",
+                    "destino": "FECHA"
+                }
+                
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        },
+        {
+            "origen": "WMX_EC_GESTIONEDICION",
+            "destino": "Tramite",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "OBJECTID",
+            "llaveEsGuid": "False",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "ID_TRAMITE",
+                    "destino": "ID_TRAMITE"
+                },
+                {
+                    "origen": "TIPO_TRAMITE",
+                    "destino": "TIPO"
+                },
+                {
+                    "origen": "?????",
+                    "destino": "FECHA_INICIO"
+                },
+                {
+                    "origen": "EDITOR_ASIGNADO",
+                    "destino": "RECONOCEDOR_FK"
+                },
+                {
+                    "origen": "????",
+                    "destino": "VERSION"
+                },
+                {
+                    "origen": "????",
+                    "destino": "VIGENCIA"
+                },
+                {
+                    "origen": "JOB_ID",
+                    "destino": "ASIGNACION_FK"
+                }
+                
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        },
+        {
+            "origen": "WMX_EC_GESTIONEDICION",
+            "destino": "Mutacion",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "OBJECTID",
+            "llaveEsGuid": "False",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "???",
+                    "destino": "ID_MUTACION"
+                },
+                {
+                    "origen": "TIPO",
+                    "destino": "TIPO_MUTACION"
+                },
+                {
+                    "origen": "SUBTIPO",
+                    "destino": "SUBTIPO_MUTACION"
+                },
+                {
+                    "origen": "ID_TRAMITE",
+                    "destino": "TRAMITE_FK"
+                }
+                
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        },
+        {
+            "origen": "WMX_EC_GESTIONEDICION",
+            "destino": "Radicacion",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "OBJECTID",
+            "llaveEsGuid": "False",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "ID_SOLICITUD",
+                    "destino": "ID_RADICACION"
+                },
+                {
+                    "origen": "START_DATE",
+                    "destino": "FECHA"
+                },
+                {
+                    "origen": "???",
+                    "destino": "TRAMITE_FK"
+                }
+                
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        },
+        {
+            "origen": "WMX_EC_GESTIONEDICION",
+            "destino": "Predio",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "OBJECTID",
+            "llaveEsGuid": "False",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "CEDULA_CATASTRAL",
+                    "destino": "NUMERO_PREDIAL"
+                },
+                {
+                    "origen": "????",
+                    "destino": "MUTACION_FK"
+                },
+                {
+                    "origen": "JOB_ID",
+                    "destino": "RADICACION_FK"
+                }
+                
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        },
+        {
+            "origen": "JTX_JOBS",
+            "destino": "Reconocedor",
+            "llavePrimariaOrigen": "OBJECTID",
+            "llavePrimariaDestino": "OBJECTID",
+            "llaveEsGuid": "False",
+            "tipoOperacion": "CU",
+            "campos": [
+                {
+                    "origen": "ASSIGNED_TO",
+                    "destino": "USUARIO"
+                }
+            ],
+            "relacionesDestino": [
+            ],
+            "relacionesOrigen": [              
+            ]
+        }
+    ]
+    
+}
