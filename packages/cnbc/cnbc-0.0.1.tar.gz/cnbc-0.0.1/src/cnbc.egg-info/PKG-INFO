@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cnbc
+Version: 0.0.1
+Summary: A Python package that wraps CNBC API endpoints and returns financial data in JSON format.
+Home-page: https://github.com/AG3NTZ3R0/cnbc
+Author: Brandon J. Lacy
+Author-email: Z3R0@duck.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AG3NTZ3R0/cnbc/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CNBC
+
+A Python package that wraps CNBC API endpoints and returns financial data in JSON format. The API queries business news and live market data to streamline the development of financial applications.
+<table><tr><td>
+
+#### IMPORTANT LEGAL DISCLAIMER
+
+---
+
+cnbc is **not** affiliated, endorsed, or vetted by CNBC, Inc. It is
+an open-source tool that uses a publicly available API and is
+intended for research and educational purposes.
+</td></tr></table>
+
