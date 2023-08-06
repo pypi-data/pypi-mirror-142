@@ -1,0 +1,2340 @@
+from enum import Enum
+# noinspection PyPep8Naming
+from .Internal.RepeatedCapability import VALUE_DEFAULT as DefaultRepCap
+# noinspection PyPep8Naming
+from .Internal.RepeatedCapability import VALUE_EMPTY as EmptyRepCap
+
+
+# noinspection SpellCheckingInspection
+class Allocation(Enum):
+	"""Repeated capability Allocation"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr0 = 0
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+	Nr65 = 65
+	Nr66 = 66
+	Nr67 = 67
+	Nr68 = 68
+	Nr69 = 69
+	Nr70 = 70
+	Nr71 = 71
+	Nr72 = 72
+	Nr73 = 73
+	Nr74 = 74
+	Nr75 = 75
+	Nr76 = 76
+	Nr77 = 77
+	Nr78 = 78
+	Nr79 = 79
+	Nr80 = 80
+	Nr81 = 81
+	Nr82 = 82
+	Nr83 = 83
+	Nr84 = 84
+	Nr85 = 85
+	Nr86 = 86
+	Nr87 = 87
+	Nr88 = 88
+	Nr89 = 89
+	Nr90 = 90
+	Nr91 = 91
+	Nr92 = 92
+	Nr93 = 93
+	Nr94 = 94
+	Nr95 = 95
+	Nr96 = 96
+	Nr97 = 97
+	Nr98 = 98
+	Nr99 = 99
+	Nr100 = 100
+	Nr101 = 101
+	Nr102 = 102
+	Nr103 = 103
+	Nr104 = 104
+	Nr105 = 105
+	Nr106 = 106
+	Nr107 = 107
+	Nr108 = 108
+	Nr109 = 109
+	Nr110 = 110
+
+
+# noinspection SpellCheckingInspection
+class Antenna(Enum):
+	"""Repeated capability Antenna"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class AntennaPort(Enum):
+	"""Repeated capability AntennaPort"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+
+
+# noinspection SpellCheckingInspection
+class AntennaPort1k(Enum):
+	"""Repeated capability AntennaPort1k"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1000 = 1000
+	Nr1001 = 1001
+	Nr1002 = 1002
+	Nr1003 = 1003
+	Nr1004 = 1004
+	Nr1005 = 1005
+	Nr1006 = 1006
+	Nr1007 = 1007
+	Nr1008 = 1008
+	Nr1009 = 1009
+	Nr1010 = 1010
+	Nr1011 = 1011
+
+
+# noinspection SpellCheckingInspection
+class AntennaPort3k(Enum):
+	"""Repeated capability AntennaPort3k"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr3000 = 3000
+	Nr3001 = 3001
+	Nr3002 = 3002
+	Nr3003 = 3003
+	Nr3004 = 3004
+	Nr3005 = 3005
+	Nr3006 = 3006
+	Nr3007 = 3007
+	Nr3008 = 3008
+	Nr3009 = 3009
+	Nr3010 = 3010
+	Nr3011 = 3011
+	Nr3012 = 3012
+	Nr3013 = 3013
+	Nr3014 = 3014
+	Nr3015 = 3015
+	Nr3016 = 3016
+	Nr3017 = 3017
+	Nr3018 = 3018
+	Nr3019 = 3019
+	Nr3020 = 3020
+	Nr3021 = 3021
+	Nr3022 = 3022
+	Nr3023 = 3023
+	Nr3024 = 3024
+	Nr3025 = 3025
+	Nr3026 = 3026
+	Nr3027 = 3027
+	Nr3028 = 3028
+	Nr3029 = 3029
+	Nr3030 = 3030
+	Nr3031 = 3031
+
+
+# noinspection SpellCheckingInspection
+class AntennaPortConfig(Enum):
+	"""Repeated capability AntennaPortConfig"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class BwPart(Enum):
+	"""Repeated capability BwPart"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+
+
+# noinspection SpellCheckingInspection
+class CarrierComponent(Enum):
+	"""Repeated capability CarrierComponent"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class Channel(Enum):
+	"""Repeated capability Channel"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ch1 = 1
+	Ch2 = 2
+	Ch3 = 3
+	Ch4 = 4
+	Ch5 = 5
+	Ch6 = 6
+	Ch7 = 7
+	Ch8 = 8
+	Ch9 = 9
+	Ch10 = 10
+	Ch11 = 11
+	Ch12 = 12
+	Ch13 = 13
+	Ch14 = 14
+	Ch15 = 15
+	Ch16 = 16
+	Ch17 = 17
+	Ch18 = 18
+	Ch19 = 19
+	Ch20 = 20
+	Ch21 = 21
+	Ch22 = 22
+	Ch23 = 23
+	Ch24 = 24
+	Ch25 = 25
+	Ch26 = 26
+	Ch27 = 27
+	Ch28 = 28
+	Ch29 = 29
+	Ch30 = 30
+	Ch31 = 31
+	Ch32 = 32
+	Ch33 = 33
+	Ch34 = 34
+	Ch35 = 35
+	Ch36 = 36
+	Ch37 = 37
+	Ch38 = 38
+	Ch39 = 39
+	Ch40 = 40
+	Ch41 = 41
+	Ch42 = 42
+	Ch43 = 43
+	Ch44 = 44
+	Ch45 = 45
+	Ch46 = 46
+	Ch47 = 47
+	Ch48 = 48
+	Ch49 = 49
+	Ch50 = 50
+	Ch51 = 51
+	Ch52 = 52
+	Ch53 = 53
+	Ch54 = 54
+	Ch55 = 55
+	Ch56 = 56
+	Ch57 = 57
+	Ch58 = 58
+	Ch59 = 59
+	Ch60 = 60
+	Ch61 = 61
+	Ch62 = 62
+	Ch63 = 63
+	Ch64 = 64
+
+
+# noinspection SpellCheckingInspection
+class Cluster(Enum):
+	"""Repeated capability Cluster"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class Codeword(Enum):
+	"""Repeated capability Codeword"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class Coefficients(Enum):
+	"""Repeated capability Coefficients"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Order1 = 1
+	Order2 = 2
+	Order3 = 3
+	Order4 = 4
+	Order5 = 5
+	Order6 = 6
+	Order7 = 7
+	Order8 = 8
+	Order9 = 9
+	Order10 = 10
+	Order11 = 11
+	Order12 = 12
+	Order13 = 13
+	Order14 = 14
+	Order15 = 15
+	Order16 = 16
+
+
+# noinspection SpellCheckingInspection
+class Colors(Enum):
+	"""Repeated capability Colors"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+
+
+# noinspection SpellCheckingInspection
+class Component(Enum):
+	"""Repeated capability Component"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+	Ix9 = 9
+	Ix10 = 10
+	Ix11 = 11
+	Ix12 = 12
+	Ix13 = 13
+	Ix14 = 14
+	Ix15 = 15
+	Ix16 = 16
+	Ix17 = 17
+	Ix18 = 18
+	Ix19 = 19
+	Ix20 = 20
+	Ix21 = 21
+	Ix22 = 22
+	Ix23 = 23
+	Ix24 = 24
+	Ix25 = 25
+	Ix26 = 26
+	Ix27 = 27
+	Ix28 = 28
+	Ix29 = 29
+	Ix30 = 30
+	Ix31 = 31
+	Ix32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Coreset(Enum):
+	"""Repeated capability Coreset"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+
+
+# noinspection SpellCheckingInspection
+class CornerFrequency(Enum):
+	"""Repeated capability CornerFrequency"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+
+
+# noinspection SpellCheckingInspection
+class CsiRs(Enum):
+	"""Repeated capability CsiRs"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+
+
+# noinspection SpellCheckingInspection
+class DeltaMarker(Enum):
+	"""Repeated capability DeltaMarker"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class DisplayLine(Enum):
+	"""Repeated capability DisplayLine"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class ExternalGen(Enum):
+	"""Repeated capability ExternalGen"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class ExternalPort(Enum):
+	"""Repeated capability ExternalPort"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+
+
+# noinspection SpellCheckingInspection
+class ExternalRosc(Enum):
+	"""Repeated capability ExternalRosc"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class FileList(Enum):
+	"""Repeated capability FileList"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+
+
+# noinspection SpellCheckingInspection
+class FilterPy(Enum):
+	"""Repeated capability FilterPy"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Frame(Enum):
+	"""Repeated capability Frame"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class FreqLine(Enum):
+	"""Repeated capability FreqLine"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class FreqOffset(Enum):
+	"""Repeated capability FreqOffset"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class GapChannel(Enum):
+	"""Repeated capability GapChannel"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class GateRange(Enum):
+	"""Repeated capability GateRange"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+
+
+# noinspection SpellCheckingInspection
+class Generator(Enum):
+	"""Repeated capability Generator"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class HalfDecadeRange(Enum):
+	"""Repeated capability HalfDecadeRange"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Rng_1Hz_3Hz = 1
+	Rng_3Hz_10Hz = 2
+	Rng_10Hz_30Hz = 3
+	Rng_30Hz_100Hz = 4
+	Rng_100Hz_300Hz = 5
+	Rng_300Hz_1kHz = 6
+	Rng_1kHz_3kHz = 7
+	Rng_3KHz_10kHz = 8
+	Rng_10kHz_30kHz = 9
+	Rng_30kHz_100kHz = 10
+	Rng_100kHz_300kHz = 11
+	Rng_300kHz_1MHz = 12
+	Rng_1MHz_3MHz = 13
+	Rng_3MHz_10MHz = 14
+	Rng_10MHz_30MHz = 15
+	Rng_30MHz_100MHz = 16
+	Rng_100MHz_300MHz = 17
+	Rng_300MHz_1GHz = 18
+	Rng_1GHz_3GHz = 19
+	Rng_3GHz_10GHz = 20
+	Rng_10GHz_30GHz = 21
+	Rng_30GHz_100GHz = 22
+	Rng_100GHz_300GHz = 23
+
+
+# noinspection SpellCheckingInspection
+class InputIx(Enum):
+	"""Repeated capability InputIx"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Instrument(Enum):
+	"""Repeated capability Instrument"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class Item(Enum):
+	"""Repeated capability Item"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+	Ix9 = 9
+	Ix10 = 10
+	Ix11 = 11
+	Ix12 = 12
+	Ix13 = 13
+	Ix14 = 14
+	Ix15 = 15
+	Ix16 = 16
+	Ix17 = 17
+	Ix18 = 18
+	Ix19 = 19
+	Ix20 = 20
+	Ix21 = 21
+	Ix22 = 22
+	Ix23 = 23
+	Ix24 = 24
+	Ix25 = 25
+	Ix26 = 26
+	Ix27 = 27
+	Ix28 = 28
+	Ix29 = 29
+	Ix30 = 30
+	Ix31 = 31
+	Ix32 = 32
+	Ix33 = 33
+	Ix34 = 34
+	Ix35 = 35
+	Ix36 = 36
+	Ix37 = 37
+	Ix38 = 38
+	Ix39 = 39
+	Ix40 = 40
+	Ix41 = 41
+	Ix42 = 42
+	Ix43 = 43
+	Ix44 = 44
+	Ix45 = 45
+	Ix46 = 46
+	Ix47 = 47
+	Ix48 = 48
+	Ix49 = 49
+	Ix50 = 50
+	Ix51 = 51
+	Ix52 = 52
+	Ix53 = 53
+	Ix54 = 54
+	Ix55 = 55
+	Ix56 = 56
+	Ix57 = 57
+	Ix58 = 58
+	Ix59 = 59
+	Ix60 = 60
+	Ix61 = 61
+	Ix62 = 62
+	Ix63 = 63
+	Ix64 = 64
+
+
+# noinspection SpellCheckingInspection
+class LimitIx(Enum):
+	"""Repeated capability LimitIx"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class LimitSegment(Enum):
+	"""Repeated capability LimitSegment"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class Line(Enum):
+	"""Repeated capability Line"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+
+
+# noinspection SpellCheckingInspection
+class Marker(Enum):
+	"""Repeated capability Marker"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class MarkerDestination(Enum):
+	"""Repeated capability MarkerDestination"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class MimoAntenna(Enum):
+	"""Repeated capability MimoAntenna"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class Notch(Enum):
+	"""Repeated capability Notch"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class OutputConnector(Enum):
+	"""Repeated capability OutputConnector"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class OutputSignal(Enum):
+	"""Repeated capability OutputSignal"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Freq100MHz = 100
+	Freq640MHz = 640
+
+
+# noinspection SpellCheckingInspection
+class Port(Enum):
+	"""Repeated capability Port"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+
+
+# noinspection SpellCheckingInspection
+class PowerClass(Enum):
+	"""Repeated capability PowerClass"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+
+
+# noinspection SpellCheckingInspection
+class PowerLine(Enum):
+	"""Repeated capability PowerLine"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix8 = 8
+
+
+# noinspection SpellCheckingInspection
+class PowerMeter(Enum):
+	"""Repeated capability PowerMeter"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class Probe(Enum):
+	"""Repeated capability Probe"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class Pucch(Enum):
+	"""Repeated capability Pucch"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class RangePy(Enum):
+	"""Repeated capability RangePy"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+	Ix9 = 9
+	Ix10 = 10
+	Ix11 = 11
+	Ix12 = 12
+	Ix13 = 13
+	Ix14 = 14
+	Ix15 = 15
+	Ix16 = 16
+	Ix17 = 17
+	Ix18 = 18
+	Ix19 = 19
+	Ix20 = 20
+	Ix21 = 21
+	Ix22 = 22
+	Ix23 = 23
+	Ix24 = 24
+	Ix25 = 25
+	Ix26 = 26
+	Ix27 = 27
+	Ix28 = 28
+	Ix29 = 29
+	Ix30 = 30
+	Ix31 = 31
+	Ix32 = 32
+	Ix33 = 33
+	Ix34 = 34
+	Ix35 = 35
+	Ix36 = 36
+	Ix37 = 37
+	Ix38 = 38
+	Ix39 = 39
+	Ix40 = 40
+	Ix41 = 41
+	Ix42 = 42
+	Ix43 = 43
+	Ix44 = 44
+	Ix45 = 45
+	Ix46 = 46
+	Ix47 = 47
+	Ix48 = 48
+	Ix49 = 49
+	Ix50 = 50
+	Ix51 = 51
+	Ix52 = 52
+	Ix53 = 53
+	Ix54 = 54
+	Ix55 = 55
+	Ix56 = 56
+	Ix57 = 57
+	Ix58 = 58
+	Ix59 = 59
+	Ix60 = 60
+	Ix61 = 61
+	Ix62 = 62
+	Ix63 = 63
+	Ix64 = 64
+
+
+# noinspection SpellCheckingInspection
+class RefMeasurement(Enum):
+	"""Repeated capability RefMeasurement"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class RuAllocationIx(Enum):
+	"""Repeated capability RuAllocationIx"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+
+
+# noinspection SpellCheckingInspection
+class Segment(Enum):
+	"""Repeated capability Segment"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class Slot(Enum):
+	"""Repeated capability Slot"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr0 = 0
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+	Nr65 = 65
+	Nr66 = 66
+	Nr67 = 67
+	Nr68 = 68
+	Nr69 = 69
+	Nr70 = 70
+	Nr71 = 71
+	Nr72 = 72
+	Nr73 = 73
+	Nr74 = 74
+	Nr75 = 75
+	Nr76 = 76
+	Nr77 = 77
+	Nr78 = 78
+	Nr79 = 79
+	Nr80 = 80
+
+
+# noinspection SpellCheckingInspection
+class Source(Enum):
+	"""Repeated capability Source"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class SPortPair(Enum):
+	"""Repeated capability SPortPair"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+
+
+# noinspection SpellCheckingInspection
+class SsBlock(Enum):
+	"""Repeated capability SsBlock"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr0 = 0
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+	Nr64 = 64
+
+
+# noinspection SpellCheckingInspection
+class Status(Enum):
+	"""Repeated capability Status"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Step(Enum):
+	"""Repeated capability Step"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Store(Enum):
+	"""Repeated capability Store"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Pos1 = 1
+	Pos2 = 2
+	Pos3 = 3
+	Pos4 = 4
+	Pos5 = 5
+	Pos6 = 6
+	Pos7 = 7
+	Pos8 = 8
+	Pos9 = 9
+	Pos10 = 10
+	Pos11 = 11
+	Pos12 = 12
+	Pos13 = 13
+	Pos14 = 14
+	Pos15 = 15
+	Pos16 = 16
+	Pos17 = 17
+	Pos18 = 18
+	Pos19 = 19
+	Pos20 = 20
+	Pos21 = 21
+	Pos22 = 22
+	Pos23 = 23
+	Pos24 = 24
+	Pos25 = 25
+	Pos26 = 26
+	Pos27 = 27
+	Pos28 = 28
+	Pos29 = 29
+	Pos30 = 30
+	Pos31 = 31
+	Pos32 = 32
+
+
+# noinspection SpellCheckingInspection
+class SubBlock(Enum):
+	"""Repeated capability SubBlock"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class Subframe(Enum):
+	"""Repeated capability Subframe"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr0 = 0
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+
+
+# noinspection SpellCheckingInspection
+class SubWindow(Enum):
+	"""Repeated capability SubWindow"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Tab(Enum):
+	"""Repeated capability Tab"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class TargetLimitLine(Enum):
+	"""Repeated capability TargetLimitLine"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+
+
+# noinspection SpellCheckingInspection
+class TimeLine(Enum):
+	"""Repeated capability TimeLine"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+
+
+# noinspection SpellCheckingInspection
+class TouchStone(Enum):
+	"""Repeated capability TouchStone"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+	Ix9 = 9
+	Ix10 = 10
+	Ix11 = 11
+	Ix12 = 12
+	Ix13 = 13
+	Ix14 = 14
+	Ix15 = 15
+	Ix16 = 16
+	Ix17 = 17
+	Ix18 = 18
+	Ix19 = 19
+	Ix20 = 20
+	Ix21 = 21
+	Ix22 = 22
+	Ix23 = 23
+	Ix24 = 24
+	Ix25 = 25
+	Ix26 = 26
+	Ix27 = 27
+	Ix28 = 28
+	Ix29 = 29
+	Ix30 = 30
+	Ix31 = 31
+	Ix32 = 32
+
+
+# noinspection SpellCheckingInspection
+class Trace(Enum):
+	"""Repeated capability Trace"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Tr1 = 1
+	Tr2 = 2
+	Tr3 = 3
+	Tr4 = 4
+	Tr5 = 5
+	Tr6 = 6
+	Tr7 = 7
+	Tr8 = 8
+	Tr9 = 9
+	Tr10 = 10
+	Tr11 = 11
+	Tr12 = 12
+	Tr13 = 13
+	Tr14 = 14
+	Tr15 = 15
+	Tr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class TriggerPort(Enum):
+	"""Repeated capability TriggerPort"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+
+
+# noinspection SpellCheckingInspection
+class UpperAltChannel(Enum):
+	"""Repeated capability UpperAltChannel"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
+	Nr33 = 33
+	Nr34 = 34
+	Nr35 = 35
+	Nr36 = 36
+	Nr37 = 37
+	Nr38 = 38
+	Nr39 = 39
+	Nr40 = 40
+	Nr41 = 41
+	Nr42 = 42
+	Nr43 = 43
+	Nr44 = 44
+	Nr45 = 45
+	Nr46 = 46
+	Nr47 = 47
+	Nr48 = 48
+	Nr49 = 49
+	Nr50 = 50
+	Nr51 = 51
+	Nr52 = 52
+	Nr53 = 53
+	Nr54 = 54
+	Nr55 = 55
+	Nr56 = 56
+	Nr57 = 57
+	Nr58 = 58
+	Nr59 = 59
+	Nr60 = 60
+	Nr61 = 61
+	Nr62 = 62
+	Nr63 = 63
+
+
+# noinspection SpellCheckingInspection
+class UserIx(Enum):
+	"""Repeated capability UserIx"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Ix1 = 1
+	Ix2 = 2
+	Ix3 = 3
+	Ix4 = 4
+	Ix5 = 5
+	Ix6 = 6
+	Ix7 = 7
+	Ix8 = 8
+
+
+# noinspection SpellCheckingInspection
+class UserRange(Enum):
+	"""Repeated capability UserRange"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class Window(Enum):
+	"""Repeated capability Window"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+
+
+# noinspection SpellCheckingInspection
+class ZoomWindow(Enum):
+	"""Repeated capability ZoomWindow"""
+	Empty = EmptyRepCap
+	Default = DefaultRepCap
+	Nr1 = 1
+	Nr2 = 2
+	Nr3 = 3
+	Nr4 = 4
+	Nr5 = 5
+	Nr6 = 6
+	Nr7 = 7
+	Nr8 = 8
+	Nr9 = 9
+	Nr10 = 10
+	Nr11 = 11
+	Nr12 = 12
+	Nr13 = 13
+	Nr14 = 14
+	Nr15 = 15
+	Nr16 = 16
+	Nr17 = 17
+	Nr18 = 18
+	Nr19 = 19
+	Nr20 = 20
+	Nr21 = 21
+	Nr22 = 22
+	Nr23 = 23
+	Nr24 = 24
+	Nr25 = 25
+	Nr26 = 26
+	Nr27 = 27
+	Nr28 = 28
+	Nr29 = 29
+	Nr30 = 30
+	Nr31 = 31
+	Nr32 = 32
