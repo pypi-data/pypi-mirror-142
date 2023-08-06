@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DataSciPackage/__init__.py
+src/DataSciPackage/functions.py
+src/DataSciPackage/setup.py
+src/DataSciPackage_Exx1date.egg-info/PKG-INFO
+src/DataSciPackage_Exx1date.egg-info/SOURCES.txt
+src/DataSciPackage_Exx1date.egg-info/dependency_links.txt
+src/DataSciPackage_Exx1date.egg-info/top_level.txt
