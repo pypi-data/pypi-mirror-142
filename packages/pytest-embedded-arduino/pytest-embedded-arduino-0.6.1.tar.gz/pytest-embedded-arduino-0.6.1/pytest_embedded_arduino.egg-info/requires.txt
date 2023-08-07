@@ -1,0 +1,4 @@
+pytest-embedded~=0.6.1
+
+[serial]
+pytest-embedded-serial-esp~=0.6.1
