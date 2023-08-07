@@ -1,0 +1,16 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mailgun2/__init__.py
+mailgun2/__version__.py
+mailgun2/mailgun.py
+mailgun2.egg-info/PKG-INFO
+mailgun2.egg-info/SOURCES.txt
+mailgun2.egg-info/dependency_links.txt
+mailgun2.egg-info/requires.txt
+mailgun2.egg-info/top_level.txt
+mailgun2/tests/__init__.py
+mailgun2/tests/mailgun.py
