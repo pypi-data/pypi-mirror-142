@@ -1,0 +1,8 @@
+Django>=2.2
+djangorestframework>=3.11
+
+[development]
+psycopg2-binary
+
+[testing]
+tox
