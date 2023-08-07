@@ -1,0 +1,7 @@
+setup.py
+xfh/handsome/__init__.py
+xfh/handsome/message.py
+xfh/p40h33_test.egg-info/PKG-INFO
+xfh/p40h33_test.egg-info/SOURCES.txt
+xfh/p40h33_test.egg-info/dependency_links.txt
+xfh/p40h33_test.egg-info/top_level.txt
