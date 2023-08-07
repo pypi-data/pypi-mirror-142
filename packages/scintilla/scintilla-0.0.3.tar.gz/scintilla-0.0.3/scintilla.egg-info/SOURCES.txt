@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+scintilla/__init__.py
+scintilla/dataframe_generator.py
+scintilla.egg-info/PKG-INFO
+scintilla.egg-info/SOURCES.txt
+scintilla.egg-info/dependency_links.txt
+scintilla.egg-info/requires.txt
+scintilla.egg-info/top_level.txt
