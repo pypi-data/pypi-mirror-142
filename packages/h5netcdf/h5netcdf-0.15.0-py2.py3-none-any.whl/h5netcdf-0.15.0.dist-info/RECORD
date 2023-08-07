@@ -1,0 +1,12 @@
+h5netcdf/__init__.py,sha256=PHxu5IhN7HMvn1E7RU4Rrg_aAnOwz9NP343vHBg4OWs,455
+h5netcdf/_version.py,sha256=CWuAhMZ_nDlCyHZ-NMesrE4i15wQ1pcCri8bLO5SFfE,144
+h5netcdf/attrs.py,sha256=siuel2zLZkE3M1KuDQTsjlQ6WYHlGBUJT07cEx9QWJQ,3348
+h5netcdf/core.py,sha256=WGLk31YKar3j8l2-e3c5rW5C7ap3vlZDqBzbekVpEa0,43280
+h5netcdf/dimensions.py,sha256=v-5aN6sDi3V4N8y7JDeB9zevxopJTL8d5YHOGgKLI5M,7815
+h5netcdf/legacyapi.py,sha256=Y5Sc-0aIjfizWRhJvftp2tt8dRJeA5tVLf-rVv2h38M,6592
+h5netcdf/utils.py,sha256=72-VAguxuC_aA7BdRNLr_kk_LR7mYl702ElolaagI0I,678
+h5netcdf-0.15.0.dist-info/LICENSE,sha256=KP1GZCC9mB5xpiHkVVzdN4ojc6EpYebQvOBklnwKEEE,1499
+h5netcdf-0.15.0.dist-info/METADATA,sha256=eKVw3uDdax_LpUVH6U6OEz9vQVIdcZxZlbDsuUOS7-E,10358
+h5netcdf-0.15.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+h5netcdf-0.15.0.dist-info/top_level.txt,sha256=Fb_KIpOE6MBqjSvxV1Ay7oYce1mdmQ1pO9JQJPDeGqg,9
+h5netcdf-0.15.0.dist-info/RECORD,,
