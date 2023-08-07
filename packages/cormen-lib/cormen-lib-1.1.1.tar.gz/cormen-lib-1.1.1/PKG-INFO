@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cormen-lib
+Version: 1.1.1
+Summary: A data structures and algorithms library based on Introduction to Algorithms Third Edition by Thomas H. Cormen.
+Home-page: https://pypi.org/project/dalpy/
+Author: Eitan Joseph, Chami Lamelas
+Author-email: eitanjoseph@brandeis.edu
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+blas_opt_info:
+blas_mkl_info:
+  FOUND:
+    libraries = ['mkl_intel_lp64', 'mkl_intel_thread', 'mkl_core', 'iomp5', 'pthread']
+    library_dirs = ['/Users/filo/anaconda/lib']
+    define_macros = [('SCIPY_MKL_H', None)]
+    include_dirs = ['/Users/filo/anaconda/include']
+
+  FOUND:
+    libraries = ['mkl_intel_lp64', 'mkl_intel_thread', 'mkl_core', 'iomp5', 'pthread']
+    library_dirs = ['/Users/filo/anaconda/lib']
+    define_macros = [('SCIPY_MKL_H', None)]
+    include_dirs = ['/Users/filo/anaconda/include']
+
+UNKNOWN
+License: UNKNOWN
+Platform: all
+License-File: LICENSE
+
+Use `DALPy <https://pypi.org/project/dalpy/>`_ instead.
+
