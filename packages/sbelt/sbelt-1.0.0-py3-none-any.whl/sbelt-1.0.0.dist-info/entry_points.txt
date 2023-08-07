@@ -1,0 +1,2 @@
+[console_scripts]
+sbelt-run = sbelt.sbelt_runner:run
