@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+makana/__init__.py
+makana/authService.py
+makana/mlFlow.py
+makana/test.py
+makana.egg-info/PKG-INFO
+makana.egg-info/SOURCES.txt
+makana.egg-info/dependency_links.txt
+makana.egg-info/requires.txt
+makana.egg-info/top_level.txt
