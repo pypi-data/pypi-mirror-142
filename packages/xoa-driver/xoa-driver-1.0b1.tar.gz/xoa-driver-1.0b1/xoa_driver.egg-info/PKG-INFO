@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xoa-driver
+Version: 1.0b1
+Summary: Xena Open Automation pydriver is a python wrapper of binary xmp (Xena Management Protocol) which enables users to call xmp in an easy way.
+Home-page: https://github.com/xenadevel/valhalla-bifrost/
+Author: Artem Constantinov, Ron Ding, Leonard Yu
+Author-email: aco@xenanetworks.com, rdi@xenanetworks.com, hyu@xenanetworks.com
+Maintainer: Xena Networks
+Maintainer-email: support@xenanetworks.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
