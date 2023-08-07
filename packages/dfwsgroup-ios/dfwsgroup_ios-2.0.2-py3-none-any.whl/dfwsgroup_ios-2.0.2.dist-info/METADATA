@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: dfwsgroup-ios
+Version: 2.0.2
+Summary: 快速启动-ios稳定性测试
+Home-page: https://gitee.com/dongfang_rising_test/test-tool.git
+Author: debugfeng
+Author-email: 960158047@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: pyyaml (==5.4.1)
+Requires-Dist: tidevice (==0.6.6)
+
+
+###快速启动-ios稳定性测试
+
+----
+- 前置条件：需安装`tidevice`环境，`tidevice`安装完成后需要安装`iTunes`软件，不然会运行失败。
+- 手机上要安装提供的包（需要开发运行起来后帮忙安装）[官方中文文档](https://github.com/bytedance/Fastbot_iOS/blob/main/Doc/handbook-cn.md)
+-----
+- 简介： 
+结合字节跳动提供的开源工具`Fastbot_ios`, 进行封装了基础版的稳定性测试，
+
+结合`alibaba`开源的`tidevice`工具，可以在`windows`平台读取`ios`设备，并执行稳定性测试命令
+
+------
+- 命令参数
+```commandline
+必选参数:
+
+  run                       运行
+  
+    bundle_id 包名，必须输入，不然会抛出异常
+    
+    -d 10 是设置时长，置默认为5分钟
+    
+    -t 500 是设置点击事件，默认设置为500
+```
+-----
+- 基础教程
+
+启动CMD控制台
+```commandline
+# 默认是运行 5 分钟点击 500 下
+PS E:\testProject> py -m dfwsgroup_ios run "包名-BUNDLEID" 
+```
+
+```commandline
+# 默认是运行 10 分钟点击 1000 下
+PS E:\testProject> py -m dfwsgroup_ios run "包名-BUNDLEID" -d 10 -t 100 
+```
+-----
+-----
+###严正声明
+
+- 作者只提供工具使用，当用户使用其他用途时，对用户或者他人造成任何形式的损失和伤害，该工具不承担任何责任。
+
+- 本协议的一切解释权与修改权归本工具所有。
+

@@ -1,0 +1,7 @@
+{
+  "tidevice_shell": "tidevice xctest -B",
+  "fastbot_bundle_id ": "{{contents.0}}",
+  "package_bundle_id ": "-e BUNDLEID:{{contents.1}}",
+  "duration": "-e duration:{{contents.2}}",
+  "throttle": "-e throttle:{{contents.3}}"
+}
