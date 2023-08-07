@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: reading163
+Version: 0.0.1
+Summary: make it easy to use reading163
+Home-page: https://gitee.com/ZeroSeeker/reading163
+Author: ZeroSeeker
+Author-email: zeroseeker@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: envx (==0.0.5)
+Requires-Dist: requests (==2.27.1)
+
+# reading163
+
+#### 介绍
+网易文鼎
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  pip安装
+```shell script
+pip install reading163
+```
+2.  pip安装（使用阿里镜像加速）
+```shell script
+pip install reading163 -i https://mirrors.aliyun.com/pypi/simple
+```
+
+#### 使用说明
+
+1.  demo
+```python
+import reading163
+test_res = reading163.site_list()
+```
+
+
