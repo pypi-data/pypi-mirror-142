@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ohmycloud_fib_py
+Version: 0.0.1
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/ohmycloud/speed_up_your_python_with_rust
+Author: ohmycloud
+Author-email: ohmycloudy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# speed_up_your_python_with_rust
+exercise
+
+
