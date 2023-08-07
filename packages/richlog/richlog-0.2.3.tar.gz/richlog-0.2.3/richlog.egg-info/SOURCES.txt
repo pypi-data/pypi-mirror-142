@@ -1,0 +1,5 @@
+setup.py
+richlog.egg-info/PKG-INFO
+richlog.egg-info/SOURCES.txt
+richlog.egg-info/dependency_links.txt
+richlog.egg-info/top_level.txt
