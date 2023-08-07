@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+prawhat/__init__.py
+prawhat.egg-info/PKG-INFO
+prawhat.egg-info/SOURCES.txt
+prawhat.egg-info/dependency_links.txt
+prawhat.egg-info/requires.txt
+prawhat.egg-info/top_level.txt
