@@ -1,0 +1,5 @@
+setup.py
+pybitbd.egg-info/PKG-INFO
+pybitbd.egg-info/SOURCES.txt
+pybitbd.egg-info/dependency_links.txt
+pybitbd.egg-info/top_level.txt
