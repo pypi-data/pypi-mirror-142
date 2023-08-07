@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: pipdot
+Version: 0.3a2
+Summary: Generate a graphviz dot file representing installed PyPI distributions.
+Home-page: https://github.com/tanbro/pipdot
+Author: liu xue yan
+Author-email: liu_xue_yan@foxmail.com
+License: BSD 3-Clause License
+Keywords: pypi,pip,distribution,dist,graph,graphviz,dot,package,dependency,dependency-graph
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pipdot
+
+[![GitHub](https://img.shields.io/github/license/tanbro/pipdot)](https://github.com/tanbro/pipdot)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tanbro/pipdot)](https://github.com/tanbro/pipdot/tags)
+[![PyPI](https://img.shields.io/pypi/v/pipdot)](https://pypi.org/project/pipdot/)
+[![PyPI - Status](https://img.shields.io/pypi/status/pipdot)](https://pypi.org/project/pipdot/)
+[![PyPI - License](https://img.shields.io/pypi/l/pipdot)](https://pypi.org/project/pipdot/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pipdot)](https://pypi.org/project/pipdot/)
+
+Generate a [GraphViz][] `dot` file representing installed [PyPI][] distributions.
+
+## Installation
+
+```bash
+pip install pipdot
+```
+
+It's a zero-dependency package.
+
+## Usage
+
+To generate a [GraphViz][] `dot` file for distributions of current Python environment, we shall run:
+
+```bash
+pipdot --extras-label 1.dot
+```
+
+Then convert it to a `svg` (or other formats) image:
+
+```bash
+dot -T svg -O 1.dot
+```
+
+We'll get something like:
+
+![assets/1.dot.svg](assets/1.dot.svg)
+
+For help messages, execute:
+
+```bash
+python -m pipdot --help
+```
+
+And we can use it by docker:
+
+```bash
+docker run -it --rm liuxueyan/pipdot -p "your-python-site-dir"
+```
+
+[PyPI]: https://pypi.org/
+[pip]: https://pip.pypa.io/
+[GraphViz]: https://graphviz.org/
+
+# CHANGELOG
+
+## v0.3a2
+
+Date: 2022-3-18
+
+- New:
+  - Add "--python/-P" option
+  - Add Dockerfile and docker hub repository "liuxueyan/pipdot"
+
+## v0.3a1
+
+Date: 2022-2-28
+
+- Changes:
+
+  - Now it's no longer dependent on `pip` during setup.
+
+    The packaging/distribution features are now based on `importlib-metadata` and `packaging`,
+    and all dependencies are vendored.
+
+  - Command line interface was modified.
+
+  - `dot` template slightly optimized.
+
+## v0.2
+
+date: 2022-2-28
+
+- Update:
+  - Update `Jinja2` to `>=2.0,<4.0`
+  - Update `pip` to `>=22.0`
+
+- Change:
+  - Rename CLI argument `outfile` to `output`, and the default is `stdout`.
+
+- Add:
+  - A new `--installed-only` CLI argument.
+
+- Optimize:
+  - Better `extras` nodes and edges in dot template.
+
+- Remove:
+  - Remove `setuptools_scm_git_archive` dependency in project building.
+
+## v0.1
+
+date: 2021-2-5
+
+# AUTHORS
+
+* Liu Xue Yan (<liu_xue_yan@foxmail.com>)
+
+  [![liu_xue_yan@foxmail.com](https://www.gravatar.com/avatar/049d2fae1fd2df6439e87d1383d0276b)](mailto:liu_xue_yan@foxmail.com)
+
+
