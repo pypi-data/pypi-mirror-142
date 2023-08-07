@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Machine-Learning-Preprocess-CLI
+Version: 1.0.1
+Summary: A simple commandline app for searching and looking up opensource vulnerabilities
+Home-page: https://github.com/princ3raj/Machine_learning_preprocessor_cli
+Author: Akshat Das, Prince Raj, Kartik Goel, Saraansh Mishra
+Author-email: princ3raj1999@gmail.com
+License: MIT
+Download-URL: https://github.com/princ3raj/Machine_learning_preprocessor_cli
+Description: # :zap: ML Preprocessor CLI
+        
+        The CLI made to preprocess the database and save your **time**:clock1:
+        
+        ## Gist
+        
+        - Given the database, the CLI provides various options to preprocess the data. 
+        - Options:
+            - Data Description
+            - Handling NULL Values
+            - Encoding Categorical Data
+            - Feature Scaling
+        - We can also **DOWNLOAD**:arrow_down: the modified dataset.
+        
+        
+        ## Run
+        
+        - Clone this Repository: 
+        - `cd ML-Preprocessor-CLI/`
+        - `pip3 install -r requirements.txt`
+        - Now run, python3 `main.py` [Dataset's Path]
+        - Ex: `python3 main.py dataset.csv`
+        - Then you will see the below home screen.
+        
+        ## :camera: Screenshots
+        
+        <p align="center">
+            <img alt="Home screen" src="./screenshots/homeScreen.png" width="80%"/>
+        </p>
+        
+        ## Future Scope
+        
+        - Implement other preprocessing steps.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
