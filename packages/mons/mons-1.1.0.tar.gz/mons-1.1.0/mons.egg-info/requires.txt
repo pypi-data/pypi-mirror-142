@@ -1,0 +1,6 @@
+dnfile
+pefile
+click>=8.0.2
+tqdm
+xxhash
+pyyaml
