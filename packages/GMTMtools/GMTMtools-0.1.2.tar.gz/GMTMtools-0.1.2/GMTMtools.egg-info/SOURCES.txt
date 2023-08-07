@@ -1,0 +1,7 @@
+README.md
+setup.py
+GMTMtools.egg-info/PKG-INFO
+GMTMtools.egg-info/SOURCES.txt
+GMTMtools.egg-info/dependency_links.txt
+GMTMtools.egg-info/requires.txt
+GMTMtools.egg-info/top_level.txt
