@@ -1,0 +1,12 @@
+descr: "Fio device plan"
+descr_long: |
+  "Runs example fio command"
+hooks: []
+
+testsuites:
+  - name: "fio_example_verify"
+    hooks: []
+    evars:
+      FIO_FILENAME: fio_example_verify
+    testcases:
+      - fio_example_verify.sh
