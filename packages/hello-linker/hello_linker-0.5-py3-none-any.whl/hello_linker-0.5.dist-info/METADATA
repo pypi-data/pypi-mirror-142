@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hello-linker
+Version: 0.5
+Summary: A Python Library For Kamibot
+Home-page: UNKNOWN
+Author: devdio
+Author-email: kei.devdio@gmail.com
+License: UNKNOWN
+Keywords: Kamibot,KamiblockAI,Robot,KamiLink
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: uuid
+Requires-Dist: python-engineio (==3.14.2)
+Requires-Dist: python-socketio (==4.6.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: pynput (==1.7.6)
+
+# HelloLinker
+## socketio-python
+* ref site 
+[Quick Socket.IO Tutorial](https://www.youtube.com/watch?v=H1eLJMC5oTg&list=PLCuWRxjbgFnPZTBMYbz9UNGvTLNggRMjb)
+
+## Sample
+```python
+from hello_linker.kaminet import KamiNet
+import time
+
+def rcv_msg(event, msg):
+    if event == 'connect' :
+         print(msg)
+    elif event == 'message':
+        print(msg)
+    else:
+        print('no event handler:', event)
+
+
+net = KamiNet("192.168.1.21")
+net.connect(rcv_msg)
+
+
+while True:
+    time.sleep(2)
+    net.send({'type':'coords', 'coords': [[100, 200], [100, 200]]})
+
+```
+
+
