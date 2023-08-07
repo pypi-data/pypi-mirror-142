@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pisugar/__init__.py
+pisugar/pisugar.py
+pisugar.egg-info/PKG-INFO
+pisugar.egg-info/SOURCES.txt
+pisugar.egg-info/dependency_links.txt
+pisugar.egg-info/top_level.txt
