@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: orm-alchemy
+Version: 0.1.13
+Summary: 
+Author: NamTH
+Author-email: namth2302@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: arrow (>=1.2.2,<2.0.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: pymysql (>=1.0.2,<2.0.0)
+Requires-Dist: sqlalchemy (>=1.4.31,<2.0.0)
+Requires-Dist: sqlalchemy_utils (>=0.38.2,<0.39.0)
