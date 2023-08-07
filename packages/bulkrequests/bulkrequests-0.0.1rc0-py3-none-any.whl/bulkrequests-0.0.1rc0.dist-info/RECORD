@@ -1,0 +1,12 @@
+bulkrequests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bulkrequests/cliclient.py,sha256=7f8gSi0fJTGlshHqsWxmuzItkiZTlv-IZ_8UotpoOTE,2897
+bulkrequests/clirequests.py,sha256=UndRXXtYTFyZDnrW2FA_XRphUD5rIXvfM0XmaMqzNYw,12503
+bulkrequests/constants.py,sha256=4vXHJcGQAFXHMDxPRFUfqydAdb1WAp4_FO_ma9pMz3M,1184
+bulkrequests/dcquery.py,sha256=2SeC71DASQ7X-rtQ4MBaLKewSlv5N1hWiPbWDRb8flM,8006
+bulkrequests/parser.py,sha256=GUz60RNHA11yG0aU2irIGllZKLzEsTrcKdZIK0E5eeg,13393
+bulkrequests-0.0.1rc0.dist-info/LICENSE,sha256=lEOmg01wUJBgFL7hwlwklva-pnBVR_Go8FrHJJec0dk,34457
+bulkrequests-0.0.1rc0.dist-info/METADATA,sha256=0IcRemltI-l5uO7OYI_0LFoQPDTMclMs-sWwi6meuXM,407
+bulkrequests-0.0.1rc0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bulkrequests-0.0.1rc0.dist-info/entry_points.txt,sha256=Ay4OVUrjc1LoV8tDlk3y6UcKIo5lLb_sippqHJ0rRKM,61
+bulkrequests-0.0.1rc0.dist-info/top_level.txt,sha256=jq38SJY7WzkiitNPah2xqcb_VEiZzzo5HlUwtg8Kbi0,13
+bulkrequests-0.0.1rc0.dist-info/RECORD,,
