@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: djwalebabu
+Version: 0.0.2
+Summary: A demonstration library to show how package distribution works in python
+Author: Hargun Oberoi
+Author-email: hargun3045@gmail.com
+License: UNKNOWN
+Keywords: pyds,ai0,hargun,oberoi,djwalebabu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AI[0] presents: **djwalebabu**
+> Tired of going to youtube to search for your favorite songs?
+> Try DJWaleBabu instead
+
+![](https://i.ibb.co/Hh3Wprk/Screen-Shot-2022-03-18-at-10-46-16-AM.png)
+
+The package **djwalebabu** is a demonstration python package to better understand python libraries.
+
+## Documentation :
+Installation
+```python
+pip install djwalebabu
+```
+Usage
+```python
+# Import the library
+import djwalebabu
+# Call the .request function
+djwalebabu.request()
+```
+
+---
+### NOTE: This library will not work on remote servers. Use it on your command prompt or terminal instead.
+---
+
