@@ -1,0 +1,17 @@
+nowcasting_datamodel/__init__.py,sha256=iRyHNjv7GVN5zGOZ14SHKy3E1lMbXhD7BGMfoPlLpnc,53
+nowcasting_datamodel/connection.py,sha256=M0vs3OpRg4sVu2lVqXKxAv3Ks3i1Iw7upaHc8KCZcCs,889
+nowcasting_datamodel/fake.py,sha256=ElCQsXM5dwvw1N8tpdzfEijfl-9eYIUS2rl4Jr-QAwM,3432
+nowcasting_datamodel/national.py,sha256=1OJyk895vThTuCbrnOIy84EpZIov0DpawZhedWigeGY,2466
+nowcasting_datamodel/read.py,sha256=2Q38MftU_cg0YcNWVajEM5ipSfMZXDB9c8elPCqvg4w,5518
+nowcasting_datamodel/save.py,sha256=ZUlm9TIX2RlRLn-cYeeVeCpYzDd4nVEK6zEuPA3b3yk,1685
+nowcasting_datamodel/utils.py,sha256=Z8kLSQuTQpdPeKSS34z4cWwwv6d484F14L8nbjwgAhk,631
+nowcasting_datamodel/migrations/__init__.py,sha256=3fzBsv7NbBfmeuv-D5sSbyCfGExPEWuGZYiRisPCMA4,28
+nowcasting_datamodel/migrations/app.py,sha256=bb6fRHpzTUZWbLZbTNbeksNb5U7uG36pj4kHFWT980E,2117
+nowcasting_datamodel/models/__init__.py,sha256=IL1GA37zKxG7TrSFtJN2ujzfAmM69TD322EB5JjjbNk,948
+nowcasting_datamodel/models/models.py,sha256=RtnfV8mLCAYRJaHUBhQUZW1YDQEUgcwK9rkHWz0891g,8469
+nowcasting_datamodel/models/pv.py,sha256=0i3wzRaITc-IiAB2Oh3x-oSpBvepAlfU5bE6Dp3PmcM,4564
+nowcasting_datamodel/models/utils.py,sha256=2fIHm1CqOWenydR2QvXSpC3cvE3eSXsjPbpfIS6xM-c,777
+nowcasting_datamodel-0.0.9.dist-info/METADATA,sha256=c8P4PKiEsTwtTFuveQqHc9RxfWjR9KTjzMEkdJeaTqY,3495
+nowcasting_datamodel-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nowcasting_datamodel-0.0.9.dist-info/top_level.txt,sha256=zOAT3QE6Id67QGdMIRsmdWNqbsf5MgSsEFjPLAMHilM,21
+nowcasting_datamodel-0.0.9.dist-info/RECORD,,
