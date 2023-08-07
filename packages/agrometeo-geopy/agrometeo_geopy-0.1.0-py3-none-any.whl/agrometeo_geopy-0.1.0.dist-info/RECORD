@@ -1,0 +1,9 @@
+agrometeo/__init__.py,sha256=oEjN8auUbTopSp_OzFSQwTHDabvI47hv3C5alUTxwjs,186
+agrometeo/base.py,sha256=v_w9-ecN8dbwFMJXGDhj_r_0dpPDc4ZJnFWMObJbWxE,3742
+agrometeo/core.py,sha256=bZEJqFuvZN3Z9Dx1dQCu1fvTnybuemXYzSUjG5KyoxU,7208
+agrometeo/plotting.py,sha256=PvPZ-CmLANfHOGllfZv9bpTXRkEUf-oX0nzMN7FO9fQ,6032
+agrometeo/settings.py,sha256=uhESgH0qUMB1PtxmLGuPlFE3mIYe8jOHfe2nrCuYSb0,66
+agrometeo_geopy-0.1.0.dist-info/LICENSE,sha256=ttr-K0DV6H0jtJTz95anynCa8Rr07DK8dGPF44we2kU,1557
+agrometeo_geopy-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+agrometeo_geopy-0.1.0.dist-info/METADATA,sha256=mWMISeez5DPqprpvm7E3vaFd7rZkN3adGLFkluPJ0f8,3081
+agrometeo_geopy-0.1.0.dist-info/RECORD,,
