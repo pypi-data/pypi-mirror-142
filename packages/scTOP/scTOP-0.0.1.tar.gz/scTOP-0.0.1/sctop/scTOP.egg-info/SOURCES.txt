@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+sctop/scTOP.egg-info/PKG-INFO
+sctop/scTOP.egg-info/SOURCES.txt
+sctop/scTOP.egg-info/dependency_links.txt
+sctop/scTOP.egg-info/top_level.txt

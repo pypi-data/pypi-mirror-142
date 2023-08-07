@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scTOP
+Version: 0.0.1
+Summary: A package for identifying cell phenotype from single-cell RNA-sequencing data.
+Home-page: https://github.com/Emergent-Behaviors-in-Biology/scTOP
+Author: Maria Yampolskaya
+Author-email: mariay@bu.edu
+License: UNKNOWN
+Project-URL: Docs, https://readthedocs.org/projects/sctop/
+Project-URL: Bug Tracker, https://github.com/Emergent-Behaviors-in-Biology/scTOP/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
