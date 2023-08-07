@@ -1,0 +1,9 @@
+accera/acc-vulkan-runtime-wrappers.dll,sha256=yfvYATWgjOTPKzCB04k8C10nlzMBiBFaTuq3XIA8Kwo,84864
+accera/acc-vulkan-runtime-wrappers.lib,sha256=kJDBgUrMrMtXjDYYpRhAypSMn4xmXSFolKzQgaBmtnU,9528
+accera/bin/acc-translate.exe,sha256=7np5JV-qt7GLveWUHOjnmUpptOEsadj8tR8MWgIgKUE,11283840
+accera/gpu/__init__.py,sha256=-NyeumJc12quAGzVRs7IYkukTkWDQ7k9bI14Qvz6TrM,496
+accera_gpu-1.2.2.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+accera_gpu-1.2.2.dist-info/METADATA,sha256=TGPlM8I2pBE2wYKOQC2YLuu4JP0ZV3K41UyQ5_T6bPE,2444
+accera_gpu-1.2.2.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+accera_gpu-1.2.2.dist-info/top_level.txt,sha256=wAgqaT9xQVdA55vI2c6FWAwuWFCD1Z4KsEF1ZzrZbOg,13
+accera_gpu-1.2.2.dist-info/RECORD,,
