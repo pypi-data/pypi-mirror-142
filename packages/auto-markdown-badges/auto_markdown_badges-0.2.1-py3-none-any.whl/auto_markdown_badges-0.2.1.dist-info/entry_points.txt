@@ -1,0 +1,3 @@
+[console_scripts]
+auto-markdown-badges=auto_markdown_badges.cli:app
+
