@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aiire
+Version: 2.0.2
+Summary: AI Information Retrieval Engine
+Home-page: http://svn.aiire.org/repos/tproc/trunk/aiire
+Author: Alexey Dobrov
+Author-email: adobrov@aiire.org
+License: LGPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+
+# AIIRE
+
+AIIRE stands for AI Information Retrieval Engine, which performs
+tasks that concern information understanding, including natural
+language understanding.
+
+The software provided here provide the python part of AI and
+natural language underdstanding core functionality.
+
+
