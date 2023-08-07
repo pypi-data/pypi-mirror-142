@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: zdppy-yaml
+Version: 0.1.1
+Summary: Python读取yaml配置，无任何依赖，符合中国人使用习惯
+Home-page: https://github.com/zhangdapeng520/zdppy_yaml
+License: MIT
+Keywords: poetry,zhangdapeng,zhangdapeng520,yaml
+Author: zhangdapeng
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/zhangdapeng520/zdppy_yaml
+Description-Content-Type: text/markdown
+
+# zdppy_yaml
+python解析yaml文件
+
+## 版本历史
+
