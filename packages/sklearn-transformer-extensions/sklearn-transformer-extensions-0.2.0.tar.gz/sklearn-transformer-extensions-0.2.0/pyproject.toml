@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "sklearn-transformer-extensions"
+version = "0.2.0"
+description = """\
+Some scikit-learn transformer extensions to make using pandas dataframes in \
+scikit-learn pipelines easier."""
+authors = ["Random Geek <randomgeek78@gmail.com>"]
+homepage = "https://github.com/randomgeek78/sklearn-transformer-extensions"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^1.0.0"
+numpy = "*"
+pandas = {version = "*", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+ipython = "*"
+ipdb = "*"
+jupyter = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["sklearn_transformer_extensions"]
+venv = ".venv"
+venvPath = "."
+
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportPrivateImportUsage = false
+useLibraryCodeForTypes = true
+
+pythonVersion = "3.8"
+pythonPlatform = "Linux"
+
+executionEnvironments = [{ root = "sklearn_transformer_extensions" }]
+
+[tool.yapf]
+split_before_named_assigns=false
+allow_split_before_dict_value=false
+column_limit=80
+
+[tool.pytest.ini_options]
+addopts="--pdbcls=IPython.terminal.debugger:TerminalPdb"
