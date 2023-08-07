@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/libembroidery/__init__.py
+src/libembroidery.egg-info/PKG-INFO
+src/libembroidery.egg-info/SOURCES.txt
+src/libembroidery.egg-info/dependency_links.txt
+src/libembroidery.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: libembroidery
+Version: 1.0a0
+Summary: Official Python binding to the libembroidery library.
+Author: The Embroidermodder Team
+Author-email: embroidermodder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENCE
+
+UNKNOWN
+
