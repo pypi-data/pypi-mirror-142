@@ -1,0 +1,14 @@
+matflow_formable/__init__.py,sha256=q8h2F8nysHMUOAiRkvSqMxhLlGq1awBx-7QteI1neG4,838
+matflow_formable/_version.py,sha256=Vx7xxEndWksf5h9xRevQfOixX-CU35SwBXGCh74SioU,23
+matflow_formable/load.py,sha256=OV6WFEFkIJ1vd-9pNqorskWyS_W8ne_20V5Pth4X8lE,8249
+matflow_formable/main.py,sha256=BO1Ev2c9izDVX3i4p-2l1TV3Z4fmqkDTs-oC_lty44Y,4855
+matflow_formable/snippets/build_load_case.py,sha256=jlv9FvkkYUK1-fWVBbIGPOvAft7nzSUpS2pkTOuHLy8,5556
+matflow_formable/snippets/fit_yield_function.py,sha256=ws4Bn0HjJUKsG5ajVR8NOOUMOG3cjzOaO48IK1PIl_k,2097
+matflow_formable/snippets/optimise_SC_parameters_LM.py,sha256=ZBbQ5HO1DKLUS2k2xIxiGt3at8sqfJ4r5oAuuWqDKYs,5569
+matflow_formable/snippets/read_tensile_test_CSV.py,sha256=0FHJgpDCxsRwbAWrl36uwdVnAE5pUCV-S6pjN-7AqRw,1467
+matflow_formable-0.1.13.dist-info/LICENSE,sha256=I86zaKNtBOoJgXSXYpeuTr9PfW-29BTlb_j6Tnn6-KA,1096
+matflow_formable-0.1.13.dist-info/METADATA,sha256=54e_D9ynun7KhfWOv4q5uh2jmdooXg8F4InY9FIK9yA,3521
+matflow_formable-0.1.13.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+matflow_formable-0.1.13.dist-info/entry_points.txt,sha256=YEx_vaJbxd1rgRxNXoeVApo7eDCN_1gqbl4Xzt89PG4,67
+matflow_formable-0.1.13.dist-info/top_level.txt,sha256=i5w7fiantur6DYX-d6mE4j87sSvoI5lpLHeZm334BLc,17
+matflow_formable-0.1.13.dist-info/RECORD,,
