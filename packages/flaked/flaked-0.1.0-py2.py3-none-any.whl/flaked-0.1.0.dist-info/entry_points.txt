@@ -1,0 +1,3 @@
+[console_scripts]
+flaked = flaked.cli:main
+
