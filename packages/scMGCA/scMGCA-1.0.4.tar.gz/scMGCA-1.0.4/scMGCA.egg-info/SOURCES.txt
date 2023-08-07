@@ -1,0 +1,14 @@
+README.md
+setup.py
+scMGCA/_init_.py
+scMGCA/graph_function.py
+scMGCA/layers.py
+scMGCA/losses.py
+scMGCA/preprocess.py
+scMGCA/run.py
+scMGCA/scmgca.py
+scMGCA/utils.py
+scMGCA.egg-info/PKG-INFO
+scMGCA.egg-info/SOURCES.txt
+scMGCA.egg-info/dependency_links.txt
+scMGCA.egg-info/top_level.txt
