@@ -1,0 +1,4 @@
+pytoml
+
+[dev]
+pytest
