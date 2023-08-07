@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sklearn-transformer-extensions
+Version: 0.2.0
+Summary: Some scikit-learn transformer extensions to make using pandas dataframes in scikit-learn pipelines easier.
+Home-page: https://github.com/randomgeek78/sklearn-transformer-extensions
+Author: Random Geek
+Author-email: randomgeek78@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn (>=1.0.0,<2.0.0)
