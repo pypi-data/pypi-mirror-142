@@ -1,0 +1,16 @@
+antlr4-python3-runtime==4.9.3
+jupyter
+graphviz
+ipywidgets
+
+[dev]
+bumpversion
+sphinx
+twine
+Pallets-Sphinx-Themes
+gitchangelog
+pystache
+
+[test]
+coverage
+codecov
