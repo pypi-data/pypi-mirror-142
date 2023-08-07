@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kiwiurn
+Version: 0.0.2
+Summary: Python Urn class and random number generator
+Home-page: UNKNOWN
+Author: Damien Martin
+License: UNKNOWN
+Keywords: python,random generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python Urn class and random number generator
+

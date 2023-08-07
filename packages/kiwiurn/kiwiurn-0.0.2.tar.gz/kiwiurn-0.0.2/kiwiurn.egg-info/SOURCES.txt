@@ -1,0 +1,7 @@
+setup.py
+kiwiurn/__init__.py
+kiwiurn/urn.py
+kiwiurn.egg-info/PKG-INFO
+kiwiurn.egg-info/SOURCES.txt
+kiwiurn.egg-info/dependency_links.txt
+kiwiurn.egg-info/top_level.txt
