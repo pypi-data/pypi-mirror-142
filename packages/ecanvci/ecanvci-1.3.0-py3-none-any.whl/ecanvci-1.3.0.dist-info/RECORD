@@ -1,0 +1,16 @@
+ecanvci/__init__.py,sha256=jQQe8g0BM0bOH4SM8-Czw2yhDuuvcfbiy1YKC6Ov_wk,177
+ecanvci/can_record.py,sha256=B1tMj5qHrHXgnsb_RkDBa5bqOI4qIBsY1tB5izAuKKw,473
+ecanvci/common.py,sha256=TXOsGpnjECQ2G0z2a7GoKjnm47PKxU42Y8fc1BYHNBU,1944
+ecanvci/ecanvci.py,sha256=Y6tGw8ZIlmiMxmd-H-SF8LUhF_lo1YoNMEKNTtNQI_w,3765
+ecanvci/helper.py,sha256=bQjSyw4LwTeMhnzpdx1mcPeunV6WiGhiBBhttTtLxAE,3029
+ecanvci/dll/CHUSBDLL64.dll,sha256=hGKiTcGZgkG8F_zCU1zuTXw18jbRjluGuVc8eiB7WXY,18944
+ecanvci/dll/ECanVci64.dll,sha256=Yl30EHJHwzYaCCYFeZJlF4CgqI87H7nmu3EIhmtOqUI,110080
+ecanvci/dll/ECanVci64.lib,sha256=rq9pn1BMyPTh0iaRcFHeydzWwPJuyMYAAC1QL0OKrbg,4768
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ecanvci.py,sha256=zGAbepb1WnGziOGf4UaAy9WNynU4f4iFwLuYMj4tgmA,732
+tests/test_helper.py,sha256=kyVJyP9A787No0MqWdAJZzE-WCzQMYxUaozC2byBmro,684
+ecanvci-1.3.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ecanvci-1.3.0.dist-info/METADATA,sha256=5kxxwWnpuEPqDa_vHN3imyBGkUJimhUh1Yz4cAEFTTA,616
+ecanvci-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ecanvci-1.3.0.dist-info/top_level.txt,sha256=DoUT1ZqD_FIjrE4BXHe2Zh7D97-GniEdUzkTUWnszFw,14
+ecanvci-1.3.0.dist-info/RECORD,,
