@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+flaked/__init__.py
+flaked/cli.py
+flaked.egg-info/PKG-INFO
+flaked.egg-info/SOURCES.txt
+flaked.egg-info/dependency_links.txt
+flaked.egg-info/entry_points.txt
+flaked.egg-info/requires.txt
+flaked.egg-info/top_level.txt
+flaked/plugins/__init__.py
+flaked/plugins/flaked_shire.py
