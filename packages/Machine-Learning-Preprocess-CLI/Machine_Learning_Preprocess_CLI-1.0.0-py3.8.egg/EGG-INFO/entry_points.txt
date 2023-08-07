@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cli_app=cli_app.__main__:main
+    
