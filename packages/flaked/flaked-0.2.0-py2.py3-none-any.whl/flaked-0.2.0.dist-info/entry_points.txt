@@ -1,0 +1,6 @@
+[console_scripts]
+flaked = flaked.cli:main
+
+[flake8.extension]
+SH = flaked.plugins.flaked_shire:ShireChecker
+

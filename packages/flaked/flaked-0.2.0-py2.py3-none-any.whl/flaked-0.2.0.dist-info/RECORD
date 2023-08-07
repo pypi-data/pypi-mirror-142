@@ -1,0 +1,10 @@
+flaked/__init__.py,sha256=2VgKiMRS42LOEqNfTsmCMQUCGQcFEn_-jt4HiOaPz3Y,3837
+flaked/cli.py,sha256=fOETX0K5thq-5brIaf2ZXO9cxEdfPBHSEva7-i-69Mg,135
+flaked/plugins/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+flaked/plugins/flaked_shire.py,sha256=R4o7cZyFHN5xixp7Zp3xeINTGuVQnrc-uGwhvcFrYBs,1176
+flaked-0.2.0.dist-info/LICENSE,sha256=jo0leUmwJ5CGQe5Why_t7Ii1UHC1a2wwISdBdDMK2jY,1064
+flaked-0.2.0.dist-info/METADATA,sha256=z2A8kW005V5pZjOMeFfXGzzsxncsN7-oHAPZQEPrRbQ,1312
+flaked-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+flaked-0.2.0.dist-info/entry_points.txt,sha256=0FzP4uhWUuHDl0CYi8G9s6cVQdgFziMpL5p__aIPk-I,110
+flaked-0.2.0.dist-info/top_level.txt,sha256=Ss900j-MOEK3dNQqmUwm0bIN0VNlnRiW-HZOcR_A3fI,7
+flaked-0.2.0.dist-info/RECORD,,
