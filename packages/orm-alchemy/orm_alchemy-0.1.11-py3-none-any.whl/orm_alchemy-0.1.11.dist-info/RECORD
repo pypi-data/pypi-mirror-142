@@ -1,0 +1,7 @@
+orm_alchemy/__init__.py,sha256=2XWqMNhJ8pH6kkNxrRcgeYDqZ-nBkeTu6NpUltrwf9o,179
+orm_alchemy/alchemy.py,sha256=dIuG9_ClaaUOliSkY8AVQyG8X9wU_lnqXEkrUXn9zuc,20676
+orm_alchemy/decorator.py,sha256=jFKk2oqroMjv-u7p8bBHygHRcZbpLS_XFUGY1gDdW5E,629
+orm_alchemy-0.1.11.dist-info/LICENSE,sha256=Uk9ZsUIAk-NxLtydXKlNZ3byfoFwsd3FKaXaP6XqqTw,1071
+orm_alchemy-0.1.11.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+orm_alchemy-0.1.11.dist-info/METADATA,sha256=RtCoz0cFAgXyaCdUST19Sb532Nsc5lc1v0mLEYxYk7I,611
+orm_alchemy-0.1.11.dist-info/RECORD,,
