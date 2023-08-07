@@ -1,0 +1,13 @@
+.gitignore
+MANIFEST.in
+README.md
+explabox_demo_drugreview.ipynb
+setup.py
+explabox_demo_drugreview/__init__.py
+explabox_demo_drugreview.egg-info/PKG-INFO
+explabox_demo_drugreview.egg-info/SOURCES.txt
+explabox_demo_drugreview.egg-info/dependency_links.txt
+explabox_demo_drugreview.egg-info/requires.txt
+explabox_demo_drugreview.egg-info/top_level.txt
+explabox_demo_drugreview/assets/drugsCom.zip
+explabox_demo_drugreview/assets/tokenizer.pkl
