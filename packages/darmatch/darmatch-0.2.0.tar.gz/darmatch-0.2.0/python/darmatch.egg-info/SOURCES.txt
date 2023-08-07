@@ -1,0 +1,11 @@
+README.rst
+setup.py
+python/darmatch/__init__.py
+python/darmatch/darmatch.py
+python/darmatch/darmatch_pybind.cpp
+python/darmatch.egg-info/PKG-INFO
+python/darmatch.egg-info/SOURCES.txt
+python/darmatch.egg-info/dependency_links.txt
+python/darmatch.egg-info/not-zip-safe
+python/darmatch.egg-info/requires.txt
+python/darmatch.egg-info/top_level.txt
