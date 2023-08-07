@@ -1,0 +1,12 @@
+pybase16384/__init__.py,sha256=mRUb61M4Q3fkopkbsgYQ5OLxkAxWFUkra1k_gi30bHs,1570
+pybase16384/_core.c,sha256=QBy_KkBv1ixOBc7Fa_ER1liqeK_xeMSZAp0PyoVJW50,862125
+pybase16384/_core.cpython-38-x86_64-linux-gnu.so,sha256=MSnr-clPEzsDRKG05i32CpmNBc6QjlzmIPb02577x2s,225440
+pybase16384/_core.pyi,sha256=RcKefNsvAoimKIHGckH-sAS2Dp6ZbK7QdDEateezSaE,312
+pybase16384/_core.pyx,sha256=y2eik0CVYhRgp8nwMuAxYxOj-YJSYO-4nndc-tyCC6U,4518
+pybase16384/base14.h,sha256=exXzUwJnMTe-2JZWiQNWaFQ1V4NKySKaQtmNPBKL6I8,135
+pybase16384/base16384.pxd,sha256=1_I3zXsV6FnFG_gRjZc5kf1TuZZTWKZ-XzZcP16JchY,582
+pybase16384-0.1.1rc3.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pybase16384-0.1.1rc3.dist-info/METADATA,sha256=zssHnYA78BifPQtsBle8rrMbDWXtyjyp-9wGc4IT_Q8,3710
+pybase16384-0.1.1rc3.dist-info/WHEEL,sha256=HDpOoUm88OZsXwJ1fG8bFxqAdtiJNfIcxp3_RuQe18I,103
+pybase16384-0.1.1rc3.dist-info/top_level.txt,sha256=kXpl7pWjnjpm74qJP0SJg3JhbiWuwKQApJgkJH0B5Mk,12
+pybase16384-0.1.1rc3.dist-info/RECORD,,
