@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pylint-deprecated-decorator
+Version: 0.1.0
+Summary: A pylint checker to detect @deprecated decorators on classes and functions
+Author: withakay
+Author-email: jack@fader.co.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pylint (>=2.12.2,<3.0.0)
