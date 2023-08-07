@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-pygmento
+Version: 0.1
+Summary: django-pygmento is a syntax highlighter based on Pygments for django>=4.0.0
+Home-page: https://github.com/apoorvaeternity/django-pygmento
+Author: Apoorva Pandey
+Author-email: apoorvapandey365@gmail.com
+License: BSD License
+Project-URL: Source, https://github.com/apoorvaeternity/django-pygmento
+Project-URL: Bug Tracker, https://github.com/apoorvaeternity/django-pygmento/issues
+Keywords: syntax highlighter for django
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
