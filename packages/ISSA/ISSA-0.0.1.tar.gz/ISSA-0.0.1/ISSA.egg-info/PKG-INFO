@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ISSA
+Version: 0.0.1
+Summary: A Python Package for the Scritpting of blackbox Tools
+Home-page: https://github.com/brancokm/ISSA
+Author: Michael Branco-Katcher
+Author-email: brancokm@oregonstate.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+UNKNOWN
+
