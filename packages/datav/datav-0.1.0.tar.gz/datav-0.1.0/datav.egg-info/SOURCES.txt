@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+datav.egg-info/PKG-INFO
+datav.egg-info/SOURCES.txt
+datav.egg-info/dependency_links.txt
+datav.egg-info/requires.txt
+datav.egg-info/top_level.txt
