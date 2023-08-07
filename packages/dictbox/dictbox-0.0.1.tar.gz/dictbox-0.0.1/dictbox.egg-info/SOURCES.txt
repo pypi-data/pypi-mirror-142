@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dictbox/__init__.py
+dictbox.egg-info/PKG-INFO
+dictbox.egg-info/SOURCES.txt
+dictbox.egg-info/dependency_links.txt
+dictbox.egg-info/top_level.txt
