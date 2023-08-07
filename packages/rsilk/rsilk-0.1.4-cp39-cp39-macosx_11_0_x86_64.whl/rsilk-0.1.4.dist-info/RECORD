@@ -1,0 +1,9 @@
+rsilk/__init__.py,sha256=UKHWBfZMz_UFn7xFZqlr-4dH42oupiiqhABx1dXPZik,50
+rsilk/_silk.cpython-39-darwin.so,sha256=s0xQlpGK9n5UFZGgsVymXprqlWIg5pm3Uvlkfbr6QQU,601288
+rsilk/_silk.pyi,sha256=fRf9mya8e4bKFFiWn8sYamPLh7Fs5M5d-nWRk_Gv4Ss,451
+rsilk/utils.py,sha256=glYIQSzahZ2rQ36nDcpHjP14RF9Bafs1hch4unujBMY,2121
+rsilk-0.1.4.dist-info/LICENSE,sha256=7JJYrC5xetqPGoYNz-CSxoMrUvfuS6w-LAX-O59j2_o,1075
+rsilk-0.1.4.dist-info/METADATA,sha256=ELsrlM3ztDzfTPEpzIGuU-5C7jSZXumleECLE8I_6FM,2365
+rsilk-0.1.4.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+rsilk-0.1.4.dist-info/top_level.txt,sha256=Fsr76SwT_g9wO8XGG_USC5EmCgOC1NyiHGXwpAJtoQA,6
+rsilk-0.1.4.dist-info/RECORD,,
