@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ISSA/CLI.py
+ISSA/DataProcesser.py
+ISSA/Functions.py
+ISSA/__init__.py
+ISSA/test.py
+ISSA.egg-info/PKG-INFO
+ISSA.egg-info/SOURCES.txt
+ISSA.egg-info/dependency_links.txt
+ISSA.egg-info/requires.txt
+ISSA.egg-info/top_level.txt
