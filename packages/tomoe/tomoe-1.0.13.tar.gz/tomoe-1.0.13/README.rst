@@ -1,0 +1,80 @@
+<a href="#"><img align="right" src="https://cdn.discordapp.com/attachments/952117487166705747/953911458494836766/em.png" width=22%></a>
+
+[![Testing](https://github.com/sinkaroid/jalter/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/sinkaroid/jalter/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/4194c343080bc8366242/maintainability)](https://codeclimate.com/github/sinkaroid/jalter/maintainability)
+
+A doujinshi downloader with ease for mankind 人類.  
+It's covers the most of popular doujin websites apart from nHentai, tomoe is a CLI tool for downloading doujinshi from various doujinshi websites.
+
+## Site support
+
+- ✅nhentai
+- ✅pururin
+- ✅hentaifox
+- ✅hentai2read
+- ✅simply-hentai
+
+## Prerequisites
+
+- Python 3.7 or above
+
+## Installation
+It's fairly simple to install tomoe.
+
+### from PyPI
+`pip install tomoe`
+
+### from pipenv
+`pipenv install tomoe`
+
+### from this repository
+You can clone this repository, and do `pip install -r requirements.txt`
+
+
+## Dependencies
+Tomoe just depends on [requests](https://requests.readthedocs.io/en/master/) + [AsyncIO](https://docs.python.org/3/library/asyncio.html), also uses [Janda](https://pypi.org/project/janda/) for it's doujin library client for Python, simple.
+
+## Usage
+	$ tomoe --site ID
+
+## Quick example
+	$ tomoe --nhentai 255369
+
+## Or if you clone manual this repo
+	$ python tomoe/cli.py --nhentai 255369
+
+After that, you could see the download results or throw you an error if something went wrong, this module also generating a static image viewer.
+
+
+## Options
+
+Here are all the options it supports.
+
+| **Argument**         | **Description**                    | **Example**                                               |
+| -------------------- | ---------------------------------- | --------------------------------------------------------- |
+| --nhentai, int       | Download doujin from nhentau       | `tomoe --nhentai 255369`                                  |
+| --pururin, int       | Download doujin from pururin       | `tomoe --pururin 47226`                                   |
+| --hentaifox, int     | Download doujin from hentaifox     | `tomoe --hentaifox 59026`                                 |
+| --hentai2read, str   | Download doujin from hentai2read   | `tomoe --hentai2read jeanne_alter_wants_to_mana_transfer` |
+| --simply, str | Download doujin from simply-hentai | `tomoe --simply fate-grand-order/perros`           |
+
+## Todo
+
+- [ ] Support for bulk / mass download
+- [ ] Improve image viewer
+- [ ] Add convert to another format support
+- [ ] Add custom cookie requests
+
+## Legal
+
+This tool can be freely copied, modified, altered, distributed without any attribution whatsoever. However, if you feel
+like this tool deserves an attribution, mention it. It won't hurt anybody :)
+
+Please, read the [license terms](LICENSE). Don't worry, it can be read in less than 30 seconds, unless you have some
+sort of reading disability - in that case, I'm wondering why you're still reading this text. Really. Stop. Please. I
+mean, seriously. Why are you still reading?
+
+## Pronounciation
+[`ja_JP`](https://www.localeplanet.com/java/ja-JP/index.html) • **to-moe** — A tomoe, also 鞆絵, and tomowe in its archaic form, is a Japanese abstract shape described as a swirl that resembles a comma or the usual form of a magatama.
+
+## Conclusion
+All books from those doujinboard sites are definitely ilegal from authors. You should support the original authors by buying the legal copies if you can so
