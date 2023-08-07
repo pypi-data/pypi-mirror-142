@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pymosa
+Version: 1.0.0
+Summary: DAQ for Mimosa26 silicon detector planes.
+Home-page: https://github.com/SiLab-Bonn/pymosa
+Author: Ivan Caicedo, Yannick Dieter, Toko Hirono, Jens Janssen, David-Leon Pohl
+Author-email: caicedo@physik.uni-bonn.de, dieter@physik.uni-bonn.de, hirono@physik.uni-bonn.de, janssen@physik.uni-bonn.de, pohl@physik.uni-bonn.de
+Maintainer: Ivan Caicedo, Yannick Dieter, Toko Hirono, Jens Janssen, David-Leon Pohl
+Maintainer-email: caicedo@physik.uni-bonn.de, dieter@physik.uni-bonn.de, hirono@physik.uni-bonn.de, janssen@physik.uni-bonn.de, pohl@physik.uni-bonn.de
+License: MIT License
+Keywords: silicon,detector,telescope,Mimosa26,EUDET
+Platform: any
+License-File: LICENSE
+Requires-Dist: basil-daq (<4.0.0,>=3.0.0)
+Requires-Dist: bitarray (>=0.8.1)
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: online-monitor (<0.5,>=0.4.2)
+Requires-Dist: pymosa-mimosa26-interpreter (>=1.0.0)
+Requires-Dist: pyyaml
+Requires-Dist: qtpy
+Requires-Dist: tables
+Requires-Dist: tqdm
+Requires-Dist: pyqtgraph (<0.12)
+
+UNKNOWN
+
