@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "fastapi-another-jwt-auth"
+version = "0.1.3"
+description = ""
+authors = ["Mariusz Masztalerczuk <mariusz@masztalerczuk.com>", "Nyoman Pradipta Dewantara <nyomanpradipta120@gmail.com>"]
+license = "MIT"
+
+[project]
+module = "fastapi_another_jwt_auth"
+dist-name = "fastapi-another-jwt-auth"
+author = "Mariusz Masztalerczuk"
+author-email = "mariusz@masztalerczuk.com"
+home-page = "https://github.com/GlitchCorp/fastapi-another-jwt-auth"
+
+classifiers = [
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",    
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+requires = [
+  "fastapi>=0.65.3",
+  "PyJWT>=2.3.0"
+]
+
+description-file = "README.md"
+requires-python = ">=3.6"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PyJWT = "^2.3.0"
+fastapi = "^0.65.3"
+cryptography = "^36.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+requests = "^2.27.1"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
