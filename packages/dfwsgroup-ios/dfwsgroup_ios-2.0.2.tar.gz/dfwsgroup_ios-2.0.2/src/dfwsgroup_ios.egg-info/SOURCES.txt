@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dfwsgroup_ios/__init__.py
+src/dfwsgroup_ios/__main__.py
+src/dfwsgroup_ios.egg-info/PKG-INFO
+src/dfwsgroup_ios.egg-info/SOURCES.txt
+src/dfwsgroup_ios.egg-info/dependency_links.txt
+src/dfwsgroup_ios.egg-info/requires.txt
+src/dfwsgroup_ios.egg-info/top_level.txt
+src/dfwsgroup_ios/data/command.json
+src/dfwsgroup_ios/ios/__init__.py
+src/dfwsgroup_ios/ios/cli.py
+src/dfwsgroup_ios/ios/script.py
