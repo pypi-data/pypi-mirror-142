@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: el_config
+Version: 0.1.13
+Summary: Python-box based custom config python package.
+Home-page: https://bitbucket.org/ellexiinc/el_config/
+Author: Batkhuu Byambajav
+Author-email: batkhuu@ellexi.com
+License: MIT
+Download-URL: https://bitbucket.org/ellexiinc/el_config/get/release-0.1.13.tar.gz
+Description: # Easily Launch Config (el_config)
+        
+        Python-box based custom config package for simple python projects.
+        
+        ## Features
+        
+        * Python-box based config
+        * Custom base config module
+        * Load environment variables
+        * YAML or JSON based configs
+        * Update with extra configs
+        * Pre-load config
+        * Validate config
+        * Freeze config
+        * Config as dictioary
+        
+        ---
+        
+        ## Installation
+        
+        ### 1. Prerequisites
+        
+        * **Python (>= v3.7)**
+        * **PyPi (>= v21)**
+        
+        ### 2. Install el-config
+        
+        #### A. [RECOMMENDED] PyPi install
+        
+        ```sh
+        # Install or upgrade el-config package:
+        pip install --upgrade el-config
+        
+        # To uninstall package:
+        pip uninstall -y el-config
+        ```
+        
+        #### B. Manually add to PYTHONPATH (Recommended for development)
+        
+        ```sh
+        # Clone repository by git:
+        git clone git@bitbucket.org:ellexiinc/el_config.git
+        cd el_config
+        
+        # Install python dependencies:
+        pip install --upgrade pip
+        cat requirements.txt | xargs -n 1 -L 1 pip install --no-cache-dir
+        
+        # Add current path to PYTHONPATH:
+        export PYTHONPATH="${PWD}:${PYTHONPATH}"
+        ```
+        
+        #### C. Manually compile and setup (Not recommended)
+        
+        ```sh
+        # Clone repository by git:
+        git clone git@bitbucket.org:ellexiinc/el_config.git
+        cd el_config
+        
+        # Building python package:
+        pip install --upgrade pip setuptools wheel
+        python setup.py build
+        # Install python dependencies with built package to current python environment:
+        python setup.py install --record installed_files.txt
+        
+        # To remove only installed el-config package:
+        head -n 1 installed_files.txt | xargs rm -vrf
+        # Or to remove all installed files and packages:
+        cat installed_files.txt | xargs rm -vrf
+        ```
+        
+        ## Usage/Examples
+        
+        * Sample python file - [https://bitbucket.org/ellexiinc/el_config/src/master/sample.py](https://bitbucket.org/ellexiinc/el_config/src/master/sample.py)
+        * Import el_config module:
+        
+        ```python
+        from el_config import ConfigBase
+        
+        
+        def _pre_load(config):
+            config.test = '123'
+            return config
+        
+        _valid_schema = {
+            'test':
+            {
+                'type': 'integer',
+                'coerce': int
+            }
+        }
+        
+        _cb = ConfigBase(pre_load=_pre_load, valid_schema=_valid_schema)
+        _cb.load()
+        config = _cb.config
+        
+        print(config)
+        ```
+        
+        ---
+        
+        ## Running Tests
+        
+        To run tests, run the following command:
+        
+        ```sh
+        pytest tests/test_*.py
+        ```
+        
+        ---
+        
+        ## References
+        
+        * [https://github.com/cdgriffith/Box/wiki](https://github.com/cdgriffith/Box/wiki)
+        * [https://github.com/cdgriffith/Box](https://github.com/cdgriffith/Box)
+        * [https://pypi.org/project/python-box](https://pypi.org/project/python-box)
+        
+Keywords: el_config,config,configs,python-box,custom-config
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
