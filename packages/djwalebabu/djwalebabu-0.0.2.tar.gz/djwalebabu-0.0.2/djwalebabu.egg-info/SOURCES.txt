@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+djwalebabu/__init__.py
+djwalebabu/__main__.py
+djwalebabu.egg-info/PKG-INFO
+djwalebabu.egg-info/SOURCES.txt
+djwalebabu.egg-info/dependency_links.txt
+djwalebabu.egg-info/top_level.txt
