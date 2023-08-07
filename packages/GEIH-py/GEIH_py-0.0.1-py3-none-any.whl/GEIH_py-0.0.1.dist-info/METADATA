@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: GEIH-py
+Version: 0.0.1
+Summary: Libreria para manejar los datos de la Gran Encuesta Integrada de Hogares
+Home-page: https://github.com/BautistaDavid/pyGEIH
+Author: David Felipe Bautista Bernal
+Author-email: dfbau2002@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BautistaDavid/pyGEIH
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## **pyGEIH**
+
+#### **Its time for the GEIH to know python.** 
+
+### Descripción 
+___
+
+```pyGEIH``` es una librería de Python que busca facilitar el manejo de los datos 
+de la Gran Encuesta Integrada de Hogares para trabajar directamente con el 
+lenguaje de programación Python. 
+
+La idea nace cuando en uno de mis trabajos del pregrado de economía quería explorar 
+una información de la GEIH usando Python y perdis mucho tiempo descargando archivo 
+por archivo desde el portal del DANE. 
+
+
+
+
