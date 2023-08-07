@@ -1,0 +1,8 @@
+{
+  "x_path": "tests/data/node_1/x.csv",
+  "y_path": "tests/data/node_1/y.csv",
+  "x_read_kwargs": {"index_col": 0},
+  "y_read_kwargs": {"index_col": 0},
+  "x_path_fs": "local",
+  "y_path_fs": "local"
+}
