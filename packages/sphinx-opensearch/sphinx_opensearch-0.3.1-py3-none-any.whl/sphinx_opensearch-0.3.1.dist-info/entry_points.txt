@@ -1,0 +1,3 @@
+[console_scripts]
+sphinxsearch = sphinx_opensearch.sphinxsearch:main
+
