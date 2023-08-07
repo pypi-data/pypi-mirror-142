@@ -1,0 +1,4 @@
+docopt
+jinja2
+markdown2
+requests

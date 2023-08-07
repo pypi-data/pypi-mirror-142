@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wgnsite
+Version: 0.0.5
+Summary: Simple SSG written in Python.
+Home-page: https://madewgn.my.id
+Author: Made Wiguna
+Author-email: madewgn2@gmail.com
+License: MIT
+Description: ## wgnsite
+        web generator sederhana dengan python3.<s .
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

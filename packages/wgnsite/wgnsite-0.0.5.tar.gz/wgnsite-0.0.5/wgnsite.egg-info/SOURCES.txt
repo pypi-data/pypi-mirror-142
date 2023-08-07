@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+wgnsite
+wgnsite.egg-info/PKG-INFO
+wgnsite.egg-info/SOURCES.txt
+wgnsite.egg-info/dependency_links.txt
+wgnsite.egg-info/requires.txt
+wgnsite.egg-info/top_level.txt
+wgnsite_lib/__init__.py
