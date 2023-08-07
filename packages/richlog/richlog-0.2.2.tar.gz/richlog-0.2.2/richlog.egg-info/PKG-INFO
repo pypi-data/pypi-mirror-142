@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: richlog
+Version: 0.2.2
+Summary: log filename timestamp linenumber
+Home-page: https://github.com/metacryptosec/log.git
+Author: www.metacryptosec.com
+Author-email: blockchaindeveloper123@gmail.com
+License: MIT Licence
+Keywords: pip,log
+Platform: any
+
+log filename timestamp linenumber
+
