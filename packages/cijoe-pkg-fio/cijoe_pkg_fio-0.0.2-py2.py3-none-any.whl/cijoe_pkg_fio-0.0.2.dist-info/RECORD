@@ -1,0 +1,13 @@
+cijoe_extractors/fio_json.py,sha256=nrLLQAKe_SHen2KBibmP4A30ANg865V1Y6HxVHkqidk,1603
+cijoe_extractors/fio_json_read.py,sha256=4Acj7WXEgI2N2FTKob4T0Ptt7ZVnk4-pClf5tstVRTs,1934
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/envs/refenv-fio.sh,sha256=OoKGR52QuhcdJ3rMEOUQPqsOJ19hAtAnvJNkiJfX0IM,1665
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/modules/fio.sh,sha256=84wKGtAXvVntRiDvcJgkTYZw9V-1IBipXMRSbnTYEAs,847
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/testcases/fio_example.sh,sha256=wqxOxALD5QICLPHGd66vzpSrWkCN1CiKSTJgpcrOvhs,1556
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/testcases/fio_example_verify.sh,sha256=7Q0xpjMd-YZ2V8E4G5nPbpYWQhdn0QAOmjgdRXK2RSE,1404
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/testplans/fio_example.plan,sha256=O5EWUzTsZMT5_rQCOgVjvlFd1mZRwS2gLTbG-BpyRmk,582
+cijoe_pkg_fio-0.0.2.data/data/share/cijoe/testplans/fio_example_verify.plan,sha256=lhFLhJZhcF7X9pZrzivqIvGQ1vRqKCQF0ULBPIu_Zq8,231
+cijoe_pkg_fio-0.0.2.dist-info/LICENSE,sha256=esnkVyy73Bt-1--snXeNTGQDfaEjFzWfhpRtGLooHNw,11356
+cijoe_pkg_fio-0.0.2.dist-info/METADATA,sha256=cXHPFNo44JnmHMkTt8s1yi7nRftBaGPTdXn_FmZOJWg,3383
+cijoe_pkg_fio-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+cijoe_pkg_fio-0.0.2.dist-info/top_level.txt,sha256=_sigC2MjgUJx7H4958hLSZvUJ9fV4U3MnDQxMm12bAk,17
+cijoe_pkg_fio-0.0.2.dist-info/RECORD,,
