@@ -1,0 +1,3 @@
+[console_scripts]
+pymosa = pymosa.m26:main
+pymosa_monitor = pymosa.online_monitor.start_pymosa_online_monitor:main
