@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cassa
+Version: 0.1.1
+Summary: Python package to perform unsupervised and semi-supervised machine learning (ML) classification algorithms on generic tensors of pre-processed data
+License: MIT
+Author: Giorgio Savastano
+Author-email: giorgiosavastano@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: dask (>=2022.2.1,<2023.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
