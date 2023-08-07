@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-another-jwt-auth"
+version = "0.1.2"
+description = ""
+authors = ["Mariusz Masztalerczuk <mariusz@masztalerczuk.com>", "Nyoman Pradipta Dewantara <nyomanpradipta120@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PyJWT = "^2.3.0"
+fastapi = "^0.61.0"
+cryptography = "^36.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+requests = "^2.27.1"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
