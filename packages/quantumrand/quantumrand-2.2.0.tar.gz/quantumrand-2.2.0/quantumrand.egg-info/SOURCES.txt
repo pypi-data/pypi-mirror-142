@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+quantumrand/__init__.py
+quantumrand/cmd.py
+quantumrand/dev.py
+quantumrand.egg-info/PKG-INFO
+quantumrand.egg-info/SOURCES.txt
+quantumrand.egg-info/dependency_links.txt
+quantumrand.egg-info/requires.txt
+quantumrand.egg-info/top_level.txt
+quantumrand.egg-info/zip-safe
