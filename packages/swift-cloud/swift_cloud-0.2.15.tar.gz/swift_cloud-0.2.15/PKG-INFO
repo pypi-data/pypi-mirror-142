@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: swift_cloud
+Version: 0.2.15
+Summary: Middleware for Openstack Swift to store objecs on multiple cloud providers
+Home-page: UNKNOWN
+Author: Storm
+Author-email: storm@g.globo
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

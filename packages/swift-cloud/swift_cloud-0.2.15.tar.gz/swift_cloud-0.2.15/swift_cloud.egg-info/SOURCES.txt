@@ -1,0 +1,17 @@
+README.md
+setup.py
+swift_cloud/__init__.py
+swift_cloud/decorators.py
+swift_cloud/middleware.py
+swift_cloud/tools.py
+swift_cloud.egg-info/PKG-INFO
+swift_cloud.egg-info/SOURCES.txt
+swift_cloud.egg-info/dependency_links.txt
+swift_cloud.egg-info/requires.txt
+swift_cloud.egg-info/top_level.txt
+swift_cloud/drivers/__init__.py
+swift_cloud/drivers/base.py
+swift_cloud/drivers/gcp.py
+tests/__init__.py
+tests/test_driver_gcp.py
+tests/test_middleware.py
