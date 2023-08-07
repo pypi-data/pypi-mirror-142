@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maximaxson-api
+Version: 0.0.1
+Summary: test package for mirea
+Home-page: UNKNOWN
+Author: Maxim Dolzhich
+Author-email: maxim.1911@yandex.ru
+License: UNKNOWN
+Keywords: python,maxim,dolzhich,unittest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+
+# maximaxson-api
+
+test package for mirea
+
+
