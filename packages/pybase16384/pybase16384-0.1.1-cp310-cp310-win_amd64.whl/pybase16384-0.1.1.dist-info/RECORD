@@ -1,0 +1,12 @@
+pybase16384/__init__.py,sha256=3zscISqxeE8fsXWi2Ifnbvz1h9xgiR5il9YBKLxlyDk,1631
+pybase16384/_core.c,sha256=106mbcy9d0Q3-9jKmwHNNG86b-3bbKGn3Vrxh3XGbCE,858955
+pybase16384/_core.cp310-win_amd64.pyd,sha256=jhoYipoeNAPAZzztRznNPr5_p9WQQUBIiGoXmTFDsUY,128000
+pybase16384/_core.pyi,sha256=smiKRQ-4BM6p3ikRm9XKwYOElL4ITF0lV2VpTPAXpTk,325
+pybase16384/_core.pyx,sha256=7m7xDcMgoe2U6RAUAq5rmArp00jToUfhri7McMj8N3w,4341
+pybase16384/base14.h,sha256=q4RQoQgZzZ27zqs8aV6l5tmsG0LYJNLwFtWjJe53shE,144
+pybase16384/base16384.pxd,sha256=ZFk4IvqggWm8vbAXADEfe7rzMchyw7wtBIQL8i_LK60,607
+pybase16384-0.1.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pybase16384-0.1.1.dist-info/METADATA,sha256=B_DYKTEQ9WgVRyNghPegM7PBHya_ySs8p6ybFdwjtks,3707
+pybase16384-0.1.1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+pybase16384-0.1.1.dist-info/top_level.txt,sha256=kXpl7pWjnjpm74qJP0SJg3JhbiWuwKQApJgkJH0B5Mk,12
+pybase16384-0.1.1.dist-info/RECORD,,
