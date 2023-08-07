@@ -1,0 +1,15 @@
+wsic/__init__.py,sha256=7YFEsoN8MQv_GOwlnCDEa--iEguBx0v6OmrdVLW2ylo,266
+wsic/cli.py,sha256=FPItyyZju6cKMfEhitODRE2b7sE0ELmmp14169YvvCg,3621
+wsic/codecs.py,sha256=JGque8xU7ryZsmqNtnwtGLstolRxCTS4Bk0vDOun6lk,1570
+wsic/magic.py,sha256=nLZl-BI4Yj43EG3-B-1Ti88N3pMbnrK5zbBqIaL-Kfw,6854
+wsic/readers.py,sha256=aGcvbcr3ZCQJwEvS7hfjZgcPaV0VyIVLwTaio_ZHyRE,20657
+wsic/types.py,sha256=ezoFlu5jqBYJ74LEvyqx4ADImj0ETeOX1zZKAE3-fMc,155
+wsic/utils.py,sha256=wkUDCgDVt_F4sAki56VnqIoQsfeRpdu_nMGlWUDMJGs,13354
+wsic/writers.py,sha256=UviU-qTXhQaKmINOQjyHjPucctXClOzQiDtkTVzR0S8,39392
+wsic-0.1.0.dist-info/AUTHORS.rst,sha256=IETeq5of6VxDmAEOUOUPiT9Zic3bg0WWOV_Abx8pvnE,161
+wsic-0.1.0.dist-info/LICENSE,sha256=Wy3-_IpMD2-avJl0_K9D0qVI9-IzuQhlT1pswMb9l5I,1068
+wsic-0.1.0.dist-info/METADATA,sha256=VI-MKPguIcIP3sC5tPuyNDe6uxZRGoJbxxl7lEXlDx0,5741
+wsic-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+wsic-0.1.0.dist-info/entry_points.txt,sha256=tZvAw7bj6DLKt_oK1c3fNvbieRcCLIK2ZQEcrBtO9jw,39
+wsic-0.1.0.dist-info/top_level.txt,sha256=zLX4OPHtqF5tXGyx_6UeXVaForCjBh9xjxroi-b9L1U,5
+wsic-0.1.0.dist-info/RECORD,,
