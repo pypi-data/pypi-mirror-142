@@ -1,0 +1,14 @@
+svgdigitizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svgdigitizer/__main__.py,sha256=a6vRwEcFchiunyQgd56LxeW3qmebS7RDF1xXAgvqpNI,13921
+svgdigitizer/svg.py,sha256=2frsnsNP_za_P2-CIqKkdEE3791nYt4onOlH-sr8KwA,17887
+svgdigitizer/svgplot.py,sha256=nFAZDqoF9mcz8L9lCFHPjwxTtpJo5Os2KY92ZtWML24,66507
+svgdigitizer/electrochemistry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svgdigitizer/electrochemistry/cv.py,sha256=AlHIDfZLrvEgt_DwJpYbncg5PdsqGtEFUTwHt5EFFZs,41220
+svgdigitizer/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svgdigitizer/test/cli.py,sha256=44IsHtmLBTmP2Cevae7vTKB_Abdu-k8U7rYUxeTG03A,2901
+svgdigitizer-0.4.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+svgdigitizer-0.4.0.dist-info/METADATA,sha256=WK9UD3qeqnQ7OntEBp3csikf9U8ZAdibtw_pgv471lg,5346
+svgdigitizer-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+svgdigitizer-0.4.0.dist-info/entry_points.txt,sha256=QuXzYcpdIWkd1DM1HsUpcMx4IF5F0J-DrhllPjLuQps,60
+svgdigitizer-0.4.0.dist-info/top_level.txt,sha256=uKXPKBWwsrtX96l3NtpG_E1ZpiSX4vCJr39NSYF1pUw,13
+svgdigitizer-0.4.0.dist-info/RECORD,,
