@@ -1,0 +1,4 @@
+cfgrib
+eccodes
+numcodecs
+numpy
