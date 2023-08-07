@@ -1,0 +1,11 @@
+codefree/__init__.py,sha256=QtcI3wIrLNNByy0ELS0AZos9BX7AV64HlTRLIxGUuqk,355
+codefree/codefree.py,sha256=OUhhb1KbYq-YhHLfDBFE1K7XKh_y4K0LSgV3Ji15ykA,721
+codefree/sources/__init__.py,sha256=eEbDD-M4n-hfCkngupBzZEQ2ZDPq03f4B6d0nb9Aw4c,58
+codefree/sources/baseengine.py,sha256=ZeXSNQfVIrAwjRT7i1HlWM_48ZOMK6pY6pnkIHa_zuE,980
+codefree/sources/stackoverflow.py,sha256=neC6Gq-_cBDJuhanIj9gj9K95vuqglMTY3DZ7lAHVrw,2899
+codefree-0.1.0.dist-info/LICENSE,sha256=8B8Cmn4vNZQbdoPZ0D_03_PmzulUm0StKufmxmYJcPk,11609
+codefree-0.1.0.dist-info/METADATA,sha256=Zluqqz8dSzVvY7mCdYDN69hGVuOj2m6sS2ivUWbrQ5k,4123
+codefree-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codefree-0.1.0.dist-info/top_level.txt,sha256=159IZGnhiUF8K-KAzujGxlpOJNqTgyf7BERdbXho__g,9
+codefree-0.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+codefree-0.1.0.dist-info/RECORD,,
