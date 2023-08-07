@@ -1,0 +1,2 @@
+recursive-include pemudapersis_bot/ *.py
+include requirements.txt
