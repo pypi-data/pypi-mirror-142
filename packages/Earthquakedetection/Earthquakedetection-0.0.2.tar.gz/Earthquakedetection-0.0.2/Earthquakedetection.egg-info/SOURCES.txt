@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Earthquakedetection.egg-info/PKG-INFO
+Earthquakedetection.egg-info/SOURCES.txt
+Earthquakedetection.egg-info/dependency_links.txt
+Earthquakedetection.egg-info/top_level.txt
+gempaterkini/__init__.py
