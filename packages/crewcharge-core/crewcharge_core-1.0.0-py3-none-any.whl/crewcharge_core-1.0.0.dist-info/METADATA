@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: crewcharge-core
+Version: 1.0.0
+Summary: Crewcharge is a customer analytics, customer success tool for SaaS companies. The core package allows logging triggers and performing user crud operations within Crewcharge
+Home-page: UNKNOWN
+Author: Bharadwaj Giridhar
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
