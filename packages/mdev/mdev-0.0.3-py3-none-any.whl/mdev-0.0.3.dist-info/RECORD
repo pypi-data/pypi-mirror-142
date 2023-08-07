@@ -1,0 +1,9 @@
+mdev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdev/log.py,sha256=e1AozELiPVATwC11bisqk1tpcroxdWdJw3UByPcVx1M,5603
+mdev/main.py,sha256=LiJN4EYPmMbLlNde6TNNdz-RcoLlaQ4cuq1CXJ-kBpc,2801
+mdev-0.0.3.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+mdev-0.0.3.dist-info/METADATA,sha256=n5Hy0o-7W2VjmUs6-TyzjgPrEp-L-Fvknfciogu071Q,1035
+mdev-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mdev-0.0.3.dist-info/entry_points.txt,sha256=QCTm4vHCPTMMydhrI2nfwfJpZJG_BQwDtCXLshKxAkM,40
+mdev-0.0.3.dist-info/top_level.txt,sha256=f3hLclFfwqqvXoosGfOf_xIHY6Hio_4jUF53J0UD7BU,5
+mdev-0.0.3.dist-info/RECORD,,
