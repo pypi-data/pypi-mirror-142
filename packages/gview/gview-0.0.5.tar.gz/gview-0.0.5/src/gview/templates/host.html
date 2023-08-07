@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host</title>
+
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- import font-awesome -->
+    <script src="https://kit.fontawesome.com/98eed1595e.js" crossorigin="anonymous"></script>
+
+    <!-- import stylesheets -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/host.css">
+
+    <!-- import vue.js -->
+    <script src="../static/js/vue.min.js"></script>
+
+    <!-- import axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- import vuechart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^0.1.2"></script>
+
+</head>
+<body>
+    <!-- vue containers -->
+    <div id="root">
+         <!-- top nav -->
+         <nav class="navbar navbar-light bg-light" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand h1" href="/">
+                    LV GPU Dashboard
+                </a>
+            </div>
+        </nav>
+
+        <!-- body -->
+        <div class="container-fluid mt-2" id="body">
+            <!-- breadcrumb -->
+            <div aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><% hostdata.hostname %></li>
+                </ol>
+            </div>
+
+            <!-- chart -->
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <p class="mb-0">Plot</p>
+                    <div class="btn-group" id="chartModeButtons">
+                        <button @click="switchMode" :class="buttonGroupStyle[0]" id="LT">
+                            Last 10 Min.
+                        </button>
+                        <button @click="switchMode" :class="buttonGroupStyle[1]" id="LH">
+                            Last Hour
+                        </button>
+                        <button @click="switchMode" :class="buttonGroupStyle[2]" id="LD">
+                            Last Day
+                        </button>
+                        <button @click="switchMode" :class="buttonGroupStyle[3]" id="LW">
+                            Last Week
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <line-chart :chart-data="dataCollection" :options="options">
+                </div>
+            </div>
+
+            <template v-if="hostdata.error==='null'">
+                <!-- gpucards -->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        GPUs
+                    </div>
+                    <div class="card-body pt-0">
+                        <div class="row">
+                            <div class="col-6 gx-3 gy-3" v-for="(gpu, index) in hostdata.gpus" :key="index">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>ID:</strong> <%gpu.uuid%>
+                                    </div>
+                                    <div class="card-body" :class="determineStyle(gpu.memoryUsage)">
+                                        <h5 class="card-title">
+                                            <% gpu.name %>
+                                        </h5>
+                                        <div class="card-footer small bg-transparent ps-1">
+                                            <i class="fa-solid fa-memory"></i>
+                                            Mem. <% gpu.memoryUsage.toFixed(2)%>% | <i class="fa-solid fa-temperature-half"></i> Temp. <% gpu['temperature.gpu'] %>&#8451 | <i class="fa-solid fa-gears"></i> Util. <% gpu['utilization.gpu'] %>% | <i class="fa-solid fa-users"></i> User Num. <% gpu.users %>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- information table -->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Details
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Temperature</th>
+                                    <th scope="col">Utilization</th>
+                                    <th scope="col" colspan="2">Memory Usage</th>
+                                    <th scope="col" colspan="2">Power Usage</th>
+                                    <th scope="col" class="last">User Processes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(gpu, index) in hostdata.gpus" :key="index">
+                                    <td><% gpu.name %></td>
+                                    <td><% gpu['temperature.gpu'] %>&#8451</td>
+                                    <td><% gpu['utilization.gpu'] %>%</td>
+                                    <td><% gpu.memoryUsage.toFixed(2) %>%</td>
+                                    <td><% gpu['memory.used'] %> / <% gpu['memory.total'] %> MB</td>
+                                    <td><% (gpu['power.draw'] * 100 / gpu['enforced.power.limit']).toFixed(2) %>%</td>
+                                    <td><% gpu['power.draw'] %> / <% gpu['enforced.power.limit'] %> W</td>
+                                    <td class="last"><% gpu['user_processes'] %></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </template>
+            <template v-else>
+                <div class="alert alert-dark mt-3">
+                    <span><i class="fa-solid fa-circle-exclamation"></i>This server runs into some issues loading GPU stats</span>
+                    <hr>
+                    <div class="card-body bg-light">
+                        <strong>Error Message: </strong> <% hostdata.error %>
+                    </div>
+                </div>
+            </template>
+        </div>
+        
+        <!-- render footer -->
+        <footer class="bg-light">
+            <div class="container-fluid">
+                <p class="fw-light text-center mb-0">@Panasonic Singapore LV Team</p>
+            </div>
+        </footer> 
+    </div>
+
+    <!-- vue script -->
+    <script>
+        // parse host name from url
+        let queryString = window.location.search;
+        const parameters = new URLSearchParams(queryString);
+        const hostname = parameters.get('hostname');
+
+        // load chart component
+        const { reactiveProp } = VueChartJs.mixins
+        Vue.component('line-chart', {
+            extends: VueChartJs.Line,
+            mixins: [reactiveProp],
+            props:{
+                options: {
+                    type:Object,
+                    default: null,
+                }
+            },
+            mounted () {
+                this.renderChart(this.chartData, this.options)
+            },
+            watch: {
+                options(){
+                    this.renderChart(this.chartData, this.options)
+                }
+            }
+        })
+
+        // create vue instance
+        const vm = new Vue({
+            el: '#root',
+            data() {
+                return {
+                    chartMode: 'LT',
+                    hostdata: {},
+                    plotData: [],
+                    buttonGroupStyle: [
+                        {"LT": true},
+                        {"LH": false},
+                        {"LD": false},
+                        {"LW": false}
+                    ]
+                }  
+            },
+            mounted(){
+                // load host data once per second
+                this.startLoadingHost(hostname)
+                setInterval(()=> {
+                    this.startLoadingHost(hostname)
+                },1000)
+
+                // load plot data once per minute
+                this.fetchPlotData()
+                setInterval(()=> {
+                    this.fetchPlotData()
+                },60000)
+            },
+            methods: {
+                // determine chartmode & switch button style
+                switchMode(e){
+                    var id = e.target.id
+                    this.chartMode = id
+
+                    for (obj of this.buttonGroupStyle) {
+                        if(id in obj) {
+                            obj[id] = true
+                        } else {
+                            Object.keys(obj).forEach(key => obj[key]=false)
+                        }
+                    }
+                },
+
+                // determine gpu card style based on memory usage
+                determineStyle(memoryUsage){
+                    let text = "text-light"
+                    let flag;
+                    if (memoryUsage >= 75) {
+                        flag = 'bg-danger';
+                    } else if (memoryUsage >= 25) {
+                        flag = 'bg-warning';
+                        text = "text-dark"
+                    } else if (memoryUsage > 0) {
+                        flag = 'bg-success';
+                    } else if (memoryUsage == 0) {
+                        flag = 'bg-secondary'
+                    }
+                    return flag + " " + text;
+                },
+
+                // load host data task
+                startLoadingHost(host){
+                    axios
+                        .get('/loadhost?hostname='+host)
+                        .then(response => {
+                            this.updateLoadingHost(response.headers.url);
+                        })
+                },
+
+                // return host data upon task succeed
+                updateLoadingHost(url){
+                    axios 
+                        .get(url)
+                        .then(response => {
+                            if(response.data.state !== 'FAILURE') {
+                                if(response.data.state !== 'SUCCESS') {
+                                    setTimeout(()=>{
+                                        this.updateLoadingHost(url);
+                                    },100);
+                                } else {
+                                    this.hostdata = response.data.result;
+                                }
+                            }
+                        })
+                },
+
+                // load plot data
+                fetchPlotData() {
+                    axios 
+                        .get('/static/js/HostData.json')
+                        .then(response => (this.plotData = response.data))
+                },
+
+                // slice array according to chartMode
+                sliceTimeArray(tempArr) {
+                    let mostRecentTime = tempArr[tempArr.length-1]
+      
+                    if(this.chartMode === 'LT') {
+                        let count = 1
+                        for (let index = tempArr.length-2; ((mostRecentTime - tempArr[index]) <= 600000); index--) {
+                            count ++
+                        }
+                        return tempArr.slice(-count);
+                    } else if (this.chartMode === 'LH') {
+                        let count = 1
+                        for (let index = tempArr.length-2; ((mostRecentTime - tempArr[index]) <= 3600000); index--) {
+                            count ++
+                        }
+                        return tempArr.slice(-count);
+                    } else if (this.chartMode === 'LD') {
+                        let count = 1
+                        for (let index = tempArr.length-2; ((mostRecentTime - tempArr[index]) <= 86400000); index--) {
+                            count ++
+                        }
+                        let lastDayArray = tempArr.slice(-count);
+                        let returnArray = [];
+                        for (let index = 0; index<=(lastDayArray.length-1); index +=30) {
+                            returnArray.push(lastDayArray[index])
+                        }
+                        return returnArray;
+                    } else if (this.chartMode === 'LW') {
+                        let count = 1
+                        for (let index = tempArr.length-2; ((mostRecentTime - tempArr[index]) <= 604800000); index--) {
+                            count ++
+                        }
+                        let lastWeekArray = tempArr.slice(-count);
+                        let returnArray = [];
+                        for (let index = 0; index<=(lastWeekArray.length-1); index += 202) {
+                            returnArray.push(lastWeekArray[index])
+                        }
+                        return returnArray;
+                    }
+                }
+            },
+            computed: {
+                // compute data for chart
+                dataCollection(){
+                    return {
+                            labels: this.Time,
+                            datasets: [
+                                {
+                                    label: 'Total Memory Usage',
+                                    backgroundColor: '#fffaea',
+                                    data: this.Usage
+                                }
+                            ],
+                    }
+                },
+
+                // compute chart option
+                options(){
+                    if (this.chartMode === 'LT') {
+                        return {
+                            maintainAspectRatio: false,
+                            scales: {
+                                xAxes: [
+                                    {
+                                        type: 'time',
+                                        distribution: 'series',
+                                        time: {
+                                            unit: 'second',
+                                        },
+                                        ticks: {
+                                            source:'labels'
+                                        }
+                                    },       
+                                ],
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            suggestedMin: 0,
+                                            suggestedMax: 100,
+                                            callback: function(value) {
+                                                return value + "%"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    } else if (this.chartMode === 'LH'){
+                        return {
+                            maintainAspectRatio: false,
+                            scales: {
+                                xAxes: [
+                                    {
+                                        type: 'time',
+                                        distribution: 'series',
+                                        time: {
+                                            unit: 'minute',
+                                        },
+                                        ticks: {
+                                            source:'labels',
+                                            autoSkip: true
+                                        }
+                                    },       
+                                ],
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            suggestedMin: 0,
+                                            suggestedMax: 100,
+                                            callback: function(value) {
+                                                return value + "%"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                        } 
+                    } else if (this.chartMode === 'LD'){
+                        return {
+                            elements: {
+                                point:{
+                                    radius:0,
+                                }
+                            },
+                            maintainAspectRatio: false,
+                            scales: {
+                                xAxes: [
+                                    {
+                                        type: 'time',
+                                        distribution: 'linear',
+                                        time: {
+                                            unit: 'hour',
+                                        },
+                                        ticks: {
+                                            source:'auto',
+                                            autoSkip: true
+                                        }
+                                    },       
+                                ],
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            suggestedMin: 0,
+                                            suggestedMax: 100,
+                                            callback: function(value) {
+                                                return value + "%"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        } 
+                    } else if (this.chartMode === 'LW'){
+                        return {
+                            elements: {
+                                point: {
+                                    radius:0,
+                                }
+                            },
+                            maintainAspectRatio: false,
+                            scales: {
+                                xAxes: [
+                                    {
+                                        type: 'time',
+                                        distribution: 'linear',
+                                        time: {
+                                            unit: 'day',
+                                        },
+                                        ticks: {
+                                            source:'auto',
+                                            autoSkip: true
+                                        }
+                                    },       
+                                ],
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            suggestedMin: 0,
+                                            suggestedMax: 100,
+                                            callback: function(value) {
+                                                return value + "%"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        } 
+                    }
+                },
+
+                // compute memory usage data
+                Usage(){
+                    tempArr = [];
+                    for (id in this.plotData) {
+                        for (time in this.plotData[id]){
+                            for (host in this.plotData[id][time]) {
+                                if(this.plotData[id][time][host].hostname === hostname) {
+                                    tempArr.push(this.plotData[id][time][host].totalMemUsage*100)
+                                }
+                            }
+                        }   
+                    }
+                    
+                    let timeLength = this.Time.length;
+                    return tempArr.slice(-timeLength);
+                },
+                
+                // compute time data
+                Time(){
+                    tempArr = [];
+                    for (id in this.plotData) {
+                        for (time in this.plotData[id]) {
+                            tempArr.push(parseFloat(time))
+                        }
+                    }
+                    return this.sliceTimeArray(tempArr)
+                },
+            },
+            delimiters:["<%","%>"]
+        });
+
+
+    </script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
