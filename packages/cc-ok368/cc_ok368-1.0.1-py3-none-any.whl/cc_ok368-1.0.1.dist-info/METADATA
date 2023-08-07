@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cc-ok368
+Version: 1.0.1
+Summary: cc-ok368 - Ok368 Agent API
+Home-page: https://cockreative.com/
+Author: Cockroach Creative
+Author-email: support@cockreative.com
+License: Apache 2.0
+Keywords: ok368
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: cc-agent-helper
+Requires-Dist: beautifulsoup4
+
+# Agent Ok368
+
+
