@@ -1,0 +1,8 @@
+marquedown/.gitignore,sha256=wzRg7TlEuY2RRq_a23-xhmIezCFUO2LTj7eo-M9-Hlk,18
+marquedown/__init__.py,sha256=qsYH5iLsiG31GwDRx0YKRFeUu6WtM_uS6kjFj4Jo79g,414
+marquedown/citation.py,sha256=2FDm-rWsH1R8V_UXX-epKCVFedElihnS3krHAD1mYWs,1211
+marquedown/video.py,sha256=DTKueX8wsIX2Iy9SfW1zOANKoohPvqJQsus3duq6zqs,1282
+marquedown-0.3.1.dist-info/LICENSE,sha256=u3IdssT_awciGQRLnNJzRIFqrpmkRq2Ms87UbUm5yUM,35088
+marquedown-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+marquedown-0.3.1.dist-info/METADATA,sha256=K3fbeAM8LzojIYx_z-BVA_9ebTXoJYanOwkhO6rRE4k,1741
+marquedown-0.3.1.dist-info/RECORD,,
