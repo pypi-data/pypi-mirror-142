@@ -1,0 +1,11 @@
+README.md
+setup.py
+shot_scraper/__init__.py
+shot_scraper/cli.py
+shot_scraper/utils.py
+shot_scraper_test.egg-info/PKG-INFO
+shot_scraper_test.egg-info/SOURCES.txt
+shot_scraper_test.egg-info/dependency_links.txt
+shot_scraper_test.egg-info/entry_points.txt
+shot_scraper_test.egg-info/requires.txt
+shot_scraper_test.egg-info/top_level.txt

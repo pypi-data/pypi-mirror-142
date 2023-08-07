@@ -1,0 +1,8 @@
+PyYAML
+click
+click-default-group
+playwright
+
+[test]
+cogapp
+pytest
