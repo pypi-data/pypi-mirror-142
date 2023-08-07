@@ -1,0 +1,7 @@
+exclude src/gview/CLI.py
+include src/gview/run.sh
+include src/gview/Hosts.txt 
+graft src/gview/static
+graft src/gview/templates
+exclude src/gview/static/js/vue.js
+global-exclude *.pyc
