@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: open-cytomat
+Version: 0.1.0
+Summary: Unofficial Python interface to Thermo Fisher Scientific Cytomat devices
+Home-page: https://gitlab.gwdg.de/umg-pharma-lab-automation/cytomat-python
+Author: Niklas Mertsch
+Author-email: niklas.mertsch@stud.uni-goettingen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# Unofficial Python interface for Thermo Fisher Scientific Cytomat devices
+Find the documentation [here](https://umg-pharma-lab-automation.pages.gwdg.de/cytomat-python).
+
+
