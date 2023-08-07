@@ -1,0 +1,11 @@
+setup.py
+shopeadion/__init__.py
+shopeadion/cachesupport.py
+shopeadion/dynamic_cache.py
+shopeadion/hooks.py
+shopeadion/loggingsupport.py
+shopeadion/utils.py
+shopeadion.egg-info/PKG-INFO
+shopeadion.egg-info/SOURCES.txt
+shopeadion.egg-info/dependency_links.txt
+shopeadion.egg-info/top_level.txt
