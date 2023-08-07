@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV GPU Dashboard</title>
+
+    <!-- import nanobar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanobar/0.4.2/nanobar.min.js" integrity="sha512-1Al+dnfE+1gI7IBmpUZ8XnZ3l3Nv6cyA+XgdtlaptVNxJcWWRzHxOPzT+2pbp52qtXa2jkwk0MWYSmxslMsHCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+
+    <!-- import google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-- import font-awesome -->
+    <script src="https://kit.fontawesome.com/98eed1595e.js" crossorigin="anonymous"></script>
+
+    <!-- import stylesheets -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/indexLoading.css">
+
+    <!-- import vue.js -->
+    <script src="../static/js/vue.min.js"></script>
+
+    <!-- import axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <!-- display loading progress -->
+    <div id="progressContainer">
+        <div id="progress">
+            <h2 id='statustext'></h2>
+            <div id="statusbar-container"></div>
+        </div>
+    </div>
+
+    <!-- vue container -->
+    <div id="root">
+        <!-- top nav -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <span class="navbar-brand h1">
+                    LV GPU Dashboard
+                </span>
+            </div>
+        </nav>
+
+        <!-- body -->
+        <div class="container-fluid" id="body">
+
+            <!-- render host cards -->
+            <!-- render active servers -->
+            <h4 class="mt-3 mb-0" v-if="activeHosts.length">Active Servers</h4>
+            <div class="card mt-3 mb-3" v-for="(host, index) in activeHosts" :key="host.hostname">
+                <div class="card-header">
+                    Server - Active
+                </div>
+                <div class="card-body">
+                    <a class="card-title h5 text-decoration-none text-dark" :href="'/host?hostname='+host.hostname">
+                        <% host.hostname %>
+                    </a>
+                    <p class="card-text mb-0">
+                        Address: <strong><% host.url %></strong>
+                    </p>
+                    <!-- render gpu cards -->
+                    <div class="row">
+                        <div class="col-3 gx-3 gy-3" v-for="(gpu, index) in host.gpus" :key="gpu.uuid">
+                            <div class="card">
+                                <div class="card-body" :class="determineStyle(gpu.memoryUsage)">
+                                    <h6 class="card-title text-decoration-none" :class="determineStyle(gpu.memoryUsage)">
+                                        <% gpu.name %>
+                                    </h6>
+                                    <hr>
+                                    <p class="card-text">
+                                        Mem. <% gpu.memoryUsage.toFixed(2) %>%
+                                    </p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- render errored servers -->
+            <div class="card mt-3 mb-3" v-for="(host, index) in errorHosts" :key="host.hostname">
+                <div class="card-header">
+                    Server - Error
+                </div>
+                <div class="card-body">
+                    <a class="card-title h5 text-decoration-none text-dark" :href="'/host?hostname='+host.hostname">
+                        <% host.hostname %>
+                    </a>
+                    <p class="card-text">
+                        Address: <strong><% host.url %></strong>
+                    </p>
+                    <!-- render error message -->
+                    <div class="alert alert-dark mt-3">
+                        <span><i class="fa-solid fa-circle-exclamation" id="error"></i>This server runs into some issues loading GPU stats</span>
+                        <hr>
+                        <div class="card-body bg-light">
+                            <strong>Error Message: </strong> <% host.error %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- render none active servers -->
+            <h4 class="mt-3 mb-0" v-if="offlineHosts.length">Offline Servers</h4>
+                <div class="card mt-3 mb-3 bg-dark" v-for="(host, index) in offlineHosts" :key="host.hostname">
+                    <div class="card-header text-light bg-secondary">
+                        Server - Offline
+                    </div>
+                    <div class="card-body text-light">
+                        <h5 class="card-title">
+                            <% host.hostname %>
+                        </h5>
+                        <p class="card-text">
+                            Address: <% host.url %> 
+                        </p>
+                    </div>
+                </div>
+        </div>
+
+        <!-- render footer -->
+        <footer class="bg-light">
+            <div class="container-fluid">
+                <p class="fw-light text-center mb-0">@Panasonic Singapore LV Team</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- vue script -->
+    <script>
+        let progressContainer = document.getElementById('progressContainer');
+        let statustext = document.getElementById('statustext');
+
+        let settings = {
+            id: 'statusbar',
+            target: document.getElementById('statusbar-container')
+        };
+
+        let progressbar = new Nanobar (settings);
+
+        const vm = new Vue({
+            el: '#root',
+            data: {
+                hoststats : []
+            },
+
+            mounted(){
+                this.startLoadingTask(this.initializePage);
+                setInterval(()=>{
+                    this.startLoadingTask(this.updateLoadingResult)
+                },30000);
+            },
+
+            computed: {
+                activeHosts(){
+                    return this.hoststats.filter(function (host) {
+                        return (host.connection === 'True' && host.error === 'null')
+                    })
+                },
+                errorHosts(){
+                    return this.hoststats.filter(function(host) {
+                        return host.error !== 'null' && host.connection === 'True'
+                    })
+                },
+                offlineHosts(){
+                    return this.hoststats.filter(function(host) {
+                        return host.connection === 'False'
+                    })
+                }
+            },
+
+            methods: {
+                determineStyle(memoryUsage){
+                    let text = "text-light"
+                    let flag;
+                    if (memoryUsage >= 75) {
+                        flag = 'bg-danger';
+                    } else if (memoryUsage >= 25) {
+                        flag = 'bg-warning';
+                        text = "text-dark"
+                    } else if (memoryUsage > 0) {
+                        flag = 'bg-success';
+                    } else if (memoryUsage == 0) {
+                        flag = 'bg-secondary'
+                    }
+                    return flag + " " + text;
+                },
+
+                startLoadingTask(load){
+                    axios
+                        .get('/loadhosts')
+                        .then(response => {
+                            load(response.headers.url)
+                        })
+                },
+
+                updateLoadingResult(url){
+                    axios
+                        .get(url)
+                        .then(response => {
+                            if(response.data.state !== "FAILURE") {
+                                if(response.data.state !== 'SUCCESS') {
+                                    setTimeout(
+                                        this.updateLoadingResult(url),1000)
+                                }
+                                else {
+                                    this.hoststats = response.data.result;
+                                }
+                            }
+                        })
+                },
+
+                initializePage(url){
+                    axios
+                        .get(url)
+                        .then(response => {
+                            if(response.data.state !== "FAILURE") {
+                                if(response.data.state !== 'SUCCESS') {
+                                    // update progress bar
+                                    let progress = parseInt(response.data.progress * 100 / response.data.total);
+                                    progressbar.go(progress)
+                                    statustext.innerHTML =  response.data.status;
+                                    setTimeout(()=>{
+                                        this.initializePage(url)
+                                    },1000)
+                                }
+                                else {
+                                    this.hoststats = response.data.result;
+                                    progressContainer.style.zIndex = -2;
+                                    progressContainer.style.display = 'none'
+                                }
+                            }
+                        })
+
+                }
+            },
+            delimiters:["<%","%>"]
+        })
+    </script>
+   
+</body>
+</html>
