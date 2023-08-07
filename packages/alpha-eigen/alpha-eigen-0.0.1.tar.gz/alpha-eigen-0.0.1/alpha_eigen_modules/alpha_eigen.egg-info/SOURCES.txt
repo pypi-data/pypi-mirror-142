@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+alpha_eigen_modules/alpha_eigen.egg-info/PKG-INFO
+alpha_eigen_modules/alpha_eigen.egg-info/SOURCES.txt
+alpha_eigen_modules/alpha_eigen.egg-info/dependency_links.txt
+alpha_eigen_modules/alpha_eigen.egg-info/requires.txt
+alpha_eigen_modules/alpha_eigen.egg-info/top_level.txt
+alpha_eigen_modules/tests/__init__.py
+alpha_eigen_modules/tests/context.py
+alpha_eigen_modules/tests/long_kornreich_parsons.py
+alpha_eigen_modules/tests/test_short_kornreich_parsons.py
