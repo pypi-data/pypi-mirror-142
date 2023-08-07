@@ -1,0 +1,45 @@
+/* base stylesheet */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    z-index: 2000;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg,#fffaea,#e6e6e6);
+}
+
+/* vue portion */
+#root {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    background: transparent;
+}
+
+#body {
+    position: relative;
+    top: 58px;
+    padding-bottom: 90px;
+}
+
+#error {
+    margin-right: 5px;
+}
